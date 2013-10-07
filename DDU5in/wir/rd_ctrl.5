@@ -1,0 +1,315 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 224033052000 D690F
+DW rd_ctrl
+SA @SHEET=5 
+SA @NAME=RD_CTRL 
+SA @DATETIME=11-27-2007_10:48 
+|Q virtex2p:or2 1
+AS virtex2p:or2 DEVICE=OR
+AS virtex2p:or2 LEVEL=XILINX
+AS virtex2p:or2 LIBVER=2.0.0
+AS virtex2p:or2 PINORDER=I0 I1 O
+AP virtex2p:or2 1 PINTYPE=IN
+AP virtex2p:or2 2 PINTYPE=IN
+AP virtex2p:or2 3 PINTYPE=OUT
+|Q virtex2p:buf 1
+AS virtex2p:buf LIBVER=2.0.0
+AS virtex2p:buf DEVICE=BUF
+AS virtex2p:buf LEVEL=XILINX
+AS virtex2p:buf PINORDER=I O
+AP virtex2p:buf 1 PINTYPE=IN
+AP virtex2p:buf 2 PINTYPE=OUT
+|Q virtex:fdc 1
+AS virtex:fdc LIBVER=2.0.0
+AS virtex:fdc LEVEL=XILINX
+AS virtex:fdc @INIT=0
+AS virtex:fdc DEVICE=DFF
+AS virtex:fdc PINORDER=C CLR D Q
+AP virtex:fdc 1 PINTYPE=IN
+AP virtex:fdc 2 PINTYPE=IN
+AP virtex:fdc 3 PINTYPE=IN
+AP virtex:fdc 4 PINTYPE=OUT
+|Q virtex:vcc 1
+AS virtex:vcc LEVEL=XILINX
+AS virtex:vcc LIBVER=2.0.0
+AS virtex:vcc PINORDER=P
+AP virtex:vcc 1 PINTYPE=OUT
+|Q mux2_12b 1
+AS mux2_12b LEVEL=MXILINX
+AS mux2_12b @NAME=MUX2_12B
+AS mux2_12b PINORDER=CTRL EN I0BUS[11:0] I1BUS[11:0] Q[11:0]
+|Q buf12 1
+AS buf12 LEVEL=MXILINX
+AS buf12 @NAME=BUF12
+AS buf12 PINORDER=I[11:0] O[11:0]
+AP buf12 1 PINTYPE=IN
+AP buf12 2 PINTYPE=OUT
+|Q 4bitc 1
+AS 4bitc LEVEL=STD
+AS 4bitc @NAME=4BITC
+AS 4bitc PINORDER=O[3:0]
+AP 4bitc 1 PINTYPE=OUT
+|Q virtex:and2b1 1
+AS virtex:and2b1 LEVEL=XILINX
+AS virtex:and2b1 DEVICE=AND
+AS virtex:and2b1 LIBVER=2.0.0
+AS virtex:and2b1 PINORDER=I0 I1 O
+AP virtex:and2b1 1 PINTYPE=IN
+AP virtex:and2b1 1 PARAM=INV
+AP virtex:and2b1 2 PINTYPE=IN
+AP virtex:and2b1 3 PINTYPE=OUT
+|Q virtex2p:sop3b1a 1
+AS virtex2p:sop3b1a LEVEL=MXILINX
+AS virtex2p:sop3b1a LIBVER=2.0.0
+AS virtex2p:sop3b1a PINORDER=I0 I1 I2 O
+AP virtex2p:sop3b1a 1 PINTYPE=IN
+AP virtex2p:sop3b1a 2 PINTYPE=IN
+AP virtex2p:sop3b1a 3 PINTYPE=IN
+AP virtex2p:sop3b1a 4 PINTYPE=OUT
+|Q buf3 1
+AS buf3 LEVEL=MXILINX
+AS buf3 @NAME=BUF3
+AS buf3 PINORDER=I[2:0] O[2:0]
+AP buf3 1 PINTYPE=IN
+AP buf3 2 PINTYPE=OUT
+|Q virtex2p:sop4b1 1
+AS virtex2p:sop4b1 LEVEL=MXILINX
+AS virtex2p:sop4b1 LIBVER=2.0.0
+AS virtex2p:sop4b1 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:sop4b1 1 PINTYPE=IN
+AP virtex2p:sop4b1 2 PINTYPE=IN
+AP virtex2p:sop4b1 3 PINTYPE=IN
+AP virtex2p:sop4b1 4 PINTYPE=IN
+AP virtex2p:sop4b1 5 PINTYPE=OUT
+|Q virtex2p:and2b1 1
+AS virtex2p:and2b1 LEVEL=XILINX
+AS virtex2p:and2b1 DEVICE=AND
+AS virtex2p:and2b1 LIBVER=2.0.0
+AS virtex2p:and2b1 PINORDER=I0 I1 O
+AP virtex2p:and2b1 1 PINTYPE=IN
+AP virtex2p:and2b1 1 PARAM=INV
+AP virtex2p:and2b1 2 PINTYPE=IN
+AP virtex2p:and2b1 3 PINTYPE=OUT
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex2p:cb4cled 1
+AS virtex2p:cb4cled LEVEL=MXILINX
+AS virtex2p:cb4cled @INIT=0
+AS virtex2p:cb4cled LIBVER=2.0.1
+AS virtex2p:cb4cled PINORDER=C CE CEO CLR D0 D1 D2 D3 L Q0 Q1 Q2 Q3 TC UP
+AP virtex2p:cb4cled 1 PINTYPE=IN
+AP virtex2p:cb4cled 2 PINTYPE=IN
+AP virtex2p:cb4cled 3 PINTYPE=OUT
+AP virtex2p:cb4cled 4 PINTYPE=IN
+AP virtex2p:cb4cled 5 PINTYPE=IN
+AP virtex2p:cb4cled 6 PINTYPE=IN
+AP virtex2p:cb4cled 7 PINTYPE=IN
+AP virtex2p:cb4cled 8 PINTYPE=IN
+AP virtex2p:cb4cled 9 PINTYPE=IN
+AP virtex2p:cb4cled 10 PINTYPE=OUT
+AP virtex2p:cb4cled 11 PINTYPE=OUT
+AP virtex2p:cb4cled 12 PINTYPE=OUT
+AP virtex2p:cb4cled 13 PINTYPE=OUT
+AP virtex2p:cb4cled 14 PINTYPE=OUT
+AP virtex2p:cb4cled 15 PINTYPE=IN
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+|Q virtex2p:or4 1
+AS virtex2p:or4 DEVICE=OR
+AS virtex2p:or4 LEVEL=XILINX
+AS virtex2p:or4 LIBVER=2.0.0
+AS virtex2p:or4 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:or4 1 PINTYPE=IN
+AP virtex2p:or4 2 PINTYPE=IN
+AP virtex2p:or4 3 PINTYPE=IN
+AP virtex2p:or4 4 PINTYPE=IN
+AP virtex2p:or4 5 PINTYPE=OUT
+|Q virtex2p:or6 1
+AS virtex2p:or6 LEVEL=MXILINX
+AS virtex2p:or6 LIBVER=2.0.0
+AS virtex2p:or6 PINORDER=I0 I1 I2 I3 I4 I5 O
+AP virtex2p:or6 1 PINTYPE=IN
+AP virtex2p:or6 2 PINTYPE=IN
+AP virtex2p:or6 3 PINTYPE=IN
+AP virtex2p:or6 4 PINTYPE=IN
+AP virtex2p:or6 5 PINTYPE=IN
+AP virtex2p:or6 6 PINTYPE=IN
+AP virtex2p:or6 7 PINTYPE=OUT
+|Q virtex:gnd 1
+AS virtex:gnd LIBVER=2.0.0
+AS virtex:gnd LEVEL=XILINX
+AS virtex:gnd PINORDER=G
+AP virtex:gnd 1 PINTYPE=OUT
+AN EVT_CNT[23:12] VLBUSISONSHEET=5
+AN EVT_CNT[11:0] VLBUSISONSHEET=5
+AN HDR1TR[6:4] VLBUSISONSHEET=5
+AN HDR0TR[11:0] VLBUSISONSHEET=5
+AN HDR0TR[29:18] VLBUSISONSHEET=5
+AN HDR0TR[11:0] VLBUSISONSHEET=5
+AN HDR1TR[11:0] VLBUSISONSHEET=5
+AN HDR0TR[29:18] VLBUSISONSHEET=5
+AN DMBCNT[2:0] VLBUSISONSHEET=5
+AN DMBCNT[2:0] VLBUSISONSHEET=5
+AN HDR1TR[29:18] VLBUSISONSHEET=5
+AN HDR1TR[29:22] VLBUSISONSHEET=5
+AN HDR_TR[35:0] VLBUSISONSHEET=5
+AN HDR_TR[29:18] VLBUSISONSHEET=5
+AN HDR_TR[11:0] VLBUSISONSHEET=5
+AN HDR_TR[33:30] VLBUSISONSHEET=5
+AN HDR_TR[15:12] VLBUSISONSHEET=5
+W virtex2p:or2 $5I2881
+I $5I2881 virtex2p:or2 FILLED L1A_ERROR SINGLEERROR 
+W virtex2p:buf $5I2787
+I $5I2787 virtex2p:buf KILL_F1 HDR1TR9 
+W virtex2p:buf $5I2788
+I $5I2788 virtex2p:buf KILL_F0 HDR1TR8 
+W virtex2p:buf $5I2744
+I $5I2744 virtex2p:buf LFOK1 HDR1TR19 
+W virtex2p:buf $5I2745
+I $5I2745 virtex2p:buf LFOK0 HDR1TR18 
+W virtex:fdc $5I2709
+I $5I2709 virtex:fdc CLK RST DONE_DATA DONE_DATA+1 
+W virtex:vcc $5I2689
+I $5I2689 virtex:vcc $5N2688 
+W virtex:fdc $5I2684
+I $5I2684 virtex:fdc CLK RST DO_HDR_TR OEHDR_TR 
+W mux2_12b $5I2673
+I $5I2673 mux2_12b SEL_HDRTR $5N2690 HDR0TR[29:18] HDR1TR[29:18] HDR_TR[29:18] 
+W virtex2p:buf $5I2647
+I $5I2647 virtex2p:buf MEM_ERR HDR1TR26 
+W virtex2p:buf $5I2648
+I $5I2648 virtex2p:buf SINGLEERROR HDR1TR27 
+W virtex2p:buf $5I2649
+I $5I2649 virtex2p:buf SYNCERROR HDR1TR28 
+W virtex2p:buf $5I2650
+I $5I2650 virtex2p:buf CRITICALERROR HDR1TR29 
+W virtex2p:buf $5I2646
+I $5I2646 virtex2p:buf FIBER_ERR HDR1TR25 
+W virtex2p:buf $5I2645
+I $5I2645 virtex2p:buf XMIT_MULTI_ERR HDR1TR24 
+W virtex2p:buf $5I2644
+I $5I2644 virtex2p:buf HSTUCK_DATA HDR1TR23 
+W buf12 $5I2587
+I $5I2587 buf12 EVT_CNT[23:12] HDR0TR[29:18] 
+W buf12 $5I2586
+I $5I2586 buf12 EVT_CNT[11:0] HDR0TR[11:0] 
+W 4bitc $5I2582
+I $5I2582 4bitc HDR_TR[15:12] 
+W virtex:and2b1 $5I2682
+I $5I2682 virtex:and2b1 DOFW+1 EN_HDRTR DO_HDR_TR 
+W virtex2p:sop3b1a $5I2720
+I $5I2720 virtex2p:sop3b1a DOFW+3 OE_HDR ENDING_SEL SEL_HDRTR 
+W mux2_12b $5I2671
+I $5I2671 mux2_12b SEL_HDRTR $5N2688 HDR0TR[11:0] HDR1TR[11:0] HDR_TR[11:0] 
+W 4bitc $5I2585
+I $5I2585 4bitc HDR_TR[33:30] 
+W virtex2p:buf $5I2638
+I $5I2638 virtex2p:buf TIMEOUT_ERR HDR1TR22 
+W virtex2p:buf $5I2736
+I $5I2736 virtex2p:buf DMBDAV0 HDR1TR0 
+W virtex2p:buf $5I2738
+I $5I2738 virtex2p:buf DMBDAV1 HDR1TR1 
+W buf3 $5I2591
+I $5I2591 buf3 DMBCNT[2:0] HDR1TR[6:4] 
+W virtex2p:sop4b1 $5I2789
+I $5I2789 virtex2p:sop4b1 FPGA_ID KILL_F2 KILL_F3 FPGA_ID HDR1TR10 
+W virtex2p:and2b1 $5I2786
+I $5I2786 virtex2p:and2b1 FPGA_ID KILL_F3 HDR1TR11 
+W virtex2p:and2b1 $5I2743
+I $5I2743 virtex2p:and2b1 FPGA_ID LFOK3 HDR1TR21 
+W virtex2p:sop4b1 $5I2742
+I $5I2742 virtex2p:sop4b1 FPGA_ID LFOK2 LFOK3 FPGA_ID HDR1TR20 
+W virtex2p:and2b1 $5I2732
+I $5I2732 virtex2p:and2b1 FPGA_ID DMBDAV3 HDR1TR3 
+W virtex2p:sop4b1 $5I2733
+I $5I2733 virtex2p:sop4b1 FPGA_ID DMBDAV2 DMBDAV3 FPGA_ID HDR1TR2 
+W virtex2p:gnd $5I2814
+I $5I2814 virtex2p:gnd $5N2815 
+W virtex2p:cb4cled $5I2805
+I $5I2805 virtex2p:cb4cled CLK LFIFODONE ? RST_EOE DMBCNT0 DMBCNT1 DMBCNT2 $5N2815 OE_HDR DMBLEFT0 DMBLEFT1 DMBLEFT2 ? ? $5N2815 
+W virtex2p:buf $5I2594
+I $5I2594 virtex2p:buf L1A_ERROR HDR1TR7 
+W virtex:fdce $5I2838
+I $5I2838 virtex:fdce CLK STUCK_DATA RST STUCK_DATA HSTUCK_DATA 
+W virtex2p:or4 $5I2855
+I $5I2855 virtex2p:or4 FIBER_ERR XMIT_MULTI_ERR HSTUCK_DATA TIMEOUT_ERR CRITICALERROR 
+W virtex2p:or6 $5I2860
+I $5I2860 virtex2p:or6 DOFW+3 DOFW+2 DONE_DATA+1 DONE_DATA END_TIME+1 END_TIMEOUT EN_HDRTR 
+W virtex:fdc $5I2716
+I $5I2716 virtex:fdc CLK RST DONE_DATA+1 DONE_DATA+2 
+W virtex2p:or2 $5I2865
+I $5I2865 virtex2p:or2 END_TIME+2 DONE_DATA+2 ENDING_SEL 
+W virtex:vcc $5I2691
+I $5I2691 virtex:vcc $5N2690 
+W virtex:gnd $5I2851
+I $5I2851 virtex:gnd HDR_TR34 
+W virtex:gnd $5I2796
+I $5I2796 virtex:gnd HDR_TR35 
+W virtex:gnd $5I2879
+I $5I2879 virtex:gnd $5N2878 
+W virtex2p:or2 $5I2846
+I $5I2846 virtex2p:or2 MEM_ERR MULT_L1A_ERR SYNCERROR 
+W virtex2p:sop4b1 $5I2874
+I $5I2874 virtex2p:sop4b1 SEL_HDRTR $5N2878 SEL_HDRTR SINGLE_WARN HDR_TR17 
+W virtex2p:sop4b1 $5I2869
+I $5I2869 virtex2p:sop4b1 SEL_HDRTR MULT_L1A_ERR SEL_HDRTR FILLED HDR_TR16 
+P ? LSCA_OVFL
+I LSCA_OVFL ? LSCA_OVFL
+P ? FILLED
+I FILLED ? FILLED
+P ? CLK
+I CLK ? CLK
+P ? RST
+I RST ? RST
+P ? HSTUCK_DATA
+I HSTUCK_DATA ? HSTUCK_DATA
+P ? FIBER_ERR
+I FIBER_ERR ? FIBER_ERR
+P ? LFIFODONE
+I LFIFODONE ? LFIFODONE
+P ? FPGA_ID
+I FPGA_ID ? FPGA_ID
+P ? TIMEOUT_ERR
+I TIMEOUT_ERR ? TIMEOUT_ERR
+P ? OE_HDR
+I OE_HDR ? OE_HDR
+P ? MEM_ERR
+I MEM_ERR ? MEM_ERR
+P ? DONE_DATA
+I DONE_DATA ? DONE_DATA
+P ? END_TIMEOUT
+I END_TIMEOUT ? END_TIMEOUT
+P ? HDR1TR[29:22]
+I HDR1TR[29:22] ? HDR1TR[29:22]
+P ? MULT_L1A_ERR
+I MULT_L1A_ERR ? MULT_L1A_ERR
+P ? SINGLE_WARN
+I SINGLE_WARN ? SINGLE_WARN
+P ? DOFW+1
+I DOFW+1 ? DOFW+1
+EW
+| Sch_Warning - Pin/Net disassociation at location (860,645).
+| Sch_Warning - Pin/Net disassociation at location (860,685).
+| Sch_Warning - Pin/Net disassociation at location (1005,640).
+| Sch_Warning - Pin/Net disassociation at location (1000,105).
+| Sch_Warning - Pin/Net disassociation at location (1000,125).
+| Sch_Warning - Pin/Net disassociation at location (700,300).
+| Sch_Warning - Pin/Net disassociation at location (1375,415).
+| Sch_Warning - Pin/Net disassociation at location (850,335).
+| Sch_Warning - Pin/Net disassociation at location (1000,165).
+| Sch_Warning - Pin/Net disassociation at location (1000,185).
+| Sch_Warning - Pin/Net disassociation at location (1145,175).

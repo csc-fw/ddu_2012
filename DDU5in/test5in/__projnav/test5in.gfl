@@ -1,0 +1,758 @@
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+\\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo
+0test_in.ngd
+0test_in_ngdbuild.nav
+0test_in.bld
+../test5in.ucf.untf
+0test_in.cmd_log
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+\\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo
+0test_in.ngd
+0test_in_ngdbuild.nav
+0test_in.bld
+../test5in.ucf.untf
+0test_in.cmd_log
+# Implementation : Map
+0test_in_map.ncd
+0test_in.ngm
+0test_in.pcf
+0test_in.nc1
+0test_in.mrp
+0test_in_map.mrp
+0test_in.mdf
+__projnav/map.log
+0test_in.cmd_log
+MAP_NO_GUIDE_FILE_CPF "0test_in"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+0test_in.twr
+0test_in.twx
+0test_in.tsi
+0test_in.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+0test_in.ncd
+0test_in.par
+0test_in.pad
+0test_in_pad.txt
+0test_in_pad.csv
+0test_in.pad_txt
+0test_in.dly
+reportgen.log
+0test_in.xpi
+0test_in.grf
+0test_in.itr
+0test_in_last_par.ncd
+__projnav/par.log
+0test_in.placed_ncd_tracker
+0test_in.routed_ncd_tracker
+0test_in.cmd_log
+PAR_NO_GUIDE_FILE_CPF "0test_in"
+# Generate Programming File
+__projnav/0test_in_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+0test_in.ut
+# Generate Programming File
+0test_in.bgn
+0test_in.rbt
+0test_in.ll
+0test_in.msk
+0test_in.drc
+0test_in.nky
+0test_in.bit
+0test_in.bin
+0test_in.isc
+0test_in.cmd_log
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+\\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo
+0test_in.ngd
+0test_in_ngdbuild.nav
+0test_in.bld
+../test5in.ucf.untf
+0test_in.cmd_log
+# Implementation : Map
+0test_in_map.ncd
+0test_in.ngm
+0test_in.pcf
+0test_in.nc1
+0test_in.mrp
+0test_in_map.mrp
+0test_in.mdf
+__projnav/map.log
+0test_in.cmd_log
+MAP_NO_GUIDE_FILE_CPF "0test_in"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+0test_in.twr
+0test_in.twx
+0test_in.tsi
+0test_in.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+0test_in.ncd
+0test_in.par
+0test_in.pad
+0test_in_pad.txt
+0test_in_pad.csv
+0test_in.pad_txt
+0test_in.dly
+reportgen.log
+0test_in.xpi
+0test_in.grf
+0test_in.itr
+0test_in_last_par.ncd
+__projnav/par.log
+0test_in.placed_ncd_tracker
+0test_in.routed_ncd_tracker
+0test_in.cmd_log
+PAR_NO_GUIDE_FILE_CPF "0test_in"
+# Generate Programming File
+__projnav/0test_in_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+0test_in.ut
+# Generate Programming File
+0test_in.bgn
+0test_in.rbt
+0test_in.ll
+0test_in.msk
+0test_in.drc
+0test_in.nky
+0test_in.bit
+0test_in.bin
+0test_in.isc
+0test_in.cmd_log
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+\\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo
+0test_in.ngd
+0test_in_ngdbuild.nav
+0test_in.bld
+../test5in.ucf.untf
+0test_in.cmd_log
+# Implementation : Map
+0test_in_map.ncd
+0test_in.ngm
+0test_in.pcf
+0test_in.nc1
+0test_in.mrp
+0test_in_map.mrp
+0test_in.mdf
+__projnav/map.log
+0test_in.cmd_log
+MAP_NO_GUIDE_FILE_CPF "0test_in"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+0test_in.twr
+0test_in.twx
+0test_in.tsi
+0test_in.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+0test_in.ncd
+0test_in.par
+0test_in.pad
+0test_in_pad.txt
+0test_in_pad.csv
+0test_in.pad_txt
+0test_in.dly
+reportgen.log
+0test_in.xpi
+0test_in.grf
+0test_in.itr
+0test_in_last_par.ncd
+__projnav/par.log
+0test_in.placed_ncd_tracker
+0test_in.routed_ncd_tracker
+0test_in.cmd_log
+PAR_NO_GUIDE_FILE_CPF "0test_in"
+# Generate Programming File
+__projnav/0test_in_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+0test_in.ut
+# Generate Programming File
+0test_in.bgn
+0test_in.rbt
+0test_in.ll
+0test_in.msk
+0test_in.drc
+0test_in.nky
+0test_in.bit
+0test_in.bin
+0test_in.isc
+0test_in.cmd_log
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+\\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo
+0test_in.ngd
+0test_in_ngdbuild.nav
+0test_in.bld
+../test5in.ucf.untf
+0test_in.cmd_log
+# Implementation : Map
+0test_in_map.ncd
+0test_in.ngm
+0test_in.pcf
+0test_in.nc1
+0test_in.mrp
+0test_in_map.mrp
+0test_in.mdf
+__projnav/map.log
+0test_in.cmd_log
+MAP_NO_GUIDE_FILE_CPF "0test_in"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+0test_in.twr
+0test_in.twx
+0test_in.tsi
+0test_in.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+0test_in.ncd
+0test_in.par
+0test_in.pad
+0test_in_pad.txt
+0test_in_pad.csv
+0test_in.pad_txt
+0test_in.dly
+reportgen.log
+0test_in.xpi
+0test_in.grf
+0test_in.itr
+0test_in_last_par.ncd
+__projnav/par.log
+0test_in.placed_ncd_tracker
+0test_in.routed_ncd_tracker
+0test_in.cmd_log
+PAR_NO_GUIDE_FILE_CPF "0test_in"
+# Generate Programming File
+__projnav/0test_in_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+0test_in.ut
+# Generate Programming File
+0test_in.bgn
+0test_in.rbt
+0test_in.ll
+0test_in.msk
+0test_in.drc
+0test_in.nky
+0test_in.bit
+0test_in.bin
+0test_in.isc
+0test_in.cmd_log
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+\\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo
+0test_in.ngd
+0test_in_ngdbuild.nav
+0test_in.bld
+../test5in.ucf.untf
+0test_in.cmd_log
+# Implementation : Map
+0test_in_map.ncd
+0test_in.ngm
+0test_in.pcf
+0test_in.nc1
+0test_in.mrp
+0test_in_map.mrp
+0test_in.mdf
+__projnav/map.log
+0test_in.cmd_log
+MAP_NO_GUIDE_FILE_CPF "0test_in"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+0test_in.twr
+0test_in.twx
+0test_in.tsi
+0test_in.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+0test_in.ncd
+0test_in.par
+0test_in.pad
+0test_in_pad.txt
+0test_in_pad.csv
+0test_in.pad_txt
+0test_in.dly
+reportgen.log
+0test_in.xpi
+0test_in.grf
+0test_in.itr
+0test_in_last_par.ncd
+__projnav/par.log
+0test_in.placed_ncd_tracker
+0test_in.routed_ncd_tracker
+0test_in.cmd_log
+PAR_NO_GUIDE_FILE_CPF "0test_in"
+# Generate Programming File
+__projnav/0test_in_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+0test_in.ut
+# Generate Programming File
+0test_in.bgn
+0test_in.rbt
+0test_in.ll
+0test_in.msk
+0test_in.drc
+0test_in.nky
+0test_in.bit
+0test_in.bin
+0test_in.isc
+0test_in.cmd_log
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+\\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo
+0test_in.ngd
+0test_in_ngdbuild.nav
+0test_in.bld
+../test5in.ucf.untf
+0test_in.cmd_log
+# Implementation : Map
+0test_in_map.ncd
+0test_in.ngm
+0test_in.pcf
+0test_in.nc1
+0test_in.mrp
+0test_in_map.mrp
+0test_in.mdf
+__projnav/map.log
+0test_in.cmd_log
+MAP_NO_GUIDE_FILE_CPF "0test_in"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+0test_in.twr
+0test_in.twx
+0test_in.tsi
+0test_in.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+0test_in.ncd
+0test_in.par
+0test_in.pad
+0test_in_pad.txt
+0test_in_pad.csv
+0test_in.pad_txt
+0test_in.dly
+reportgen.log
+0test_in.xpi
+0test_in.grf
+0test_in.itr
+0test_in_last_par.ncd
+__projnav/par.log
+0test_in.placed_ncd_tracker
+0test_in.routed_ncd_tracker
+0test_in.cmd_log
+PAR_NO_GUIDE_FILE_CPF "0test_in"
+# Generate Programming File
+__projnav/0test_in_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+0test_in.ut
+# Generate Programming File
+0test_in.bgn
+0test_in.rbt
+0test_in.ll
+0test_in.msk
+0test_in.drc
+0test_in.nky
+0test_in.bit
+0test_in.bin
+0test_in.isc
+0test_in.cmd_log
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Implmentation : Translate
+__projnav/ngdbuild.err
+__projnav/ednTOngd_tcl.rsp
+\\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo
+0test_in.ngd
+0test_in_ngdbuild.nav
+0test_in.bld
+../test5in.ucf.untf
+0test_in.cmd_log
+# Implementation : Map
+0test_in_map.ncd
+0test_in.ngm
+0test_in.pcf
+0test_in.nc1
+0test_in.mrp
+0test_in_map.mrp
+0test_in.mdf
+__projnav/map.log
+0test_in.cmd_log
+MAP_NO_GUIDE_FILE_CPF "0test_in"
+# Implmentation : Post-Place & Route Timing
+__projnav/ncdTOtwr_tcl.rsp
+__projnav/posttrc.log
+0test_in.twr
+0test_in.twx
+0test_in.tsi
+0test_in.cmd_log
+# Implmentation : Place & Route
+__projnav/nc1TOncd_tcl.rsp
+0test_in.ncd
+0test_in.par
+0test_in.pad
+0test_in_pad.txt
+0test_in_pad.csv
+0test_in.pad_txt
+0test_in.dly
+reportgen.log
+0test_in.xpi
+0test_in.grf
+0test_in.itr
+0test_in_last_par.ncd
+__projnav/par.log
+0test_in.placed_ncd_tracker
+0test_in.routed_ncd_tracker
+0test_in.cmd_log
+PAR_NO_GUIDE_FILE_CPF "0test_in"
+# Generate Programming File
+__projnav/0test_in_ncdTOut_tcl.rsp
+__projnav/bitgen.rsp
+bitgen.ut
+0test_in.ut
+# Generate Programming File
+0test_in.bgn
+0test_in.rbt
+0test_in.ll
+0test_in.msk
+0test_in.drc
+0test_in.nky
+0test_in.bit
+0test_in.bin
+0test_in.isc
+0test_in.cmd_log
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd
+# Generate PROM, ACE, or JTAG File
+0test_in.ace
+xilinx.sys
+0test_in.mpm
+0test_in.mcs
+0test_in.prm
+0test_in.dst
+0test_in.exo
+0test_in.tek
+0test_in.hex
+0test_in.svf
+0test_in.stapl
+impact.cmd
+_impact.log
+_impact.cmd

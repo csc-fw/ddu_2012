@@ -1,0 +1,295 @@
+#PINLOCK_BEGIN
+#Sun Sep 27 20:30:16 2005
+#INPUTS
+# Control signals in:
+NET "$1I135/CLK80P"   LOC = "V11";
+NET "$1I135/CLK80N"   LOC = "W11";
+NET "$1I135/CLKIN40"  LOC = "Y11"; #vme8 spare, on GCLKp pin?
+NET "$1I135/~SYNCRST" LOC = "V10";
+NET "$1I135/~SOFTRST" LOC = "V9";
+#   from switches
+NET "$1I135/SW0"  LOC = "B19";#to Switch1
+NET "$1I135/SW1"  LOC = "A19";
+NET "$1I135/SW2"  LOC = "D18";
+NET "$1I135/SW3"  LOC = "C18";
+NET "$1I135/SW4"  LOC = "B18";
+NET "$1I135/SW5"  LOC = "A18";
+NET "$1I135/SW6"  LOC = "D17";
+NET "$1I135/SW7"  LOC = "C17";#to Switch8
+#
+#VME Signals in (and in/out): (all new)
+#   VME Data (2-way I/O)
+NET "$1I135/VMECLKIN" LOC = "AB12"; #clk_16
+NET "$1I135/VMED0"    LOC = "E18";
+NET "$1I135/VMED1"    LOC = "F18";
+NET "$1I135/VMED2"    LOC = "D21";
+NET "$1I135/VMED3"    LOC = "D22";
+NET "$1I135/VMED4"    LOC = "E19";
+NET "$1I135/VMED5"    LOC = "E20";
+NET "$1I135/VMED6"    LOC = "E21";
+NET "$1I135/VMED7"    LOC = "E22";
+NET "$1I135/VMED8"    LOC = "G21";
+NET "$1I135/VMED9"    LOC = "G22";
+NET "$1I135/VMED10"   LOC = "H19";
+NET "$1I135/VMED11"   LOC = "H20";
+NET "$1I135/VMED12"   LOC = "H21";
+NET "$1I135/VMED13"   LOC = "H22";
+NET "$1I135/VMED14"   LOC = "J17";
+NET "$1I135/VMED15"   LOC = "J18";
+#   VME Control
+NET "$1I135/~ISYSFAIL"  LOC = "J19";
+NET "$1I135/~ISYSRESET" LOC = "J21";
+NET "$1I135/OTOVME"     LOC = "C21";
+NET "$1I135/~IDS0"      LOC = "K17";
+NET "$1I135/~IDS1"      LOC = "J22";
+NET "$1I135/~IWRITE"    LOC = "K19";
+NET "$1I135/~IBERR"     LOC = "J20";
+NET "$1I135/~ILWORD"    LOC = "K18";
+NET "$1I135/~IAS"       LOC = "K20";
+NET "$1I135/~INACK"     LOC = "L21";
+NET "$1I135/~ODTACK"    LOC = "L22";
+NET "$1I135/~IACKIN"    LOC = "AA15"; #was testpoint14
+NET "$1I135/~IACKOUT"   LOC = "AB15"; #was testpoint13
+NET "$1I135/~IRQ1"      LOC = "AA12"; #was testpoint7
+# Ground ~DOE inside FPGA:
+NET "$1I135/~DOE"    LOC = "C22"; # also for DDU4?
+#   VME Address Mode
+NET "$1I135/AM5"     LOC = "K21";
+NET "$1I135/AM0"     LOC = "K22";
+NET "$1I135/AM1"     LOC = "L17";
+NET "$1I135/AM2"     LOC = "L18";
+NET "$1I135/AM3"     LOC = "L19";
+NET "$1I135/AM4"     LOC = "L20";
+#   VME Address
+NET "$1I135/VMEA1"   LOC = "M20";
+NET "$1I135/VMEA2"   LOC = "M19";
+NET "$1I135/VMEA3"   LOC = "M18";
+NET "$1I135/VMEA4"   LOC = "M17";
+NET "$1I135/VMEA5"   LOC = "N17";
+NET "$1I135/VMEA6"   LOC = "N22";
+NET "$1I135/VMEA7"   LOC = "N21";
+NET "$1I135/VMEA8"   LOC = "N20";
+NET "$1I135/VMEA9"   LOC = "N19";
+NET "$1I135/VMEA10"  LOC = "N18";
+NET "$1I135/VMEA11"  LOC = "P18";
+NET "$1I135/VMEA12"  LOC = "P22";
+NET "$1I135/VMEA13"  LOC = "P21";
+NET "$1I135/VMEA14"  LOC = "P20";
+NET "$1I135/VMEA15"  LOC = "P19";
+NET "$1I135/VMEA16"  LOC = "R22";
+NET "$1I135/VMEA17"  LOC = "R21";
+NET "$1I135/VMEA18"  LOC = "R20";
+NET "$1I135/VMEA19"  LOC = "R19";
+NET "$1I135/VMEA20"  LOC = "R18";
+NET "$1I135/VMEA21"  LOC = "P17";
+NET "$1I135/VMEA22"  LOC = "T22";
+NET "$1I135/VMEA23"  LOC = "M21";
+#   Global Address
+NET "$1I135/IGA4"    LOC = "V22";
+NET "$1I135/IGA3"    LOC = "V21";
+NET "$1I135/IGA2"    LOC = "V20";
+NET "$1I135/IGA1"    LOC = "V19";
+NET "$1I135/IGA0"    LOC = "W22";
+NET "$1I135/IGAP"    LOC = "T21";
+#
+# DMB Status signals in
+NET "$1I135/DMB_STAT0"  LOC = "F9";
+NET "$1I135/DMB_STAT1"  LOC = "E9";
+NET "$1I135/DMB_STAT2"  LOC = "A8";
+NET "$1I135/DMB_STAT3"  LOC = "B8";
+NET "$1I135/DMB_STAT4"  LOC = "E8";
+NET "$1I135/DMB_STAT5"  LOC = "E7";
+NET "$1I135/DMB_STAT6"  LOC = "A6";
+NET "$1I135/DMB_STAT7"  LOC = "B6";
+NET "$1I135/DMB_STAT8"  LOC = "C6";
+NET "$1I135/DMB_STAT9"  LOC = "D6";
+NET "$1I135/DMB_STAT10" LOC = "A5";
+NET "$1I135/DMB_STAT11" LOC = "B5";
+NET "$1I135/DMB_STAT12" LOC = "C5";
+NET "$1I135/DMB_STAT13" LOC = "C4";
+NET "$1I135/DMB_STAT14" LOC = "A4";
+NET "$1I135/DMB_STAT15" LOC = "B4";
+NET "$1I135/DMB_STAT16" LOC = "E6";
+NET "$1I135/DMB_STAT17" LOC = "E5";
+NET "$1I135/DMB_STAT18" LOC = "C2";
+NET "$1I135/DMB_STAT19" LOC = "C1";
+NET "$1I135/DMB_STAT20" LOC = "D2";
+NET "$1I135/DMB_STAT21" LOC = "D1";
+NET "$1I135/DMB_STAT22" LOC = "E4";
+NET "$1I135/DMB_STAT23" LOC = "E3";
+NET "$1I135/DMB_STAT24" LOC = "E2";
+NET "$1I135/DMB_STAT25" LOC = "E1";
+NET "$1I135/DMB_STAT26" LOC = "G2";
+NET "$1I135/DMB_STAT27" LOC = "G1";
+NET "$1I135/DMB_STAT28" LOC = "H5";
+NET "$1I135/DMB_STAT29" LOC = "J6";
+NET "$1I135/DMB_STAT30" LOC = "H4";
+NET "$1I135/DMB_STAT31" LOC = "H3";
+NET "$1I135/DMB_STAT32" LOC = "H2";
+NET "$1I135/DMB_STAT33" LOC = "H1";
+NET "$1I135/DMB_STAT34" LOC = "J4";
+NET "$1I135/DMB_STAT35" LOC = "J3";
+NET "$1I135/DMB_STAT36" LOC = "J2";
+NET "$1I135/DMB_STAT37" LOC = "J1";
+NET "$1I135/DMB_STAT38" LOC = "J5";
+NET "$1I135/DMB_STAT39" LOC = "K5";
+NET "$1I135/DMB_STAT40" LOC = "K6";
+NET "$1I135/DMB_STAT41" LOC = "L6";
+NET "$1I135/DMB_STAT42" LOC = "K4";
+NET "$1I135/DMB_STAT43" LOC = "K3";
+NET "$1I135/DMB_STAT44" LOC = "K2";
+NET "$1I135/DMB_STAT45" LOC = "K1";
+NET "$1I135/DMB_STAT46" LOC = "L5";
+NET "$1I135/DMB_STAT47" LOC = "L4";
+NET "$1I135/DMB_STAT48" LOC = "L3";
+NET "$1I135/DMB_STAT49" LOC = "L2";
+NET "$1I135/DMB_STAT50" LOC = "W6";
+NET "$1I135/DMB_STAT51" LOC = "Y6";
+NET "$1I135/DMB_STAT52" LOC = "W8";
+NET "$1I135/DMB_STAT53" LOC = "Y8";
+NET "$1I135/DMB_STAT54" LOC = "AA8";
+NET "$1I135/DMB_STAT55" LOC = "AB8";
+NET "$1I135/DMB_STAT56" LOC = "W9";
+NET "$1I135/DMB_STAT57" LOC = "Y9";
+NET "$1I135/DMB_STAT58" LOC = "AA9";
+NET "$1I135/DMB_STAT59" LOC = "AB9";
+#  DDU_Ctrl Status signals in
+NET "$1I135/CTRL_STAT0" LOC = "Y10";
+NET "$1I135/CTRL_STAT1" LOC = "AA10";
+NET "$1I135/CTRL_STAT2" LOC = "AB10";
+NET "$1I135/CTRL_STAT3" LOC = "U10";
+#
+#OUTPUTS
+NET "$1I135/~DLL_READY2"    LOC = "U11";
+#   Use 6 I/O pins for RealFMM[5:0]
+NET "$1I135/REALFMM0"   LOC = "Y21"; #fmm0
+NET "$1I135/REALFMM1"   LOC = "W20";
+NET "$1I135/REALFMM2"   LOC = "W21";
+NET "$1I135/REALFMM3"   LOC = "Y22";
+NET "$1I135/REALFMM4"   LOC = "AA20"; #RJ45 LED  yel
+NET "$1I135/REALFMM5"   LOC = "Y12"; #RJ45 LED? grn
+# Error Signals out:
+#   to LEDs (use parallel-load-data pins).  Set in Schematic now: LED1-8.
+#
+# Control Signals out:
+#   fake JTAG ports
+NET "$1I135/OTDI1"  LOC = "B11";  #tdi1, to VME Prom
+NET "$1I135/ITDO1"  LOC = "F12";  #tdo1, from VME Prom
+NET "$1I135/OTCK1"  LOC = "C11";  #tck1
+NET "$1I135/OTMS1"  LOC = "A11";  #tms1
+NET "$1I135/OTDI2"  LOC = "P6"; #tdi2, to InCtrl FPGA 0
+NET "$1I135/ITDO2"  LOC = "P5"; #tdo2, from InCtrl FPGA 0
+NET "$1I135/OTCK2"  LOC = "P4";
+NET "$1I135/OTMS2"  LOC = "P3";
+NET "$1I135/OTDI3"  LOC = "R4"; #tdi3, to InCtrl FPGA 1
+NET "$1I135/ITDO3"  LOC = "R3"; #tdo3, from InCtrl FPGA 1
+NET "$1I135/OTCK3"  LOC = "R2";
+NET "$1I135/OTMS3"  LOC = "R1";
+NET "$1I135/OTDI4"  LOC = "P2";  #tdi4, to InCtrl Proms
+NET "$1I135/ITDO4"  LOC = "P1";  #tdo4, from InCtrl Proms
+NET "$1I135/OTCK4"  LOC = "N6";
+NET "$1I135/OTMS4"  LOC = "N5";
+NET "$1I135/OTDI5"  LOC = "U4"; #tdi5, to SLINK
+NET "$1I135/ITDO5"  LOC = "U3"; #tdo5, from SLINK
+NET "$1I135/OTCK5"  LOC = "T2";
+NET "$1I135/OTMS5"  LOC = "T1";
+NET "$1I135/OTDI6"  LOC = "V4"; #tdi6, to DDU_Ctrl Prom
+NET "$1I135/ITDO6"  LOC = "V3"; #tdo6, from DDU_Ctrl Prom
+NET "$1I135/OTCK6"  LOC = "W2";
+NET "$1I135/OTMS6"  LOC = "W1";
+NET "$1I135/OTDI7"  LOC = "V5";  #tdi7, to Output FIFO
+NET "$1I135/ITDO7"  LOC = "U5";  #tdo7, from Output FIFO
+NET "$1I135/OTCK7"  LOC = "Y2";
+NET "$1I135/OTMS7"  LOC = "Y1";
+NET "$1I135/OTDI8"  LOC = "N4"; #tdi8, to DDU_Ctrl FPGA
+NET "$1I135/ITDO8"  LOC = "N3"; #tdo8, from DDU_Ctrl FPGA
+NET "$1I135/OTCK8"  LOC = "N2";
+NET "$1I135/OTMS8"  LOC = "N1";
+#   Serial path control
+#     Flash RAM:
+NET "$1I135/M_WP"   LOC = "AA18";
+NET "$1I135/M_SO"   LOC = "AB18";
+NET "$1I135/M_SI"   LOC = "W17";
+NET "$1I135/M_SCLK" LOC = "Y17";
+NET "$1I135/M_RST"  LOC = "AA17";
+NET "$1I135/M_CS"   LOC = "AB17";
+#     Serial ADC (temp & volt monitors)
+NET "$1I135/ADC_CLK"  LOC = "U14";#
+NET "$1I135/ADC_DIN"  LOC = "V14";#
+NET "$1I135/ADC_DOUT" LOC = "W14";#
+NET "$1I135/~ADC_CS"  LOC = "W12";#
+#     Other Serial destinations:
+NET "$1I135/OSCLK"  LOC = "AA5";#sclk, out to destinations
+NET "$1I135/SI"     LOC = "AB5";# out to destinations
+NET "$1I135/~SEN4"  LOC = "U12";#Output FIFO
+NET "$1I135/~SEN5"  LOC = "V12";#DDU_Ctrl FPGA
+#
+#Data signals out:
+#   Spare signals to DDU_Ctrl, InCtrl
+NET "$1I135/VME0"  LOC = "AB14"; # out for Fake_L1A_Enable to DDUctrl
+NET "$1I135/VME1"  LOC = "U13";  # out for GbE_PreScale[bit0]
+NET "$1I135/VME2"  LOC = "V13";  # out for GbE_PreScale[bit1]
+NET "$1I135/VME3"  LOC = "W13";  # out for GbE_PreScale[bit2]
+NET "$1I135/VME4"  LOC = "Y13";  # out for Kill SLink_Wait/Enable DAVLCT
+#							check from DMB 
+NET "$1I135/VME5"  LOC = "AA13";#use as AutoSLD_EN signal to DDU_Ctrl
+NET "$1I135/VME6"  LOC = "AB13";#use as ~LD6 (Board ID) signal to DDUctrl
+NET "$1I135/VME7"  LOC = "Y14"; #use as ~LD_Ready signal from DDU_Ctrl
+#NET "$1I135/INPUT0"  LOC = "M6";# to/from InFPGA0
+#NET "$1I135/INPUT1"  LOC = "M5";
+NET "$1I135/INPUT2"  LOC = "M4"; # in for EvCntRst from InFPGA0
+NET "$1I135/INPUT3"  LOC = "M3"; # out for Fake_L1A_Enable to InFPGA0
+#NET "$1I135/INPUT4"  LOC = "M2";# to/from InFPGA1
+#NET "$1I135/INPUT5"  LOC = "M1";
+NET "$1I135/INPUT6"  LOC = "V7"; # in for BC0 from InFPGA1
+NET "$1I135/INPUT7"  LOC = "V6"; # out for Fake_L1A_Enable to InFPGA1
+#    Testpoints:
+#NET "$1I135/TP_7"   LOC = "AA12";# testpoint7
+NET "$1I135/TP_12"  LOC = "W10";# testpoint12
+#NET "$1I135/TP_13"  LOC = "AB15";# testpoint13
+#NET "$1I135/TP_14"  LOC = "AA15";# testpoint14
+NET "$1I135/TP_76"  LOC = "AA11";# testpoint76
+#NET "$1I135/TP_77"  LOC = "Y11";# testpoint77
+NET "$1I135/L0_0"   LOC = "E17"; #la0_0
+NET "$1I135/L0_1"   LOC = "E16";
+NET "$1I135/L0_2"   LOC = "D15";
+NET "$1I135/L0_3"   LOC = "C15";
+NET "$1I135/L0_4"   LOC = "B15";
+NET "$1I135/L0_5"   LOC = "A15";
+NET "$1I135/L0_6"   LOC = "D14";
+NET "$1I135/L0_7"   LOC = "C14";
+NET "$1I135/L0_8"   LOC = "B14";
+NET "$1I135/L0_9"   LOC = "A14";
+NET "$1I135/L0_10"  LOC = "E14";
+NET "$1I135/L0_11"  LOC = "E13";
+NET "$1I135/L0_12"  LOC = "D13";
+NET "$1I135/L0_13"  LOC = "C13";
+NET "$1I135/L0_14"  LOC = "B13";
+NET "$1I135/L0_15"  LOC = "A13";
+NET "$1I135/L0_16"  LOC = "A17"; #la0_clk1
+NET "$1I135/L0_17"  LOC = "B17"; #la0_clk2
+NET "$1I135/L1_0"   LOC = "D12"; #la1_0
+NET "$1I135/L1_1"   LOC = "E12";
+NET "$1I135/L1_2"   LOC = "F13";
+NET "$1I135/L1_3"   LOC = "D11";
+NET "$1I135/L1_4"   LOC = "F11";
+NET "$1I135/L1_5"   LOC = "E11";
+NET "$1I135/L1_6"   LOC = "A10";
+NET "$1I135/L1_7"   LOC = "B10";
+NET "$1I135/L1_8"   LOC = "C10";
+NET "$1I135/L1_9"   LOC = "D10";
+NET "$1I135/L1_10"  LOC = "F10";
+NET "$1I135/L1_11"  LOC = "E10";
+NET "$1I135/L1_12"  LOC = "A9";
+NET "$1I135/L1_13"  LOC = "B9";
+NET "$1I135/L1_14"  LOC = "C9";
+NET "$1I135/L1_15"  LOC = "D9";
+NET "$1I135/L1_16"  LOC = "C12"; #la1_clk1
+NET "$1I135/L1_17"  LOC = "B12"; #la1_clk2
+#
+# Foundation 3.1 does not understand high/low 50%....but required
+#       for 4.2 & 5.1 & beyond
+NET "$1I135/CKIN80" period=11.5ns high 50%; # 80mhz, 10.18ns was met
+NET "$1I135/CLKIN40" period=23ns high 50%; # 40mhz, 7.51ns was met
+#          T_clk10 = 90.0ns was met
+#PINLOCK_END

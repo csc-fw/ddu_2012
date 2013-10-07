@@ -1,0 +1,247 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 224033052000 D690F
+DW fifoctrl
+SA @DATETIME=3-2-2012_18:28 
+SA @SHEET=5 
+SA @NAME=FIFOCTRL 
+|Q virtex:bufg 1
+AS virtex:bufg LIBVER=2.0.0
+AS virtex:bufg DEVICE=BUFG
+AS virtex:bufg LEVEL=XILINX
+AS virtex:bufg PINORDER=I O
+AP virtex:bufg 1 PINTYPE=IN
+AP virtex:bufg 2 PINTYPE=OUT
+|Q check_16 1
+AS check_16 @NAME=CHECK_16
+AS check_16 PINORDER=DRCLK DVCENB LSHFT RST SEL2 STATUS[15:0] TDI TDO
+|Q virtex:bscan_virtex 1
+AS virtex:bscan_virtex LEVEL=XILINX
+AS virtex:bscan_virtex DEVICE=BSCAN
+AS virtex:bscan_virtex LIBVER=2.0.0
+AS virtex:bscan_virtex PINORDER=DRCK1 DRCK2 RESET SEL1 SEL2 SHIFT TDI TDO1 TDO2 UPDATE
+AP virtex:bscan_virtex 1 PINTYPE=OUT
+AP virtex:bscan_virtex 2 PINTYPE=OUT
+AP virtex:bscan_virtex 3 PINTYPE=OUT
+AP virtex:bscan_virtex 4 PINTYPE=OUT
+AP virtex:bscan_virtex 5 PINTYPE=OUT
+AP virtex:bscan_virtex 6 PINTYPE=OUT
+AP virtex:bscan_virtex 7 PINTYPE=OUT
+AP virtex:bscan_virtex 8 PINTYPE=IN
+AP virtex:bscan_virtex 9 PINTYPE=IN
+AP virtex:bscan_virtex 10 PINTYPE=OUT
+|Q virtex:or3 1
+AS virtex:or3 LEVEL=XILINX
+AS virtex:or3 DEVICE=OR
+AS virtex:or3 LIBVER=2.0.0
+AS virtex:or3 PINORDER=I0 I1 I2 O
+AP virtex:or3 1 PINTYPE=IN
+AP virtex:or3 2 PINTYPE=IN
+AP virtex:or3 3 PINTYPE=IN
+AP virtex:or3 4 PINTYPE=OUT
+|Q virtex:gnd 1
+AS virtex:gnd LIBVER=2.0.0
+AS virtex:gnd LEVEL=XILINX
+AS virtex:gnd PINORDER=G
+AP virtex:gnd 1 PINTYPE=OUT
+|Q virtex:buf 1
+AS virtex:buf LIBVER=2.0.0
+AS virtex:buf DEVICE=BUF
+AS virtex:buf LEVEL=XILINX
+AS virtex:buf PINORDER=I O
+AP virtex:buf 1 PINTYPE=IN
+AP virtex:buf 2 PINTYPE=OUT
+|Q check_15 1
+AS check_15 @NAME=CHECK_15
+AS check_15 PINORDER=DRCLK DVCENB LSHFT RST SEL2 STATUS[14:0] TDI TDO
+|Q stat_mon 1
+AS stat_mon @NAME=STAT_MON
+AS stat_mon PINORDER=DRCLK F2 F3 LSHFT RST SEL2 STATUS[31:0] TDI TDO
+|Q check_24 1
+AS check_24 @NAME=CHECK_24
+AS check_24 PINORDER=DRCLK DVCENB LSHFT RST SEL2 STATUS[23:0] TDI TDO
+|Q virtex:or16 1
+AS virtex:or16 LEVEL=MXILINX
+AS virtex:or16 LIBVER=2.0.0
+AS virtex:or16 PINORDER=I0 I1 I10 I11 I12 I13 I14 I15 I2 I3 I4 I5 I6 I7 I8 I9 O
+AP virtex:or16 1 PINTYPE=IN
+AP virtex:or16 2 PINTYPE=IN
+AP virtex:or16 3 PINTYPE=IN
+AP virtex:or16 4 PINTYPE=IN
+AP virtex:or16 5 PINTYPE=IN
+AP virtex:or16 6 PINTYPE=IN
+AP virtex:or16 7 PINTYPE=IN
+AP virtex:or16 8 PINTYPE=IN
+AP virtex:or16 9 PINTYPE=IN
+AP virtex:or16 10 PINTYPE=IN
+AP virtex:or16 11 PINTYPE=IN
+AP virtex:or16 12 PINTYPE=IN
+AP virtex:or16 13 PINTYPE=IN
+AP virtex:or16 14 PINTYPE=IN
+AP virtex:or16 15 PINTYPE=IN
+AP virtex:or16 16 PINTYPE=IN
+AP virtex:or16 17 PINTYPE=OUT
+|Q virtex2p:or4 1
+AS virtex2p:or4 DEVICE=OR
+AS virtex2p:or4 LEVEL=XILINX
+AS virtex2p:or4 LIBVER=2.0.0
+AS virtex2p:or4 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:or4 1 PINTYPE=IN
+AP virtex2p:or4 2 PINTYPE=IN
+AP virtex2p:or4 3 PINTYPE=IN
+AP virtex2p:or4 4 PINTYPE=IN
+AP virtex2p:or4 5 PINTYPE=OUT
+|Q virtex:or2 1
+AS virtex:or2 DEVICE=OR
+AS virtex:or2 LEVEL=XILINX
+AS virtex:or2 LIBVER=2.0.0
+AS virtex:or2 PINORDER=I0 I1 O
+AP virtex:or2 1 PINTYPE=IN
+AP virtex:or2 2 PINTYPE=IN
+AP virtex:or2 3 PINTYPE=OUT
+|Q virtex:fdc 1
+AS virtex:fdc LIBVER=2.0.0
+AS virtex:fdc LEVEL=XILINX
+AS virtex:fdc @INIT=0
+AS virtex:fdc DEVICE=DFF
+AS virtex:fdc PINORDER=C CLR D Q
+AP virtex:fdc 1 PINTYPE=IN
+AP virtex:fdc 2 PINTYPE=IN
+AP virtex:fdc 3 PINTYPE=IN
+AP virtex:fdc 4 PINTYPE=OUT
+|Q virtex2p:fdc_1 1
+AS virtex2p:fdc_1 LEVEL=XILINX
+AS virtex2p:fdc_1 @INIT=0
+AS virtex2p:fdc_1 LIBVER=2.0.0
+AS virtex2p:fdc_1 PINORDER=C CLR D Q
+AP virtex2p:fdc_1 1 PINTYPE=IN
+AP virtex2p:fdc_1 2 PINTYPE=IN
+AP virtex2p:fdc_1 3 PINTYPE=IN
+AP virtex2p:fdc_1 4 PINTYPE=OUT
+|Q kill_reg 1
+AS kill_reg @NAME=KILL_REG
+AS kill_reg PINORDER=DRCLK IN[19:0] LD LSHFT RD RST SCLK SEL2 STATUS[19:0] TDI TDO UPDATE
+|Q instrgdc 1
+AS instrgdc @NAME=INSTRGDC
+AS instrgdc PINORDER=BTDI CLK D[7:0] F[35:0] LSHCK RAW0 SEL1 SHIFT UPDATE
+AN LOADKILLF[19:0] VLBUSISONSHEET=5
+AN LOADKILLF[14:0] VLBUSISONSHEET=5
+AN EVT_CNT[23:0] VLBUSISONSHEET=5
+AN JD[7:0] VLBUSISONSHEET=5
+AN PREV_XMIT_ERR[14:0] VLBUSISONSHEET=5
+AN OSTAT[15:0] VLBUSISONSHEET=5
+AN STATUS[31:16] VLBUSISONSHEET=5
+AN STATUS[15:0] VLBUSISONSHEET=5
+AN STATUS[31:0] VLBUSISONSHEET=5
+AN STATUS[15:0] VLBUSISONSHEET=5
+AN STATUS[31:16] VLBUSISONSHEET=5
+AN FKILL[19:0] VLBUSISONSHEET=5
+AN F[35:0] VLBUSISONSHEET=5
+AN NON-JTAG-RST TIG
+AN RST-ORIG TIG
+W virtex:bufg $5I2651
+I $5I2651 virtex:bufg DCK2 DRCK2 LOC=BUFGMUX5S`
+W check_16 $5I2380
+I $5I2380 check_16 DRCK2 F5 SHIFT RST SEL2 STATUS[31:16] BTDI TDO_HISTAT 
+W virtex:bscan_virtex $5I2037
+I $5I2037 virtex:bscan_virtex DCK1 DCK2 ? SEL1 SEL2 SHIFT BTDI TDO1 TDO2 UPDATE 
+W virtex:or3 $5I2533
+I $5I2533 virtex:or3 JTAGRST SYNC_RST NON-JTAG-RST RRR 
+W virtex:gnd $5I2553
+I $5I2553 virtex:gnd $5N2034 
+W virtex:buf $5I2511
+I $5I2511 virtex:buf F1 JTAGRST 
+W virtex:gnd $5I2516
+I $5I2516 virtex:gnd $5N2517 
+W virtex:bufg $5I2650
+I $5I2650 virtex:bufg DCK1 DRCK1 LOC=BUFGMUX4P`
+W check_16 $5I2371
+I $5I2371 check_16 DRCK2 F4 SHIFT RST SEL2 STATUS[15:0] BTDI TDO_LOSTAT 
+W check_15 $5I2411
+I $5I2411 check_15 DRCK2 F12 SHIFT RST SEL2 PREV_XMIT_ERR[14:0] BTDI TDO_XMITERR 
+W stat_mon $5I1891
+I $5I1891 stat_mon DRCK2 $5N2034 F3 SHIFT RST SEL2 STATUS[31:0] BTDI TDO_STATUS 
+W check_24 $5I2610
+I $5I2610 check_24 DRCK2 F2 SHIFT RST SEL2 EVT_CNT[23:0] BTDI TDO_L1NUM 
+W check_16 $5I2619
+I $5I2619 check_16 DRCK2 F6 SHIFT RST SEL2 OSTAT[15:0] BTDI TDO_OSTAT 
+W virtex:or16 $5I2358
+I $5I2358 virtex:or16 TDO_ERR_BUS TDO_SRC_ID TDO_TRAP TDO_XMITERR TDO_FIFOS TDO_CRCERR TDO_STATUS TDO_XSTAT TDO_RDREG1 TDO_OCCMON TDO_LIE_ERR TDO_TRGERR TDO_DMBERR TDO_TOCNT TDO_INCTRL TDO_WARN TDO2 
+W virtex2p:or4 $5I2670
+I $5I2670 virtex2p:or4 TDO_DMBLIVE TDO_PDMBLIVE TDO_C-CODE TDO_INRD_STAT TDO_INCTRL 
+W virtex:or2 $5I2567
+I $5I2567 virtex:or2 JTAGRST SYNC_RST SRST 
+W virtex:gnd $5I2583
+I $5I2583 virtex:gnd $5N2578 
+W virtex:or2 $5I2694
+I $5I2694 virtex:or2 TDO_ALCTERR TDO_TMBERR TDO_TRGERR 
+W virtex:or3 $5I2565
+I $5I2565 virtex:or3 TDO_L1NUM TDO_BXORBIT TDO_KILLF TDO_RDREG1 
+W virtex:or3 $5I2491
+I $5I2491 virtex:or3 TDO_OSTAT TDO_HISTAT TDO_LOSTAT TDO_XSTAT 
+W virtex:gnd $5I2576
+I $5I2576 virtex:gnd $5N2571 
+W virtex:fdc $5I2575
+I $5I2575 virtex:fdc CLK $5N2571 NON-JTAG-RST NJR 
+W virtex2p:fdc_1 $5I2702
+I $5I2702 virtex2p:fdc_1 CLK40 $5N2578 SRST SYNCRST LOC=SLICE_X37Y28`
+W virtex:or3 $5I2653
+I $5I2653 virtex:or3 ARST SOFT_RST PWR-ON-RST NON-JTAG-RST 
+W kill_reg $5I2521
+I $5I2521 kill_reg DRCK2 FKILL[19:0] F14 SHIFT F13 NJR SCLK SEL2 LOADKILLF[19:0] BTDI TDO_KILLF UPDATE 
+W instrgdc $5I1760
+I $5I1760 instrgdc BTDI CLK JD[7:0] F[35:0] DRCK1 TDO1 SEL1 SHIFT UPDATE LOC=SLICE_X34Y40:SLICE_X67Y79`
+W virtex2p:or4 $5I2687
+I $5I2687 virtex2p:or4 TDO_FFUL TDO_FIFO-C TDO_FIFO-B TDO_FIFO-A TDO_FIFOS 
+W virtex2p:or4 $5I2707
+I $5I2707 virtex2p:or4 TDO_ERC TDO_ERB TDO_ERA TDO_SUMERR TDO_ERR_BUS 
+W virtex:fdc $5I2515
+I $5I2515 virtex:fdc CLK $5N2517 RRR RST 
+P ? PWR-ON-RST
+I PWR-ON-RST ? PWR-ON-RST
+P ? SOFT_RST
+I SOFT_RST ? SOFT_RST
+P ? ARST
+I ARST ? ARST
+P ? CLK
+I CLK ? CLK
+P ? SYNCRST
+I SYNCRST ? SYNCRST
+P ? NJR
+I NJR ? NJR
+P ? LOADKILLF[19:0]
+I LOADKILLF[19:0] ? LOADKILLF[19:0]
+P ? SCLK
+I SCLK ? SCLK
+P ? RST
+I RST ? RST
+P ? SYNC_RST
+I SYNC_RST ? SYNC_RST
+P ? EVT_CNT[23:0]
+I EVT_CNT[23:0] ? EVT_CNT[23:0]
+P ? OSTAT[15:0]
+I OSTAT[15:0] ? OSTAT[15:0]
+P ? STATUS[31:0]
+I STATUS[31:0] ? STATUS[31:0]
+P ? FKILL[19:0]
+I FKILL[19:0] ? FKILL[19:0]
+P ? CLK40
+I CLK40 ? CLK40
+EW
+| Sch_Warning - Pin/Net disassociation at location (1015,380).
+| Sch_Warning - Pin/Net disassociation at location (1300,795).
+| Sch_Warning - Pin/Net disassociation at location (1155,650).
+| Sch_Warning - Pin/Net disassociation at location (1155,710).
+| Sch_Warning - Pin/Net disassociation at location (1155,750).
+| Sch_Warning - Pin/Net disassociation at location (1155,790).
+| Sch_Warning - Pin/Net disassociation at location (1155,610).
+| Sch_Warning - Pin/Net disassociation at location (1575,130).
+| Sch_Warning - Pin/Net disassociation at location (1025,200).
+| Sch_Warning - Pin/Net disassociation at location (1155,810).
+| Sch_Warning - Pin/Net disassociation at location (1025,240).
+| Sch_Warning - Pin/Net disassociation at location (1160,550).
+| Sch_Warning - Pin/Net disassociation at location (795,400).
+| Sch_Warning - Pin/Net disassociation at location (1155,730).
+| Sch_Warning - Pin/Net disassociation at location (1155,670).
+| Sch_Warning - Pin/Net disassociation at location (1155,590).

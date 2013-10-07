@@ -1,0 +1,108 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 398360777000 trigcon
+DW stat_mon
+SA @DATETIME=1-27-2005_10:20 
+SA @SHEET=2 
+SA @NAME=STAT_MON 
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+|Q virtex:and2 1
+AS virtex:and2 LEVEL=XILINX
+AS virtex:and2 DEVICE=AND
+AS virtex:and2 LIBVER=2.0.0
+AS virtex:and2 PINORDER=I0 I1 O
+AP virtex:and2 1 PINTYPE=IN
+AP virtex:and2 2 PINTYPE=IN
+AP virtex:and2 3 PINTYPE=OUT
+|Q virtex:or2 1
+AS virtex:or2 DEVICE=OR
+AS virtex:or2 LEVEL=XILINX
+AS virtex:or2 LIBVER=2.0.0
+AS virtex:or2 PINORDER=I0 I1 O
+AP virtex:or2 1 PINTYPE=IN
+AP virtex:or2 2 PINTYPE=IN
+AP virtex:or2 3 PINTYPE=OUT
+W virtex:fdce $2I1892
+I $2I1892 virtex:fdce DRCLK CLKENA RST $2N1921 STAT30 
+W virtex:and2 $2I1893
+I $2I1893 virtex:and2 NSHFT STATUS31 $2N1903 
+W virtex:and2 $2I1894
+I $2I1894 virtex:and2 TDI LSHFT $2N1900 
+W virtex:or2 $2I1895
+I $2I1895 virtex:or2 $2N1900 $2N1903 $2N1907 
+W virtex:fdce $2I1896
+I $2I1896 virtex:fdce DRCLK CLKENA RST $2N1907 STAT31 
+W virtex:or2 $2I1914
+I $2I1914 virtex:or2 $2N1910 $2N1909 $2N1921 
+W virtex:and2 $2I1915
+I $2I1915 virtex:and2 STAT31 LSHFT $2N1910 
+W virtex:and2 $2I1916
+I $2I1916 virtex:and2 NSHFT STATUS30 $2N1909 
+W virtex:fdce $2I1862
+I $2I1862 virtex:fdce DRCLK CLKENA RST $2N1891 STAT28 
+W virtex:and2 $2I1863
+I $2I1863 virtex:and2 NSHFT STATUS29 $2N1873 
+W virtex:and2 $2I1864
+I $2I1864 virtex:and2 STAT30 LSHFT $2N1870 
+W virtex:or2 $2I1865
+I $2I1865 virtex:or2 $2N1870 $2N1873 $2N1877 
+W virtex:or2 $2I1884
+I $2I1884 virtex:or2 $2N1880 $2N1879 $2N1891 
+W virtex:and2 $2I1885
+I $2I1885 virtex:and2 STAT29 LSHFT $2N1880 
+W virtex:and2 $2I1886
+I $2I1886 virtex:and2 NSHFT STATUS28 $2N1879 
+W virtex:fdce $2I1832
+I $2I1832 virtex:fdce DRCLK CLKENA RST $2N1861 STAT26 
+W virtex:and2 $2I1833
+I $2I1833 virtex:and2 NSHFT STATUS27 $2N1843 
+W virtex:and2 $2I1834
+I $2I1834 virtex:and2 STAT28 LSHFT $2N1840 
+W virtex:or2 $2I1835
+I $2I1835 virtex:or2 $2N1840 $2N1843 $2N1847 
+W virtex:or2 $2I1854
+I $2I1854 virtex:or2 $2N1850 $2N1849 $2N1861 
+W virtex:and2 $2I1855
+I $2I1855 virtex:and2 STAT27 LSHFT $2N1850 
+W virtex:and2 $2I1856
+I $2I1856 virtex:and2 NSHFT STATUS26 $2N1849 
+W virtex:and2 $2I1789
+I $2I1789 virtex:and2 NSHFT STATUS24 $2N1800 
+W virtex:and2 $2I1790
+I $2I1790 virtex:and2 STAT25 LSHFT $2N1799 
+W virtex:or2 $2I1791
+I $2I1791 virtex:or2 $2N1799 $2N1800 $2N1798 
+W virtex:or2 $2I1760
+I $2I1760 virtex:or2 $2N1685 $2N1686 $2N1684 
+W virtex:and2 $2I1759
+I $2I1759 virtex:and2 STAT26 LSHFT $2N1685 
+W virtex:and2 $2I1761
+I $2I1761 virtex:and2 NSHFT STATUS25 $2N1686 
+W virtex:fdce $2I1787
+I $2I1787 virtex:fdce DRCLK CLKENA RST $2N1798 STAT24 
+W virtex:fdce $2I1762
+I $2I1762 virtex:fdce DRCLK CLKENA RST $2N1684 STAT25 
+W virtex:fdce $2I1836
+I $2I1836 virtex:fdce DRCLK CLKENA RST $2N1847 STAT27 
+W virtex:fdce $2I1866
+I $2I1866 virtex:fdce DRCLK CLKENA RST $2N1877 STAT29 
+P ? TDI
+I TDI ? TDI
+P ? LSHFT
+I LSHFT ? LSHFT
+P ? DRCLK
+I DRCLK ? DRCLK
+P ? RST
+I RST ? RST
+EW

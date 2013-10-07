@@ -1,0 +1,1505 @@
+Release 9.2.04i ngdbuild J.40
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+Command Line: C:\Xilinx92i\bin\nt\ngdbuild.exe -ise
+E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise -intstyle ise -dd _ngo -nt timestamp
+-uc E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf -p xc2vp7-ff672-6
+E:/WV/D785/DDU5ctrl/0dductrl.edn &0DDUCTRL.ngd
+
+Executing edif2ngd -quiet "E:\WV\D785\DDU5ctrl\0dductrl.edn" "_ngo\0dductrl.ngo"
+Release 9.2.04i - edif2ngd J.40
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+Reading NGO file "E:/WV/D785/DDU5ctrl/DDU5ctrl/_ngo/0dductrl.ngo" ...
+Reading module "DPM32X64.ngo" ( "DPM32X64.ngo" unchanged since last run )...
+Loading design module "E:\WV\D785\DDU5ctrl\DDU5ctrl\_ngo\DPM32X64.ngo"...
+Reading module "AF16B2047BRAM_AFAE_RPM.ngo" ( "AF16B2047BRAM_AFAE_RPM.ngo"
+unchanged since last run )...
+Loading design module
+"E:\WV\D785\DDU5ctrl\DDU5ctrl\_ngo\AF16B2047BRAM_AFAE_RPM.ngo"...
+INFO:NgdBuild:889 - Pad net '$1I135/~PAFIN0' is not connected to an external
+   port in this design.  A new port '$1I135/~PAFIN0' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~PAFIN1' is not connected to an external
+   port in this design.  A new port '$1I135/~PAFIN1' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~PAFIN2' is not connected to an external
+   port in this design.  A new port '$1I135/~PAFIN2' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~PAFIN3' is not connected to an external
+   port in this design.  A new port '$1I135/~PAFIN3' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I10' is not connected to an external port in
+   this design.  A new port '$1I135/I10' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I11' is not connected to an external port in
+   this design.  A new port '$1I135/I11' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I12' is not connected to an external port in
+   this design.  A new port '$1I135/I12' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I13' is not connected to an external port in
+   this design.  A new port '$1I135/I13' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I14' is not connected to an external port in
+   this design.  A new port '$1I135/I14' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I15' is not connected to an external port in
+   this design.  A new port '$1I135/I15' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I16' is not connected to an external port in
+   this design.  A new port '$1I135/I16' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I17' is not connected to an external port in
+   this design.  A new port '$1I135/I17' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I20' is not connected to an external port in
+   this design.  A new port '$1I135/I20' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I18' is not connected to an external port in
+   this design.  A new port '$1I135/I18' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I21' is not connected to an external port in
+   this design.  A new port '$1I135/I21' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I19' is not connected to an external port in
+   this design.  A new port '$1I135/I19' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I22' is not connected to an external port in
+   this design.  A new port '$1I135/I22' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I23' is not connected to an external port in
+   this design.  A new port '$1I135/I23' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I24' is not connected to an external port in
+   this design.  A new port '$1I135/I24' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I25' is not connected to an external port in
+   this design.  A new port '$1I135/I25' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I26' is not connected to an external port in
+   this design.  A new port '$1I135/I26' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I27' is not connected to an external port in
+   this design.  A new port '$1I135/I27' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I30' is not connected to an external port in
+   this design.  A new port '$1I135/I30' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I28' is not connected to an external port in
+   this design.  A new port '$1I135/I28' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I31' is not connected to an external port in
+   this design.  A new port '$1I135/I31' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I29' is not connected to an external port in
+   this design.  A new port '$1I135/I29' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I32' is not connected to an external port in
+   this design.  A new port '$1I135/I32' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I33' is not connected to an external port in
+   this design.  A new port '$1I135/I33' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I34' is not connected to an external port in
+   this design.  A new port '$1I135/I34' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I35' is not connected to an external port in
+   this design.  A new port '$1I135/I35' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/FFIN0' is not connected to an external port
+   in this design.  A new port '$1I135/FFIN0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/FFIN1' is not connected to an external port
+   in this design.  A new port '$1I135/FFIN1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/FFIN2' is not connected to an external port
+   in this design.  A new port '$1I135/FFIN2' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/FFIN3' is not connected to an external port
+   in this design.  A new port '$1I135/FFIN3' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I0' is not connected to an external port in
+   this design.  A new port '$1I135/I0' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I1' is not connected to an external port in
+   this design.  A new port '$1I135/I1' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I2' is not connected to an external port in
+   this design.  A new port '$1I135/I2' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I3' is not connected to an external port in
+   this design.  A new port '$1I135/I3' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I4' is not connected to an external port in
+   this design.  A new port '$1I135/I4' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I5' is not connected to an external port in
+   this design.  A new port '$1I135/I5' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I6' is not connected to an external port in
+   this design.  A new port '$1I135/I6' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I7' is not connected to an external port in
+   this design.  A new port '$1I135/I7' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I8' is not connected to an external port in
+   this design.  A new port '$1I135/I8' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/I9' is not connected to an external port in
+   this design.  A new port '$1I135/I9' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~PRST' is not connected to an external port
+   in this design.  A new port '$1I135/~PRST' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~MRST' is not connected to an external port
+   in this design.  A new port '$1I135/~MRST' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~OWEN' is not connected to an external port
+   in this design.  A new port '$1I135/~OWEN' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT0' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT1' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT2' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT2' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT3' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT3' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT4' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT4' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT5' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT5' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT6' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT6' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT7' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT7' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT8' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT8' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT9' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT9' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT10' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT10' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT11' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT11' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT12' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT12' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT13' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT13' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT14' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT14' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT15' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT15' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT16' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT16' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT20' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT20' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT17' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT17' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT21' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT21' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT18' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT18' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT22' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT22' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT19' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT19' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT23' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT23' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT24' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT24' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT25' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT25' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT26' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT26' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT30' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT30' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT27' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT27' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT31' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT31' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT28' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT28' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT32' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT32' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT29' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT29' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT33' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT33' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT34' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT34' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT35' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT35' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT36' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT36' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT40' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT40' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT37' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT37' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT41' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT41' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT38' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT38' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT42' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT42' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT39' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT39' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT43' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT43' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT44' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT44' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT45' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT45' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT46' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT46' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT50' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT50' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT47' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT47' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT51' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT51' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT48' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT48' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT52' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT52' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT49' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT49' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT53' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT53' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT54' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT54' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT55' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT55' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT56' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT56' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT60' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT60' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT57' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT57' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT61' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT61' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT58' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT58' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT62' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT62' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT59' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT59' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT63' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT63' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT64' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT64' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DOUT65' is not connected to an external port
+   in this design.  A new port '$1I135/DOUT65' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~OSYNCRST' is not connected to an external
+   port in this design.  A new port '$1I135/~OSYNCRST' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~OSOFTRST' is not connected to an external
+   port in this design.  A new port '$1I135/~OSOFTRST' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/HFIN0' is not connected to an external port
+   in this design.  A new port '$1I135/HFIN0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/HFIN1' is not connected to an external port
+   in this design.  A new port '$1I135/HFIN1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/HFIN2' is not connected to an external port
+   in this design.  A new port '$1I135/HFIN2' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/HFIN3' is not connected to an external port
+   in this design.  A new port '$1I135/HFIN3' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/MTIN0' is not connected to an external port
+   in this design.  A new port '$1I135/MTIN0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/MTIN1' is not connected to an external port
+   in this design.  A new port '$1I135/MTIN1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/MTIN2' is not connected to an external port
+   in this design.  A new port '$1I135/MTIN2' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/MTIN3' is not connected to an external port
+   in this design.  A new port '$1I135/MTIN3' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/MODEIN0' is not connected to an external
+   port in this design.  A new port '$1I135/MODEIN0' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/MODEIN1' is not connected to an external
+   port in this design.  A new port '$1I135/MODEIN1' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/MODEIN2' is not connected to an external
+   port in this design.  A new port '$1I135/MODEIN2' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/MODEIN3' is not connected to an external
+   port in this design.  A new port '$1I135/MODEIN3' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/MODEIN4' is not connected to an external
+   port in this design.  A new port '$1I135/MODEIN4' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/MODEIN5' is not connected to an external
+   port in this design.  A new port '$1I135/MODEIN5' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/MODEIN6' is not connected to an external
+   port in this design.  A new port '$1I135/MODEIN6' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/MODEIN7' is not connected to an external
+   port in this design.  A new port '$1I135/MODEIN7' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/INFAKEL1_EN' is not connected to an external
+   port in this design.  A new port '$1I135/INFAKEL1_EN' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~INFIFO_USE0' is not connected to an
+   external port in this design.  A new port '$1I135/~INFIFO_USE0' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~INFIFO_USE1' is not connected to an
+   external port in this design.  A new port '$1I135/~INFIFO_USE1' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~INFIFO_USE2' is not connected to an
+   external port in this design.  A new port '$1I135/~INFIFO_USE2' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~INFIFO_USE3' is not connected to an
+   external port in this design.  A new port '$1I135/~INFIFO_USE3' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/EFAIN0' is not connected to an external port
+   in this design.  A new port '$1I135/EFAIN0' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/EFAIN1' is not connected to an external port
+   in this design.  A new port '$1I135/EFAIN1' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/EFAIN2' is not connected to an external port
+   in this design.  A new port '$1I135/EFAIN2' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/EFAIN3' is not connected to an external port
+   in this design.  A new port '$1I135/EFAIN3' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~IDMB_FUL0' is not connected to an external
+   port in this design.  A new port '$1I135/~IDMB_FUL0' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~IDMB_FUL1' is not connected to an external
+   port in this design.  A new port '$1I135/~IDMB_FUL1' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~IDMB_FUL2' is not connected to an external
+   port in this design.  A new port '$1I135/~IDMB_FUL2' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~IDMB_FUL3' is not connected to an external
+   port in this design.  A new port '$1I135/~IDMB_FUL3' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/LED5' is not connected to an external port
+   in this design.  A new port '$1I135/LED5' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/LED4' is not connected to an external port
+   in this design.  A new port '$1I135/LED4' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/LED3' is not connected to an external port
+   in this design.  A new port '$1I135/LED3' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/LED2' is not connected to an external port
+   in this design.  A new port '$1I135/LED2' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/LED1' is not connected to an external port
+   in this design.  A new port '$1I135/LED1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_16' is not connected to an external port
+   in this design.  A new port '$1I135/L0_16' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_10' is not connected to an external port
+   in this design.  A new port '$1I135/L0_10' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_11' is not connected to an external port
+   in this design.  A new port '$1I135/L0_11' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_12' is not connected to an external port
+   in this design.  A new port '$1I135/L0_12' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_13' is not connected to an external port
+   in this design.  A new port '$1I135/L0_13' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_14' is not connected to an external port
+   in this design.  A new port '$1I135/L0_14' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_15' is not connected to an external port
+   in this design.  A new port '$1I135/L0_15' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_0' is not connected to an external port
+   in this design.  A new port '$1I135/L0_0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_1' is not connected to an external port
+   in this design.  A new port '$1I135/L0_1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_2' is not connected to an external port
+   in this design.  A new port '$1I135/L0_2' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_3' is not connected to an external port
+   in this design.  A new port '$1I135/L0_3' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_4' is not connected to an external port
+   in this design.  A new port '$1I135/L0_4' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_5' is not connected to an external port
+   in this design.  A new port '$1I135/L0_5' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_6' is not connected to an external port
+   in this design.  A new port '$1I135/L0_6' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_7' is not connected to an external port
+   in this design.  A new port '$1I135/L0_7' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_8' is not connected to an external port
+   in this design.  A new port '$1I135/L0_8' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_9' is not connected to an external port
+   in this design.  A new port '$1I135/L0_9' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L0_17' is not connected to an external port
+   in this design.  A new port '$1I135/L0_17' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/LED7' is not connected to an external port
+   in this design.  A new port '$1I135/LED7' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/LED6' is not connected to an external port
+   in this design.  A new port '$1I135/LED6' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/LED0' is not connected to an external port
+   in this design.  A new port '$1I135/LED0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL0STAT0' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL0STAT0' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL0STAT1' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL0STAT1' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL0STAT2' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL0STAT2' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL0STAT3' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL0STAT3' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL1STAT0' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL1STAT0' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL1STAT1' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL1STAT1' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL1STAT2' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL1STAT2' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL1STAT3' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL1STAT3' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL2STAT0' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL2STAT0' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL2STAT1' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL2STAT1' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL2STAT2' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL2STAT2' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL2STAT3' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL2STAT3' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL3STAT0' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL3STAT0' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL3STAT1' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL3STAT1' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL3STAT2' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL3STAT2' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RDCTRL3STAT3' is not connected to an
+   external port in this design.  A new port '$1I135/RDCTRL3STAT3' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_10' is not connected to an external port
+   in this design.  A new port '$1I135/L1_10' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_11' is not connected to an external port
+   in this design.  A new port '$1I135/L1_11' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_12' is not connected to an external port
+   in this design.  A new port '$1I135/L1_12' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_13' is not connected to an external port
+   in this design.  A new port '$1I135/L1_13' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_14' is not connected to an external port
+   in this design.  A new port '$1I135/L1_14' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_15' is not connected to an external port
+   in this design.  A new port '$1I135/L1_15' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_0' is not connected to an external port
+   in this design.  A new port '$1I135/L1_0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_1' is not connected to an external port
+   in this design.  A new port '$1I135/L1_1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_2' is not connected to an external port
+   in this design.  A new port '$1I135/L1_2' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_3' is not connected to an external port
+   in this design.  A new port '$1I135/L1_3' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_4' is not connected to an external port
+   in this design.  A new port '$1I135/L1_4' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_5' is not connected to an external port
+   in this design.  A new port '$1I135/L1_5' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_6' is not connected to an external port
+   in this design.  A new port '$1I135/L1_6' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_7' is not connected to an external port
+   in this design.  A new port '$1I135/L1_7' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_8' is not connected to an external port
+   in this design.  A new port '$1I135/L1_8' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_9' is not connected to an external port
+   in this design.  A new port '$1I135/L1_9' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_16' is not connected to an external port
+   in this design.  A new port '$1I135/L1_16' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1_17' is not connected to an external port
+   in this design.  A new port '$1I135/L1_17' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/CLKIN40' is not connected to an external
+   port in this design.  A new port '$1I135/CLKIN40' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/CKFB_IN' is not connected to an external
+   port in this design.  A new port '$1I135/CKFB_IN' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~RDYIN0' is not connected to an external
+   port in this design.  A new port '$1I135/~RDYIN0' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~RDYIN1' is not connected to an external
+   port in this design.  A new port '$1I135/~RDYIN1' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~RDYIN2' is not connected to an external
+   port in this design.  A new port '$1I135/~RDYIN2' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/CK625IN' is not connected to an external
+   port in this design.  A new port '$1I135/CK625IN' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/CKFB_OUT' is not connected to an external
+   port in this design.  A new port '$1I135/CKFB_OUT' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/ORCLK' is not connected to an external port
+   in this design.  A new port '$1I135/ORCLK' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IRCLK0' is not connected to an external port
+   in this design.  A new port '$1I135/IRCLK0' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/OWCLK' is not connected to an external port
+   in this design.  A new port '$1I135/OWCLK' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/FIFO_CLK0' is not connected to an external
+   port in this design.  A new port '$1I135/FIFO_CLK0' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/FIFO_CLK1' is not connected to an external
+   port in this design.  A new port '$1I135/FIFO_CLK1' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/FIFO_CLK2' is not connected to an external
+   port in this design.  A new port '$1I135/FIFO_CLK2' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/FIFO_CLK3' is not connected to an external
+   port in this design.  A new port '$1I135/FIFO_CLK3' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IRCLK1' is not connected to an external port
+   in this design.  A new port '$1I135/IRCLK1' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/FCKIN_P' is not connected to an external
+   port in this design.  A new port '$1I135/FCKIN_P' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/FCKIN_N' is not connected to an external
+   port in this design.  A new port '$1I135/FCKIN_N' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~ILFF' is not connected to an external port
+   in this design.  A new port '$1I135/~ILFF' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~ILDOWN' is not connected to an external
+   port in this design.  A new port '$1I135/~ILDOWN' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~URESET' is not connected to an external
+   port in this design.  A new port '$1I135/~URESET' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~UTEST' is not connected to an external port
+   in this design.  A new port '$1I135/~UTEST' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/USF0' is not connected to an external port
+   in this design.  A new port '$1I135/USF0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/USF1' is not connected to an external port
+   in this design.  A new port '$1I135/USF1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/USF2' is not connected to an external port
+   in this design.  A new port '$1I135/USF2' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/USF3' is not connected to an external port
+   in this design.  A new port '$1I135/USF3' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/ILRL0' is not connected to an external port
+   in this design.  A new port '$1I135/ILRL0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/ILRL1' is not connected to an external port
+   in this design.  A new port '$1I135/ILRL1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/ILRL2' is not connected to an external port
+   in this design.  A new port '$1I135/ILRL2' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/ILRL3' is not connected to an external port
+   in this design.  A new port '$1I135/ILRL3' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/ILSF0' is not connected to an external port
+   in this design.  A new port '$1I135/ILSF0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/ILSF1' is not connected to an external port
+   in this design.  A new port '$1I135/ILSF1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/ILSF2' is not connected to an external port
+   in this design.  A new port '$1I135/ILSF2' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/ILSF3' is not connected to an external port
+   in this design.  A new port '$1I135/ILSF3' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~OUCTRL' is not connected to an external
+   port in this design.  A new port '$1I135/~OUCTRL' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~OUWEN' is not connected to an external port
+   in this design.  A new port '$1I135/~OUWEN' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~ARSTIN' is not connected to an external
+   port in this design.  A new port '$1I135/~ARSTIN' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TP_11' is not connected to an external port
+   in this design.  A new port '$1I135/TP_11' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TP_45' is not connected to an external port
+   in this design.  A new port '$1I135/TP_45' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXN1' is not connected to an external port
+   in this design.  A new port '$1I135/TXN1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXP1' is not connected to an external port
+   in this design.  A new port '$1I135/TXP1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RXN1' is not connected to an external port
+   in this design.  A new port '$1I135/RXN1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RXP1' is not connected to an external port
+   in this design.  A new port '$1I135/RXP1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXN0' is not connected to an external port
+   in this design.  A new port '$1I135/TXN0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXP0' is not connected to an external port
+   in this design.  A new port '$1I135/TXP0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RXN0' is not connected to an external port
+   in this design.  A new port '$1I135/RXN0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RXP0' is not connected to an external port
+   in this design.  A new port '$1I135/RXP0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXN_GBE' is not connected to an external
+   port in this design.  A new port '$1I135/TXN_GBE' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXP_GBE' is not connected to an external
+   port in this design.  A new port '$1I135/TXP_GBE' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RXN_GBE' is not connected to an external
+   port in this design.  A new port '$1I135/RXN_GBE' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RXP_GBE' is not connected to an external
+   port in this design.  A new port '$1I135/RXP_GBE' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TP_43' is not connected to an external port
+   in this design.  A new port '$1I135/TP_43' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~ISYSRST' is not connected to an external
+   port in this design.  A new port '$1I135/~ISYSRST' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TP_42' is not connected to an external port
+   in this design.  A new port '$1I135/TP_42' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TP_1' is not connected to an external port
+   in this design.  A new port '$1I135/TP_1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TP_9' is not connected to an external port
+   in this design.  A new port '$1I135/TP_9' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TP_48' is not connected to an external port
+   in this design.  A new port '$1I135/TP_48' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/LINK_READY' is not connected to an external
+   port in this design.  A new port '$1I135/LINK_READY' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TDOUT1' is not connected to an external port
+   in this design.  A new port '$1I135/TDOUT1' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/SBDATA' is not connected to an external port
+   in this design.  A new port '$1I135/SBDATA' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TDSTRB' is not connected to an external port
+   in this design.  A new port '$1I135/TDSTRB' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TDOUT0' is not connected to an external port
+   in this design.  A new port '$1I135/TDOUT0' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~STOP_DATA' is not connected to an external
+   port in this design.  A new port '$1I135/~STOP_DATA' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~INSLNKWT_EN' is not connected to an
+   external port in this design.  A new port '$1I135/~INSLNKWT_EN' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/OEMPTY' is not connected to an external port
+   in this design.  A new port '$1I135/OEMPTY' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~OHALF' is not connected to an external port
+   in this design.  A new port '$1I135/~OHALF' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~OPAE' is not connected to an external port
+   in this design.  A new port '$1I135/~OPAE' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~OPAF' is not connected to an external port
+   in this design.  A new port '$1I135/~OPAF' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/OFULL' is not connected to an external port
+   in this design.  A new port '$1I135/OFULL' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/OFIBER_OK' is not connected to an external
+   port in this design.  A new port '$1I135/OFIBER_OK' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~OREN' is not connected to an external port
+   in this design.  A new port '$1I135/~OREN' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN0' is not connected to an external port in
+   this design.  A new port '$1I135/IN0' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN1' is not connected to an external port in
+   this design.  A new port '$1I135/IN1' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN2' is not connected to an external port in
+   this design.  A new port '$1I135/IN2' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN3' is not connected to an external port in
+   this design.  A new port '$1I135/IN3' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN4' is not connected to an external port in
+   this design.  A new port '$1I135/IN4' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN5' is not connected to an external port in
+   this design.  A new port '$1I135/IN5' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN6' is not connected to an external port in
+   this design.  A new port '$1I135/IN6' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN7' is not connected to an external port in
+   this design.  A new port '$1I135/IN7' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN8' is not connected to an external port in
+   this design.  A new port '$1I135/IN8' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN9' is not connected to an external port in
+   this design.  A new port '$1I135/IN9' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN10' is not connected to an external port
+   in this design.  A new port '$1I135/IN10' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN11' is not connected to an external port
+   in this design.  A new port '$1I135/IN11' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN12' is not connected to an external port
+   in this design.  A new port '$1I135/IN12' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN13' is not connected to an external port
+   in this design.  A new port '$1I135/IN13' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN14' is not connected to an external port
+   in this design.  A new port '$1I135/IN14' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN15' is not connected to an external port
+   in this design.  A new port '$1I135/IN15' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN17' is not connected to an external port
+   in this design.  A new port '$1I135/IN17' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/IN16' is not connected to an external port
+   in this design.  A new port '$1I135/IN16' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/FOKOUT' is not connected to an external port
+   in this design.  A new port '$1I135/FOKOUT' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DAV' is not connected to an external port in
+   this design.  A new port '$1I135/DAV' has been added and is connected to this
+   signal.
+INFO:NgdBuild:889 - Pad net '$1I135/INPRSCL_SEL0' is not connected to an
+   external port in this design.  A new port '$1I135/INPRSCL_SEL0' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/INPRSCL_SEL1' is not connected to an
+   external port in this design.  A new port '$1I135/INPRSCL_SEL1' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/INPRSCL_SEL2' is not connected to an
+   external port in this design.  A new port '$1I135/INPRSCL_SEL2' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/BC0OUT' is not connected to an external port
+   in this design.  A new port '$1I135/BC0OUT' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/OUT_EVCNTRST' is not connected to an
+   external port in this design.  A new port '$1I135/OUT_EVCNTRST' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/L1AOUT' is not connected to an external port
+   in this design.  A new port '$1I135/L1AOUT' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/RAWL1A' is not connected to an external port
+   in this design.  A new port '$1I135/RAWL1A' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/BUS0' is not connected to an external port
+   in this design.  A new port '$1I135/BUS0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/BUS1' is not connected to an external port
+   in this design.  A new port '$1I135/BUS1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/CLK40-2' is not connected to an external
+   port in this design.  A new port '$1I135/CLK40-2' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/CLK40-0' is not connected to an external
+   port in this design.  A new port '$1I135/CLK40-0' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/CLK40-1' is not connected to an external
+   port in this design.  A new port '$1I135/CLK40-1' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/BUS2' is not connected to an external port
+   in this design.  A new port '$1I135/BUS2' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/BUS3' is not connected to an external port
+   in this design.  A new port '$1I135/BUS3' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/BUS4' is not connected to an external port
+   in this design.  A new port '$1I135/BUS4' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/BUS5' is not connected to an external port
+   in this design.  A new port '$1I135/BUS5' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/BUS6' is not connected to an external port
+   in this design.  A new port '$1I135/BUS6' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/BUS7' is not connected to an external port
+   in this design.  A new port '$1I135/BUS7' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/BUS8' is not connected to an external port
+   in this design.  A new port '$1I135/BUS8' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/SCLKIN' is not connected to an external port
+   in this design.  A new port '$1I135/SCLKIN' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/SDIN' is not connected to an external port
+   in this design.  A new port '$1I135/SDIN' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN10' is not connected to an external
+   port in this design.  A new port '$1I135/TXDIN10' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN11' is not connected to an external
+   port in this design.  A new port '$1I135/TXDIN11' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN12' is not connected to an external
+   port in this design.  A new port '$1I135/TXDIN12' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN13' is not connected to an external
+   port in this design.  A new port '$1I135/TXDIN13' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN14' is not connected to an external
+   port in this design.  A new port '$1I135/TXDIN14' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN15' is not connected to an external
+   port in this design.  A new port '$1I135/TXDIN15' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN0' is not connected to an external port
+   in this design.  A new port '$1I135/TXDIN0' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN1' is not connected to an external port
+   in this design.  A new port '$1I135/TXDIN1' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN2' is not connected to an external port
+   in this design.  A new port '$1I135/TXDIN2' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN3' is not connected to an external port
+   in this design.  A new port '$1I135/TXDIN3' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN4' is not connected to an external port
+   in this design.  A new port '$1I135/TXDIN4' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN5' is not connected to an external port
+   in this design.  A new port '$1I135/TXDIN5' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN6' is not connected to an external port
+   in this design.  A new port '$1I135/TXDIN6' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN7' is not connected to an external port
+   in this design.  A new port '$1I135/TXDIN7' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN8' is not connected to an external port
+   in this design.  A new port '$1I135/TXDIN8' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/TXDIN9' is not connected to an external port
+   in this design.  A new port '$1I135/TXDIN9' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN10' is not connected to an external
+   port in this design.  A new port '$1I135/~TXEN10' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN11' is not connected to an external
+   port in this design.  A new port '$1I135/~TXEN11' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN12' is not connected to an external
+   port in this design.  A new port '$1I135/~TXEN12' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN13' is not connected to an external
+   port in this design.  A new port '$1I135/~TXEN13' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN14' is not connected to an external
+   port in this design.  A new port '$1I135/~TXEN14' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN0' is not connected to an external port
+   in this design.  A new port '$1I135/~TXEN0' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN1' is not connected to an external port
+   in this design.  A new port '$1I135/~TXEN1' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN2' is not connected to an external port
+   in this design.  A new port '$1I135/~TXEN2' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN3' is not connected to an external port
+   in this design.  A new port '$1I135/~TXEN3' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN4' is not connected to an external port
+   in this design.  A new port '$1I135/~TXEN4' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN5' is not connected to an external port
+   in this design.  A new port '$1I135/~TXEN5' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN6' is not connected to an external port
+   in this design.  A new port '$1I135/~TXEN6' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN7' is not connected to an external port
+   in this design.  A new port '$1I135/~TXEN7' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN8' is not connected to an external port
+   in this design.  A new port '$1I135/~TXEN8' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~TXEN9' is not connected to an external port
+   in this design.  A new port '$1I135/~TXEN9' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~LD_RDY' is not connected to an external
+   port in this design.  A new port '$1I135/~LD_RDY' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~SEN6' is not connected to an external port
+   in this design.  A new port '$1I135/~SEN6' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DDUFMM0' is not connected to an external
+   port in this design.  A new port '$1I135/DDUFMM0' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~SENIN' is not connected to an external port
+   in this design.  A new port '$1I135/~SENIN' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/~AUTOSLD_EN' is not connected to an external
+   port in this design.  A new port '$1I135/~AUTOSLD_EN' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL10' is not connected to an external port
+   in this design.  A new port '$1I135/KILL10' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL11' is not connected to an external port
+   in this design.  A new port '$1I135/KILL11' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL12' is not connected to an external port
+   in this design.  A new port '$1I135/KILL12' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL13' is not connected to an external port
+   in this design.  A new port '$1I135/KILL13' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL14' is not connected to an external port
+   in this design.  A new port '$1I135/KILL14' has been added and is connected
+   to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL0' is not connected to an external port
+   in this design.  A new port '$1I135/KILL0' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL1' is not connected to an external port
+   in this design.  A new port '$1I135/KILL1' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL2' is not connected to an external port
+   in this design.  A new port '$1I135/KILL2' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL3' is not connected to an external port
+   in this design.  A new port '$1I135/KILL3' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL4' is not connected to an external port
+   in this design.  A new port '$1I135/KILL4' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL5' is not connected to an external port
+   in this design.  A new port '$1I135/KILL5' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL6' is not connected to an external port
+   in this design.  A new port '$1I135/KILL6' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL7' is not connected to an external port
+   in this design.  A new port '$1I135/KILL7' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL8' is not connected to an external port
+   in this design.  A new port '$1I135/KILL8' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/KILL9' is not connected to an external port
+   in this design.  A new port '$1I135/KILL9' has been added and is connected to
+   this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DDUFMM3' is not connected to an external
+   port in this design.  A new port '$1I135/DDUFMM3' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DDUFMM1' is not connected to an external
+   port in this design.  A new port '$1I135/DDUFMM1' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/DDUFMM2' is not connected to an external
+   port in this design.  A new port '$1I135/DDUFMM2' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/REALFMM0' is not connected to an external
+   port in this design.  A new port '$1I135/REALFMM0' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/REALFMM1' is not connected to an external
+   port in this design.  A new port '$1I135/REALFMM1' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/REALFMM2' is not connected to an external
+   port in this design.  A new port '$1I135/REALFMM2' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/REALFMM3' is not connected to an external
+   port in this design.  A new port '$1I135/REALFMM3' has been added and is
+   connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/$1I3030/~FOE0' is not connected to an
+   external port in this design.  A new port '$1I135/$1I3030/~FOE0' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/$1I3030/~FOE1' is not connected to an
+   external port in this design.  A new port '$1I135/$1I3030/~FOE1' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/$1I3030/~FOE2' is not connected to an
+   external port in this design.  A new port '$1I135/$1I3030/~FOE2' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/$1I3030/~FOE3' is not connected to an
+   external port in this design.  A new port '$1I135/$1I3030/~FOE3' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/$1I3030/~RENFIFO0' is not connected to an
+   external port in this design.  A new port '$1I135/$1I3030/~RENFIFO0' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/$1I3030/~RENFIFO1' is not connected to an
+   external port in this design.  A new port '$1I135/$1I3030/~RENFIFO1' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/$1I3030/~RENFIFO2' is not connected to an
+   external port in this design.  A new port '$1I135/$1I3030/~RENFIFO2' has been
+   added and is connected to this signal.
+INFO:NgdBuild:889 - Pad net '$1I135/$1I3030/~RENFIFO3' is not connected to an
+   external port in this design.  A new port '$1I135/$1I3030/~RENFIFO3' has been
+   added and is connected to this signal.
+
+Applying constraints in "E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf" to the design...
+INFO:NgdBuild:928 - A pullup '~LED1.PULLUP' was added to net '$1I135/~LED1'
+INFO:NgdBuild:928 - A pullup '~LED2.PULLUP' was added to net '$1I135/~LED2'
+INFO:NgdBuild:928 - A pullup '~LED3.PULLUP' was added to net '$1I135/~LED3'
+INFO:NgdBuild:928 - A pullup '~LED4.PULLUP' was added to net '$1I135/~LED4'
+INFO:NgdBuild:928 - A pullup '~LED5.PULLUP' was added to net '$1I135/~LED5'
+INFO:NgdBuild:928 - A pullup 'LA0_16.PULLUP' was added to net '$1I135/LA0_16'
+INFO:NgdBuild:928 - A pullup 'LA0_17.PULLUP' was added to net '$1I135/LA0_17'
+INFO:NgdBuild:928 - A pullup 'LA0_10.PULLUP' was added to net '$1I135/LA0_10'
+INFO:NgdBuild:928 - A pullup 'LA0_11.PULLUP' was added to net '$1I135/LA0_11'
+INFO:NgdBuild:928 - A pullup 'LA0_12.PULLUP' was added to net '$1I135/LA0_12'
+INFO:NgdBuild:928 - A pullup 'LA0_13.PULLUP' was added to net '$1I135/LA0_13'
+INFO:NgdBuild:928 - A pullup 'LA0_14.PULLUP' was added to net '$1I135/LA0_14'
+INFO:NgdBuild:928 - A pullup 'LA0_15.PULLUP' was added to net '$1I135/LA0_15'
+INFO:NgdBuild:928 - A pullup 'LA0_0.PULLUP' was added to net '$1I135/LA0_0'
+INFO:NgdBuild:928 - A pullup 'LA0_1.PULLUP' was added to net '$1I135/LA0_1'
+INFO:NgdBuild:928 - A pullup 'LA0_2.PULLUP' was added to net '$1I135/LA0_2'
+INFO:NgdBuild:928 - A pullup 'LA0_3.PULLUP' was added to net '$1I135/LA0_3'
+INFO:NgdBuild:928 - A pullup 'LA0_4.PULLUP' was added to net '$1I135/LA0_4'
+INFO:NgdBuild:928 - A pullup 'LA0_5.PULLUP' was added to net '$1I135/LA0_5'
+INFO:NgdBuild:928 - A pullup 'LA0_6.PULLUP' was added to net '$1I135/LA0_6'
+INFO:NgdBuild:928 - A pullup 'LA0_7.PULLUP' was added to net '$1I135/LA0_7'
+INFO:NgdBuild:928 - A pullup 'LA0_8.PULLUP' was added to net '$1I135/LA0_8'
+INFO:NgdBuild:928 - A pullup 'LA0_9.PULLUP' was added to net '$1I135/LA0_9'
+INFO:NgdBuild:928 - A pullup 'LA1_10.PULLUP' was added to net '$1I135/LA1_10'
+INFO:NgdBuild:928 - A pullup 'LA1_11.PULLUP' was added to net '$1I135/LA1_11'
+INFO:NgdBuild:928 - A pullup 'LA1_12.PULLUP' was added to net '$1I135/LA1_12'
+INFO:NgdBuild:928 - A pullup 'LA1_13.PULLUP' was added to net '$1I135/LA1_13'
+INFO:NgdBuild:928 - A pullup 'LA1_14.PULLUP' was added to net '$1I135/LA1_14'
+INFO:NgdBuild:928 - A pullup 'LA1_15.PULLUP' was added to net '$1I135/LA1_15'
+INFO:NgdBuild:928 - A pullup 'LA1_0.PULLUP' was added to net '$1I135/LA1_0'
+INFO:NgdBuild:928 - A pullup 'LA1_1.PULLUP' was added to net '$1I135/LA1_1'
+INFO:NgdBuild:928 - A pullup 'LA1_2.PULLUP' was added to net '$1I135/LA1_2'
+INFO:NgdBuild:928 - A pullup 'LA1_3.PULLUP' was added to net '$1I135/LA1_3'
+INFO:NgdBuild:928 - A pullup 'LA1_4.PULLUP' was added to net '$1I135/LA1_4'
+INFO:NgdBuild:928 - A pullup 'LA1_5.PULLUP' was added to net '$1I135/LA1_5'
+INFO:NgdBuild:928 - A pullup 'LA1_6.PULLUP' was added to net '$1I135/LA1_6'
+INFO:NgdBuild:928 - A pullup 'LA1_7.PULLUP' was added to net '$1I135/LA1_7'
+INFO:NgdBuild:928 - A pullup 'LA1_8.PULLUP' was added to net '$1I135/LA1_8'
+INFO:NgdBuild:928 - A pullup 'LA1_9.PULLUP' was added to net '$1I135/LA1_9'
+INFO:NgdBuild:928 - A pullup '~LED0.PULLUP' was added to net '$1I135/~LED0'
+INFO:NgdBuild:928 - A pullup '~LED6.PULLUP' was added to net '$1I135/~LED6'
+INFO:NgdBuild:928 - A pullup '~LED7.PULLUP' was added to net '$1I135/~LED7'
+INFO:NgdBuild:928 - A pullup 'LA1_16.PULLUP' was added to net '$1I135/LA1_16'
+INFO:NgdBuild:928 - A pullup 'TP0.PULLUP' was added to net '$1I135/TP0'
+INFO:NgdBuild:928 - A pullup 'TP1.PULLUP' was added to net '$1I135/TP1'
+INFO:NgdBuild:928 - A pullup 'TP2.PULLUP' was added to net '$1I135/TP2'
+INFO:NgdBuild:928 - A pullup 'TP3.PULLUP' was added to net '$1I135/TP3'
+INFO:NgdBuild:928 - A pullup 'TP5.PULLUP' was added to net '$1I135/TP5'
+INFO:NgdBuild:928 - A pullup 'TP6.PULLUP' was added to net '$1I135/TP6'
+INFO:NgdBuild:928 - A pullup 'CRCIN10.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN10'
+INFO:NgdBuild:928 - A pullup 'CRCIN11.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN11'
+INFO:NgdBuild:928 - A pullup 'CRCIN12.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN12'
+INFO:NgdBuild:928 - A pullup 'CRCIN13.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN13'
+INFO:NgdBuild:928 - A pullup 'CRCIN14.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN14'
+INFO:NgdBuild:928 - A pullup 'CRCIN0.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN0'
+INFO:NgdBuild:928 - A pullup 'CRCIN1.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN1'
+INFO:NgdBuild:928 - A pullup 'CRCIN2.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN2'
+INFO:NgdBuild:928 - A pullup 'CRCIN3.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN3'
+INFO:NgdBuild:928 - A pullup 'CRCIN4.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN4'
+INFO:NgdBuild:928 - A pullup 'CRCIN5.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN5'
+INFO:NgdBuild:928 - A pullup 'CRCIN6.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN6'
+INFO:NgdBuild:928 - A pullup 'CRCIN7.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN7'
+INFO:NgdBuild:928 - A pullup 'CRCIN8.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN8'
+INFO:NgdBuild:928 - A pullup 'CRCIN9.PULLUP' was added to net
+   '$1I135/$1I3031/CRCIN9'
+INFO:NgdBuild:928 - A pullup 'OD42.PULLUP' was added to net
+   '$1I135/$1I3031/OD42'
+INFO:NgdBuild:928 - A pullup 'OD43.PULLUP' was added to net
+   '$1I135/$1I3031/OD43'
+INFO:NgdBuild:928 - A pullup 'OD44.PULLUP' was added to net
+   '$1I135/$1I3031/OD44'
+INFO:NgdBuild:928 - A pullup 'OD45.PULLUP' was added to net
+   '$1I135/$1I3031/OD45'
+INFO:NgdBuild:928 - A pullup 'OD46.PULLUP' was added to net
+   '$1I135/$1I3031/OD46'
+INFO:NgdBuild:928 - A pullup 'OD47.PULLUP' was added to net
+   '$1I135/$1I3031/OD47'
+INFO:NgdBuild:928 - A pullup 'OD48.PULLUP' was added to net
+   '$1I135/$1I3031/OD48'
+INFO:NgdBuild:928 - A pullup 'OD52.PULLUP' was added to net
+   '$1I135/$1I3031/OD52'
+INFO:NgdBuild:928 - A pullup 'OD49.PULLUP' was added to net
+   '$1I135/$1I3031/OD49'
+INFO:NgdBuild:928 - A pullup 'OD53.PULLUP' was added to net
+   '$1I135/$1I3031/OD53'
+INFO:NgdBuild:928 - A pullup 'OD50.PULLUP' was added to net
+   '$1I135/$1I3031/OD50'
+INFO:NgdBuild:928 - A pullup 'OD54.PULLUP' was added to net
+   '$1I135/$1I3031/OD54'
+INFO:NgdBuild:928 - A pullup 'OD51.PULLUP' was added to net
+   '$1I135/$1I3031/OD51'
+INFO:NgdBuild:928 - A pullup 'OD55.PULLUP' was added to net
+   '$1I135/$1I3031/OD55'
+INFO:NgdBuild:928 - A pullup 'OD32.PULLUP' was added to net
+   '$1I135/$1I3031/OD32'
+INFO:NgdBuild:928 - A pullup 'OD33.PULLUP' was added to net
+   '$1I135/$1I3031/OD33'
+INFO:NgdBuild:928 - A pullup 'OD34.PULLUP' was added to net
+   '$1I135/$1I3031/OD34'
+INFO:NgdBuild:928 - A pullup 'OD35.PULLUP' was added to net
+   '$1I135/$1I3031/OD35'
+INFO:NgdBuild:928 - A pullup 'OD36.PULLUP' was added to net
+   '$1I135/$1I3031/OD36'
+INFO:NgdBuild:928 - A pullup 'OD37.PULLUP' was added to net
+   '$1I135/$1I3031/OD37'
+INFO:NgdBuild:928 - A pullup 'OD38.PULLUP' was added to net
+   '$1I135/$1I3031/OD38'
+INFO:NgdBuild:928 - A pullup 'OD39.PULLUP' was added to net
+   '$1I135/$1I3031/OD39'
+INFO:NgdBuild:928 - A pullup 'OD40.PULLUP' was added to net
+   '$1I135/$1I3031/OD40'
+INFO:NgdBuild:928 - A pullup 'OD41.PULLUP' was added to net
+   '$1I135/$1I3031/OD41'
+INFO:NgdBuild:928 - A pullup 'OD30.PULLUP' was added to net
+   '$1I135/$1I3031/OD30'
+INFO:NgdBuild:928 - A pullup 'OD31.PULLUP' was added to net
+   '$1I135/$1I3031/OD31'
+INFO:NgdBuild:928 - A pullup 'OD20.PULLUP' was added to net
+   '$1I135/$1I3031/OD20'
+INFO:NgdBuild:928 - A pullup 'OD21.PULLUP' was added to net
+   '$1I135/$1I3031/OD21'
+INFO:NgdBuild:928 - A pullup 'OD22.PULLUP' was added to net
+   '$1I135/$1I3031/OD22'
+INFO:NgdBuild:928 - A pullup 'OD23.PULLUP' was added to net
+   '$1I135/$1I3031/OD23'
+INFO:NgdBuild:928 - A pullup 'OD24.PULLUP' was added to net
+   '$1I135/$1I3031/OD24'
+INFO:NgdBuild:928 - A pullup 'OD25.PULLUP' was added to net
+   '$1I135/$1I3031/OD25'
+INFO:NgdBuild:928 - A pullup 'OD26.PULLUP' was added to net
+   '$1I135/$1I3031/OD26'
+INFO:NgdBuild:928 - A pullup 'OD27.PULLUP' was added to net
+   '$1I135/$1I3031/OD27'
+INFO:NgdBuild:928 - A pullup 'OD28.PULLUP' was added to net
+   '$1I135/$1I3031/OD28'
+INFO:NgdBuild:928 - A pullup 'OD29.PULLUP' was added to net
+   '$1I135/$1I3031/OD29'
+INFO:NgdBuild:928 - A pullup 'OD0.PULLUP' was added to net '$1I135/$1I3031/OD0'
+INFO:NgdBuild:928 - A pullup 'OD1.PULLUP' was added to net '$1I135/$1I3031/OD1'
+INFO:NgdBuild:928 - A pullup 'OD2.PULLUP' was added to net '$1I135/$1I3031/OD2'
+INFO:NgdBuild:928 - A pullup 'OD3.PULLUP' was added to net '$1I135/$1I3031/OD3'
+INFO:NgdBuild:928 - A pullup 'OD10.PULLUP' was added to net
+   '$1I135/$1I3031/OD10'
+INFO:NgdBuild:928 - A pullup 'OD11.PULLUP' was added to net
+   '$1I135/$1I3031/OD11'
+INFO:NgdBuild:928 - A pullup 'OD12.PULLUP' was added to net
+   '$1I135/$1I3031/OD12'
+INFO:NgdBuild:928 - A pullup 'OD13.PULLUP' was added to net
+   '$1I135/$1I3031/OD13'
+INFO:NgdBuild:928 - A pullup 'OD14.PULLUP' was added to net
+   '$1I135/$1I3031/OD14'
+INFO:NgdBuild:928 - A pullup 'OD15.PULLUP' was added to net
+   '$1I135/$1I3031/OD15'
+INFO:NgdBuild:928 - A pullup 'OD4.PULLUP' was added to net '$1I135/$1I3031/OD4'
+INFO:NgdBuild:928 - A pullup 'OD5.PULLUP' was added to net '$1I135/$1I3031/OD5'
+INFO:NgdBuild:928 - A pullup 'OD6.PULLUP' was added to net '$1I135/$1I3031/OD6'
+INFO:NgdBuild:928 - A pullup 'OD7.PULLUP' was added to net '$1I135/$1I3031/OD7'
+INFO:NgdBuild:928 - A pullup 'OD8.PULLUP' was added to net '$1I135/$1I3031/OD8'
+INFO:NgdBuild:928 - A pullup 'OD9.PULLUP' was added to net '$1I135/$1I3031/OD9'
+INFO:NgdBuild:928 - A pullup 'OD16.PULLUP' was added to net
+   '$1I135/$1I3031/OD16'
+INFO:NgdBuild:928 - A pullup 'OD17.PULLUP' was added to net
+   '$1I135/$1I3031/OD17'
+INFO:NgdBuild:928 - A pullup 'OD18.PULLUP' was added to net
+   '$1I135/$1I3031/OD18'
+INFO:NgdBuild:928 - A pullup 'OD19.PULLUP' was added to net
+   '$1I135/$1I3031/OD19'
+INFO:NgdBuild:928 - A pullup 'OD58.PULLUP' was added to net
+   '$1I135/$1I3031/OD58'
+INFO:NgdBuild:928 - A pullup 'OD59.PULLUP' was added to net
+   '$1I135/$1I3031/OD59'
+INFO:NgdBuild:928 - A pullup 'OD60.PULLUP' was added to net
+   '$1I135/$1I3031/OD60'
+INFO:NgdBuild:928 - A pullup 'OD61.PULLUP' was added to net
+   '$1I135/$1I3031/OD61'
+INFO:NgdBuild:928 - A pullup 'OD62.PULLUP' was added to net
+   '$1I135/$1I3031/OD62'
+INFO:NgdBuild:928 - A pullup 'OD63.PULLUP' was added to net
+   '$1I135/$1I3031/OD63'
+INFO:NgdBuild:928 - A pullup 'OD56.PULLUP' was added to net
+   '$1I135/$1I3031/OD56'
+INFO:NgdBuild:928 - A pullup 'OD57.PULLUP' was added to net
+   '$1I135/$1I3031/OD57'
+INFO:NgdBuild:928 - A pullup 'O0.PULLUP' was added to net '$1I135/$6I1798/O0'
+INFO:NgdBuild:928 - A pullup 'O0.PULLUP' was added to net '$1I135/$6I1894/O0'
+INFO:NgdBuild:928 - A pullup 'O0.PULLUP' was added to net '$1I135/$6I1915/O0'
+INFO:NgdBuild:928 - A pullup 'O0.PULLUP' was added to net '$1I135/$6I2187/O0'
+INFO:NgdBuild:928 - A pullup 'O3.PULLUP' was added to net '$1I135/$6I2187/O3'
+INFO:NgdBuild:928 - A pullup 'TPOUT0.PULLUP' was added to net
+   '$1I135/$7I1330/TPOUT0'
+INFO:NgdBuild:928 - A pullup 'TPOUT1.PULLUP' was added to net
+   '$1I135/$7I1330/TPOUT1'
+INFO:NgdBuild:928 - A pullup 'TPOUT2.PULLUP' was added to net
+   '$1I135/$7I1330/TPOUT2'
+INFO:NgdBuild:928 - A pullup 'TPOUT3.PULLUP' was added to net
+   '$1I135/$7I1330/TPOUT3'
+INFO:NgdBuild:928 - A pullup 'TPOUT4.PULLUP' was added to net
+   '$1I135/$7I1330/TPOUT4'
+INFO:NgdBuild:928 - A pullup 'TPOUT5.PULLUP' was added to net
+   '$1I135/$7I1330/TPOUT5'
+INFO:NgdBuild:928 - A pullup 'TPOUT6.PULLUP' was added to net
+   '$1I135/$7I1330/TPOUT6'
+INFO:NgdBuild:928 - A pullup 'TPOUT7.PULLUP' was added to net
+   '$1I135/$7I1330/TPOUT7'
+INFO:NgdBuild:928 - A pullup 'CRC0.PULLUP' was added to net
+   '$1I135/$7I1330/CRC0'
+INFO:NgdBuild:928 - A pullup 'CRC1.PULLUP' was added to net
+   '$1I135/$7I1330/CRC1'
+INFO:NgdBuild:928 - A pullup 'CRC2.PULLUP' was added to net
+   '$1I135/$7I1330/CRC2'
+INFO:NgdBuild:928 - A pullup 'CRC3.PULLUP' was added to net
+   '$1I135/$7I1330/CRC3'
+INFO:NgdBuild:928 - A pullup 'CRC4.PULLUP' was added to net
+   '$1I135/$7I1330/CRC4'
+INFO:NgdBuild:928 - A pullup 'CRC5.PULLUP' was added to net
+   '$1I135/$7I1330/CRC5'
+INFO:NgdBuild:928 - A pullup 'CRC6.PULLUP' was added to net
+   '$1I135/$7I1330/CRC6'
+INFO:NgdBuild:928 - A pullup 'CRC7.PULLUP' was added to net
+   '$1I135/$7I1330/CRC7'
+INFO:NgdBuild:928 - A pullup 'IN8BIT0.PULLUP' was added to net
+   '$1I135/$7I1330/IN8BIT0'
+INFO:NgdBuild:928 - A pullup 'IN8BIT1.PULLUP' was added to net
+   '$1I135/$7I1330/IN8BIT1'
+INFO:NgdBuild:928 - A pullup 'IN8BIT2.PULLUP' was added to net
+   '$1I135/$7I1330/IN8BIT2'
+INFO:NgdBuild:928 - A pullup 'IN8BIT3.PULLUP' was added to net
+   '$1I135/$7I1330/IN8BIT3'
+INFO:NgdBuild:928 - A pullup 'IN8BIT4.PULLUP' was added to net
+   '$1I135/$7I1330/IN8BIT4'
+INFO:NgdBuild:928 - A pullup 'IN8BIT5.PULLUP' was added to net
+   '$1I135/$7I1330/IN8BIT5'
+INFO:NgdBuild:928 - A pullup 'IN8BIT6.PULLUP' was added to net
+   '$1I135/$7I1330/IN8BIT6'
+INFO:NgdBuild:928 - A pullup 'IN8BIT7.PULLUP' was added to net
+   '$1I135/$7I1330/IN8BIT7'
+INFO:NgdBuild:928 - A pullup 'T_OUT0.PULLUP' was added to net
+   '$1I135/$7I1330/T_OUT0'
+INFO:NgdBuild:928 - A pullup 'T_OUT1.PULLUP' was added to net
+   '$1I135/$7I1330/T_OUT1'
+INFO:NgdBuild:928 - A pullup 'T_OUT2.PULLUP' was added to net
+   '$1I135/$7I1330/T_OUT2'
+INFO:NgdBuild:928 - A pullup 'T_OUT3.PULLUP' was added to net
+   '$1I135/$7I1330/T_OUT3'
+INFO:NgdBuild:928 - A pullup 'T_OUT4.PULLUP' was added to net
+   '$1I135/$7I1330/T_OUT4'
+INFO:NgdBuild:928 - A pullup 'T_OUT5.PULLUP' was added to net
+   '$1I135/$7I1330/T_OUT5'
+INFO:NgdBuild:928 - A pullup 'T_OUT6.PULLUP' was added to net
+   '$1I135/$7I1330/T_OUT6'
+INFO:NgdBuild:928 - A pullup 'T_OUT7.PULLUP' was added to net
+   '$1I135/$7I1330/T_OUT7'
+INFO:NgdBuild:928 - A pullup 'KIN-1.PULLUP' was added to net
+   '$1I135/$7I1330/KIN-1'
+INFO:NgdBuild:928 - A pullup 'OUT0.PULLUP' was added to net
+   '$1I135/$7I1330/$1I3366/OUT0'
+INFO:NgdBuild:928 - A pullup 'OUT1.PULLUP' was added to net
+   '$1I135/$7I1330/$1I3366/OUT1'
+INFO:NgdBuild:928 - A pullup 'OUT2.PULLUP' was added to net
+   '$1I135/$7I1330/$1I3366/OUT2'
+INFO:NgdBuild:928 - A pullup 'OUT3.PULLUP' was added to net
+   '$1I135/$7I1330/$1I3366/OUT3'
+INFO:NgdBuild:928 - A pullup 'OUT4.PULLUP' was added to net
+   '$1I135/$7I1330/$1I3366/OUT4'
+INFO:NgdBuild:928 - A pullup 'OUT5.PULLUP' was added to net
+   '$1I135/$7I1330/$1I3366/OUT5'
+INFO:NgdBuild:928 - A pullup 'OUT6.PULLUP' was added to net
+   '$1I135/$7I1330/$1I3366/OUT6'
+INFO:NgdBuild:928 - A pullup 'OUT7.PULLUP' was added to net
+   '$1I135/$7I1330/$1I3366/OUT7'
+INFO:NgdBuild:928 - A pullup 'KSET.PULLUP' was added to net
+   '$1I135/$7I1330/$1I3366/KSET'
+
+Checking timing specifications ...
+Checking Partitions ...
+Checking expanded design ...
+WARNING:NgdBuild:440 - FF primitive '$1I135/$1I3030/$13I2844/BU187' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive '$1I135/$1I3030/$13I2844/BU414' has
+   unconnected output pin
+WARNING:NgdBuild:440 - FF primitive '$1I135/$1I3030/$13I2844/BU463' has
+   unconnected output pin
+WARNING:NgdBuild:439 - FF primitive '$1I135/$9I2624' has unconnected input pin
+WARNING:NgdBuild:452 - logical net '$1I135/~DLL_LOCKFB' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/RBXR' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$1I3030/RXER0' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$1I3030/$3I4013/D3' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$1I3031/LL1ST_TRAIL' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$1I3031/TMB_L1ERR' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$1I3031/ALCT_L1ERR' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$1I3031/SUM_TFERR' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$1I3031/$12I4621/D2' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$1I3031/$12I4621/D3' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I1798/I0' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I1894/I0' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I1915/I0' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I2013/DOUT32' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I2013/DOUT33' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I2013/DOUT34' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I2013/DOUT35' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I2013/$1I4575/I11' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I2037/DOUT32' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I2037/DOUT33' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I2037/DOUT34' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I2037/DOUT35' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I2037/$1I4575/I11' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I2187/I0' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I2187/I2' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$6I2187/I3' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$7I1330/$1I4078/D2' has no driver
+WARNING:NgdBuild:452 - logical net '$1I135/$7I1330/$1I4078/D3' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  32
+
+Total memory usage is 96640 kilobytes
+
+Writing NGD file "&0DDUCTRL.ngd" ...
+
+Writing NGDBUILD log file "&0DDUCTRL.bld"...

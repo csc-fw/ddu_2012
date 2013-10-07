@@ -1,0 +1,4 @@
+# Output products list for <dpm32x64>
+dpm32x64.edn
+dpm32x64.xco
+dpm32x64.xcp

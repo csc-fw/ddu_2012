@@ -1,0 +1,310 @@
+V 51
+K 271629802300 D690K
+Y 0
+D 0 0 1700 1100
+Z 1
+i 172
+T 1690 290 30 0 9 v39: 64bit_err reset on BOE, TrgWC now uses all 9 bits, CloseL
++ 1A range now 1usec, BIG L1Afifo w/better Warn/Busy Logic
+Q 12 0 0
+T 1690 265 30 0 9 r2: add hysteresis for L1A_AF/Busy state, tune DAQovfl logic, 
++ tune SysRdy/BUSY logic. r3: tune L1pipe/StuckData logic
+Q 12 0 0
+T 1690 240 30 0 9 -r4: tune CRC_Cnt_Err monitor logic; r5: tune SCAovfl Reset & 
++ CountSample timing
+Q 12 0 0
+T 1690 490 30 0 9 v37:  diagnostic changes....Tune DMBL1err(notALCTerr), BadCtrl
++ (notMissTrg), LIE(addMissTrg),
+Q 12 0 0
+T 1690 465 30 0 9 DMB/TMB/ALCTerr account for MissTrgTrail, DMB-to on Era15, Xtr
++ aTrgTrails on Erc5+13,DDUfmm 3-bits held Reset until SystemRdy
+Q 12 0 0
+T 1690 440 30 0 9 v37r2-3: tune CfebL1aErr/SyncErr &DMBcritErr logic, MultL1err 
++ logic, InSingWarn=Era10,ValidDMBfull=Erb0,DMBtimeout=Era15
+Q 12 0 0
+T 1690 415 30 0 9 v38: DMBcritErr=Erc7, improve Htmb/alct timing,C-codeErr goes 
++ to InMxmitReg, InTimeout goes to EndTimeBusyReg
+Q 12 0 0
+T 1690 390 30 0 9 r2: make DAQovfl for FF case only, include C-CodeErr w/MultXmi
++ tErr, CFEBcrc flags Reset on BOE, C-code-L1er=FIFOb15,
+Q 12 0 0
+T 1690 365 30 0 9 LDMB_CRCok held at least 4 cycles
+Q 12 0 0
+T 690 20 10 0 3 K-Status
+Q 12 0 0
+T 510 20 10 0 3 WordCount
+Q 12 0 0
+T 445 20 10 0 3 EOE
+Q 12 0 0
+T 400 5 20 0 3 TR: 0x/A/?/WW.WWWW/RRRR/UUMK
+Q 13 0 0
+T 150 20 10 0 3 Ostat
+Q 12 0 0
+T 280 20 10 0 3 DMBcnt
+Q 12 0 0
+T 585 20 10 0 3 CRCword
+Q 12 0 0
+T 640 20 10 0 3 EOEstat
+Q 12 0 0
+T 85 70 10 0 3 BOE1
+Q 12 0 0
+T 220 70 10 0 3 BXN
+Q 12 0 0
+T 255 70 10 0 3 ID
+Q 12 0 0
+T 300 70 10 0 3 K-Status
+Q 12 0 0
+T 275 70 10 0 3 FOV
+Q 12 0 0
+T 115 70 10 0 3 type
+Q 12 0 0
+T 145 70 10 0 3 L1A _Number
+Q 12 0 0
+T 175 20 10 0 3 DMB-DAV(15)
+Q 12 0 0
+T 240 20 10 0 3 BOEstat
+Q 12 0 0
+T 50 5 20 0 3 H3: 0x/LLLL/oooo/ZZZZ/GGMY
+Q 13 0 0
+T 90 20 10 0 3 LiveDMB(15)
+Q 12 0 0
+T 50 30 20 0 3 H2: 0x/8000/0001/8000/HHHH
+Q 13 0 0
+T 110 45 10 0 3 49-bit ~unique constant
+Q 12 0 0
+T 230 45 10 0 3 DMBfull(15)
+Q 12 0 0
+T 400 55 20 0 3 T-2: 0x/8000/FFFF/8000/8000
+Q 13 0 0
+T 460 70 10 0 3 64-bit unique constant
+Q 12 0 0
+T 400 30 20 0 3 T-1: 0x/SSSS.SSSS/QQQQ/PPPP
+Q 13 0 0
+T 540 45 10 0 3 DMBerr
+Q 12 0 0
+T 600 45 10 0 3 DMBwarn(15)
+Q 12 0 0
+T 465 45 10 0 3 DDU EOE Status
+Q 12 0 0
+T 30 80 20 0 3 DDU Format Since DDUctrl v15:
+Q 12 0 0
+T 170 -65 20 0 3 DDU WC, 8 DMB with 1 CFEB (nCFEB=8): 666h = 1638 dec, 13104 Byt
++ es
+Q 13 0 0
+T 170 -20 20 0 3 DDU WC, 3 DMB with 1 CFEB (nCFEB=3): 26Ah = 618 dec, 4944 Bytes
++ 
+Q 13 0 0
+T 170 -35 20 0 3 DDU WC, 4 DMB with 1 CFEB (nCFEB=4): 336h = 822 dec, 6576 Bytes
++ 
+Q 13 0 0
+T 170 -50 20 0 3 DDU WC, 7 DMB with 1 CFEB (nCFEB=7): 59Ah = 1434 dec, 11472 Byt
++ es
+Q 13 0 0
+T 855 -20 20 0 3 DDU WC, 11 DMB with 1 CFEB (nCFEB=11): 8CAh = 2250 dec, 18000 B
++ ytes
+Q 13 0 0
+T 855 -35 20 0 3 DDU WC, 12 DMB with 1 CFEB (nCFEB=12): 996h = 2454 dec, 19632 B
++ ytes
+Q 13 0 0
+T 855 -50 20 0 3 DDU WC, 15 DMB with 1 CFEB (nCFEB=15): BFAh = 3066 dec, 24528 B
++ ytes
+Q 13 0 0
+T 1285 100 20 0 9 DDU WordCount (64-bit words) for "No Data" event: 0x006.
+Q 13 0 0
+T 1285 85 20 0 9 DDU WordCount for one DMB (only one CFEB): 0D2h = 210 dec, 1680
++  Bytes
+Q 13 0 0
+T 1285 70 20 0 9 DDU WC, 1 DMB with 2 CFEB (8 samples each): 19Ah = 410 dec, 328
++ 0 Bytes
+Q 13 0 0
+T 1285 55 20 0 9 DDU WC, 2 DMB with 1 CFEB (nCFEB=2): 19Eh = 414 dec, 3312 Bytes
++ 
+Q 13 0 0
+T 1285 40 20 0 9 DDU WC, 2 DMB with 2 CFEB (nCFEB=4): 32Eh = 814 dec, 6512 Bytes
++ 
+Q 13 0 0
+T 1285 20 20 0 9 DDU_WordCount = (6 + 25*Nts*nCFEB + 4*nDMB) < 30070; 240560 Byt
++ es
+Q 13 0 0
+T 65 455 24 0 6 2P
+Q 12 0 0
+T 65 430 24 0 6 3S
+Q 12 0 0
+T 65 405 24 0 6 0S
+Q 12 0 0
+T 65 380 24 0 6 7P
+Q 12 0 0
+T 65 355 24 0 6 5P
+Q 12 0 0
+T 65 330 24 0 6 4S-
+Q 12 0 0
+T 65 305 24 0 6 1S
+Q 12 0 0
+T 65 280 24 0 6 6S-
+Q 12 0 0
+T 65 480 24 0 6 0P
+Q 12 0 0
+T 65 500 30 0 6 TST
+Q 12 0 0
+T 135 480 24 0 3 drck1         5P    *4P  -TR
+Q 11 0 0
+T 135 455 24 0 3 2clk            5S    *1S
+Q 11 0 0
+T 135 405 24 0 3 clk625        2S-   *2S
+Q 11 0 0
+T 135 380 24 0 3 ck125         1P    *0S  -BL
+Q 11 0 0
+T 135 355 24 0 3 clk40          0S    *3P
+Q 11 0 0
+T 135 330 24 0 3 clk156        4S-   *4S
+Q 11 0 0
+T 135 305 24 0 3 drck2          3P    *5S
+Q 11 0 0
+T 135 430 24 0 3 clk             7S    *7S
+Q 11 0 0
+T 230 500 30 0 6 Clock   BUFGMUX
+Q 11 0 0
+T 135 280 24 0 3 sclk            6S-   *6S
+Q 11 0 0
+T 370 265 18 0 9 * denotes LOCed position
+Q 11 0 0
+T 35 815 14 0 2 - COMPARE BXN (DMB/TMB too)
+Q 11 3 0
+T 35 800 14 0 2 - Watch for TRG buff overflows
+Q 11 3 0
+T 1400 5 20 0 9 ^^Ignores TMB Data^^    GBE_ByteCount = 8*DDU_WordCount      _8 
++ TS assumed_
+Q 13 0 0
+T 35 725 14 0 2 - Verify that CFEB-CRC is fixed for B-code case
+Q 11 3 0
+T 60 740 14 0 2 ---> Make DMB stop too
+Q 11 3 0
+T 35 755 14 0 2 - Test DCC/SlinkWait feedback function & thresh's
+Q 11 3 0
+T 60 770 14 0 2 ---> BX offset, KillCh's, FIFO thresh, Board ID
+Q 11 3 0
+T 35 785 14 0 2 - Determine correct values to store in Flash Mem
+Q 11 3 0
+T 35 710 14 0 2 - No logic for BUS1, DCC SBDATA & TDxxx, 4 LSF, 4 LRL
+Q 11 3 0
+T 35 695 14 0 2 - Make Verilog module to get Fiber/DMB_RD in one CLK?
+Q 14 3 0
+T 35 635 24 0 3 Check Phase of CMD to CLK40
+Q 14 0 0
+T 1690 1045 30 0 9 v1-2: from ddu4ctrl_v28,  FIFO Full JTAG Reg is 16-bits
+Q 12 0 0
+T 1690 1020 30 0 9 Last w/DDU_FOV=4 --->>  v10-12: Add RCLK1, Tune OutUnit GT re
++ sets, tune DCC_WAIT modes & add Klll option
+Q 12 0 0
+T 1690 945 30 0 9 v17-18: tune DMB_Full, RST_InStat, EndTimeRST, PRST, add InRD-
++ C-Code JTAG path (F20), GbE Packets now 7952 bytes
+Q 12 0 0
+T 1690 920 30 0 9 v19: Require SLinkWaitEn for CFEB_L1err check; v20: set RCLK0 
++ to FAST24, CkFB to SLOW6--->rev2: SLOW8
+Q 12 0 0
+T 1690 895 30 0 9 v21: add C-code-err Begin/End to JTAG F20, set CLK40-0 to FAST
++ 16, DMBliveErr & In_Time_Out go to BOE_Stat
+Q 12 0 0
+T 1690 870 30 0 9 v22: add DMBLIVE reg's on F25/26, CLK40-1 is FAST16, L1A uses 
++ OFD_1; rev2: CLK40's use F16-OFDDR
+Q 12 0 0
+T 1690 845 30 0 9 Good!  rev3: tune PDMBLIVE_EN & RST_STRT logic   v23: add Kill
++ CFEBchecks & require FKILL15 to EnableCheckDisable,
+Q 12 0 0
+T 1690 820 30 0 9 Good! v24: tune DMBlive timing (yellow FMM), bring signals to 
++ LEDm10/LA0/1
+Q 12 0 0
+T 1690 795 30 0 9 v25: tune L1err & InFerr "DMBliveOK", fix TTMB_Err, tune RstBO
++ E, check CFEB L1A only on 1st sample (not critical)
+Q 12 0 0
+T 50 55 20 0 3 H1: 0x/5T/NN.NNNN/XXX/I.II/VK
+Q 13 0 0
+T 20 195 30 0 3 Default Startup Order:
+Q 13 0 0
+T 60 175 20 0 3 Release DLL (no wait)
+Q 13 0 0
+T 60 160 20 0 3 4) DONE
+Q 13 0 0
+T 60 140 20 0 3 5) En. Outputs
+Q 13 0 0
+T 60 120 20 0 3 6) Release WE
+Q 13 0 0
+T 45 665 14 0 2 * Same for consecutive events with a TRG_L1err?
+Q 14 3 0
+T 45 630 14 0 2 * pg. 2G & 3I
+Q 14 3 0
+T 35 680 14 0 2 - Multiple TRG_L1err ought to request a Sync Reset?
+Q 14 3 0
+T 35 615 14 0 2 - CFEB-DMB sync check pg. 12C
+Q 14 3 0
+T 35 585 14 0 2 - options for Monitoring on pg. 3H, 12E?
+Q 14 3 0
+T 35 570 14 0 2 - Does CFEB-Check-Disable cause TF/SP mimic?
+Q 14 3 0
+T 35 600 14 0 2 - CFEB-L1A check disabled, pg. 12D: not!  Found a fix...
+Q 14 3 0
+T 305 205 24 0 3 Feed SLINK status into FMM logic (for UF).
+T 305 185 24 0 3 Set DMB CRC OK flag for DDU Empty Events?  no...
+T 305 165 24 0 3 In case of StuckData send PRST?  How to distinguish SEU? Later 
++ event still gets LostHdr
+T 330 145 24 0 3 or Timeout, could self-correct. Add "PRSTed" VME register to tr
++ ack occurrence.
+T 305 125 24 0 3 In case of L1Amismatch, let it run and see if it is better a fe
++ w~10 evts later.  Possible to
+T 330 105 24 0 3 self-correct as above...? Can only work if DMB really lost even
++ t data.
+T 20 830 24 0 2 To Do:
+Q 11 3 0
+T 1690 995 30 0 9 v13-14: Fix LVT/LVA, kill DMB-CFEB-Sync, bring DMB Results to 
++ CRCerr;  tune DMB checks, GbE Prescale & SLinkWtEn from VMEctrl
+Q 12 0 0
+T 525 1045 50 0 6 DDU5CTRL -- Project History
+Q 11 3 0
+T 1690 695 30 0 9 v30: tune Critical Error, InRdWarn, SpyOvfl & LextStop logic
+Q 12 0 0
+T 1690 770 30 0 9 v26: BXorbit=3563 now, add IDMB_FULL flag on ERB.  v27: tune C
++ FEB_L1er, 8/16 sample flag, WarnMon & BX offset
+Q 12 0 0
+T 1690 670 30 0 9 v31: tune CFEB-DAV check (OR DAVs from DMB Hdr1 & Hdr2), add S
++ P/TF compatibility & diagnostic logic
+Q 12 0 0
+T 1690 645 30 0 9 v32: change CfebCalDisable default to True, remove DDU_DLL_Err
++  from FMMerr (InRdErr4), modified ERB13 for perm DDU_DLL_err,
+Q 12 0 0
+T 1690 590 30 0 9 v33: change SourceID=760=2F8h for TF-DDU  v34: Inverted CCB_CM
++ D bus & L1A **for TF-DDU ONLY!**
+Q 12 0 0
+T 1690 620 30 0 9 add DDU CSC-Board occupancy monitor-F34?  r2: add zeroing logi
++ c at RST for Occ.Mon.  -r3: fix LRST logic
+Q 12 0 0
+T 1690 515 30 0 9 v36: non-TF DDUs have SrcID==BrdID, NoLiveFibers now readout o
++ n L1A. r2: change TF_SIG to FDRE, Reset CheckCRC with NewTFDMB
+Q 12 0 0
+T 1690 970 30 0 9 v15-16: fix DMBwarn, add VME_FakeL1enable; put DMBLIVE[14:0] i
++ n HDR3; put DMBwarn/err in TR-1, Tune TRG_Trail_Err resets, FOV=5
+Q 12 0 0
+T 1690 745 30 0 9 v28: add Big debug reg. on F21, Timeout reg. on F28 use LnextF
++ IFO, replace LLLREN w/LFOE for TimeoutReg,
+Q 12 0 0
+T 1690 720 30 0 9 make ERA-St/End-TO perm. .  v29: fix Mult.L1Err logic, add InS
++ ingWarn/InML1Err, tune DDUsyncErr, L1A-fake kills TTC-L1A
+Q 12 0 0
+T 1690 540 30 0 9 RdyIn2 requirement for SEN bits.  r3-4, OSyncRst on ~Clk40, tu
++ ne OFIFO Mon, req. VMEctrv17+ & InCtrlv22r3+
+Q 12 0 0
+T 1690 565 30 0 9 v35: Autodetects TF-DDU, now compatible w/wo TF; add SyncHold 
++ & CloseL1A logic;  r2, removed redundant
+Q 12 0 0
+T 280 225 30 0 3 New Ideas:
+T 420 225 24 0 3 Store & check DMB source ID's from each fiber?
+T 1690 315 30 0 9 r4: fix LWCb8 Reset logic for long ALCT case (still not inc. i
++ n WC check though)
+Q 12 0 0
+T 1690 340 30 0 9 r3: add DMB-TO/FIFOfull to TMB/ALCTerr Regs, adjust their time
++  to L2DMBrd; TrgWC only Comp 8 bits, A-T-Switch Req. NoSpwdErr
+Q 12 0 0
+T 1300 120 40 0 9 CSC_L1Err
+Q 14 0 0
+T 1305 125 30 0 3 <--Bring to VME-JTAG Reg?
+Q 14 0 0
+E

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Timing" num="2802" delta="unknown" >Read <arg fmt="%d" index="1">199</arg> constraints.  If you are experiencing memory or runtime issues it may help to consolidate some of these constraints.  For more details please see solution 10784 at support.xilinx.com</msg>
+
+<msg type="warning" file="Timing" num="3232" delta="unknown" >Timing Constraint 
+&quot;<arg fmt="%s" index="1">PERIOD analysis for net &quot;$1I135/GCK156&quot; derived from
+ NET &quot;$1I135/CKFB&quot; PERIOD = 11.6 ns HIGH 50%;
+ divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+</arg>&quot;
+ fails the minimum period check for clock <arg fmt="%s" index="2">$1I135/2CLK</arg> because the period constraint value (<arg fmt="%d" index="3">5800</arg> ps) is less than the minimum internal period limit of <arg fmt="%d" index="4">6274</arg> ps.   Please increase the period of the constraint to remove this timing failure.</msg>
+
+<msg type="warning" file="Timing" num="3232" delta="unknown" >Timing Constraint 
+&quot;<arg fmt="%s" index="1">PERIOD analysis for net &quot;$1I135/GCK156&quot; derived from
+ NET &quot;$1I135/CKFB&quot; PERIOD = 11.6 ns HIGH 50%;
+ divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+</arg>&quot;
+ fails the minimum period check for clock <arg fmt="%s" index="2">$1I135/2CLK</arg> because the period constraint value (<arg fmt="%d" index="3">5800</arg> ps) is less than the minimum internal period limit of <arg fmt="%d" index="4">6274</arg> ps.   Please increase the period of the constraint to remove this timing failure.</msg>
+
+<msg type="warning" file="Timing" num="3232" delta="unknown" >Timing Constraint 
+&quot;<arg fmt="%s" index="1">PERIOD analysis for net &quot;$1I135/GCK156&quot; derived from
+ NET &quot;$1I135/CKFB&quot; PERIOD = 11.6 ns HIGH 50%;
+ divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+</arg>&quot;
+ fails the minimum period check for clock <arg fmt="%s" index="2">$1I135/2CLK</arg> because the period constraint value (<arg fmt="%d" index="3">5800</arg> ps) is less than the minimum internal period limit of <arg fmt="%d" index="4">6274</arg> ps.   Please increase the period of the constraint to remove this timing failure.</msg>
+
+<msg type="warning" file="Timing" num="3232" delta="unknown" >Timing Constraint 
+&quot;<arg fmt="%s" index="1">PERIOD analysis for net &quot;$1I135/GCK156&quot; derived from
+ NET &quot;$1I135/CKFB&quot; PERIOD = 11.6 ns HIGH 50%;
+ divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+</arg>&quot;
+ fails the minimum period check for clock <arg fmt="%s" index="2">$1I135/2CLK</arg> because the period constraint value (<arg fmt="%d" index="3">5800</arg> ps) is less than the minimum internal period limit of <arg fmt="%d" index="4">6274</arg> ps.   Please increase the period of the constraint to remove this timing failure.</msg>
+
+<msg type="info" file="Timing" num="2752" delta="unknown" >To get complete path coverage, use the unconstrained paths option. All paths that are not constrained will be reported in the unconstrained paths section(s) of the report.</msg>
+
+<msg type="info" file="Timing" num="3339" delta="unknown" >The clock-to-out numbers in this timing report are based on a 50 Ohm transmission line loading model.  For the details of this model, and for more information on accounting for different loading conditions, please see the device datasheet.</msg>
+
+</messages>
+

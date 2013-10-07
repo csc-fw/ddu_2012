@@ -1,0 +1,54 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 410099847900 sr8e_one
+DW sr8e_one
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+|Q virtex:fdpe 1
+AS virtex:fdpe LIBVER=2.0.0
+AS virtex:fdpe LEVEL=XILINX
+AS virtex:fdpe @INIT=1
+AS virtex:fdpe PINORDER=C CE D PRE Q
+AP virtex:fdpe 1 PINTYPE=IN
+AP virtex:fdpe 2 PINTYPE=IN
+AP virtex:fdpe 3 PINTYPE=IN
+AP virtex:fdpe 4 PINTYPE=IN
+AP virtex:fdpe 5 PINTYPE=OUT
+AN Q[7:0] VLBUSISONSHEET=1
+W virtex:fdce $1I42
+I $1I42 virtex:fdce C CE CLR Q5 Q6 LABEL=Q6`
+W virtex:fdce $1I41
+I $1I41 virtex:fdce C CE CLR Q1 Q2 LABEL=Q2`
+W virtex:fdce $1I39
+I $1I39 virtex:fdce C CE CLR Q0 Q1 LABEL=Q1`
+W virtex:fdce $1I37
+I $1I37 virtex:fdce C CE CLR Q4 Q5 LABEL=Q5`
+W virtex:fdce $1I34
+I $1I34 virtex:fdce C CE CLR Q2 Q3 LABEL=Q3`
+W virtex:fdce $1I33
+I $1I33 virtex:fdce C CE CLR Q6 Q7 LABEL=Q7`
+W virtex:fdpe $1I44
+I $1I44 virtex:fdpe C CE SLI CLR Q0 LABEL=Q0`
+W virtex:fdce $1I38
+I $1I38 virtex:fdce C CE CLR Q3 Q4 LABEL=Q4`
+P ? SLI
+I SLI ? SLI
+P ? CE
+I CE ? CE
+P ? C
+I C ? C
+P ? CLR
+I CLR ? CLR
+P ? Q[7:0]
+I Q[7:0] ? Q[7:0]
+EW

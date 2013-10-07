@@ -1,0 +1,9 @@
+# Output products list for <af_clb_5x31rpm>
+af_clb_5x31rpm.asy
+af_clb_5x31rpm.edn
+af_clb_5x31rpm.v
+af_clb_5x31rpm.veo
+af_clb_5x31rpm.vhd
+af_clb_5x31rpm.vho
+af_clb_5x31rpm.xco
+af_clb_5x31rpm.xcp

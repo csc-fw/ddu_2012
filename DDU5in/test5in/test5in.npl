@@ -1,0 +1,42 @@
+JDF G
+// Created by Project Navigator ver 1.0
+PROJECT test5in
+DESIGN test5in
+DEVFAM virtex2p
+DEVFAMTIME 0
+DEVICE xc2vp20
+DEVICETIME 0
+DEVPKG fg676
+DEVPKGTIME 0
+DEVSPEED -6
+DEVSPEEDTIME 0
+DEVTOPLEVELMODULETYPE EDIF
+TOPLEVELMODULETYPETIME 0
+DEVSYNTHESISTOOL XST (VHDL/Verilog)
+SYNTHESISTOOLTIME 0
+DEVSIMULATOR Other
+SIMULATORTIME 0
+DEVGENERATEDSIMULATIONMODEL VHDL
+GENERATEDSIMULATIONMODELTIME 0
+SOURCE ..\0test_in.edn
+DEPASSOC 0test_in ..\test5in.ucf
+[Normal]
+p_mapUseRLOCConstraints=edif, virtex2p, Implementation.t_placeAndRouteDes, 1121364422, False
+xilxBitgCfg_Code=edif, virtex2p, EDIF.t_bitFile, 1122997660, 0xDF006E01
+xilxBitgCfg_GenOpt_DRC=edif, virtex2p, EDIF.t_bitFile, 1121364621, False
+xilxBitgCfg_Rate=edif, virtex2p, EDIF.t_bitFile, 1121364621, 15
+xilxBitgStart_Clk_Done=edif, virtex2p, EDIF.t_bitFile, 1121364621, 6
+xilxBitgStart_Clk_EnOut=edif, virtex2p, EDIF.t_bitFile, 1121364621, 3
+xilxBitgStart_Clk_RelDLL=edif, virtex2p, EDIF.t_bitFile, 1121364621, 5
+xilxBitgStart_Clk_WrtEn=edif, virtex2p, EDIF.t_bitFile, 1121364621, 4
+xilxPAReffortLevel=edif, virtex2p, Implementation.t_placeAndRouteDes, 1121364422, High
+xilxPARplacerCostTable=edif, virtex2p, Implementation.t_placeAndRouteDes, 1121364422, 21
+xilxPostTrceRptLimit=edif, virtex2p, Implementation.t_placeAndRouteDes, 1121364422, 199
+xilxPostTrceRptTiming=edif, virtex2p, Implementation.t_placeAndRouteDes, 1121364422, 29
+xilxPreTrceRptLimit=edif, virtex2p, Implementation.t_placeAndRouteDes, 1121364531, 9
+xilxPreTrceRptTiming=edif, virtex2p, Implementation.t_placeAndRouteDes, 1121364531, 9
+[STATUS-ALL]
+0test_in.ncdFile=WARNINGS,1122997719
+0test_in.ngdFile=WARNINGS,1122997665
+[STRATEGY-LIST]
+Normal=True

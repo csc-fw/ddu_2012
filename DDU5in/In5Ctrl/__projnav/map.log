@@ -1,0 +1,4 @@
+Mapping Module 0ddu_in . . .
+MAP command line:
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+Mapping Module 0ddu_in: DONE

@@ -1,0 +1,511 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 7468887480 tst1
+DW ethcntrl
+SA @DATETIME=12-8-2006_14:29 
+SA @NAME=ETHCNTRL 
+SA @SHEET=1 
+|Q virtex2p:and3b1 1
+AS virtex2p:and3b1 LEVEL=XILINX
+AS virtex2p:and3b1 DEVICE=AND
+AS virtex2p:and3b1 LIBVER=2.0.0
+AS virtex2p:and3b1 PINORDER=I0 I1 I2 O
+AP virtex2p:and3b1 1 PARAM=INV
+AP virtex2p:and3b1 1 PINTYPE=IN
+AP virtex2p:and3b1 2 PINTYPE=IN
+AP virtex2p:and3b1 3 PINTYPE=IN
+AP virtex2p:and3b1 4 PINTYPE=OUT
+|Q virtex:bufe8 1
+AS virtex:bufe8 LEVEL=MXILINX
+AS virtex:bufe8 LIBVER=2.0.0
+AS virtex:bufe8 PINORDER=E I[7:0] O[7:0]
+AP virtex:bufe8 1 PINTYPE=IN
+AP virtex:bufe8 2 PINTYPE=IN
+AP virtex:bufe8 3 PINTYPE=TRI
+|Q virtex2p:buf 1
+AS virtex2p:buf LIBVER=2.0.0
+AS virtex2p:buf DEVICE=BUF
+AS virtex2p:buf LEVEL=XILINX
+AS virtex2p:buf PINORDER=I O
+AP virtex2p:buf 1 PINTYPE=IN
+AP virtex2p:buf 2 PINTYPE=OUT
+|Q virtex:vcc 1
+AS virtex:vcc LEVEL=XILINX
+AS virtex:vcc LIBVER=2.0.0
+AS virtex:vcc PINORDER=P
+AP virtex:vcc 1 PINTYPE=OUT
+|Q virtex:sr4ce 1
+AS virtex:sr4ce LEVEL=MXILINX
+AS virtex:sr4ce @INIT=0
+AS virtex:sr4ce LIBVER=2.0.0
+AS virtex:sr4ce PINORDER=C CE CLR Q0 Q1 Q2 Q3 SLI
+AP virtex:sr4ce 1 PINTYPE=IN
+AP virtex:sr4ce 2 PINTYPE=IN
+AP virtex:sr4ce 3 PINTYPE=IN
+AP virtex:sr4ce 4 PINTYPE=OUT
+AP virtex:sr4ce 5 PINTYPE=OUT
+AP virtex:sr4ce 6 PINTYPE=OUT
+AP virtex:sr4ce 7 PINTYPE=OUT
+AP virtex:sr4ce 8 PINTYPE=IN
+|Q virtex:fd8ce 1
+AS virtex:fd8ce LEVEL=MXILINX
+AS virtex:fd8ce @INIT=0
+AS virtex:fd8ce LIBVER=2.0.0
+AS virtex:fd8ce PINORDER=C CE CLR D[7:0] Q[7:0]
+AP virtex:fd8ce 1 PINTYPE=IN
+AP virtex:fd8ce 2 PINTYPE=IN
+AP virtex:fd8ce 3 PINTYPE=IN
+AP virtex:fd8ce 4 PINTYPE=IN
+AP virtex:fd8ce 5 PINTYPE=OUT
+|Q virtex:gnd 1
+AS virtex:gnd LIBVER=2.0.0
+AS virtex:gnd LEVEL=XILINX
+AS virtex:gnd PINORDER=G
+AP virtex:gnd 1 PINTYPE=OUT
+|Q virtex:fdc 1
+AS virtex:fdc LIBVER=2.0.0
+AS virtex:fdc LEVEL=XILINX
+AS virtex:fdc @INIT=0
+AS virtex:fdc DEVICE=DFF
+AS virtex:fdc PINORDER=C CLR D Q
+AP virtex:fdc 1 PINTYPE=IN
+AP virtex:fdc 2 PINTYPE=IN
+AP virtex:fdc 3 PINTYPE=IN
+AP virtex:fdc 4 PINTYPE=OUT
+|Q virtex:inv 1
+AS virtex:inv DEVICE=INV
+AS virtex:inv LIBVER=2.0.0
+AS virtex:inv LEVEL=XILINX
+AS virtex:inv PINORDER=I O
+AP virtex:inv 1 PINTYPE=IN
+AP virtex:inv 2 PINTYPE=OUT
+|Q virtex:buf 1
+AS virtex:buf LIBVER=2.0.0
+AS virtex:buf DEVICE=BUF
+AS virtex:buf LEVEL=XILINX
+AS virtex:buf PINORDER=I O
+AP virtex:buf 1 PINTYPE=IN
+AP virtex:buf 2 PINTYPE=OUT
+|Q virtex:fd16ce 1
+AS virtex:fd16ce LEVEL=MXILINX
+AS virtex:fd16ce @INIT=0
+AS virtex:fd16ce LIBVER=2.0.0
+AS virtex:fd16ce PINORDER=C CE CLR D[15:0] Q[15:0]
+AP virtex:fd16ce 1 PINTYPE=IN
+AP virtex:fd16ce 2 PINTYPE=IN
+AP virtex:fd16ce 3 PINTYPE=IN
+AP virtex:fd16ce 4 PINTYPE=IN
+AP virtex:fd16ce 5 PINTYPE=OUT
+|Q virtex:buft8 1
+AS virtex:buft8 LEVEL=MXILINX
+AS virtex:buft8 LIBVER=2.0.0
+AS virtex:buft8 PINORDER=I[7:0] O[7:0] T
+AP virtex:buft8 1 PINTYPE=IN
+AP virtex:buft8 2 PINTYPE=TRI
+AP virtex:buft8 3 PINTYPE=IN
+|Q virtex:buft 1
+AS virtex:buft LIBVER=2.0.0
+AS virtex:buft DEVICE=TBUF
+AS virtex:buft LEVEL=XILINX
+AS virtex:buft PINORDER=I O T
+AP virtex:buft 1 PINTYPE=IN
+AP virtex:buft 2 PINTYPE=TRI
+AP virtex:buft 3 PINTYPE=IN
+|Q virtex:fdpe 1
+AS virtex:fdpe LIBVER=2.0.0
+AS virtex:fdpe LEVEL=XILINX
+AS virtex:fdpe @INIT=1
+AS virtex:fdpe PINORDER=C CE D PRE Q
+AP virtex:fdpe 1 PINTYPE=IN
+AP virtex:fdpe 2 PINTYPE=IN
+AP virtex:fdpe 3 PINTYPE=IN
+AP virtex:fdpe 4 PINTYPE=IN
+AP virtex:fdpe 5 PINTYPE=OUT
+|Q virtex:or2 1
+AS virtex:or2 DEVICE=OR
+AS virtex:or2 LEVEL=XILINX
+AS virtex:or2 LIBVER=2.0.0
+AS virtex:or2 PINORDER=I0 I1 O
+AP virtex:or2 1 PINTYPE=IN
+AP virtex:or2 2 PINTYPE=IN
+AP virtex:or2 3 PINTYPE=OUT
+|Q virtex:or4 1
+AS virtex:or4 DEVICE=OR
+AS virtex:or4 LEVEL=XILINX
+AS virtex:or4 LIBVER=2.0.0
+AS virtex:or4 PINORDER=I0 I1 I2 I3 O
+AP virtex:or4 1 PINTYPE=IN
+AP virtex:or4 2 PINTYPE=IN
+AP virtex:or4 3 PINTYPE=IN
+AP virtex:or4 4 PINTYPE=IN
+AP virtex:or4 5 PINTYPE=OUT
+|Q virtex:and2 1
+AS virtex:and2 LEVEL=XILINX
+AS virtex:and2 DEVICE=AND
+AS virtex:and2 LIBVER=2.0.0
+AS virtex:and2 PINORDER=I0 I1 O
+AP virtex:and2 1 PINTYPE=IN
+AP virtex:and2 2 PINTYPE=IN
+AP virtex:and2 3 PINTYPE=OUT
+|Q virtex2p:cb2ce 1
+AS virtex2p:cb2ce @INIT=0
+AS virtex2p:cb2ce LIBVER=2.0.0
+AS virtex2p:cb2ce LEVEL=MXILINX
+AS virtex2p:cb2ce PINORDER=C CE CEO CLR Q0 Q1 TC
+AP virtex2p:cb2ce 1 PINTYPE=IN
+AP virtex2p:cb2ce 2 PINTYPE=IN
+AP virtex2p:cb2ce 3 PINTYPE=OUT
+AP virtex2p:cb2ce 4 PINTYPE=IN
+AP virtex2p:cb2ce 5 PINTYPE=OUT
+AP virtex2p:cb2ce 6 PINTYPE=OUT
+AP virtex2p:cb2ce 7 PINTYPE=OUT
+|Q virtex:cb16ce 1
+AS virtex:cb16ce @INIT=0
+AS virtex:cb16ce LIBVER=2.0.0
+AS virtex:cb16ce LEVEL=MXILINX
+AS virtex:cb16ce PINORDER=C CE CEO CLR Q[15:0] TC
+AP virtex:cb16ce 1 PINTYPE=IN
+AP virtex:cb16ce 2 PINTYPE=IN
+AP virtex:cb16ce 3 PINTYPE=OUT
+AP virtex:cb16ce 4 PINTYPE=IN
+AP virtex:cb16ce 5 PINTYPE=OUT
+AP virtex:cb16ce 6 PINTYPE=OUT
+|Q virtex:and2b1 1
+AS virtex:and2b1 LEVEL=XILINX
+AS virtex:and2b1 DEVICE=AND
+AS virtex:and2b1 LIBVER=2.0.0
+AS virtex:and2b1 PINORDER=I0 I1 O
+AP virtex:and2b1 1 PINTYPE=IN
+AP virtex:and2b1 1 PARAM=INV
+AP virtex:and2b1 2 PINTYPE=IN
+AP virtex:and2b1 3 PINTYPE=OUT
+|Q virtex:bufe 1
+AS virtex:bufe LIBVER=2.0.0
+AS virtex:bufe DEVICE=TBUF
+AS virtex:bufe LEVEL=XILINX
+AS virtex:bufe PINORDER=E I O
+AP virtex:bufe 1 PINTYPE=IN
+AP virtex:bufe 2 PINTYPE=IN
+AP virtex:bufe 3 PINTYPE=TRI
+|Q virtex2p:and3b2 1
+AS virtex2p:and3b2 LEVEL=XILINX
+AS virtex2p:and3b2 DEVICE=AND
+AS virtex2p:and3b2 LIBVER=2.0.0
+AS virtex2p:and3b2 PINORDER=I0 I1 I2 O
+AP virtex2p:and3b2 1 PARAM=INV
+AP virtex2p:and3b2 1 PINTYPE=IN
+AP virtex2p:and3b2 2 PARAM=INV
+AP virtex2p:and3b2 2 PINTYPE=IN
+AP virtex2p:and3b2 3 PINTYPE=IN
+AP virtex2p:and3b2 4 PINTYPE=OUT
+|Q virtex:sop4b1 1
+AS virtex:sop4b1 LEVEL=MXILINX
+AS virtex:sop4b1 LIBVER=2.0.0
+AS virtex:sop4b1 PINORDER=I0 I1 I2 I3 O
+AP virtex:sop4b1 1 PINTYPE=IN
+AP virtex:sop4b1 2 PINTYPE=IN
+AP virtex:sop4b1 3 PINTYPE=IN
+AP virtex:sop4b1 4 PINTYPE=IN
+AP virtex:sop4b1 5 PINTYPE=OUT
+|Q virtex2p:fd4ce 1
+AS virtex2p:fd4ce LEVEL=MXILINX
+AS virtex2p:fd4ce @INIT=0
+AS virtex2p:fd4ce LIBVER=2.0.0
+AS virtex2p:fd4ce PINORDER=C CE CLR D0 D1 D2 D3 Q0 Q1 Q2 Q3
+AP virtex2p:fd4ce 1 PINTYPE=IN
+AP virtex2p:fd4ce 2 PINTYPE=IN
+AP virtex2p:fd4ce 3 PINTYPE=IN
+AP virtex2p:fd4ce 4 PINTYPE=IN
+AP virtex2p:fd4ce 5 PINTYPE=IN
+AP virtex2p:fd4ce 6 PINTYPE=IN
+AP virtex2p:fd4ce 7 PINTYPE=IN
+AP virtex2p:fd4ce 8 PINTYPE=OUT
+AP virtex2p:fd4ce 9 PINTYPE=OUT
+AP virtex2p:fd4ce 10 PINTYPE=OUT
+AP virtex2p:fd4ce 11 PINTYPE=OUT
+|Q buf8e 1
+AS buf8e LEVEL=MXILINX
+AS buf8e LIBVER=2.0.0
+AS buf8e @NAME=BUF8E
+AS buf8e PINORDER=E I0 I1 I2 I3 I4 I5 I6 I7 O0 O1 O2 O3 O4 O5 O6 O7
+AP buf8e 1 PINTYPE=IN
+AP buf8e 2 PINTYPE=IN
+AP buf8e 3 PINTYPE=IN
+AP buf8e 4 PINTYPE=IN
+AP buf8e 5 PINTYPE=IN
+AP buf8e 6 PINTYPE=IN
+AP buf8e 7 PINTYPE=IN
+AP buf8e 8 PINTYPE=IN
+AP buf8e 9 PINTYPE=IN
+AP buf8e 10 PINTYPE=OUT
+AP buf8e 11 PINTYPE=OUT
+AP buf8e 12 PINTYPE=OUT
+AP buf8e 13 PINTYPE=OUT
+AP buf8e 14 PINTYPE=OUT
+AP buf8e 15 PINTYPE=OUT
+AP buf8e 16 PINTYPE=OUT
+AP buf8e 17 PINTYPE=OUT
+|Q fd16-64ce 1
+AS fd16-64ce LEVEL=OSU-XILINX
+AS fd16-64ce @NAME=FD16-64CE
+AS fd16-64ce PINORDER=C CE CLR D[15:0] Q[63:0]
+AP fd16-64ce 1 PINTYPE=IN
+AP fd16-64ce 2 PINTYPE=IN
+AP fd16-64ce 3 PINTYPE=IN
+AP fd16-64ce 4 PINTYPE=IN
+AP fd16-64ce 5 PINTYPE=OUT
+|Q fd64ce 1
+AS fd64ce LEVEL=MXILINX
+AS fd64ce @NAME=FD64CE
+AS fd64ce PINORDER=C CE CLR D[63:0] Q[63:0]
+AP fd64ce 1 PINTYPE=IN
+AP fd64ce 2 PINTYPE=IN
+AP fd64ce 3 PINTYPE=IN
+AP fd64ce 4 PINTYPE=IN
+AP fd64ce 5 PINTYPE=OUT
+|Q fd8-16ce 1
+AS fd8-16ce LEVEL=OSU-XILINX
+AS fd8-16ce @NAME=FD8-16CE
+AS fd8-16ce PINORDER=C CE CLR D[7:0] Q[15:0]
+AP fd8-16ce 1 PINTYPE=IN
+AP fd8-16ce 2 PINTYPE=IN
+AP fd8-16ce 3 PINTYPE=IN
+AP fd8-16ce 4 PINTYPE=IN
+AP fd8-16ce 5 PINTYPE=OUT
+|Q virtex2p:nor2 1
+AS virtex2p:nor2 LEVEL=XILINX
+AS virtex2p:nor2 DEVICE=NOR
+AS virtex2p:nor2 LIBVER=2.0.0
+AS virtex2p:nor2 PINORDER=I0 I1 O
+AP virtex2p:nor2 1 PINTYPE=IN
+AP virtex2p:nor2 2 PINTYPE=IN
+AP virtex2p:nor2 3 PINTYPE=OUT
+AP virtex2p:nor2 3 PARAM=INV
+|Q statectl 1
+AS statectl @NAME=STATECTL
+AS statectl PINORDER=BUSY CLK COUT[7:0] DOUT[7:0] FAKEDATA FIBEROK GOODCRC GOODDATA HALF INRST IN[63:0] KOUT LOEDATA LOEHDR LOEIDLE LOESYNC LOE_CRC LOE_TR MT PAE PAF RCLK REN-1 RST S0 SET_MTRST SRST START ~FF
+|Q virtex2p:and3 1
+AS virtex2p:and3 LEVEL=XILINX
+AS virtex2p:and3 DEVICE=AND
+AS virtex2p:and3 LIBVER=2.0.0
+AS virtex2p:and3 PINORDER=I0 I1 I2 O
+AP virtex2p:and3 1 PINTYPE=IN
+AP virtex2p:and3 2 PINTYPE=IN
+AP virtex2p:and3 3 PINTYPE=IN
+AP virtex2p:and3 4 PINTYPE=OUT
+|Q virtex2p:or2b1 1
+AS virtex2p:or2b1 LEVEL=XILINX
+AS virtex2p:or2b1 DEVICE=OR
+AS virtex2p:or2b1 LIBVER=2.0.0
+AS virtex2p:or2b1 PINORDER=I0 I1 O
+AP virtex2p:or2b1 1 PINTYPE=IN
+AP virtex2p:or2b1 1 PARAM=INV
+AP virtex2p:or2b1 2 PINTYPE=IN
+AP virtex2p:or2b1 3 PINTYPE=OUT
+AN CRC[7:0] VLBUSISONSHEET=1
+AN DATA[7:0] VLBUSISONSHEET=1
+AN TX[7:0] VLBUSISONSHEET=1
+AN TX[15:0] VLBUSISONSHEET=1
+AN DAT[7:0] VLBUSISONSHEET=1
+AN D[7:0] VLBUSISONSHEET=1
+AN DCRC[7:0] VLBUSISONSHEET=1
+AN LDIN[63:0] VLBUSISONSHEET=1
+AN IN8BIT[7:0] VLBUSISONSHEET=1
+AN C[7:0] VLBUSISONSHEET=1
+AN IN8BIT[7:0] VLBUSISONSHEET=1
+AN T_OUT[7:0] VLBUSISONSHEET=1
+AN DDIN[63:0] VLBUSISONSHEET=1
+AN KIN[1:0] VLBUSISONSHEET=1
+AN DIN[15:0] VLBUSISONSHEET=1
+AN DIN[17:0] VLBUSISONSHEET=1
+AN DIN[15:0] VLBUSISONSHEET=1
+AN LDIN[63:0] VLBUSISONSHEET=1
+AN CNT[15:0] VLBUSISONSHEET=1
+AN CNT[7:0] VLBUSISONSHEET=1
+AN TOUT[15:0] VLBUSISONSHEET=1
+AN T_OUT[7:0] VLBUSISONSHEET=1
+AN T_OUT[15:0] VLBUSISONSHEET=1
+AN MT_CNT[15:0] VLBUSISONSHEET=1
+AN STATUS[1:0] VLBUSISONSHEET=1
+W virtex2p:and3b1 $1I4243
+I $1I4243 virtex2p:and3b1 LED_MODE7 MODE3 LED_GBE CNT_ENA 
+W virtex:bufe8 $1I4174
+I $1I4174 virtex:bufe8 TENA TX[7:0] T_OUT[7:0] 
+W virtex2p:buf $1I4153
+I $1I4153 virtex2p:buf MODE5 FAKEDATA 
+W virtex:vcc $1I4003
+I $1I4003 virtex:vcc $1N3998 
+W virtex:sr4ce $1I4002
+I $1I4002 virtex:sr4ce CLK $1N3998 RST REN+1 REN+2 ? ? REN 
+W virtex:fd8ce $1I3922
+I $1I3922 virtex:fd8ce CK125 CE_ENCODER $1N3923 DATA[7:0] DAT[7:0] 
+W virtex:gnd $1I3924
+I $1I3924 virtex:gnd $1N3923 
+W virtex:gnd $1I3918
+I $1I3918 virtex:gnd $1N3917 
+W virtex:fdc $1I3920
+I $1I3920 virtex:fdc CK125 $1N3917 KSET-1 KSET 
+W virtex:inv $1I3199
+I $1I3199 virtex:inv ~PAE PAE 
+W virtex:inv $1I3156
+I $1I3156 virtex:inv ~PAF PAF 
+W virtex:inv $1I3207
+I $1I3207 virtex:inv ~HALF HALF 
+W virtex:inv $1I3323
+I $1I3323 virtex:inv FF ~FF 
+W virtex:buf $1I3657
+I $1I3657 virtex:buf KIN0 T_OUT8 
+W virtex:buf $1I3676
+I $1I3676 virtex:buf KERR T_OUT9 
+W virtex:buf $1I3678
+I $1I3678 virtex:buf BUSY T_OUT10 
+W virtex:buf $1I3680
+I $1I3680 virtex:buf ~REN T_OUT11 
+W virtex:buf $1I3682
+I $1I3682 virtex:buf CRC_EN T_OUT12 
+W virtex:buf $1I3684
+I $1I3684 virtex:buf OEHDR T_OUT13 
+W virtex:buf $1I3686
+I $1I3686 virtex:buf OEDATA T_OUT14 
+W virtex:buf $1I3688
+I $1I3688 virtex:buf OE_TR T_OUT15 
+W virtex:gnd $1I3708
+I $1I3708 virtex:gnd $1N3709 
+W virtex:fd16ce $1I3703
+I $1I3703 virtex:fd16ce CK125 CE_ENCODER $1N3709 T_OUT[15:0] TOUT[15:0] 
+W virtex:gnd $1I3905
+I $1I3905 virtex:gnd $1N3904 
+W virtex:gnd $1I3422
+I $1I3422 virtex:gnd $1N3421 
+W virtex:gnd $1I3934
+I $1I3934 virtex:gnd $1N3933 
+W virtex:gnd $1I3446
+I $1I3446 virtex:gnd $1N3447 
+W virtex:fd8ce $1I3929
+I $1I3929 virtex:fd8ce CK125 CE_ENCODER $1N3933 CRC[7:0] DCRC[7:0] 
+W virtex:bufe8 $1I3474
+I $1I3474 virtex:bufe8 CRC_EN C[7:0] IN8BIT[7:0] 
+W virtex:gnd $1I3459
+I $1I3459 virtex:gnd $1N3453 
+W virtex:gnd $1I3460
+I $1I3460 virtex:gnd $1N3458 
+W virtex:buft8 $1I3476
+I $1I3476 virtex:buft8 D[7:0] IN8BIT[7:0] CRC_EN 
+W virtex:buft $1I3897
+I $1I3897 virtex:buft KSET+1 KIN-1 CRC_EN 
+W virtex:fd8ce $1I3445
+I $1I3445 virtex:fd8ce CK125 CE_ENCODER $1N3447 DCRC[7:0] C[7:0] 
+W virtex:fdc $1I3911
+I $1I3911 virtex:fdc CK125 $1N3453 KSET KSET+1 
+W virtex:fd8ce $1I3462
+I $1I3462 virtex:fd8ce CK125 CE_ENCODER $1N3458 DAT[7:0] D[7:0] 
+W virtex:fdc $1I3908
+I $1I3908 virtex:fdc CK125 GBE_RST GOODCRC-1 GOODCRC 
+W virtex:vcc $1I3802
+I $1I3802 virtex:vcc $1N3808 
+W virtex:fdpe $1I3800
+I $1I3800 virtex:fdpe CLK END_MT OFIFO_MT MT_RST MT 
+W virtex:or2 $1I3888
+I $1I3888 virtex:or2 MT EOE_STOP MT_STOP 
+W virtex:or4 $1I4026
+I $1I4026 virtex:or4 SET_MTRST EOE_STOP RST OFIFO_MT MT_RST 
+W virtex:and2 $1I3816
+I $1I3816 virtex:and2 MT_CNT8 MT_CNT10 MT_CNT320 
+W virtex:fdc $1I4048
+I $1I4048 virtex:fdc CLK RST EREN EREN+1 
+W virtex2p:cb2ce $1I4037
+I $1I4037 virtex2p:cb2ce CLK EREN ? RST INWC0 INWC1 ? 
+W virtex:cb16ce $1I3814
+I $1I3814 virtex:cb16ce CLK $1N3808 ? MT_RST MT_CNT[15:0] ? 
+W virtex:and2b1 $1I4006
+I $1I4006 virtex:and2b1 REN+1 REN+2 REN_LO+1 
+W virtex:bufe $1I3898
+I $1I3898 virtex:bufe CRC_EN $1N3904 KIN-1 
+W virtex:fdc $1I3733
+I $1I3733 virtex:fdc CLK $1N3735 KERR KERR+1 
+W virtex:gnd $1I3741
+I $1I3741 virtex:gnd $1N3740 
+W virtex:gnd $1I4089
+I $1I4089 virtex:gnd KERR 
+W virtex:gnd $1I3734
+I $1I3734 virtex:gnd $1N3735 
+W virtex:vcc $1I3499
+I $1I3499 virtex:vcc CE_ENCODER 
+W virtex:gnd $1I4130
+I $1I4130 virtex:gnd $1N4135 
+W virtex:gnd $1I4132
+I $1I4132 virtex:gnd $1N4137 
+W virtex:gnd $1I3783
+I $1I3783 virtex:gnd $1N3784 
+W virtex:bufe8 $1I3785
+I $1I3785 virtex:bufe8 LED_MODE4 CNT[7:0] T_OUT[7:0] 
+W virtex:fdc $1I4136
+I $1I4136 virtex:fdc CK125 $1N4137 KIN0 KIN1 
+W virtex:fdc $1I3467
+I $1I3467 virtex:fdc CK125 GBE_RST GOODCRC CRC_EN 
+W virtex2p:and3b2 $1I4178
+I $1I4178 virtex2p:and3b2 LED_MODE7 MODE3 LED_GBE TENA 
+W virtex:fdc $1I3742
+I $1I3742 virtex:fdc CLK $1N3740 KERR+1 KERR+2 
+W virtex:fdc $1I4133
+I $1I4133 virtex:fdc CK125 $1N4135 KIN-1 KIN0 
+W virtex:sop4b1 $1I4022
+I $1I4022 virtex:sop4b1 ~PAE MT_CNT320 ~PAE MT_CNT7 END_MT 
+W virtex2p:fd4ce $1I4078
+I $1I4078 virtex2p:fd4ce CLK EREN STAT_RST DIN16 DIN17 ? ? STATUS0 STATUS1 ? ? 
+W virtex:inv $1I3766
+I $1I3766 virtex:inv REN ~REN 
+W virtex:and2b1 $1I4075
+I $1I4075 virtex:and2b1 OFIFO_MT REN EREN 
+W buf8e $1I4189
+I $1I4189 buf8e LED_MODE7 GBE_RST GT_RST SET_MTRST STATUS1 OFIFO_MT MT_RST MT_STOP OE_CRC T_OUT0 T_OUT1 T_OUT2 T_OUT3 T_OUT4 T_OUT5 T_OUT6 T_OUT7 
+W fd16-64ce $1I4036
+I $1I4036 fd16-64ce CLK EREN RST DIN[15:0] DDIN[63:0] 
+W fd64ce $1I3358
+I $1I3358 fd64ce CLK EVEN_64B RST DDIN[63:0] LDIN[63:0] 
+W fd8-16ce $1I4146
+I $1I4146 fd8-16ce CK125 CE_ENCODER $1N3421 IN8BIT[7:0] TX[15:0] 
+W virtex2p:nor2 $1I4041
+I $1I4041 virtex2p:nor2 INWC1 INWC0 EVEN_64B 
+W virtex:cb16ce $1I3778
+I $1I3778 virtex:cb16ce CK125 LED_MODE4 ? $1N3784 CNT[15:0] ? 
+W virtex:or2 $1I4009
+I $1I4009 virtex:or2 REN_LO+1 RST STAT_RST 
+W statectl $1I3366
+I $1I3366 statectl BUSY CK125 CRC[7:0] DATA[7:0] FAKEDATA FIBEROK GOODCRC-1 GOODDATA HALF RST LDIN[63:0] KSET-1 OEDATA OEHDR OEIDLE OESYNC OE_CRC OE_TR MT_STOP ~PAE PAF CLK REN GBE_RST S0 SET_MTRST SRST START ~FF 
+W virtex2p:and3 $1I4227
+I $1I4227 virtex2p:and3 EREN+1 EVEN_64B STATUS1 EOE_STOP 
+W virtex2p:or2b1 $1I4234
+I $1I4234 virtex2p:or2b1 FIBEROK SRST GT_RST 
+P ? RST
+I RST ? RST
+P ? OFIFO_MT
+I OFIFO_MT ? OFIFO_MT
+P ? ~REN
+I ~REN ? ~REN
+P ? FIBEROK
+I FIBEROK ? FIBEROK
+P ? CK125
+I CK125 ? CK125
+P ? CLK
+I CLK ? CLK
+P ? TX[15:0]
+I TX[15:0] ? TX[15:0]
+P ? ~PAE
+I ~PAE ? ~PAE
+P ? BUSY
+I BUSY ? BUSY
+P ? FF
+I FF ? FF
+P ? ~HALF
+I ~HALF ? ~HALF
+P ? ~PAF
+I ~PAF ? ~PAF
+P ? KIN[1:0]
+I KIN[1:0] ? KIN[1:0]
+P ? DIN[17:0]
+I DIN[17:0] ? DIN[17:0]
+P ? GT_RST
+I GT_RST ? GT_RST
+EW

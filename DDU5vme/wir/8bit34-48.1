@@ -1,0 +1,54 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 7468887480 tst1
+DW 8bit34-48
+SA @DATETIME=1-6-2005_11:25 
+SA @NAME=8BIT34-48 
+SA @SHEET=1 
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex2p:inv 1
+AS virtex2p:inv DEVICE=INV
+AS virtex2p:inv LIBVER=2.0.0
+AS virtex2p:inv LEVEL=XILINX
+AS virtex2p:inv PINORDER=I O
+AP virtex2p:inv 1 PINTYPE=IN
+AP virtex2p:inv 2 PINTYPE=OUT
+|Q virtex2p:buf 1
+AS virtex2p:buf LIBVER=2.0.0
+AS virtex2p:buf DEVICE=BUF
+AS virtex2p:buf LEVEL=XILINX
+AS virtex2p:buf PINORDER=I O
+AP virtex2p:buf 1 PINTYPE=IN
+AP virtex2p:buf 2 PINTYPE=OUT
+|Q virtex:vcc 1
+AS virtex:vcc LEVEL=XILINX
+AS virtex:vcc LIBVER=2.0.0
+AS virtex:vcc PINORDER=P
+AP virtex:vcc 1 PINTYPE=OUT
+AN O[7:0] VLBUSISONSHEET=1
+W virtex2p:gnd $1I3081
+I $1I3081 virtex2p:gnd O2 
+W virtex2p:gnd $1I3080
+I $1I3080 virtex2p:gnd O7 
+W virtex2p:gnd $1I3079
+I $1I3079 virtex2p:gnd O6 
+W virtex2p:gnd $1I3082
+I $1I3082 virtex2p:gnd O3 
+W virtex2p:gnd $1I3083
+I $1I3083 virtex2p:gnd O0 
+W virtex2p:inv $1I3088
+I $1I3088 virtex2p:inv SEL34 O4 
+W virtex2p:buf $1I3087
+I $1I3087 virtex2p:buf SEL34 O1 
+W virtex:vcc $1I3076
+I $1I3076 virtex:vcc O5 
+P ? SEL34
+I SEL34 ? SEL34
+P ? O[7:0]
+I O[7:0] ? O[7:0]
+EW

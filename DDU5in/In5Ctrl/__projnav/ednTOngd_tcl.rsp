@@ -1,0 +1,3 @@
+set ADucfFile {../in5ctrl.ucf}
+set AD {}
+set ADcdcFile {}

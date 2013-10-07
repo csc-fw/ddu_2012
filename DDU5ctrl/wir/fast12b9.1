@@ -1,0 +1,116 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 291696349900 comp16c
+DW fast12b9
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex2p:nor4 1
+AS virtex2p:nor4 DEVICE=NOR
+AS virtex2p:nor4 LEVEL=XILINX
+AS virtex2p:nor4 LIBVER=2.0.0
+AS virtex2p:nor4 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:nor4 1 PINTYPE=IN
+AP virtex2p:nor4 2 PINTYPE=IN
+AP virtex2p:nor4 3 PINTYPE=IN
+AP virtex2p:nor4 4 PINTYPE=IN
+AP virtex2p:nor4 5 PINTYPE=OUT
+AP virtex2p:nor4 5 PARAM=INV
+|Q virtex2p:muxcy_l 1
+AS virtex2p:muxcy_l LIBVER=2.0.0
+AS virtex2p:muxcy_l LEVEL=XILINX
+AS virtex2p:muxcy_l DEVICE=CY_MUX
+AS virtex2p:muxcy_l PINORDER=CI DI LO S
+AP virtex2p:muxcy_l 1 PINTYPE=IN
+AP virtex2p:muxcy_l 2 PINTYPE=IN
+AP virtex2p:muxcy_l 3 PINTYPE=OUT
+AP virtex2p:muxcy_l 4 PINTYPE=IN
+|Q virtex2p:fmap 1
+AS virtex2p:fmap DEVICE=FMAP
+AS virtex2p:fmap LEVEL=XILINX
+AS virtex2p:fmap LIBVER=2.0.0
+AS virtex2p:fmap PINORDER=I1 I2 I3 I4 O
+AP virtex2p:fmap 1 PINTYPE=IN
+AP virtex2p:fmap 2 PINTYPE=IN
+AP virtex2p:fmap 3 PINTYPE=IN
+AP virtex2p:fmap 4 PINTYPE=IN
+AP virtex2p:fmap 5 PINTYPE=IN
+|Q virtex2p:vcc 1
+AS virtex2p:vcc LEVEL=XILINX
+AS virtex2p:vcc LIBVER=2.0.0
+AS virtex2p:vcc PINORDER=P
+AP virtex2p:vcc 1 PINTYPE=OUT
+|Q virtex2p:nor4b2 1
+AS virtex2p:nor4b2 LEVEL=XILINX
+AS virtex2p:nor4b2 DEVICE=NOR
+AS virtex2p:nor4b2 LIBVER=2.0.0
+AS virtex2p:nor4b2 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:nor4b2 1 PARAM=INV
+AP virtex2p:nor4b2 1 PINTYPE=IN
+AP virtex2p:nor4b2 2 PARAM=INV
+AP virtex2p:nor4b2 2 PINTYPE=IN
+AP virtex2p:nor4b2 3 PINTYPE=IN
+AP virtex2p:nor4b2 4 PINTYPE=IN
+AP virtex2p:nor4b2 5 PINTYPE=OUT
+AP virtex2p:nor4b2 5 PARAM=INV
+|Q virtex2p:muxcy 1
+AS virtex2p:muxcy LIBVER=2.0.0
+AS virtex2p:muxcy LEVEL=XILINX
+AS virtex2p:muxcy DEVICE=CY_MUX
+AS virtex2p:muxcy PINORDER=CI DI O S
+AP virtex2p:muxcy 1 PINTYPE=IN
+AP virtex2p:muxcy 2 PINTYPE=IN
+AP virtex2p:muxcy 3 PINTYPE=OUT
+AP virtex2p:muxcy 4 PINTYPE=IN
+AN A[1:0] VLBUSISONSHEET=1
+AN B[1:0] VLBUSISONSHEET=1
+AN D[1:0] VLBUSISONSHEET=1
+AN C[1:0] VLBUSISONSHEET=1
+W virtex2p:gnd $1I2603
+I $1I2603 virtex2p:gnd $1N2604 
+W virtex2p:nor4 $1I2599
+I $1I2599 virtex2p:nor4 B1 B0 A1 A0 INT1 
+W virtex2p:muxcy_l $1I2554
+I $1I2554 virtex2p:muxcy_l CY1 $1N2596 CY2 INT1 RLOC=X0Y0`
+W virtex2p:muxcy_l $1I2563
+I $1I2563 virtex2p:muxcy_l CY0 $1N2557 CY1 INT0 RLOC=X0Y0`
+W virtex2p:fmap $1I2501
+I $1I2501 virtex2p:fmap D1 D0 C1 C0 INT0 RLOC=X0Y0`
+W virtex2p:nor4 $1I2598
+I $1I2598 virtex2p:nor4 D1 D0 C1 C0 INT0 
+W virtex2p:gnd $1I2601
+I $1I2601 virtex2p:gnd $1N2557 
+W virtex2p:gnd $1I2597
+I $1I2597 virtex2p:gnd $1N2596 
+W virtex2p:fmap $1I2495
+I $1I2495 virtex2p:fmap B1 B0 A1 A0 INT1 RLOC=X0Y0`
+W virtex2p:vcc $1I2600
+I $1I2600 virtex2p:vcc CY0 
+W virtex2p:fmap $1I2507
+I $1I2507 virtex2p:fmap I2 I1 I0 EN INT2 RLOC=X0Y1`
+W virtex2p:nor4b2 $1I2616
+I $1I2616 virtex2p:nor4b2 EN I0 I2 I1 INT2 
+W virtex2p:muxcy $1I2544
+I $1I2544 virtex2p:muxcy CY2 $1N2604 O INT2 RLOC=X0Y1`
+P ? O
+I O ? O
+P ? EN
+I EN ? EN
+P ? I2
+I I2 ? I2
+P ? I1
+I I1 ? I1
+P ? I0
+I I0 ? I0
+P ? A[1:0]
+I A[1:0] ? A[1:0]
+P ? B[1:0]
+I B[1:0] ? B[1:0]
+P ? D[1:0]
+I D[1:0] ? D[1:0]
+P ? C[1:0]
+I C[1:0] ? C[1:0]
+EW

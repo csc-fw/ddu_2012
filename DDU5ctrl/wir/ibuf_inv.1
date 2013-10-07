@@ -1,0 +1,28 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 326767024600 ibuf_inv
+DW ibuf_inv
+|Q virtex:inv 1
+AS virtex:inv DEVICE=INV
+AS virtex:inv LIBVER=2.0.0
+AS virtex:inv LEVEL=XILINX
+AS virtex:inv PINORDER=I O
+AP virtex:inv 1 PINTYPE=IN
+AP virtex:inv 2 PINTYPE=OUT
+|Q virtex:ibuf 1
+AS virtex:ibuf LIBVER=2.0.0
+AS virtex:ibuf LEVEL=XILINX
+AS virtex:ibuf IOSTANDARD=LVCMOS25
+AS virtex:ibuf PINORDER=I O
+AP virtex:ibuf 1 PINTYPE=CHIPIN
+AP virtex:ibuf 2 PINTYPE=OUT
+W virtex:inv $1I14
+I $1I14 virtex:inv INT O 
+W virtex:ibuf $1I16
+I $1I16 virtex:ibuf I INT IOSTANDARD=LVCMOS33`
+P ? O
+I O ? O
+P ? I
+I I ? I
+EW

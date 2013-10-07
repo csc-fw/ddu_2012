@@ -1,0 +1,17 @@
+| Command used:
+| fusion.exe -vsm M:\WV\D785\DDU5in\in_unit.vsm -ticksize 100ps -verilog M:\WV\D785\DDU5in\af_clb_5x31rpm.v M:\WV\D785\DDU5in\GT_CUSTOM.v -u -debug -l vcscomp.log +typdelays 
+|
+| Typical delays in use.
+| All delays scaled by 1.
+| 2000 digital modules processed.
+| 2000 net name equivalences processed.
+| Initializing simulator ...
+| 
+| System Cmd: vifext.exe in_unit -oFusion\in_unit.ext -maf_clb_5x31rpm -mgt_custom -u
+| fusion: Warning 2459:  vifext: Unable to find verilog module: af_clb_5x31rpm
+| fusion: Warning 2459:  vifext: Unable to find verilog module: gt_custom
+| vifext terminated with error(s)
+| [E] Unable to create HDL symbol pin information.
+| [I] 2 HDL model(s) NOT elaborated.
+| [W] Verilog models are not elaborated.
+| Design processing complete.

@@ -1,0 +1,187 @@
+V 51
+K 271629802300 D690K
+Y 0
+D 0 0 1700 1100
+Z 1
+i 168
+I 111 COVER 1 0 0 0 1 '
+T 1330 25 20 0 9 Ethernet_ByteCount = 8*DDU_WordCount      _16 TS assumed_
+Q 13 0 0
+T 690 40 10 0 3 K-Status
+Q 12 0 0
+T 510 40 10 0 3 WordCount
+Q 12 0 0
+T 445 40 10 0 3 EOE
+Q 12 0 0
+T 400 25 20 0 3 TR: 0x/A/?/WW.WWWW/RRRR/UUMK
+Q 13 0 0
+T 150 40 10 0 3 Ostat
+Q 12 0 0
+T 280 40 10 0 3 DMBcnt
+Q 12 0 0
+T 585 40 10 0 3 CRCword
+Q 12 0 0
+T 640 40 10 0 3 EOEstat
+Q 12 0 0
+T 85 90 10 0 3 BOE1
+Q 12 0 0
+T 220 90 10 0 3 BXN
+Q 12 0 0
+T 255 90 10 0 3 ID
+Q 12 0 0
+T 300 90 10 0 3 K-Status
+Q 12 0 0
+T 275 90 10 0 3 FOV
+Q 12 0 0
+T 115 90 10 0 3 type
+Q 12 0 0
+T 145 90 10 0 3 L1A _Number
+Q 12 0 0
+T 50 75 20 0 3 H1: 0x/5T/NN.NNNN/XXX/I.II/VK
+Q 13 0 0
+T 175 40 10 0 3 DMB-DAV(15)
+Q 12 0 0
+T 240 40 10 0 3 BOEstat
+Q 12 0 0
+T 50 25 20 0 3 H3: 0x/LLLL/oooo/ZZZZ/GGMY
+Q 13 0 0
+T 90 40 10 0 3 LiveDMB(15)
+Q 12 0 0
+T 50 50 20 0 3 H2: 0x/8000/0001/8000/HHHH
+Q 13 0 0
+T 110 65 10 0 3 49-bit ~unique constant
+Q 12 0 0
+T 230 65 10 0 3 DMBfull(15)
+Q 12 0 0
+T 400 75 20 0 3 T-2: 0x/8000/FFFF/8000/8000
+Q 13 0 0
+T 460 90 10 0 3 64-bit unique constant
+Q 12 0 0
+T 400 50 20 0 3 T-1: 0x/SSSS.SSSS/QQQQ/PPPP
+Q 13 0 0
+T 540 65 10 0 3 DMBerr
+Q 12 0 0
+T 600 65 10 0 3 DMBwarn(15)
+Q 12 0 0
+T 465 65 10 0 3 DDU EOE Status
+Q 12 0 0
+T 30 100 20 0 3 DDU Format Since DDUctrl v15:
+Q 12 0 0
+c 45 1353 1
+T 190 650 24 0 3 (INIT, BUSY, WRITE, CS)
+Q 14 0 0
+T 900 565 30 0 3 2: Mode Bit 1
+Q 12 0 0
+T 900 595 30 0 3 1: Mode Bit 0
+Q 12 0 0
+T 870 660 30 0 3 BXR Pulse: Dump Data Mode (no L1A needed)
+Q 12 0 0
+T 55 335 30 0 3 25=DMB
+Q 13 0 0
+T 55 310 30 0 3 26=TMB
+Q 13 0 0
+T 55 235 30 0 3 29=DCC
+Q 13 0 0
+T 55 260 30 0 3 28=DDU
+Q 13 0 0
+T 35 385 30 0 3 VME Broadcast Addresses:
+Q 13 0 0
+T 55 285 30 0 3 27=Both DMB and TMB
+Q 13 0 0
+T 55 360 30 0 3 24=OSU-TCB "Test Control Board"
+Q 13 0 0
+T 1265 120 20 0 9 DDU WordCount (64-bit words) for "No Data" event: 0x006.
+Q 13 0 0
+T 1300 215 14 0 2 - Watch for TRG buff overflows
+Q 11 3 0
+T 1300 200 14 0 2 - Tune CRC logic for DMB error case
+Q 11 3 0
+T 1300 185 14 0 2 - Connect and drive FMM signals
+Q 11 3 0
+T 1325 170 14 0 2 ---> Set correct default state on board!
+Q 11 3 0
+T 1300 155 14 0 2 - Monitor: Active-DAV mismatch warn,
+Q 11 3 0
+T 1325 140 14 0 2 MOVLP bad evt, BXN match err
+Q 11 3 0
+T 35 495 30 0 3 To Do List:
+Q 13 0 0
+T 60 440 30 0 3 Disable REN/OWEN when Ext FIFO goes FULL
+Q 13 0 0
+T 60 415 30 0 3 Put something useful on HDR/TR[35,34,17,16]?
+Q 13 0 0
+T 60 465 30 0 3 Drive more LA ports, LEDs and TPs
+Q 13 0 0
+T 870 695 30 0 3 RST_1=Asynchronus Reset for FPGA1 and ALL FIFOs
+Q 12 0 0
+T 900 505 30 0 3 4: Mode Bit 3
+Q 12 0 0
+T 900 535 30 0 3 3: Mode Bit 2
+Q 12 0 0
+T 900 415 30 0 3 7: Set Fake_L1A (data passthrough)
+Q 12 0 0
+T 900 385 30 0 3 8: Set all IO bits HIGH, ~FPGA version on LEDs
+Q 12 0 0
+T 900 475 30 0 3 5: Mode Bit 4, Low-bit for FakeL1A Wait control
+Q 12 0 0
+T 900 445 30 0 3 6: Mode Bit 5, High-bit for FakeL1A Wait control
+Q 12 0 0
+T 805 1015 50 0 6 Test_In DDU5:  FIFO Bit Tester
+Q 11 3 0
+T 805 975 35 0 6 Use PRBG to test TI SDR FIFO bits
+Q 11 3 0
+T 870 625 30 0 3 Mode 1 Switch Block
+Q 12 0 0
+T 550 700 50 0 3 All I/O is 3.3V
+Q 14 0 0
+T 545 520 24 0 2 test5in
+Q 11 3 0
+T 1275 245 24 0 2 To Do:
+Q 11 3 0
+T 1300 230 14 0 2 - COMPARE L1NUM & BXN (DMB TOO)
+Q 11 3 0
+T 1625 480 14 0 9 01:  ~98 kHz
+Q 11 3 0
+T 1625 465 14 0 9 10:  ~9.1 kHz
+Q 11 3 0
+T 1625 450 14 0 9 11:  ~0.6 kHz
+Q 11 3 0
+T 1665 515 24 0 9 InFPGA WAIT setting Rates:
+Q 11 3 0
+T 1625 495 14 0 9 00:  ~140 kHz
+Q 11 3 0
+T 1265 40 20 0 9 DDU_WordCount = (6 + 25*Nts*nCFEB + 4*nDMB) <= 30070
+Q 13 0 0
+T 1270 50 18 0 2 (ignoring Trigger boards)
+Q 13 0 0
+T 1265 105 20 0 9 DDU WordCount for one DMB (only one CFEB): 0x19A = 410 dec.
+Q 13 0 0
+T 1265 90 20 0 9 DDU WC, 1 DMB with 2 CFEB: 0x32A = 810 dec.
+Q 13 0 0
+T 1265 75 20 0 9 DDU WC, 2 DMB with 1 CFEB (nCFEB=2): 0x32E = 814 dec.
+Q 13 0 0
+T 1265 60 20 0 9 DDU WC, 2 DMB with 2 CFEB (nCFEB=4): 0x64E = 1614 dec.
+Q 13 0 0
+T 1665 935 30 0 9 v2: Delay OWEN by 1 CLK, put EvCntRst & BC0 & RstOut on LEDm0(
++ 0-2)
+Q 12 0 0
+T 1665 960 30 0 9 v1: Begin with DDU5in V10, OW's use FDP_1
+Q 12 0 0
+U 35 530 40 0 3 1 PROM=2*XC18V04-VQ44 (PARALLEL)
+U 1650 1035 40 0 9 3 @DATETIME=8-2-2005_11:45
+U 70 670 30 0 3 1 AVOID=Y21, E23, C22, E21
+U 70 590 30 0 3 1 NC_XCV400E_FG676=D13, Y13
+U 70 620 30 0 3 1 NC_XCV400_FG676=B13, AF13
+U 35 700 40 0 3 1 PART=XC2VP20-6-FG676
+T 1670 995 35 0 9 DF006E01   Version 6
+Q 13 3 0
+T 1665 910 30 0 9 v3: tune & bring out LWCNT, fix InBC0 I/O, tune TrFlag timing
+Q 12 0 0
+T 1665 885 30 0 9 v4-5: Fix LWCnt_LD, fix FPAF signals, put TrFlag on 4 bits now
++ 
+Q 12 0 0
+T 1665 860 30 0 9 v6: reduce event size to WC=480, use KILL bits to stop Event G
++ enerator
+Q 12 0 0
+I 162 TEST_IN 1 710 430 0 1 '
+E

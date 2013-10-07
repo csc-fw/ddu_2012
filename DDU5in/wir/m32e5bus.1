@@ -1,0 +1,94 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 96331253790 m32_1e
+DW m32e5bus
+|Q virtex2p:m2_1e 1
+AS virtex2p:m2_1e LEVEL=MXILINX
+AS virtex2p:m2_1e LIBVER=2.0.0
+AS virtex2p:m2_1e PINORDER=D0 D1 E O S0
+AP virtex2p:m2_1e 1 PINTYPE=IN
+AP virtex2p:m2_1e 2 PINTYPE=IN
+AP virtex2p:m2_1e 3 PINTYPE=IN
+AP virtex2p:m2_1e 4 PINTYPE=OUT
+AP virtex2p:m2_1e 5 PINTYPE=IN
+|Q virtex2p:muxf6_d 1
+AS virtex2p:muxf6_d LIBVER=2.0.0
+AS virtex2p:muxf6_d LEVEL=XILINX
+AS virtex2p:muxf6_d PINORDER=I0 I1 LO O S
+AP virtex2p:muxf6_d 1 PINTYPE=IN
+AP virtex2p:muxf6_d 2 PINTYPE=IN
+AP virtex2p:muxf6_d 3 PINTYPE=OUT
+AP virtex2p:muxf6_d 4 PINTYPE=OUT
+AP virtex2p:muxf6_d 5 PINTYPE=IN
+|Q virtex2p:muxf5_l 1
+AS virtex2p:muxf5_l LIBVER=2.0.0
+AS virtex2p:muxf5_l LEVEL=XILINX
+AS virtex2p:muxf5_l PINORDER=I0 I1 LO S
+AP virtex2p:muxf5_l 1 PINTYPE=IN
+AP virtex2p:muxf5_l 2 PINTYPE=IN
+AP virtex2p:muxf5_l 3 PINTYPE=OUT
+AP virtex2p:muxf5_l 4 PINTYPE=IN
+|Q virtex2p:muxf7_d 1
+AS virtex2p:muxf7_d LIBVER=2.0.0
+AS virtex2p:muxf7_d LEVEL=XILINX
+AS virtex2p:muxf7_d PINORDER=I0 I1 LO O S
+AP virtex2p:muxf7_d 1 PINTYPE=IN
+AP virtex2p:muxf7_d 2 PINTYPE=IN
+AP virtex2p:muxf7_d 3 PINTYPE=OUT
+AP virtex2p:muxf7_d 4 PINTYPE=OUT
+AP virtex2p:muxf7_d 5 PINTYPE=IN
+|Q virtex2p:muxf8_d 1
+AS virtex2p:muxf8_d LIBVER=2.0.0
+AS virtex2p:muxf8_d LEVEL=XILINX
+AS virtex2p:muxf8_d PINORDER=I0 I1 LO O S
+AP virtex2p:muxf8_d 1 PINTYPE=IN
+AP virtex2p:muxf8_d 2 PINTYPE=IN
+AP virtex2p:muxf8_d 3 PINTYPE=OUT
+AP virtex2p:muxf8_d 4 PINTYPE=OUT
+AP virtex2p:muxf8_d 5 PINTYPE=IN
+AN S[4:0] VLBUSISONSHEET=1
+AN D[15:0] VLBUSISONSHEET=1
+AN D[31:16] VLBUSISONSHEET=1
+AN D[31:0] VLBUSISONSHEET=1
+W virtex2p:m2_1e $1I271
+I $1I271 virtex2p:m2_1e D0 D1 E M01 S0 LABEL=M01`
+W virtex2p:m2_1e $1I272
+I $1I272 virtex2p:m2_1e D2 D3 E M23 S0 LABEL=M23`
+W virtex2p:m2_1e $1I273
+I $1I273 virtex2p:m2_1e D4 D5 E M45 S0 LABEL=M45`
+W virtex2p:m2_1e $1I274
+I $1I274 virtex2p:m2_1e D6 D7 E M67 S0 LABEL=M67`
+W virtex2p:m2_1e $1I275
+I $1I275 virtex2p:m2_1e D8 D9 E M89 S0 LABEL=M89`
+W virtex2p:m2_1e $1I276
+I $1I276 virtex2p:m2_1e D10 D11 E MAB S0 LABEL=MAB`
+W virtex2p:m2_1e $1I277
+I $1I277 virtex2p:m2_1e D12 D13 E MCD S0 LABEL=MCD`
+W virtex2p:m2_1e $1I278
+I $1I278 virtex2p:m2_1e D14 D15 E MEF S0 LABEL=MEF`
+W virtex2p:muxf6_d $1I269
+I $1I269 virtex2p:muxf6_d M03 M47 MO7 ? S2 LABEL=M07`
+W virtex2p:muxf5_l $1I164
+I $1I164 virtex2p:muxf5_l MCD MEF MCF S1 LABEL=MCF`
+W virtex2p:muxf5_l $1I2
+I $1I2 virtex2p:muxf5_l M01 M23 M03 S1 LABEL=M03`
+W virtex2p:muxf5_l $1I154
+I $1I154 virtex2p:muxf5_l M89 MAB M8B S1 LABEL=M8B`
+W virtex2p:muxf5_l $1I144
+I $1I144 virtex2p:muxf5_l M45 M67 M47 S1 LABEL=M47`
+W virtex2p:muxf6_d $1I261
+I $1I261 virtex2p:muxf6_d M8B MCF M8F ? S2 LABEL=M8F`
+W virtex2p:muxf7_d $1I268
+I $1I268 virtex2p:muxf7_d MO7 M8F M0F ? S3 LABEL=M0F`
+W virtex2p:muxf8_d $1I289
+I $1I289 virtex2p:muxf8_d M0F M10F ? O S4 LABEL=M010F`
+P ? S[4:0]
+I S[4:0] ? S[4:0]
+P ? O
+I O ? O
+P ? E
+I E ? E
+P ? D[31:0]
+I D[31:0] ? D[31:0]
+EW

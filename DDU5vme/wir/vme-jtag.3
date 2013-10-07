@@ -1,0 +1,189 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 118209874400 fpga
+DW vme-jtag
+SA @SHEET=3 
+SA @NAME=VME-JTAG 
+SA @DATETIME=3-27-2007_15:18 
+|Q virtex2p:and2b1 1
+AS virtex2p:and2b1 LEVEL=XILINX
+AS virtex2p:and2b1 DEVICE=AND
+AS virtex2p:and2b1 LIBVER=2.0.0
+AS virtex2p:and2b1 PINORDER=I0 I1 O
+AP virtex2p:and2b1 1 PINTYPE=IN
+AP virtex2p:and2b1 1 PARAM=INV
+AP virtex2p:and2b1 2 PINTYPE=IN
+AP virtex2p:and2b1 3 PINTYPE=OUT
+|Q virtex:fd 1
+AS virtex:fd @INIT=0
+AS virtex:fd DEVICE=DFF
+AS virtex:fd LIBVER=2.0.0
+AS virtex:fd LEVEL=XILINX
+AS virtex:fd PINORDER=C D Q
+AP virtex:fd 1 PINTYPE=IN
+AP virtex:fd 2 PINTYPE=IN
+AP virtex:fd 3 PINTYPE=OUT
+|Q virtex:fdpe 1
+AS virtex:fdpe LIBVER=2.0.0
+AS virtex:fdpe LEVEL=XILINX
+AS virtex:fdpe @INIT=1
+AS virtex:fdpe PINORDER=C CE D PRE Q
+AP virtex:fdpe 1 PINTYPE=IN
+AP virtex:fdpe 2 PINTYPE=IN
+AP virtex:fdpe 3 PINTYPE=IN
+AP virtex:fdpe 4 PINTYPE=IN
+AP virtex:fdpe 5 PINTYPE=OUT
+|Q virtex:bufe 1
+AS virtex:bufe LIBVER=2.0.0
+AS virtex:bufe DEVICE=TBUF
+AS virtex:bufe LEVEL=XILINX
+AS virtex:bufe PINORDER=E I O
+AP virtex:bufe 1 PINTYPE=IN
+AP virtex:bufe 2 PINTYPE=IN
+AP virtex:bufe 3 PINTYPE=TRI
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+|Q virtex:and2 1
+AS virtex:and2 LEVEL=XILINX
+AS virtex:and2 DEVICE=AND
+AS virtex:and2 LIBVER=2.0.0
+AS virtex:and2 PINORDER=I0 I1 O
+AP virtex:and2 1 PINTYPE=IN
+AP virtex:and2 2 PINTYPE=IN
+AP virtex:and2 3 PINTYPE=OUT
+|Q virtex:cb4ce 1
+AS virtex:cb4ce @INIT=0
+AS virtex:cb4ce LIBVER=2.0.0
+AS virtex:cb4ce LEVEL=MXILINX
+AS virtex:cb4ce PINORDER=C CE CEO CLR Q0 Q1 Q2 Q3 TC
+AP virtex:cb4ce 1 PINTYPE=IN
+AP virtex:cb4ce 2 PINTYPE=IN
+AP virtex:cb4ce 3 PINTYPE=OUT
+AP virtex:cb4ce 4 PINTYPE=IN
+AP virtex:cb4ce 5 PINTYPE=OUT
+AP virtex:cb4ce 6 PINTYPE=OUT
+AP virtex:cb4ce 7 PINTYPE=OUT
+AP virtex:cb4ce 8 PINTYPE=OUT
+AP virtex:cb4ce 9 PINTYPE=OUT
+|Q virtex:fd_1 1
+AS virtex:fd_1 @INIT=0
+AS virtex:fd_1 LEVEL=XILINX
+AS virtex:fd_1 LIBVER=2.0.0
+AS virtex:fd_1 DEVICE=DFF
+AS virtex:fd_1 PINORDER=C D Q
+AP virtex:fd_1 1 PINTYPE=IN
+AP virtex:fd_1 2 PINTYPE=IN
+AP virtex:fd_1 3 PINTYPE=OUT
+|Q virtex:gnd 1
+AS virtex:gnd LIBVER=2.0.0
+AS virtex:gnd LEVEL=XILINX
+AS virtex:gnd PINORDER=G
+AP virtex:gnd 1 PINTYPE=OUT
+|Q virtex:nor5 1
+AS virtex:nor5 LEVEL=XILINX
+AS virtex:nor5 LIBVER=2.0.0
+AS virtex:nor5 PINORDER=I0 I1 I2 I3 I4 O
+AP virtex:nor5 1 PINTYPE=IN
+AP virtex:nor5 2 PINTYPE=IN
+AP virtex:nor5 3 PINTYPE=IN
+AP virtex:nor5 4 PINTYPE=IN
+AP virtex:nor5 5 PINTYPE=IN
+AP virtex:nor5 6 PINTYPE=OUT
+|Q virtex:or2 1
+AS virtex:or2 DEVICE=OR
+AS virtex:or2 LEVEL=XILINX
+AS virtex:or2 LIBVER=2.0.0
+AS virtex:or2 PINORDER=I0 I1 O
+AP virtex:or2 1 PINTYPE=IN
+AP virtex:or2 2 PINTYPE=IN
+AP virtex:or2 3 PINTYPE=OUT
+|Q virtex2p:and3b1 1
+AS virtex2p:and3b1 LEVEL=XILINX
+AS virtex2p:and3b1 DEVICE=AND
+AS virtex2p:and3b1 LIBVER=2.0.0
+AS virtex2p:and3b1 PINORDER=I0 I1 I2 O
+AP virtex2p:and3b1 1 PARAM=INV
+AP virtex2p:and3b1 1 PINTYPE=IN
+AP virtex2p:and3b1 2 PINTYPE=IN
+AP virtex2p:and3b1 3 PINTYPE=IN
+AP virtex2p:and3b1 4 PINTYPE=OUT
+W virtex2p:and2b1 $3I1697
+I $3I1697 virtex2p:and2b1 RESETDONE RESETDONE+1 RESETDONE+2 
+W virtex:fd $3I1693
+I $3I1693 virtex:fd SLOWCLK RESETDONE RESETDONE+1 
+W virtex:fdpe $3I1355
+I $3I1355 virtex:fdpe SLOWCLK $3N1612 $3N1358 RST $3N1360 
+W virtex:fdpe $3I1594
+I $3I1594 virtex:fdpe SLOWCLK $3N1453 $3N1349 RST $3N1350 
+W virtex:bufe $3I1413
+I $3I1413 virtex:bufe SHTAIL $3N1360 TMS 
+W virtex:fdpe $3I1344
+I $3I1344 virtex:fdpe SLOWCLK $3N1453 $3N1351 RST $3N1352 
+W virtex:fdpe $3I1348
+I $3I1348 virtex:fdpe SLOWCLK $3N1453 $3N1350 RST $3N1351 
+W virtex:fdpe $3I1595
+I $3I1595 virtex:fdpe SLOWCLK $3N1453 $3N1352 RST $3N1601 
+W virtex:fdpe $3I1600
+I $3I1600 virtex:fdpe SLOWCLK $3N1453 $3N1601 RST $3N1404 
+W virtex:fdce $3I1343
+I $3I1343 virtex:fdce SLOWCLK $3N1453 RST $3N1404 $3N1349 
+W virtex:and2 $3I1452
+I $3I1452 virtex:and2 ENABLE RESETJTAG $3N1453 
+W virtex:cb4ce $3I1527
+I $3I1527 virtex:cb4ce SLOWCLK RESETJTAG_CE ? STROBE-RST ? $3N1685 $3N1546 $3N1545 ? 
+W virtex:and2 $3I1463
+I $3I1463 virtex:and2 ENABLE SHTAIL $3N1612 
+W virtex:cb4ce $3I1650
+I $3I1650 virtex:cb4ce SLOWCLK $3N1617 ? RST_DTAIL ? DONETAIL ? ? ? 
+W virtex:fd_1 $3I1651
+I $3I1651 virtex:fd_1 SLOWCLK DONETAIL DONETAIL+1 
+W virtex:bufe $3I1596
+I $3I1596 virtex:bufe RESETJTAG $3N1404 TMS 
+W virtex:gnd $3I1659
+I $3I1659 virtex:gnd $3N1662 
+W virtex:nor5 $3I1660
+I $3I1660 virtex:nor5 SHDATA SHDHEAD SHIHEAD RESETJTAG SHTAIL TMS_LOW_EN 
+W virtex:fdce $3I1357
+I $3I1357 virtex:fdce SLOWCLK $3N1612 RST $3N1360 $3N1358 
+W virtex:bufe $3I1661
+I $3I1661 virtex:bufe TMS_LOW_EN $3N1662 TMS 
+W virtex:and2 $3I1618
+I $3I1618 virtex:and2 ENABLE SHTAIL $3N1617 
+W virtex:or2 $3I1623
+I $3I1623 virtex:or2 DONETAIL+1 RST RST_DTAIL 
+W virtex:or2 $3I1680
+I $3I1680 virtex:or2 RESETDONE RESETJTAG RESETJTAG_CE 
+W virtex2p:and3b1 $3I1684
+I $3I1684 virtex2p:and3b1 $3N1685 $3N1546 $3N1545 RESETDONE 
+W virtex:fdce $3I1666
+I $3I1666 virtex:fdce SLOWCLK RESETDONE+2 STROBE-RST OKRST DTACK_RESETDONE 
+W virtex:gnd $3I1673
+I $3I1673 virtex:gnd $3N1676 
+W virtex:bufe $3I1672
+I $3I1672 virtex:bufe DTACK_RESETDONE $3N1676 ~DTACK 
+P ? SLOWCLK
+I SLOWCLK ? SLOWCLK
+P ? TMS
+I TMS ? TMS
+P ? ~DTACK
+I ~DTACK ? ~DTACK
+P ? RST
+I RST ? RST
+P ? DONETAIL
+I DONETAIL ? DONETAIL
+EW
+| Sch_Warning - Pin/Net disassociation at location (1085,300).
+| Sch_Warning - Pin/Net disassociation at location (1085,260).
+| Sch_Warning - Pin/Net disassociation at location (155,350).
+| Sch_Warning - Pin/Net disassociation at location (220,885).
+| Sch_Warning - Pin/Net disassociation at location (840,370).

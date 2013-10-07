@@ -1,0 +1,372 @@
+Release 6.2.03i Par G.31a
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+CMSPC005::  Tue Aug 02 11:48:41 2005
+
+
+C:/Xilinx62/bin/nt/par.exe -w -intstyle ise -ol high -t 21 0test_in_map.ncd
+0test_in.ncd 0test_in.pcf 
+
+
+Constraints file: 0test_in.pcf
+
+Loading device database for application Par from file "0test_in_map.ncd".
+   "0TEST_IN" is an NCD, version 2.38, device xc2vp20, package fg676, speed -6
+Loading device for application Par from file '2vp20.nph' in environment
+C:/Xilinx62.
+Device speed data version:  PRODUCTION 1.86 2004-05-01.
+
+
+Resolved that IOB <$1I162/LED2> must be placed at site J5.
+Resolved that IOB <$1I162/RD0_SYNC> must be placed at site AA19.
+Resolved that IOB <$1I162/LED3> must be placed at site J6.
+Resolved that IOB <$1I162/LED4> must be placed at site J7.
+Resolved that IOB <$1I162/LED5> must be placed at site J8.
+Resolved that IOB <$1I162/LED6> must be placed at site H1.
+Resolved that IOB <$1I162/LED7> must be placed at site H2.
+Resolved that IOB <$1I162/~HFA0IN> must be placed at site M22.
+Resolved that IOB <$1I162/F4_BUSY> must be placed at site H16.
+Resolved that IOB <$1I162/RD1_WARN> must be placed at site AB20.
+Resolved that IOB <$1I162/CLKOUTX1> must be placed at site R23.
+Resolved that IOB <$1I162/RD1_BUSY> must be placed at site AC20.
+Resolved that IOB <$1I162/RD1_ERROR> must be placed at site AD26.
+Resolved that IOB <$1I162/RD1_SYNC> must be placed at site AE26.
+Resolved that IOB <$1I162/F7_BUSY> must be placed at site G19.
+Resolved that IOB <$1I162/F6_WARN> must be placed at site B19.
+Resolved that IOB <$1I162/F7_WARN> must be placed at site H19.
+Resolved that IOB <$1I162/F6_SYNC> must be placed at site E19.
+Resolved that IOB <$1I162/F7_SYNC> must be placed at site C20.
+Resolved that IOB <$1I162/F5_ERROR> must be placed at site H18.
+Resolved that IOB <$1I162/F6_ERROR> must be placed at site F19.
+Resolved that IOB <$1I162/F7_ERROR> must be placed at site D20.
+Resolved that IOB <$1I162/F4_ERROR> must be placed at site D18.
+Resolved that IOB <$1I162/F5_BUSY> must be placed at site E18.
+Resolved that IOB <$1I162/F6_BUSY> must be placed at site A19.
+Resolved that IOB <$1I162/FSEL1_0> must be placed at site U22.
+Resolved that IOB <$1I162/F5_WARN> must be placed at site F18.
+Resolved that IOB <$1I162/SI1> must be placed at site P22.
+Resolved that IOB <$1I162/F4_SYNC> must be placed at site C18.
+Resolved that IOB <$1I162/F5_SYNC> must be placed at site G18.
+Resolved that IOB <$1I162/FSEL1_1> must be placed at site U24.
+Resolved that IOB <$1I162/~PLD1> must be placed at site P23.
+Resolved that IOB <$1I162/~OSEN1> must be placed at site R25.
+Resolved that IOB <$1I162/F4_WARN> must be placed at site H17.
+Resolved that IOB <$1I162/FF0IN> must be placed at site J22.
+Resolved that IOB <$1I162/FF1IN> must be placed at site R22.
+Resolved that IOB <$1I162/L1_17> must be placed at site P2.
+Resolved that IOB <$1I162/L0_17> must be placed at site J2.
+Resolved that IOB <$1I162/KILL3> must be placed at site AA14.
+Resolved that IOB <$1I162/KILL2> must be placed at site AC15.
+Resolved that IOB <$1I162/KILL1> must be placed at site AD15.
+Resolved that IOB <$1I162/KILL0> must be placed at site AB14.
+Resolved that IOB <$1I162/~PAF1IN> must be placed at site T22.
+Resolved that IOB <$1I162/~HFA1IN> must be placed at site V22.
+Resolved that IOB <$1I162/~PAF0IN> must be placed at site J23.
+Resolved that IOB <$1I162/IN_EV_RST> must be placed at site AB1.
+Resolved that IOB <$1I162/DOUT4> must be placed at site M21.
+Resolved that IOB <$1I162/DOUT5> must be placed at site N21.
+Resolved that IOB <$1I162/DOUT14> must be placed at site L24.
+Resolved that IOB <$1I162/DOUT6> must be placed at site N22.
+Resolved that IOB <$1I162/DOUT15> must be placed at site K26.
+Resolved that IOB <$1I162/DOUT7> must be placed at site N23.
+Resolved that IOB <$1I162/DOUT8> must be placed at site N19.
+Resolved that IOB <$1I162/DOUT0> must be placed at site N18.
+Resolved that IOB <$1I162/DOUT17> must be placed at site J26.
+Resolved that IOB <$1I162/DOUT9> must be placed at site K19.
+Resolved that IOB <$1I162/DOUT1> must be placed at site L20.
+Resolved that IOB <$1I162/DOUT16> must be placed at site K25.
+Resolved that IOB <$1I162/DOUT10> must be placed at site L19.
+Resolved that IOB <$1I162/DOUT2> must be placed at site M19.
+Resolved that IOB <$1I162/DOUT11> must be placed at site N24.
+Resolved that IOB <$1I162/DOUT3> must be placed at site M20.
+Resolved that IOB <$1I162/DOUT12> must be placed at site M26.
+Resolved that IOB <$1I162/DOUT13> must be placed at site M25.
+Resolved that IOB <$1I162/DOUT22> must be placed at site T21.
+Resolved that IOB <$1I162/DOUT23> must be placed at site T20.
+Resolved that IOB <$1I162/DOUT32> must be placed at site V26.
+Resolved that IOB <$1I162/DOUT24> must be placed at site T19.
+Resolved that IOB <$1I162/DOUT33> must be placed at site U25.
+Resolved that IOB <$1I162/DOUT25> must be placed at site U19.
+Resolved that IOB <$1I162/DOUT26> must be placed at site V21.
+Resolved that IOB <$1I162/DOUT18> must be placed at site P19.
+Resolved that IOB <$1I162/DOUT35> must be placed at site T24.
+Resolved that IOB <$1I162/DOUT27> must be placed at site R18.
+Resolved that IOB <$1I162/DOUT19> must be placed at site P21.
+Resolved that IOB <$1I162/DOUT34> must be placed at site U26.
+Resolved that IOB <$1I162/DOUT28> must be placed at site R19.
+Resolved that IOB <$1I162/DOUT20> must be placed at site R20.
+Resolved that IOB <$1I162/DOUT29> must be placed at site P18.
+Resolved that IOB <$1I162/DOUT21> must be placed at site R21.
+Resolved that IOB <$1I162/DOUT30> must be placed at site V24.
+Resolved that IOB <$1I162/DOUT31> must be placed at site V25.
+Resolved that IOB <$1I162/L1AIN> must be placed at site AA2.
+Resolved that IOB <$1I162/KILL7> must be placed at site AD17.
+Resolved that IOB <$1I162/KILL6> must be placed at site AA16.
+Resolved that IOB <$1I162/KILL5> must be placed at site AA15.
+Resolved that IOB <$1I162/KILL4> must be placed at site AB15.
+Resolved that IOB <$1I162/INFAKEL1_EN> must be placed at site F21.
+Resolved that IOB <$1I162/MODEIN4> must be placed at site G2.
+Resolved that IOB <$1I162/MODEIN5> must be placed at site G1.
+Resolved that IOB <$1I162/MODEIN6> must be placed at site H7.
+Resolved that IOB <$1I162/MODEIN7> must be placed at site H6.
+Resolved that IOB <$1I162/MODEIN3> must be placed at site G3.
+Resolved that IOB <$1I162/MODEIN2> must be placed at site G4.
+Resolved that IOB <$1I162/MODEIN1> must be placed at site H5.
+Resolved that IOB <$1I162/MODEIN0> must be placed at site G5.
+Resolved that IOB <$1I162/IN_BC0> must be placed at site AB2.
+Resolved that IOB <$1I162/L0_4> must be placed at site K3.
+Resolved that IOB <$1I162/L0_5> must be placed at site L3.
+Resolved that IOB <$1I162/L0_14> must be placed at site M9.
+Resolved that IOB <$1I162/L0_6> must be placed at site K2.
+Resolved that IOB <$1I162/L0_15> must be placed at site M8.
+Resolved that IOB <$1I162/L0_7> must be placed at site K1.
+Resolved that IOB <$1I162/L0_8> must be placed at site L7.
+Resolved that IOB <$1I162/L0_0> must be placed at site K8.
+Resolved that IOB <$1I162/L0_9> must be placed at site M7.
+Resolved that IOB <$1I162/L0_1> must be placed at site L8.
+Resolved that IOB <$1I162/L0_10> must be placed at site L6.
+Resolved that IOB <$1I162/L0_2> must be placed at site K5.
+Resolved that IOB <$1I162/L0_11> must be placed at site L5.
+Resolved that IOB <$1I162/L0_3> must be placed at site K4.
+Resolved that IOB <$1I162/L0_12> must be placed at site L2.
+Resolved that IOB <$1I162/L0_13> must be placed at site L1.
+Resolved that IOB <$1I162/~OWEN0> must be placed at site J24.
+Resolved that IOB <$1I162/~OWEN1> must be placed at site R26.
+Resolved that IOB <$1I162/CLKOUTX0> must be placed at site J21.
+Resolved that IOB <$1I162/IN_FPGAID> must be placed at site C25.
+Resolved that IOB <$1I162/ORST_TO_VME> must be placed at site E26.
+Resolved that IOB <$1I162/~OSEN0> must be placed at site J25.
+Resolved that IOB <$1I162/FSEL0_0> must be placed at site K23.
+Resolved that IOB <$1I162/SI0> must be placed at site J20.
+Resolved that IOB <$1I162/FSEL0_1> must be placed at site K24.
+Resolved that IOB <$1I162/~PLD0> must be placed at site J19.
+Resolved that IOB <$1I162/~L1RST> must be placed at site AA5.
+Resolved that IOB <$1I162/CLKIN40> must be placed at site AD14.
+Resolved that IOB <$1I162/~FMT1IN> must be placed at site W12.
+Resolved that IOB <$1I162/~FMT0IN> must be placed at site Y12.
+Resolved that IOB <$1I162/~ACTOUT0> must be placed at site AA13.
+Resolved that IOB <$1I162/~RDYOUT> must be placed at site AD12.
+Resolved that IOB <$1I162/L1_4> must be placed at site R1.
+Resolved that IOB <$1I162/L1_5> must be placed at site R2.
+Resolved that DIFFS <$1I162/CK80N_T> must be placed at site C13.
+Resolved that IOB <$1I162/L1_14> must be placed at site T5.
+Resolved that IOB <$1I162/L1_6> must be placed at site R4.
+Resolved that DIFFM <$1I162/CK80P_T> must be placed at site B13.
+Resolved that IOB <$1I162/L1_15> must be placed at site T6.
+Resolved that IOB <$1I162/L1_7> must be placed at site R5.
+Resolved that IOB <$1I162/L1_8> must be placed at site P6.
+Resolved that IOB <$1I162/L1_0> must be placed at site P4.
+Resolved that IOB <$1I162/L1_9> must be placed at site R6.
+Resolved that IOB <$1I162/L1_1> must be placed at site P5.
+Resolved that IOB <$1I162/~ACTOUT1> must be placed at site AC12.
+Resolved that IOB <$1I162/L1_10> must be placed at site R8.
+Resolved that IOB <$1I162/L1_2> must be placed at site P8.
+Resolved that IOB <$1I162/L1_11> must be placed at site R9.
+Resolved that IOB <$1I162/L1_3> must be placed at site P9.
+Resolved that IOB <$1I162/L1_12> must be placed at site T1.
+Resolved that IOB <$1I162/L1_13> must be placed at site T2.
+Resolved that IOB <$1I162/F0_SYNC> must be placed at site C15.
+Resolved that IOB <$1I162/F0_ERROR> must be placed at site D15.
+Resolved that IOB <$1I162/F0_WARN> must be placed at site J14.
+Resolved that IOB <$1I162/F3_BUSY> must be placed at site C17.
+Resolved that IOB <$1I162/F2_BUSY> must be placed at site H15.
+Resolved that IOB <$1I162/F1_BUSY> must be placed at site F14.
+Resolved that IOB <$1I162/F3_WARN> must be placed at site D17.
+Resolved that IOB <$1I162/F2_WARN> must be placed at site J15.
+Resolved that IOB <$1I162/F1_WARN> must be placed at site E15.
+Resolved that IOB <$1I162/F3_SYNC> must be placed at site E16.
+Resolved that IOB <$1I162/F2_SYNC> must be placed at site F16.
+Resolved that IOB <$1I162/F1_SYNC> must be placed at site F15.
+Resolved that IOB <$1I162/F3_ERROR> must be placed at site E17.
+Resolved that IOB <$1I162/F2_ERROR> must be placed at site G16.
+Resolved that IOB <$1I162/F1_ERROR> must be placed at site G15.
+Resolved that IOB <$1I162/RD0_WARN> must be placed at site AB19.
+Resolved that IOB <$1I162/~SOFTRST> must be placed at site AB4.
+Resolved that IOB <$1I162/RD0_ERROR> must be placed at site AD20.
+Resolved that IOB <$1I162/RD0_BUSY> must be placed at site AE19.
+Resolved that IOB <$1I162/LED0> must be placed at site J3.
+Resolved that IOB <$1I162/F0_BUSY> must be placed at site H14.
+Resolved that IOB <$1I162/LED1> must be placed at site J4.
+
+
+Device utilization summary:
+
+   Number of External DIFFMs           1 out of 200     1%
+   Number of External DIFFSs           1 out of 200     1%
+   Number of External IOBs           168 out of 404    41%
+      Number of LOCed External IOBs  168 out of 168   100%
+
+   Number of SLICEs                  609 out of 9280    6%
+
+   Number of BSCANs                    1 out of 1     100%
+   Number of BUFGMUXs                  5 out of 16     31%
+   Number of DCMs                      2 out of 8      25%
+
+
+
+Overall effort level (-ol):   High (set by user)
+Placer effort level (-pl):    High (set by user)
+Placer cost table entry (-t): 21
+Router effort level (-rl):    High (set by user)
+
+Starting initial Timing Analysis.  REAL time: 5 secs 
+Finished initial Timing Analysis.  REAL time: 17 secs 
+
+
+Phase 1.1
+Phase 1.1 (Checksum:98bb29) REAL time: 19 secs 
+
+Phase 2.2
+WARNING:Place:410 - The input design contains local clock signal(s). To get the
+   better result, we recommend users run map with the "-timing" option set
+   before starting the placement.
+........
+....
+Phase 2.2 (Checksum:1312cfe) REAL time: 21 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 22 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 22 secs 
+
+Phase 5.8
+........................
+.........
+........................
+............
+............
+Phase 5.8 (Checksum:abe2bb) REAL time: 46 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 46 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 51 secs 
+
+Phase 8.24
+Phase 8.24 (Checksum:4c4b3f8) REAL time: 51 secs 
+
+Phase 9.27
+Phase 9.27 (Checksum:55d4a77) REAL time: 51 secs 
+
+Writing design to file 0test_in.ncd.
+
+Total REAL time to Placer completion: 53 secs 
+Total CPU time to Placer completion: 51 secs 
+
+
+Phase 1: 4854 unrouted;       REAL time: 54 secs 
+
+Phase 2: 3435 unrouted;       REAL time: 1 mins 11 secs 
+
+Phase 3: 629 unrouted;       REAL time: 1 mins 13 secs 
+
+Phase 4: 629 unrouted; (0)      REAL time: 1 mins 13 secs 
+
+Phase 5: 629 unrouted; (0)      REAL time: 1 mins 13 secs 
+
+Phase 6: 629 unrouted; (0)      REAL time: 1 mins 13 secs 
+
+Phase 7: 0 unrouted; (0)      REAL time: 1 mins 16 secs 
+
+Total REAL time to Router completion: 1 mins 17 secs 
+Total CPU time to Router completion: 1 mins 15 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|        $1I162/CLK       | BUFGMUX0S| No   |  378 |  0.294     |  1.440      |
++-------------------------+----------+------+------+------------+-------------+
+|      $1I162/CLK40       | BUFGMUX7S| No   |   19 |  0.096     |  1.309      |
++-------------------------+----------+------+------+------------+-------------+
+|    $1I162/$2I4683/DRCK2 | BUFGMUX6P| No   |  168 |  0.114     |  1.340      |
++-------------------------+----------+------+------+------------+-------------+
+|    $1I162/$2I4683/DRCK1 | BUFGMUX2S| No   |    5 |  0.001     |  1.234      |
++-------------------------+----------+------+------+------------+-------------+
+|     $1I162/CKIN40       |   Local  |      |    3 |  0.627     |  2.735      |
++-------------------------+----------+------+------+------------+-------------+
+|   $1I162/$2I4683/UPDATE |   Local  |      |    3 |  0.181     |  4.177      |
++-------------------------+----------+------+------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The SCORE FOR THIS DESIGN is: 290
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        1.724
+   The MAXIMUM PIN DELAY IS:                               9.852
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   5.876
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 2.00   < d < 4.00  < d < 6.00  < d < 8.00  < d < 10.00  d >= 10.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+        3536         869         221          75         153           0
+
+Timing Score: 0
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  NET "$1I162/CLK" PERIOD =  10.800 nS   HI | 10.800ns   | 7.852ns    | 0    
+  GH 50.000000 %                            |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/$1I4631/L1A_PUSH" MAXDELAY =  | 1.000ns    | 0.886ns    | N/A  
+  1000 pS                                   |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/CKIN40" PERIOD =  23 nS   HIG | 23.000ns   | 1.253ns    | 0    
+  H 50.000000 %                             |            |            |      
+--------------------------------------------------------------------------------
+  PERIOD analysis for net "$1I162/CK40" der | 23.000ns   | 4.760ns    | 5    
+  ived from  NET "$1I162/CKIN40" PERIOD =   |            |            |      
+  23 nS   HIGH 50.000000 %                  |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/BREF" PERIOD =  11.300 nS   H | N/A        | N/A        | N/A  
+  IGH 50.000000 %                           |            |            |      
+--------------------------------------------------------------------------------
+  PERIOD analysis for net "$1I162/CK80" der | N/A        | N/A        | N/A  
+  ived from  NET "$1I162/BREF" PERIOD =  11 |            |            |      
+  .300 nS   HIGH 50.000000 %                |            |            |      
+--------------------------------------------------------------------------------
+  PERIOD analysis for net "$1I162/CK160" de | N/A        | N/A        | N/A  
+  rived from  NET "$1I162/BREF" PERIOD =  1 |            |            |      
+  1.300 nS   HIGH 50.000000 %               |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/RHL5" MAXDELAY = 2 nS         | 2.000ns    | 0.957ns    | N/A  
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the
+   constraint does not cover any paths or that it has no requested value.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 mins 50 secs 
+Total CPU time to PAR completion: 1 mins 21 secs 
+
+Peak Memory Usage:  184 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - No errors found.
+
+Writing design to file 0test_in.ncd.
+
+
+PAR done.

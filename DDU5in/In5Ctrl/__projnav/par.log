@@ -1,0 +1,3 @@
+Place & Route Module 0ddu_in . . .
+PAR command line: par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+PAR completed successfully

@@ -1,0 +1,698 @@
+Release 6.2.03i - Par G.31a
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+Fri Apr 24 12:32:54 2009
+
+
+INPUT FILE:       0ddu_in_map.ncd
+OUTPUT FILE:      0ddu_in_pad.txt
+PART TYPE:        xc2vp20
+SPEED GRADE:      -6
+PACKAGE:          fg676
+
+Pinout by Pin Number:
+
+-----     |-----             |-----    |-----           |-----    |-----      |-----         |-----     |-----    |-----      |-----    |-----  |-----     |
+Pin Number|Signal Name       |Pin Usage|Pin Name        |Direction|IO Standard|IO Bank Number|Drive (mA)|Slew Rate|Termination|IOB Delay|Voltage|Constraint|
+A1        |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+A2        |                  |         |VCCAUX          |         |           |              |          |         |           |         |2.5    |          |
+A3        |                  |         |DXP             |         |           |              |          |         |           |         |       |          |
+A4        |$1I162/$3I4684    |GTOPAD   |TXNPAD4         |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+A5        |$1I162/$3I4685    |GTOPAD   |TXPPAD4         |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+A6        |$1I162/$3I4872    |GTIPAD   |RXPPAD4         |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+A7        |$1I162/$3I4873    |GTIPAD   |RXNPAD4         |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+A8        |                  |IOB      |IO_L37P_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+A9        |$1I162/$3I4681    |GTOPAD   |TXNPAD6         |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+A10       |$1I162/$3I4680    |GTOPAD   |TXPPAD6         |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+A11       |$1I162/$3I4863    |GTIPAD   |RXPPAD6         |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+A12       |$1I162/$3I4864    |GTIPAD   |RXNPAD6         |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+A13       |                  |         |VCCAUX          |         |           |              |          |         |           |         |2.5    |          |
+A14       |                  |         |VCCAUX          |         |           |              |          |         |           |         |2.5    |          |
+A15       |$1I162/$3I4676    |GTOPAD   |TXNPAD7         |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+A16       |$1I162/$3I4677    |GTOPAD   |TXPPAD7         |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+A17       |$1I162/$3I4855    |GTIPAD   |RXPPAD7         |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+A18       |$1I162/$3I4854    |GTIPAD   |RXNPAD7         |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+A19       |$1I162/F6_BUSY    |IOB      |IO_L37N_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+A20       |$1I162/$1I4465    |GTOPAD   |TXNPAD9         |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+A21       |$1I162/$1I4464    |GTOPAD   |TXPPAD9         |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+A22       |$1I162/$1I4618    |GTIPAD   |RXPPAD9         |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+A23       |$1I162/$1I4617    |GTIPAD   |RXNPAD9         |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+A24       |                  |         |VBATT           |         |           |              |          |         |           |         |       |          |
+A25       |                  |         |VCCAUX          |         |           |              |          |         |           |         |2.5    |          |
+A26       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+AA1       |$1I162/IFOK4      |IOB      |IO_L31N_6       |INPUT    |LVCMOS33   |6             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+AA2       |$1I162/L1AIN      |IOB      |IO_L31P_6       |INPUT    |LVCMOS33   |6             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+AA3       |                  |         |NC              |         |           |              |          |         |           |         |       |          |
+AA4       |                  |         |NC              |         |           |              |          |         |           |         |       |          |
+AA5       |$1I162/~L1RST     |IOB      |IO_L05N_6       |INPUT    |LVCMOS33   |6             |          |         |PULLUP     |NONE     |       |LOCATED   |
+AA6       |                  |         |NC              |         |           |              |          |         |           |         |       |          |
+AA7       |                  |IOB      |IO_L03N_5/D4    |UNUSED   |           |5             |          |         |           |         |       |          |
+AA8       |                  |IOB      |IO_L09P_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+AA9       |                  |IOB      |IO_L43P_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+AA10      |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+AA11      |                  |IOB      |IO_L53_5/No_Pair|UNUSED   |           |5             |          |         |           |         |       |          |
+AA12      |                  |IOB      |IO_L55N_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+AA13      |$1I162/~ACTOUT0   |IOB      |IO_L57N_5/VREF_5|OUTPUT   |LVCMOS33   |5             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+AA14      |$1I162/KILL3      |IOB      |IO_L57P_4/VREF_4|INPUT    |LVCMOS33   |4             |          |         |PULLUP     |NONE     |       |LOCATED   |
+AA15      |$1I162/KILL5      |IOB      |IO_L55P_4       |INPUT    |LVCMOS33   |4             |          |         |PULLUP     |NONE     |       |LOCATED   |
+AA16      |$1I162/KILL6      |IOB      |IO_L53_4/No_Pair|INPUT    |LVCMOS33   |4             |          |         |PULLUP     |NONE     |       |LOCATED   |
+AA17      |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+AA18      |                  |IOB      |IO_L43N_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+AA19      |$1I162/RD0_SYNC   |IOB      |IO_L09N_4       |OUTPUT   |LVCMOS33   |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+AA20      |                  |IOB      |IO_L03P_4/D3    |UNUSED   |           |4             |          |         |           |         |       |          |
+AA21      |                  |         |NC              |         |           |              |          |         |           |         |       |          |
+AA22      |$1I162/~IDMB_FUL0 |IOB      |IO_L05N_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+AA23      |                  |         |NC              |         |           |              |          |         |           |         |       |          |
+AA24      |                  |         |NC              |         |           |              |          |         |           |         |       |          |
+AA25      |                  |IOB      |IO_L31P_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+AA26      |                  |IOB      |IO_L31N_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+AB1       |$1I162/IN_EV_RST  |IOB      |IO_L06N_6       |INPUT    |LVCMOS33   |6             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+AB2       |$1I162/IN_BC0     |IOB      |IO_L06P_6       |INPUT    |LVCMOS33   |6             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+AB3       |                  |         |VCCO_6          |         |           |6             |          |         |           |         |3.30   |          |
+AB4       |$1I162/~SOFTRST   |IOB      |IO_L05P_6       |INPUT    |LVCMOS33   |6             |          |         |PULLUP     |NONE     |       |LOCATED   |
+AB5       |                  |IOB      |IO_L01P_5/CS_B  |UNUSED   |           |5             |          |         |           |         |       |          |
+AB6       |                  |IOB      |IO_L02P_5/D7    |UNUSED   |           |5             |          |         |           |         |       |          |
+AB7       |                  |IOB      |IO_L05_5/No_Pair|UNUSED   |           |5             |          |         |           |         |       |          |
+AB8       |                  |IOB      |IO_L09N_5/VREF_5|UNUSED   |           |5             |          |         |           |         |       |          |
+AB9       |                  |IOB      |IO_L43N_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+AB10      |                  |IOB      |IO_L48P_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+AB11      |                  |IOB      |IO_L48N_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+AB12      |                  |IOB      |IO_L57P_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+AB13      |                  |IOB      |IO_L74P_5/GCLK4P|UNUSED   |           |5             |          |         |           |         |       |          |
+AB14      |$1I162/KILL0      |IOB      |IO_L74N_4/GCLK3S|INPUT    |LVCMOS33   |4             |          |         |PULLUP     |NONE     |       |LOCATED   |
+AB15      |$1I162/KILL4      |IOB      |IO_L57N_4       |INPUT    |LVCMOS33   |4             |          |         |PULLUP     |NONE     |       |LOCATED   |
+AB16      |                  |IOB      |IO_L48P_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+AB17      |                  |IOB      |IO_L48N_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+AB18      |                  |IOB      |IO_L43P_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+AB19      |$1I162/RD0_WARN   |IOB      |IO_L09P_4/VREF_4|OUTPUT   |LVCMOS33   |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+AB20      |$1I162/RD1_WARN   |IOB      |IO_L05_4/No_Pair|OUTPUT   |LVCMOS33   |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+AB21      |                  |IOB      |IO_L02N_4/D0    |UNUSED   |           |4             |          |         |           |         |       |          |
+AB22      |                  |IOB      |IO_L01N_4/DOUT  |UNUSED   |           |4             |          |         |           |         |       |          |
+AB23      |                  |IOB      |IO_L05P_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+AB24      |                  |         |VCCO_3          |         |           |3             |          |         |           |         |3.30   |          |
+AB25      |$1I162/~IDMB_FUL1 |IOB      |IO_L06P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+AB26      |                  |IOB      |IO_L06N_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+AC1       |                  |IOB      |IO_L03N_6/VREF_6|UNUSED   |           |6             |          |         |           |         |       |          |
+AC2       |                  |IOB      |IO_L03P_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+AC3       |                  |IOB      |IO_L02N_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+AC4       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+AC5       |                  |IOB      |IO_L01N_5/RDWR_B|UNUSED   |           |5             |          |         |           |         |       |          |
+AC6       |                  |IOB      |IO_L02N_5/D6    |UNUSED   |           |5             |          |         |           |         |       |          |
+AC7       |                  |IOB      |IO_L06P_5/VRN_5 |UNUSED   |           |5             |          |         |           |         |       |          |
+AC8       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+AC9       |                  |IOB      |IO_L45P_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+AC10      |                  |IOB      |IO_L49P_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+AC11      |                  |         |VCCO_5          |         |           |5             |          |         |           |         |3.30   |          |
+AC12      |$1I162/~ACTOUT1   |IOB      |IO_L67P_5       |OUTPUT   |LVCMOS33   |5             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+AC13      |                  |IOB      |IO_L74N_5/GCLK5S|UNUSED   |           |5             |          |         |           |         |       |          |
+AC14      |                  |IOB      |IO_L74P_4/GCLK2P|UNUSED   |           |4             |          |         |           |         |       |          |
+AC15      |$1I162/KILL2      |IOB      |IO_L67N_4       |INPUT    |LVCMOS33   |4             |          |         |PULLUP     |NONE     |       |LOCATED   |
+AC16      |                  |         |VCCO_4          |         |           |4             |          |         |           |         |3.30   |          |
+AC17      |                  |IOB      |IO_L49N_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+AC18      |                  |IOB      |IO_L45N_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+AC19      |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+AC20      |$1I162/RD1_BUSY   |IOB      |IO_L06N_4/VRP_4 |OUTPUT   |LVCMOS33   |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+AC21      |                  |IOB      |IO_L02P_4/D1    |UNUSED   |           |4             |          |         |           |         |       |          |
+AC22      |                  |IOB      |IO_L01P_4/INIT_B|UNUSED   |           |4             |          |         |           |         |       |          |
+AC23      |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+AC24      |                  |IOB      |IO_L02N_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+AC25      |                  |IOB      |IO_L03P_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+AC26      |                  |IOB      |IO_L03N_3/VREF_3|UNUSED   |           |3             |          |         |           |         |       |          |
+AD1       |                  |IOB      |IO_L01N_6/VRP_6 |UNUSED   |           |6             |          |         |           |         |       |          |
+AD2       |                  |IOB      |IO_L02P_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+AD3       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+AD4       |                  |         |M2              |         |           |              |          |         |           |         |       |          |
+AD5       |                  |         |VCCO_5          |         |           |5             |          |         |           |         |3.30   |          |
+AD6       |                  |         |GNDA21          |         |           |              |          |         |           |         |       |          |
+AD7       |                  |IOB      |IO_L06N_5/VRP_5 |UNUSED   |           |5             |          |         |           |         |       |          |
+AD8       |                  |         |VCCO_5          |         |           |5             |          |         |           |         |3.30   |          |
+AD9       |                  |IOB      |IO_L45N_5/VREF_5|UNUSED   |           |5             |          |         |           |         |       |          |
+AD10      |                  |IOB      |IO_L49N_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+AD11      |                  |         |GNDA19          |         |           |              |          |         |           |         |       |          |
+AD12      |$1I162/~RDYOUT    |IOB      |IO_L67N_5       |OUTPUT   |LVCMOS33   |5             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+AD13      |$1I162/CK80P_B    |DIFFM    |IO_L75P_5/GCLK6P|INPUT    |LVDS_25    |5             |          |         |           |NONE     |       |LOCATED   |
+AD14      |$1I162/CLKIN40    |IOB      |IO_L75N_4/GCLK1S|INPUT    |LVCMOS33   |4             |          |         |           |NONE     |       |LOCATED   |
+AD15      |$1I162/KILL1      |IOB      |IO_L67P_4       |INPUT    |LVCMOS33   |4             |          |         |PULLUP     |NONE     |       |LOCATED   |
+AD16      |                  |         |GNDA18          |         |           |              |          |         |           |         |       |          |
+AD17      |$1I162/KILL7      |IOB      |IO_L49P_4       |INPUT    |LVCMOS33   |4             |          |         |PULLUP     |NONE     |       |LOCATED   |
+AD18      |                  |IOB      |IO_L45P_4/VREF_4|UNUSED   |           |4             |          |         |           |         |       |          |
+AD19      |                  |         |VCCO_4          |         |           |4             |          |         |           |         |3.30   |          |
+AD20      |$1I162/RD0_ERROR  |IOB      |IO_L06P_4/VRN_4 |OUTPUT   |LVCMOS33   |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+AD21      |                  |         |GNDA16          |         |           |              |          |         |           |         |       |          |
+AD22      |                  |         |VCCO_4          |         |           |4             |          |         |           |         |3.30   |          |
+AD23      |                  |         |DONE            |         |           |              |          |         |           |         |       |          |
+AD24      |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+AD25      |                  |IOB      |IO_L02P_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+AD26      |$1I162/RD1_ERROR  |IOB      |IO_L01N_3/VRP_3 |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+AE1       |                  |IOB      |IO_L01P_6/VRN_6 |UNUSED   |           |6             |          |         |           |         |       |          |
+AE2       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+AE3       |                  |         |M1              |         |           |              |          |         |           |         |       |          |
+AE4       |                  |         |VTTXPAD21       |         |           |              |          |         |           |         |       |          |
+AE5       |                  |         |AVCCAUXTX21     |         |           |              |          |         |           |         |2.5    |          |
+AE6       |                  |         |VTRXPAD21       |         |           |              |          |         |           |         |       |          |
+AE7       |                  |         |AVCCAUXRX21     |         |           |              |          |         |           |         |2.5    |          |
+AE8       |                  |IOB      |IO_L37P_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+AE9       |                  |         |VTTXPAD19       |         |           |              |          |         |           |         |       |          |
+AE10      |                  |         |AVCCAUXTX19     |         |           |              |          |         |           |         |2.5    |          |
+AE11      |                  |         |VTRXPAD19       |         |           |              |          |         |           |         |       |          |
+AE12      |                  |         |AVCCAUXRX19     |         |           |              |          |         |           |         |2.5    |          |
+AE13      |$1I162/CK80N_B    |DIFFS    |IO_L75N_5/GCLK7S|INPUT    |LVDS_25    |5             |          |         |           |NONE     |       |LOCATED   |
+AE14      |                  |IOB      |IO_L75P_4/GCLK0P|UNUSED   |           |4             |          |         |           |         |       |          |
+AE15      |                  |         |VTTXPAD18       |         |           |              |          |         |           |         |       |          |
+AE16      |                  |         |AVCCAUXTX18     |         |           |              |          |         |           |         |2.5    |          |
+AE17      |                  |         |VTRXPAD18       |         |           |              |          |         |           |         |       |          |
+AE18      |                  |         |AVCCAUXRX18     |         |           |              |          |         |           |         |2.5    |          |
+AE19      |$1I162/RD0_BUSY   |IOB      |IO_L37N_4       |OUTPUT   |LVCMOS33   |4             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+AE20      |                  |         |VTTXPAD16       |         |           |              |          |         |           |         |       |          |
+AE21      |                  |         |AVCCAUXTX16     |         |           |              |          |         |           |         |2.5    |          |
+AE22      |                  |         |VTRXPAD16       |         |           |              |          |         |           |         |       |          |
+AE23      |                  |         |AVCCAUXRX16     |         |           |              |          |         |           |         |2.5    |          |
+AE24      |                  |         |CCLK            |         |           |              |          |         |           |         |       |          |
+AE25      |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+AE26      |$1I162/RD1_SYNC   |IOB      |IO_L01P_3/VRN_3 |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+AF1       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+AF2       |                  |         |VCCAUX          |         |           |              |          |         |           |         |2.5    |          |
+AF3       |                  |         |M0              |         |           |              |          |         |           |         |       |          |
+AF4       |$1I162/$5I4498    |GTOPAD   |TXNPAD21        |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+AF5       |$1I162/$5I4499    |GTOPAD   |TXPPAD21        |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+AF6       |$1I162/$5I4700    |GTIPAD   |RXPPAD21        |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+AF7       |$1I162/$5I4701    |GTIPAD   |RXNPAD21        |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+AF8       |                  |IOB      |IO_L37N_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+AF9       |$1I162/$6I4809    |GTOPAD   |TXNPAD19        |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+AF10      |$1I162/$6I4808    |GTOPAD   |TXPPAD19        |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+AF11      |$1I162/$6I4961    |GTIPAD   |RXPPAD19        |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+AF12      |$1I162/$6I4960    |GTIPAD   |RXNPAD19        |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+AF13      |                  |         |VCCAUX          |         |           |              |          |         |           |         |2.5    |          |
+AF14      |                  |         |VCCAUX          |         |           |              |          |         |           |         |2.5    |          |
+AF15      |$1I162/$6I4805    |GTOPAD   |TXNPAD18        |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+AF16      |$1I162/$6I4804    |GTOPAD   |TXPPAD18        |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+AF17      |$1I162/$6I4969    |GTIPAD   |RXPPAD18        |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+AF18      |$1I162/$6I4968    |GTIPAD   |RXNPAD18        |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+AF19      |                  |IOB      |IO_L37P_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+AF20      |$1I162/$6I4800    |GTOPAD   |TXNPAD16        |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+AF21      |$1I162/$6I4801    |GTOPAD   |TXPPAD16        |OUTPUT   |           |              |          |         |           |         |       |LOCATED   |
+AF22      |$1I162/$6I4976    |GTIPAD   |RXPPAD16        |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+AF23      |$1I162/$6I4977    |GTIPAD   |RXNPAD16        |INPUT    |           |              |          |         |           |         |       |LOCATED   |
+AF24      |                  |         |PWRDWN_B        |         |           |              |          |         |           |         |       |          |
+AF25      |                  |         |VCCAUX          |         |           |              |          |         |           |         |2.5    |          |
+AF26      |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+B1        |                  |         |PROG_B          |         |           |              |          |         |           |         |       |          |
+B2        |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+B3        |                  |         |HSWAP_EN        |         |           |              |          |         |           |         |       |          |
+B4        |                  |         |VTTXPAD4        |         |           |              |          |         |           |         |       |          |
+B5        |                  |         |AVCCAUXTX4      |         |           |              |          |         |           |         |2.5    |          |
+B6        |                  |         |VTRXPAD4        |         |           |              |          |         |           |         |       |          |
+B7        |                  |         |AVCCAUXRX4      |         |           |              |          |         |           |         |2.5    |          |
+B8        |                  |IOB      |IO_L37N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+B9        |                  |         |VTTXPAD6        |         |           |              |          |         |           |         |       |          |
+B10       |                  |         |AVCCAUXTX6      |         |           |              |          |         |           |         |2.5    |          |
+B11       |                  |         |VTRXPAD6        |         |           |              |          |         |           |         |       |          |
+B12       |                  |         |AVCCAUXRX6      |         |           |              |          |         |           |         |2.5    |          |
+B13       |$1I162/CK80P_T    |DIFFM    |IO_L75P_0/GCLK4S|INPUT    |LVDS_25    |0             |          |         |           |NONE     |       |LOCATED   |
+B14       |                  |IOB      |IO_L75N_1/GCLK3P|UNUSED   |           |1             |          |         |           |         |       |          |
+B15       |                  |         |VTTXPAD7        |         |           |              |          |         |           |         |       |          |
+B16       |                  |         |AVCCAUXTX7      |         |           |              |          |         |           |         |2.5    |          |
+B17       |                  |         |VTRXPAD7        |         |           |              |          |         |           |         |       |          |
+B18       |                  |         |AVCCAUXRX7      |         |           |              |          |         |           |         |2.5    |          |
+B19       |$1I162/F6_WARN    |IOB      |IO_L37P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+B20       |                  |         |VTTXPAD9        |         |           |              |          |         |           |         |       |          |
+B21       |                  |         |AVCCAUXTX9      |         |           |              |          |         |           |         |2.5    |          |
+B22       |                  |         |VTRXPAD9        |         |           |              |          |         |           |         |       |          |
+B23       |                  |         |AVCCAUXRX9      |         |           |              |          |         |           |         |2.5    |          |
+B24       |                  |         |TMS             |         |           |              |          |         |           |         |       |          |
+B25       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+B26       |                  |         |TCK             |         |           |              |          |         |           |         |       |          |
+C1        |$1I162/IFOK2      |IOB      |IO_L01P_7/VRN_7 |INPUT    |LVCMOS33   |7             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+C2        |$1I162/IFOK3      |IOB      |IO_L01N_7/VRP_7 |INPUT    |LVCMOS33   |7             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+C3        |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+C4        |                  |         |DXN             |         |           |              |          |         |           |         |       |          |
+C5        |                  |         |VCCO_0          |         |           |0             |          |         |           |         |2.50   |          |
+C6        |                  |         |GNDA4           |         |           |              |          |         |           |         |       |          |
+C7        |                  |IOB      |IO_L06P_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+C8        |                  |         |VCCO_0          |         |           |0             |          |         |           |         |2.50   |          |
+C9        |                  |IOB      |IO_L45P_0/VREF_0|UNUSED   |           |0             |          |         |           |         |       |          |
+C10       |                  |IOB      |IO_L49P_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+C11       |                  |         |GNDA6           |         |           |              |          |         |           |         |       |          |
+C12       |                  |IOB      |IO_L67P_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+C13       |$1I162/CK80N_T    |DIFFS    |IO_L75N_0/GCLK5P|INPUT    |LVDS_25    |0             |          |         |           |NONE     |       |LOCATED   |
+C14       |                  |IOB      |IO_L75P_1/GCLK2S|UNUSED   |           |1             |          |         |           |         |       |          |
+C15       |$1I162/F0_SYNC    |IOB      |IO_L67N_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+C16       |                  |         |GNDA7           |         |           |              |          |         |           |         |       |          |
+C17       |$1I162/F3_BUSY    |IOB      |IO_L49N_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+C18       |$1I162/F4_SYNC    |IOB      |IO_L45N_1/VREF_1|OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+C19       |                  |         |VCCO_1          |         |           |1             |          |         |           |         |3.30   |          |
+C20       |$1I162/F7_SYNC    |IOB      |IO_L06N_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+C21       |                  |         |GNDA9           |         |           |              |          |         |           |         |       |          |
+C22       |                  |         |VCCO_1          |         |           |1             |          |         |           |         |3.30   |          |
+C23       |                  |         |NC              |         |           |              |          |         |           |         |       |          |
+C24       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+C25       |$1I162/IN_FPGAID  |IOB      |IO_L01N_2/VRP_2 |INPUT    |LVCMOS33   |2             |          |         |           |NONE     |       |LOCATED   |
+C26       |                  |IOB      |IO_L01P_2/VRN_2 |UNUSED   |           |2             |          |         |           |         |       |          |
+D1        |$1I162/IFOK0      |IOB      |IO_L02P_7       |INPUT    |LVCMOS33   |7             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+D2        |$1I162/IFOK1      |IOB      |IO_L02N_7       |INPUT    |LVCMOS33   |7             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+D3        |                  |         |TDI             |         |           |              |          |         |           |         |       |          |
+D4        |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+D5        |                  |IOB      |IO_L01P_0/VRN_0 |UNUSED   |           |0             |          |         |           |         |       |          |
+D6        |                  |IOB      |IO_L02P_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+D7        |                  |IOB      |IO_L06N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+D8        |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+D9        |                  |IOB      |IO_L45N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+D10       |                  |IOB      |IO_L49N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+D11       |                  |         |VCCO_0          |         |           |0             |          |         |           |         |2.50   |          |
+D12       |                  |IOB      |IO_L67N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+D13       |                  |IOB      |IO_L74P_0/GCLK6S|UNUSED   |           |0             |          |         |           |         |       |          |
+D14       |                  |IOB      |IO_L74N_1/GCLK1P|UNUSED   |           |1             |          |         |           |         |       |          |
+D15       |$1I162/F0_ERROR   |IOB      |IO_L67P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+D16       |                  |         |VCCO_1          |         |           |1             |          |         |           |         |3.30   |          |
+D17       |$1I162/F3_WARN    |IOB      |IO_L49P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+D18       |$1I162/F4_ERROR   |IOB      |IO_L45P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+D19       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+D20       |$1I162/F7_ERROR   |IOB      |IO_L06P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+D21       |                  |IOB      |IO_L02N_1       |UNUSED   |           |1             |          |         |           |         |       |          |
+D22       |                  |IOB      |IO_L01N_1/VRP_1 |UNUSED   |           |1             |          |         |           |         |       |          |
+D23       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+D24       |                  |         |TDO             |         |           |              |          |         |           |         |       |          |
+D25       |                  |IOB      |IO_L02N_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+D26       |                  |IOB      |IO_L02P_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+E1        |$1I162/FOKLED0    |IOB      |IO_L04P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+E2        |$1I162/FOKLED1    |IOB      |IO_L04N_7/VREF_7|OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+E3        |                  |         |VCCO_7          |         |           |7             |          |         |           |         |3.30   |          |
+E4        |$1I162/FOKLED3    |IOB      |IO_L03N_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+E5        |                  |IOB      |IO_L01N_0/VRP_0 |UNUSED   |           |0             |          |         |           |         |       |          |
+E6        |                  |IOB      |IO_L02N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+E7        |                  |IOB      |IO_L05_0/No_Pair|UNUSED   |           |0             |          |         |           |         |       |          |
+E8        |                  |IOB      |IO_L09P_0/VREF_0|UNUSED   |           |0             |          |         |           |         |       |          |
+E9        |                  |IOB      |IO_L43P_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+E10       |                  |IOB      |IO_L48N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+E11       |                  |IOB      |IO_L48P_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+E12       |                  |IOB      |IO_L57N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+E13       |                  |IOB      |IO_L74N_0/GCLK7P|UNUSED   |           |0             |          |         |           |         |       |          |
+E14       |                  |IOB      |IO_L74P_1/GCLK0S|UNUSED   |           |1             |          |         |           |         |       |          |
+E15       |$1I162/F1_WARN    |IOB      |IO_L57P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+E16       |$1I162/F3_SYNC    |IOB      |IO_L48N_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+E17       |$1I162/F3_ERROR   |IOB      |IO_L48P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+E18       |$1I162/F5_BUSY    |IOB      |IO_L43N_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+E19       |$1I162/F6_SYNC    |IOB      |IO_L09N_1/VREF_1|OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+E20       |                  |IOB      |IO_L05_1/No_Pair|UNUSED   |           |1             |          |         |           |         |       |          |
+E21       |                  |IOB      |IO_L02P_1       |UNUSED   |           |1             |          |         |           |         |       |          |
+E22       |                  |IOB      |IO_L01P_1/VRN_1 |UNUSED   |           |1             |          |         |           |         |       |          |
+E23       |                  |IOB      |IO_L03N_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+E24       |                  |         |VCCO_2          |         |           |2             |          |         |           |         |3.30   |          |
+E25       |                  |IOB      |IO_L04N_2/VREF_2|UNUSED   |           |2             |          |         |           |         |       |          |
+E26       |$1I162/ORST_TO_VME|IOB      |IO_L04P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+F1        |$1I162/DVLED0     |IOB      |IO_L31P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+F2        |$1I162/DVLED1     |IOB      |IO_L31N_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+F3        |                  |         |NC              |         |           |              |          |         |           |         |       |          |
+F4        |                  |         |NC              |         |           |              |          |         |           |         |       |          |
+F5        |$1I162/FOKLED2    |IOB      |IO_L03P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+F6        |$1I162/DVLED3     |IOB      |IO_L06N_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+F7        |                  |IOB      |IO_L03P_0/VREF_0|UNUSED   |           |0             |          |         |           |         |       |          |
+F8        |                  |IOB      |IO_L09N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+F9        |                  |IOB      |IO_L43N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+F10       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+F11       |                  |IOB      |IO_L53_0/No_Pair|UNUSED   |           |0             |          |         |           |         |       |          |
+F12       |                  |IOB      |IO_L55P_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+F13       |                  |IOB      |IO_L57P_0/VREF_0|UNUSED   |           |0             |          |         |           |         |       |          |
+F14       |$1I162/F1_BUSY    |IOB      |IO_L57N_1/VREF_1|OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+F15       |$1I162/F1_SYNC    |IOB      |IO_L55N_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+F16       |$1I162/F2_SYNC    |IOB      |IO_L53_1/No_Pair|OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+F17       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+F18       |$1I162/F5_WARN    |IOB      |IO_L43P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+F19       |$1I162/F6_ERROR   |IOB      |IO_L09P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+F20       |                  |IOB      |IO_L03N_1/VREF_1|UNUSED   |           |1             |          |         |           |         |       |          |
+F21       |$1I162/INFAKEL1_EN|IOB      |IO_L06N_2       |INPUT    |LVCMOS33   |2             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+F22       |                  |IOB      |IO_L03P_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+F23       |                  |         |NC              |         |           |              |          |         |           |         |       |          |
+F24       |                  |         |NC              |         |           |              |          |         |           |         |       |          |
+F25       |                  |IOB      |IO_L31N_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+F26       |                  |IOB      |IO_L31P_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+G1        |                  |IOB      |IO_L36P_7       |UNUSED   |           |7             |          |         |           |         |       |          |
+G2        |                  |IOB      |IO_L36N_7       |UNUSED   |           |7             |          |         |           |         |       |          |
+G3        |$1I162/MODEIN3    |IOB      |IO_L34P_7       |INPUT    |LVCMOS33   |7             |          |         |           |NONE     |       |LOCATED   |
+G4        |$1I162/MODEIN2    |IOB      |IO_L34N_7/VREF_7|INPUT    |LVCMOS33   |7             |          |         |           |NONE     |       |LOCATED   |
+G5        |$1I162/MODEIN0    |IOB      |IO_L32N_7       |INPUT    |LVCMOS33   |7             |          |         |           |NONE     |       |LOCATED   |
+G6        |$1I162/DVLED2     |IOB      |IO_L06P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+G7        |                  |IOB      |IO_L03N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+G8        |                  |IOB      |IO_L07P_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+G9        |                  |IOB      |IO_L39P_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+G10       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+G11       |                  |IOB      |IO_L50_0/No_Pair|UNUSED   |           |0             |          |         |           |         |       |          |
+G12       |                  |IOB      |IO_L55N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+G13       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+G14       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+G15       |$1I162/F1_ERROR   |IOB      |IO_L55P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+G16       |$1I162/F2_ERROR   |IOB      |IO_L50_1/No_Pair|OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+G17       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+G18       |$1I162/F5_SYNC    |IOB      |IO_L39N_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+G19       |$1I162/F7_BUSY    |IOB      |IO_L07N_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+G20       |                  |IOB      |IO_L03P_1       |UNUSED   |           |1             |          |         |           |         |       |          |
+G21       |                  |IOB      |IO_L06P_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+G22       |                  |IOB      |IO_L32N_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+G23       |                  |IOB      |IO_L34N_2/VREF_2|UNUSED   |           |2             |          |         |           |         |       |          |
+G24       |                  |IOB      |IO_L34P_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+G25       |                  |IOB      |IO_L36N_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+G26       |                  |IOB      |IO_L36P_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+H1        |$1I162/LED6       |IOB      |IO_L38P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+H2        |$1I162/LED7       |IOB      |IO_L38N_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+H3        |                  |         |VCCO_7          |         |           |7             |          |         |           |         |3.30   |          |
+H4        |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+H5        |$1I162/MODEIN1    |IOB      |IO_L32P_7       |INPUT    |LVCMOS33   |7             |          |         |           |NONE     |       |LOCATED   |
+H6        |$1I162/MODEIN7    |IOB      |IO_L37P_7       |INPUT    |LVCMOS33   |7             |          |         |           |NONE     |       |LOCATED   |
+H7        |$1I162/MODEIN6    |IOB      |IO_L37N_7       |INPUT    |LVCMOS33   |7             |          |         |           |NONE     |       |LOCATED   |
+H8        |                  |IOB      |IO_L07N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+H9        |                  |IOB      |IO_L39N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+H10       |                  |IOB      |IO_L46N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+H11       |                  |IOB      |IO_L46P_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+H12       |                  |IOB      |IO_L54P_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+H13       |                  |IOB      |IO_L69P_0/VREF_0|UNUSED   |           |0             |          |         |           |         |       |          |
+H14       |$1I162/F0_BUSY    |IOB      |IO_L69N_1/VREF_1|OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+H15       |$1I162/F2_BUSY    |IOB      |IO_L54N_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+H16       |$1I162/F4_BUSY    |IOB      |IO_L46N_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+H17       |$1I162/F4_WARN    |IOB      |IO_L46P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+H18       |$1I162/F5_ERROR   |IOB      |IO_L39P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+H19       |$1I162/F7_WARN    |IOB      |IO_L07P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+H20       |                  |IOB      |IO_L37N_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+H21       |                  |IOB      |IO_L37P_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+H22       |                  |IOB      |IO_L32P_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+H23       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+H24       |                  |         |VCCO_2          |         |           |2             |          |         |           |         |3.30   |          |
+H25       |                  |IOB      |IO_L38N_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+H26       |                  |IOB      |IO_L38P_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+J1        |$1I162/L0_16      |IOB      |IO_L44P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J2        |$1I162/L0_17      |IOB      |IO_L44N_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J3        |$1I162/LED0       |IOB      |IO_L43P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J4        |$1I162/LED1       |IOB      |IO_L43N_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J5        |$1I162/LED2       |IOB      |IO_L42P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J6        |$1I162/LED3       |IOB      |IO_L42N_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J7        |$1I162/LED4       |IOB      |IO_L40P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J8        |$1I162/LED5       |IOB      |IO_L40N_7/VREF_7|OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J9        |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+J10       |                  |         |VCCO_0          |         |           |0             |          |         |           |         |2.50   |          |
+J11       |                  |         |VCCO_0          |         |           |0             |          |         |           |         |2.50   |          |
+J12       |                  |IOB      |IO_L54N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+J13       |                  |IOB      |IO_L69N_0       |UNUSED   |           |0             |          |         |           |         |       |          |
+J14       |$1I162/F0_WARN    |IOB      |IO_L69P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J15       |$1I162/F2_WARN    |IOB      |IO_L54P_1       |OUTPUT   |LVCMOS33   |1             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J16       |                  |         |VCCO_1          |         |           |1             |          |         |           |         |3.30   |          |
+J17       |                  |         |VCCO_1          |         |           |1             |          |         |           |         |3.30   |          |
+J18       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+J19       |$1I162/~PLD0      |IOB      |IO_L40N_2/VREF_2|OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J20       |$1I162/SI0        |IOB      |IO_L40P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J21       |$1I162/CLKOUTX0   |IOB      |IO_L42N_2       |OUTPUT   |LVCMOS33   |2             |16        |FAST     |NONE**     |         |       |LOCATED   |
+J22       |$1I162/FF0IN      |IOB      |IO_L42P_2       |INPUT    |LVCMOS33   |2             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+J23       |$1I162/~PAF0IN    |IOB      |IO_L43N_2       |INPUT    |LVCMOS33   |2             |          |         |PULLUP     |NONE     |       |LOCATED   |
+J24       |$1I162/~OWEN0     |IOB      |IO_L43P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J25       |$1I162/~OSEN0     |IOB      |IO_L44N_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+J26       |$1I162/DOUT17     |IOB      |IO_L44P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+K1        |$1I162/L0_7       |IOB      |IO_L50P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+K2        |$1I162/L0_6       |IOB      |IO_L50N_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+K3        |$1I162/L0_4       |IOB      |IO_L49N_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+K4        |$1I162/L0_3       |IOB      |IO_L48P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+K5        |$1I162/L0_2       |IOB      |IO_L48N_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+K6        |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+K7        |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+K8        |$1I162/L0_0       |IOB      |IO_L46N_7/VREF_7|OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+K9        |                  |         |VCCO_7          |         |           |7             |          |         |           |         |3.30   |          |
+K10       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+K11       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+K12       |                  |         |VCCO_0          |         |           |0             |          |         |           |         |2.50   |          |
+K13       |                  |         |VCCO_0          |         |           |0             |          |         |           |         |2.50   |          |
+K14       |                  |         |VCCO_1          |         |           |1             |          |         |           |         |3.30   |          |
+K15       |                  |         |VCCO_1          |         |           |1             |          |         |           |         |3.30   |          |
+K16       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+K17       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+K18       |                  |         |VCCO_2          |         |           |2             |          |         |           |         |3.30   |          |
+K19       |$1I162/DOUT9      |IOB      |IO_L46N_2/VREF_2|OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+K20       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+K21       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+K22       |                  |IOB      |IO_L48N_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+K23       |$1I162/FSEL0_0    |IOB      |IO_L48P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+K24       |$1I162/FSEL0_1    |IOB      |IO_L49N_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+K25       |$1I162/DOUT16     |IOB      |IO_L50N_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+K26       |$1I162/DOUT15     |IOB      |IO_L50P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+L1        |$1I162/L0_13      |IOB      |IO_L55P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+L2        |$1I162/L0_12      |IOB      |IO_L55N_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+L3        |$1I162/L0_5       |IOB      |IO_L49P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+L4        |                  |         |VCCO_7          |         |           |7             |          |         |           |         |3.30   |          |
+L5        |$1I162/L0_11      |IOB      |IO_L54P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+L6        |$1I162/L0_10      |IOB      |IO_L54N_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+L7        |$1I162/L0_8       |IOB      |IO_L52N_7/VREF_7|OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+L8        |$1I162/L0_1       |IOB      |IO_L46P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+L9        |                  |         |VCCO_7          |         |           |7             |          |         |           |         |3.30   |          |
+L10       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+L11       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+L12       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+L13       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+L14       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+L15       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+L16       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+L17       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+L18       |                  |         |VCCO_2          |         |           |2             |          |         |           |         |3.30   |          |
+L19       |$1I162/DOUT10     |IOB      |IO_L46P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+L20       |$1I162/DOUT1      |IOB      |IO_L52N_2/VREF_2|OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+L21       |                  |IOB      |IO_L54N_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+L22       |                  |IOB      |IO_L54P_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+L23       |                  |         |VCCO_2          |         |           |2             |          |         |           |         |3.30   |          |
+L24       |$1I162/DOUT14     |IOB      |IO_L49P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+L25       |                  |IOB      |IO_L55N_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+L26       |                  |IOB      |IO_L55P_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+M1        |                  |IOB      |IO_L85P_7       |UNUSED   |           |7             |          |         |           |         |       |          |
+M2        |                  |IOB      |IO_L85N_7       |UNUSED   |           |7             |          |         |           |         |       |          |
+M3        |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+M4        |                  |IOB      |IO_L60P_7       |UNUSED   |           |7             |          |         |           |         |       |          |
+M5        |                  |IOB      |IO_L60N_7       |UNUSED   |           |7             |          |         |           |         |       |          |
+M6        |                  |IOB      |IO_L58N_7/VREF_7|UNUSED   |           |7             |          |         |           |         |       |          |
+M7        |$1I162/L0_9       |IOB      |IO_L52P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+M8        |$1I162/L0_15      |IOB      |IO_L56P_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+M9        |$1I162/L0_14      |IOB      |IO_L56N_7       |OUTPUT   |LVCMOS33   |7             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+M10       |                  |         |VCCO_7          |         |           |7             |          |         |           |         |3.30   |          |
+M11       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+M12       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+M13       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+M14       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+M15       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+M16       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+M17       |                  |         |VCCO_2          |         |           |2             |          |         |           |         |3.30   |          |
+M18       |                  |IOB      |IO_L56N_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+M19       |$1I162/DOUT2      |IOB      |IO_L56P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+M20       |$1I162/DOUT3      |IOB      |IO_L52P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+M21       |$1I162/DOUT4      |IOB      |IO_L58N_2/VREF_2|OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+M22       |$1I162/~HFA0IN    |IOB      |IO_L60N_2       |INPUT    |LVCMOS33   |2             |          |         |PULLUP     |NONE     |       |LOCATED   |
+M23       |                  |IOB      |IO_L60P_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+M24       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+M25       |$1I162/DOUT13     |IOB      |IO_L85N_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+M26       |$1I162/DOUT12     |IOB      |IO_L85P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+N1        |                  |         |VCCAUX          |         |           |              |          |         |           |         |2.5    |          |
+N2        |                  |IOB      |IO_L90P_7       |UNUSED   |           |7             |          |         |           |         |       |          |
+N3        |                  |IOB      |IO_L90N_7       |UNUSED   |           |7             |          |         |           |         |       |          |
+N4        |                  |IOB      |IO_L88P_7       |UNUSED   |           |7             |          |         |           |         |       |          |
+N5        |                  |IOB      |IO_L88N_7/VREF_7|UNUSED   |           |7             |          |         |           |         |       |          |
+N6        |                  |IOB      |IO_L58P_7       |UNUSED   |           |7             |          |         |           |         |       |          |
+N7        |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+N8        |                  |IOB      |IO_L86P_7       |UNUSED   |           |7             |          |         |           |         |       |          |
+N9        |                  |IOB      |IO_L86N_7       |UNUSED   |           |7             |          |         |           |         |       |          |
+N10       |                  |         |VCCO_7          |         |           |7             |          |         |           |         |3.30   |          |
+N11       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+N12       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+N13       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+N14       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+N15       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+N16       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+N17       |                  |         |VCCO_2          |         |           |2             |          |         |           |         |3.30   |          |
+N18       |$1I162/DOUT0      |IOB      |IO_L86N_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+N19       |$1I162/DOUT8      |IOB      |IO_L86P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+N20       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+N21       |$1I162/DOUT5      |IOB      |IO_L58P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+N22       |$1I162/DOUT6      |IOB      |IO_L88N_2/VREF_2|OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+N23       |$1I162/DOUT7      |IOB      |IO_L88P_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+N24       |$1I162/DOUT11     |IOB      |IO_L90N_2       |OUTPUT   |LVCMOS33   |2             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+N25       |                  |IOB      |IO_L90P_2       |UNUSED   |           |2             |          |         |           |         |       |          |
+N26       |                  |         |VCCAUX          |         |           |              |          |         |           |         |2.5    |          |
+P1        |                  |         |VCCAUX          |         |           |              |          |         |           |         |2.5    |          |
+P2        |$1I162/L1_17      |IOB      |IO_L90N_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+P3        |$1I162/L1_16      |IOB      |IO_L90P_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+P4        |$1I162/L1_0       |IOB      |IO_L89N_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+P5        |$1I162/L1_1       |IOB      |IO_L89P_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+P6        |$1I162/L1_8       |IOB      |IO_L59N_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+P7        |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+P8        |$1I162/L1_2       |IOB      |IO_L87N_6/VREF_6|OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+P9        |$1I162/L1_3       |IOB      |IO_L87P_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+P10       |                  |         |VCCO_6          |         |           |6             |          |         |           |         |3.30   |          |
+P11       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+P12       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+P13       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+P14       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+P15       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+P16       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+P17       |                  |         |VCCO_3          |         |           |3             |          |         |           |         |3.30   |          |
+P18       |$1I162/DOUT29     |IOB      |IO_L87P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+P19       |$1I162/DOUT18     |IOB      |IO_L87N_3/VREF_3|OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+P20       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+P21       |$1I162/DOUT19     |IOB      |IO_L59N_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+P22       |$1I162/SI1        |IOB      |IO_L89P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+P23       |$1I162/~PLD1      |IOB      |IO_L89N_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+P24       |                  |IOB      |IO_L90P_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+P25       |                  |IOB      |IO_L90N_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+P26       |                  |         |VCCAUX          |         |           |              |          |         |           |         |2.5    |          |
+R1        |$1I162/L1_4       |IOB      |IO_L85N_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+R2        |$1I162/L1_5       |IOB      |IO_L85P_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+R3        |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+R4        |$1I162/L1_6       |IOB      |IO_L60N_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+R5        |$1I162/L1_7       |IOB      |IO_L60P_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+R6        |$1I162/L1_9       |IOB      |IO_L59P_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+R7        |                  |IOB      |IO_L53N_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+R8        |$1I162/L1_10      |IOB      |IO_L57N_6/VREF_6|OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+R9        |$1I162/L1_11      |IOB      |IO_L57P_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+R10       |                  |         |VCCO_6          |         |           |6             |          |         |           |         |3.30   |          |
+R11       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+R12       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+R13       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+R14       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+R15       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+R16       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+R17       |                  |         |VCCO_3          |         |           |3             |          |         |           |         |3.30   |          |
+R18       |$1I162/DOUT27     |IOB      |IO_L57P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+R19       |$1I162/DOUT28     |IOB      |IO_L57N_3/VREF_3|OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+R20       |$1I162/DOUT20     |IOB      |IO_L53N_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+R21       |$1I162/DOUT21     |IOB      |IO_L59P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+R22       |$1I162/FF1IN      |IOB      |IO_L60P_3       |INPUT    |LVCMOS33   |3             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+R23       |$1I162/CLKOUTX1   |IOB      |IO_L60N_3       |OUTPUT   |LVCMOS33   |3             |16        |FAST     |NONE**     |         |       |LOCATED   |
+R24       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+R25       |$1I162/~OSEN1     |IOB      |IO_L85P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+R26       |$1I162/~OWEN1     |IOB      |IO_L85N_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+T1        |$1I162/L1_12      |IOB      |IO_L55N_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+T2        |$1I162/L1_13      |IOB      |IO_L55P_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+T3        |                  |IOB      |IO_L49N_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+T4        |                  |         |VCCO_6          |         |           |6             |          |         |           |         |3.30   |          |
+T5        |$1I162/L1_14      |IOB      |IO_L54N_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+T6        |$1I162/L1_15      |IOB      |IO_L54P_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+T7        |                  |IOB      |IO_L53P_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+T8        |                  |IOB      |IO_L47N_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+T9        |                  |         |VCCO_6          |         |           |6             |          |         |           |         |3.30   |          |
+T10       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+T11       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+T12       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+T13       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+T14       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+T15       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+T16       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+T17       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+T18       |                  |         |VCCO_3          |         |           |3             |          |         |           |         |3.30   |          |
+T19       |$1I162/DOUT24     |IOB      |IO_L47N_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+T20       |$1I162/DOUT23     |IOB      |IO_L53P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+T21       |$1I162/DOUT22     |IOB      |IO_L54P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+T22       |$1I162/~PAF1IN    |IOB      |IO_L54N_3       |INPUT    |LVCMOS33   |3             |          |         |PULLUP     |NONE     |       |LOCATED   |
+T23       |                  |         |VCCO_3          |         |           |3             |          |         |           |         |3.30   |          |
+T24       |$1I162/DOUT35     |IOB      |IO_L49N_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+T25       |                  |IOB      |IO_L55P_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+T26       |                  |IOB      |IO_L55N_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+U1        |                  |IOB      |IO_L51N_6/VREF_6|UNUSED   |           |6             |          |         |           |         |       |          |
+U2        |                  |IOB      |IO_L51P_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+U3        |                  |IOB      |IO_L49P_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+U4        |                  |IOB      |IO_L48N_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+U5        |                  |IOB      |IO_L48P_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+U6        |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+U7        |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+U8        |                  |IOB      |IO_L47P_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+U9        |                  |         |VCCO_6          |         |           |6             |          |         |           |         |3.30   |          |
+U10       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+U11       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+U12       |                  |         |VCCO_5          |         |           |5             |          |         |           |         |3.30   |          |
+U13       |                  |         |VCCO_5          |         |           |5             |          |         |           |         |3.30   |          |
+U14       |                  |         |VCCO_4          |         |           |4             |          |         |           |         |3.30   |          |
+U15       |                  |         |VCCO_4          |         |           |4             |          |         |           |         |3.30   |          |
+U16       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+U17       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+U18       |                  |         |VCCO_3          |         |           |3             |          |         |           |         |3.30   |          |
+U19       |$1I162/DOUT25     |IOB      |IO_L47P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+U20       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+U21       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+U22       |$1I162/FSEL1_0    |IOB      |IO_L48P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+U23       |                  |IOB      |IO_L48N_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+U24       |$1I162/FSEL1_1    |IOB      |IO_L49P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+U25       |$1I162/DOUT33     |IOB      |IO_L51P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+U26       |$1I162/DOUT34     |IOB      |IO_L51N_3/VREF_3|OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+V1        |                  |IOB      |IO_L45N_6/VREF_6|UNUSED   |           |6             |          |         |           |         |       |          |
+V2        |                  |IOB      |IO_L45P_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+V3        |                  |IOB      |IO_L43N_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+V4        |                  |IOB      |IO_L43P_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+V5        |                  |IOB      |IO_L42N_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+V6        |                  |IOB      |IO_L42P_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+V7        |                  |IOB      |IO_L41N_6       |UNUSED   |           |6             |          |         |           |         |       |          |
+V8        |$1I162/DVLED7     |IOB      |IO_L41P_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+V9        |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+V10       |                  |         |VCCO_5          |         |           |5             |          |         |           |         |3.30   |          |
+V11       |                  |         |VCCO_5          |         |           |5             |          |         |           |         |3.30   |          |
+V12       |                  |IOB      |IO_L54P_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+V13       |                  |IOB      |IO_L69P_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+V14       |                  |IOB      |IO_L69N_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+V15       |                  |IOB      |IO_L54N_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+V16       |                  |         |VCCO_4          |         |           |4             |          |         |           |         |3.30   |          |
+V17       |                  |         |VCCO_4          |         |           |4             |          |         |           |         |3.30   |          |
+V18       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+V19       |                  |IOB      |IO_L41P_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+V20       |                  |IOB      |IO_L41N_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+V21       |$1I162/DOUT26     |IOB      |IO_L42P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+V22       |$1I162/~HFA1IN    |IOB      |IO_L42N_3       |INPUT    |LVCMOS33   |3             |          |         |PULLUP     |NONE     |       |LOCATED   |
+V23       |                  |IOB      |IO_L43P_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+V24       |$1I162/DOUT30     |IOB      |IO_L43N_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+V25       |$1I162/DOUT31     |IOB      |IO_L45P_3       |OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+V26       |$1I162/DOUT32     |IOB      |IO_L45N_3/VREF_3|OUTPUT   |LVCMOS33   |3             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+W1        |$1I162/DVLED6     |IOB      |IO_L39N_6/VREF_6|OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+W2        |$1I162/DVLED5     |IOB      |IO_L39P_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+W3        |                  |         |VCCO_6          |         |           |6             |          |         |           |         |3.30   |          |
+W4        |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+W5        |$1I162/IFOK6      |IOB      |IO_L33N_6/VREF_6|INPUT    |LVCMOS33   |6             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+W6        |$1I162/DVLED4     |IOB      |IO_L37N_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+W7        |$1I162/FOKLED7    |IOB      |IO_L37P_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+W8        |                  |IOB      |IO_L07P_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+W9        |                  |IOB      |IO_L39P_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+W10       |                  |IOB      |IO_L46P_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+W11       |                  |IOB      |IO_L46N_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+W12       |                  |IOB      |IO_L54N_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+W13       |                  |IOB      |IO_L69N_5/VREF_5|UNUSED   |           |5             |          |         |           |         |       |          |
+W14       |                  |IOB      |IO_L69P_4/VREF_4|UNUSED   |           |4             |          |         |           |         |       |          |
+W15       |                  |IOB      |IO_L54P_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+W16       |                  |IOB      |IO_L46P_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+W17       |                  |IOB      |IO_L46N_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+W18       |                  |IOB      |IO_L39N_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+W19       |                  |IOB      |IO_L07N_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+W20       |                  |IOB      |IO_L37P_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+W21       |                  |IOB      |IO_L37N_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+W22       |                  |IOB      |IO_L33N_3/VREF_3|UNUSED   |           |3             |          |         |           |         |       |          |
+W23       |                  |         |GND             |         |           |              |          |         |           |         |       |          |
+W24       |                  |         |VCCO_3          |         |           |3             |          |         |           |         |3.30   |          |
+W25       |                  |IOB      |IO_L39P_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+W26       |                  |IOB      |IO_L39N_3/VREF_3|UNUSED   |           |3             |          |         |           |         |       |          |
+Y1        |$1I162/FOKLED6    |IOB      |IO_L36N_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+Y2        |$1I162/FOKLED5    |IOB      |IO_L36P_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+Y3        |$1I162/FOKLED4    |IOB      |IO_L35N_6       |OUTPUT   |LVCMOS33   |6             |12        |SLOW     |NONE**     |         |       |LOCATED   |
+Y4        |$1I162/IFOK7      |IOB      |IO_L35P_6       |INPUT    |LVCMOS33   |6             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+Y5        |$1I162/IFOK5      |IOB      |IO_L33P_6       |INPUT    |LVCMOS33   |6             |          |         |PULLDOWN   |NONE     |       |LOCATED   |
+Y6        |                  |         |NC              |         |           |              |          |         |           |         |       |          |
+Y7        |                  |IOB      |IO_L03P_5/D5    |UNUSED   |           |5             |          |         |           |         |       |          |
+Y8        |                  |IOB      |IO_L07N_5/VREF_5|UNUSED   |           |5             |          |         |           |         |       |          |
+Y9        |                  |IOB      |IO_L39N_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+Y10       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+Y11       |                  |IOB      |IO_L50_5/No_Pair|UNUSED   |           |5             |          |         |           |         |       |          |
+Y12       |                  |IOB      |IO_L55P_5       |UNUSED   |           |5             |          |         |           |         |       |          |
+Y13       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+Y14       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+Y15       |                  |IOB      |IO_L55N_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+Y16       |                  |IOB      |IO_L50_4/No_Pair|UNUSED   |           |4             |          |         |           |         |       |          |
+Y17       |                  |         |VCCINT          |         |           |              |          |         |           |         |1.5    |          |
+Y18       |                  |IOB      |IO_L39P_4       |UNUSED   |           |4             |          |         |           |         |       |          |
+Y19       |                  |IOB      |IO_L07P_4/VREF_4|UNUSED   |           |4             |          |         |           |         |       |          |
+Y20       |                  |IOB      |IO_L03N_4/D2    |UNUSED   |           |4             |          |         |           |         |       |          |
+Y21       |                  |         |NC              |         |           |              |          |         |           |         |       |          |
+Y22       |                  |IOB      |IO_L33P_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+Y23       |                  |IOB      |IO_L35P_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+Y24       |                  |IOB      |IO_L35N_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+Y25       |                  |IOB      |IO_L36P_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+Y26       |                  |IOB      |IO_L36N_3       |UNUSED   |           |3             |          |         |           |         |       |          |
+
+-----     |-----             |-----    |-----           |-----    |-----      |-----         |-----     |-----    |-----      |-----    |-----  |-----     |
+
+* Default value.
+** This default Pullup/Pulldown value can be overridden in Bitgen.
+

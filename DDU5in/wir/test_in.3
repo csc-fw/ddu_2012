@@ -1,0 +1,171 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 7468887480 tst1
+DW test_in
+SA @NAME=TEST_IN 
+SA @SHEET=3 
+SA @DATETIME=7-14-2005_13:08 
+|Q virtex:obuf 1
+AS virtex:obuf LIBVER=2.0.0
+AS virtex:obuf LEVEL=XILINX
+AS virtex:obuf IOSTANDARD=LVCMOS25
+AS virtex:obuf SLEW=SLOW
+AS virtex:obuf DRIVE=12
+AS virtex:obuf PINORDER=I O
+AP virtex:obuf 1 PINTYPE=IN
+AP virtex:obuf 2 PINTYPE=CHIPTRI
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex:opad 1
+AS virtex:opad LIBVER=2.0.0
+AS virtex:opad LEVEL=XILINX
+AS virtex:opad EXT=OPAD
+AS virtex:opad PINORDER=OPAD
+|Q virtex2p:nand5b1 1
+AS virtex2p:nand5b1 LEVEL=XILINX
+AS virtex2p:nand5b1 LIBVER=2.0.0
+AS virtex2p:nand5b1 PINORDER=I0 I1 I2 I3 I4 O
+AP virtex2p:nand5b1 1 PINTYPE=IN
+AP virtex2p:nand5b1 2 PINTYPE=IN
+AP virtex2p:nand5b1 3 PINTYPE=IN
+AP virtex2p:nand5b1 4 PINTYPE=IN
+AP virtex2p:nand5b1 5 PINTYPE=IN
+AP virtex2p:nand5b1 6 PINTYPE=OUT
+|Q virtex2p:or3 1
+AS virtex2p:or3 LEVEL=XILINX
+AS virtex2p:or3 DEVICE=OR
+AS virtex2p:or3 LIBVER=2.0.0
+AS virtex2p:or3 PINORDER=I0 I1 I2 O
+AP virtex2p:or3 1 PINTYPE=IN
+AP virtex2p:or3 2 PINTYPE=IN
+AP virtex2p:or3 3 PINTYPE=IN
+AP virtex2p:or3 4 PINTYPE=OUT
+W virtex:obuf $3I5025
+I $3I5025 virtex:obuf RD0ERROR RD0_ERROR IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5024
+I $3I5024 virtex:obuf RD0SYNC RD0_SYNC IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5023
+I $3I5023 virtex:obuf RD0WARN RD0_WARN IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5022
+I $3I5022 virtex:obuf RD0BUSY RD0_BUSY IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5018
+I $3I5018 virtex:obuf F0SYNC F0_SYNC IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5019
+I $3I5019 virtex:obuf F0ERROR F0_ERROR IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5020
+I $3I5020 virtex:obuf F0WARN F0_WARN IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5014
+I $3I5014 virtex:obuf F1SYNC F1_SYNC IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5015
+I $3I5015 virtex:obuf F1ERROR F1_ERROR IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5016
+I $3I5016 virtex:obuf F1WARN F1_WARN IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5017
+I $3I5017 virtex:obuf F1BUSY F1_BUSY IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5010
+I $3I5010 virtex:obuf F2SYNC F2_SYNC IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5011
+I $3I5011 virtex:obuf F2ERROR F2_ERROR IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5012
+I $3I5012 virtex:obuf F2WARN F2_WARN IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5013
+I $3I5013 virtex:obuf F2BUSY F2_BUSY IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5006
+I $3I5006 virtex:obuf F3SYNC F3_SYNC IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5007
+I $3I5007 virtex:obuf F3ERROR F3_ERROR IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5008
+I $3I5008 virtex:obuf F3WARN F3_WARN IOSTANDARD=LVCMOS33`
+W virtex:obuf $3I5009
+I $3I5009 virtex:obuf F3BUSY F3_BUSY IOSTANDARD=LVCMOS33`
+W virtex2p:gnd $3I4903
+I $3I4903 virtex2p:gnd F3BUSY 
+W virtex2p:gnd $3I4904
+I $3I4904 virtex2p:gnd F3SYNC 
+W virtex2p:gnd $3I4905
+I $3I4905 virtex2p:gnd F3ERROR 
+W virtex2p:gnd $3I4906
+I $3I4906 virtex2p:gnd F3WARN 
+W virtex2p:gnd $3I4897
+I $3I4897 virtex2p:gnd F2WARN 
+W virtex2p:gnd $3I4898
+I $3I4898 virtex2p:gnd F2ERROR 
+W virtex2p:gnd $3I4899
+I $3I4899 virtex2p:gnd F2SYNC 
+W virtex2p:gnd $3I4894
+I $3I4894 virtex2p:gnd F1SYNC 
+W virtex2p:gnd $3I4895
+I $3I4895 virtex2p:gnd F1ERROR 
+W virtex2p:gnd $3I4893
+I $3I4893 virtex2p:gnd F1WARN 
+W virtex2p:gnd $3I4892
+I $3I4892 virtex2p:gnd F1BUSY 
+W virtex2p:gnd $3I4887
+I $3I4887 virtex2p:gnd F0SYNC 
+W virtex2p:gnd $3I4888
+I $3I4888 virtex2p:gnd F0ERROR 
+W virtex:opad $3I4742
+I $3I4742 virtex:opad F3_BUSY 
+W virtex:opad $3I4743
+I $3I4743 virtex:opad F3_WARN 
+W virtex:opad $3I4744
+I $3I4744 virtex:opad F3_SYNC 
+W virtex:opad $3I4745
+I $3I4745 virtex:opad F3_ERROR 
+W virtex:opad $3I4734
+I $3I4734 virtex:opad F2_BUSY 
+W virtex:opad $3I4735
+I $3I4735 virtex:opad F2_WARN 
+W virtex:opad $3I4736
+I $3I4736 virtex:opad F2_SYNC 
+W virtex:opad $3I4737
+I $3I4737 virtex:opad F2_ERROR 
+W virtex:opad $3I4727
+I $3I4727 virtex:opad F1_WARN 
+W virtex:opad $3I4728
+I $3I4728 virtex:opad F1_SYNC 
+W virtex:opad $3I4729
+I $3I4729 virtex:opad F1_ERROR 
+W virtex:opad $3I4712
+I $3I4712 virtex:opad F0_ERROR 
+W virtex:opad $3I4710
+I $3I4710 virtex:opad F0_SYNC 
+W virtex:opad $3I4708
+I $3I4708 virtex:opad F0_WARN 
+W virtex:opad $3I4699
+I $3I4699 virtex:opad F0_BUSY 
+W virtex:opad $3I4726
+I $3I4726 virtex:opad F1_BUSY 
+W virtex2p:nand5b1 $3I4882
+I $3I4882 virtex2p:nand5b1 NONE_FREE0 RDCTRL0RDY LOCK2 LOCK1 ~PWR-ON-RST RD0BUSY 
+W virtex:opad $3I4786
+I $3I4786 virtex:opad RD0_BUSY 
+W virtex2p:gnd $3I4886
+I $3I4886 virtex2p:gnd F0WARN 
+W virtex2p:gnd $3I4885
+I $3I4885 virtex2p:gnd F0BUSY 
+W virtex:opad $3I4789
+I $3I4789 virtex:opad RD0_SYNC 
+W virtex2p:gnd $3I4896
+I $3I4896 virtex2p:gnd F2BUSY 
+W virtex:opad $3I4790
+I $3I4790 virtex:opad RD0_ERROR 
+W virtex2p:gnd $3I4900
+I $3I4900 virtex2p:gnd RD0ERROR 
+W virtex2p:gnd $3I4889
+I $3I4889 virtex2p:gnd RD0SYNC 
+W virtex2p:gnd $3I4883
+I $3I4883 virtex2p:gnd NONE_FREE0 
+W virtex:opad $3I4781
+I $3I4781 virtex:opad RD0_WARN 
+W virtex2p:gnd $3I4890
+I $3I4890 virtex2p:gnd FAF0 
+W virtex2p:or3 $3I5005
+I $3I5005 virtex2p:or3 FAF0 L1A0AF NEAR_FULL0WARN RD0WARN 
+W virtex:obuf $3I5021
+I $3I5021 virtex:obuf F0BUSY F0_BUSY IOSTANDARD=LVCMOS33`
+EW

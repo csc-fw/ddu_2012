@@ -1,0 +1,476 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 7468887480 tst1
+DW dducntrl
+SA @NAME=DDUCNTRL 
+SA @SHEET=1 
+SA @DATETIME=3-22-2012_15:35 
+|Q virtex2p:buf 1
+AS virtex2p:buf LIBVER=2.0.0
+AS virtex2p:buf DEVICE=BUF
+AS virtex2p:buf LEVEL=XILINX
+AS virtex2p:buf PINORDER=I O
+AP virtex2p:buf 1 PINTYPE=IN
+AP virtex2p:buf 2 PINTYPE=OUT
+|Q ipad4pu 1
+AS ipad4pu LEVEL=MXILINX
+AS ipad4pu @NAME=IPAD4PU
+AS ipad4pu PINORDER=I[3:0]
+AS ipad4pu INOV_VER_REC=15:52_12-10-03
+|Q ibuf4_33 1
+AS ibuf4_33 LEVEL=MXILINX
+AS ibuf4_33 @NAME=IBUF4_33
+AS ibuf4_33 PINORDER=I[3:0] O[3:0]
+AP ibuf4_33 1 PINTYPE=CHIPIN
+AP ibuf4_33 2 PINTYPE=OUT
+|Q ipad4pd 1
+AS ipad4pd LEVEL=MXILINX
+AS ipad4pd @NAME=IPAD4PD
+AS ipad4pd PINORDER=I[3:0]
+|Q virtex:inv 1
+AS virtex:inv DEVICE=INV
+AS virtex:inv LIBVER=2.0.0
+AS virtex:inv LEVEL=XILINX
+AS virtex:inv PINORDER=I O
+AP virtex:inv 1 PINTYPE=IN
+AP virtex:inv 2 PINTYPE=OUT
+|Q ibuf8_33 1
+AS ibuf8_33 LEVEL=MXILINX
+AS ibuf8_33 @NAME=IBUF8_33
+AS ibuf8_33 PINORDER=I[7:0] O[7:0]
+AP ibuf8_33 1 PINTYPE=CHIPIN
+AP ibuf8_33 2 PINTYPE=OUT
+|Q virtex:opad 1
+AS virtex:opad LIBVER=2.0.0
+AS virtex:opad LEVEL=XILINX
+AS virtex:opad EXT=OPAD
+AS virtex:opad PINORDER=OPAD
+|Q virtex:obuf 1
+AS virtex:obuf LIBVER=2.0.0
+AS virtex:obuf LEVEL=XILINX
+AS virtex:obuf IOSTANDARD=LVCMOS25
+AS virtex:obuf SLEW=SLOW
+AS virtex:obuf DRIVE=12
+AS virtex:obuf PINORDER=I O
+AP virtex:obuf 1 PINTYPE=IN
+AP virtex:obuf 2 PINTYPE=CHIPTRI
+|Q virtex:buf 1
+AS virtex:buf LIBVER=2.0.0
+AS virtex:buf DEVICE=BUF
+AS virtex:buf LEVEL=XILINX
+AS virtex:buf PINORDER=I O
+AP virtex:buf 1 PINTYPE=IN
+AP virtex:buf 2 PINTYPE=OUT
+|Q virtex:fdp 1
+AS virtex:fdp @INIT=1
+AS virtex:fdp LIBVER=2.0.0
+AS virtex:fdp LEVEL=XILINX
+AS virtex:fdp PINORDER=C D PRE Q
+AP virtex:fdp 1 PINTYPE=IN
+AP virtex:fdp 2 PINTYPE=IN
+AP virtex:fdp 3 PINTYPE=IN
+AP virtex:fdp 4 PINTYPE=OUT
+|Q inv4_bus 1
+AS inv4_bus LEVEL=MXILINX
+AS inv4_bus @NAME=INV4_BUS
+AS inv4_bus PINORDER=I[3:0] O[3:0]
+AP inv4_bus 1 PINTYPE=IN
+AP inv4_bus 2 PINTYPE=OUT
+|Q ifd4bus 1
+AS ifd4bus LEVEL=MXILINX
+AS ifd4bus @NAME=IFD4BUS
+AS ifd4bus PINORDER=C D[3:0] Q[3:0]
+AP ifd4bus 1 PINTYPE=IN
+AP ifd4bus 2 PINTYPE=CHIPIN
+AP ifd4bus 3 PINTYPE=OUT
+|Q virtex:gnd 1
+AS virtex:gnd LIBVER=2.0.0
+AS virtex:gnd LEVEL=XILINX
+AS virtex:gnd PINORDER=G
+AP virtex:gnd 1 PINTYPE=OUT
+|Q virtex:or4 1
+AS virtex:or4 DEVICE=OR
+AS virtex:or4 LEVEL=XILINX
+AS virtex:or4 LIBVER=2.0.0
+AS virtex:or4 PINORDER=I0 I1 I2 I3 O
+AP virtex:or4 1 PINTYPE=IN
+AP virtex:or4 2 PINTYPE=IN
+AP virtex:or4 3 PINTYPE=IN
+AP virtex:or4 4 PINTYPE=IN
+AP virtex:or4 5 PINTYPE=OUT
+|Q virtex:ibuf 1
+AS virtex:ibuf LIBVER=2.0.0
+AS virtex:ibuf LEVEL=XILINX
+AS virtex:ibuf IOSTANDARD=LVCMOS25
+AS virtex:ibuf PINORDER=I O
+AP virtex:ibuf 1 PINTYPE=CHIPIN
+AP virtex:ibuf 2 PINTYPE=OUT
+|Q virtex2p:or2 1
+AS virtex2p:or2 DEVICE=OR
+AS virtex2p:or2 LEVEL=XILINX
+AS virtex2p:or2 LIBVER=2.0.0
+AS virtex2p:or2 PINORDER=I0 I1 O
+AP virtex2p:or2 1 PINTYPE=IN
+AP virtex2p:or2 2 PINTYPE=IN
+AP virtex2p:or2 3 PINTYPE=OUT
+|Q ipad36 1
+AS ipad36 LEVEL=MXILINX
+AS ipad36 @NAME=IPAD36
+AS ipad36 PINORDER=I[35:0]
+|Q virtex:vcc 1
+AS virtex:vcc LEVEL=XILINX
+AS virtex:vcc LIBVER=2.0.0
+AS virtex:vcc PINORDER=P
+AP virtex:vcc 1 PINTYPE=OUT
+|Q fd4cebus 1
+AS fd4cebus LEVEL=MXILINX
+AS fd4cebus @NAME=FD4CEBUS
+AS fd4cebus PINORDER=C CE CLR D[3:0] Q[3:0]
+AP fd4cebus 1 PINTYPE=IN
+AP fd4cebus 2 PINTYPE=IN
+AP fd4cebus 3 PINTYPE=IN
+AP fd4cebus 4 PINTYPE=IN
+AP fd4cebus 5 PINTYPE=OUT
+|Q virtex:or2 1
+AS virtex:or2 DEVICE=OR
+AS virtex:or2 LEVEL=XILINX
+AS virtex:or2 LIBVER=2.0.0
+AS virtex:or2 PINORDER=I0 I1 O
+AP virtex:or2 1 PINTYPE=IN
+AP virtex:or2 2 PINTYPE=IN
+AP virtex:or2 3 PINTYPE=OUT
+|Q virtex2p:or12 1
+AS virtex2p:or12 LEVEL=MXILINX
+AS virtex2p:or12 LIBVER=2.0.0
+AS virtex2p:or12 PINORDER=I0 I1 I10 I11 I2 I3 I4 I5 I6 I7 I8 I9 O
+AP virtex2p:or12 1 PINTYPE=IN
+AP virtex2p:or12 2 PINTYPE=IN
+AP virtex2p:or12 3 PINTYPE=IN
+AP virtex2p:or12 4 PINTYPE=IN
+AP virtex2p:or12 5 PINTYPE=IN
+AP virtex2p:or12 6 PINTYPE=IN
+AP virtex2p:or12 7 PINTYPE=IN
+AP virtex2p:or12 8 PINTYPE=IN
+AP virtex2p:or12 9 PINTYPE=IN
+AP virtex2p:or12 10 PINTYPE=IN
+AP virtex2p:or12 11 PINTYPE=IN
+AP virtex2p:or12 12 PINTYPE=IN
+AP virtex2p:or12 13 PINTYPE=OUT
+|Q virtex2p:or3 1
+AS virtex2p:or3 LEVEL=XILINX
+AS virtex2p:or3 DEVICE=OR
+AS virtex2p:or3 LIBVER=2.0.0
+AS virtex2p:or3 PINORDER=I0 I1 I2 O
+AP virtex2p:or3 1 PINTYPE=IN
+AP virtex2p:or3 2 PINTYPE=IN
+AP virtex2p:or3 3 PINTYPE=IN
+AP virtex2p:or3 4 PINTYPE=OUT
+|Q opad66 1
+AS opad66 LEVEL=MXILINX
+AS opad66 @NAME=OPAD66
+AS opad66 PINORDER=O[65:0]
+|Q ofd66 1
+AS ofd66 LEVEL=MXILINX
+AS ofd66 @NAME=OFD66
+AS ofd66 PINORDER=C D[65:0] Q[65:0]
+AP ofd66 1 PINTYPE=IN
+AP ofd66 2 PINTYPE=IN
+AP ofd66 3 PINTYPE=OUT
+|Q virtex2p:or8 1
+AS virtex2p:or8 LEVEL=MXILINX
+AS virtex2p:or8 LIBVER=2.0.0
+AS virtex2p:or8 PINORDER=I0 I1 I2 I3 I4 I5 I6 I7 O
+AP virtex2p:or8 1 PINTYPE=IN
+AP virtex2p:or8 2 PINTYPE=IN
+AP virtex2p:or8 3 PINTYPE=IN
+AP virtex2p:or8 4 PINTYPE=IN
+AP virtex2p:or8 5 PINTYPE=IN
+AP virtex2p:or8 6 PINTYPE=IN
+AP virtex2p:or8 7 PINTYPE=IN
+AP virtex2p:or8 8 PINTYPE=IN
+AP virtex2p:or8 9 PINTYPE=OUT
+|Q ipad1pd 1
+AS ipad1pd LEVEL=MXILINX
+AS ipad1pd PINORDER=IPAD1PD
+|Q stage2 1
+AS stage2 @NAME=STAGE2
+AS stage2 PINORDER=2ND_HDR_1ST BAD_CTRL_WORD BAD_FW BAD_TRG_TRAIL BRD_DAV[3:0] CHECK_CRC CLK CRC[14:0] CRC_ERR CRC_ERROR CSC_L1ERR CTRLIN[19:0] DIN[63:0] DMB-FFUL DMBCNT[3:0] DMBDAV[14:0] DMB_CRIT_ERR DMB_ERR DMB_FMM_WARN DMB_RD[14:0] ERC[15:0] FIRSTDAT_ERR FIRST_DAT FIRST_HDR IN[51:0] L1AN[23:0] LALCT_ERR LBAD_2ND_TR LCFEBL1ERR LCFEB_CNT_ERR LCFEB_L1A_ERR LCRC_CNT_ERR LCRC_END_ERR LCRC_OK LDMBLIVE[14:0] LDMB_CRC_OK LDMB_ERR LIE LLONE_WORD LMOVLP_DAV_ERR LOST_IN_DATA LOST_IN_EVENT LSCA_OVFL LSECOND_HDR LSUM_ERR[14:0] LTF_ERR LTF_SIG LTMB_ERR LTRG_CRCERR LTRG_ERR LTRG_L1ERR LTRG_TRAIL LTRG_WCERR LWC_LD LXTRA_1ST_HDR LXTRA_1ST_TR LXTRA_2ND_HDR OEDATA OEDEFAULT OEHDR[3:1] OETRAIL OSTAT[15:0] ROD[65:0] RST RST_LWC SBXN[12:0] SOURCE_ID[15:0] STATUS[31:0] STAT_CODE SUM-DMB-ERR TALCT_ERR TF_CRATE TRG_TRAIL_DONE TTMB_ERR TTS_STAT[3:0] WEN_DAT ~KBIT ~SLNKWTEN ~WEN
+|Q virtex:ipad8 1
+AS virtex:ipad8 LEVEL=MXILINX
+AS virtex:ipad8 LIBVER=2.0.0
+AS virtex:ipad8 PINORDER=I[7:0]
+|Q fifoctrl 1
+AS fifoctrl @NAME=FIFOCTRL
+AS fifoctrl PINORDER=ALCTERR ARST BC0 BRD_DAV[3:0] BUSY BXR CFEB_CAL_DISABLE CLK CLK40 CRCERR CSC_L1ERR CTRL[19:0] DAQ_WAIT DMBCNT[3:0] DMBERR DMBLIVE_ERR DMB_RD[14:0] DODATA DOUT[51:0] ENDOFEVENT ERA[15:0] ERB[15:0] ERC[15:0] EVCNTRST EVT_CNT[23:0] FCLK FERR[3:0] FFIN[3:0] FFULL[3:0] FFULL[9:8] FF_ERR FIBER_ERR FIFOA_MT[3:0] FIFOB_FULL[3:0] FKILL[19:0] FOK[3:0] FPAF[9:4] INMT[3:0] IN[35:0] JD[17:0] L1A L1A_AF L1A_FAKE L1A_FF L1A_WARN L2L1A_ERROR LCTDAT_EXISTS LDMBDAV[14:0] LDMBLIVE[14:0] LFIFODAV[3:0] LFIFO_EMPTY LGOLDDAT LGOODFW LINFERR LINHARD LINL1ERR LINSING LINSYNC LIN_SING_WARN LLGOODLW LLREN_TRUE LMOREDATA LNEXT_FIFO LOADKILLF[19:0] LOSTINEVT LSPWD_ERROR LSUM_ERR[14:0] LVB15 MGT_STOP ML1A_ERR NJR NO_LIVE_FIBERS NRDY[3:0] OEFOK OE_HDR OSTAT[15:0] OUT[63:0] PAF_ERR PENDTIMEOUT PSTARTTIMEOUT PWR-ON-RST RD_ERR[3:0] RST RX_ERROR SBXN[12:0] SCLK SOFT_RST SOURCE_ID[15:0] STATUS[31:0] STUCK_DAT SYNCRST SYNC_RST SYS_RDY TIMEOUT_ERR TMBERR VME_L1A WARN_MON[15:0] XMIT_ERRORS[14:0] XMIT_MULTI_ERR ~LEXT_STOP ~LREN_FOUT[3:0] ~PAFIN[3:0] ~RENOE-0
+AN MODEIN[7:0] VLBUSISONSHEET=1
+AN HFIN[3:0] VLBUSISONSHEET=1
+AN FB_FUL[3:0] VLBUSISONSHEET=1
+AN DMB_RD[14:0] VLBUSISONSHEET=1
+AN LSUM_ERR[14:0] VLBUSISONSHEET=1
+AN FIFODAV[3:0] VLBUSISONSHEET=1
+AN SOURCE_ID[15:0] VLBUSISONSHEET=1
+AN DMB_RD[14:0] VLBUSISONSHEET=1
+AN FB_FUL[3:0] VLBUSISONSHEET=1
+AN I[35:0] VLBUSISONSHEET=1
+AN DOUT[65:0] VLBUSISONSHEET=1
+AN INT[63:0] VLBUSISONSHEET=1
+AN SPDATA[51:0] VLBUSISONSHEET=1
+AN LDMBDAV[14:0] VLBUSISONSHEET=1
+AN DMBCNT[3:0] VLBUSISONSHEET=1
+AN CRC[14:0] VLBUSISONSHEET=1
+AN STATUS[31:0] VLBUSISONSHEET=1
+AN SBXN[12:0] VLBUSISONSHEET=1
+AN L1AN[23:0] VLBUSISONSHEET=1
+AN OEHDR[3:1] VLBUSISONSHEET=1
+AN BRD_DAV[3:0] VLBUSISONSHEET=1
+AN ERC[15:0] VLBUSISONSHEET=1
+AN OSTAT[15:0] VLBUSISONSHEET=1
+AN TTS_STAT[3:0] VLBUSISONSHEET=1
+AN LDMBLIVE[14:0] VLBUSISONSHEET=1
+AN WARN_MON[15:0] VLBUSISONSHEET=1
+AN LDMBLIVE[14:0] VLBUSISONSHEET=1
+AN FIFOA_MT[3:0] VLBUSISONSHEET=1
+AN FIFOB_FULL[3:0] VLBUSISONSHEET=1
+AN FIFO_USE[3:0] VLBUSISONSHEET=1
+AN ~FIFO_USE[3:0] VLBUSISONSHEET=1
+AN EFAIN[3:0] VLBUSISONSHEET=1
+AN FFULL[3:0] VLBUSISONSHEET=1
+AN INMT[3:0] VLBUSISONSHEET=1
+AN ~PAFIN[3:0] VLBUSISONSHEET=1
+AN FFIN[3:0] VLBUSISONSHEET=1
+AN LOADKILLF[19:0] VLBUSISONSHEET=1
+AN STATUS[31:0] VLBUSISONSHEET=1
+AN ~LREN_OUT[3:0] VLBUSISONSHEET=1
+AN XMIT_ERR[14:0] VLBUSISONSHEET=1
+AN ERA[15:0] VLBUSISONSHEET=1
+AN ERB[15:0] VLBUSISONSHEET=1
+AN ERC[15:0] VLBUSISONSHEET=1
+AN FERR[3:0] VLBUSISONSHEET=1
+AN JD[17:0] VLBUSISONSHEET=1
+AN FKILL[19:0] VLBUSISONSHEET=1
+AN NRDY[3:0] VLBUSISONSHEET=1
+AN MTIN[3:0] VLBUSISONSHEET=1
+AN L1AN[23:0] VLBUSISONSHEET=1
+AN MODE[7:0] VLBUSISONSHEET=1
+AN OSTAT[15:0] VLBUSISONSHEET=1
+AN ~INFIFO_USE[3:0] VLBUSISONSHEET=1
+AN BRD_DAV[3:0] VLBUSISONSHEET=1
+AN SBXN[12:0] VLBUSISONSHEET=1
+AN IN_RD_ERR[3:0] VLBUSISONSHEET=1
+AN ~IDMB_FULL[3:0] VLBUSISONSHEET=1
+AN ~IDMB_FUL[3:0] VLBUSISONSHEET=1
+AN IN_RD_WARN[3:0] VLBUSISONSHEET=1
+AN IN_RD_WARN[5:0] VLBUSISONSHEET=1
+AN IN_RD_WARN[4:0] VLBUSISONSHEET=1
+AN IN_RD_SYNC[5:4] VLBUSISONSHEET=1
+AN FIFOB_FULL[3:0] VLBUSISONSHEET=1
+AN LSUM_ERR[14:0] VLBUSISONSHEET=1
+AN SOURCE_ID[15:0] VLBUSISONSHEET=1
+AN DO[65:0] VLBUSISONSHEET=1
+AN CTRL[19:0] VLBUSISONSHEET=1
+G ZERO_SB
+W virtex2p:buf $1I4647
+I $1I4647 virtex2p:buf L1A_WARN IN_RD_WARN4 
+W ipad4pu $1I4559
+I $1I4559 ipad4pu ~INFIFO_USE[3:0] IOBDELAY=NONE`
+W ibuf4_33 $1I4560
+I $1I4560 ibuf4_33 ~INFIFO_USE[3:0] ~FIFO_USE[3:0] 
+W ipad4pd $1I4561
+I $1I4561 ipad4pd EFAIN[3:0] TNM=INMT`IOBDELAY=NONE`
+W virtex:inv $1I4495
+I $1I4495 virtex:inv SYNCRST ~SYNCRST 
+W ipad4pd $1I4434
+I $1I4434 ipad4pd FFIN[3:0] 
+W ibuf4_33 $1I4435
+I $1I4435 ibuf4_33 MTIN[3:0] INMT[3:0] 
+W virtex2p:buf $1I4438
+I $1I4438 virtex2p:buf L1A_FF IN_RD_SYNC4 
+W virtex2p:buf $1I4439
+I $1I4439 virtex2p:buf FF IN_RD_SYNC5 
+W ibuf8_33 $1I4442
+I $1I4442 ibuf8_33 MODEIN[7:0] MODE[7:0] 
+W ipad4pu $1I4444
+I $1I4444 ipad4pu ~PAFIN[3:0] 
+W ipad4pd $1I4449
+I $1I4449 ipad4pd MTIN[3:0] TNM=INMT`IOBDELAY=NONE`
+W virtex:opad $1I3899
+I $1I3899 virtex:opad ~OSOFTRST 
+W virtex:opad $1I3454
+I $1I3454 virtex:opad ~OWEN 
+W virtex:opad $1I3128
+I $1I3128 virtex:opad ~PRST 
+W virtex:opad $1I3190
+I $1I3190 virtex:opad ~MRST 
+W virtex:opad $1I3895
+I $1I3895 virtex:opad ~OSYNCRST 
+W virtex:obuf $1I4130
+I $1I4130 virtex:obuf ~P_RST ~PRST IOSTANDARD=LVCMOS33`
+W virtex:obuf $1I4131
+I $1I4131 virtex:obuf ~M_RST ~MRST IOSTANDARD=LVCMOS33`
+W virtex:obuf $1I4129
+I $1I4129 virtex:obuf ~SYNCRST ~OSYNCRST IOSTANDARD=LVCMOS33`
+W virtex:obuf $1I4347
+I $1I4347 virtex:obuf ~SOFTRST ~OSOFTRST IOSTANDARD=LVCMOS33`
+W virtex:buf $1I3397
+I $1I3397 virtex:buf OETRAIL ENDOFEVENT 
+W virtex:fdp $1I3448
+I $1I3448 virtex:fdp CLK ~WEN RST ~WE 
+W inv4_bus $1I4570
+I $1I4570 inv4_bus ~FIFO_USE[3:0] FIFO_USE[3:0] 
+W ibuf4_33 $1I4571
+I $1I4571 ibuf4_33 ~IDMB_FUL[3:0] ~IDMB_FULL[3:0] 
+W ifd4bus $1I4564
+I $1I4564 ifd4bus 2CLK EFAIN[3:0] FIFOA_MT[3:0] 
+W ipad4pu $1I4572
+I $1I4572 ipad4pu ~IDMB_FUL[3:0] 
+W virtex:gnd $1I3502
+I $1I3502 virtex:gnd ZERO_SB 
+W virtex:or4 $1I3460
+I $1I3460 virtex:or4 ZERO_SB CRITICAL_ERROR SING_ERR SINGLE_WARNING SOMETHING_BAD 
+W virtex:ibuf $1I4547
+I $1I4547 virtex:ibuf INFAKEL1_EN FAKE_L1_EN IOSTANDARD=LVCMOS33`
+W virtex2p:or2 $1I4549
+I $1I4549 virtex2p:or2 FAKE_L1_EN MODE6 L1A_FAKE 
+W virtex2p:buf $1I4440
+I $1I4440 virtex2p:buf PAF IN_RD_WARN5 
+W ipad36 $1I4569
+I $1I4569 ipad36 I[35:0] TNM=INDAT`
+W ipad4pd $1I4176
+I $1I4176 ipad4pd HFIN[3:0] TNM=INMT`IOBDELAY=NONE`
+W virtex:vcc $1I4173
+I $1I4173 virtex:vcc $1N4172 
+W fd4cebus $1I4170
+I $1I4170 fd4cebus 2CLK $1N4172 RST FB_FUL[3:0] FIFOB_FULL[3:0] 
+W virtex:or2 $1I3946
+I $1I3946 virtex:or2 DAQ_WAIT DDU_WARN NEARFULL 
+W virtex2p:or12 $1I4369
+I $1I4369 virtex2p:or12 INHARD INSYNC STUCK_DAT DDU_SYNC_ERR ZERO_CRIT ZERO_CRIT DMB_CRIT_ERR CFEB_L1A_ERR LOST_IN_DATA TIMEOUT FIBER_ERR MULTI_XMIT_ERR CRITICALERROR 
+W virtex:gnd $1I4581
+I $1I4581 virtex:gnd ZERO_CRIT 
+W virtex2p:or3 $1I4357
+I $1I4357 virtex2p:or3 INHARD INSYNC INSING INCTRL_ERR 
+W ibuf4_33 $1I4167
+I $1I4167 ibuf4_33 HFIN[3:0] FB_FUL[3:0] 
+W opad66 $1I3679
+I $1I3679 opad66 DOUT[65:0] 
+W virtex:obuf $1I4132
+I $1I4132 virtex:obuf ~OW ~OWEN IOSTANDARD=LVCMOS33`
+W virtex:fdp $1I3449
+I $1I3449 virtex:fdp CLK ~OWE RST ~OW IOB=TRUE`
+W ofd66 $1I3677
+I $1I3677 ofd66 CLK DO[65:0] DOUT[65:0] 
+W virtex:or2 $1I4650
+I $1I4650 virtex:or2 DMB_ERR LSCA_OVFL DMB_SCA_ERR 
+W virtex2p:or8 $1I4355
+I $1I4355 virtex2p:or8 INSING LOST_IN_EVENT DMB_SCA_ERR ALCT_ERR TMB_ERR L1A_ERROR CRC_ERR 64BIT_ERROR SINGLEERROR 
+W virtex2p:or3 $1I4588
+I $1I4588 virtex2p:or3 IN_SING_WARN DLL_ERROR SPWD_ERROR SINGLE_WARNING 
+W ipad1pd $1I4548
+I $1I4548 ipad1pd INFAKEL1_EN 
+W stage2 $1I3031
+I $1I3031 stage2 2ND_HDR_1ST BAD_CTRL_WORD BAD_FW BAD_TRG_TR BRD_DAV[3:0] CHECK_CRC CLK CRC[14:0] CRC_ERR TCRC_ERR CSC_L1ERR CTRL[19:0] INT[63:0] DMB_FULL DMBCNT[3:0] LDMBDAV[14:0] DMB_CRIT_ERR TDMB_ERR DMB_FMM_WARN DMB_RD[14:0] ERC[15:0] FIRSTDAT_ERR FIRST_DAT FIRST_HDR SPDATA[51:0] L1AN[23:0] ALCT_ERR BAD_2ND_TR LCFEBL1ERR LCFEB_CNT_ERR CFEB_L1A_ERR CRC_CNT_ERR CRC_END_ERR CRC_OK LDMBLIVE[14:0] LDMB_CRC_OK DMB_ERR TLOST_IN_EVENT LLONE_WORD LMOVLP_DAV_ERR LOST_IN_DATA LOST_IN_EVENT LSCA_OVFL LSECOND_HDR LSUM_ERR[14:0] LTF_ERR LTF_SIG TMB_ERR TRG_CRCERR TRG_ERR TRG_L1ERR LTRG_TRAIL TRG_WCERR LWC_LD XTRA_1ST_HDR XTRA_1ST_TR XTRA_2ND_HDR OEDATA OEDEFAULT OEHDR[3:1] OETRAIL OSTAT[15:0] DO[65:0] RST RST_LWC SBXN[12:0] SOURCE_ID[15:0] STATUS[31:0] STAT_CODE DMB_TIMEOUT TALCT_ERR TF_CRATE TRG_TRAIL_DONE TTMB_ERR TTS_STAT[3:0] WEN_DAT ~KBIT ~SLINK_WT_EN ~WEN 
+W virtex:buf $1I4595
+I $1I4595 virtex:buf NON-JTAG-RESET NJR 
+W virtex:ipad8 $1I4458
+I $1I4458 virtex:ipad8 MODEIN[7:0] 
+W fifoctrl $1I3030
+I $1I3030 fifoctrl TALCT_ERR ARST BC0 BRD_DAV[3:0] BUSY BXR CAL_TRG_DISABLE CLK CLK40 TCRC_ERR CSC_L1ERR CTRL[19:0] DAQ_WAIT DMBCNT[3:0] TDMB_ERR DMBLIVE_ERR DMB_RD[14:0] DODATA SPDATA[51:0] ENDOFEVENT ERA[15:0] ERB[15:0] ERC[15:0] EVCNTRST L1AN[23:0] 2CLK FERR[3:0] FFIN[3:0] FFULL[3:0] IN_RD_SYNC[5:4] FF_ERR FIBER_ERR FIFOA_MT[3:0] FIFOB_FULL[3:0] FKILL[19:0] FIFO_USE[3:0] IN_RD_WARN[5:0] INMT[3:0] I[35:0] JD[17:0] L1A L1A_AF L1A_FAKE L1A_FF L1A_WARN L1A_ERROR LCTDATA_EXISTS LDMBDAV[14:0] LDMBLIVE[14:0] FIFODAV[3:0] LFIFO_MT GOLDDAT LGOODFW LINFERR INHARD LINL1ERR INSING INSYNC IN_SING_WARN GOODLW REN_TRUE MOREDATA NEXT_FIFO LOADKILLF[19:0] TLOST_IN_EVENT SPWD_ERROR LSUM_ERR[14:0] LVB15 MGT_STOP MULT_L1A_ERR NON-JTAG-RESET NO_LIVE_FIBERS NRDY[3:0] OEFOK OE_HDR OSTAT[15:0] INT[63:0] PAF_ERR END_TIMEOUT START_TIMEOUT PWR-ON-RST IN_RD_ERR[3:0] RST 64BIT_ERROR SBXN[12:0] SCLK SOFT_RST SOURCE_ID[15:0] STATUS[31:0] STUCK_DAT SYNCRST SYNC_RST SYSTEM_RDY TIMEOUT TTMB_ERR VME_L1A WARN_MON[15:0] XMIT_ERR[14:0] MULTI_XMIT_ERR ~LEXT_STOP ~LREN_OUT[3:0] ~PAFIN[3:0] ~RENOE-0 
+EW
+| Sch_Warning - Pin/Net disassociation at location (1425,835).
+| Sch_Warning - Pin/Net disassociation at location (1295,865).
+| Sch_Warning - Pin/Net disassociation at location (1295,845).
+| Sch_Warning - Pin/Net disassociation at location (1330,795).
+| Sch_Warning - Pin/Net disassociation at location (1270,665).
+| Sch_Warning - Pin/Net disassociation at location (1605,655).
+| Sch_Warning - Pin/Net disassociation at location (1270,725).
+| Sch_Warning - Pin/Net disassociation at location (1270,765).
+| Sch_Warning - Pin/Net disassociation at location (1270,745).
+| Sch_Warning - Pin/Net disassociation at location (1210,355).
+| Sch_Warning - Pin/Net disassociation at location (1210,340).
+| Sch_Warning - Pin/Net disassociation at location (1245,255).
+| Sch_Warning - Pin/Net disassociation at location (1215,225).
+| Sch_Warning - Pin/Net disassociation at location (1215,240).
+| Sch_Warning - Pin/Net disassociation at location (1240,750).
+| Sch_Warning - Pin/Net disassociation at location (1220,115).
+| Sch_Warning - Pin/Net disassociation at location (1260,515).
+| Sch_Warning - Pin/Net disassociation at location (1250,435).
+| Sch_Warning - Pin/Net disassociation at location (1250,420).
+| Sch_Warning - Pin/Net disassociation at location (1240,660).
+| Sch_Warning - Pin/Net disassociation at location (1240,645).
+| Sch_Warning - Pin/Net disassociation at location (1240,630).
+| Sch_Warning - Pin/Net disassociation at location (1240,600).
+| Sch_Warning - Pin/Net disassociation at location (1240,570).
+| Sch_Warning - Pin/Net disassociation at location (1240,555).
+| Sch_Warning - Pin/Net disassociation at location (1220,405).
+| Sch_Warning - Pin/Net disassociation at location (1260,535).
+| Sch_Warning - Pin/Net disassociation at location (1240,735).
+| Sch_Warning - Pin/Net disassociation at location (860,780).
+| Sch_Warning - Pin/Net disassociation at location (835,800).
+| Sch_Warning - Pin/Net disassociation at location (1245,765).
+| Sch_Warning - Pin/Net disassociation at location (1240,585).
+| Sch_Warning - Pin/Net disassociation at location (355,730).
+| Sch_Warning - Pin/Net disassociation at location (55,140).
+| Sch_Warning - Pin/Net disassociation at location (120,140).
+| Sch_Warning - Pin/Net disassociation at location (55,110).
+| Sch_Warning - Pin/Net disassociation at location (120,110).
+| Sch_Warning - Pin/Net disassociation at location (120,95).
+| Sch_Warning - Pin/Net disassociation at location (55,95).
+| Sch_Warning - Pin/Net disassociation at location (55,85).
+| Sch_Warning - Pin/Net disassociation at location (120,85).
+| Sch_Warning - Pin/Net disassociation at location (345,1050).
+| Sch_Warning - Pin/Net disassociation at location (415,635).
+| Sch_Warning - Pin/Net disassociation at location (415,615).
+| Sch_Warning - Pin/Net disassociation at location (420,310).
+| Sch_Warning - Pin/Net disassociation at location (420,290).
+| Sch_Warning - Pin/Net disassociation at location (775,735).
+| Sch_Warning - Pin/Net disassociation at location (775,705).
+| Sch_Warning - Pin/Net disassociation at location (385,905).
+| Sch_Warning - Pin/Net disassociation at location (385,140).
+| Sch_Warning - Pin/Net disassociation at location (765,685).
+| Sch_Warning - Pin/Net disassociation at location (385,875).
+| Sch_Warning - Pin/Net disassociation at location (365,770).
+| Sch_Warning - Pin/Net disassociation at location (360,155).
+| Sch_Warning - Pin/Net disassociation at location (365,785).
+| Sch_Warning - Pin/Net disassociation at location (390,120).
+| Sch_Warning - Pin/Net disassociation at location (390,95).
+| Sch_Warning - Pin/Net disassociation at location (390,70).
+| Sch_Warning - Pin/Net disassociation at location (365,945).
+| Sch_Warning - Pin/Net disassociation at location (380,925).
+| Sch_Warning - Pin/Net disassociation at location (360,1010).
+| Sch_Warning - Pin/Net disassociation at location (360,995).
+| Sch_Warning - Pin/Net disassociation at location (360,980).
+| Sch_Warning - Pin/Net disassociation at location (360,965).
+| Sch_Warning - Pin/Net disassociation at location (145,180).
+| Sch_Warning - Pin/Net disassociation at location (1320,475).
+| Sch_Warning - Pin/Net disassociation at location (1320,435).
+| Sch_Warning - Pin/Net disassociation at location (1260,160).
+| Sch_Warning - Pin/Net disassociation at location (365,845).
+| Sch_Warning - Pin/Net disassociation at location (365,830).
+| Sch_Warning - Pin/Net disassociation at location (385,860).
+| Sch_Warning - Pin/Net disassociation at location (365,755).
+| Sch_Warning - Pin/Net disassociation at location (385,890).
+| Sch_Warning - Pin/Net disassociation at location (400,465).
+| Sch_Warning - Pin/Net disassociation at location (1510,125).
+| Sch_Warning - Pin/Net disassociation at location (380,1030).
+| Sch_Warning - Pin/Net disassociation at location (420,330).
+| Sch_Warning - Pin/Net disassociation at location (300,655).
+| Sch_Warning - Pin/Net disassociation at location (1200,390).
+| Sch_Warning - Pin/Net disassociation at location (1245,270).
+| Sch_Warning - Pin/Net disassociation at location (365,815).
+| Sch_Warning - Pin/Net disassociation at location (365,800).
+| Sch_Warning - Pin/Net disassociation at location (755,120).
+| Sch_Warning - Pin/Net disassociation at location (1245,300).
+| Sch_Warning - Pin/Net disassociation at location (1245,285).
+| Sch_Warning - Pin/Net disassociation at location (350,1065).
+| Sch_Warning - Pin/Net disassociation at location (1245,315).
+| Sch_Warning - Pin/Net disassociation at location (400,710).
+| Sch_Warning - Pin/Net disassociation at location (775,720).
+| Sch_Warning - Pin/Net disassociation at location (205,125).
+| Sch_Warning - Pin/Net disassociation at location (175,150).
+| Sch_Warning - Pin/Net disassociation at location (1240,615).
+| Sch_Warning - Pin/Net disassociation at location (1320,455).
+| Sch_Warning - Pin/Net disassociation at location (350,880).
+| Sch_Warning - Pin/Net disassociation at location (775,665).
+| Sch_Warning - Pin/Net disassociation at location (755,135).
+| Sch_Warning - Pin/Net disassociation at location (755,150).

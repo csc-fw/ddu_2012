@@ -1,0 +1,534 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 7468887480 tst1
+DW dducntrl
+SA @DATETIME=3-21-2012_19:11 
+SA @NAME=DDUCNTRL 
+SA @SHEET=5 
+|Q virtex:ipad 1
+AS virtex:ipad LIBVER=2.0.0
+AS virtex:ipad LEVEL=XILINX
+AS virtex:ipad EXT=IPAD
+AS virtex:ipad PINORDER=IPAD
+|Q virtex2p:ibufgds 1
+AS virtex2p:ibufgds LIBVER=2.0.0
+AS virtex2p:ibufgds LEVEL=XILINX
+AS virtex2p:ibufgds IOSTANDARD=LVDS_25
+AS virtex2p:ibufgds PINORDER=I IB O
+AP virtex2p:ibufgds 1 PINTYPE=CHIPIN
+AP virtex2p:ibufgds 2 PINTYPE=CHIPIN
+AP virtex2p:ibufgds 3 PINTYPE=OUT
+|Q virtex:bufg 1
+AS virtex:bufg LIBVER=2.0.0
+AS virtex:bufg DEVICE=BUFG
+AS virtex:bufg LEVEL=XILINX
+AS virtex:bufg PINORDER=I O
+AP virtex:bufg 1 PINTYPE=IN
+AP virtex:bufg 2 PINTYPE=OUT
+|Q virtex:inv 1
+AS virtex:inv DEVICE=INV
+AS virtex:inv LIBVER=2.0.0
+AS virtex:inv LEVEL=XILINX
+AS virtex:inv PINORDER=I O
+AP virtex:inv 1 PINTYPE=IN
+AP virtex:inv 2 PINTYPE=OUT
+|Q virtex:gnd 1
+AS virtex:gnd LIBVER=2.0.0
+AS virtex:gnd LEVEL=XILINX
+AS virtex:gnd PINORDER=G
+AP virtex:gnd 1 PINTYPE=OUT
+|Q virtex:vcc 1
+AS virtex:vcc LEVEL=XILINX
+AS virtex:vcc LIBVER=2.0.0
+AS virtex:vcc PINORDER=P
+AP virtex:vcc 1 PINTYPE=OUT
+|Q virtex:opad 1
+AS virtex:opad LIBVER=2.0.0
+AS virtex:opad LEVEL=XILINX
+AS virtex:opad EXT=OPAD
+AS virtex:opad PINORDER=OPAD
+|Q virtex2p:inv 1
+AS virtex2p:inv DEVICE=INV
+AS virtex2p:inv LIBVER=2.0.0
+AS virtex2p:inv LEVEL=XILINX
+AS virtex2p:inv PINORDER=I O
+AP virtex2p:inv 1 PINTYPE=IN
+AP virtex2p:inv 2 PINTYPE=OUT
+|Q virtex:ibuf 1
+AS virtex:ibuf LIBVER=2.0.0
+AS virtex:ibuf LEVEL=XILINX
+AS virtex:ibuf IOSTANDARD=LVCMOS25
+AS virtex:ibuf PINORDER=I O
+AP virtex:ibuf 1 PINTYPE=CHIPIN
+AP virtex:ibuf 2 PINTYPE=OUT
+|Q virtex:sr4ce 1
+AS virtex:sr4ce LEVEL=MXILINX
+AS virtex:sr4ce @INIT=0
+AS virtex:sr4ce LIBVER=2.0.0
+AS virtex:sr4ce PINORDER=C CE CLR Q0 Q1 Q2 Q3 SLI
+AP virtex:sr4ce 1 PINTYPE=IN
+AP virtex:sr4ce 2 PINTYPE=IN
+AP virtex:sr4ce 3 PINTYPE=IN
+AP virtex:sr4ce 4 PINTYPE=OUT
+AP virtex:sr4ce 5 PINTYPE=OUT
+AP virtex:sr4ce 6 PINTYPE=OUT
+AP virtex:sr4ce 7 PINTYPE=OUT
+AP virtex:sr4ce 8 PINTYPE=IN
+|Q virtex2p:and2 1
+AS virtex2p:and2 LEVEL=XILINX
+AS virtex2p:and2 DEVICE=AND
+AS virtex2p:and2 LIBVER=2.0.0
+AS virtex2p:and2 PINORDER=I0 I1 O
+AP virtex2p:and2 1 PINTYPE=IN
+AP virtex2p:and2 2 PINTYPE=IN
+AP virtex2p:and2 3 PINTYPE=OUT
+|Q virtex2p:and4b3 1
+AS virtex2p:and4b3 LEVEL=XILINX
+AS virtex2p:and4b3 DEVICE=AND
+AS virtex2p:and4b3 LIBVER=2.0.0
+AS virtex2p:and4b3 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:and4b3 1 PINTYPE=IN
+AP virtex2p:and4b3 1 PARAM=INV
+AP virtex2p:and4b3 2 PINTYPE=IN
+AP virtex2p:and4b3 2 PARAM=INV
+AP virtex2p:and4b3 3 PINTYPE=IN
+AP virtex2p:and4b3 3 PARAM=INV
+AP virtex2p:and4b3 4 PINTYPE=IN
+AP virtex2p:and4b3 5 PINTYPE=OUT
+|Q ipad1pu 1
+AS ipad1pu LEVEL=MXILINX
+AS ipad1pu PINORDER=IPAD1PU
+|Q virtex2p:ibufg 1
+AS virtex2p:ibufg LIBVER=2.0.0
+AS virtex2p:ibufg LEVEL=XILINX
+AS virtex2p:ibufg IOSTANDARD=LVCMOS25
+AS virtex2p:ibufg PINORDER=I O
+AP virtex2p:ibufg 1 PINTYPE=CHIPIN
+AP virtex2p:ibufg 2 PINTYPE=OUT
+|Q virtex2p:fdc_1 1
+AS virtex2p:fdc_1 LEVEL=XILINX
+AS virtex2p:fdc_1 @INIT=0
+AS virtex2p:fdc_1 LIBVER=2.0.0
+AS virtex2p:fdc_1 PINORDER=C CLR D Q
+AP virtex2p:fdc_1 1 PINTYPE=IN
+AP virtex2p:fdc_1 2 PINTYPE=IN
+AP virtex2p:fdc_1 3 PINTYPE=IN
+AP virtex2p:fdc_1 4 PINTYPE=OUT
+|Q ofddrcpe_33 1
+AS ofddrcpe_33 @INIT=0
+AS ofddrcpe_33 IOB=TRUE
+AS ofddrcpe_33 LIBVER=2.0.0
+AS ofddrcpe_33 LEVEL=OSU-XILINX
+AS ofddrcpe_33 @NAME=OFDDRCPE_33
+AS ofddrcpe_33 PINORDER=C0 C1 CE CLR D0 D1 PRE Q
+AP ofddrcpe_33 1 PINTYPE=IN
+AP ofddrcpe_33 2 PINTYPE=IN
+AP ofddrcpe_33 3 PINTYPE=IN
+AP ofddrcpe_33 4 PINTYPE=IN
+AP ofddrcpe_33 5 PINTYPE=IN
+AP ofddrcpe_33 6 PINTYPE=IN
+AP ofddrcpe_33 7 PINTYPE=IN
+AP ofddrcpe_33 8 PINTYPE=OUT
+|Q virtex2p:dcm 1
+AS virtex2p:dcm CLKIN_PERIOD=0.0
+AS virtex2p:dcm PINORDER=CLK0 CLK180 CLK270 CLK2X CLK2X180 CLK90 CLKDV CLKFX CLKFX180 LOCKED PSDONE STATUS[7:0] CLKFB CLKIN DSSEN PSCLK PSEN PSINCDEC RST
+AS virtex2p:dcm VERILOG=DCM
+AS virtex2p:dcm ACCEL=VCS
+AS virtex2p:dcm LEVEL=VERILOG
+AS virtex2p:dcm CLKOUT_PHASE_SHIFT=""NONE""
+AS virtex2p:dcm CLKFX_MULTIPLY=4
+AS virtex2p:dcm CLKFX_DIVIDE=1
+AS virtex2p:dcm CLKDV_DIVIDE=2.0
+AS virtex2p:dcm LIBVER=2.0.0
+AS virtex2p:dcm LEVEL=XILINX
+AS virtex2p:dcm CLK_FEEDBACK=""1X""
+AS virtex2p:dcm STARTUP_WAIT=""FALSE""
+AS virtex2p:dcm PHASE_SHIFT=0
+AS virtex2p:dcm DUTY_CYCLE_CORRECTION=""TRUE""
+AS virtex2p:dcm DSS_MODE=""NONE""
+AS virtex2p:dcm DLL_FREQUENCY_MODE=""LOW""
+AS virtex2p:dcm DFS_FREQUENCY_MODE=""LOW""
+AS virtex2p:dcm FACTORY_JF=16'HC080
+AS virtex2p:dcm CLKIN_DIVIDE_BY_2=""FALSE""
+AS virtex2p:dcm DESKEW_ADJUST=""SYSTEM_SYNCHRONOUS""
+AS virtex2p:dcm INOV_VER_REC=1:18_5-25-02
+AP virtex2p:dcm 1 PINTYPE=OUT
+AP virtex2p:dcm 2 PINTYPE=OUT
+AP virtex2p:dcm 3 PINTYPE=OUT
+AP virtex2p:dcm 4 PINTYPE=OUT
+AP virtex2p:dcm 5 PINTYPE=OUT
+AP virtex2p:dcm 6 PINTYPE=OUT
+AP virtex2p:dcm 7 PINTYPE=OUT
+AP virtex2p:dcm 8 PINTYPE=OUT
+AP virtex2p:dcm 9 PINTYPE=OUT
+AP virtex2p:dcm 10 PINTYPE=OUT
+AP virtex2p:dcm 11 PINTYPE=OUT
+AP virtex2p:dcm 12 PINTYPE=OUT
+AP virtex2p:dcm 13 PINTYPE=IN
+AP virtex2p:dcm 14 PINTYPE=IN
+AP virtex2p:dcm 15 PINTYPE=IN
+AP virtex2p:dcm 16 PINTYPE=IN
+AP virtex2p:dcm 17 PINTYPE=IN
+AP virtex2p:dcm 18 PINTYPE=IN
+AP virtex2p:dcm 19 PINTYPE=IN
+|Q ofd_33_1 1
+AS ofd_33_1 LEVEL=MXILINX
+AS ofd_33_1 @NAME=OFD_33_1
+AS ofd_33_1 PINORDER=C D Q
+AP ofd_33_1 1 PINTYPE=IN
+AP ofd_33_1 2 PINTYPE=IN
+AP ofd_33_1 3 PINTYPE=OUT
+|Q virtex:ibufg 1
+AS virtex:ibufg LIBVER=2.0.0
+AS virtex:ibufg LEVEL=XILINX
+AS virtex:ibufg IOSTANDARD=LVCMOS25
+AS virtex:ibufg PINORDER=I O
+AP virtex:ibufg 1 PINTYPE=CHIPIN
+AP virtex:ibufg 2 PINTYPE=OUT
+|Q ofddr_33_f24 1
+AS ofddr_33_f24 @INIT=0
+AS ofddr_33_f24 IOB=TRUE
+AS ofddr_33_f24 LIBVER=2.0.0
+AS ofddr_33_f24 LEVEL=OSU-XILINX
+AS ofddr_33_f24 @NAME=OFDDR_33_F24
+AS ofddr_33_f24 PINORDER=C0 C1 CE CLR D0 D1 PRE Q
+AP ofddr_33_f24 1 PINTYPE=IN
+AP ofddr_33_f24 2 PINTYPE=IN
+AP ofddr_33_f24 3 PINTYPE=IN
+AP ofddr_33_f24 4 PINTYPE=IN
+AP ofddr_33_f24 5 PINTYPE=IN
+AP ofddr_33_f24 6 PINTYPE=IN
+AP ofddr_33_f24 7 PINTYPE=IN
+AP ofddr_33_f24 8 PINTYPE=OUT
+|Q virtex:or2 1
+AS virtex:or2 DEVICE=OR
+AS virtex:or2 LEVEL=XILINX
+AS virtex:or2 LIBVER=2.0.0
+AS virtex:or2 PINORDER=I0 I1 O
+AP virtex:or2 1 PINTYPE=IN
+AP virtex:or2 2 PINTYPE=IN
+AP virtex:or2 3 PINTYPE=OUT
+|Q virtex2p:fdc 1
+AS virtex2p:fdc LIBVER=2.0.0
+AS virtex2p:fdc LEVEL=XILINX
+AS virtex2p:fdc @INIT=0
+AS virtex2p:fdc DEVICE=DFF
+AS virtex2p:fdc PINORDER=C CLR D Q
+AP virtex2p:fdc 1 PINTYPE=IN
+AP virtex2p:fdc 2 PINTYPE=IN
+AP virtex2p:fdc 3 PINTYPE=IN
+AP virtex2p:fdc 4 PINTYPE=OUT
+|Q virtex2p:or2 1
+AS virtex2p:or2 DEVICE=OR
+AS virtex2p:or2 LEVEL=XILINX
+AS virtex2p:or2 LIBVER=2.0.0
+AS virtex2p:or2 PINORDER=I0 I1 O
+AP virtex2p:or2 1 PINTYPE=IN
+AP virtex2p:or2 2 PINTYPE=IN
+AP virtex2p:or2 3 PINTYPE=OUT
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+|Q virtex2p:fdce 1
+AS virtex2p:fdce @INIT=0
+AS virtex2p:fdce LIBVER=2.0.0
+AS virtex2p:fdce LEVEL=XILINX
+AS virtex2p:fdce DEVICE=DFF
+AS virtex2p:fdce PINORDER=C CE CLR D Q
+AP virtex2p:fdce 1 PINTYPE=IN
+AP virtex2p:fdce 2 PINTYPE=IN
+AP virtex2p:fdce 3 PINTYPE=IN
+AP virtex2p:fdce 4 PINTYPE=IN
+AP virtex2p:fdce 5 PINTYPE=OUT
+|Q ofddr_33_f16 1
+AS ofddr_33_f16 @INIT=0
+AS ofddr_33_f16 IOB=TRUE
+AS ofddr_33_f16 LIBVER=2.0.0
+AS ofddr_33_f16 LEVEL=OSU-XILINX
+AS ofddr_33_f16 @NAME=OFDDR_33_F16
+AS ofddr_33_f16 PINORDER=C0 C1 CE CLR D0 D1 PRE Q
+AP ofddr_33_f16 1 PINTYPE=IN
+AP ofddr_33_f16 2 PINTYPE=IN
+AP ofddr_33_f16 3 PINTYPE=IN
+AP ofddr_33_f16 4 PINTYPE=IN
+AP ofddr_33_f16 5 PINTYPE=IN
+AP ofddr_33_f16 6 PINTYPE=IN
+AP ofddr_33_f16 7 PINTYPE=IN
+AP ofddr_33_f16 8 PINTYPE=OUT
+|Q virtex2p:nor2 1
+AS virtex2p:nor2 LEVEL=XILINX
+AS virtex2p:nor2 DEVICE=NOR
+AS virtex2p:nor2 LIBVER=2.0.0
+AS virtex2p:nor2 PINORDER=I0 I1 O
+AP virtex2p:nor2 1 PINTYPE=IN
+AP virtex2p:nor2 2 PINTYPE=IN
+AP virtex2p:nor2 3 PINTYPE=OUT
+AP virtex2p:nor2 3 PARAM=INV
+|Q virtex2p:fd 1
+AS virtex2p:fd @INIT=0
+AS virtex2p:fd DEVICE=DFF
+AS virtex2p:fd LIBVER=2.0.0
+AS virtex2p:fd LEVEL=XILINX
+AS virtex2p:fd PINORDER=C D Q
+AP virtex2p:fd 1 PINTYPE=IN
+AP virtex2p:fd 2 PINTYPE=IN
+AP virtex2p:fd 3 PINTYPE=OUT
+|Q virtex2p:obuf 1
+AS virtex2p:obuf LIBVER=2.0.0
+AS virtex2p:obuf LEVEL=XILINX
+AS virtex2p:obuf IOSTANDARD=LVCMOS25
+AS virtex2p:obuf SLEW=SLOW
+AS virtex2p:obuf DRIVE=12
+AS virtex2p:obuf PINORDER=I O
+AP virtex2p:obuf 1 PINTYPE=IN
+AP virtex2p:obuf 2 PINTYPE=CHIPTRI
+|Q virtex2p:fd_1 1
+AS virtex2p:fd_1 @INIT=0
+AS virtex2p:fd_1 LEVEL=XILINX
+AS virtex2p:fd_1 LIBVER=2.0.0
+AS virtex2p:fd_1 DEVICE=DFF
+AS virtex2p:fd_1 PINORDER=C D Q
+AP virtex2p:fd_1 1 PINTYPE=IN
+AP virtex2p:fd_1 2 PINTYPE=IN
+AP virtex2p:fd_1 3 PINTYPE=OUT
+AN 2CLK TNM_NET=FCLK
+AN CLK TNM_NET=CLK0
+W virtex:ipad $5I5234
+I $5I5234 virtex:ipad FCKIN_P 
+W virtex:ipad $5I5235
+I $5I5235 virtex:ipad FCKIN_N 
+W virtex2p:ibufgds $5I5236
+I $5I5236 virtex2p:ibufgds FCKIN_P FCKIN_N CKIN156 
+W virtex:bufg $5I5238
+I $5I5238 virtex:bufg CKIN156 CLK156 LOC=BUFGMUX4S`
+W virtex:inv $5I5171
+I $5I5171 virtex:inv DLL_LOCK3 ~DLL_LOCK3 
+W virtex:gnd $5I5155
+I $5I5155 virtex:gnd $5N5169 
+W virtex:vcc $5I5156
+I $5I5156 virtex:vcc $5N5168 
+W virtex:vcc $5I5157
+I $5I5157 virtex:vcc $5N5166 
+W virtex:opad $5I5162
+I $5I5162 virtex:opad IRCLK1 
+W virtex:gnd $5I5163
+I $5I5163 virtex:gnd $5N5167 
+W virtex2p:inv $5I5125
+I $5I5125 virtex2p:inv 2CLK ~2CLK3 
+W virtex2p:inv $5I5128
+I $5I5128 virtex2p:inv 2CLK ~2CLK1 
+W virtex:gnd $5I5102
+I $5I5102 virtex:gnd $5N5106 
+W virtex:vcc $5I5028
+I $5I5028 virtex:vcc $5N5023 
+W virtex:vcc $5I5029
+I $5I5029 virtex:vcc $5N5025 
+W virtex:gnd $5I5030
+I $5I5030 virtex:gnd $5N5022 
+W virtex:gnd $5I5031
+I $5I5031 virtex:gnd $5N5024 
+W virtex:opad $5I5015
+I $5I5015 virtex:opad FIFO_CLK3 
+W virtex:opad $5I5011
+I $5I5011 virtex:opad FIFO_CLK2 
+W virtex:opad $5I5007
+I $5I5007 virtex:opad FIFO_CLK1 
+W virtex:ibuf $5I4999
+I $5I4999 virtex:ibuf ~RDYIN2 ~RDY_IN2 IOSTANDARD=LVCMOS33`
+W virtex:ibuf $5I4998
+I $5I4998 virtex:ibuf ~RDYIN1 ~RDY_IN1 IOSTANDARD=LVCMOS33`
+W virtex:ibuf $5I4997
+I $5I4997 virtex:ibuf ~RDYIN0 ~RDY_IN0 IOSTANDARD=LVCMOS33`
+W virtex:sr4ce $5I4704
+I $5I4704 virtex:sr4ce CLK DDU_DLL_LOCK $5N4688 ? ? ? ~PWR-ON-RST $5N4686 
+W virtex:gnd $5I4706
+I $5I4706 virtex:gnd $5N4688 
+W virtex:vcc $5I4705
+I $5I4705 virtex:vcc $5N4686 
+W virtex2p:and2 $5I4817
+I $5I4817 virtex2p:and2 DLL_LOCK2 LOCKED DDU_DLL_LOCK 
+W virtex2p:and4b3 $5I4869
+I $5I4869 virtex2p:and4b3 ~RDY_IN2 ~RDY_IN1 ~RDY_IN0 ~PWR-ON-RST DDU_RDY 
+W ipad1pu $5I4699
+I $5I4699 ipad1pu ~RDYIN0 
+W ipad1pu $5I4700
+I $5I4700 ipad1pu ~RDYIN1 
+W ipad1pu $5I4701
+I $5I4701 ipad1pu ~RDYIN2 
+W virtex:vcc $5I4604
+I $5I4604 virtex:vcc $5N4599 
+W virtex:inv $5I4696
+I $5I4696 virtex:inv ~PWR-ON-RST PWR-ON-RST 
+W virtex:opad $5I5004
+I $5I5004 virtex:opad FIFO_CLK0 
+W virtex:gnd $5I5054
+I $5I5054 virtex:gnd $5N5066 
+W virtex:gnd $5I5053
+I $5I5053 virtex:gnd $5N5064 
+W virtex:vcc $5I5056
+I $5I5056 virtex:vcc $5N5065 
+W virtex:vcc $5I5055
+I $5I5055 virtex:vcc $5N5063 
+W virtex:ipad $5I4649
+I $5I4649 virtex:ipad CKFB_IN 
+W virtex:bufg $5I4991
+I $5I4991 virtex:bufg GCK156 2CLK LOC=BUFGMUX1S`
+W virtex:gnd $5I4791
+I $5I4791 virtex:gnd $5N4792 
+W virtex:gnd $5I4783
+I $5I4783 virtex:gnd $5N4784 
+W virtex:gnd $5I4862
+I $5I4862 virtex:gnd $5N4861 
+W virtex:gnd $5I5069
+I $5I5069 virtex:gnd $5N5081 
+W virtex:gnd $5I5068
+I $5I5068 virtex:gnd $5N5079 
+W virtex:vcc $5I5070
+I $5I5070 virtex:vcc $5N5078 
+W virtex:vcc $5I5071
+I $5I5071 virtex:vcc $5N5080 
+W virtex:opad $5I4813
+I $5I4813 virtex:opad IRCLK0 
+W virtex2p:inv $5I5110
+I $5I5110 virtex2p:inv CLK156 ~CLK156-0 
+W virtex2p:ibufg $5I4776
+I $5I4776 virtex2p:ibufg CKFB_IN CKFB IOSTANDARD=LVCMOS33`
+W virtex:bufg $5I4990
+I $5I4990 virtex:bufg GCK78 CLK LOC=BUFGMUX7S`
+W virtex:opad $5I4770
+I $5I4770 virtex:opad CKFB_OUT 
+W virtex2p:inv $5I5134
+I $5I5134 virtex2p:inv 2CLK ~2CLK2 
+W virtex:gnd $5I5038
+I $5I5038 virtex:gnd $5N5049 
+W virtex:vcc $5I5040
+I $5I5040 virtex:vcc $5N5048 
+W virtex:vcc $5I5041
+I $5I5041 virtex:vcc $5N5050 
+W virtex2p:fdc_1 $5I4603
+I $5I4603 virtex2p:fdc_1 DDU_DLL_LOCK RST_EOE $5N4599 DDU_DLL_ERR 
+W ofddrcpe_33 $5I5052
+I $5I5052 ofddrcpe_33 ~2CLK1 2CLK $5N5063 ~DLL_LOCK2 $5N5065 $5N5064 $5N5066 FIFO_CLK1 
+W virtex2p:inv $5I5131
+I $5I5131 virtex2p:inv 2CLK ~2CLK0 
+W ofddrcpe_33 $5I5032
+I $5I5032 ofddrcpe_33 ~2CLK0 2CLK $5N5025 ~DLL_LOCK2 $5N5023 $5N5024 $5N5022 FIFO_CLK0 
+W virtex:vcc $5I5101
+I $5I5101 virtex:vcc $5N5107 
+W virtex:vcc $5I5100
+I $5I5100 virtex:vcc $5N5105 
+W virtex:gnd $5I5103
+I $5I5103 virtex:gnd $5N5104 
+M virtex2p:dcm $5I4717
+I $5I4717 virtex2p:dcm CK_REF ? ? CK_125 ? ? ? ? ? DLL_LOCK3 ? ? CLK625 CK625 ? ? $5N4794 $5N4786 ~LOCKED CLKDV_DIVIDE=4.0`STARTUP_WAIT=FALSE`
+W virtex:gnd $5I4785
+I $5I4785 virtex:gnd $5N4786 
+W virtex:gnd $5I4793
+I $5I4793 virtex:gnd $5N4794 
+W virtex:bufg $5I4989
+I $5I4989 virtex:bufg CK_125 CK125 LOC=BUFGMUX0S`
+W virtex:bufg $5I4719
+I $5I4719 virtex:bufg CK_REF CLK625 LOC=BUFGMUX2S`
+W virtex:inv $5I4978
+I $5I4978 virtex:inv CLK625 CLK-625 
+W ofd_33_1 $5I5001
+I $5I5001 ofd_33_1 CK125 CLK-625 ORCLK 
+W virtex:opad $5I4772
+I $5I4772 virtex:opad ORCLK 
+W virtex:ibufg $5I4725
+I $5I4725 virtex:ibufg CK625IN CK625 IOSTANDARD=LVCMOS33`
+W virtex:ipad $5I4713
+I $5I4713 virtex:ipad CK625IN 
+W virtex:vcc $5I4866
+I $5I4866 virtex:vcc $5N4867 
+W virtex2p:fdc_1 $5I4870
+I $5I4870 virtex2p:fdc_1 DLL_LOCK3 RST_EOE $5N4867 ETH_DLL_ERR 
+W virtex:gnd $5I4779
+I $5I4779 virtex:gnd $5N4780 
+W virtex:gnd $5I4588
+I $5I4588 virtex:gnd RST_40 
+W virtex:gnd $5I4789
+I $5I4789 virtex:gnd $5N4790 
+W ofddr_33_f24 $5I5172
+I $5I5172 ofddr_33_f24 CLK156 ~CLK156-0 $5N5107 ~DLL_LOCK2 $5N5105 $5N5106 $5N5104 IRCLK0 
+W virtex:or2 $5I5175
+I $5I5175 virtex:or2 RST OETRAIL+2 RST_EOE 
+W virtex2p:fdc $5I5187
+I $5I5187 virtex2p:fdc CLK RST LFF-FB LLFF 
+W virtex2p:or2 $5I5188
+I $5I5188 virtex2p:or2 LLFF LFF LFF-FB 
+W virtex2p:fdc $5I5194
+I $5I5194 virtex2p:fdc CLK RST OFIBER-FB LOFIBER_ERR 
+W virtex2p:fdc $5I5197
+I $5I5197 virtex2p:fdc CLK RST ~OFIFO-FB ~LOFIFO_MT 
+W virtex2p:or2 $5I5196
+I $5I5196 virtex2p:or2 ~LOFIFO_MT ~OFIFO_MT ~OFIFO-FB 
+W virtex2p:or2 $5I5192
+I $5I5192 virtex2p:or2 LOFIBER_ERR OFIBER_ERR OFIBER-FB 
+W virtex:fdce $5I4453
+I $5I4453 virtex:fdce CLK SLINK_READY RST SLINK_READY LSLINK_READY 
+W virtex2p:fdce $5I5200
+I $5I5200 virtex2p:fdce CLK ~DDU_INIT_DONE RST DDU_RDY SYSTEM_RDY 
+W virtex2p:inv $5I5160
+I $5I5160 virtex2p:inv CLK156 ~CLK156-1 
+W ofddr_33_f16 $5I5159
+I $5I5159 ofddr_33_f16 CLK156 ~CLK156-1 $5N5166 ~DLL_LOCK2 $5N5168 $5N5167 $5N5169 IRCLK1 
+W virtex2p:nor2 $5I5206
+I $5I5206 virtex2p:nor2 SUM_RD_BUSY SYSTEM_RDY ~DDU_INIT_DONE 
+M virtex2p:dcm $5I4662
+I $5I4662 virtex2p:dcm GCK78 ? ? GCK156 ? ? ? ? ? DLL_LOCK2 ? ? CLK CKFB ? ? $5N4792 $5N4784 $5N4861 PHASE_SHIFT=0`CLKOUT_PHASE_SHIFT=FIXED`STARTUP_WAIT=FALSE`
+W virtex:inv $5I4663
+I $5I4663 virtex:inv DLL_LOCK2 ~DLL_LOCK2 
+W virtex:ipad $5I4579
+I $5I4579 virtex:ipad CLKIN40 
+W virtex:ibufg $5I4581
+I $5I4581 virtex:ibufg CLKIN40 CKIN40 IOSTANDARD=LVCMOS33`
+M virtex2p:dcm $5I4562
+I $5I4562 virtex2p:dcm CK40 ? ? ? ? ? ? ? ? LOCKED ? ? CLK40 CKIN40 ? ? $5N4790 $5N4780 RST_40 STARTUP_WAIT=FALSE`CLKOUT_PHASE_SHIFT=FIXED`PHASE_SHIFT=10`CLKDV_DIVIDE=4.0`
+W virtex:inv $5I4585
+I $5I4585 virtex:inv LOCKED ~LOCKED 
+W virtex:bufg $5I4992
+I $5I4992 virtex:bufg CK40 CLK40 LOC=BUFGMUX3P`
+W ofddrcpe_33 $5I5067
+I $5I5067 ofddrcpe_33 ~2CLK3 2CLK $5N5078 ~DLL_LOCK2 $5N5080 $5N5079 $5N5081 FIFO_CLK3 
+W virtex2p:inv $5I4847
+I $5I4847 virtex2p:inv CLK78 ~CLK78 
+W virtex2p:fd $5I4846
+I $5I4846 virtex2p:fd CLK156 ~CLK78 CLK78 LOC=SLICE_X0Y78`
+W virtex:vcc $5I5182
+I $5I5182 virtex:vcc $5N5185 
+W virtex2p:fdc_1 $5I5181
+I $5I5181 virtex2p:fdc_1 DDU_DLL_LOCK RST $5N5185 LDDU_DLL_ERR 
+W virtex:gnd $5I5039
+I $5I5039 virtex:gnd $5N5051 
+W ofddrcpe_33 $5I5037
+I $5I5037 ofddrcpe_33 ~2CLK2 2CLK $5N5048 ~DLL_LOCK2 $5N5050 $5N5049 $5N5051 FIFO_CLK2 
+W virtex2p:obuf $5I5118
+I $5I5118 virtex2p:obuf FBCK_OUT CKFB_OUT DRIVE=8`IOSTANDARD=LVCMOS33`
+W virtex2p:fd $5I5117
+I $5I5117 virtex2p:fd CLK156 CLK78 FBCK_OUT IOB=TRUE`
+W virtex2p:fd_1 $5I5255
+I $5I5255 virtex2p:fd_1 2CLK ~DDRWCK O-WCLK IOB=TRUE`
+W virtex2p:obuf $5I5253
+I $5I5253 virtex2p:obuf O-WCLK OWCLK SLEW=FAST`FAST`IOSTANDARD=LVCMOS33`DRIVE=12`
+W virtex:opad $5I4980
+I $5I4980 virtex:opad OWCLK 
+W virtex2p:inv $5I5248
+I $5I5248 virtex2p:inv CLK ~DDRWCK 
+EW
+| Sch_Warning - Pin/Net disassociation at location (860,780).
+| Sch_Warning - Pin/Net disassociation at location (180,475).
+| Sch_Warning - Pin/Net disassociation at location (180,355).
+| Sch_Warning - Pin/Net disassociation at location (675,850).
+| Sch_Warning - Pin/Net disassociation at location (895,115).
+| Sch_Warning - Pin/Net disassociation at location (1370,940).
+| Sch_Warning - Pin/Net disassociation at location (170,595).

@@ -1,0 +1,521 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 7468887480 tst1
+DW in_unit_b
+SA @NAME=IN_UNIT_B 
+SA @SHEET=2 
+SA @DATETIME=4-23-2009_16:58 
+|Q virtex2p:and2b1 1
+AS virtex2p:and2b1 LEVEL=XILINX
+AS virtex2p:and2b1 DEVICE=AND
+AS virtex2p:and2b1 LIBVER=2.0.0
+AS virtex2p:and2b1 PINORDER=I0 I1 O
+AP virtex2p:and2b1 1 PINTYPE=IN
+AP virtex2p:and2b1 1 PARAM=INV
+AP virtex2p:and2b1 2 PINTYPE=IN
+AP virtex2p:and2b1 3 PINTYPE=OUT
+|Q virtex2p:and3 1
+AS virtex2p:and3 LEVEL=XILINX
+AS virtex2p:and3 DEVICE=AND
+AS virtex2p:and3 LIBVER=2.0.0
+AS virtex2p:and3 PINORDER=I0 I1 I2 O
+AP virtex2p:and3 1 PINTYPE=IN
+AP virtex2p:and3 2 PINTYPE=IN
+AP virtex2p:and3 3 PINTYPE=IN
+AP virtex2p:and3 4 PINTYPE=OUT
+|Q virtex2p:fmap 1
+AS virtex2p:fmap DEVICE=FMAP
+AS virtex2p:fmap LEVEL=XILINX
+AS virtex2p:fmap LIBVER=2.0.0
+AS virtex2p:fmap PINORDER=I1 I2 I3 I4 O
+AP virtex2p:fmap 1 PINTYPE=IN
+AP virtex2p:fmap 2 PINTYPE=IN
+AP virtex2p:fmap 3 PINTYPE=IN
+AP virtex2p:fmap 4 PINTYPE=IN
+AP virtex2p:fmap 5 PINTYPE=IN
+|Q virtex:fdc 1
+AS virtex:fdc LIBVER=2.0.0
+AS virtex:fdc LEVEL=XILINX
+AS virtex:fdc @INIT=0
+AS virtex:fdc DEVICE=DFF
+AS virtex:fdc PINORDER=C CLR D Q
+AP virtex:fdc 1 PINTYPE=IN
+AP virtex:fdc 2 PINTYPE=IN
+AP virtex:fdc 3 PINTYPE=IN
+AP virtex:fdc 4 PINTYPE=OUT
+|Q virtex2p:and2 1
+AS virtex2p:and2 LEVEL=XILINX
+AS virtex2p:and2 DEVICE=AND
+AS virtex2p:and2 LIBVER=2.0.0
+AS virtex2p:and2 PINORDER=I0 I1 O
+AP virtex2p:and2 1 PINTYPE=IN
+AP virtex2p:and2 2 PINTYPE=IN
+AP virtex2p:and2 3 PINTYPE=OUT
+|Q buf13 1
+AS buf13 LEVEL=MXILINX
+AS buf13 @NAME=BUF13
+AS buf13 PINORDER=I[12:0] O[12:0]
+AP buf13 1 PINTYPE=IN
+AP buf13 2 PINTYPE=OUT
+|Q buf4 1
+AS buf4 LEVEL=MXILINX
+AS buf4 @NAME=BUF4
+AS buf4 PINORDER=I[3:0] O[3:0]
+AP buf4 1 PINTYPE=IN
+AP buf4 2 PINTYPE=OUT
+|Q virtex2p:or2b2 1
+AS virtex2p:or2b2 LEVEL=XILINX
+AS virtex2p:or2b2 DEVICE=OR
+AS virtex2p:or2b2 LIBVER=2.0.0
+AS virtex2p:or2b2 PINORDER=I0 I1 O
+AP virtex2p:or2b2 1 PINTYPE=IN
+AP virtex2p:or2b2 1 PARAM=INV
+AP virtex2p:or2b2 2 PINTYPE=IN
+AP virtex2p:or2b2 2 PARAM=INV
+AP virtex2p:or2b2 3 PINTYPE=OUT
+|Q virtex:vcc 1
+AS virtex:vcc LEVEL=XILINX
+AS virtex:vcc LIBVER=2.0.0
+AS virtex:vcc PINORDER=P
+AP virtex:vcc 1 PINTYPE=OUT
+|Q virtex2p:and4b1 1
+AS virtex2p:and4b1 DEVICE=AND
+AS virtex2p:and4b1 LEVEL=XILINX
+AS virtex2p:and4b1 LIBVER=2.0.0
+AS virtex2p:and4b1 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:and4b1 1 PINTYPE=IN
+AP virtex2p:and4b1 1 PARAM=INV
+AP virtex2p:and4b1 2 PINTYPE=IN
+AP virtex2p:and4b1 3 PINTYPE=IN
+AP virtex2p:and4b1 4 PINTYPE=IN
+AP virtex2p:and4b1 5 PINTYPE=OUT
+|Q virtex2p:and3b1 1
+AS virtex2p:and3b1 LEVEL=XILINX
+AS virtex2p:and3b1 DEVICE=AND
+AS virtex2p:and3b1 LIBVER=2.0.0
+AS virtex2p:and3b1 PINORDER=I0 I1 I2 O
+AP virtex2p:and3b1 1 PARAM=INV
+AP virtex2p:and3b1 1 PINTYPE=IN
+AP virtex2p:and3b1 2 PINTYPE=IN
+AP virtex2p:and3b1 3 PINTYPE=IN
+AP virtex2p:and3b1 4 PINTYPE=OUT
+|Q virtex:buf 1
+AS virtex:buf LIBVER=2.0.0
+AS virtex:buf DEVICE=BUF
+AS virtex:buf LEVEL=XILINX
+AS virtex:buf PINORDER=I O
+AP virtex:buf 1 PINTYPE=IN
+AP virtex:buf 2 PINTYPE=OUT
+|Q 12bit0 1
+AS 12bit0 LEVEL=STD
+AS 12bit0 @NAME=12BIT0
+AS 12bit0 PINORDER=O[11:0]
+AP 12bit0 1 PINTYPE=OUT
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex2p:fdre 1
+AS virtex2p:fdre LIBVER=2.0.0
+AS virtex2p:fdre LEVEL=XILINX
+AS virtex2p:fdre @INIT=0
+AS virtex2p:fdre PINORDER=C CE D Q R
+AP virtex2p:fdre 1 PINTYPE=IN
+AP virtex2p:fdre 2 PINTYPE=IN
+AP virtex2p:fdre 3 PINTYPE=IN
+AP virtex2p:fdre 4 PINTYPE=OUT
+AP virtex2p:fdre 5 PINTYPE=IN
+|Q virtex2p:or3 1
+AS virtex2p:or3 LEVEL=XILINX
+AS virtex2p:or3 DEVICE=OR
+AS virtex2p:or3 LIBVER=2.0.0
+AS virtex2p:or3 PINORDER=I0 I1 I2 O
+AP virtex2p:or3 1 PINTYPE=IN
+AP virtex2p:or3 2 PINTYPE=IN
+AP virtex2p:or3 3 PINTYPE=IN
+AP virtex2p:or3 4 PINTYPE=OUT
+|Q virtex2p:sop4b3 1
+AS virtex2p:sop4b3 LEVEL=MXILINX
+AS virtex2p:sop4b3 LIBVER=2.0.0
+AS virtex2p:sop4b3 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:sop4b3 1 PINTYPE=IN
+AP virtex2p:sop4b3 2 PINTYPE=IN
+AP virtex2p:sop4b3 3 PINTYPE=IN
+AP virtex2p:sop4b3 4 PINTYPE=IN
+AP virtex2p:sop4b3 5 PINTYPE=OUT
+|Q virtex2p:nand4b1 1
+AS virtex2p:nand4b1 DEVICE=NAND
+AS virtex2p:nand4b1 LEVEL=XILINX
+AS virtex2p:nand4b1 LIBVER=2.0.0
+AS virtex2p:nand4b1 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:nand4b1 1 PARAM=INV
+AP virtex2p:nand4b1 1 PINTYPE=IN
+AP virtex2p:nand4b1 2 PINTYPE=IN
+AP virtex2p:nand4b1 3 PINTYPE=IN
+AP virtex2p:nand4b1 4 PINTYPE=IN
+AP virtex2p:nand4b1 5 PARAM=INV
+AP virtex2p:nand4b1 5 PINTYPE=OUT
+|Q fd18ce_rpm 1
+AS fd18ce_rpm LEVEL=OSU-XILINX
+AS fd18ce_rpm @NAME=FD18CE_RPM
+AS fd18ce_rpm PINORDER=C CE CLR D[17:0] Q[17:0]
+AS fd18ce_rpm INOV_VER_REC=20:40_10-30-03
+AP fd18ce_rpm 1 PINTYPE=IN
+AP fd18ce_rpm 2 PINTYPE=IN
+AP fd18ce_rpm 3 PINTYPE=IN
+AP fd18ce_rpm 4 PINTYPE=IN
+AP fd18ce_rpm 5 PINTYPE=OUT
+|Q virtex2p:fdc 1
+AS virtex2p:fdc LIBVER=2.0.0
+AS virtex2p:fdc LEVEL=XILINX
+AS virtex2p:fdc @INIT=0
+AS virtex2p:fdc DEVICE=DFF
+AS virtex2p:fdc PINORDER=C CLR D Q
+AP virtex2p:fdc 1 PINTYPE=IN
+AP virtex2p:fdc 2 PINTYPE=IN
+AP virtex2p:fdc 3 PINTYPE=IN
+AP virtex2p:fdc 4 PINTYPE=OUT
+|Q virtex2p:or2 1
+AS virtex2p:or2 DEVICE=OR
+AS virtex2p:or2 LEVEL=XILINX
+AS virtex2p:or2 LIBVER=2.0.0
+AS virtex2p:or2 PINORDER=I0 I1 O
+AP virtex2p:or2 1 PINTYPE=IN
+AP virtex2p:or2 2 PINTYPE=IN
+AP virtex2p:or2 3 PINTYPE=OUT
+|Q virtex2p:inv 1
+AS virtex2p:inv DEVICE=INV
+AS virtex2p:inv LIBVER=2.0.0
+AS virtex2p:inv LEVEL=XILINX
+AS virtex2p:inv PINORDER=I O
+AP virtex2p:inv 1 PINTYPE=IN
+AP virtex2p:inv 2 PINTYPE=OUT
+|Q virtex2p:or2b1 1
+AS virtex2p:or2b1 LEVEL=XILINX
+AS virtex2p:or2b1 DEVICE=OR
+AS virtex2p:or2b1 LIBVER=2.0.0
+AS virtex2p:or2b1 PINORDER=I0 I1 O
+AP virtex2p:or2b1 1 PINTYPE=IN
+AP virtex2p:or2b1 1 PARAM=INV
+AP virtex2p:or2b1 2 PINTYPE=IN
+AP virtex2p:or2b1 3 PINTYPE=OUT
+|Q virtex2p:sop3b1a 1
+AS virtex2p:sop3b1a LEVEL=MXILINX
+AS virtex2p:sop3b1a LIBVER=2.0.0
+AS virtex2p:sop3b1a PINORDER=I0 I1 I2 O
+AP virtex2p:sop3b1a 1 PINTYPE=IN
+AP virtex2p:sop3b1a 2 PINTYPE=IN
+AP virtex2p:sop3b1a 3 PINTYPE=IN
+AP virtex2p:sop3b1a 4 PINTYPE=OUT
+|Q virtex2p:and4b2 1
+AS virtex2p:and4b2 DEVICE=AND
+AS virtex2p:and4b2 LEVEL=XILINX
+AS virtex2p:and4b2 LIBVER=2.0.0
+AS virtex2p:and4b2 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:and4b2 1 PINTYPE=IN
+AP virtex2p:and4b2 1 PARAM=INV
+AP virtex2p:and4b2 2 PINTYPE=IN
+AP virtex2p:and4b2 2 PARAM=INV
+AP virtex2p:and4b2 3 PINTYPE=IN
+AP virtex2p:and4b2 4 PINTYPE=IN
+AP virtex2p:and4b2 5 PINTYPE=OUT
+|Q virtex:cb2re 1
+AS virtex:cb2re LEVEL=MXILINX
+AS virtex:cb2re @INIT=0
+AS virtex:cb2re LIBVER=2.0.0
+AS virtex:cb2re PINORDER=C CE CEO Q0 Q1 R TC
+AP virtex:cb2re 1 PINTYPE=IN
+AP virtex:cb2re 2 PINTYPE=IN
+AP virtex:cb2re 3 PINTYPE=OUT
+AP virtex:cb2re 4 PINTYPE=OUT
+AP virtex:cb2re 5 PINTYPE=OUT
+AP virtex:cb2re 6 PINTYPE=IN
+AP virtex:cb2re 7 PINTYPE=OUT
+|Q virtex2p:sop4b1 1
+AS virtex2p:sop4b1 LEVEL=MXILINX
+AS virtex2p:sop4b1 LIBVER=2.0.0
+AS virtex2p:sop4b1 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:sop4b1 1 PINTYPE=IN
+AP virtex2p:sop4b1 2 PINTYPE=IN
+AP virtex2p:sop4b1 3 PINTYPE=IN
+AP virtex2p:sop4b1 4 PINTYPE=IN
+AP virtex2p:sop4b1 5 PINTYPE=OUT
+|Q virtex2p:and3b2 1
+AS virtex2p:and3b2 LEVEL=XILINX
+AS virtex2p:and3b2 DEVICE=AND
+AS virtex2p:and3b2 LIBVER=2.0.0
+AS virtex2p:and3b2 PINORDER=I0 I1 I2 O
+AP virtex2p:and3b2 1 PARAM=INV
+AP virtex2p:and3b2 1 PINTYPE=IN
+AP virtex2p:and3b2 2 PARAM=INV
+AP virtex2p:and3b2 2 PINTYPE=IN
+AP virtex2p:and3b2 3 PINTYPE=IN
+AP virtex2p:and3b2 4 PINTYPE=OUT
+|Q mux2_18b_reg 1
+AS mux2_18b_reg @NAME=MUX2_18B_REG
+AS mux2_18b_reg PINORDER=CLK CTRL EN I0BUS[17:0] I1BUS[17:0] Q[17:0] RST
+|Q fast13b10 1
+AS fast13b10 LIBVER=2.0.0
+AS fast13b10 @NAME=FAST13B10
+AS fast13b10 PINORDER=A[1:0] B[1:0] C[1:0] D[1:0] EN I0 I1 I2 O Q ~ON
+AP fast13b10 1 PINTYPE=IN
+AP fast13b10 2 PINTYPE=IN
+AP fast13b10 3 PINTYPE=IN
+AP fast13b10 4 PINTYPE=IN
+AP fast13b10 5 PINTYPE=IN
+AP fast13b10 6 PINTYPE=IN
+AP fast13b10 7 PINTYPE=IN
+AP fast13b10 8 PINTYPE=IN
+AP fast13b10 9 PINTYPE=OUT
+AP fast13b10 10 PINTYPE=OUT
+AP fast13b10 11 PINTYPE=IN
+|Q sr4ce_rpm 1
+AS sr4ce_rpm LEVEL=OSU-XILINX
+AS sr4ce_rpm @INIT=0
+AS sr4ce_rpm LIBVER=2.0.0
+AS sr4ce_rpm @NAME=SR4CE_RPM
+AS sr4ce_rpm PINORDER=C CE CLR Q0 Q1 Q2 Q3 SLI
+AP sr4ce_rpm 1 PINTYPE=IN
+AP sr4ce_rpm 2 PINTYPE=IN
+AP sr4ce_rpm 3 PINTYPE=IN
+AP sr4ce_rpm 4 PINTYPE=OUT
+AP sr4ce_rpm 5 PINTYPE=OUT
+AP sr4ce_rpm 6 PINTYPE=OUT
+AP sr4ce_rpm 7 PINTYPE=OUT
+AP sr4ce_rpm 8 PINTYPE=IN
+AN DOUT[17:0] VLBUSISONSHEET=2
+AN D3S[16:13] VLBUSISONSHEET=2
+AN D3S[12:0] VLBUSISONSHEET=2
+AN D3S[17:0] VLBUSISONSHEET=2
+AN KIN[1:0] VLBUSISONSHEET=2
+AN RXDISPER[1:0] VLBUSISONSHEET=2
+AN RXNOSYNC[1:0] VLBUSISONSHEET=2
+AN RXNIT[1:0] VLBUSISONSHEET=2
+AN D1S[17:0] VLBUSISONSHEET=2
+AN D1S[17:0] VLBUSISONSHEET=2
+AN FOUT[13:2] VLBUSISONSHEET=2
+AN FOUT[17:0] VLBUSISONSHEET=2
+AN D2S[17:0] VLBUSISONSHEET=2
+AN D2SS[17:0] VLBUSISONSHEET=2
+AN DO[17:0] VLBUSISONSHEET=2
+AN DO[12:0] VLBUSISONSHEET=2
+AN DO[16:13] VLBUSISONSHEET=2
+W virtex2p:and2b1 $2I5157
+I $2I5157 virtex2p:and2b1 RXDV RST_FILL RST_PHASE 
+W virtex2p:and3 $2I5148
+I $2I5148 virtex2p:and3 FOK RDY FULL_FLAG SYNC 
+W virtex2p:fmap $2I5135
+I $2I5135 virtex2p:fmap NEW_ASSIGNED ASSIGNMENT_ERR ? ? ~NEW_ASSIGNED RLOC=X3Y9`
+W virtex:fdc $2I5122
+I $2I5122 virtex:fdc CLK RST NO_DATA NO_DATA+1 
+W virtex2p:and2 $2I5123
+I $2I5123 virtex2p:and2 NO_DATA+1 NO_DATA ND+1 
+W virtex2p:and3 $2I5066
+I $2I5066 virtex2p:and3 LAST+2 ENDED D3S17 DO17 
+W buf13 $2I4941
+I $2I4941 buf13 D3S[12:0] DO[12:0] 
+W buf4 $2I4942
+I $2I4942 buf4 D3S[16:13] DO[16:13] 
+W virtex2p:or2b2 $2I4943
+I $2I4943 virtex2p:or2b2 RXDV LAST ENDED 
+W virtex:vcc $2I4956
+I $2I4956 virtex:vcc $2N4955 
+W virtex2p:and4b1 $2I4826
+I $2I4826 virtex2p:and4b1 DOUT12 DOUT13 DOUT14 DOUT15 LAST 
+W virtex2p:and3b1 $2I4827
+I $2I4827 virtex2p:and3b1 WC1 RXDV LAST LAST_BIT 
+W virtex:buf $2I4612
+I $2I4612 virtex:buf LAST_FILL FOUT17 
+W virtex:buf $2I4614
+I $2I4614 virtex:buf WC1 FOUT1 
+W virtex:vcc $2I4621
+I $2I4621 virtex:vcc FOUT15 
+W virtex:vcc $2I4622
+I $2I4622 virtex:vcc FOUT16 
+W virtex:buf $2I4623
+I $2I4623 virtex:buf NON_EMPTY_EVT FOUT14 
+W 12bit0 $2I4624
+I $2I4624 12bit0 FOUT[13:2] 
+W virtex2p:gnd $2I4653
+I $2I4653 virtex2p:gnd DOUT16 
+W virtex:buf $2I4654
+I $2I4654 virtex:buf LAST_BIT DOUT17 
+W virtex2p:fdre $2I4663
+I $2I4663 virtex2p:fdre CLK LASTEN LAST LAST+2 RST_FILL RLOC=X15Y10`
+W virtex2p:or3 $2I4664
+I $2I4664 virtex2p:or3 NO_DATA ENDTIMEOUT LAST+2 END-1 
+W virtex2p:fdre $2I4665
+I $2I4665 virtex2p:fdre CLK END_EN END-1 END RST_FILL RLOC=X15Y15`
+W virtex2p:sop4b3 $2I4666
+I $2I4666 virtex2p:sop4b3 RXDV END END ENDING_DATA END_EN 
+W virtex2p:fmap $2I4223
+I $2I4223 virtex2p:fmap STARTED FIFO_AF ? ? MEMRQ-2 RLOC=X6Y6`
+W virtex2p:fmap $2I4226
+I $2I4226 virtex2p:fmap RST REQ_RST ? ? MREQ_RST RLOC=X6Y4`
+W virtex2p:fmap $2I4224
+I $2I4224 virtex2p:fmap RST NEXT_ENB+1 ? ? CLR_MRQRST RLOC=X6Y5`
+W virtex2p:fmap $2I4231
+I $2I4231 virtex2p:fmap STARTED START NEW_ENB ? START-1 RLOC=X3Y7`
+W virtex2p:and3 $2I4662
+I $2I4662 virtex2p:and3 RXDV LAST+1 LAST LASTEN 
+W virtex2p:fdre $2I4661
+I $2I4661 virtex2p:fdre CLK LW_EN LAST LAST+1 RST_FILL RLOC=X15Y9`
+W virtex:vcc $2I4737
+I $2I4737 virtex:vcc $2N4738 
+W virtex2p:fmap $2I4807
+I $2I4807 virtex2p:fmap DOUT12 DOUT13 DOUT14 DOUT15 LAST RLOC=X15Y9`
+W virtex2p:fmap $2I4655
+I $2I4655 virtex2p:fmap ENDING_DATA RXDV END END END_EN RLOC=X15Y15`
+W virtex2p:nand4b1 $2I4721
+I $2I4721 virtex2p:nand4b1 RXDV RDY END MISALIGNED ~FILL 
+W virtex2p:fmap $2I4672
+I $2I4672 virtex2p:fmap NON_EMPTY_EVT NO_DATA ENDTIMEOUT ? ENDING_DATA RLOC=X15Y14`
+W virtex2p:fmap $2I4248
+I $2I4248 virtex2p:fmap LWEN START ? ? CE_NEXTENB RLOC=X3Y7`
+W fd18ce_rpm $2I4958
+I $2I4958 fd18ce_rpm CLK $2N4955 RST D2SS[17:0] D3S[17:0] RLOC=X15Y25`
+W virtex2p:and2 $2I5013
+I $2I5013 virtex2p:and2 RXDV STAT STAT_BIT 
+W virtex2p:fmap $2I5019
+I $2I5019 virtex2p:fmap RXDV STAT ? ? STAT_BIT RLOC=X9Y3`
+W virtex2p:fmap $2I4235
+I $2I4235 virtex2p:fmap OVERFLOW ASSIGNMENT_ERR ? ? MEM_ERROR RLOC=X3Y9`
+W virtex2p:fmap $2I4950
+I $2I4950 virtex2p:fmap D3S17 RXDV LAST LAST+2 DO17 RLOC=X15Y16`
+W virtex2p:fdc $2I5063
+I $2I5063 virtex2p:fdc CLK RST RXDV LRXDV 
+W virtex2p:fmap $2I4794
+I $2I4794 virtex2p:fmap LAST+1 RXDV ? ? LW_EN RLOC=X12Y14`
+W virtex2p:or2 $2I4625
+I $2I4625 virtex2p:or2 WC1 NON_EMPTY_EVT NON-1 
+W virtex2p:fdre $2I4686
+I $2I4686 virtex2p:fdre CLK WEN NON-1 NON_EMPTY_EVT RST_FILL RLOC=X12Y15`
+W virtex2p:inv $2I4626
+I $2I4626 virtex2p:inv NON_EMPTY_EVT EMPTY_EVT 
+W virtex2p:or2b1 $2I5076
+I $2I5076 virtex2p:or2b1 FOK RHL RST-FOK 
+W virtex2p:sop3b1a $2I4668
+I $2I4668 virtex2p:sop3b1a MISALIGNED END RST-FOK RST_FILL 
+W virtex2p:and4b2 $2I5012
+I $2I5012 virtex2p:and4b2 DOUT12 DOUT13 DOUT14 DOUT15 STAT 
+W virtex2p:fmap $2I4671
+I $2I4671 virtex2p:fmap NO_DATA ENDTIMEOUT LAST+2 ? END-1 RLOC=X15Y15`
+W virtex2p:fmap $2I5028
+I $2I5028 virtex2p:fmap DOUT12 DOUT13 DOUT14 DOUT15 STAT RLOC=X9Y3`
+W virtex:cb2re $2I4669
+I $2I4669 virtex:cb2re CLK WEN ? WC0 WC1 RST_PHASE ? RLOC=X15Y12`
+W virtex2p:sop4b1 $2I5128
+I $2I5128 virtex2p:sop4b1 ND+2 WC0 WC1 NON_EMPTY_EVT MISALIGNED 
+W virtex2p:and3b2 $2I5127
+I $2I5127 virtex2p:and3b2 ND+1 STAT WENB WEN 
+W virtex2p:fmap $2I5020
+I $2I5020 virtex2p:fmap WENB STAT ND+1 ? WEN RLOC=X9Y2`
+W virtex2p:fmap $2I4679
+I $2I4679 virtex2p:fmap NON_EMPTY_EVT WC1 WC0 ND+2 MISALIGNED RLOC=X15Y14`
+W virtex:fdc $2I5124
+I $2I5124 virtex:fdc CLK RST ND+1 ND+2 
+W virtex2p:fmap $2I4968
+I $2I4968 virtex2p:fmap DOUT12 DOUT13 DOUT14 DOUT15 8CODE RLOC=X15Y11`
+W mux2_18b_reg $2I4657
+I $2I4657 mux2_18b_reg CLK ~FILL FOK FOUT[17:0] DOUT[17:0] D1S[17:0] RST RLOC=X15Y0`
+W fd18ce_rpm $2I4743
+I $2I4743 fd18ce_rpm CLK $2N4738 RST D1S[17:0] D2S[17:0] RLOC=X15Y16`
+W fast13b10 $2I4444
+I $2I4444 fast13b10 KIN[1:0] RXDISPER[1:0] RXNOSYNC[1:0] RXNIT[1:0] RDY FOK RXBUFSTAT1 RHL WENB RXDV ~FILL RLOC=X9Y0`
+W sr4ce_rpm $2I4940
+I $2I4940 sr4ce_rpm CLK RDY RHL LWEN-2 LWEN-1 LWEN ? WEN RLOC=X9Y1`
+W virtex2p:sop3b1a $2I4667
+I $2I4667 virtex2p:sop3b1a NON_EMPTY_EVT NO_DATA ENDTIMEOUT ENDING_DATA 
+W virtex2p:fmap $2I4969
+I $2I4969 virtex2p:fmap RXDV 8CODE ? ? ONLY RLOC=X15Y11`
+W virtex:buf $2I4613
+I $2I4613 virtex:buf WC0 FOUT0 
+W virtex:buf $2I5152
+I $2I5152 virtex:buf REN_ERR ERROR 
+W virtex2p:and2b1 $2I4788
+I $2I4788 virtex2p:and2b1 LAST+1 RXDV LW_EN 
+W virtex2p:fmap $2I4647
+I $2I4647 virtex2p:fmap RXDV LAST+1 LAST ? LASTEN RLOC=X15Y10`
+W virtex2p:fmap $2I4684
+I $2I4684 virtex2p:fmap RXDV RDY END MISALIGNED ~FILL RLOC=X9Y1`
+W virtex2p:fmap $2I4808
+I $2I4808 virtex2p:fmap WC1 RXDV LAST ? LAST_BIT RLOC=X15Y9`
+W virtex2p:fmap $2I4814
+I $2I4814 virtex2p:fmap WC1 NON_EMPTY_EVT ? ? NON-1 RLOC=X12Y15`
+W virtex2p:fmap $2I4648
+I $2I4648 virtex2p:fmap MISALIGNED END RHL FOK RST_FILL RLOC=X15Y10`
+W virtex2p:and3b2 $2I5164
+I $2I5164 virtex2p:and3b2 WC1 NO_DATA+1 NON_EMPTY_EVT LAST_FILL 
+W virtex2p:fmap $2I4829
+I $2I4829 virtex2p:fmap WC1 NO_DATA+1 NON_EMPTY_EVT ? LAST_FILL RLOC=X12Y15`
+P ? ERROR
+I ERROR ? ERROR
+P ? ENDTIMEOUT
+I ENDTIMEOUT ? ENDTIMEOUT
+P ? SYNC
+I SYNC ? SYNC
+P ? FOK
+I FOK ? FOK
+P ? RDY
+I RDY ? RDY
+P ? RHL
+I RHL ? RHL
+P ? RST
+I RST ? RST
+P ? CLK
+I CLK ? CLK
+P ? LRXDV
+I LRXDV ? LRXDV
+P ? MEM_ERROR
+I MEM_ERROR ? MEM_ERROR
+P ? LWEN
+I LWEN ? LWEN
+P ? NEW_ENB
+I NEW_ENB ? NEW_ENB
+P ? FIFO_AF
+I FIFO_AF ? FIFO_AF
+P ? DO[17:0]
+I DO[17:0] ? DO[17:0]
+EW
+| Sch_Warning - Pin/Net disassociation at location (1175,540).
+| Sch_Warning - Pin/Net disassociation at location (1175,520).
+| Sch_Warning - Pin/Net disassociation at location (975,245).
+| Sch_Warning - Pin/Net disassociation at location (170,725).
+| Sch_Warning - Pin/Net disassociation at location (255,715).
+| Sch_Warning - Pin/Net disassociation at location (660,775).
+| Sch_Warning - Pin/Net disassociation at location (1400,575).
+| Sch_Warning - Pin/Net disassociation at location (150,195).
+| Sch_Warning - Pin/Net disassociation at location (1090,315).
+| Sch_Warning - Pin/Net disassociation at location (330,295).
+| Sch_Warning - Pin/Net disassociation at location (330,275).
+| Sch_Warning - Pin/Net disassociation at location (890,515).
+| Sch_Warning - Pin/Net disassociation at location (1210,655).
+| Sch_Warning - Pin/Net disassociation at location (1015,565).
+| Sch_Warning - Pin/Net disassociation at location (140,515).
+| Sch_Warning - Pin/Net disassociation at location (280,490).
+| Sch_Warning - Pin/Net disassociation at location (415,420).
+| Sch_Warning - Pin/Net disassociation at location (415,440).
+| Sch_Warning - Pin/Net disassociation at location (585,440).
+| Sch_Warning - Pin/Net disassociation at location (170,975).
+| Sch_Warning - Pin/Net disassociation at location (1425,795).
+| Sch_Warning - Pin/Net disassociation at location (1445,755).
+| Sch_Warning - Pin/Net disassociation at location (800,695).
+| Sch_Warning - Pin/Net disassociation at location (505,695).
+| Sch_Warning - Pin/Net disassociation at location (505,675).
+| Sch_Warning - Pin/Net disassociation at location (615,635).
+| Sch_Warning - Pin/Net disassociation at location (415,955).
+| Sch_Warning - Pin/Net disassociation at location (410,995).
+| Sch_Warning - Pin/Net disassociation at location (165,935).
+| Sch_Warning - Pin/Net disassociation at location (310,955).
+| Sch_Warning - Pin/Net disassociation at location (215,855).
+| Sch_Warning - Pin/Net disassociation at location (695,950).
+| Sch_Warning - Pin/Net disassociation at location (560,975).
+| Sch_Warning - Pin/Net disassociation at location (420,165).
+| Sch_Warning - Pin/Net disassociation at location (310,995).
+| Sch_Warning - Pin/Net disassociation at location (910,660).
+| Sch_Warning - Pin/Net disassociation at location (1190,695).
+| Sch_Warning - Pin/Net disassociation at location (1015,530).
+| Sch_Warning - Pin/Net disassociation at location (360,655).
+| Sch_Warning - Pin/Net disassociation at location (655,750).

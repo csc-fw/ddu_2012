@@ -1,0 +1,248 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 118209874400 fpga
+DW command
+SA @DATETIME=12-2-2005_14:03 
+SA @NAME=COMMAND 
+SA @SHEET=3 
+|Q virtex:fd 1
+AS virtex:fd @INIT=0
+AS virtex:fd DEVICE=DFF
+AS virtex:fd LIBVER=2.0.0
+AS virtex:fd LEVEL=XILINX
+AS virtex:fd PINORDER=C D Q
+AP virtex:fd 1 PINTYPE=IN
+AP virtex:fd 2 PINTYPE=IN
+AP virtex:fd 3 PINTYPE=OUT
+|Q virtex:inv 1
+AS virtex:inv DEVICE=INV
+AS virtex:inv LIBVER=2.0.0
+AS virtex:inv LEVEL=XILINX
+AS virtex:inv PINORDER=I O
+AP virtex:inv 1 PINTYPE=IN
+AP virtex:inv 2 PINTYPE=OUT
+|Q virtex:bufg 1
+AS virtex:bufg LIBVER=2.0.0
+AS virtex:bufg DEVICE=BUFG
+AS virtex:bufg LEVEL=XILINX
+AS virtex:bufg PINORDER=I O
+AP virtex:bufg 1 PINTYPE=IN
+AP virtex:bufg 2 PINTYPE=OUT
+|Q virtex:obuft 1
+AS virtex:obuft LIBVER=2.0.0
+AS virtex:obuft LEVEL=XILINX
+AS virtex:obuft IOSTANDARD=LVCMOS25
+AS virtex:obuft SLEW=SLOW
+AS virtex:obuft DRIVE=12
+AS virtex:obuft PINORDER=I O T
+AP virtex:obuft 1 PINTYPE=IN
+AP virtex:obuft 2 PINTYPE=CHIPTRI
+AP virtex:obuft 3 PINTYPE=IN
+|Q virtex2p:ibuf 1
+AS virtex2p:ibuf LIBVER=2.0.0
+AS virtex2p:ibuf LEVEL=XILINX
+AS virtex2p:ibuf IOSTANDARD=LVCMOS25
+AS virtex2p:ibuf PINORDER=I O
+AP virtex2p:ibuf 1 PINTYPE=CHIPIN
+AP virtex2p:ibuf 2 PINTYPE=OUT
+|Q virtex2p:nor2 1
+AS virtex2p:nor2 LEVEL=XILINX
+AS virtex2p:nor2 DEVICE=NOR
+AS virtex2p:nor2 LIBVER=2.0.0
+AS virtex2p:nor2 PINORDER=I0 I1 O
+AP virtex2p:nor2 1 PINTYPE=IN
+AP virtex2p:nor2 2 PINTYPE=IN
+AP virtex2p:nor2 3 PINTYPE=OUT
+AP virtex2p:nor2 3 PARAM=INV
+|Q virtex2p:fdc 1
+AS virtex2p:fdc LIBVER=2.0.0
+AS virtex2p:fdc LEVEL=XILINX
+AS virtex2p:fdc @INIT=0
+AS virtex2p:fdc DEVICE=DFF
+AS virtex2p:fdc PINORDER=C CLR D Q
+AP virtex2p:fdc 1 PINTYPE=IN
+AP virtex2p:fdc 2 PINTYPE=IN
+AP virtex2p:fdc 3 PINTYPE=IN
+AP virtex2p:fdc 4 PINTYPE=OUT
+|Q virtex2p:and2b1 1
+AS virtex2p:and2b1 LEVEL=XILINX
+AS virtex2p:and2b1 DEVICE=AND
+AS virtex2p:and2b1 LIBVER=2.0.0
+AS virtex2p:and2b1 PINORDER=I0 I1 O
+AP virtex2p:and2b1 1 PINTYPE=IN
+AP virtex2p:and2b1 1 PARAM=INV
+AP virtex2p:and2b1 2 PINTYPE=IN
+AP virtex2p:and2b1 3 PINTYPE=OUT
+|Q virtex2p:or3 1
+AS virtex2p:or3 LEVEL=XILINX
+AS virtex2p:or3 DEVICE=OR
+AS virtex2p:or3 LIBVER=2.0.0
+AS virtex2p:or3 PINORDER=I0 I1 I2 O
+AP virtex2p:or3 1 PINTYPE=IN
+AP virtex2p:or3 2 PINTYPE=IN
+AP virtex2p:or3 3 PINTYPE=IN
+AP virtex2p:or3 4 PINTYPE=OUT
+|Q virtex2p:fdce 1
+AS virtex2p:fdce @INIT=0
+AS virtex2p:fdce LIBVER=2.0.0
+AS virtex2p:fdce LEVEL=XILINX
+AS virtex2p:fdce DEVICE=DFF
+AS virtex2p:fdce PINORDER=C CE CLR D Q
+AP virtex2p:fdce 1 PINTYPE=IN
+AP virtex2p:fdce 2 PINTYPE=IN
+AP virtex2p:fdce 3 PINTYPE=IN
+AP virtex2p:fdce 4 PINTYPE=IN
+AP virtex2p:fdce 5 PINTYPE=OUT
+|Q virtex2p:and3b2 1
+AS virtex2p:and3b2 LEVEL=XILINX
+AS virtex2p:and3b2 DEVICE=AND
+AS virtex2p:and3b2 LIBVER=2.0.0
+AS virtex2p:and3b2 PINORDER=I0 I1 I2 O
+AP virtex2p:and3b2 1 PARAM=INV
+AP virtex2p:and3b2 1 PINTYPE=IN
+AP virtex2p:and3b2 2 PARAM=INV
+AP virtex2p:and3b2 2 PINTYPE=IN
+AP virtex2p:and3b2 3 PINTYPE=IN
+AP virtex2p:and3b2 4 PINTYPE=OUT
+|Q virtex2p:nor4b1 1
+AS virtex2p:nor4b1 LEVEL=XILINX
+AS virtex2p:nor4b1 DEVICE=NOR
+AS virtex2p:nor4b1 LIBVER=2.0.0
+AS virtex2p:nor4b1 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:nor4b1 1 PARAM=INV
+AP virtex2p:nor4b1 1 PINTYPE=IN
+AP virtex2p:nor4b1 2 PINTYPE=IN
+AP virtex2p:nor4b1 3 PINTYPE=IN
+AP virtex2p:nor4b1 4 PINTYPE=IN
+AP virtex2p:nor4b1 5 PINTYPE=OUT
+AP virtex2p:nor4b1 5 PARAM=INV
+AN INDATA[15:0] VLBUSISONSHEET=3
+AN DATA[15:0] VLBUSISONSHEET=3
+AN OUTDATA[15:0] VLBUSISONSHEET=3
+AN SLCLK MAXDELAY=1.3NS
+W virtex:fd $3I1363
+I $3I1363 virtex:fd MIDCLK $3N1354 $3N1360 
+W virtex:inv $3I1364
+I $3I1364 virtex:inv $3N1360 $3N1354 
+W virtex:inv $3I1365
+I $3I1365 virtex:inv $3N1357 $3N1358 
+W virtex:fd $3I1366
+I $3I1366 virtex:fd $3N1360 $3N1358 $3N1357 
+W virtex:fd $3I1367
+I $3I1367 virtex:fd MIDCLK $3N1357 $3N1356 
+W virtex:fd $3I1368
+I $3I1368 virtex:fd FASTCLK $3N1356 SLCLK 
+W virtex:bufg $3I1369
+I $3I1369 virtex:bufg SLCLK SLOWCLK 
+W virtex:obuft $3I1350
+I $3I1350 virtex:obuft OUTDATA12 DATA12 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1351
+I $3I1351 virtex:obuft OUTDATA13 DATA13 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1346
+I $3I1346 virtex:obuft OUTDATA8 DATA8 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1347
+I $3I1347 virtex:obuft OUTDATA9 DATA9 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1348
+I $3I1348 virtex:obuft OUTDATA10 DATA10 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1349
+I $3I1349 virtex:obuft OUTDATA11 DATA11 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1342
+I $3I1342 virtex:obuft OUTDATA4 DATA4 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1343
+I $3I1343 virtex:obuft OUTDATA5 DATA5 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1344
+I $3I1344 virtex:obuft OUTDATA6 DATA6 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1345
+I $3I1345 virtex:obuft OUTDATA7 DATA7 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1340
+I $3I1340 virtex:obuft OUTDATA2 DATA2 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1341
+I $3I1341 virtex:obuft OUTDATA3 DATA3 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1334
+I $3I1334 virtex2p:ibuf DATA12 INDATA12 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1335
+I $3I1335 virtex2p:ibuf DATA13 INDATA13 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1336
+I $3I1336 virtex2p:ibuf DATA14 INDATA14 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1337
+I $3I1337 virtex2p:ibuf DATA15 INDATA15 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1330
+I $3I1330 virtex2p:ibuf DATA8 INDATA8 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1331
+I $3I1331 virtex2p:ibuf DATA9 INDATA9 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1332
+I $3I1332 virtex2p:ibuf DATA10 INDATA10 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1333
+I $3I1333 virtex2p:ibuf DATA11 INDATA11 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1326
+I $3I1326 virtex2p:ibuf DATA4 INDATA4 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1327
+I $3I1327 virtex2p:ibuf DATA5 INDATA5 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1328
+I $3I1328 virtex2p:ibuf DATA6 INDATA6 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1329
+I $3I1329 virtex2p:ibuf DATA7 INDATA7 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1324
+I $3I1324 virtex2p:ibuf DATA2 INDATA2 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1325
+I $3I1325 virtex2p:ibuf DATA3 INDATA3 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1323
+I $3I1323 virtex2p:ibuf DATA1 INDATA1 IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1339
+I $3I1339 virtex:obuft OUTDATA1 DATA1 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1338
+I $3I1338 virtex:obuft OUTDATA0 DATA0 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1353
+I $3I1353 virtex:obuft OUTDATA15 DATA15 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex:obuft $3I1352
+I $3I1352 virtex:obuft OUTDATA14 DATA14 ~TOVME IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $3I1322
+I $3I1322 virtex2p:ibuf DATA0 INDATA0 IOSTANDARD=LVCMOS33`
+W virtex2p:nor2 $3I1443
+I $3I1443 virtex2p:nor2 ~AS ~IACK_IN EN_MY_IRQ-1 
+W virtex2p:fdc $3I1439
+I $3I1439 virtex2p:fdc FASTCLK VME_IRQ_RST EN_MY_IRQ-1 EN_MY_IRQ-0 
+W virtex2p:and2b1 $3I1453
+I $3I1453 virtex2p:and2b1 ~AS EN_MY_IRQ-0 EN_MY_IRQ 
+W virtex2p:or3 $3I1451
+I $3I1451 virtex2p:or3 RST ~DS1 ~DS0 VME_IRQ_RST 
+W virtex2p:fdce $3I1378
+I $3I1378 virtex2p:fdce FASTCLK EN_MY_IRQ VME_IRQ_RST MAY_BE_MINE MY_IRQ 
+W virtex2p:and3b2 $3I1411
+I $3I1411 virtex2p:and3b2 ADRS3 ADRS2 ADRS1 GOOD_IRQ1 
+W virtex2p:nor4b1 $3I1419
+I $3I1419 virtex2p:nor4b1 GOOD_IRQ1 ~DS1 ~DS0 ~IRQ_1 MAY_BE_MINE 
+W virtex2p:or3 $3I1407
+I $3I1407 virtex2p:or3 MAY_BE_MINE ~AS ~IACK_IN ~IACK_OUT 
+P ? FASTCLK
+I FASTCLK ? FASTCLK
+P ? ~AS
+I ~AS ? ~AS
+P ? ~DS0
+I ~DS0 ? ~DS0
+P ? ~DS1
+I ~DS1 ? ~DS1
+P ? RST
+I RST ? RST
+P ? ~IACK_IN
+I ~IACK_IN ? ~IACK_IN
+P ? ~IRQ_1
+I ~IRQ_1 ? ~IRQ_1
+P ? ~IACK_OUT
+I ~IACK_OUT ? ~IACK_OUT
+P ? INDATA[15:0]
+I INDATA[15:0] ? INDATA[15:0]
+P ? MIDCLK
+I MIDCLK ? MIDCLK
+P ? SLOWCLK
+I SLOWCLK ? SLOWCLK
+P ? DATA[15:0]
+I DATA[15:0] ? DATA[15:0]
+P ? OUTDATA[15:0]
+I OUTDATA[15:0] ? OUTDATA[15:0]
+P ? MY_IRQ
+I MY_IRQ ? MY_IRQ
+EW
+| Sch_Warning - Pin/Net disassociation at location (1120,780).
+| Sch_Warning - Pin/Net disassociation at location (1255,810).

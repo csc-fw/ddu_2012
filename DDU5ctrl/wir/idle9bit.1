@@ -1,0 +1,100 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 150012364800 fd13ce
+DW idle9bit
+|Q virtex:bufe 1
+AS virtex:bufe LIBVER=2.0.0
+AS virtex:bufe DEVICE=TBUF
+AS virtex:bufe LEVEL=XILINX
+AS virtex:bufe PINORDER=E I O
+AP virtex:bufe 1 PINTYPE=IN
+AP virtex:bufe 2 PINTYPE=IN
+AP virtex:bufe 3 PINTYPE=TRI
+|Q virtex:fdpe 1
+AS virtex:fdpe LIBVER=2.0.0
+AS virtex:fdpe LEVEL=XILINX
+AS virtex:fdpe @INIT=1
+AS virtex:fdpe PINORDER=C CE D PRE Q
+AP virtex:fdpe 1 PINTYPE=IN
+AP virtex:fdpe 2 PINTYPE=IN
+AP virtex:fdpe 3 PINTYPE=IN
+AP virtex:fdpe 4 PINTYPE=IN
+AP virtex:fdpe 5 PINTYPE=OUT
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+AN Q[7:0] VLBUSISONSHEET=1
+W virtex:bufe $1I125
+I $1I125 virtex:bufe CE D8 Q8 
+W virtex:bufe $1I123
+I $1I123 virtex:bufe CE D7 Q7 
+W virtex:bufe $1I121
+I $1I121 virtex:bufe CE D6 Q6 
+W virtex:bufe $1I119
+I $1I119 virtex:bufe CE D5 Q5 
+W virtex:bufe $1I117
+I $1I117 virtex:bufe CE D4 Q4 
+W virtex:bufe $1I115
+I $1I115 virtex:bufe CE D3 Q3 
+W virtex:bufe $1I113
+I $1I113 virtex:bufe CE D2 Q2 
+W virtex:bufe $1I111
+I $1I111 virtex:bufe CE D1 Q1 
+W virtex:fdpe $1I92
+I $1I92 virtex:fdpe C CE D6 CLR I6 LABEL=I6`
+W virtex:fdce $1I86
+I $1I86 virtex:fdce C CE CLR I0 D0 LABEL=D0`
+W virtex:fdce $1I87
+I $1I87 virtex:fdce C CE CLR I1 D1 LABEL=D1`
+W virtex:fdce $1I89
+I $1I89 virtex:fdce C CE CLR I6 D6 LABEL=D6`
+W virtex:fdce $1I37
+I $1I37 virtex:fdce C CE CLR D7 I7 LABEL=I7`
+W virtex:fdce $1I34
+I $1I34 virtex:fdce C CE CLR D3 I3 LABEL=I3`
+W virtex:fdce $1I32
+I $1I32 virtex:fdce C CE CLR D0 I0 LABEL=I0`
+W virtex:fdce $1I31
+I $1I31 virtex:fdce C CE CLR D1 I1 LABEL=I1`
+W virtex:fdce $1I30
+I $1I30 virtex:fdce C CE CLR D5 I5 LABEL=I5`
+W virtex:fdpe $1I56
+I $1I56 virtex:fdpe C CE D4 CLR I4 LABEL=I4`
+W virtex:fdce $1I66
+I $1I66 virtex:fdce C CE CLR D8 I8 LABEL=I8`
+W virtex:fdpe $1I83
+I $1I83 virtex:fdpe C CE I4 CLR D4 LABEL=D4`
+W virtex:fdpe $1I95
+I $1I95 virtex:fdpe C CE I8 CLR D8 LABEL=D8`
+W virtex:fdpe $1I94
+I $1I94 virtex:fdpe C CE I7 CLR D7 LABEL=D7`
+W virtex:fdpe $1I93
+I $1I93 virtex:fdpe C CE I5 CLR D5 LABEL=D5`
+W virtex:fdpe $1I97
+I $1I97 virtex:fdpe C CE I2 CLR D2 LABEL=D2`
+W virtex:fdpe $1I98
+I $1I98 virtex:fdpe C CE I3 CLR D3 LABEL=D3`
+W virtex:fdce $1I33
+I $1I33 virtex:fdce C CE CLR D2 I2 LABEL=I2`
+W virtex:bufe $1I57
+I $1I57 virtex:bufe CE D0 Q0 
+P ? Q[7:0]
+I Q[7:0] ? Q[7:0]
+P ? CE
+I CE ? CE
+P ? C
+I C ? C
+P ? CLR
+I CLR ? CLR
+P ? Q8
+I Q8 ? Q8
+EW

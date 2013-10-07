@@ -1,0 +1,45 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 410099847900 sr8e_one
+DW sr4e_one
+|Q virtex2p:fdre 1
+AS virtex2p:fdre LIBVER=2.0.0
+AS virtex2p:fdre LEVEL=XILINX
+AS virtex2p:fdre @INIT=0
+AS virtex2p:fdre PINORDER=C CE D Q R
+AP virtex2p:fdre 1 PINTYPE=IN
+AP virtex2p:fdre 2 PINTYPE=IN
+AP virtex2p:fdre 3 PINTYPE=IN
+AP virtex2p:fdre 4 PINTYPE=OUT
+AP virtex2p:fdre 5 PINTYPE=IN
+|Q virtex2p:fdse 1
+AS virtex2p:fdse LIBVER=2.0.0
+AS virtex2p:fdse @INIT=1
+AS virtex2p:fdse LEVEL=XILINX
+AS virtex2p:fdse PINORDER=C CE D Q S
+AP virtex2p:fdse 1 PINTYPE=IN
+AP virtex2p:fdse 2 PINTYPE=IN
+AP virtex2p:fdse 3 PINTYPE=IN
+AP virtex2p:fdse 4 PINTYPE=OUT
+AP virtex2p:fdse 5 PINTYPE=IN
+AN Q[3:0] VLBUSISONSHEET=1
+W virtex2p:fdre $1I39
+I $1I39 virtex2p:fdre C CE Q0 Q1 CLR LABEL=Q1`
+W virtex2p:fdre $1I41
+I $1I41 virtex2p:fdre C CE Q1 Q2 CLR LABEL=Q2`
+W virtex2p:fdre $1I34
+I $1I34 virtex2p:fdre C CE Q2 Q3 CLR LABEL=Q3`
+W virtex2p:fdse $1I44
+I $1I44 virtex2p:fdse C CE SLI Q0 CLR LABEL=Q0`
+P ? SLI
+I SLI ? SLI
+P ? CE
+I CE ? CE
+P ? C
+I C ? C
+P ? CLR
+I CLR ? CLR
+P ? Q[3:0]
+I Q[3:0] ? Q[3:0]
+EW

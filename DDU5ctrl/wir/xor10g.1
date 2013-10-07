@@ -1,0 +1,60 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 339415464400 xor10g
+DW xor10g
+|Q virtex2p:xor4 1
+AS virtex2p:xor4 DEVICE=XOR
+AS virtex2p:xor4 LEVEL=XILINX
+AS virtex2p:xor4 LIBVER=2.0.0
+AS virtex2p:xor4 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:xor4 1 PINTYPE=IN
+AP virtex2p:xor4 2 PINTYPE=IN
+AP virtex2p:xor4 3 PINTYPE=IN
+AP virtex2p:xor4 4 PINTYPE=IN
+AP virtex2p:xor4 5 PINTYPE=OUT
+|Q virtex2p:fmap 1
+AS virtex2p:fmap DEVICE=FMAP
+AS virtex2p:fmap LEVEL=XILINX
+AS virtex2p:fmap LIBVER=2.0.0
+AS virtex2p:fmap PINORDER=I1 I2 I3 I4 O
+AP virtex2p:fmap 1 PINTYPE=IN
+AP virtex2p:fmap 2 PINTYPE=IN
+AP virtex2p:fmap 3 PINTYPE=IN
+AP virtex2p:fmap 4 PINTYPE=IN
+AP virtex2p:fmap 5 PINTYPE=IN
+W virtex2p:xor4 $1I111
+I $1I111 virtex2p:xor4 I0 I1 I2 I3 S0 
+W virtex2p:fmap $1I90
+I $1I90 virtex2p:fmap S0 S1 I8 I9 O RLOC=X0Y1`
+W virtex2p:fmap $1I116
+I $1I116 virtex2p:fmap I4 I5 I6 I7 S1 RLOC=X0Y0`
+W virtex2p:fmap $1I115
+I $1I115 virtex2p:fmap I0 I1 I2 I3 S0 RLOC=X0Y0`
+W virtex2p:xor4 $1I94
+I $1I94 virtex2p:xor4 I4 I5 I6 I7 S1 
+W virtex2p:xor4 $1I122
+I $1I122 virtex2p:xor4 S0 S1 I8 I9 O 
+P ? I9
+I I9 ? I9
+P ? I8
+I I8 ? I8
+P ? I5
+I I5 ? I5
+P ? I6
+I I6 ? I6
+P ? I4
+I I4 ? I4
+P ? I2
+I I2 ? I2
+P ? I3
+I I3 ? I3
+P ? I0
+I I0 ? I0
+P ? I1
+I I1 ? I1
+P ? I7
+I I7 ? I7
+P ? O
+I O ? O
+EW

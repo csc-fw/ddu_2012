@@ -1,0 +1,57 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 7468887480 tst1
+DW anyorall
+SA @DATETIME=1-27-2005_10:01 
+SA @NAME=ANYORALL 
+SA @SHEET=1 
+|Q virtex:and4 1
+AS virtex:and4 LEVEL=XILINX
+AS virtex:and4 DEVICE=AND
+AS virtex:and4 LIBVER=2.0.0
+AS virtex:and4 PINORDER=I0 I1 I2 I3 O
+AP virtex:and4 1 PINTYPE=IN
+AP virtex:and4 2 PINTYPE=IN
+AP virtex:and4 3 PINTYPE=IN
+AP virtex:and4 4 PINTYPE=IN
+AP virtex:and4 5 PINTYPE=OUT
+|Q virtex:or4 1
+AS virtex:or4 DEVICE=OR
+AS virtex:or4 LEVEL=XILINX
+AS virtex:or4 LIBVER=2.0.0
+AS virtex:or4 PINORDER=I0 I1 I2 I3 O
+AP virtex:or4 1 PINTYPE=IN
+AP virtex:or4 2 PINTYPE=IN
+AP virtex:or4 3 PINTYPE=IN
+AP virtex:or4 4 PINTYPE=IN
+AP virtex:or4 5 PINTYPE=OUT
+|Q virtex:xor2 1
+AS virtex:xor2 DEVICE=XOR
+AS virtex:xor2 LEVEL=XILINX
+AS virtex:xor2 LIBVER=2.0.0
+AS virtex:xor2 PINORDER=I0 I1 O
+AP virtex:xor2 1 PINTYPE=IN
+AP virtex:xor2 2 PINTYPE=IN
+AP virtex:xor2 3 PINTYPE=OUT
+W virtex:and4 $1I3571
+I $1I3571 virtex:and4 B3 B2 B1 B0 ALL 
+W virtex:or4 $1I3572
+I $1I3572 virtex:or4 B3 B2 B1 B0 ANY 
+W virtex:xor2 $1I3581
+I $1I3581 virtex:xor2 ALL ANY NOTALL 
+P ? ANY
+I ANY ? ANY
+P ? ALL
+I ALL ? ALL
+P ? NOTALL
+I NOTALL ? NOTALL
+P ? B3
+I B3 ? B3
+P ? B2
+I B2 ? B2
+P ? B1
+I B1 ? B1
+P ? B0
+I B0 ? B0
+EW

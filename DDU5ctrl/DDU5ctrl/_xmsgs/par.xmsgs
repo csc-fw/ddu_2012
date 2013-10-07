@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="Timing" num="2802" delta="unknown" >Read <arg fmt="%d" index="1">199</arg> constraints.  If you are experiencing memory or runtime issues it may help to consolidate some of these constraints.  For more details please see solution 10784 at support.xilinx.com</msg>
+
+<msg type="warning" file="Timing" num="3232" delta="unknown" >Timing Constraint 
+&quot;<arg fmt="%s" index="1">PERIOD analysis for net &quot;$1I135/GCK156&quot; derived from
+ NET &quot;$1I135/CKFB&quot; PERIOD = 11.6 ns HIGH 50%;
+ divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+</arg>&quot;
+ fails the minimum period check for clock <arg fmt="%s" index="2">$1I135/2CLK</arg> because the period constraint value (<arg fmt="%d" index="3">5800</arg> ps) is less than the minimum internal period limit of <arg fmt="%d" index="4">6274</arg> ps.   Please increase the period of the constraint to remove this timing failure.</msg>
+
+<msg type="warning" file="Timing" num="3232" delta="unknown" >Timing Constraint 
+&quot;<arg fmt="%s" index="1">PERIOD analysis for net &quot;$1I135/GCK156&quot; derived from
+ NET &quot;$1I135/CKFB&quot; PERIOD = 11.6 ns HIGH 50%;
+ divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+</arg>&quot;
+ fails the minimum period check for clock <arg fmt="%s" index="2">$1I135/2CLK</arg> because the period constraint value (<arg fmt="%d" index="3">5800</arg> ps) is less than the minimum internal period limit of <arg fmt="%d" index="4">6274</arg> ps.   Please increase the period of the constraint to remove this timing failure.</msg>
+
+<msg type="warning" file="Timing" num="3232" delta="unknown" >Timing Constraint 
+&quot;<arg fmt="%s" index="1">PERIOD analysis for net &quot;$1I135/GCK156&quot; derived from
+ NET &quot;$1I135/CKFB&quot; PERIOD = 11.6 ns HIGH 50%;
+ divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+</arg>&quot;
+ fails the minimum period check for clock <arg fmt="%s" index="2">$1I135/2CLK</arg> because the period constraint value (<arg fmt="%d" index="3">5800</arg> ps) is less than the minimum internal period limit of <arg fmt="%d" index="4">6274</arg> ps.   Please increase the period of the constraint to remove this timing failure.</msg>
+
+<msg type="warning" file="Timing" num="3232" delta="unknown" >Timing Constraint 
+&quot;<arg fmt="%s" index="1">PERIOD analysis for net &quot;$1I135/GCK156&quot; derived from
+ NET &quot;$1I135/CKFB&quot; PERIOD = 11.6 ns HIGH 50%;
+ divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+</arg>&quot;
+ fails the minimum period check for clock <arg fmt="%s" index="2">$1I135/2CLK</arg> because the period constraint value (<arg fmt="%d" index="3">5800</arg> ps) is less than the minimum internal period limit of <arg fmt="%d" index="4">6274</arg> ps.   Please increase the period of the constraint to remove this timing failure.</msg>
+
+<msg type="warning" file="Place" num="83" delta="unknown" >This design either uses more than 8 clock buffers or has clock buffers locked into primary and secondary sites. Since only one clock buffer output signal from a primary / secondary pair may enter any clock region it is necessary to partition the clock logic being driven by these clocks into different clock regions. It may be possible through Floorplanning all or just part of the logic being driven by the Global clocks to achieve a legal placement for this design.</msg>
+
+<msg type="info" file="Timing" num="3284" delta="unknown" >This timing report was generated using estimated delay information.  For accurate numbers, please refer to the post Place and Route timing report.</msg>
+
+<msg type="info" file="Timing" num="2761" delta="unknown" >N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no requested value.</msg>
+
+<msg type="info" file="Timing" num="3284" delta="unknown" >This timing report was generated using estimated delay information.  For accurate numbers, please refer to the post Place and Route timing report.</msg>
+
+<msg type="info" file="Timing" num="2761" delta="unknown" >N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no requested value.</msg>
+
+<msg type="info" file="Timing" num="3284" delta="unknown" >This timing report was generated using estimated delay information.  For accurate numbers, please refer to the post Place and Route timing report.</msg>
+
+<msg type="info" file="Timing" num="2761" delta="unknown" >N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no requested value.</msg>
+
+<msg type="warning" file="Route" num="466" delta="unknown" >Unusually high hold time violation detected among <arg fmt="%d" index="1">20</arg> connections. The top <arg fmt="%d" index="2">20</arg> such instances are printed below. The router will continue and try to fix it
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/CLK625</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">0</arg> CLK pins and <arg fmt="%d" index="3">3</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/$1I3030/SEL2</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">0</arg> CLK pins and <arg fmt="%d" index="3">41</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/DDU_DLL_LOCK</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">0</arg> CLK pins and <arg fmt="%d" index="3">1</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/CLK40</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">0</arg> CLK pins and <arg fmt="%d" index="3">1</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/CK125</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">0</arg> CLK pins and <arg fmt="%d" index="3">1</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/$1I3030/UPDATE</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">0</arg> CLK pins and <arg fmt="%d" index="3">2</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/SCLK</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">0</arg> CLK pins and <arg fmt="%d" index="3">2</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/ETH_LIM</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">1</arg> CLK pins and <arg fmt="%d" index="3">2</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/$1I3030/DRCK2</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">0</arg> CLK pins and <arg fmt="%d" index="3">1</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/$1I3030/DRCK1</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">0</arg> CLK pins and <arg fmt="%d" index="3">1</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/DLL_LOCK3</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">1</arg> CLK pins and <arg fmt="%d" index="3">5</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/$7I1330/$1I3366/RRST2</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">1</arg> CLK pins and <arg fmt="%d" index="3">6</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/CLK</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">0</arg> CLK pins and <arg fmt="%d" index="3">7</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/FBLINK</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">1</arg> CLK pins and <arg fmt="%d" index="3">1</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Route" num="455" delta="unknown" >CLK Net:<arg fmt="%s" index="1">$1I135/BCLK</arg> may have excessive skew because 
+   <arg fmt="%d" index="2">1</arg> CLK pins and <arg fmt="%d" index="3">1</arg> NON_CLK pins failed to route using a CLK template.
+</msg>
+
+<msg type="warning" file="Par" num="62" delta="unknown" >Your design did not meet timing.  The following are some suggestions to assist you to meet timing in your design.
+
+   Review the timing report using Timing Analyzer (In ISE select &quot;Post-Place &amp;
+   Route Static Timing Report&quot;).  Go to the failing constraint(s) and select
+   the &quot;Timing Improvement Wizard&quot; link for suggestions to correct each problem.
+
+</msg>
+
+<msg type="info" file="Timing" num="3284" delta="unknown" >This timing report was generated using estimated delay information.  For accurate numbers, please refer to the post Place and Route timing report.</msg>
+
+<msg type="info" file="Timing" num="2761" delta="unknown" >N/A entries in the Constraints list may indicate that the constraint does not cover any paths or that it has no requested value.</msg>
+
+</messages>
+

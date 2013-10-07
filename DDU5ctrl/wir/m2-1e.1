@@ -1,0 +1,51 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 137087942200 m2-1e
+DW m2-1e
+|Q virtex2p:and2b2 1
+AS virtex2p:and2b2 DEVICE=AND
+AS virtex2p:and2b2 LEVEL=XILINX
+AS virtex2p:and2b2 LIBVER=2.0.0
+AS virtex2p:and2b2 PINORDER=I0 I1 O
+AP virtex2p:and2b2 1 PARAM=INV
+AP virtex2p:and2b2 1 PINTYPE=IN
+AP virtex2p:and2b2 2 PINTYPE=IN
+AP virtex2p:and2b2 2 PARAM=INV
+AP virtex2p:and2b2 3 PINTYPE=OUT
+|Q virtex2p:and2b1 1
+AS virtex2p:and2b1 LEVEL=XILINX
+AS virtex2p:and2b1 DEVICE=AND
+AS virtex2p:and2b1 LIBVER=2.0.0
+AS virtex2p:and2b1 PINORDER=I0 I1 O
+AP virtex2p:and2b1 1 PINTYPE=IN
+AP virtex2p:and2b1 1 PARAM=INV
+AP virtex2p:and2b1 2 PINTYPE=IN
+AP virtex2p:and2b1 3 PINTYPE=OUT
+|Q virtex2p:or3b1 1
+AS virtex2p:or3b1 DEVICE=OR
+AS virtex2p:or3b1 LEVEL=XILINX
+AS virtex2p:or3b1 LIBVER=2.0.0
+AS virtex2p:or3b1 PINORDER=I0 I1 I2 O
+AP virtex2p:or3b1 1 PINTYPE=IN
+AP virtex2p:or3b1 1 PARAM=INV
+AP virtex2p:or3b1 2 PINTYPE=IN
+AP virtex2p:or3b1 3 PINTYPE=IN
+AP virtex2p:or3b1 4 PINTYPE=OUT
+W virtex2p:and2b2 $1I51
+I $1I51 virtex2p:and2b2 S0 D0 M0 
+W virtex2p:and2b1 $1I50
+I $1I50 virtex2p:and2b1 D1 S0 M1 
+W virtex2p:or3b1 $1I52
+I $1I52 virtex2p:or3b1 E M0 M1 O 
+P ? E
+I E ? E
+P ? O
+I O ? O
+P ? D1
+I D1 ? D1
+P ? D0
+I D0 ? D0
+P ? S0
+I S0 ? S0
+EW

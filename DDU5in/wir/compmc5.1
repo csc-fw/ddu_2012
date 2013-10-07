@@ -1,0 +1,92 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 305305001400 compmc5
+DW compmc5
+|Q virtex2p:xnor2 1
+AS virtex2p:xnor2 DEVICE=XNOR
+AS virtex2p:xnor2 LEVEL=XILINX
+AS virtex2p:xnor2 LIBVER=2.0.0
+AS virtex2p:xnor2 PINORDER=I0 I1 O
+AP virtex2p:xnor2 1 PINTYPE=IN
+AP virtex2p:xnor2 2 PINTYPE=IN
+AP virtex2p:xnor2 3 PARAM=INV
+AP virtex2p:xnor2 3 PINTYPE=OUT
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex2p:muxcy_l 1
+AS virtex2p:muxcy_l LIBVER=2.0.0
+AS virtex2p:muxcy_l LEVEL=XILINX
+AS virtex2p:muxcy_l DEVICE=CY_MUX
+AS virtex2p:muxcy_l PINORDER=CI DI LO S
+AP virtex2p:muxcy_l 1 PINTYPE=IN
+AP virtex2p:muxcy_l 2 PINTYPE=IN
+AP virtex2p:muxcy_l 3 PINTYPE=OUT
+AP virtex2p:muxcy_l 4 PINTYPE=IN
+|Q virtex2p:muxcy 1
+AS virtex2p:muxcy LIBVER=2.0.0
+AS virtex2p:muxcy LEVEL=XILINX
+AS virtex2p:muxcy DEVICE=CY_MUX
+AS virtex2p:muxcy PINORDER=CI DI O S
+AP virtex2p:muxcy 1 PINTYPE=IN
+AP virtex2p:muxcy 2 PINTYPE=IN
+AP virtex2p:muxcy 3 PINTYPE=OUT
+AP virtex2p:muxcy 4 PINTYPE=IN
+AN A[4:0] VLBUSISONSHEET=1
+AN B[4:0] VLBUSISONSHEET=1
+W virtex2p:xnor2 $1I1954
+I $1I1954 virtex2p:xnor2 A0 B0 I0G 
+W virtex2p:xnor2 $1I1951
+I $1I1951 virtex2p:xnor2 A1 B1 I1G 
+W virtex2p:xnor2 $1I1947
+I $1I1947 virtex2p:xnor2 A2 B2 I2G 
+W virtex2p:xnor2 $1I1950
+I $1I1950 virtex2p:xnor2 A3 B3 I3G 
+W virtex2p:xnor2 $1I1941
+I $1I1941 virtex2p:xnor2 A4 B4 I4G 
+W virtex2p:xnor2 $1I1
+I $1I1 virtex2p:xnor2 A0 B0 I0 
+W virtex2p:xnor2 $1I1708
+I $1I1708 virtex2p:xnor2 A1 B1 I1 
+W virtex2p:xnor2 $1I1717
+I $1I1717 virtex2p:xnor2 A2 B2 I2 
+W virtex2p:xnor2 $1I1730
+I $1I1730 virtex2p:xnor2 A3 B3 I3 
+W virtex2p:xnor2 $1I1733
+I $1I1733 virtex2p:xnor2 A4 B4 I4 
+W virtex2p:gnd $1I2071
+I $1I2071 virtex2p:gnd C0 
+W virtex2p:gnd $1I2084
+I $1I2084 virtex2p:gnd C0G 
+W virtex2p:muxcy_l $1I3
+I $1I3 virtex2p:muxcy_l C0 B0 C1 I0 RLOC=X0Y0`
+W virtex2p:muxcy_l $1I1710
+I $1I1710 virtex2p:muxcy_l C1 B1 C2 I1 RLOC=X0Y0`
+W virtex2p:muxcy_l $1I1719
+I $1I1719 virtex2p:muxcy_l C2 B2 C4 I2 RLOC=X0Y1`
+W virtex2p:muxcy_l $1I1728
+I $1I1728 virtex2p:muxcy_l C4 B3 C5 I3 RLOC=X0Y1`
+W virtex2p:muxcy_l $1I1965
+I $1I1965 virtex2p:muxcy_l C0G A0 C1G I0G RLOC=X1Y0`
+W virtex2p:muxcy_l $1I1964
+I $1I1964 virtex2p:muxcy_l C1G A1 C2G I1G RLOC=X1Y0`
+W virtex2p:muxcy_l $1I1963
+I $1I1963 virtex2p:muxcy_l C2G A2 C4G I2G RLOC=X1Y1`
+W virtex2p:muxcy_l $1I1962
+I $1I1962 virtex2p:muxcy_l C4G A3 C5G I3G RLOC=X1Y1`
+W virtex2p:muxcy $1I1751
+I $1I1751 virtex2p:muxcy C5 B4 LT I4 RLOC=X0Y2`
+W virtex2p:muxcy $1I1958
+I $1I1958 virtex2p:muxcy C5G A4 GT I4G RLOC=X1Y2`
+P ? GT
+I GT ? GT
+P ? LT
+I LT ? LT
+P ? A[4:0]
+I A[4:0] ? A[4:0]
+P ? B[4:0]
+I B[4:0] ? B[4:0]
+EW

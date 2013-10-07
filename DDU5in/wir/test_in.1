@@ -1,0 +1,321 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 7468887480 tst1
+DW test_in
+SA @NAME=TEST_IN 
+SA @SHEET=1 
+SA @DATETIME=8-2-2005_11:45 
+|Q virtex2p:buf 1
+AS virtex2p:buf LIBVER=2.0.0
+AS virtex2p:buf DEVICE=BUF
+AS virtex2p:buf LEVEL=XILINX
+AS virtex2p:buf PINORDER=I O
+AP virtex2p:buf 1 PINTYPE=IN
+AP virtex2p:buf 2 PINTYPE=OUT
+|Q virtex2p:fdp_1 1
+AS virtex2p:fdp_1 @INIT=1
+AS virtex2p:fdp_1 LIBVER=2.0.0
+AS virtex2p:fdp_1 LEVEL=XILINX
+AS virtex2p:fdp_1 PINORDER=C D PRE Q
+AP virtex2p:fdp_1 1 PINTYPE=IN
+AP virtex2p:fdp_1 2 PINTYPE=IN
+AP virtex2p:fdp_1 3 PINTYPE=IN
+AP virtex2p:fdp_1 4 PINTYPE=OUT
+|Q virtex:opad 1
+AS virtex:opad LIBVER=2.0.0
+AS virtex:opad LEVEL=XILINX
+AS virtex:opad EXT=OPAD
+AS virtex:opad PINORDER=OPAD
+|Q virtex:obuf 1
+AS virtex:obuf LIBVER=2.0.0
+AS virtex:obuf LEVEL=XILINX
+AS virtex:obuf IOSTANDARD=LVCMOS25
+AS virtex:obuf SLEW=SLOW
+AS virtex:obuf DRIVE=12
+AS virtex:obuf PINORDER=I O
+AP virtex:obuf 1 PINTYPE=IN
+AP virtex:obuf 2 PINTYPE=CHIPTRI
+|Q virtex:vcc 1
+AS virtex:vcc LEVEL=XILINX
+AS virtex:vcc LIBVER=2.0.0
+AS virtex:vcc PINORDER=P
+AP virtex:vcc 1 PINTYPE=OUT
+|Q virtex2p:sop4b1 1
+AS virtex2p:sop4b1 LEVEL=MXILINX
+AS virtex2p:sop4b1 LIBVER=2.0.0
+AS virtex2p:sop4b1 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:sop4b1 1 PINTYPE=IN
+AP virtex2p:sop4b1 2 PINTYPE=IN
+AP virtex2p:sop4b1 3 PINTYPE=IN
+AP virtex2p:sop4b1 4 PINTYPE=IN
+AP virtex2p:sop4b1 5 PINTYPE=OUT
+|Q virtex:ibuf 1
+AS virtex:ibuf LIBVER=2.0.0
+AS virtex:ibuf LEVEL=XILINX
+AS virtex:ibuf IOSTANDARD=LVCMOS25
+AS virtex:ibuf PINORDER=I O
+AP virtex:ibuf 1 PINTYPE=CHIPIN
+AP virtex:ibuf 2 PINTYPE=OUT
+|Q virtex:ipad8 1
+AS virtex:ipad8 LEVEL=MXILINX
+AS virtex:ipad8 LIBVER=2.0.0
+AS virtex:ipad8 PINORDER=I[7:0]
+|Q virtex:ipad 1
+AS virtex:ipad LIBVER=2.0.0
+AS virtex:ipad LEVEL=XILINX
+AS virtex:ipad EXT=IPAD
+AS virtex:ipad PINORDER=IPAD
+|Q ipad1pu 1
+AS ipad1pu LEVEL=MXILINX
+AS ipad1pu PINORDER=IPAD1PU
+|Q ibuf_inv 1
+AS ibuf_inv LEVEL=MXILINX
+AS ibuf_inv @NAME=IBUF_INV
+AS ibuf_inv PINORDER=I O
+AP ibuf_inv 1 PINTYPE=IN
+AP ibuf_inv 2 PINTYPE=OUT
+|Q virtex2p:and2 1
+AS virtex2p:and2 LEVEL=XILINX
+AS virtex2p:and2 DEVICE=AND
+AS virtex2p:and2 LIBVER=2.0.0
+AS virtex2p:and2 PINORDER=I0 I1 O
+AP virtex2p:and2 1 PINTYPE=IN
+AP virtex2p:and2 2 PINTYPE=IN
+AP virtex2p:and2 3 PINTYPE=OUT
+|Q ipad1pd 1
+AS ipad1pd LEVEL=MXILINX
+AS ipad1pd PINORDER=IPAD1PD
+|Q virtex:inv 1
+AS virtex:inv DEVICE=INV
+AS virtex:inv LIBVER=2.0.0
+AS virtex:inv LEVEL=XILINX
+AS virtex:inv PINORDER=I O
+AP virtex:inv 1 PINTYPE=IN
+AP virtex:inv 2 PINTYPE=OUT
+|Q ibuf8_33 1
+AS ibuf8_33 LEVEL=MXILINX
+AS ibuf8_33 @NAME=IBUF8_33
+AS ibuf8_33 PINORDER=I[7:0] O[7:0]
+AP ibuf8_33 1 PINTYPE=CHIPIN
+AP ibuf8_33 2 PINTYPE=OUT
+|Q ipad4pu 1
+AS ipad4pu LEVEL=MXILINX
+AS ipad4pu @NAME=IPAD4PU
+AS ipad4pu PINORDER=I[3:0]
+|Q virtex2p:and2b1 1
+AS virtex2p:and2b1 LEVEL=XILINX
+AS virtex2p:and2b1 DEVICE=AND
+AS virtex2p:and2b1 LIBVER=2.0.0
+AS virtex2p:and2b1 PINORDER=I0 I1 O
+AP virtex2p:and2b1 1 PINTYPE=IN
+AP virtex2p:and2b1 1 PARAM=INV
+AP virtex2p:and2b1 2 PINTYPE=IN
+AP virtex2p:and2b1 3 PINTYPE=OUT
+|Q or4_bus 1
+AS or4_bus LEVEL=MXILINX
+AS or4_bus @NAME=OR4_BUS
+AS or4_bus PINORDER=I[3:0] O
+AP or4_bus 1 PINTYPE=IN
+AP or4_bus 2 PINTYPE=OUT
+|Q virtex2p:or2 1
+AS virtex2p:or2 DEVICE=OR
+AS virtex2p:or2 LEVEL=XILINX
+AS virtex2p:or2 LIBVER=2.0.0
+AS virtex2p:or2 PINORDER=I0 I1 O
+AP virtex2p:or2 1 PINTYPE=IN
+AP virtex2p:or2 2 PINTYPE=IN
+AP virtex2p:or2 3 PINTYPE=OUT
+|Q ofddr36c 1
+AS ofddr36c LEVEL=OSU-XILINX
+AS ofddr36c @NAME=OFDDR36C
+AS ofddr36c PINORDER=C CLR D[35:0] Q[17:0]
+AP ofddr36c 1 PINTYPE=IN
+AP ofddr36c 2 PINTYPE=IN
+AP ofddr36c 3 PINTYPE=IN
+AP ofddr36c 4 PINTYPE=OUT
+|Q opad18 1
+AS opad18 LEVEL=MXILINX
+AS opad18 @NAME=OPAD18
+AS opad18 PINORDER=O[17:0]
+|Q ibuf4 1
+AS ibuf4 LEVEL=MXILINX
+AS ibuf4 @NAME=IBUF4
+AS ibuf4 PINORDER=I[3:0] O[3:0]
+AP ibuf4 1 PINTYPE=CHIPIN
+AP ibuf4 2 PINTYPE=OUT
+|Q test_rd 1
+AS test_rd @NAME=TEST_RD
+AS test_rd PINORDER=BUSY CLK CLK40 DODATA ENDEVT EVCNTRST EVT_CNT[23:0] EXT_FIFOS_MT EXT_FIFO_FULL-NL HTR_FLAG L1A L1A_AF L1A_FAKE L1A_FF L1A_MT LWCNT[12:0] MODE4 MODE5 NEW_L1A OD[35:0] OE_HDR REG_EN RST START STOP_DATA TR_FLAG ~EXT_FIFO_PAF ~LEXT_FIFO_PAF ~LOWEN
+AN KILL[7:4] VLBUSISONSHEET=1
+AN KILLF[7:4] VLBUSISONSHEET=1
+AN KILL_F[3:0] VLBUSISONSHEET=1
+AN KILL[3:0] VLBUSISONSHEET=1
+AN DOUT[17:0] VLBUSISONSHEET=1
+AN D[35:0] VLBUSISONSHEET=1
+AN ~PAF[3:0] VLBUSISONSHEET=1
+AN WCNT[12:0] VLBUSISONSHEET=1
+AN EVT_CNT[23:0] VLBUSISONSHEET=1
+AN D[35:0] VLBUSISONSHEET=1
+AN MODE[7:0] VLBUSISONSHEET=1
+AN MODEIN[7:0] VLBUSISONSHEET=1
+AN KILL_F[7:4] VLBUSISONSHEET=1
+W virtex2p:buf $1I4757
+I $1I4757 virtex2p:buf NEAR_FULL0WARN FPAF0 
+W virtex2p:fdp_1 $1I3449
+I $1I3449 virtex2p:fdp_1 CLK ~OWE RST-F0 ~OW0 IOB=TRUE`
+W virtex2p:fdp_1 $1I4182
+I $1I4182 virtex2p:fdp_1 CLK ~OWE RST-F1 ~OW1 IOB=TRUE`
+W virtex:opad $1I4729
+I $1I4729 virtex:opad SI0 
+W virtex:obuf $1I4730
+I $1I4730 virtex:obuf $1N4732 SI0 IOSTANDARD=LVCMOS33`
+W virtex:vcc $1I4731
+I $1I4731 virtex:vcc $1N4732 
+W virtex:vcc $1I4733
+I $1I4733 virtex:vcc $1N4736 
+W virtex:opad $1I4734
+I $1I4734 virtex:opad ~OSEN0 
+W virtex:obuf $1I4735
+I $1I4735 virtex:obuf $1N4736 ~OSEN0 IOSTANDARD=LVCMOS33`
+W virtex:opad $1I4738
+I $1I4738 virtex:opad FSEL0_1 
+W virtex:obuf $1I4739
+I $1I4739 virtex:obuf $1N4740 FSEL0_1 IOSTANDARD=LVCMOS33`
+W virtex:vcc $1I4743
+I $1I4743 virtex:vcc $1N4742 
+W virtex:vcc $1I4744
+I $1I4744 virtex:vcc $1N4740 
+W virtex:vcc $1I4745
+I $1I4745 virtex:vcc $1N4737 
+W virtex:obuf $1I4746
+I $1I4746 virtex:obuf $1N4737 ~PLD0 IOSTANDARD=LVCMOS33`
+W virtex:opad $1I4747
+I $1I4747 virtex:opad ~PLD0 
+W virtex:obuf $1I4751
+I $1I4751 virtex:obuf $1N4742 FSEL0_0 IOSTANDARD=LVCMOS33`
+W virtex:opad $1I4752
+I $1I4752 virtex:opad FSEL0_0 
+W virtex2p:sop4b1 $1I4720
+I $1I4720 virtex2p:sop4b1 FPGA_ID EVCNTRST FPGA_ID BC0 RST_TO_VME 
+W virtex:opad $1I4723
+I $1I4723 virtex:opad ORST_TO_VME 
+W virtex:ibuf $1I4713
+I $1I4713 virtex:ibuf IN_EV_RST EVCNTRST IOSTANDARD=LVCMOS33`
+W virtex:obuf $1I4704
+I $1I4704 virtex:obuf ~OW1 ~OWEN1 IOSTANDARD=LVCMOS33`
+W virtex:ibuf $1I4690
+I $1I4690 virtex:ibuf ~PAF0IN ~PAF0 IOSTANDARD=LVCMOS33`
+W virtex:opad $1I3454
+I $1I3454 virtex:opad ~OWEN0 TNM=OUTDAT`
+W virtex:opad $1I4183
+I $1I4183 virtex:opad ~OWEN1 TNM=OUTDAT`
+W virtex:ipad8 $1I3507
+I $1I3507 virtex:ipad8 MODEIN[7:0] 
+W virtex:ipad $1I4472
+I $1I4472 virtex:ipad IN_FPGAID 
+W ipad1pu $1I4671
+I $1I4671 ipad1pu ~FMT1IN 
+W ipad1pu $1I4663
+I $1I4663 ipad1pu ~FMT0IN 
+W ibuf_inv $1I4666
+I $1I4666 ibuf_inv ~FMT0IN MT0 
+W ibuf_inv $1I4669
+I $1I4669 ibuf_inv ~FMT1IN MT1 
+W ipad1pu $1I4204
+I $1I4204 ipad1pu ~PAF0IN 
+W ibuf_inv $1I4682
+I $1I4682 ibuf_inv ~HFA0IN NEAR_FULL0WARN 
+W ipad1pu $1I4680
+I $1I4680 ipad1pu ~HFA0IN 
+W virtex2p:buf $1I4647
+I $1I4647 virtex2p:buf L1A0FF FF_F8 
+W virtex2p:buf $1I4648
+I $1I4648 virtex2p:buf L1A0AF FPAF2 
+W virtex2p:buf $1I4646
+I $1I4646 virtex2p:buf L1A0MT NRDY8 
+W virtex2p:and2 $1I4633
+I $1I4633 virtex2p:and2 ~PAF0 ~PAF1 ~PAF01 
+W virtex2p:and2 $1I4674
+I $1I4674 virtex2p:and2 GO-F1 GO-F0 FIFOS_MT 
+W ipad1pd $1I3674
+I $1I3674 ipad1pd L1AIN 
+W ipad1pd $1I4681
+I $1I4681 ipad1pd FF0IN 
+W ipad1pd $1I4625
+I $1I4625 ipad1pd ~PAE0IN 
+W virtex:obuf $1I3452
+I $1I3452 virtex:obuf ~OW0 ~OWEN0 IOSTANDARD=LVCMOS33`
+W virtex:inv $1I4706
+I $1I4706 virtex:inv FCK ~FCKX0 
+W virtex:opad $1I4372
+I $1I4372 virtex:opad CLKOUTX0 
+W virtex:obuf $1I4709
+I $1I4709 virtex:obuf ~FCKX0 CLKOUTX0 SLEW=FAST`DRIVE=16`IOSTANDARD=LVCMOS33`
+W virtex:ibuf $1I4679
+I $1I4679 virtex:ibuf FF0IN FF0 IOSTANDARD=LVCMOS33`
+W virtex:ibuf $1I4691
+I $1I4691 virtex:ibuf ~PAE0IN HALF_FULL0WARN IOSTANDARD=LVCMOS33`
+W virtex:ibuf $1I4712
+I $1I4712 virtex:ibuf L1AIN L1A IOSTANDARD=LVCMOS33`
+W ibuf8_33 $1I4714
+I $1I4714 ibuf8_33 MODEIN[7:0] MODE[7:0] 
+W ipad1pd $1I4436
+I $1I4436 ipad1pd IN_EV_RST 
+W virtex:ibuf $1I4725
+I $1I4725 virtex:ibuf IN_BC0 BC0 IOSTANDARD=LVCMOS33`
+W ipad1pd $1I4724
+I $1I4724 ipad1pd IN_BC0 
+W virtex:ibuf $1I4711
+I $1I4711 virtex:ibuf IN_FPGAID FPGA_ID IOSTANDARD=LVCMOS33`
+W virtex2p:buf $1I4313
+I $1I4313 virtex2p:buf FF0 FF_F10 
+W virtex:inv $1I4627
+I $1I4627 virtex:inv ~PAF0 FPAF4 
+W virtex:inv $1I4773
+I $1I4773 virtex:inv ~NO_LIVE_FIBER0 NO_LIVE_FIBER0 
+W ipad4pu $1I4778
+I $1I4778 ipad4pu KILL[7:4] 
+W virtex2p:sop4b1 $1I4795
+I $1I4795 virtex2p:sop4b1 FPGA_ID KILLF7 KILLF6 FPGA_ID KILL_F7 
+W virtex2p:buf $1I4805
+I $1I4805 virtex2p:buf KILLF5 KILL_F5 
+W virtex2p:buf $1I4804
+I $1I4804 virtex2p:buf KILLF4 KILL_F4 
+W virtex2p:and2b1 $1I4794
+I $1I4794 virtex2p:and2b1 FPGA_ID KILLF6 KILL_F6 
+W or4_bus $1I4771
+I $1I4771 or4_bus KILL_F[7:4] ~NO_LIVE_FIBER1 
+W virtex2p:or2 $1I4811
+I $1I4811 virtex2p:or2 RST NO_LIVE_FIBER0 RST-F0 
+W virtex:ibuf $1I4697
+I $1I4697 virtex:ibuf INFAKEL1_EN FAKE_L1_EN IOSTANDARD=LVCMOS33`
+W virtex2p:or2 $1I4699
+I $1I4699 virtex2p:or2 FAKE_L1_EN MODE6 L1A_FAKE 
+W ofddr36c $1I4685
+I $1I4685 ofddr36c CLK RST D[35:0] DOUT[17:0] 
+W opad18 $1I4687
+I $1I4687 opad18 DOUT[17:0] 
+W virtex2p:or2 $1I4814
+I $1I4814 virtex2p:or2 RST NO_LIVE_FIBER1 RST-F1 
+W virtex:inv $1I4774
+I $1I4774 virtex:inv ~NO_LIVE_FIBER1 NO_LIVE_FIBER1 
+W ibuf4 $1I4760
+I $1I4760 ibuf4 KILL[3:0] KILL_F[3:0] 
+W ibuf4 $1I4776
+I $1I4776 ibuf4 KILL[7:4] KILLF[7:4] 
+W ipad4pu $1I4762
+I $1I4762 ipad4pu KILL[3:0] 
+W or4_bus $1I4769
+I $1I4769 or4_bus KILL_F[3:0] ~NO_LIVE_FIBER0 
+W virtex2p:or2 $1I4819
+I $1I4819 virtex2p:or2 MT1 NO_LIVE_FIBER1 GO-F1 
+W virtex2p:or2 $1I4806
+I $1I4806 virtex2p:or2 MT0 NO_LIVE_FIBER0 GO-F0 
+W virtex:obuf $1I4721
+I $1I4721 virtex:obuf RST_TO_VME ORST_TO_VME IOSTANDARD=LVCMOS33`
+W test_rd $1I4631
+I $1I4631 test_rd BUSY CLK CLK40 DODATA ENDEVT EVCNTRST EVT_CNT[23:0] FIFOS_MT FF0 HTR_FLAG L1A L1A0AF L1A_FAKE L1A0FF L1A0MT WCNT[12:0] MODE4 MODE5 PUSH D[35:0] OE_HDR REG_EN RST START STOP_DATA OE_TR ~PAF01 ~LEXT_FIFO_PAF ~OWE 
+W ipad1pd $1I4698
+I $1I4698 ipad1pd INFAKEL1_EN 
+EW

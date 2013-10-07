@@ -1,0 +1,88 @@
+map -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 3 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf C:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 3 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf C:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 3 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf C:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 3 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf C:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 3 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf C:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "C:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 3 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd
+map -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -p xc2vp7-ff672-6 -cm area -pr b -k 4 -c 100 -tx off -o 0DDUCTRL_map.ncd &0DDUCTRL.ngd 0DDUCTRL.pcf
+par -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf
+trce -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf -ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+bitgen -ise "E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise" -intstyle ise -f 0DDUCTRL.ut 0DDUCTRL.ncd

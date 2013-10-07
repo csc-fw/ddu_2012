@@ -1,0 +1,503 @@
+#PINLOCK_BEGIN
+#Sun Sep 27 12:38:16 2005
+#INPUTS
+# Control signals in:
+#   from switches
+NET "$1I135/~ISYSRST" LOC = "D6";   #~sysreset
+NET "$1I135/~ARSTIN"  LOC = "C9";   #rst_sw
+NET "$1I135/MODEIN0"  LOC = "AF24"; #to Switch1
+NET "$1I135/MODEIN1"  LOC = "AE24";
+NET "$1I135/MODEIN2"  LOC = "AD23";
+NET "$1I135/MODEIN3"  LOC = "AC24";
+NET "$1I135/MODEIN4"  LOC = "AE26";
+NET "$1I135/MODEIN5"  LOC = "AF25";
+NET "$1I135/MODEIN6"  LOC = "AD25";
+NET "$1I135/MODEIN7"  LOC = "AD26"; #to Switch8
+#
+# Control Input from other FPGAs
+NET "$1I135/~RDYIN0"  LOC = "AE1"; #dll_ready0
+NET "$1I135/~RDYIN1"  LOC = "AD15";
+NET "$1I135/~RDYIN2"  LOC = "C4";
+NET "$1I135/SCLKIN"   LOC = "D14"; #sclk
+NET "$1I135/~SENIN"   LOC = "H13"; #sen5
+NET "$1I135/SDIN"     LOC = "H12"; #si
+#
+# TTC/CCB Signals in:
+NET "$1I135/CLKIN40"  LOC = "C13"; #ccbclk, 3.3V
+NET "$1I135/CKFB_IN"  LOC = "AE13";#clk_fb
+NET "$1I135/FCKIN_P"  LOC = "B14"; #clk120p
+NET "$1I135/FCKIN_N"  LOC = "C14"; #clk120n
+#NET "$1I135/CK625IN"  LOC = "D13"; #clk625n, 3.3V
+NET "$1I135/CK625IN"  LOC = "E13"; #clk625p, 3.3V
+#
+# TTC Command bus from DCC:
+NET "$1I135/RAWL1A"  LOC = "C12"; #L1A
+NET "$1I135/BUS0"    LOC = "E11";  #bus0, really IS EvCntRst signal
+NET "$1I135/BUS1"    LOC = "G12";  #bus1, really IS BXR signal
+NET "$1I135/BUS2"    LOC = "G11";  #bus2
+NET "$1I135/BUS3"    LOC = "D10";
+NET "$1I135/BUS4"    LOC = "E10";
+NET "$1I135/BUS5"    LOC = "F11";
+NET "$1I135/BUS6"    LOC = "F10";
+NET "$1I135/BUS7"    LOC = "H11";
+NET "$1I135/BUS8"    LOC = "G10";  # really the CCB_CMD_STROBE signal
+NET "$1I135/~STOP_DATA"   LOC = "F13";  # From DCC
+NET "$1I135/LINK_READY"   LOC = "G13";  # From DCC  *JG 2012, uninverted
+NET "$1I135/SBDATA"       LOC = "D12";  # Serial TTC data, Not Used
+NET "$1I135/TDSTRB"       LOC = "E12";  # Parallel TTC data, Not Used
+NET "$1I135/TDOUT0"       LOC = "F12";  # From TTC?  Not used
+NET "$1I135/TDOUT1"       LOC = "D11";  # From TTC?  Not used
+#
+#FIFO Status Signals in:
+#   from output Alt.FIFO
+NET "$1I135/OFULL"        LOC = "L25";
+NET "$1I135/~OPAF"        LOC = "K26";
+NET "$1I135/~OHALF"       LOC = "C18";
+NET "$1I135/~OPAE"        LOC = "D17";
+NET "$1I135/OEMPTY"       LOC = "J25";
+NET "$1I135/OFIBER_OK"    LOC = "E14";       #fok
+#   from input FPGAs
+NET "$1I135/RDCTRL0STAT0" LOC = "W1";   #rdstat0
+NET "$1I135/RDCTRL0STAT1" LOC = "V7";
+NET "$1I135/RDCTRL0STAT2" LOC = "V6";
+NET "$1I135/RDCTRL0STAT3" LOC = "V5";
+NET "$1I135/RDCTRL1STAT0" LOC = "V4";   #rdstat4
+NET "$1I135/RDCTRL1STAT1" LOC = "V3";
+NET "$1I135/RDCTRL1STAT2" LOC = "V2";
+NET "$1I135/RDCTRL1STAT3" LOC = "U6";
+NET "$1I135/RDCTRL2STAT0" LOC = "AC11"; #rdstat8
+NET "$1I135/RDCTRL2STAT1" LOC = "AB11";
+NET "$1I135/RDCTRL2STAT2" LOC = "Y12";
+NET "$1I135/RDCTRL2STAT3" LOC = "Y11";
+NET "$1I135/RDCTRL3STAT0" LOC = "AC10"; #rdstat12
+NET "$1I135/RDCTRL3STAT1" LOC = "AB10";
+NET "$1I135/RDCTRL3STAT2" LOC = "AA11";
+NET "$1I135/RDCTRL3STAT3" LOC = "AA10"; #rdstat15
+#   from input FIFOs
+NET "$1I135/MTIN0"  LOC = "E3"; #ef0in, FIFO-B-Empty signal
+NET "$1I135/MTIN1"  LOC = "H4";
+NET "$1I135/MTIN2"  LOC = "H5";
+NET "$1I135/MTIN3"  LOC = "M5";
+NET "$1I135/EFAIN0" LOC = "M7"; #efa0in, FIFO-A-Empty signal
+NET "$1I135/EFAIN1" LOC = "N7"; #efa1in
+NET "$1I135/EFAIN2" LOC = "T6"; #efa2in
+NET "$1I135/EFAIN3" LOC = "B3"; #efa3in
+NET "$1I135/HFIN0" LOC = "E4"; #hf0in, really FIFO-B-Full signal
+NET "$1I135/HFIN1" LOC = "G4"; #hf1in
+NET "$1I135/HFIN2" LOC = "H6"; #hf2in
+NET "$1I135/HFIN3" LOC = "L5"; #hf3in
+NET "$1I135/~PAFIN0" LOC = "T5";#paf0in, these 4 aren't really needed...
+NET "$1I135/~PAFIN1" LOC = "T4";
+NET "$1I135/~PAFIN2" LOC = "R4";
+NET "$1I135/~PAFIN3" LOC = "P4";
+NET "$1I135/FFIN0"  LOC = "T3"; #ff0in, these 4 aren't really needed...
+NET "$1I135/FFIN1"  LOC = "R3";
+NET "$1I135/FFIN2"  LOC = "P3";
+NET "$1I135/FFIN3"  LOC = "N4";
+NET "$1I135/~INFIFO_USE0" LOC = "AC3"; #fifo_active0
+NET "$1I135/~INFIFO_USE1" LOC = "AF2";
+NET "$1I135/~INFIFO_USE2" LOC = "AB15";
+NET "$1I135/~INFIFO_USE3" LOC = "AC15";
+# send Input FIFO READY out to InFPGAs (for bit Test5In):
+#NET "$1I135/~OFRDY0"  LOC = "Y10"; #spare10 DDUtest "DoFake0"
+#NET "$1I135/~OFRDY1"  LOC = "AD9"; #spare11 DDUtest "DoFake1"
+#NET "$1I135/~OFRDY2"  LOC = "P7"; #spare22 DDUtest "DoFake2"
+#NET "$1I135/~OFRDY3"  LOC = "P8"; #spare23 DDUtest "DoFake3"
+#   Data signals in
+NET "$1I135/I0"      LOC = "M6"; #data0  *~all Data In pins changed!
+NET "$1I135/I1"      LOC = "L6";
+NET "$1I135/I2"      LOC = "R6";
+NET "$1I135/I3"      LOC = "R5";
+NET "$1I135/I4"      LOC = "P5";
+NET "$1I135/I5"      LOC = "P6";
+NET "$1I135/I6"      LOC = "N3";
+NET "$1I135/I7"      LOC = "M4";
+NET "$1I135/I8"      LOC = "M3";
+NET "$1I135/I9"      LOC = "L4";
+NET "$1I135/I10"     LOC = "L3";
+NET "$1I135/I11"     LOC = "K4";
+NET "$1I135/I12"     LOC = "K3";
+NET "$1I135/I13"     LOC = "J3";
+NET "$1I135/I14"     LOC = "T2";
+NET "$1I135/I15"     LOC = "T1";
+NET "$1I135/I16"     LOC = "R2";
+NET "$1I135/I17"     LOC = "R1";
+NET "$1I135/I18"     LOC = "P2";
+NET "$1I135/I19"     LOC = "N2";
+NET "$1I135/I20"     LOC = "M1";
+NET "$1I135/I21"     LOC = "M2";
+NET "$1I135/I22"     LOC = "L1";
+NET "$1I135/I23"     LOC = "L2";
+NET "$1I135/I24"     LOC = "K1";
+NET "$1I135/I25"     LOC = "J1";
+NET "$1I135/I26"     LOC = "J2";
+NET "$1I135/I27"     LOC = "H1";
+NET "$1I135/I28"     LOC = "H2";
+NET "$1I135/I29"     LOC = "G1";
+NET "$1I135/I30"     LOC = "F1";
+NET "$1I135/I31"     LOC = "G3";
+NET "$1I135/I32"     LOC = "E1";
+NET "$1I135/I33"     LOC = "E2";
+NET "$1I135/I34"     LOC = "D1";
+NET "$1I135/I35"     LOC = "D2";
+#
+#S-LINK Command & Control Signals:
+NET "$1I135/ILSF0"   LOC = "R26"; #lsf0
+NET "$1I135/ILSF1"   LOC = "N24";
+NET "$1I135/ILSF2"   LOC = "R25";
+NET "$1I135/ILSF3"   LOC = "N23";
+NET "$1I135/ILRL0"   LOC = "L24"; #lrl0
+NET "$1I135/ILRL1"   LOC = "L23";
+NET "$1I135/ILRL2"   LOC = "M24";
+NET "$1I135/ILRL3"   LOC = "M23";
+NET "$1I135/~ILDOWN" LOC = "K24"; #ldown
+NET "$1I135/~ILFF"   LOC = "K23"; #lff
+NET "$1I135/USF0"    LOC = "P24"; #usf0
+NET "$1I135/USF1"    LOC = "P23";
+NET "$1I135/USF2"    LOC = "R24";
+NET "$1I135/USF3"    LOC = "R23";
+NET "$1I135/~OUWEN"  LOC = "J24"; #uwen
+NET "$1I135/~OUCTRL" LOC = "H23"; #uctrl
+NET "$1I135/~UTEST"  LOC = "H24"; #utest
+NET "$1I135/~URESET" LOC = "J23"; #ureset
+#
+#OUTPUTS
+#Error Signals out:
+#   to LEDs (use parallel-load-data pins).
+# Set in Schematic now: LED1-8.   cdata[7:0]
+#
+# TestPoints:
+NET "$1I135/TP_42"   LOC = "AE14"; #brefclk_n_free
+NET "$1I135/TP_43"   LOC = "AD14"; #brefclk_p_free
+NET "$1I135/TP_45"   LOC = "AC8";  #unused1
+NET "$1I135/TP_48"   LOC = "A3";   #unused3
+NET "$1I135/TP_1"   LOC = "R8";    #unused
+NET "$1I135/TP_9"   LOC = "AC6";   #unused
+NET "$1I135/TP_11"  LOC = "AC14";  #unused
+#
+# Rocket IO: Gigabit Transceiver pins
+NET "$1I135/RXP0"    LOC = "A16";  #unused rx2+, Rocket 6
+NET "$1I135/RXN0"    LOC = "A15";  #unused rx2-
+NET "$1I135/TXP0"    LOC = "A17";  #tx2+, Rocket 6
+NET "$1I135/TXN0"    LOC = "A18";  #tx2-
+NET "$1I135/RXP1"    LOC = "A21";  #rx3+, Rocket 4
+NET "$1I135/RXN1"    LOC = "A20";  #rx3-
+NET "$1I135/TXP1"    LOC = "A22";  #tx3+
+NET "$1I135/TXN1"    LOC = "A23";  #tx3-
+NET "$1I135/RXP_GBE" LOC = "AF21"; #rd4+, Rocket 21
+NET "$1I135/RXN_GBE" LOC = "AF20"; #rd4-
+NET "$1I135/TXP_GBE" LOC = "AF22"; #td4+
+NET "$1I135/TXN_GBE" LOC = "AF23"; #td4-
+#
+# Send G-Bit fiber status signals to Front Panel LEDs
+NET "$1I135/FOKOUT"  LOC = "AB9";  # G-Bit Fiber OK
+NET "$1I135/DAV"     LOC = "AB8";  # G-Bit DAV (Xmit data to PC)
+#
+#Control Signals out:
+#   input FIFO control
+NET "$1I135/OUT_EVCNTRST" LOC = "AB18"; #was called L1ARST
+NET "$1I135/~PRST"     LOC = "J7";   #~fifo_prst
+NET "$1I135/~MRST"     LOC = "J6";   #~fifo_mrst
+NET "$1I135/BC0OUT"    LOC = "AC19";
+NET "$1I135/L1AOUT"    LOC = "AB19";
+NET "$1I135/~OSYNCRST" LOC = "AD19"; #syncrst
+NET "$1I135/~OSOFTRST" LOC = "AE19"; #softrst
+NET "$1I135/$1I3030/~FOE0"     LOC = "G5"; #infifo_oe0
+NET "$1I135/$1I3030/~FOE1"     LOC = "J4";
+NET "$1I135/$1I3030/~FOE2"     LOC = "K5";
+NET "$1I135/$1I3030/~FOE3"     LOC = "C1";
+NET "$1I135/$1I3030/~RENFIFO0" LOC = "G6"; #infifo_ren0
+NET "$1I135/$1I3030/~RENFIFO1" LOC = "H3";
+NET "$1I135/$1I3030/~RENFIFO2" LOC = "J5";
+NET "$1I135/$1I3030/~RENFIFO3" LOC = "N5";
+#
+#Data signals out:
+#   Output FIFO control
+NET "$1I135/CKFB_OUT"  LOC = "AD13";# 78 MHz out from FPGA-DCM
+NET "$1I135/OWCLK"     LOC = "M25"; #  "  as above  "
+NET "$1I135/IRCLK0"    LOC = "K6";  #  "  as above  " for InFIFO-B 0&1
+NET "$1I135/IRCLK1"    LOC = "N6";  #  "  as above  " for InFIFO-B 2&3
+NET "$1I135/ORCLK"     LOC = "J26"; # 62.5 MHz out, oscillator freq.
+NET "$1I135/FIFO_CLK0" LOC = "Y8"; # 156 MHz out, FIFO-A-RCLK/FIFO-B-WCLK
+NET "$1I135/FIFO_CLK1" LOC = "AD4";
+NET "$1I135/FIFO_CLK2" LOC = "AF3";
+NET "$1I135/FIFO_CLK3" LOC = "AE3";
+NET "$1I135/~OWEN"     LOC = "L26"; #owen
+NET "$1I135/~OREN"     LOC = "H26"; #oren
+#   TX output to DMBs via InCtrl FPGAs
+NET "$1I135/KILL0"   LOC = "AD1";
+NET "$1I135/KILL1"   LOC = "AC2";
+NET "$1I135/KILL2"   LOC = "AC1";
+NET "$1I135/KILL3"   LOC = "AB4";
+NET "$1I135/KILL4"   LOC = "AB3";
+NET "$1I135/KILL5"   LOC = "Y6";
+NET "$1I135/KILL6"   LOC = "Y5";
+NET "$1I135/KILL7"   LOC = "Y4";
+NET "$1I135/KILL8"   LOC = "W14";
+NET "$1I135/KILL9"   LOC = "Y14";
+NET "$1I135/KILL10"  LOC = "AA14";
+NET "$1I135/KILL11"  LOC = "AB14";
+NET "$1I135/KILL12"  LOC = "AC13";
+NET "$1I135/KILL13"  LOC = "AB13";
+NET "$1I135/KILL14"  LOC = "AA13";
+NET "$1I135/~TXEN0"  LOC = "Y3";
+NET "$1I135/~TXEN1"  LOC = "AA1";
+NET "$1I135/~TXEN2"  LOC = "Y1";
+NET "$1I135/~TXEN3"  LOC = "W6";
+NET "$1I135/~TXEN4"  LOC = "W5";
+NET "$1I135/~TXEN5"  LOC = "W4";
+NET "$1I135/~TXEN6"  LOC = "W3";
+NET "$1I135/~TXEN7"  LOC = "W2";
+NET "$1I135/~TXEN8"  LOC = "Y13";
+NET "$1I135/~TXEN9"  LOC = "W13";
+NET "$1I135/~TXEN10" LOC = "W12";
+NET "$1I135/~TXEN11" LOC = "AD12";
+NET "$1I135/~TXEN12" LOC = "AC12";
+NET "$1I135/~TXEN13" LOC = "AB12";
+NET "$1I135/~TXEN14" LOC = "AA12";
+NET "$1I135/TXDIN0"  LOC = "AF19";
+NET "$1I135/TXDIN1"  LOC = "Y18";
+NET "$1I135/TXDIN2"  LOC = "AA18";
+NET "$1I135/TXDIN3"  LOC = "AC18";
+NET "$1I135/TXDIN4"  LOC = "AD18";
+NET "$1I135/TXDIN5"  LOC = "Y17";
+NET "$1I135/TXDIN6"  LOC = "W16";
+NET "$1I135/TXDIN7"  LOC = "AA17";
+NET "$1I135/TXDIN8"  LOC = "AA16";
+NET "$1I135/TXDIN9"  LOC = "AB17";
+NET "$1I135/TXDIN10" LOC = "AC17";
+NET "$1I135/TXDIN11" LOC = "Y16";
+NET "$1I135/TXDIN12" LOC = "Y15";
+NET "$1I135/TXDIN13" LOC = "AB16";
+NET "$1I135/TXDIN14" LOC = "AC16";
+NET "$1I135/TXDIN15" LOC = "AA15";
+#
+#   Spares to FPGAs
+# (spare_clk[1:0] + spare[23:0] to InCtrls, vme[8:0] to VMEctrl)
+NET "$1I135/CLK40-0" LOC = "AD2"; #spare_clk0, 40 MHz w/DCM-phase adjust
+NET "$1I135/CLK40-1" LOC = "W15"; #spare_clk1,  "  as above  "
+NET "$1I135/CLK40-2" LOC = "E8"; #vme8 out,    "  as above  "
+NET "$1I135/~LD_RDY" LOC = "E9"; #vme7 out, Ready for Serial load?
+NET "$1I135/~SEN6"   LOC = "D8"; #vme6 in, Serial load CE for Board ID?
+NET "$1I135/~AUTOSLD_EN" LOC = "C8"; #vme5 in, Skip Serial Load phase
+				      # from VME_Ctrl ModeSW7 (bit6)
+NET "$1I135/~INSLNKWT_EN" LOC = "B8"; #vme4 in, for Kill SLink_Wait
+NET "$1I135/INPRSCL_SEL2" LOC = "A8"; #vme3 in, for GbE_PreScale[bit2]
+NET "$1I135/INPRSCL_SEL1" LOC = "G9"; #vme2 in, for GbE_PreScale[bit1]
+NET "$1I135/INPRSCL_SEL0" LOC = "F9"; #vme1 in, for GbE_PreScale[bit0]
+NET "$1I135/INFAKEL1_EN"  LOC = "D9"; #vme0 in, turns on L1A_Fake
+#
+NET "$1I135/~IDMB_FUL0" LOC = "U7";#spare5 InCtrl0 InUnit detects DMB_Full
+NET "$1I135/~IDMB_FUL1" LOC = "T8";#spare6 InCtrl1 InUnit detects DMB_Full
+NET "$1I135/~IDMB_FUL2" LOC = "Y9";#spare14 InCtrl2 InUnt detects DMB_Full
+NET "$1I135/~IDMB_FUL3" LOC = "AF8";#spare15 InCtl3 InUnt detects DMB_Full
+#NET "$1I135/SPARE0"  LOC = "U5"; #spare0 to InFpga#0
+#NET "$1I135/SPARE1"  LOC = "U4"; #spare1 to InFpga#0
+#NET "$1I135/SPARE2"  LOC = "U3"; #spare2 to InFpga#0
+#NET "$1I135/SPARE3"  LOC = "V1"; #spare3 to InFpga#0
+#NET "$1I135/SPARE4"  LOC = "U1"; #spare4 to InFpga#0
+#NET "$1I135/SPARE7"  LOC = "T7"; #spare7 to InFpga#0
+#NET "$1I135/SPARE8"  LOC = "R7"; #spare8 to InFpga#0
+#NET "$1I135/SPARE9"  LOC = "W11"; #spare9 to InFpga#0
+#NET "$1I135/SPARE12" LOC = "AC9"; #spare12 to InFpga#1
+#NET "$1I135/SPARE13" LOC = "AA9"; #spare13 to InFpga#1
+#NET "$1I135/SPARE16" LOC = "AE8"; #spare16 to InFpga#1
+#NET "$1I135/SPARE17" LOC = "AD8"; #spare17 to InFpga#1
+#NET "$1I135/SPARE18" LOC = "K7"; #spare18 to InFpga#1
+#NET "$1I135/SPARE19" LOC = "L7"; #spare19 to InFpga#1
+#NET "$1I135/SPARE20" LOC = "M8"; #spare20 to InFpga#1
+#NET "$1I135/SPARE21" LOC = "N8"; #spare21 to InFpga#1
+#
+#   data out to Output FIFO/S-Link
+NET "$1I135/DOUT0"   LOC = "J20"; #outdata0
+NET "$1I135/DOUT1"   LOC = "K20";
+NET "$1I135/DOUT2"   LOC = "L19";
+NET "$1I135/DOUT3"   LOC = "E16";
+NET "$1I135/DOUT4"   LOC = "D15";
+NET "$1I135/DOUT5"   LOC = "F14";
+NET "$1I135/DOUT6"   LOC = "P25";
+NET "$1I135/DOUT7"   LOC = "N25";
+NET "$1I135/DOUT8"   LOC = "M26";
+NET "$1I135/DOUT9"   LOC = "H22";
+NET "$1I135/DOUT10"  LOC = "H21";
+NET "$1I135/DOUT11"  LOC = "G21";
+NET "$1I135/DOUT12"  LOC = "J22";
+NET "$1I135/DOUT13"  LOC = "J21";
+NET "$1I135/DOUT14"  LOC = "K22";
+NET "$1I135/DOUT15"  LOC = "E23";
+NET "$1I135/DOUT16"  LOC = "N19";
+NET "$1I135/DOUT17"  LOC = "M19";
+NET "$1I135/DOUT18"  LOC = "L20";
+NET "$1I135/DOUT19"  LOC = "G14";
+NET "$1I135/DOUT20"  LOC = "H14";
+NET "$1I135/DOUT21"  LOC = "C15";
+NET "$1I135/DOUT22"  LOC = "E18";
+NET "$1I135/DOUT23"  LOC = "P19";
+NET "$1I135/DOUT24"  LOC = "C19";
+NET "$1I135/DOUT25"  LOC = "E24";
+NET "$1I135/DOUT26"  LOC = "K21";
+NET "$1I135/DOUT27"  LOC = "L22";
+NET "$1I135/DOUT28"  LOC = "L21";
+NET "$1I135/DOUT29"  LOC = "M22";
+NET "$1I135/DOUT30"  LOC = "N21";
+NET "$1I135/DOUT31"  LOC = "N22";
+NET "$1I135/DOUT32"  LOC = "D19";
+NET "$1I135/DOUT33"  LOC = "F15";
+NET "$1I135/DOUT34"  LOC = "E19";
+NET "$1I135/DOUT35"  LOC = "D20";
+NET "$1I135/DOUT36"  LOC = "G15";
+NET "$1I135/DOUT37"  LOC = "E20";
+NET "$1I135/DOUT38"  LOC = "F18";
+NET "$1I135/DOUT39"  LOC = "F16";
+NET "$1I135/DOUT40"  LOC = "F17";
+NET "$1I135/DOUT41"  LOC = "F19";
+NET "$1I135/DOUT42"  LOC = "G23";
+NET "$1I135/DOUT43"  LOC = "G24";
+NET "$1I135/DOUT44"  LOC = "P22";
+NET "$1I135/DOUT45"  LOC = "P21";
+NET "$1I135/DOUT46"  LOC = "R22";
+NET "$1I135/DOUT47"  LOC = "H16";
+NET "$1I135/DOUT48"  LOC = "G22";
+NET "$1I135/DOUT49"  LOC = "G17";
+NET "$1I135/DOUT50"  LOC = "D18";
+NET "$1I135/DOUT51"  LOC = "C21";
+NET "$1I135/DOUT52"  LOC = "C23";
+NET "$1I135/DOUT53"  LOC = "G18";
+NET "$1I135/DOUT54"  LOC = "D21";
+NET "$1I135/DOUT55"  LOC = "D24";
+NET "$1I135/DOUT56"  LOC = "G16";
+NET "$1I135/DOUT57"  LOC = "H15";
+NET "$1I135/DOUT58"  LOC = "N20";
+NET "$1I135/DOUT59"  LOC = "P20";
+NET "$1I135/DOUT60"  LOC = "R19";
+NET "$1I135/DOUT61"  LOC = "T25";
+NET "$1I135/DOUT62"  LOC = "T26";
+NET "$1I135/DOUT63"  LOC = "R21";
+#   Status Bits to Output FIFO
+NET "$1I135/DOUT64"  LOC = "M21"; #outdata64
+NET "$1I135/DOUT65"  LOC = "M20";
+#   data in from Output FIFO
+NET "$1I135/IN0"     LOC = "D16"; #gig_data0
+NET "$1I135/IN1"     LOC = "G26";
+NET "$1I135/IN2"     LOC = "H25";
+NET "$1I135/IN3"     LOC = "E17";
+NET "$1I135/IN4"     LOC = "E26";
+NET "$1I135/IN5"     LOC = "F26";
+NET "$1I135/IN6"     LOC = "E15";
+NET "$1I135/IN7"     LOC = "D26";
+NET "$1I135/IN8"     LOC = "E25";
+NET "$1I135/IN9"     LOC = "D25";
+NET "$1I135/IN10"    LOC = "C26";
+NET "$1I135/IN11"    LOC = "C25";
+NET "$1I135/IN12"    LOC = "B24";
+NET "$1I135/IN13"    LOC = "B26";
+NET "$1I135/IN14"    LOC = "A25";
+NET "$1I135/IN15"    LOC = "A19";
+NET "$1I135/IN16"    LOC = "B19";
+NET "$1I135/IN17"    LOC = "A24";
+#   Use 4 I/O pins for RealFMM[3:0] from VME_Ctrl
+NET "$1I135/REALFMM0" LOC = "F8"; #fmm0
+NET "$1I135/REALFMM1" LOC = "D7";
+NET "$1I135/REALFMM2" LOC = "E7";
+NET "$1I135/REALFMM3" LOC = "C6";
+#   Use 4 I/O pins for DDUFMM[3:0] to VME_Ctrl
+NET "$1I135/DDUFMM0"  LOC = "D3"; #ctrl_stat0
+NET "$1I135/DDUFMM1"  LOC = "A2";
+NET "$1I135/DDUFMM2"  LOC = "B1";
+NET "$1I135/DDUFMM3"  LOC = "C2";
+#
+#   Reserve 18 *2 Pads for 2 Logic Analyzer paths:
+NET "$1I135/L0_0"   LOC = "AB23"; #la0_0
+NET "$1I135/L0_1"   LOC = "AB24";
+NET "$1I135/L0_2"   LOC = "Y21";
+NET "$1I135/L0_3"   LOC = "Y22";
+NET "$1I135/L0_4"   LOC = "Y23";
+NET "$1I135/L0_5"   LOC = "Y24";
+NET "$1I135/L0_6"   LOC = "AA26";
+NET "$1I135/L0_7"   LOC = "Y26";
+NET "$1I135/L0_8"   LOC = "W21";
+NET "$1I135/L0_9"   LOC = "W22";
+NET "$1I135/L0_10"  LOC = "W23";
+NET "$1I135/L0_11"  LOC = "W24";
+NET "$1I135/L0_12"  LOC = "W25";
+NET "$1I135/L0_13"  LOC = "W26";
+NET "$1I135/L0_14"  LOC = "V20";
+NET "$1I135/L0_15"  LOC = "V21";
+NET "$1I135/L0_16"  LOC = "AC26";  #la0_clk1
+NET "$1I135/L0_17"  LOC = "AC25";  #la0_clk2
+#
+NET "$1I135/L1_0"   LOC = "V24";  #la1_0
+NET "$1I135/L1_1"   LOC = "V25";
+NET "$1I135/L1_2"   LOC = "U21";
+NET "$1I135/L1_3"   LOC = "U22";
+NET "$1I135/L1_4"   LOC = "U23";
+NET "$1I135/L1_5"   LOC = "U24";
+NET "$1I135/L1_6"   LOC = "V26";
+NET "$1I135/L1_7"   LOC = "U26";
+NET "$1I135/L1_8"   LOC = "U20";
+NET "$1I135/L1_9"   LOC = "T19";
+NET "$1I135/L1_10"  LOC = "T20";
+NET "$1I135/L1_11"  LOC = "R20";
+NET "$1I135/L1_12"  LOC = "T21";
+NET "$1I135/L1_13"  LOC = "T22";
+NET "$1I135/L1_14"  LOC = "T23";
+NET "$1I135/L1_15"  LOC = "T24";
+NET "$1I135/L1_16"  LOC = "V23";  #la1_clk1
+NET "$1I135/L1_17"  LOC = "V22";  #la1_clk2
+#
+# Foundation 3.1 does not understand high/low 50%....but required
+#       for 4.2 & 5.1
+NET "$1I135/SCLKIN" period=75ns high 50%; #SCLKIN = sclk, 10mhz
+NET "$1I135/CLKIN40" period=23ns high 50%; #CLKIN40 = ccbclk, 40mhz
+#         T_clk40 = 11.43ns was met
+NET "$1I135/CK625IN" period=13.8ns high 50%; #CK625IN = clk625, 62.5mhz
+#         T_ck625 = 10.10ns was met     T_ck125 = 6.23ns was met
+NET "$1I135/FCKIN_N" period=5.9ns high 50%;#FCKIN=clk156,156mhz: max=6.2ns
+NET "$1I135/CKFB_IN" period=11.6ns high 50%;#CKFB=clk_fb,78mhz: met=12.0ns
+#         T_clk = 11.04ns was met     T_fclk = 5.32ns was met
+NET "$1I135/$1I3030/DRCK1" period=30ns high 50%;
+NET "$1I135/$1I3030/DRCK2" period=30ns high 50%;
+#
+# FCKIN -> CLK156 comes from 156MHz oscillator, goes to FD to drive CLK78;
+#  these are used to drive CKFB_OUT (78MHz, 1 load to FPGA:CKFB_IN, Slow
+#  8mA) and IRCLK0/1 (156MHz, 2 loads each to InFIFOs, Fast 24/16mA).
+#  CKFB_OUT is phase-delayed  by ~1.7ns due to Drive settings, but IRCLKs
+#  get delayed up to 0.5ns due to extra loads, so:
+#      at the pins, CKFB_IN is slower than IRCLKs by 1.2-1.6ns
+#  Roundtrip time to FIFO is 0.3-0.6ns, and this can be absorbed into the
+#  clock delays such that
+#      **effectively, CKFB_IN is slower than IRCLKs 0.6 - 1.3ns **
+#  This matches well with the FIFO RCLK-to-Output lag of 2-4.5ns.
+# Meas'd FIFO RCLK-to-Output lag=2.5-3.6ns for Empty, 2.5-4.3ns for Data.
+# Note that (CKFB_IN -> CLK/FCLK) has an IBUF delay and so does FIFO Data,
+#  so the IBUF delays CANCEL OUT: check constraints for double-counting.
+#  Constraints need only use Effective CKFB lag & FIFO RCLK-to-Output lag.
+#
+# Specify timing for CLK_REG-to-FCLK_REG as 6ns each way:
+INST "$1I135/$1I3030/$8I2986" TNM=FFS FWCREG;
+INST "$1I135/$1I3030/$8I3205" TNM=FFS FWCREG;
+INST "$1I135/$1I3030/$8I3206" TNM=FFS FWCREG;
+INST "$1I135/$1I3030/$8I3207" TNM=FFS FWCREG;
+TIMESPEC "TS_FtoS" = FROM "FCLK" TO "CLK0" 6.0ns;# < 5.09ns was met
+TIMESPEC "TS_StoF" = FROM "CLK0" TO "FCLK" 6.0ns;# < 2.67ns was met
+# Specify timing for Empty-to-FCLK_REG accounting for FIFO-Output lag,
+#   with Period=6.0ns:    < 2.87ns was met!
+TIMESPEC TS_MTtoF=FROM:"INMT":TO:"FWCREG" 3.2ns;#assume ISE inc.IBUF delay
+#         < 3.08ns was met
+#TIMESPEC TS_MTtoF=FROM:"INMT":TO:"FWCREG" 2.4ns;#assume ISE inc.NoIBUFdly
+#  MT & CLK IBUF delays cancel, but ISE probably double-counts: add 0.8ns?
+#  Period - 3.6ns worstcase FIFOoutput + 0.8ns IBUF dly = 3.4ns TS_MTtoF
+# Specify timing from ~CLK IFDDRs to CLK REGs as 6.0ns:
+TIMESPEC "TS_QtoS" = FROM "FDAT" TO "CLK0" 6.0ns;# < 5.67ns was met
+#
+# Specify timing for CLK-to-DDU_FB_REG (SLink CRC):
+INST "$1I135/$1I3031/$11I3911" TNM=FFS DDUFBREG;
+TIMESPEC TS_toDDUFB=FROM:"CLK0":TO:"DDUFBREG" 9.6ns;  # < 9.43ns met, try 10ns 
+#
+# FIFO REN has 1.5ns Setup, plus 1ns clk/rclk difference: 6.4-2.5=3.9ns
+# Use when IRCLK driven by CLK156 via OFDDR:  assume that ISE inc. CKFB_IN
+TIMEGRP "FREN" OFFSET = OUT 3.9ns AFTER "$1I135/CKFB_IN"; #    IBUFG delay
+#         < 2.78ns was met
+TIMEGRP "FOE" OFFSET = OUT 4.9ns AFTER "$1I135/CKFB_IN";
+#         < 2.79ns was met
+#PINLOCK_END

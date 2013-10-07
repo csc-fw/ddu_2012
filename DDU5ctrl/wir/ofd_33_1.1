@@ -1,0 +1,59 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 231012239400 ofd_33_1
+DW ofd_33_1
+|Q virtex2p:obuf 1
+AS virtex2p:obuf LIBVER=2.0.0
+AS virtex2p:obuf LEVEL=XILINX
+AS virtex2p:obuf IOSTANDARD=LVCMOS25
+AS virtex2p:obuf SLEW=SLOW
+AS virtex2p:obuf DRIVE=12
+AS virtex2p:obuf PINORDER=I O
+AP virtex2p:obuf 1 PINTYPE=IN
+AP virtex2p:obuf 2 PINTYPE=CHIPTRI
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex2p:vcc 1
+AS virtex2p:vcc LEVEL=XILINX
+AS virtex2p:vcc LIBVER=2.0.0
+AS virtex2p:vcc PINORDER=P
+AP virtex2p:vcc 1 PINTYPE=OUT
+|Q virtex2p:inv 1
+AS virtex2p:inv DEVICE=INV
+AS virtex2p:inv LIBVER=2.0.0
+AS virtex2p:inv LEVEL=XILINX
+AS virtex2p:inv PINORDER=I O
+AP virtex2p:inv 1 PINTYPE=IN
+AP virtex2p:inv 2 PINTYPE=OUT
+|Q virtex2p:fdce 1
+AS virtex2p:fdce @INIT=0
+AS virtex2p:fdce LIBVER=2.0.0
+AS virtex2p:fdce LEVEL=XILINX
+AS virtex2p:fdce DEVICE=DFF
+AS virtex2p:fdce PINORDER=C CE CLR D Q
+AP virtex2p:fdce 1 PINTYPE=IN
+AP virtex2p:fdce 2 PINTYPE=IN
+AP virtex2p:fdce 3 PINTYPE=IN
+AP virtex2p:fdce 4 PINTYPE=IN
+AP virtex2p:fdce 5 PINTYPE=OUT
+W virtex2p:obuf $1I32
+I $1I32 virtex2p:obuf Q_OUT Q IOSTANDARD=LVCMOS33`
+W virtex2p:gnd $1I23
+I $1I23 virtex2p:gnd $1N27 
+W virtex2p:vcc $1I22
+I $1I22 virtex2p:vcc $1N25 
+W virtex2p:inv $1I20
+I $1I20 virtex2p:inv C CB 
+W virtex2p:fdce $1I15
+I $1I15 virtex2p:fdce CB $1N25 $1N27 D Q_OUT IOB=TRUE`
+P ? Q
+I Q ? Q
+P ? C
+I C ? C
+P ? D
+I D ? D
+EW

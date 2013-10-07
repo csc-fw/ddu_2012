@@ -1,0 +1,57 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 58180587390 fd18
+DW rom16x9
+|Q virtex:rom16x1 1
+AS virtex:rom16x1 DEF=ROM
+AS virtex:rom16x1 @ODLY0=1
+AS virtex:rom16x1 @ODLY1=1
+AS virtex:rom16x1 @A0DLY0=0
+AS virtex:rom16x1 @A0DLY1=0
+AS virtex:rom16x1 @A1DLY0=0
+AS virtex:rom16x1 @A1DLY1=0
+AS virtex:rom16x1 @A2DLY1=0
+AS virtex:rom16x1 @A2DLY0=0
+AS virtex:rom16x1 @A3DLY1=0
+AS virtex:rom16x1 @A3DLY0=0
+AS virtex:rom16x1 LEVEL=XILINX
+AS virtex:rom16x1 DEVICE=ROM
+AS virtex:rom16x1 LIBVER=2.0.0
+AS virtex:rom16x1 @INIT="0000"
+AS virtex:rom16x1 PINORDER=A0 A1 A2 A3 O
+AP virtex:rom16x1 1 PINTYPE=IN
+AP virtex:rom16x1 2 PINTYPE=IN
+AP virtex:rom16x1 3 PINTYPE=IN
+AP virtex:rom16x1 4 PINTYPE=IN
+AP virtex:rom16x1 5 PINTYPE=OUT
+AN O[8:0] VLBUSISONSHEET=1
+W virtex:rom16x1 $1I193
+I $1I193 virtex:rom16x1 A0 A1 A2 A3 O7 @INIT="0000"`INIT=7F81`
+W virtex:rom16x1 $1I192
+I $1I192 virtex:rom16x1 A0 A1 A2 A3 O5 @INIT="0000"`INIT=7F01`
+W virtex:rom16x1 $1I191
+I $1I191 virtex:rom16x1 A0 A1 A2 A3 O3 INIT=5F01`@INIT="0000"`
+W virtex:rom16x1 $1I190
+I $1I190 virtex:rom16x1 A0 A1 A2 A3 O8 @INIT="0000"`INIT=7001`
+W virtex:rom16x1 $1I189
+I $1I189 virtex:rom16x1 A0 A1 A2 A3 O6 INIT=BFFF`@INIT="0000"`
+W virtex:rom16x1 $1I188
+I $1I188 virtex:rom16x1 A0 A1 A2 A3 O4 @INIT="0000"`INIT=FFFF`
+W virtex:rom16x1 $1I187
+I $1I187 virtex:rom16x1 A0 A1 A2 A3 O2 INIT=7FFE`@INIT="0000"`
+W virtex:rom16x1 $1I128
+I $1I128 virtex:rom16x1 A0 A1 A2 A3 O0 INIT=3FFF`@INIT="0000"`
+W virtex:rom16x1 $1I186
+I $1I186 virtex:rom16x1 A0 A1 A2 A3 O1 @INIT="0000"`INIT=2F01`
+P ? A3
+I A3 ? A3
+P ? A2
+I A2 ? A2
+P ? A1
+I A1 ? A1
+P ? A0
+I A0 ? A0
+P ? O[8:0]
+I O[8:0] ? O[8:0]
+EW

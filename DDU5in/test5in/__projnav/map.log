@@ -1,0 +1,4 @@
+Mapping Module 0test_in . . .
+MAP command line:
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -ir -pr b -k 4 -c 100 -tx off -o 0test_in_map.ncd 0test_in.ngd 0test_in.pcf
+Mapping Module 0test_in: DONE

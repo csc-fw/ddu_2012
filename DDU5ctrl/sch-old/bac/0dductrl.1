@@ -1,0 +1,168 @@
+V 51
+K 271629802300 D690K
+Y 0
+D 0 0 1700 1100
+Z 1
+i 174
+I 111 COVER 1 0 0 0 1 '
+T 695 40 10 0 3 K-Status
+Q 12 0 0
+T 515 40 10 0 3 WordCount
+Q 12 0 0
+T 450 40 10 0 3 EOE
+Q 12 0 0
+T 405 25 20 0 3 TR: 0x/A/?/WW.WWWW/RRRR/UUMK
+Q 13 0 0
+T 155 40 10 0 3 Ostat
+Q 12 0 0
+T 285 40 10 0 3 DMBcnt
+Q 12 0 0
+T 590 40 10 0 3 CRCword
+Q 12 0 0
+T 645 40 10 0 3 EOEstat
+Q 12 0 0
+T 90 90 10 0 3 BOE1
+Q 12 0 0
+T 225 90 10 0 3 BXN
+Q 12 0 0
+T 260 90 10 0 3 ID
+Q 12 0 0
+T 305 90 10 0 3 K-Status
+Q 12 0 0
+T 280 90 10 0 3 FOV
+Q 12 0 0
+T 120 90 10 0 3 type
+Q 12 0 0
+T 150 90 10 0 3 L1A _Number
+Q 12 0 0
+T 55 75 20 0 3 H1: 0x/5T/NN.NNNN/XXX/I.II/VK
+Q 13 0 0
+T 180 40 10 0 3 DMB-DAV(15)
+Q 12 0 0
+T 245 40 10 0 3 BOEstat
+Q 12 0 0
+T 55 25 20 0 3 H3: 0x/LLLL/oooo/ZZZZ/GGMY
+Q 13 0 0
+T 95 40 10 0 3 LiveDMB(15)
+Q 12 0 0
+T 55 50 20 0 3 H2: 0x/8000/0001/8000/HHHH
+Q 13 0 0
+T 115 65 10 0 3 49-bit ~unique constant
+Q 12 0 0
+T 235 65 10 0 3 DMBfull(15)
+Q 12 0 0
+T 405 75 20 0 3 T-2: 0x/8000/FFFF/8000/8000
+Q 13 0 0
+T 465 90 10 0 3 64-bit unique constant
+Q 12 0 0
+T 405 50 20 0 3 T-1: 0x/SSSS.SSSS/QQQQ/PPPP
+Q 13 0 0
+T 545 65 10 0 3 DMBerr
+Q 12 0 0
+T 605 65 10 0 3 DMBwarn(15)
+Q 12 0 0
+T 470 65 10 0 3 DDU EOE Status
+Q 12 0 0
+T 35 100 20 0 3 DDU Format Since DDUctrl v15:
+Q 12 0 0
+T 1380 120 20 0 9 DDU WordCount (64-bit words) for "No Data" event: 0x006.
+Q 13 0 0
+T 1380 105 20 0 9 DDU WordCount for one DMB (only one CFEB): 0D2h = 210 dec, 168
++ 0 Bytes
+Q 13 0 0
+T 1380 90 20 0 9 DDU WC, 1 DMB with 2 CFEB (8 samples each): 19Ah = 410 dec, 328
++ 0 Bytes
+Q 13 0 0
+T 1380 75 20 0 9 DDU WC, 2 DMB with 1 CFEB (nCFEB=2): 19Eh = 414 dec, 3312 Bytes
++ 
+Q 13 0 0
+T 1380 60 20 0 9 DDU WC, 2 DMB with 2 CFEB (nCFEB=4): 32Eh = 814 dec, 6512 Bytes
++ 
+Q 13 0 0
+T 1380 40 20 0 9 DDU_WordCount = (6 + 25*Nts*nCFEB + 4*nDMB) < 30070; 240560 Byt
++ es
+Q 13 0 0
+T 1065 1020 35 0 3 (file 0dductrl)
+Q 11 3 0
+T 805 1015 50 0 6 DDU5CTRL
+Q 11 3 0
+T 820 970 35 0 6 CMS CSC DDU5, Central Control FPGA
+Q 11 3 0
+T 610 410 30 0 2 FPGAid:  2124A093h
+Q 12 3 0
+T 610 440 30 0 2 PromID:  05026093h
+Q 12 3 0
+T 145 515 24 0 2 DDU5ctrl\DDU5ctrl\ddu5ctrl
+Q 11 3 0
+T 1495 25 20 0 9 ^^Ignores TMB Data^^    GBE_ByteCount = 8*DDU_WordCount      _8
++  TS assumed_
+Q 13 0 0
+T 890 570 30 0 3 1: Mode Bit 0
+Q 12 0 0
+T 890 540 30 0 3 2: Mode Bit 1
+Q 12 0 0
+T 890 510 30 0 3 3: Mode Bit 2
+Q 12 0 0
+T 890 480 30 0 3 4: Mode Bit 3
+Q 12 0 0
+T 890 450 30 0 3 5: Mode Bit 4;  High for GBE debug, Low otherwise
+Q 12 0 0
+T 1085 540 30 0 3 RST_1=Asynchronus Reset for FPGA1 and ALL FIFOs
+Q 12 0 0
+T 1085 570 30 0 3 LED0 on top, pins on away-side from LEDs
+Q 12 0 0
+T 890 360 30 0 3 8: FPGA version on LEDs
+Q 12 0 0
+T 890 420 30 0 3 6: GbE test, send counter on GBE link
+Q 12 0 0
+T 35 625 40 0 3 Set All I/O to 3.3V
+Q 14 0 0
+T 50 380 30 0 2 PROGRAM takes < 55 ms (31ms this FPGA)
+Q 12 3 0
+T 890 390 30 0 3 7: Set L1A Fake mode, Kill TTC L1A/BXR/ECR if SW8 is off
+Q 12 0 0
+T 1665 845 30 0 9 -r2: add time constraint to DDUFB reg to eliminate DDUCRC logi
++ c lag. r3: tune BuffOvfl & EthLim logic
+Q 12 0 0
+T 1665 870 30 0 9 v40: DMB & Trig.CRCs use MUX to load Zeroes (not Tbufs), chang
++ e DDUfb reset
+Q 12 0 0
+T 1665 895 30 0 9 -r4: tune CRC_Cnt_Err monitor logic; r5: tune SCAovfl Reset & 
++ CountSample timing
+Q 12 0 0
+T 1665 920 30 0 9 r2: add hysteresis for L1A_AF/Busy state, tune DAQovfl logic, 
++ tune SysRdy/BUSY logic. r3: tune L1pipe/StuckData logic
+Q 12 0 0
+T 1665 945 30 0 9 v39: 64bit_err reset on BOE, TrgWC now uses all 9 bits, CloseL
++ 1A range now 1usec, BIG L1Afifo w/better Warn/Busy Logic
+Q 12 0 0
+T 1665 820 30 0 9 v41: SCA_Ovfl separated from DMB_Err & SomethingBad.  r2: tune
++  KillFiber glitch
+Q 12 0 0
+T 185 495 24 0 2 C042DD99
+Q 11 3 0
+T 185 475 24 0 2 C142DD99
+Q 11 3 0
+T 1665 770 30 0 9 correct SBXN for 3564-4096 difference in BX<40 case (from Clos
++ eL1A logic)
+Q 12 0 0
+T 1665 745 30 0 9 r3: change to new ALCT/TMB data format; r4: fix TRG bugs in st
++ age2
+Q 12 0 0
+T 1665 720 30 0 9 r5: reduce RST logic delays, may have caused TrgTrail detect p
++ roblems
+Q 12 0 0
+T 1545 695 30 0 9 ** added bit usage notes in FIFOCTRL, 27nov2007 **
+Q 12 0 0
+U 1650 1035 40 0 9 3 @DATETIME=2-21-2008_10:43
+U 35 530 40 0 3 1 PROM=2*XC18V04-VQ44 (PARALLEL)
+U 35 570 40 0 3 1 PART=XC2VP7-6-FF672
+T 1665 1000 35 0 9 CF043A01    Version 43
+Q 13 3 0
+T 1665 795 30 0 9 v42: change to proposed format for ALCT; r2: FOV=6, on TFsig k
++ ill ALCT/TMBerr,
+Q 12 0 0
+T 1665 670 30 0 9 v43: tune CMD Strobe timing
+Q 12 0 0
+I 135 DDUCNTRL 1 711 452 0 1 '
+E

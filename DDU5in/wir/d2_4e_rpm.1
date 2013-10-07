@@ -1,0 +1,76 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 260606168500 d2_4e_rpm
+DW d2_4e_rpm
+|Q virtex2p:and3b1 1
+AS virtex2p:and3b1 LEVEL=XILINX
+AS virtex2p:and3b1 DEVICE=AND
+AS virtex2p:and3b1 LIBVER=2.0.0
+AS virtex2p:and3b1 PINORDER=I0 I1 I2 O
+AP virtex2p:and3b1 1 PARAM=INV
+AP virtex2p:and3b1 1 PINTYPE=IN
+AP virtex2p:and3b1 2 PINTYPE=IN
+AP virtex2p:and3b1 3 PINTYPE=IN
+AP virtex2p:and3b1 4 PINTYPE=OUT
+|Q virtex2p:and3 1
+AS virtex2p:and3 LEVEL=XILINX
+AS virtex2p:and3 DEVICE=AND
+AS virtex2p:and3 LIBVER=2.0.0
+AS virtex2p:and3 PINORDER=I0 I1 I2 O
+AP virtex2p:and3 1 PINTYPE=IN
+AP virtex2p:and3 2 PINTYPE=IN
+AP virtex2p:and3 3 PINTYPE=IN
+AP virtex2p:and3 4 PINTYPE=OUT
+|Q virtex2p:fmap 1
+AS virtex2p:fmap DEVICE=FMAP
+AS virtex2p:fmap LEVEL=XILINX
+AS virtex2p:fmap LIBVER=2.0.0
+AS virtex2p:fmap PINORDER=I1 I2 I3 I4 O
+AP virtex2p:fmap 1 PINTYPE=IN
+AP virtex2p:fmap 2 PINTYPE=IN
+AP virtex2p:fmap 3 PINTYPE=IN
+AP virtex2p:fmap 4 PINTYPE=IN
+AP virtex2p:fmap 5 PINTYPE=IN
+|Q virtex2p:and3b2 1
+AS virtex2p:and3b2 LEVEL=XILINX
+AS virtex2p:and3b2 DEVICE=AND
+AS virtex2p:and3b2 LIBVER=2.0.0
+AS virtex2p:and3b2 PINORDER=I0 I1 I2 O
+AP virtex2p:and3b2 1 PARAM=INV
+AP virtex2p:and3b2 1 PINTYPE=IN
+AP virtex2p:and3b2 2 PARAM=INV
+AP virtex2p:and3b2 2 PINTYPE=IN
+AP virtex2p:and3b2 3 PINTYPE=IN
+AP virtex2p:and3b2 4 PINTYPE=OUT
+W virtex2p:and3b1 $1I51
+I $1I51 virtex2p:and3b1 A0 A1 E D2 
+W virtex2p:and3b1 $1I32
+I $1I32 virtex2p:and3b1 A1 A0 E D1 
+W virtex2p:and3 $1I30
+I $1I30 virtex2p:and3 A1 A0 E D3 
+W virtex2p:fmap $1I63
+I $1I63 virtex2p:fmap A0 A1 E ? D2 RLOC=X0Y1`
+W virtex2p:fmap $1I56
+I $1I56 virtex2p:fmap A0 A1 E ? D0 RLOC=X0Y0`
+W virtex2p:fmap $1I57
+I $1I57 virtex2p:fmap A0 A1 E ? D1 RLOC=X0Y0`
+W virtex2p:fmap $1I71
+I $1I71 virtex2p:fmap A0 A1 E ? D3 RLOC=X0Y1`
+W virtex2p:and3b2 $1I33
+I $1I33 virtex2p:and3b2 A0 A1 E D0 
+P ? E
+I E ? E
+P ? A1
+I A1 ? A1
+P ? A0
+I A0 ? A0
+P ? D0
+I D0 ? D0
+P ? D2
+I D2 ? D2
+P ? D1
+I D1 ? D1
+P ? D3
+I D3 ? D3
+EW

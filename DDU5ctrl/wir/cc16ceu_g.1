@@ -1,0 +1,328 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 174631848000 cc10cled
+DW cc16ceu_g
+|Q virtex2p:inv 1
+AS virtex2p:inv DEVICE=INV
+AS virtex2p:inv LIBVER=2.0.0
+AS virtex2p:inv LEVEL=XILINX
+AS virtex2p:inv PINORDER=I O
+AP virtex2p:inv 1 PINTYPE=IN
+AP virtex2p:inv 2 PINTYPE=OUT
+|Q virtex2p:fmap 1
+AS virtex2p:fmap DEVICE=FMAP
+AS virtex2p:fmap LEVEL=XILINX
+AS virtex2p:fmap LIBVER=2.0.0
+AS virtex2p:fmap PINORDER=I1 I2 I3 I4 O
+AP virtex2p:fmap 1 PINTYPE=IN
+AP virtex2p:fmap 2 PINTYPE=IN
+AP virtex2p:fmap 3 PINTYPE=IN
+AP virtex2p:fmap 4 PINTYPE=IN
+AP virtex2p:fmap 5 PINTYPE=IN
+|Q virtex2p:muxcy_d 1
+AS virtex2p:muxcy_d LIBVER=2.0.0
+AS virtex2p:muxcy_d LEVEL=XILINX
+AS virtex2p:muxcy_d DEVICE=CY_MUX
+AS virtex2p:muxcy_d PINORDER=CI DI LO O S
+AP virtex2p:muxcy_d 1 PINTYPE=IN
+AP virtex2p:muxcy_d 2 PINTYPE=IN
+AP virtex2p:muxcy_d 3 PINTYPE=OUT
+AP virtex2p:muxcy_d 4 PINTYPE=OUT
+AP virtex2p:muxcy_d 5 PINTYPE=IN
+|Q virtex2p:fdce 1
+AS virtex2p:fdce @INIT=0
+AS virtex2p:fdce LIBVER=2.0.0
+AS virtex2p:fdce LEVEL=XILINX
+AS virtex2p:fdce DEVICE=DFF
+AS virtex2p:fdce PINORDER=C CE CLR D Q
+AP virtex2p:fdce 1 PINTYPE=IN
+AP virtex2p:fdce 2 PINTYPE=IN
+AP virtex2p:fdce 3 PINTYPE=IN
+AP virtex2p:fdce 4 PINTYPE=IN
+AP virtex2p:fdce 5 PINTYPE=OUT
+|Q virtex2p:xor2 1
+AS virtex2p:xor2 DEVICE=XOR
+AS virtex2p:xor2 LEVEL=XILINX
+AS virtex2p:xor2 LIBVER=2.0.0
+AS virtex2p:xor2 PINORDER=I0 I1 O
+AP virtex2p:xor2 1 PINTYPE=IN
+AP virtex2p:xor2 2 PINTYPE=IN
+AP virtex2p:xor2 3 PINTYPE=OUT
+|Q virtex2p:vcc 1
+AS virtex2p:vcc LEVEL=XILINX
+AS virtex2p:vcc LIBVER=2.0.0
+AS virtex2p:vcc PINORDER=P
+AP virtex2p:vcc 1 PINTYPE=OUT
+|Q virtex2p:and2 1
+AS virtex2p:and2 LEVEL=XILINX
+AS virtex2p:and2 DEVICE=AND
+AS virtex2p:and2 LIBVER=2.0.0
+AS virtex2p:and2 PINORDER=I0 I1 O
+AP virtex2p:and2 1 PINTYPE=IN
+AP virtex2p:and2 2 PINTYPE=IN
+AP virtex2p:and2 3 PINTYPE=OUT
+|Q virtex2p:muxcy 1
+AS virtex2p:muxcy LIBVER=2.0.0
+AS virtex2p:muxcy LEVEL=XILINX
+AS virtex2p:muxcy DEVICE=CY_MUX
+AS virtex2p:muxcy PINORDER=CI DI O S
+AP virtex2p:muxcy 1 PINTYPE=IN
+AP virtex2p:muxcy 2 PINTYPE=IN
+AP virtex2p:muxcy 3 PINTYPE=OUT
+AP virtex2p:muxcy 4 PINTYPE=IN
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+AN Q[15:0] VLBUSISONSHEET=1
+W virtex2p:inv $1I2030
+I $1I2030 virtex2p:inv UP DN8 
+W virtex2p:inv $1I2027
+I $1I2027 virtex2p:inv UP DN9 
+W virtex2p:inv $1I2021
+I $1I2021 virtex2p:inv UP DN10 
+W virtex2p:inv $1I2018
+I $1I2018 virtex2p:inv UP DN11 
+W virtex2p:inv $1I2012
+I $1I2012 virtex2p:inv UP DN13 
+W virtex2p:inv $1I2009
+I $1I2009 virtex2p:inv UP DN14 
+W virtex2p:inv $1I2006
+I $1I2006 virtex2p:inv UP DN15 
+W virtex2p:inv $1I1993
+I $1I1993 virtex2p:inv UP DN7 
+W virtex2p:inv $1I1990
+I $1I1990 virtex2p:inv UP DN6 
+W virtex2p:inv $1I1987
+I $1I1987 virtex2p:inv UP DN5 
+W virtex2p:inv $1I1984
+I $1I1984 virtex2p:inv UP DN4 
+W virtex2p:inv $1I1981
+I $1I1981 virtex2p:inv UP DN3 
+W virtex2p:inv $1I1978
+I $1I1978 virtex2p:inv UP DN2 
+W virtex2p:fmap $1I1966
+I $1I1966 virtex2p:fmap Q15 CO15 ? ? TQ15 RLOC=X0Y15`
+W virtex2p:fmap $1I1970
+I $1I1970 virtex2p:fmap Q15 UP ? ? SQ15 RLOC=X0Y13`
+W virtex2p:fmap $1I1958
+I $1I1958 virtex2p:fmap Q14 CO14 ? ? TQ14 RLOC=X0Y15`
+W virtex2p:fmap $1I1962
+I $1I1962 virtex2p:fmap Q14 UP ? ? SQ14 RLOC=X0Y13`
+W virtex2p:fmap $1I1950
+I $1I1950 virtex2p:fmap Q13 CO13 ? ? TQ13 RLOC=X0Y14`
+W virtex2p:fmap $1I1954
+I $1I1954 virtex2p:fmap Q13 UP ? ? SQ13 RLOC=X0Y12`
+W virtex2p:muxcy_d $1I1909
+I $1I1909 virtex2p:muxcy_d C12 G1 C13 CO13 SQ12 RLOC=X0Y12`
+W virtex2p:fdce $1I1910
+I $1I1910 virtex2p:fdce C CE CLR TQ13 Q13 RLOC=X0Y14`
+W virtex2p:xor2 $1I1914
+I $1I1914 virtex2p:xor2 Q13 DN13 SQ13 
+W virtex2p:xor2 $1I1915
+I $1I1915 virtex2p:xor2 Q14 DN14 SQ14 
+W virtex2p:xor2 $1I1924
+I $1I1924 virtex2p:xor2 CO13 Q13 TQ13 
+W virtex2p:muxcy_d $1I1928
+I $1I1928 virtex2p:muxcy_d C13 G1 C14 CO14 SQ13 RLOC=X0Y12`
+W virtex2p:xor2 $1I1929
+I $1I1929 virtex2p:xor2 CO14 Q14 TQ14 
+W virtex2p:muxcy_d $1I1932
+I $1I1932 virtex2p:muxcy_d C14 G1 C15 CO15 SQ14 RLOC=X0Y13`
+W virtex2p:xor2 $1I1933
+I $1I1933 virtex2p:xor2 CO15 Q15 TQ15 
+W virtex2p:fdce $1I1937
+I $1I1937 virtex2p:fdce C CE CLR TQ15 Q15 RLOC=X0Y15`
+W virtex2p:fdce $1I1938
+I $1I1938 virtex2p:fdce C CE CLR TQ14 Q14 RLOC=X0Y15`
+W virtex2p:fmap $1I1891
+I $1I1891 virtex2p:fmap Q11 CO11 ? ? TQ11 RLOC=X0Y11`
+W virtex2p:fmap $1I1892
+I $1I1892 virtex2p:fmap Q11 UP ? ? SQ11 RLOC=X0Y9`
+W virtex2p:fmap $1I1893
+I $1I1893 virtex2p:fmap Q12 UP ? ? SQ12 RLOC=X0Y12`
+W virtex2p:fmap $1I1894
+I $1I1894 virtex2p:fmap Q12 CO12 ? ? TQ12 RLOC=X0Y14`
+W virtex2p:fdce $1I1884
+I $1I1884 virtex2p:fdce C CE CLR TQ11 Q11 RLOC=X0Y11`
+W virtex2p:fdce $1I1885
+I $1I1885 virtex2p:fdce C CE CLR TQ12 Q12 RLOC=X0Y14`
+W virtex2p:xor2 $1I1868
+I $1I1868 virtex2p:xor2 CO12 Q12 TQ12 
+W virtex2p:muxcy_d $1I1869
+I $1I1869 virtex2p:muxcy_d C11 G1 C12 CO12 SQ11 RLOC=X0Y9`
+W virtex2p:xor2 $1I1878
+I $1I1878 virtex2p:xor2 CO11 Q11 TQ11 
+W virtex2p:muxcy_d $1I1864
+I $1I1864 virtex2p:muxcy_d C10 G1 C11 CO11 SQ10 RLOC=X0Y9`
+W virtex2p:fdce $1I1837
+I $1I1837 virtex2p:fdce C CE CLR TQ1 Q1 RLOC=X0Y2`
+W virtex2p:fdce $1I1832
+I $1I1832 virtex2p:fdce C CE CLR TQ3 Q3 RLOC=X0Y3`
+W virtex2p:fdce $1I1833
+I $1I1833 virtex2p:fdce C CE CLR TQ4 Q4 RLOC=X0Y6`
+W virtex2p:fdce $1I1834
+I $1I1834 virtex2p:fdce C CE CLR TQ5 Q5 RLOC=X0Y6`
+W virtex2p:fdce $1I1835
+I $1I1835 virtex2p:fdce C CE CLR TQ6 Q6 RLOC=X0Y7`
+W virtex2p:fdce $1I1836
+I $1I1836 virtex2p:fdce C CE CLR TQ7 Q7 RLOC=X0Y7`
+W virtex2p:muxcy_d $1I1827
+I $1I1827 virtex2p:muxcy_d C0 G0 C1 CO1 SQ0 RLOC=X0Y0`
+W virtex2p:muxcy_d $1I1828
+I $1I1828 virtex2p:muxcy_d C1 G0 C2 CO2 SQ1 RLOC=X0Y0`
+W virtex2p:muxcy_d $1I1819
+I $1I1819 virtex2p:muxcy_d C2 G0 C3 CO3 SQ2 RLOC=X0Y1`
+W virtex2p:muxcy_d $1I1820
+I $1I1820 virtex2p:muxcy_d C3 G0 C4 CO4 SQ3 RLOC=X0Y1`
+W virtex2p:muxcy_d $1I1821
+I $1I1821 virtex2p:muxcy_d C4 G0 C5 CO5 SQ4 RLOC=X0Y4`
+W virtex2p:muxcy_d $1I1822
+I $1I1822 virtex2p:muxcy_d C5 G0 C6 CO6 SQ5 RLOC=X0Y4`
+W virtex2p:muxcy_d $1I1823
+I $1I1823 virtex2p:muxcy_d C6 G0 C7 CO7 SQ6 RLOC=X0Y5`
+W virtex2p:muxcy_d $1I1824
+I $1I1824 virtex2p:muxcy_d C7 G0 C8 CO8 SQ7 RLOC=X0Y5`
+W virtex2p:fmap $1I1800
+I $1I1800 virtex2p:fmap Q6 UP ? ? SQ6 RLOC=X0Y5`
+W virtex2p:fmap $1I1801
+I $1I1801 virtex2p:fmap Q5 UP ? ? SQ5 RLOC=X0Y4`
+W virtex2p:fmap $1I1802
+I $1I1802 virtex2p:fmap Q4 UP ? ? SQ4 RLOC=X0Y4`
+W virtex2p:xor2 $1I1705
+I $1I1705 virtex2p:xor2 CO8 Q8 TQ8 
+W virtex2p:xor2 $1I1704
+I $1I1704 virtex2p:xor2 CO9 Q9 TQ9 
+W virtex2p:xor2 $1I1702
+I $1I1702 virtex2p:xor2 CO7 Q7 TQ7 
+W virtex2p:xor2 $1I1701
+I $1I1701 virtex2p:xor2 CO6 Q6 TQ6 
+W virtex2p:xor2 $1I1700
+I $1I1700 virtex2p:xor2 CO5 Q5 TQ5 
+W virtex2p:xor2 $1I1699
+I $1I1699 virtex2p:xor2 CO4 Q4 TQ4 
+W virtex2p:xor2 $1I1698
+I $1I1698 virtex2p:xor2 CO3 Q3 TQ3 
+W virtex2p:xor2 $1I1697
+I $1I1697 virtex2p:xor2 CO2 Q2 TQ2 
+W virtex2p:xor2 $1I1121
+I $1I1121 virtex2p:xor2 Q7 DN7 SQ7 
+W virtex2p:xor2 $1I1119
+I $1I1119 virtex2p:xor2 Q6 DN6 SQ6 
+W virtex2p:xor2 $1I1117
+I $1I1117 virtex2p:xor2 Q5 DN5 SQ5 
+W virtex2p:xor2 $1I1115
+I $1I1115 virtex2p:xor2 Q4 DN4 SQ4 
+W virtex2p:xor2 $1I1113
+I $1I1113 virtex2p:xor2 Q3 DN3 SQ3 
+W virtex2p:xor2 $1I1111
+I $1I1111 virtex2p:xor2 Q2 DN2 SQ2 
+W virtex2p:xor2 $1I1302
+I $1I1302 virtex2p:xor2 Q8 DN8 SQ8 
+W virtex2p:vcc $1I923
+I $1I923 virtex2p:vcc C0 
+W virtex2p:fmap $1I1803
+I $1I1803 virtex2p:fmap Q3 UP ? ? SQ3 RLOC=X0Y1`
+W virtex2p:fmap $1I1809
+I $1I1809 virtex2p:fmap Q2 UP ? ? SQ2 RLOC=X0Y1`
+W virtex2p:fmap $1I1814
+I $1I1814 virtex2p:fmap Q1 UP ? ? SQ1 RLOC=X0Y0`
+W virtex2p:fdce $1I1831
+I $1I1831 virtex2p:fdce C CE CLR TQ2 Q2 RLOC=X0Y3`
+W virtex2p:fdce $1I1838
+I $1I1838 virtex2p:fdce C CE CLR TQ0 Q0 RLOC=X0Y2`
+W virtex2p:fdce $1I1829
+I $1I1829 virtex2p:fdce C CE CLR TQ9 Q9 RLOC=X0Y10`
+W virtex2p:fdce $1I1830
+I $1I1830 virtex2p:fdce C CE CLR TQ8 Q8 RLOC=X0Y10`
+W virtex2p:fmap $1I1813
+I $1I1813 virtex2p:fmap Q1 CO1 ? ? TQ1 RLOC=X0Y2`
+W virtex2p:fmap $1I1810
+I $1I1810 virtex2p:fmap Q2 CO2 ? ? TQ2 RLOC=X0Y3`
+W virtex2p:fmap $1I1805
+I $1I1805 virtex2p:fmap Q4 CO4 ? ? TQ4 RLOC=X0Y6`
+W virtex2p:fmap $1I1806
+I $1I1806 virtex2p:fmap Q5 CO5 ? ? TQ5 RLOC=X0Y6`
+W virtex2p:fmap $1I1807
+I $1I1807 virtex2p:fmap Q6 CO6 ? ? TQ6 RLOC=X0Y7`
+W virtex2p:xor2 $1I1703
+I $1I1703 virtex2p:xor2 CO10 Q10 TQ10 
+W virtex2p:fmap $1I1804
+I $1I1804 virtex2p:fmap Q3 CO3 ? ? TQ3 RLOC=X0Y3`
+W virtex2p:xor2 $1I1696
+I $1I1696 virtex2p:xor2 CO1 Q1 TQ1 
+W virtex2p:vcc $1I1693
+I $1I1693 virtex2p:vcc P0 
+W virtex2p:xor2 $1I1611
+I $1I1611 virtex2p:xor2 P0 Q0 TQ0 
+W virtex2p:and2 $1I1219
+I $1I1219 virtex2p:and2 CE TC CEO 
+W virtex2p:fmap $1I1812
+I $1I1812 virtex2p:fmap Q0 UP ? ? SQ0 RPM_GRID=GRID`RLOC=X0Y0`
+W virtex2p:fmap $1I1818
+I $1I1818 virtex2p:fmap Q10 CO10 ? ? TQ10 RLOC=X0Y11`
+W virtex2p:fmap $1I1796
+I $1I1796 virtex2p:fmap Q8 CO8 ? ? TQ8 RLOC=X0Y10`
+W virtex2p:fmap $1I1817
+I $1I1817 virtex2p:fmap Q10 UP ? ? SQ10 RLOC=X0Y9`
+W virtex2p:fmap $1I1798
+I $1I1798 virtex2p:fmap Q9 UP ? ? SQ9 RLOC=X0Y8`
+W virtex2p:fmap $1I1797
+I $1I1797 virtex2p:fmap Q8 UP ? ? SQ8 RLOC=X0Y8`
+W virtex2p:fmap $1I1811
+I $1I1811 virtex2p:fmap Q0 P0 ? ? TQ0 RLOC=X0Y2`
+W virtex2p:muxcy_d $1I1825
+I $1I1825 virtex2p:muxcy_d C8 G1 C9 CO9 SQ8 RLOC=X0Y8`
+W virtex2p:xor2 $1I1874
+I $1I1874 virtex2p:xor2 Q11 DN11 SQ11 
+W virtex2p:xor2 $1I1214
+I $1I1214 virtex2p:xor2 Q9 DN9 SQ9 
+W virtex2p:xor2 $1I1648
+I $1I1648 virtex2p:xor2 Q10 DN10 SQ10 
+W virtex2p:xor2 $1I1848
+I $1I1848 virtex2p:xor2 Q0 DN0 SQ0 
+W virtex2p:xor2 $1I1108
+I $1I1108 virtex2p:xor2 Q1 DN1 SQ1 
+W virtex2p:fmap $1I1795
+I $1I1795 virtex2p:fmap Q9 CO9 ? ? TQ9 RLOC=X0Y10`
+W virtex2p:fdce $1I1193
+I $1I1193 virtex2p:fdce C CE CLR TQ10 Q10 RLOC=X0Y11`
+W virtex2p:muxcy_d $1I1826
+I $1I1826 virtex2p:muxcy_d C9 G1 C10 CO10 SQ9 RLOC=X0Y8`
+W virtex2p:muxcy $1I1907
+I $1I1907 virtex2p:muxcy C15 G1 TC SQ15 RLOC=X0Y113`
+W virtex2p:fmap $1I1799
+I $1I1799 virtex2p:fmap Q7 UP ? ? SQ7 RLOC=X0Y5`
+W virtex2p:fmap $1I1808
+I $1I1808 virtex2p:fmap Q7 CO7 ? ? TQ7 RLOC=X0Y7`
+W virtex2p:inv $1I1971
+I $1I1971 virtex2p:inv UP DN0 
+W virtex2p:inv $1I1975
+I $1I1975 virtex2p:inv UP DN1 
+W virtex2p:xor2 $1I1930
+I $1I1930 virtex2p:xor2 Q15 DN15 SQ15 
+W virtex2p:gnd $1I1163
+I $1I1163 virtex2p:gnd G1 
+W virtex2p:gnd $1I886
+I $1I886 virtex2p:gnd G0 
+W virtex2p:xor2 $1I1877
+I $1I1877 virtex2p:xor2 Q12 DN12 SQ12 
+W virtex2p:inv $1I2015
+I $1I2015 virtex2p:inv UP DN12 
+P ? UP
+I UP ? UP
+P ? TC
+I TC ? TC
+P ? CLR
+I CLR ? CLR
+P ? C
+I C ? C
+P ? CE
+I CE ? CE
+P ? CEO
+I CEO ? CEO
+P ? Q[15:0]
+I Q[15:0] ? Q[15:0]
+EW

@@ -1,0 +1,300 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 118209874400 fpga
+DW vmecntrl
+SA @NAME=VMECNTRL 
+SA @SHEET=2 
+SA @DATETIME=3-28-2007_10:40 
+|Q virtex2p:bufe4 1
+AS virtex2p:bufe4 LEVEL=MXILINX
+AS virtex2p:bufe4 LIBVER=2.0.0
+AS virtex2p:bufe4 PINORDER=E I0 I1 I2 I3 O0 O1 O2 O3
+AP virtex2p:bufe4 1 PINTYPE=IN
+AP virtex2p:bufe4 2 PINTYPE=IN
+AP virtex2p:bufe4 3 PINTYPE=IN
+AP virtex2p:bufe4 4 PINTYPE=IN
+AP virtex2p:bufe4 5 PINTYPE=IN
+AP virtex2p:bufe4 6 PINTYPE=OUT
+AP virtex2p:bufe4 7 PINTYPE=OUT
+AP virtex2p:bufe4 8 PINTYPE=OUT
+AP virtex2p:bufe4 9 PINTYPE=OUT
+|Q virtex2p:and2 1
+AS virtex2p:and2 LEVEL=XILINX
+AS virtex2p:and2 DEVICE=AND
+AS virtex2p:and2 LIBVER=2.0.0
+AS virtex2p:and2 PINORDER=I0 I1 O
+AP virtex2p:and2 1 PINTYPE=IN
+AP virtex2p:and2 2 PINTYPE=IN
+AP virtex2p:and2 3 PINTYPE=OUT
+|Q virtex2p:sop4 1
+AS virtex2p:sop4 LEVEL=MXILINX
+AS virtex2p:sop4 LIBVER=2.0.0
+AS virtex2p:sop4 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:sop4 1 PINTYPE=IN
+AP virtex2p:sop4 2 PINTYPE=IN
+AP virtex2p:sop4 3 PINTYPE=IN
+AP virtex2p:sop4 4 PINTYPE=IN
+AP virtex2p:sop4 5 PINTYPE=OUT
+|Q virtex2p:sop3 1
+AS virtex2p:sop3 LEVEL=MXILINX
+AS virtex2p:sop3 LIBVER=2.0.0
+AS virtex2p:sop3 PINORDER=I0 I1 I2 O
+AP virtex2p:sop3 1 PINTYPE=IN
+AP virtex2p:sop3 2 PINTYPE=IN
+AP virtex2p:sop3 3 PINTYPE=IN
+AP virtex2p:sop3 4 PINTYPE=OUT
+|Q virtex2p:obuft 1
+AS virtex2p:obuft LIBVER=2.0.0
+AS virtex2p:obuft LEVEL=XILINX
+AS virtex2p:obuft IOSTANDARD=LVCMOS25
+AS virtex2p:obuft SLEW=SLOW
+AS virtex2p:obuft DRIVE=12
+AS virtex2p:obuft PINORDER=I O T
+AP virtex2p:obuft 1 PINTYPE=IN
+AP virtex2p:obuft 2 PINTYPE=CHIPTRI
+AP virtex2p:obuft 3 PINTYPE=IN
+|Q virtex2p:ibuf 1
+AS virtex2p:ibuf LIBVER=2.0.0
+AS virtex2p:ibuf LEVEL=XILINX
+AS virtex2p:ibuf IOSTANDARD=LVCMOS25
+AS virtex2p:ibuf PINORDER=I O
+AP virtex2p:ibuf 1 PINTYPE=CHIPIN
+AP virtex2p:ibuf 2 PINTYPE=OUT
+|Q ipad1pu 1
+AS ipad1pu LEVEL=MXILINX
+AS ipad1pu PINORDER=IPAD1PU
+|Q virtex:buf 1
+AS virtex:buf LIBVER=2.0.0
+AS virtex:buf DEVICE=BUF
+AS virtex:buf LEVEL=XILINX
+AS virtex:buf PINORDER=I O
+AP virtex:buf 1 PINTYPE=IN
+AP virtex:buf 2 PINTYPE=OUT
+|Q virtex:bufe16 1
+AS virtex:bufe16 LEVEL=MXILINX
+AS virtex:bufe16 LIBVER=2.0.0
+AS virtex:bufe16 PINORDER=E I[15:0] O[15:0]
+AP virtex:bufe16 1 PINTYPE=IN
+AP virtex:bufe16 2 PINTYPE=IN
+AP virtex:bufe16 3 PINTYPE=OUT
+|Q virtex:or3 1
+AS virtex:or3 LEVEL=XILINX
+AS virtex:or3 DEVICE=OR
+AS virtex:or3 LIBVER=2.0.0
+AS virtex:or3 PINORDER=I0 I1 I2 O
+AP virtex:or3 1 PINTYPE=IN
+AP virtex:or3 2 PINTYPE=IN
+AP virtex:or3 3 PINTYPE=IN
+AP virtex:or3 4 PINTYPE=OUT
+|Q vme-jtag 1
+AS vme-jtag @NAME=VME-JTAG
+AS vme-jtag PINORDER=BCAST COMMAND[9:0] DEVICE DONETAIL DVCENB FASTCLK INDATA[15:0] LOAD OUTDATA[15:0] RDTDOBK RDTDOBK+1 RST SLOWCLK STROBE TCK TDI TDO TMS ~DTACK ~WRITE
+AP vme-jtag 1 PINTYPE=BI
+AP vme-jtag 2 PINTYPE=BI
+AP vme-jtag 3 PINTYPE=BI
+AP vme-jtag 6 PINTYPE=BI
+AP vme-jtag 7 PINTYPE=BI
+AP vme-jtag 12 PINTYPE=BI
+AP vme-jtag 13 PINTYPE=BI
+AP vme-jtag 14 PINTYPE=BI
+AP vme-jtag 17 PINTYPE=BI
+AP vme-jtag 20 PINTYPE=BI
+|Q virtex2p:or2 1
+AS virtex2p:or2 DEVICE=OR
+AS virtex2p:or2 LEVEL=XILINX
+AS virtex2p:or2 LIBVER=2.0.0
+AS virtex2p:or2 PINORDER=I0 I1 O
+AP virtex2p:or2 1 PINTYPE=IN
+AP virtex2p:or2 2 PINTYPE=IN
+AP virtex2p:or2 3 PINTYPE=OUT
+|Q virtex2p:inv 1
+AS virtex2p:inv DEVICE=INV
+AS virtex2p:inv LIBVER=2.0.0
+AS virtex2p:inv LEVEL=XILINX
+AS virtex2p:inv PINORDER=I O
+AP virtex2p:inv 1 PINTYPE=IN
+AP virtex2p:inv 2 PINTYPE=OUT
+|Q virtex:opad 1
+AS virtex:opad LIBVER=2.0.0
+AS virtex:opad LEVEL=XILINX
+AS virtex:opad EXT=OPAD
+AS virtex:opad PINORDER=OPAD
+|Q virtex:pulldown 1
+AS virtex:pulldown DEVICE=PULLDOWN
+AS virtex:pulldown LEVEL=XILINX
+AS virtex:pulldown LIBVER=2.0.0
+AS virtex:pulldown PINORDER=O
+AP virtex:pulldown 1 PINTYPE=OEM
+|Q virtex2p:cb4ce 1
+AS virtex2p:cb4ce @INIT=0
+AS virtex2p:cb4ce LIBVER=2.0.0
+AS virtex2p:cb4ce LEVEL=MXILINX
+AS virtex2p:cb4ce PINORDER=C CE CEO CLR Q0 Q1 Q2 Q3 TC
+AP virtex2p:cb4ce 1 PINTYPE=IN
+AP virtex2p:cb4ce 2 PINTYPE=IN
+AP virtex2p:cb4ce 3 PINTYPE=OUT
+AP virtex2p:cb4ce 4 PINTYPE=IN
+AP virtex2p:cb4ce 5 PINTYPE=OUT
+AP virtex2p:cb4ce 6 PINTYPE=OUT
+AP virtex2p:cb4ce 7 PINTYPE=OUT
+AP virtex2p:cb4ce 8 PINTYPE=OUT
+AP virtex2p:cb4ce 9 PINTYPE=OUT
+|Q virtex2p:obuf 1
+AS virtex2p:obuf LIBVER=2.0.0
+AS virtex2p:obuf LEVEL=XILINX
+AS virtex2p:obuf IOSTANDARD=LVCMOS25
+AS virtex2p:obuf SLEW=SLOW
+AS virtex2p:obuf DRIVE=12
+AS virtex2p:obuf PINORDER=I O
+AP virtex2p:obuf 1 PINTYPE=IN
+AP virtex2p:obuf 2 PINTYPE=CHIPTRI
+AN DIAG2OUT[15:0] VLBUSISONSHEET=2
+AN DIAG1OUT[15:0] VLBUSISONSHEET=2
+AN DIAGOUT[15:0] VLBUSISONSHEET=2
+AN LA1_[15:0] VLBUSISONSHEET=2
+AN LA0_[15:0] VLBUSISONSHEET=2
+AN LA1_[15:0] VLBUSISONSHEET=2
+AN LA0_[15:0] VLBUSISONSHEET=2
+AN COMMAND[9:0] VLBUSISONSHEET=2
+AN INDATA[15:0] VLBUSISONSHEET=2
+AN OUTDATA[15:0] VLBUSISONSHEET=2
+AN COMMAND[9:0] VLBUSISONSHEET=2
+AN INDATA[15:0] VLBUSISONSHEET=2
+AN OUTDATA[15:0] VLBUSISONSHEET=2
+AN OUTDATA[15:0] VLBUSISONSHEET=2
+AN INDATA[15:0] VLBUSISONSHEET=2
+AN COMMAND[9:0] VLBUSISONSHEET=2
+AN DIAG3OUT[15:0] VLBUSISONSHEET=2
+W virtex2p:bufe4 $2I1483
+I $2I1483 virtex2p:bufe4 DEVICE2 LOAD1 RDTDOBK1 RDTDOBK1+1 DONETAIL1 DEVLOAD RDTDOBK RDTDOBK+1 DEVDONETAIL 
+W virtex2p:bufe4 $2I1482
+I $2I1482 virtex2p:bufe4 DEVICE6 LOAD2 RDTDOBK2 RDTDOBK2+1 DONETAIL2 DEVLOAD RDTDOBK RDTDOBK+1 DEVDONETAIL 
+W virtex2p:bufe4 $2I1481
+I $2I1481 virtex2p:bufe4 DEVICE7 LOAD3 RDTDOBK3 RDTDOBK3+1 DONETAIL3 DEVLOAD RDTDOBK RDTDOBK+1 DEVDONETAIL 
+W virtex2p:and2 $2I1458
+I $2I1458 virtex2p:and2 TDI3 DVCENB3 ATDI3 
+W virtex2p:sop4 $2I1466
+I $2I1466 virtex2p:sop4 SCLK RESTORE_IDLE TCK3 DVCENB3 ATCK3 
+W virtex2p:sop3 $2I1467
+I $2I1467 virtex2p:sop3 DVCENB3 TMS3 RESTORE_IDLE ATMS3 
+W virtex2p:obuft $2I1414
+I $2I1414 virtex2p:obuft TCK1 OTCK1 ~DVENB1 IOSTANDARD=LVCMOS33`
+W virtex2p:obuft $2I1413
+I $2I1413 virtex2p:obuft TMS1 OTMS1 ~DVENB1 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $2I1404
+I $2I1404 virtex2p:ibuf ITDO1 TDO1 IOSTANDARD=LVCMOS33`
+W ipad1pu $2I1337
+I $2I1337 ipad1pu ITDO3 
+W virtex:buf $2I1225
+I $2I1225 virtex:buf TCK1 DIAG3OUT1 
+W virtex:buf $2I1226
+I $2I1226 virtex:buf TMS1 DIAG3OUT2 
+W virtex:buf $2I1227
+I $2I1227 virtex:buf TDI1 DIAG3OUT3 
+W virtex:buf $2I1228
+I $2I1228 virtex:buf TDO1 DIAG3OUT4 
+W virtex:buf $2I1229
+I $2I1229 virtex:buf TCK2 DIAG3OUT6 
+W virtex:buf $2I1230
+I $2I1230 virtex:buf TDI2 DIAG3OUT8 
+W virtex:buf $2I1231
+I $2I1231 virtex:buf TMS2 DIAG3OUT7 
+W virtex:buf $2I1232
+I $2I1232 virtex:buf DVCENB3 DIAG3OUT10 
+W virtex:buf $2I1233
+I $2I1233 virtex:buf TDO2 DIAG3OUT9 
+W virtex:buf $2I1234
+I $2I1234 virtex:buf TMS3 DIAG3OUT12 
+W virtex:buf $2I1235
+I $2I1235 virtex:buf TCK3 DIAG3OUT11 
+W virtex:buf $2I1236
+I $2I1236 virtex:buf TDI3 DIAG3OUT13 
+W virtex:buf $2I1237
+I $2I1237 virtex:buf DEVICE_ENB DIAG3OUT15 
+W virtex:buf $2I1238
+I $2I1238 virtex:buf TDO3 DIAG3OUT14 
+W virtex:buf $2I1239
+I $2I1239 virtex:buf DVCENB2 DIAG3OUT5 
+W virtex:bufe16 $2I1107
+I $2I1107 virtex:bufe16 LED_MODE_A DIAGOUT[15:0] LA0_[15:0] 
+W virtex:bufe16 $2I1105
+I $2I1105 virtex:bufe16 LED_MODE_B DIAG2OUT[15:0] LA0_[15:0] 
+W virtex:or3 $2I1201
+I $2I1201 virtex:or3 DVCENB3 DVCENB2 DVCENB1 DEVICE_ENB 
+W vme-jtag $2I1018
+I $2I1018 vme-jtag BCAST COMMAND[9:0] DEVICE7 DONETAIL3 DVCENB3 CLK80 INDATA[15:0] LOAD3 OUTDATA[15:0] RDTDOBK3 RDTDOBK3+1 NJR SCLK STROBE TCK3 TDI3 TDO3 TMS3 ~DTACK ~WRITE 
+W virtex:bufe16 $2I1106
+I $2I1106 virtex:bufe16 LED_MODE_A DIAG1OUT[15:0] LA1_[15:0] 
+W virtex:buf $2I1240
+I $2I1240 virtex:buf DVCENB1 DIAG3OUT0 
+W virtex2p:or2 $2I1344
+I $2I1344 virtex2p:or2 LED_MODE1 LED_MODE5 LED_MODE_B 
+W virtex:bufe16 $2I1176
+I $2I1176 virtex:bufe16 LED_MODE_B DIAG3OUT[15:0] LA1_[15:0] 
+W virtex2p:ibuf $2I1405
+I $2I1405 virtex2p:ibuf ITDO2 TDO2 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $2I1406
+I $2I1406 virtex2p:ibuf ITDO3 TDO3 IOSTANDARD=LVCMOS33`
+W virtex2p:inv $2I1411
+I $2I1411 virtex2p:inv DVCENB1 ~DVENB1 
+W virtex2p:obuft $2I1410
+I $2I1410 virtex2p:obuft TDI1 OTDI1 ~DVENB1 IOSTANDARD=LVCMOS33`
+W virtex:opad $2I891
+I $2I891 virtex:opad OTDI1 
+W virtex:opad $2I888
+I $2I888 virtex:opad OTMS1 
+W virtex:opad $2I899
+I $2I899 virtex:opad OTCK1 
+W virtex:pulldown $2I1049
+I $2I1049 virtex:pulldown OTCK1 
+W virtex2p:or2 $2I1348
+I $2I1348 virtex2p:or2 LED_MODE0 LED_MODE4 LED_MODE_A 
+W virtex2p:cb4ce $2I1441
+I $2I1441 virtex2p:cb4ce SCLK $2N1479 ? NJR ? ? ? STOP_RESTORE_IDLE ? 
+W virtex2p:inv $2I1444
+I $2I1444 virtex2p:inv STOP_RESTORE_IDLE RESTORE_IDLE 
+W virtex2p:and2 $2I1371
+I $2I1371 virtex2p:and2 TDI2 DVCENB2 ATDI2 
+W virtex2p:obuf $2I1409
+I $2I1409 virtex2p:obuf ATMS2 OTMS2 IOSTANDARD=LVCMOS33`
+W virtex2p:obuf $2I1408
+I $2I1408 virtex2p:obuf ATDI2 OTDI2 IOSTANDARD=LVCMOS33`
+W virtex:opad $2I1383
+I $2I1383 virtex:opad OTDI2 
+W virtex:opad $2I1384
+I $2I1384 virtex:opad OTMS2 
+W virtex2p:obuf $2I1407
+I $2I1407 virtex2p:obuf ATCK2 OTCK2 IOSTANDARD=LVCMOS33`
+W virtex:opad $2I1382
+I $2I1382 virtex:opad OTCK2 
+W virtex2p:sop4 $2I1440
+I $2I1440 virtex2p:sop4 SCLK RESTORE_IDLE TCK2 DVCENB2 ATCK2 
+W virtex2p:sop3 $2I1438
+I $2I1438 virtex2p:sop3 DVCENB2 TMS2 RESTORE_IDLE ATMS2 
+W virtex2p:obuf $2I1416
+I $2I1416 virtex2p:obuf ATDI3 OTDI3 IOSTANDARD=LVCMOS33`
+W virtex:opad $2I1393
+I $2I1393 virtex:opad OTDI3 
+W virtex2p:obuf $2I1415
+I $2I1415 virtex2p:obuf ATCK3 OTCK3 IOSTANDARD=LVCMOS33`
+W virtex:opad $2I1394
+I $2I1394 virtex:opad OTCK3 
+W virtex2p:obuf $2I1417
+I $2I1417 virtex2p:obuf ATMS3 OTMS3 IOSTANDARD=LVCMOS33`
+W virtex:opad $2I1392
+I $2I1392 virtex:opad OTMS3 
+W ipad1pu $2I1336
+I $2I1336 ipad1pu ITDO2 
+W virtex2p:and2 $2I1478
+I $2I1478 virtex2p:and2 RESTORE_IDLE LOCKED $2N1479 
+W vme-jtag $2I986
+I $2I986 vme-jtag BCAST COMMAND[9:0] DEVICE6 DONETAIL2 DVCENB2 CLK80 INDATA[15:0] LOAD2 OUTDATA[15:0] RDTDOBK2 RDTDOBK2+1 NJR SCLK STROBE TCK2 TDI2 TDO2 TMS2 ~DTACK ~WRITE 
+W vme-jtag $2I985
+I $2I985 vme-jtag BCAST COMMAND[9:0] DEVICE2 DONETAIL1 DVCENB1 CLK80 INDATA[15:0] LOAD1 OUTDATA[15:0] RDTDOBK1 RDTDOBK1+1 NJR SLOWCLK2 STROBE TCK1 TDI1 TDO1 TMS1 ~DTACK ~WRITE 
+W ipad1pu $2I1358
+I $2I1358 ipad1pu ITDO1 
+EW
+| Sch_Warning - Pin/Net disassociation at location (145,765).
+| Sch_Warning - Pin/Net disassociation at location (130,785).
+| Sch_Warning - Pin/Net disassociation at location (980,135).

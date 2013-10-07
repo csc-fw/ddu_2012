@@ -1,0 +1,72 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 250961067300 obuft18
+DW 15buftor
+|Q 15or2com 1
+AS 15or2com LEVEL=OSU-XILINX
+AS 15or2com @NAME=15OR2COM
+AS 15or2com PINORDER=A B[14:0] O[14:0]
+AP 15or2com 1 PINTYPE=IN
+AP 15or2com 2 PINTYPE=IN
+AP 15or2com 3 PINTYPE=OUT
+|Q virtex:buft 1
+AS virtex:buft LIBVER=2.0.0
+AS virtex:buft DEVICE=TBUF
+AS virtex:buft LEVEL=XILINX
+AS virtex:buft PINORDER=I O T
+AP virtex:buft 1 PINTYPE=IN
+AP virtex:buft 2 PINTYPE=TRI
+AP virtex:buft 3 PINTYPE=IN
+|Q virtex:pullup 1
+AS virtex:pullup DEVICE=PULLUP
+AS virtex:pullup LEVEL=XILINX
+AS virtex:pullup LIBVER=2.0.0
+AS virtex:pullup PINORDER=O
+AP virtex:pullup 1 PINTYPE=OEM
+AN T[14:0] VLBUSISONSHEET=1
+AN D[14:0] VLBUSISONSHEET=1
+AN A[14:0] VLBUSISONSHEET=1
+W 15or2com $1I178
+I $1I178 15or2com COMMON T[14:0] A[14:0] 
+W virtex:buft $1I169
+I $1I169 virtex:buft D13 O A13 
+W virtex:buft $1I171
+I $1I171 virtex:buft D14 O A14 
+W virtex:buft $1I166
+I $1I166 virtex:buft D11 O A11 
+W virtex:buft $1I168
+I $1I168 virtex:buft D12 O A12 
+W virtex:buft $1I163
+I $1I163 virtex:buft D9 O A9 
+W virtex:buft $1I165
+I $1I165 virtex:buft D10 O A10 
+W virtex:buft $1I160
+I $1I160 virtex:buft D7 O A7 
+W virtex:buft $1I162
+I $1I162 virtex:buft D8 O A8 
+W virtex:buft $1I157
+I $1I157 virtex:buft D5 O A5 
+W virtex:buft $1I159
+I $1I159 virtex:buft D6 O A6 
+W virtex:buft $1I154
+I $1I154 virtex:buft D3 O A3 
+W virtex:buft $1I156
+I $1I156 virtex:buft D4 O A4 
+W virtex:buft $1I153
+I $1I153 virtex:buft D2 O A2 
+W virtex:pullup $1I145
+I $1I145 virtex:pullup O 
+W virtex:buft $1I150
+I $1I150 virtex:buft D1 O A1 
+W virtex:buft $1I143
+I $1I143 virtex:buft D0 O A0 
+P ? COMMON
+I COMMON ? COMMON
+P ? T[14:0]
+I T[14:0] ? T[14:0]
+P ? D[14:0]
+I D[14:0] ? D[14:0]
+P ? O
+I O ? O
+EW

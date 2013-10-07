@@ -1,0 +1,455 @@
+--------------------------------------------------------------------------------
+Release 6.2.03i Trace G.28
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx62/bin/nt/trce.exe -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd
+-o 0ddu_in.twr 0ddu_in.pcf
+
+
+Design file:              0ddu_in.ncd
+Physical constraint file: 0ddu_in.pcf
+Device,speed:             xc2vp20,-6 (PRODUCTION 1.86 2004-05-01)
+Report level:             error report, limited to 29 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+================================================================================
+Timing constraint: NET "$1I162/CLK" PERIOD =  10.800 nS   HIGH 50.000000 % ;
+
+ 347034 items analyzed, 2 timing errors detected. (2 setup errors, 0 hold errors)
+ Minimum period is  11.262ns.
+--------------------------------------------------------------------------------
+Slack:                  -0.462ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               $1I162/$5I4156/$2I4236/$1I36 (FF)
+  Destination:          $1I162/$5I4156/$2I4211 (FF)
+  Requirement:          10.800ns
+  Data Path Delay:      11.262ns (Levels of Logic = 6)
+  Clock Path Skew:      0.000ns
+  Source Clock:         $1I162/CLK rising at 0.000ns
+  Destination Clock:    $1I162/CLK rising at 10.800ns
+  Clock Uncertainty:    0.000ns
+
+  Data Path: $1I162/$5I4156/$2I4236/$1I36 to $1I162/$5I4156/$2I4211
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X80Y38.XQ      Tcko                  0.374   $1I162/$5I4156/$2I4236/Q0
+                                                       $1I162/$5I4156/$2I4236/$1I36
+    SLICE_X80Y38.F4      net (fanout=1)        0.285   $1I162/$5I4156/$2I4236/Q0
+    SLICE_X80Y38.COUT    Topcyf                0.744   $1I162/$5I4156/$2I4236/Q0
+                                                       $1I162/$5I4156/$2I4236/Q0_rt
+                                                       $1I162/$5I4156/$2I4236/$1I4
+                                                       $1I162/$5I4156/$2I4236/$1I26
+    SLICE_X80Y39.CIN     net (fanout=1)        0.000   $1I162/$5I4156/$2I4236/$1I26/O
+    SLICE_X80Y39.COUT    Tbyp                  0.083   $1I162/$5I4156/$2I4236/Q2
+                                                       $1I162/$5I4156/$2I4236/$1I233
+                                                       $1I162/$5I4156/$2I4236/$1I246
+    SLICE_X81Y38.BX      net (fanout=1)        1.812   $1I162/$5I4156/$2I4236/$1I246/O
+    SLICE_X81Y38.COUT    Tbxcy                 0.711   $1I162/$5I4156/$2I4236/Q4
+                                                       $1I162/$5I4156/$2I4236/$1I259
+                                                       $1I162/$5I4156/$2I4236/$1I272
+    SLICE_X81Y39.CIN     net (fanout=1)        0.000   $1I162/$5I4156/$2I4236/$1I272/O
+    SLICE_X81Y39.COUT    Tbyp                  0.083   $1I162/$5I4156/$2I4236/Q6
+                                                       $1I162/$5I4156/$2I4236/$1I285
+                                                       $1I162/$5I4156/$2I4236/$1I298
+    SLICE_X80Y40.BX      net (fanout=1)        0.889   $1I162/$5I4156/$2I4236/$1I298/O
+    SLICE_X80Y40.YB      Tbxyb                 0.759   $1I162/$5I4156/$2I4236/Q8
+                                                       $1I162/$5I4156/$2I4236/$1I1147
+                                                       $1I162/$5I4156/$2I4236/$1I1334
+    SLICE_X46Y33.G3      net (fanout=2)        2.071   $1I162/$5I4156/PAFCNT1023
+    SLICE_X46Y33.Y       Tilo                  0.313   $1I162/$5I4156/OUT21
+                                                       $1I162/$5I4156/$2I4225
+    T22.SR               net (fanout=1)        2.573   $1I162/$5I4156/RST_LPAF
+    T22.ICLK1            Tiosrcki              0.565   $1I162/~PAF1IN
+                                                       $1I162/$5I4156/$2I4211
+    -------------------------------------------------  ---------------------------
+    Total                                     11.262ns (3.632ns logic, 7.630ns route)
+                                                       (32.3% logic, 67.7% route)
+
+--------------------------------------------------------------------------------
+Slack:                  -0.415ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               $1I162/$5I4156/$2I4236/$1I35 (FF)
+  Destination:          $1I162/$5I4156/$2I4211 (FF)
+  Requirement:          10.800ns
+  Data Path Delay:      11.215ns (Levels of Logic = 6)
+  Clock Path Skew:      0.000ns
+  Source Clock:         $1I162/CLK rising at 0.000ns
+  Destination Clock:    $1I162/CLK rising at 10.800ns
+  Clock Uncertainty:    0.000ns
+
+  Data Path: $1I162/$5I4156/$2I4236/$1I35 to $1I162/$5I4156/$2I4211
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X80Y38.YQ      Tcko                  0.374   $1I162/$5I4156/$2I4236/Q0
+                                                       $1I162/$5I4156/$2I4236/$1I35
+    SLICE_X80Y38.G2      net (fanout=1)        0.337   $1I162/$5I4156/$2I4236/Q1
+    SLICE_X80Y38.COUT    Topcyg                0.645   $1I162/$5I4156/$2I4236/Q0
+                                                       $1I162/$5I4156/$2I4236/Q1_rt
+                                                       $1I162/$5I4156/$2I4236/$1I26
+    SLICE_X80Y39.CIN     net (fanout=1)        0.000   $1I162/$5I4156/$2I4236/$1I26/O
+    SLICE_X80Y39.COUT    Tbyp                  0.083   $1I162/$5I4156/$2I4236/Q2
+                                                       $1I162/$5I4156/$2I4236/$1I233
+                                                       $1I162/$5I4156/$2I4236/$1I246
+    SLICE_X81Y38.BX      net (fanout=1)        1.812   $1I162/$5I4156/$2I4236/$1I246/O
+    SLICE_X81Y38.COUT    Tbxcy                 0.711   $1I162/$5I4156/$2I4236/Q4
+                                                       $1I162/$5I4156/$2I4236/$1I259
+                                                       $1I162/$5I4156/$2I4236/$1I272
+    SLICE_X81Y39.CIN     net (fanout=1)        0.000   $1I162/$5I4156/$2I4236/$1I272/O
+    SLICE_X81Y39.COUT    Tbyp                  0.083   $1I162/$5I4156/$2I4236/Q6
+                                                       $1I162/$5I4156/$2I4236/$1I285
+                                                       $1I162/$5I4156/$2I4236/$1I298
+    SLICE_X80Y40.BX      net (fanout=1)        0.889   $1I162/$5I4156/$2I4236/$1I298/O
+    SLICE_X80Y40.YB      Tbxyb                 0.759   $1I162/$5I4156/$2I4236/Q8
+                                                       $1I162/$5I4156/$2I4236/$1I1147
+                                                       $1I162/$5I4156/$2I4236/$1I1334
+    SLICE_X46Y33.G3      net (fanout=2)        2.071   $1I162/$5I4156/PAFCNT1023
+    SLICE_X46Y33.Y       Tilo                  0.313   $1I162/$5I4156/OUT21
+                                                       $1I162/$5I4156/$2I4225
+    T22.SR               net (fanout=1)        2.573   $1I162/$5I4156/RST_LPAF
+    T22.ICLK1            Tiosrcki              0.565   $1I162/~PAF1IN
+                                                       $1I162/$5I4156/$2I4211
+    -------------------------------------------------  ---------------------------
+    Total                                     11.215ns (3.533ns logic, 7.682ns route)
+                                                       (31.5% logic, 68.5% route)
+
+--------------------------------------------------------------------------------
+Slack:                  -0.387ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               $1I162/$5I4156/$2I4236/$1I224 (FF)
+  Destination:          $1I162/$5I4156/$2I4211 (FF)
+  Requirement:          10.800ns
+  Data Path Delay:      11.187ns (Levels of Logic = 5)
+  Clock Path Skew:      0.000ns
+  Source Clock:         $1I162/CLK rising at 0.000ns
+  Destination Clock:    $1I162/CLK rising at 10.800ns
+  Clock Uncertainty:    0.000ns
+
+  Data Path: $1I162/$5I4156/$2I4236/$1I224 to $1I162/$5I4156/$2I4211
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X80Y39.XQ      Tcko                  0.374   $1I162/$5I4156/$2I4236/Q2
+                                                       $1I162/$5I4156/$2I4236/$1I224
+    SLICE_X80Y39.F4      net (fanout=1)        0.293   $1I162/$5I4156/$2I4236/Q2
+    SLICE_X80Y39.COUT    Topcyf                0.744   $1I162/$5I4156/$2I4236/Q2
+                                                       $1I162/$5I4156/$2I4236/Q2_rt
+                                                       $1I162/$5I4156/$2I4236/$1I233
+                                                       $1I162/$5I4156/$2I4236/$1I246
+    SLICE_X81Y38.BX      net (fanout=1)        1.812   $1I162/$5I4156/$2I4236/$1I246/O
+    SLICE_X81Y38.COUT    Tbxcy                 0.711   $1I162/$5I4156/$2I4236/Q4
+                                                       $1I162/$5I4156/$2I4236/$1I259
+                                                       $1I162/$5I4156/$2I4236/$1I272
+    SLICE_X81Y39.CIN     net (fanout=1)        0.000   $1I162/$5I4156/$2I4236/$1I272/O
+    SLICE_X81Y39.COUT    Tbyp                  0.083   $1I162/$5I4156/$2I4236/Q6
+                                                       $1I162/$5I4156/$2I4236/$1I285
+                                                       $1I162/$5I4156/$2I4236/$1I298
+    SLICE_X80Y40.BX      net (fanout=1)        0.889   $1I162/$5I4156/$2I4236/$1I298/O
+    SLICE_X80Y40.YB      Tbxyb                 0.759   $1I162/$5I4156/$2I4236/Q8
+                                                       $1I162/$5I4156/$2I4236/$1I1147
+                                                       $1I162/$5I4156/$2I4236/$1I1334
+    SLICE_X46Y33.G3      net (fanout=2)        2.071   $1I162/$5I4156/PAFCNT1023
+    SLICE_X46Y33.Y       Tilo                  0.313   $1I162/$5I4156/OUT21
+                                                       $1I162/$5I4156/$2I4225
+    T22.SR               net (fanout=1)        2.573   $1I162/$5I4156/RST_LPAF
+    T22.ICLK1            Tiosrcki              0.565   $1I162/~PAF1IN
+                                                       $1I162/$5I4156/$2I4211
+    -------------------------------------------------  ---------------------------
+    Total                                     11.187ns (3.549ns logic, 7.638ns route)
+                                                       (31.7% logic, 68.3% route)
+
+--------------------------------------------------------------------------------
+Slack:                  -0.332ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               $1I162/$5I4156/$2I4236/$1I237 (FF)
+  Destination:          $1I162/$5I4156/$2I4211 (FF)
+  Requirement:          10.800ns
+  Data Path Delay:      11.132ns (Levels of Logic = 5)
+  Clock Path Skew:      0.000ns
+  Source Clock:         $1I162/CLK rising at 0.000ns
+  Destination Clock:    $1I162/CLK rising at 10.800ns
+  Clock Uncertainty:    0.000ns
+
+  Data Path: $1I162/$5I4156/$2I4236/$1I237 to $1I162/$5I4156/$2I4211
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X80Y39.YQ      Tcko                  0.374   $1I162/$5I4156/$2I4236/Q2
+                                                       $1I162/$5I4156/$2I4236/$1I237
+    SLICE_X80Y39.G2      net (fanout=1)        0.337   $1I162/$5I4156/$2I4236/Q3
+    SLICE_X80Y39.COUT    Topcyg                0.645   $1I162/$5I4156/$2I4236/Q2
+                                                       $1I162/$5I4156/$2I4236/Q3_rt
+                                                       $1I162/$5I4156/$2I4236/$1I246
+    SLICE_X81Y38.BX      net (fanout=1)        1.812   $1I162/$5I4156/$2I4236/$1I246/O
+    SLICE_X81Y38.COUT    Tbxcy                 0.711   $1I162/$5I4156/$2I4236/Q4
+                                                       $1I162/$5I4156/$2I4236/$1I259
+                                                       $1I162/$5I4156/$2I4236/$1I272
+    SLICE_X81Y39.CIN     net (fanout=1)        0.000   $1I162/$5I4156/$2I4236/$1I272/O
+    SLICE_X81Y39.COUT    Tbyp                  0.083   $1I162/$5I4156/$2I4236/Q6
+                                                       $1I162/$5I4156/$2I4236/$1I285
+                                                       $1I162/$5I4156/$2I4236/$1I298
+    SLICE_X80Y40.BX      net (fanout=1)        0.889   $1I162/$5I4156/$2I4236/$1I298/O
+    SLICE_X80Y40.YB      Tbxyb                 0.759   $1I162/$5I4156/$2I4236/Q8
+                                                       $1I162/$5I4156/$2I4236/$1I1147
+                                                       $1I162/$5I4156/$2I4236/$1I1334
+    SLICE_X46Y33.G3      net (fanout=2)        2.071   $1I162/$5I4156/PAFCNT1023
+    SLICE_X46Y33.Y       Tilo                  0.313   $1I162/$5I4156/OUT21
+                                                       $1I162/$5I4156/$2I4225
+    T22.SR               net (fanout=1)        2.573   $1I162/$5I4156/RST_LPAF
+    T22.ICLK1            Tiosrcki              0.565   $1I162/~PAF1IN
+                                                       $1I162/$5I4156/$2I4211
+    -------------------------------------------------  ---------------------------
+    Total                                     11.132ns (3.450ns logic, 7.682ns route)
+                                                       (31.0% logic, 69.0% route)
+
+--------------------------------------------------------------------------------
+Slack:                  -0.014ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               $1I162/$2I5022/$1I276 (FF)
+  Destination:          $1I162/$5I4143/$1I4488/$1I4621.A (RAM)
+  Requirement:          10.800ns
+  Data Path Delay:      10.814ns (Levels of Logic = 4)
+  Clock Path Skew:      0.000ns
+  Source Clock:         $1I162/CLK rising at 0.000ns
+  Destination Clock:    $1I162/CLK rising at 10.800ns
+  Clock Uncertainty:    0.000ns
+
+  Data Path: $1I162/$2I5022/$1I276 to $1I162/$5I4143/$1I4488/$1I4621.A
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X44Y55.XQ      Tcko                  0.374   $1I162/RHL6
+                                                       $1I162/$2I5022/$1I276
+    SLICE_X44Y61.G2      net (fanout=2)        0.587   $1I162/RHL6
+    SLICE_X44Y61.Y       Tilo                  0.313   $1I162/FF10CLR
+                                                       $1I162/$2I5152
+    SLICE_X74Y1.F3       net (fanout=59)       2.373   $1I162/~RHL
+    SLICE_X74Y1.XB       Topxb                 0.740   $1I162/$6I4446/LWEN-1
+                                                       $1I162/$6I4446/$2I4444/$1I2616
+                                                       $1I162/$6I4446/$2I4444/$1I2543
+    SLICE_X78Y8.G3       net (fanout=14)       0.986   $1I162/$6I4446/RXDV
+    SLICE_X78Y8.Y        Tilo                  0.313   $1I162/$6I4446/D2S1
+                                                       $1I162/$6I4446/$2I5066
+    SLICE_X5Y55.F3       net (fanout=22)       3.617   $1I162/F7DAT17
+    SLICE_X5Y55.X        Tif5x                 0.653   $1I162/$5I4143/DIN17
+                                                       $1I162/$5I4143/$1I4495/$1I4460/$1I4384/M23/$1I38
+                                                       $1I162/$5I4143/$1I4495/$1I4460/$1I4384/O
+    RAMB16_X0Y6.DIPA0    net (fanout=1)        0.631   $1I162/$5I4143/DIN17
+    RAMB16_X0Y6.CLKA     Tbdck                 0.227   $1I162/$5I4143/$1I4488/$1I4621
+                                                       $1I162/$5I4143/$1I4488/$1I4621.A
+    -------------------------------------------------  ---------------------------
+    Total                                     10.814ns (2.620ns logic, 8.194ns route)
+                                                       (24.2% logic, 75.8% route)
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/BREF" PERIOD =  11.300 nS   HIGH 50.000000 % ;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I162/CK80" derived from
+ NET "$1I162/BREF" PERIOD =  11.300 nS   HIGH 50.000000 % ;
+ 
+duty cycle corrected to 11.300 nS  HIGH 5.650 nS 
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I162/CK160" derived from
+ NET "$1I162/BREF" PERIOD =  11.300 nS   HIGH 50.000000 % ;
+ 
+divided by 2.00 and duty cycle corrected to 5.650 nS  HIGH 2.825 nS 
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/LFIFO_EMPTY" MAXDELAY = 1.900 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.703ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$1I4156/NEXT_FIBER" MAXDELAY = 1.500 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.444ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$1I4156/~RENOE-0" MAXDELAY = 1.900 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.018ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$1I4156/~LEXTFIFO_PAF" MAXDELAY = 200 pS  ;
+
+ 1 item analyzed, 1 timing error detected.
+ Maximum net delay is   0.445ns.
+--------------------------------------------------------------------------------
+Slack:    -0.245ns $1I162/$1I4156/~LEXTFIFO_PAF
+Error:     0.445ns delay exceeds   0.200ns timing constraint by 0.245ns
+From                              To                                 Delay(ns)
+SLICE_X57Y77.YQ                   SLICE_X57Y77.F1                       0.412
+SLICE_X57Y77.YQ                   SLICE_X57Y77.CE                       0.445
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$1I4156/L1A_PUSH" MAXDELAY = 1000 pS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.617ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/CKIN40" PERIOD =  23 nS   HIGH 50.000000 % ;
+
+ 3 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   1.621ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I162/CK40" derived from
+ NET "$1I162/CKIN40" PERIOD =  23 nS   HIGH 50.000000 % ;
+ 
+duty cycle corrected to 23 nS  HIGH 11.500 nS 
+
+ 106 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   3.885ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I162/SLCK" derived from
+ NET "$1I162/CKIN40" PERIOD =  23 nS   HIGH 50.000000 % ;
+ 
+multiplied by 16.00 and duty cycle corrected to 368 nS  HIGH 184 nS 
+
+ 170 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   5.474ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/RHL5" MAXDELAY = 2 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.500ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/RHL6" MAXDELAY = 2 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.587ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$5I4156/LFIFO_EMPTY" MAXDELAY = 1.900 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.882ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$5I4156/NEXT_FIBER" MAXDELAY = 1.500 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.416ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$5I4156/~RENOE-0" MAXDELAY = 1.900 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.072ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$5I4156/~LEXTFIFO_PAF" MAXDELAY = 200 pS  ;
+
+ 1 item analyzed, 1 timing error detected.
+ Maximum net delay is   0.564ns.
+--------------------------------------------------------------------------------
+Slack:    -0.364ns $1I162/$5I4156/~LEXTFIFO_PAF
+Error:     0.564ns delay exceeds   0.200ns timing constraint by 0.364ns
+From                              To                                 Delay(ns)
+SLICE_X58Y34.YQ                   SLICE_X58Y34.F1                       0.384
+SLICE_X58Y34.YQ                   SLICE_X58Y34.CE                       0.564
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$5I4156/L1A_PUSH" MAXDELAY = 1000 pS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.617ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/BREF_B" PERIOD =  11.300 nS   HIGH 50.000000 % ;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+3 constraints not met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock $1I162/CK80N_T
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+$1I162/CK80N_T |   11.864|         |    3.611|         |
+$1I162/CK80P_T |   11.864|         |    3.611|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock $1I162/CK80P_T
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+$1I162/CK80N_T |   11.864|         |    3.611|         |
+$1I162/CK80P_T |   11.864|         |    3.611|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock $1I162/CLKIN40
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+$1I162/CLKIN40 |    6.082|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 4  Score: 1085
+
+Constraints cover 347313 paths, 12 nets, and 44524 connections
+
+Design statistics:
+   Minimum period:  11.262ns (Maximum frequency:  88.794MHz)
+   Maximum net delay:   1.703ns
+
+
+Analysis completed Fri Apr 24 12:34:23 2009
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 177 MB

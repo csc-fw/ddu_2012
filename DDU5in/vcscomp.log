@@ -1,0 +1,4 @@
+Command: vcsf -Mdll -LDFLAGS -dll -export:init -gen_c -Xriyaz=4 -Mdirectory=Fusion/incntrl.csrc -e vmc_main -P c:/epd/3.0/sim/2002.2/vcs/win32/ise/vcsdbg.tab +acc+2 -line -P c:/epd/3.0/sim/2002.2/vcs/win32/ise/vsimtask.tab c:/epd/3.0/sim/2002.2/vcs/win32/ise/vcspli.obj c:/epd/3.0/sim/2002.2/vcs/win32/lib/fusion.lib -o Fusion/incntrl-simv.DLL Fusion/incntrl-vlCbk.c c:/epd/3.0/sim/2002.2/vcs/win32/ise/vcsts.v Fusion/incntrl-vlTop.v -y M:/wv/D785/D785D +libext+.v -y C:/Xilinx/verilog/src/unisims +libext+.v -l vcscomp.log +typdelays -Mupdate -CFLAGS -Ox -CFLAGS -Ic:/epd/3.0/sim/2002.2/vcs/win32/lib -v c:/epd/3.0/sim/2002.2/vcs/win32/ise/cstw.v
+*** Using runtime library c:/epd/3.0/sim/2002.2/vcs/win32/lib/libvcsf.lib instead of c:/epd/3.0/sim/2002.2/vcs/win32/lib/libvcs.lib... 
+***** Warning: ACC/CLI capabilities have been enabled for the entire design.
+      For faster performance enable module specific capability in pli.tab file

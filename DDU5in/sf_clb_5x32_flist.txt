@@ -1,0 +1,4 @@
+# Output products list for <sf_clb_5x32>
+sf_clb_5x32.edn
+sf_clb_5x32.xco
+sf_clb_5x32.xcp

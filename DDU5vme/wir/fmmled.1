@@ -1,0 +1,99 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 291696349900 comp16c
+DW fmmled
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex2p:fdc 1
+AS virtex2p:fdc LIBVER=2.0.0
+AS virtex2p:fdc LEVEL=XILINX
+AS virtex2p:fdc @INIT=0
+AS virtex2p:fdc DEVICE=DFF
+AS virtex2p:fdc PINORDER=C CLR D Q
+AP virtex2p:fdc 1 PINTYPE=IN
+AP virtex2p:fdc 2 PINTYPE=IN
+AP virtex2p:fdc 3 PINTYPE=IN
+AP virtex2p:fdc 4 PINTYPE=OUT
+|Q virtex2p:vcc 1
+AS virtex2p:vcc LEVEL=XILINX
+AS virtex2p:vcc LIBVER=2.0.0
+AS virtex2p:vcc PINORDER=P
+AP virtex2p:vcc 1 PINTYPE=OUT
+|Q virtex2p:or2 1
+AS virtex2p:or2 DEVICE=OR
+AS virtex2p:or2 LEVEL=XILINX
+AS virtex2p:or2 LIBVER=2.0.0
+AS virtex2p:or2 PINORDER=I0 I1 O
+AP virtex2p:or2 1 PINTYPE=IN
+AP virtex2p:or2 2 PINTYPE=IN
+AP virtex2p:or2 3 PINTYPE=OUT
+|Q virtex2p:inv 1
+AS virtex2p:inv DEVICE=INV
+AS virtex2p:inv LIBVER=2.0.0
+AS virtex2p:inv LEVEL=XILINX
+AS virtex2p:inv PINORDER=I O
+AP virtex2p:inv 1 PINTYPE=IN
+AP virtex2p:inv 2 PINTYPE=OUT
+|Q virtex2p:or2b1 1
+AS virtex2p:or2b1 LEVEL=XILINX
+AS virtex2p:or2b1 DEVICE=OR
+AS virtex2p:or2b1 LIBVER=2.0.0
+AS virtex2p:or2b1 PINORDER=I0 I1 O
+AP virtex2p:or2b1 1 PINTYPE=IN
+AP virtex2p:or2b1 1 PARAM=INV
+AP virtex2p:or2b1 2 PINTYPE=IN
+AP virtex2p:or2b1 3 PINTYPE=OUT
+|Q virtex2p:sop3b1a 1
+AS virtex2p:sop3b1a LEVEL=MXILINX
+AS virtex2p:sop3b1a LIBVER=2.0.0
+AS virtex2p:sop3b1a PINORDER=I0 I1 I2 O
+AP virtex2p:sop3b1a 1 PINTYPE=IN
+AP virtex2p:sop3b1a 2 PINTYPE=IN
+AP virtex2p:sop3b1a 3 PINTYPE=IN
+AP virtex2p:sop3b1a 4 PINTYPE=OUT
+|Q virtex2p:ftrse 1
+AS virtex2p:ftrse @INIT=0
+AS virtex2p:ftrse LIBVER=2.0.0
+AS virtex2p:ftrse LEVEL=MXILINX
+AS virtex2p:ftrse PINORDER=C CE Q R S T
+AP virtex2p:ftrse 1 PINTYPE=IN
+AP virtex2p:ftrse 2 PINTYPE=IN
+AP virtex2p:ftrse 3 PINTYPE=OUT
+AP virtex2p:ftrse 4 PINTYPE=IN
+AP virtex2p:ftrse 5 PINTYPE=IN
+AP virtex2p:ftrse 6 PINTYPE=IN
+W virtex2p:gnd $1I2491
+I $1I2491 virtex2p:gnd $1N2492 
+W virtex2p:fdc $1I2481
+I $1I2481 virtex2p:fdc CLK RST LOOP_FLASH LFLASH 
+W virtex2p:vcc $1I2470
+I $1I2470 virtex2p:vcc $1N2471 
+W virtex2p:or2 $1I2479
+I $1I2479 virtex2p:or2 BLINK ON LED 
+W virtex2p:inv $1I2452
+I $1I2452 virtex2p:inv LED ~LED 
+W virtex2p:or2b1 $1I2476
+I $1I2476 virtex2p:or2b1 LFLASH ON KILL_BLINK 
+W virtex2p:sop3b1a $1I2484
+I $1I2484 virtex2p:sop3b1a LED LFLASH FLASH LOOP_FLASH 
+W virtex2p:ftrse $1I2489
+I $1I2489 virtex2p:ftrse BCLK $1N2471 BLINK KILL_BLINK $1N2492 $1N2471 
+P ? LED
+I LED ? LED
+P ? RST
+I RST ? RST
+P ? ON
+I ON ? ON
+P ? ~LED
+I ~LED ? ~LED
+P ? BCLK
+I BCLK ? BCLK
+P ? CLK
+I CLK ? CLK
+P ? FLASH
+I FLASH ? FLASH
+EW

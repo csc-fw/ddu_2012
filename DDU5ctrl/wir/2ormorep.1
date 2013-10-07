@@ -1,0 +1,58 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 7468887480 tst1
+DW 2ormorep
+SA @SHEET=1 
+SA @NAME=2ORMOREP 
+SA @DATETIME=7-18-2005_17:01 
+|Q virtex:and3 1
+AS virtex:and3 LEVEL=XILINX
+AS virtex:and3 DEVICE=AND
+AS virtex:and3 LIBVER=2.0.0
+AS virtex:and3 PINORDER=I0 I1 I2 O
+AP virtex:and3 1 PINTYPE=IN
+AP virtex:and3 2 PINTYPE=IN
+AP virtex:and3 3 PINTYPE=IN
+AP virtex:and3 4 PINTYPE=OUT
+|Q virtex:or7 1
+AS virtex:or7 LEVEL=MXILINX
+AS virtex:or7 LIBVER=2.0.0
+AS virtex:or7 PINORDER=I0 I1 I2 I3 I4 I5 I6 O
+AP virtex:or7 1 PINTYPE=IN
+AP virtex:or7 2 PINTYPE=IN
+AP virtex:or7 3 PINTYPE=IN
+AP virtex:or7 4 PINTYPE=IN
+AP virtex:or7 5 PINTYPE=IN
+AP virtex:or7 6 PINTYPE=IN
+AP virtex:or7 7 PINTYPE=IN
+AP virtex:or7 8 PINTYPE=OUT
+W virtex:and3 $1I3538
+I $1I3538 virtex:and3 ANDCOM B3 B2 INT5 
+W virtex:and3 $1I3529
+I $1I3529 virtex:and3 ANDCOM B3 B0 INT2 
+W virtex:and3 $1I3521
+I $1I3521 virtex:and3 ANDCOM B1 B0 INT0 
+W virtex:and3 $1I3525
+I $1I3525 virtex:and3 ANDCOM B2 B0 INT1 
+W virtex:and3 $1I3530
+I $1I3530 virtex:and3 ANDCOM B2 B1 INT3 
+W virtex:and3 $1I3537
+I $1I3537 virtex:and3 ANDCOM B3 B1 INT4 
+W virtex:or7 $1I3522
+I $1I3522 virtex:or7 INT5 INT4 INT3 INT2 INT1 INT0 ORCOM 2ORMORE 
+P ? ORCOM
+I ORCOM ? ORCOM
+P ? 2ORMORE
+I 2ORMORE ? 2ORMORE
+P ? B3
+I B3 ? B3
+P ? B1
+I B1 ? B1
+P ? B2
+I B2 ? B2
+P ? B0
+I B0 ? B0
+P ? ANDCOM
+I ANDCOM ? ANDCOM
+EW

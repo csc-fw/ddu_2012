@@ -1,0 +1,43 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 217520666900 comp12
+DW comp4bus
+|Q virtex:and4 1
+AS virtex:and4 LEVEL=XILINX
+AS virtex:and4 DEVICE=AND
+AS virtex:and4 LIBVER=2.0.0
+AS virtex:and4 PINORDER=I0 I1 I2 I3 O
+AP virtex:and4 1 PINTYPE=IN
+AP virtex:and4 2 PINTYPE=IN
+AP virtex:and4 3 PINTYPE=IN
+AP virtex:and4 4 PINTYPE=IN
+AP virtex:and4 5 PINTYPE=OUT
+|Q virtex:xnor2 1
+AS virtex:xnor2 DEVICE=XNOR
+AS virtex:xnor2 LEVEL=XILINX
+AS virtex:xnor2 LIBVER=2.0.0
+AS virtex:xnor2 PINORDER=I0 I1 O
+AP virtex:xnor2 1 PINTYPE=IN
+AP virtex:xnor2 2 PINTYPE=IN
+AP virtex:xnor2 3 PARAM=INV
+AP virtex:xnor2 3 PINTYPE=OUT
+AN A[3:0] VLBUSISONSHEET=1
+AN B[3:0] VLBUSISONSHEET=1
+W virtex:and4 $1I71
+I $1I71 virtex:and4 AB3 AB2 AB1 AB0 EQ 
+W virtex:xnor2 $1I55
+I $1I55 virtex:xnor2 B3 A3 AB3 
+W virtex:xnor2 $1I54
+I $1I54 virtex:xnor2 B2 A2 AB2 
+W virtex:xnor2 $1I41
+I $1I41 virtex:xnor2 B0 A0 AB0 
+W virtex:xnor2 $1I40
+I $1I40 virtex:xnor2 B1 A1 AB1 
+P ? A[3:0]
+I A[3:0] ? A[3:0]
+P ? B[3:0]
+I B[3:0] ? B[3:0]
+P ? EQ
+I EQ ? EQ
+EW

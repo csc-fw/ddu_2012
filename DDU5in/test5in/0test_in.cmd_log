@@ -1,0 +1,36 @@
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo -uc ../test5in.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0test_in.edn 0test_in.ngd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo -uc ../test5in.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0test_in.edn 0test_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -ir -pr b -k 4 -c 100 -tx off -o 0test_in_map.ncd 0test_in.ngd 0test_in.pcf
+par -w -intstyle ise -ol high -t 21 0test_in_map.ncd 0test_in.ncd 0test_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0test_in 0test_in.ncd -o 0test_in.twr 0test_in.pcf
+bitgen -intstyle ise -f 0test_in.ut 0test_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo -uc ../test5in.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0test_in.edn 0test_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -ir -pr b -k 4 -c 100 -tx off -o 0test_in_map.ncd 0test_in.ngd 0test_in.pcf
+par -w -intstyle ise -ol high -t 21 0test_in_map.ncd 0test_in.ncd 0test_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0test_in 0test_in.ncd -o 0test_in.twr 0test_in.pcf
+bitgen -intstyle ise -f 0test_in.ut 0test_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo -uc ../test5in.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0test_in.edn 0test_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -ir -pr b -k 4 -c 100 -tx off -o 0test_in_map.ncd 0test_in.ngd 0test_in.pcf
+par -w -intstyle ise -ol high -t 21 0test_in_map.ncd 0test_in.ncd 0test_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0test_in 0test_in.ncd -o 0test_in.twr 0test_in.pcf
+bitgen -intstyle ise -f 0test_in.ut 0test_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo -uc ../test5in.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0test_in.edn 0test_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -ir -pr b -k 4 -c 100 -tx off -o 0test_in_map.ncd 0test_in.ngd 0test_in.pcf
+par -w -intstyle ise -ol high -t 21 0test_in_map.ncd 0test_in.ncd 0test_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0test_in 0test_in.ncd -o 0test_in.twr 0test_in.pcf
+bitgen -intstyle ise -f 0test_in.ut 0test_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo -uc ../test5in.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0test_in.edn 0test_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -ir -pr b -k 4 -c 100 -tx off -o 0test_in_map.ncd 0test_in.ngd 0test_in.pcf
+par -w -intstyle ise -ol high -t 21 0test_in_map.ncd 0test_in.ncd 0test_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0test_in 0test_in.ncd -o 0test_in.twr 0test_in.pcf
+bitgen -intstyle ise -f 0test_in.ut 0test_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo -uc ../test5in.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0test_in.edn 0test_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -ir -pr b -k 4 -c 100 -tx off -o 0test_in_map.ncd 0test_in.ngd 0test_in.pcf
+par -w -intstyle ise -ol high -t 21 0test_in_map.ncd 0test_in.ncd 0test_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0test_in 0test_in.ncd -o 0test_in.twr 0test_in.pcf
+bitgen -intstyle ise -f 0test_in.ut 0test_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\test5in/_ngo -uc ../test5in.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0test_in.edn 0test_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -ir -pr b -k 4 -c 100 -tx off -o 0test_in_map.ncd 0test_in.ngd 0test_in.pcf
+par -w -intstyle ise -ol high -t 21 0test_in_map.ncd 0test_in.ncd 0test_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0test_in 0test_in.ncd -o 0test_in.twr 0test_in.pcf
+bitgen -intstyle ise -f 0test_in.ut 0test_in.ncd

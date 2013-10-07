@@ -1,0 +1,491 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 118209874400 fpga
+DW vmecntrl
+SA @SHEET=1 
+SA @NAME=VMECNTRL 
+SA @DATETIME=11-13-2008_14:57 
+|Q virtex:opad 1
+AS virtex:opad LIBVER=2.0.0
+AS virtex:opad LEVEL=XILINX
+AS virtex:opad EXT=OPAD
+AS virtex:opad PINORDER=OPAD
+|Q virtex2p:obuf 1
+AS virtex2p:obuf LIBVER=2.0.0
+AS virtex2p:obuf LEVEL=XILINX
+AS virtex2p:obuf IOSTANDARD=LVCMOS25
+AS virtex2p:obuf SLEW=SLOW
+AS virtex2p:obuf DRIVE=12
+AS virtex2p:obuf PINORDER=I O
+AP virtex2p:obuf 1 PINTYPE=IN
+AP virtex2p:obuf 2 PINTYPE=CHIPTRI
+|Q virtex:ipad 1
+AS virtex:ipad LIBVER=2.0.0
+AS virtex:ipad LEVEL=XILINX
+AS virtex:ipad EXT=IPAD
+AS virtex:ipad PINORDER=IPAD
+|Q virtex2p:ibuf 1
+AS virtex2p:ibuf LIBVER=2.0.0
+AS virtex2p:ibuf LEVEL=XILINX
+AS virtex2p:ibuf IOSTANDARD=LVCMOS25
+AS virtex2p:ibuf PINORDER=I O
+AP virtex2p:ibuf 1 PINTYPE=CHIPIN
+AP virtex2p:ibuf 2 PINTYPE=OUT
+|Q ibuf_inv_33 1
+AS ibuf_inv_33 LEVEL=MXILINX
+AS ibuf_inv_33 @NAME=IBUF_INV_33
+AS ibuf_inv_33 PINORDER=I O
+AP ibuf_inv_33 1 PINTYPE=IN
+AP ibuf_inv_33 2 PINTYPE=OUT
+|Q ipad1pu 1
+AS ipad1pu LEVEL=MXILINX
+AS ipad1pu PINORDER=IPAD1PU
+|Q ipad4pd 1
+AS ipad4pd LEVEL=MXILINX
+AS ipad4pd @NAME=IPAD4PD
+AS ipad4pd PINORDER=I[3:0]
+|Q ibuf4_bus 1
+AS ibuf4_bus LEVEL=MXILINX
+AS ibuf4_bus @NAME=IBUF4
+AS ibuf4_bus PINORDER=I[3:0] O[3:0]
+AP ibuf4_bus 1 PINTYPE=CHIPIN
+AP ibuf4_bus 2 PINTYPE=OUT
+|Q virtex:iopad 1
+AS virtex:iopad LEVEL=XILINX
+AS virtex:iopad EXT=BPAD
+AS virtex:iopad LIBVER=2.0.0
+AS virtex:iopad PINORDER=IOPAD
+AP virtex:iopad 1 PINTYPE=BI
+|Q virtex2p:and2 1
+AS virtex2p:and2 LEVEL=XILINX
+AS virtex2p:and2 DEVICE=AND
+AS virtex2p:and2 LIBVER=2.0.0
+AS virtex2p:and2 PINORDER=I0 I1 O
+AP virtex2p:and2 1 PINTYPE=IN
+AP virtex2p:and2 2 PINTYPE=IN
+AP virtex2p:and2 3 PINTYPE=OUT
+|Q virtex2p:or2b1 1
+AS virtex2p:or2b1 LEVEL=XILINX
+AS virtex2p:or2b1 DEVICE=OR
+AS virtex2p:or2b1 LIBVER=2.0.0
+AS virtex2p:or2b1 PINORDER=I0 I1 O
+AP virtex2p:or2b1 1 PINTYPE=IN
+AP virtex2p:or2b1 1 PARAM=INV
+AP virtex2p:or2b1 2 PINTYPE=IN
+AP virtex2p:or2b1 3 PINTYPE=OUT
+|Q virtex2p:buf 1
+AS virtex2p:buf LIBVER=2.0.0
+AS virtex2p:buf DEVICE=BUF
+AS virtex2p:buf LEVEL=XILINX
+AS virtex2p:buf PINORDER=I O
+AP virtex2p:buf 1 PINTYPE=IN
+AP virtex2p:buf 2 PINTYPE=OUT
+|Q virtex2p:or3b1 1
+AS virtex2p:or3b1 DEVICE=OR
+AS virtex2p:or3b1 LEVEL=XILINX
+AS virtex2p:or3b1 LIBVER=2.0.0
+AS virtex2p:or3b1 PINORDER=I0 I1 I2 O
+AP virtex2p:or3b1 1 PINTYPE=IN
+AP virtex2p:or3b1 1 PARAM=INV
+AP virtex2p:or3b1 2 PINTYPE=IN
+AP virtex2p:or3b1 3 PINTYPE=IN
+AP virtex2p:or3b1 4 PINTYPE=OUT
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex:pullup 1
+AS virtex:pullup DEVICE=PULLUP
+AS virtex:pullup LEVEL=XILINX
+AS virtex:pullup LIBVER=2.0.0
+AS virtex:pullup PINORDER=O
+AP virtex:pullup 1 PINTYPE=OEM
+|Q virtex2p:or2 1
+AS virtex2p:or2 DEVICE=OR
+AS virtex2p:or2 LEVEL=XILINX
+AS virtex2p:or2 LIBVER=2.0.0
+AS virtex2p:or2 PINORDER=I0 I1 O
+AP virtex2p:or2 1 PINTYPE=IN
+AP virtex2p:or2 2 PINTYPE=IN
+AP virtex2p:or2 3 PINTYPE=OUT
+|Q ild1 1
+AS ild1 @INIT=0
+AS ild1 LIBVER=2.0.0
+AS ild1 LEVEL=MXILINX
+AS ild1 @NAME=ILD1
+AS ild1 PINORDER=C D Q
+AP ild1 1 PINTYPE=IN
+AP ild1 2 PINTYPE=IN
+AP ild1 3 PINTYPE=OUT
+|Q command 1
+AS command @NAME=COMMAND
+AS command PINORDER=ADR[23:1] AM[5:0] CMD_DONE COMMAND[9:0] DATA[15:0] DEVICE[13:0] DIAG1OUT[15:0] DIAG2OUT[15:0] DIAGOUT[15:0] FASTCLK INDATA[15:0] LTOVME LVME_SDATA_CE MIDCLK MY_IRQ OUTDATA[15:0] RST SADR_EN SLOWCLK SLOWCLK2 TOVME VMEDEV[15:0] VME_PEN VME_SADR_CHANGED VME_SDATA_CE VME_SEN ~AS ~BERR ~DS0 ~DS1 ~GA[5:0] ~IACK ~IACK_IN ~IACK_OUT ~IRQ_1 ~LWORD ~SYSFAIL ~WRITE
+AP command 1 PINTYPE=BI
+AP command 2 PINTYPE=BI
+AP command 3 PINTYPE=BI
+AP command 5 PINTYPE=BI
+AP command 10 PINTYPE=BI
+AP command 14 PINTYPE=BI
+AP command 16 PINTYPE=BI
+AP command 17 PINTYPE=BI
+AP command 27 PINTYPE=BI
+AP command 28 PINTYPE=BI
+AP command 29 PINTYPE=BI
+AP command 30 PINTYPE=BI
+AP command 31 PINTYPE=BI
+AP command 32 PINTYPE=BI
+AP command 33 PINTYPE=BI
+AP command 35 PINTYPE=BI
+AP command 36 PINTYPE=BI
+AP command 37 PINTYPE=BI
+AP command 38 PINTYPE=BI
+|Q virtex:inv 1
+AS virtex:inv DEVICE=INV
+AS virtex:inv LIBVER=2.0.0
+AS virtex:inv LEVEL=XILINX
+AS virtex:inv PINORDER=I O
+AP virtex:inv 1 PINTYPE=IN
+AP virtex:inv 2 PINTYPE=OUT
+|Q virtex:fdc 1
+AS virtex:fdc LIBVER=2.0.0
+AS virtex:fdc LEVEL=XILINX
+AS virtex:fdc @INIT=0
+AS virtex:fdc DEVICE=DFF
+AS virtex:fdc PINORDER=C CLR D Q
+AP virtex:fdc 1 PINTYPE=IN
+AP virtex:fdc 2 PINTYPE=IN
+AP virtex:fdc 3 PINTYPE=IN
+AP virtex:fdc 4 PINTYPE=OUT
+AN DEVICE[13:0] VLBUSISONSHEET=1
+AN ~GA[5:0] VLBUSISONSHEET=1
+AN COMMAND[9:0] VLBUSISONSHEET=1
+AN AM[5:0] VLBUSISONSHEET=1
+AN VMEA[23:1] VLBUSISONSHEET=1
+AN VMED[15:0] VLBUSISONSHEET=1
+AN DIAGOUT[15:0] VLBUSISONSHEET=1
+AN DIAG1OUT[15:0] VLBUSISONSHEET=1
+AN VME_DEV[15:0] VLBUSISONSHEET=1
+AN DMB14STAT[3:0] VLBUSISONSHEET=1
+AN DMB13STAT[3:0] VLBUSISONSHEET=1
+AN DMB_STAT[51:48] VLBUSISONSHEET=1
+AN DMB12STAT[3:0] VLBUSISONSHEET=1
+AN DMB_STAT[55:52] VLBUSISONSHEET=1
+AN DMB_STAT[59:56] VLBUSISONSHEET=1
+AN DMB_STAT[31:28] VLBUSISONSHEET=1
+AN DMB_STAT[11:8] VLBUSISONSHEET=1
+AN DMB_STAT[7:4] VLBUSISONSHEET=1
+AN DMB0STAT[3:0] VLBUSISONSHEET=1
+AN DMB_STAT[3:0] VLBUSISONSHEET=1
+AN DMB1STAT[3:0] VLBUSISONSHEET=1
+AN DMB2STAT[3:0] VLBUSISONSHEET=1
+AN DMB5STAT[3:0] VLBUSISONSHEET=1
+AN DMB4STAT[3:0] VLBUSISONSHEET=1
+AN DMB_STAT[15:12] VLBUSISONSHEET=1
+AN DMB3STAT[3:0] VLBUSISONSHEET=1
+AN DMB_STAT[19:16] VLBUSISONSHEET=1
+AN DMB_STAT[23:20] VLBUSISONSHEET=1
+AN DMB_STAT[47:44] VLBUSISONSHEET=1
+AN DMB_STAT[43:40] VLBUSISONSHEET=1
+AN DMB9STAT[3:0] VLBUSISONSHEET=1
+AN DMB_STAT[39:36] VLBUSISONSHEET=1
+AN DMB10STAT[3:0] VLBUSISONSHEET=1
+AN DMB11STAT[3:0] VLBUSISONSHEET=1
+AN DMB8STAT[3:0] VLBUSISONSHEET=1
+AN DMB7STAT[3:0] VLBUSISONSHEET=1
+AN DMB_STAT[27:24] VLBUSISONSHEET=1
+AN DMB6STAT[3:0] VLBUSISONSHEET=1
+AN DMB_STAT[35:32] VLBUSISONSHEET=1
+AN VMEA[23:1] VLBUSISONSHEET=1
+AN VMED[15:0] VLBUSISONSHEET=1
+AN AM[5:0] VLBUSISONSHEET=1
+AN INDATA[15:0] VLBUSISONSHEET=1
+AN OUTDATA[15:0] VLBUSISONSHEET=1
+AN DIAG2OUT[15:0] VLBUSISONSHEET=1
+AN ~GA[5:0] VLBUSISONSHEET=1
+W virtex:opad $1I2404
+I $1I2404 virtex:opad ~IRQ1 
+W virtex2p:obuf $1I2406
+I $1I2406 virtex2p:obuf ~IRQ_1 ~IRQ1 IOSTANDARD=LVCMOS33`
+W virtex:opad $1I2401
+I $1I2401 virtex:opad ~IACKOUT 
+W virtex2p:obuf $1I2403
+I $1I2403 virtex2p:obuf ~IACK_OUT ~IACKOUT IOSTANDARD=LVCMOS33`
+W virtex:ipad $1I2394
+I $1I2394 virtex:ipad ~INACK 
+W virtex2p:ibuf $1I2396
+I $1I2396 virtex2p:ibuf ~INACK ~IACK IOSTANDARD=LVCMOS33`
+W ibuf_inv_33 $1I2371
+I $1I2371 ibuf_inv_33 ~SYNCRST SYNC_RST 
+W virtex2p:obuf $1I2266
+I $1I2266 virtex2p:obuf MODE6 VME5 IOSTANDARD=LVCMOS33`
+W virtex:opad $1I2268
+I $1I2268 virtex:opad VME5 
+W ipad1pu $1I2256
+I $1I2256 ipad1pu ~SOFTRST 
+W virtex2p:ibuf $1I2228
+I $1I2228 virtex2p:ibuf IGA1 ~GA1 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $1I2229
+I $1I2229 virtex2p:ibuf IGA0 ~GA0 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $1I2226
+I $1I2226 virtex2p:ibuf IGA3 ~GA3 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $1I2227
+I $1I2227 virtex2p:ibuf IGA2 ~GA2 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $1I2225
+I $1I2225 virtex2p:ibuf IGA4 ~GA4 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $1I2220
+I $1I2220 virtex2p:ibuf ~IWRITE ~WRITE IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $1I2221
+I $1I2221 virtex2p:ibuf ~ISYSFAIL ~SYSFAIL IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $1I2215
+I $1I2215 virtex2p:ibuf ~IBERR ~BERR IOSTANDARD=LVCMOS33`
+W ipad4pd $1I2114
+I $1I2114 ipad4pd DMB_STAT[51:48] 
+W ipad4pd $1I2115
+I $1I2115 ipad4pd DMB_STAT[55:52] 
+W ibuf4_bus $1I2118
+I $1I2118 ibuf4_bus DMB_STAT[51:48] DMB12STAT[3:0] 
+W ibuf4_bus $1I2119
+I $1I2119 ibuf4_bus DMB_STAT[55:52] DMB13STAT[3:0] 
+W ibuf4_bus $1I2122
+I $1I2122 ibuf4_bus DMB_STAT[59:56] DMB14STAT[3:0] 
+W ipad4pd $1I2088
+I $1I2088 ipad4pd DMB_STAT[35:32] 
+W ipad4pd $1I2091
+I $1I2091 ipad4pd DMB_STAT[27:24] 
+W ipad4pd $1I2092
+I $1I2092 ipad4pd DMB_STAT[31:28] 
+W ibuf4_bus $1I2095
+I $1I2095 ibuf4_bus DMB_STAT[27:24] DMB6STAT[3:0] 
+W ibuf4_bus $1I2096
+I $1I2096 ibuf4_bus DMB_STAT[31:28] DMB7STAT[3:0] 
+W ibuf4_bus $1I2098
+I $1I2098 ibuf4_bus DMB_STAT[35:32] DMB8STAT[3:0] 
+W ibuf4_bus $1I2101
+I $1I2101 ibuf4_bus DMB_STAT[47:44] DMB11STAT[3:0] 
+W ibuf4_bus $1I2104
+I $1I2104 ibuf4_bus DMB_STAT[43:40] DMB10STAT[3:0] 
+W ibuf4_bus $1I2105
+I $1I2105 ibuf4_bus DMB_STAT[39:36] DMB9STAT[3:0] 
+W ipad4pd $1I2108
+I $1I2108 ipad4pd DMB_STAT[43:40] 
+W ipad4pd $1I2109
+I $1I2109 ipad4pd DMB_STAT[39:36] 
+W ipad4pd $1I2078
+I $1I2078 ipad4pd DMB_STAT[15:12] 
+W ipad4pd $1I2079
+I $1I2079 ipad4pd DMB_STAT[19:16] 
+W ibuf4_bus $1I2082
+I $1I2082 ibuf4_bus DMB_STAT[15:12] DMB3STAT[3:0] 
+W ibuf4_bus $1I2083
+I $1I2083 ibuf4_bus DMB_STAT[19:16] DMB4STAT[3:0] 
+W ipad4pd $1I2085
+I $1I2085 ipad4pd DMB_STAT[23:20] 
+W ibuf4_bus $1I2086
+I $1I2086 ibuf4_bus DMB_STAT[23:20] DMB5STAT[3:0] 
+W ibuf4_bus $1I2074
+I $1I2074 ibuf4_bus DMB_STAT[11:8] DMB2STAT[3:0] 
+W ibuf4_bus $1I2070
+I $1I2070 ibuf4_bus DMB_STAT[7:4] DMB1STAT[3:0] 
+W ipad1pu $1I1950
+I $1I1950 ipad1pu VMEA23 
+W ipad1pu $1I1951
+I $1I1951 ipad1pu VMEA19 
+W ipad1pu $1I1952
+I $1I1952 ipad1pu VMEA15 
+W ipad1pu $1I1953
+I $1I1953 ipad1pu VMEA14 
+W ipad1pu $1I1954
+I $1I1954 ipad1pu VMEA13 
+W ipad1pu $1I1955
+I $1I1955 ipad1pu VMEA12 
+W ipad1pu $1I1956
+I $1I1956 ipad1pu VMEA11 
+W ipad1pu $1I1957
+I $1I1957 ipad1pu VMEA10 
+W ipad1pu $1I1958
+I $1I1958 ipad1pu VMEA4 
+W ipad1pu $1I1959
+I $1I1959 ipad1pu VMEA5 
+W ipad1pu $1I1960
+I $1I1960 ipad1pu VMEA6 
+W ipad1pu $1I1961
+I $1I1961 ipad1pu VMEA3 
+W ipad1pu $1I1962
+I $1I1962 ipad1pu IGA3 
+W ipad1pu $1I1963
+I $1I1963 ipad1pu IGA2 
+W ipad1pu $1I1964
+I $1I1964 ipad1pu IGA4 
+W virtex:iopad $1I1965
+I $1I1965 virtex:iopad VMED0 
+W virtex:iopad $1I1966
+I $1I1966 virtex:iopad VMED10 
+W virtex:iopad $1I1967
+I $1I1967 virtex:iopad VMED11 
+W virtex:iopad $1I1968
+I $1I1968 virtex:iopad VMED5 
+W virtex:iopad $1I1969
+I $1I1969 virtex:iopad VMED4 
+W virtex:iopad $1I1970
+I $1I1970 virtex:iopad VMED3 
+W virtex:iopad $1I1971
+I $1I1971 virtex:iopad VMED2 
+W virtex:iopad $1I1972
+I $1I1972 virtex:iopad VMED9 
+W virtex:iopad $1I1973
+I $1I1973 virtex:iopad VMED8 
+W virtex:iopad $1I1974
+I $1I1974 virtex:iopad VMED7 
+W virtex:iopad $1I1975
+I $1I1975 virtex:iopad VMED6 
+W virtex:iopad $1I1976
+I $1I1976 virtex:iopad VMED12 
+W virtex:iopad $1I1977
+I $1I1977 virtex:iopad VMED1 
+W virtex:iopad $1I1978
+I $1I1978 virtex:iopad VMED14 
+W virtex:iopad $1I1979
+I $1I1979 virtex:iopad VMED15 
+W virtex:iopad $1I1980
+I $1I1980 virtex:iopad VMED13 
+W virtex:ipad $1I1998
+I $1I1998 virtex:ipad ~IDS0 
+W virtex:ipad $1I1999
+I $1I1999 virtex:ipad ~IAS 
+W virtex:ipad $1I2002
+I $1I2002 virtex:ipad ~IDS1 
+W virtex:ipad $1I2004
+I $1I2004 virtex:ipad ~IWRITE 
+W virtex:ipad $1I2005
+I $1I2005 virtex:ipad ~IBERR 
+W virtex:ipad $1I2012
+I $1I2012 virtex:ipad ~ISYSFAIL 
+W ipad1pu $1I2013
+I $1I2013 ipad1pu VMEA7 
+W ipad1pu $1I2014
+I $1I2014 ipad1pu VMEA8 
+W ipad1pu $1I2015
+I $1I2015 ipad1pu VMEA9 
+W ipad1pu $1I2016
+I $1I2016 ipad1pu VMEA16 
+W ipad1pu $1I2017
+I $1I2017 ipad1pu VMEA17 
+W ipad1pu $1I2018
+I $1I2018 ipad1pu VMEA18 
+W ipad1pu $1I2019
+I $1I2019 ipad1pu VMEA21 
+W ipad1pu $1I2020
+I $1I2020 ipad1pu VMEA20 
+W ipad1pu $1I2022
+I $1I2022 ipad1pu IGA0 
+W ipad1pu $1I2023
+I $1I2023 ipad1pu IGA1 
+W ipad1pu $1I2024
+I $1I2024 ipad1pu VMEA1 
+W ipad1pu $1I2025
+I $1I2025 ipad1pu VMEA2 
+W virtex:ipad $1I2027
+I $1I2027 virtex:ipad AM1 
+W virtex:ipad $1I2028
+I $1I2028 virtex:ipad AM2 
+W virtex:ipad $1I2029
+I $1I2029 virtex:ipad AM3 
+W virtex:ipad $1I2030
+I $1I2030 virtex:ipad AM4 
+W virtex:ipad $1I2031
+I $1I2031 virtex:ipad AM5 
+W ipad1pu $1I2032
+I $1I2032 ipad1pu IGAP 
+W ipad1pu $1I2036
+I $1I2036 ipad1pu VMEA22 
+W virtex:ipad $1I2043
+I $1I2043 virtex:ipad VMECLKIN 
+W ipad4pd $1I2071
+I $1I2071 ipad4pd DMB_STAT[7:4] 
+W ipad4pd $1I2063
+I $1I2063 ipad4pd DMB_STAT[3:0] 
+W ipad4pd $1I2075
+I $1I2075 ipad4pd DMB_STAT[11:8] 
+W ipad4pd $1I2102
+I $1I2102 ipad4pd DMB_STAT[47:44] 
+W ipad4pd $1I2121
+I $1I2121 ipad4pd DMB_STAT[59:56] 
+W virtex:ipad $1I2026
+I $1I2026 virtex:ipad AM0 
+W virtex2p:ibuf $1I2224
+I $1I2224 virtex2p:ibuf IGAP ~GA5 IOSTANDARD=LVCMOS33`
+W virtex2p:and2 $1I2157
+I $1I2157 virtex2p:and2 LD_RDY VME_RDY+4 DDU_SRDY 
+W ipad1pu $1I2255
+I $1I2255 ipad1pu ~SYNCRST 
+W virtex2p:or2b1 $1I2260
+I $1I2260 virtex2p:or2b1 ~EXTSOFTRST PWR-ON-RST SOFT_RST 
+W virtex2p:buf $1I2137
+I $1I2137 virtex2p:buf SOFT_RST NJR 
+W virtex2p:or3b1 $1I2195
+I $1I2195 virtex2p:or3b1 ~SYSRST NJR RST RESET 
+W virtex2p:ibuf $1I2217
+I $1I2217 virtex2p:ibuf ~IDS0 ~DS0 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $1I2357
+I $1I2357 virtex2p:ibuf ~IDS1 ~DS1 IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $1I2216
+I $1I2216 virtex2p:ibuf ~IAS ~AS IOSTANDARD=LVCMOS33`
+W virtex2p:ibuf $1I2223
+I $1I2223 virtex2p:ibuf VMECLKIN VMECLK IOSTANDARD=LVCMOS33`
+W virtex:ipad $1I2150
+I $1I2150 virtex:ipad VME7 
+W ibuf_inv_33 $1I2234
+I $1I2234 ibuf_inv_33 VME7 LD_RDY 
+W virtex2p:ibuf $1I2372
+I $1I2372 virtex2p:ibuf ~SOFTRST ~EXTSOFTRST IOSTANDARD=LVCMOS33`
+W ibuf4_bus $1I2064
+I $1I2064 ibuf4_bus DMB_STAT[3:0] DMB0STAT[3:0] 
+W virtex2p:gnd $1I2382
+I $1I2382 virtex2p:gnd $1N2046 
+W virtex:ipad $1I2034
+I $1I2034 virtex:ipad ~IACKIN 
+W virtex2p:ibuf $1I2204
+I $1I2204 virtex2p:ibuf ~IACKIN ~IACK_IN IOSTANDARD=LVCMOS33`
+W virtex2p:obuf $1I2230
+I $1I2230 virtex2p:obuf $1N2046 ~DOE IOSTANDARD=LVCMOS33`
+W virtex:opad $1I2058
+I $1I2058 virtex:opad ~DOE 
+W virtex2p:obuf $1I2232
+I $1I2232 virtex2p:obuf ~DTACK ~ODTACK IOSTANDARD=LVCMOS33`
+W virtex:opad $1I2050
+I $1I2050 virtex:opad ~ODTACK 
+W virtex2p:buf $1I2140
+I $1I2140 virtex2p:buf SYNC_RST RST 
+W ipad1pu $1I2040
+I $1I2040 ipad1pu ~ISYSRESET 
+W virtex2p:ibuf $1I2222
+I $1I2222 virtex2p:ibuf ~ISYSRESET ~SYSRST IOSTANDARD=LVCMOS33`
+W virtex:opad $1I2051
+I $1I2051 virtex:opad OTOVME 
+W virtex:pullup $1I2047
+I $1I2047 virtex:pullup ~DTACK 
+W virtex2p:or2 $1I2455
+I $1I2455 virtex2p:or2 MY_IRQ TOVME O_TOVME 
+W virtex2p:obuf $1I2231
+I $1I2231 virtex2p:obuf O_TOVME OTOVME IOSTANDARD=LVCMOS33`
+W virtex:pullup $1I2428
+I $1I2428 virtex:pullup ~IRQ_1 
+W virtex2p:buf $1I2411
+I $1I2411 virtex2p:buf DIAG2OUT15 STROBE 
+W virtex:ipad $1I2001
+I $1I2001 virtex:ipad ~ILWORD 
+W ild1 $1I2362
+I $1I2362 ild1 ~AS ~ILWORD ~LWORD 
+W command $1I717
+I $1I717 command VMEA[23:1] AM[5:0] CMD_DONE COMMAND[9:0] VMED[15:0] DEVICE[13:0] DIAG1OUT[15:0] DIAG2OUT[15:0] DIAGOUT[15:0] CLK80 INDATA[15:0] LTOVME LVME_DATA_CE SCLK MY_IRQ OUTDATA[15:0] VRST VME_SADR_EN SLOWCLK SLOWCLK2 TOVME VME_DEV[15:0] VME_PEN0 VME_ADR_CHANGED VME_DATA_CE VME_SEN ~AS ~BERR ~DS0 ~DS1 ~GA[5:0] ~IACK ~IACK_IN ~IACK_OUT ~IRQ_1 ~LWORD ~SYSFAIL ~WRITE 
+W virtex:inv $1I2430
+I $1I2430 virtex:inv ~AS AS 
+W virtex:fdc $1I1936
+I $1I1936 virtex:fdc CLK80 NJR STROBE LSTROBE 
+W virtex2p:buf $1I2462
+I $1I2462 virtex2p:buf DIAGOUT7 BCAST 
+W virtex2p:or2b1 $1I2235
+I $1I2235 virtex2p:or2b1 ~SYSRST SOFT_RST VRST 
+EW

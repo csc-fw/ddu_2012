@@ -1,0 +1,14 @@
+| Log file created using VIEWSIM_WIRELISTER 6.08
+|
+|
+| SPAWN ACCEL=VCS true gt_custom
+
+|
+| SPAWN ACCEL=VCS true af_clb_5x31rpm
+
+|
+| SPAWN ACCEL=VCS true ramb16_s9_s18
+
+|
+| SPAWN ACCEL=VCS true dcm
+

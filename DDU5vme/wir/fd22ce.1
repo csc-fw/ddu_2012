@@ -1,0 +1,55 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 326956347600 fd15ce
+DW fd22ce
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+|Q virtex:fd16ce 1
+AS virtex:fd16ce LEVEL=MXILINX
+AS virtex:fd16ce @INIT=0
+AS virtex:fd16ce LIBVER=2.0.0
+AS virtex:fd16ce PINORDER=C CE CLR D[15:0] Q[15:0]
+AP virtex:fd16ce 1 PINTYPE=IN
+AP virtex:fd16ce 2 PINTYPE=IN
+AP virtex:fd16ce 3 PINTYPE=IN
+AP virtex:fd16ce 4 PINTYPE=IN
+AP virtex:fd16ce 5 PINTYPE=OUT
+AN D[21:0] VLBUSISONSHEET=1
+AN D[15:0] VLBUSISONSHEET=1
+AN Q[15:0] VLBUSISONSHEET=1
+AN Q[21:0] VLBUSISONSHEET=1
+W virtex:fdce $1I30
+I $1I30 virtex:fdce C CE CLR D20 Q20 LABEL=Q20`
+W virtex:fdce $1I31
+I $1I31 virtex:fdce C CE CLR D16 Q16 LABEL=Q16`
+W virtex:fdce $1I33
+I $1I33 virtex:fdce C CE CLR D17 Q17 LABEL=Q17`
+W virtex:fdce $1I34
+I $1I34 virtex:fdce C CE CLR D18 Q18 LABEL=Q18`
+W virtex:fdce $1I35
+I $1I35 virtex:fdce C CE CLR D19 Q19 LABEL=Q19`
+W virtex:fd16ce $1I64
+I $1I64 virtex:fd16ce C CE CLR D[15:0] Q[15:0] 
+W virtex:fdce $1I36
+I $1I36 virtex:fdce C CE CLR D21 Q21 LABEL=Q21`
+P ? D[21:0]
+I D[21:0] ? D[21:0]
+P ? CE
+I CE ? CE
+P ? C
+I C ? C
+P ? CLR
+I CLR ? CLR
+P ? Q[21:0]
+I Q[21:0] ? Q[21:0]
+EW

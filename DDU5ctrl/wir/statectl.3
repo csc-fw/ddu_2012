@@ -1,0 +1,148 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 224033052000 D690F
+DW statectl
+SA @DATETIME=1-26-2005_11:50 
+SA @NAME=STATECTL 
+SA @SHEET=3 
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+|Q virtex:and4b1 1
+AS virtex:and4b1 DEVICE=AND
+AS virtex:and4b1 LEVEL=XILINX
+AS virtex:and4b1 LIBVER=2.0.0
+AS virtex:and4b1 PINORDER=I0 I1 I2 I3 O
+AP virtex:and4b1 1 PINTYPE=IN
+AP virtex:and4b1 1 PARAM=INV
+AP virtex:and4b1 2 PINTYPE=IN
+AP virtex:and4b1 3 PINTYPE=IN
+AP virtex:and4b1 4 PINTYPE=IN
+AP virtex:and4b1 5 PINTYPE=OUT
+|Q virtex:and2b1 1
+AS virtex:and2b1 LEVEL=XILINX
+AS virtex:and2b1 DEVICE=AND
+AS virtex:and2b1 LIBVER=2.0.0
+AS virtex:and2b1 PINORDER=I0 I1 O
+AP virtex:and2b1 1 PINTYPE=IN
+AP virtex:and2b1 1 PARAM=INV
+AP virtex:and2b1 2 PINTYPE=IN
+AP virtex:and2b1 3 PINTYPE=OUT
+|Q virtex:fd8ce 1
+AS virtex:fd8ce LEVEL=MXILINX
+AS virtex:fd8ce @INIT=0
+AS virtex:fd8ce LIBVER=2.0.0
+AS virtex:fd8ce PINORDER=C CE CLR D[7:0] Q[7:0]
+AP virtex:fd8ce 1 PINTYPE=IN
+AP virtex:fd8ce 2 PINTYPE=IN
+AP virtex:fd8ce 3 PINTYPE=IN
+AP virtex:fd8ce 4 PINTYPE=IN
+AP virtex:fd8ce 5 PINTYPE=OUT
+|Q virtex:bufe8 1
+AS virtex:bufe8 LEVEL=MXILINX
+AS virtex:bufe8 LIBVER=2.0.0
+AS virtex:bufe8 PINORDER=E I[7:0] O[7:0]
+AP virtex:bufe8 1 PINTYPE=IN
+AP virtex:bufe8 2 PINTYPE=IN
+AP virtex:bufe8 3 PINTYPE=TRI
+|Q virtex:fdc 1
+AS virtex:fdc LIBVER=2.0.0
+AS virtex:fdc LEVEL=XILINX
+AS virtex:fdc @INIT=0
+AS virtex:fdc DEVICE=DFF
+AS virtex:fdc PINORDER=C CLR D Q
+AP virtex:fdc 1 PINTYPE=IN
+AP virtex:fdc 2 PINTYPE=IN
+AP virtex:fdc 3 PINTYPE=IN
+AP virtex:fdc 4 PINTYPE=OUT
+|Q 8bit_f 1
+AS 8bit_f LEVEL=STD
+AS 8bit_f @NAME=8BIT_F
+AS 8bit_f PINORDER=O[7:0]
+AP 8bit_f 1 PINTYPE=OUT
+|Q virtex:and3b1 1
+AS virtex:and3b1 LEVEL=XILINX
+AS virtex:and3b1 DEVICE=AND
+AS virtex:and3b1 LIBVER=2.0.0
+AS virtex:and3b1 PINORDER=I0 I1 I2 O
+AP virtex:and3b1 1 PARAM=INV
+AP virtex:and3b1 1 PINTYPE=IN
+AP virtex:and3b1 2 PINTYPE=IN
+AP virtex:and3b1 3 PINTYPE=IN
+AP virtex:and3b1 4 PINTYPE=OUT
+|Q virtex2p:and2 1
+AS virtex2p:and2 LEVEL=XILINX
+AS virtex2p:and2 DEVICE=AND
+AS virtex2p:and2 LIBVER=2.0.0
+AS virtex2p:and2 PINORDER=I0 I1 O
+AP virtex2p:and2 1 PINTYPE=IN
+AP virtex2p:and2 2 PINTYPE=IN
+AP virtex2p:and2 3 PINTYPE=OUT
+|Q virtex:or2 1
+AS virtex:or2 DEVICE=OR
+AS virtex:or2 LEVEL=XILINX
+AS virtex:or2 LIBVER=2.0.0
+AS virtex:or2 PINORDER=I0 I1 O
+AP virtex:or2 1 PINTYPE=IN
+AP virtex:or2 2 PINTYPE=IN
+AP virtex:or2 3 PINTYPE=OUT
+|Q virtex2p:or3 1
+AS virtex2p:or3 LEVEL=XILINX
+AS virtex2p:or3 DEVICE=OR
+AS virtex2p:or3 LIBVER=2.0.0
+AS virtex2p:or3 PINORDER=I0 I1 I2 O
+AP virtex2p:or3 1 PINTYPE=IN
+AP virtex2p:or3 2 PINTYPE=IN
+AP virtex2p:or3 3 PINTYPE=IN
+AP virtex2p:or3 4 PINTYPE=OUT
+AN CFF[7:0] VLBUSISONSHEET=3
+AN OUT[7:0] VLBUSISONSHEET=3
+AN WC[7:0] VLBUSISONSHEET=3
+AN PWC[7:0] VLBUSISONSHEET=3
+AN OUT[7:0] VLBUSISONSHEET=3
+W virtex:fdce $3I2252
+I $3I2252 virtex:fdce CLK WC_48 END_RST WC_48 LWC_48 
+W virtex:and4b1 $3I2267
+I $3I2267 virtex:and4b1 LWC_48 LMT BUSY RENORFILL FIL-1 
+W virtex:and2b1 $3I2269
+I $3I2269 virtex:and2b1 FILL FIL FIL+0 
+W virtex:fd8ce $3I2268
+I $3I2268 virtex:fd8ce CLK FIL+0 END_RST WC[7:0] PWC[7:0] 
+W virtex:bufe8 $3I2296
+I $3I2296 virtex:bufe8 OEPWC PWC[7:0] OUT[7:0] 
+W virtex:fdc $3I2270
+I $3I2270 virtex:fdc CLK END_RST FILL-1 OEPWC 
+W virtex:and2b1 $3I2299
+I $3I2299 virtex:and2b1 OEPWC FILL_EN OEFILL 
+W 8bit_f $3I2320
+I $3I2320 8bit_f CFF[7:0] 
+W virtex:fdce $3I2329
+I $3I2329 virtex:fdce CLK S7 END_RST FILL FILL+1 
+W virtex:fdce $3I2312
+I $3I2312 virtex:fdce CLK S7 END_RST FIL FILL 
+W virtex:fdc $3I2313
+I $3I2313 virtex:fdc CLK END_RST FIL-1 FIL 
+W virtex:and3b1 $3I2325
+I $3I2325 virtex:and3b1 FILL FIL OE7 FILL-1 
+W virtex:bufe8 $3I2323
+I $3I2323 virtex:bufe8 OEFILL CFF[7:0] OUT[7:0] 
+W virtex2p:and2 $3I2345
+I $3I2345 virtex2p:and2 WC5 WC4 WC_48 
+W virtex:or2 $3I2341
+I $3I2341 virtex:or2 FILL+1 FILL FILL_EN 
+W virtex2p:or3 $3I2346
+I $3I2346 virtex2p:or3 FILL REN REN+1 RENORFILL 
+P ? CLK
+I CLK ? CLK
+P ? BUSY
+I BUSY ? BUSY
+EW

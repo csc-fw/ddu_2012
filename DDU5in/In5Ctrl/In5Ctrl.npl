@@ -1,0 +1,43 @@
+JDF G
+// Created by Project Navigator ver 1.0
+PROJECT In5Ctrl
+DESIGN in5ctrl
+DEVFAM virtex2p
+DEVFAMTIME 0
+DEVICE xc2vp20
+DEVICETIME 0
+DEVPKG fg676
+DEVPKGTIME 0
+DEVSPEED -6
+DEVSPEEDTIME 0
+DEVTOPLEVELMODULETYPE EDIF
+TOPLEVELMODULETYPETIME 0
+DEVSYNTHESISTOOL XST (VHDL/Verilog)
+SYNTHESISTOOLTIME 0
+DEVSIMULATOR Other
+SIMULATORTIME 0
+DEVGENERATEDSIMULATIONMODEL VHDL
+GENERATEDSIMULATIONMODELTIME 0
+SOURCE ..\0ddu_in.edn
+DEPASSOC 0ddu_in ..\in5ctrl.ucf
+[Normal]
+p_AutoGenFile=edif, virtex2p, Implementation.t_genImpactFile, 1242140646, True
+p_ChainDescFile=edif, virtex2p, Implementation.t_genImpactFile, 1149017038, \\phypcs\ellicad\WV\D785\DDU5in\In5Ctrl\in5ctrl.cdf
+p_SimModelTarget=edif, virtex2p, EDIF.t_postMapSimModel, 1108591906, Generic_Verilog
+xilxBitgCfg_Code=edif, virtex2p, Implementation.t_bitFile, 1240584428, DF025A06
+xilxBitgCfg_GenOpt_DRC=edif, virtex2p, Implementation.t_bitFile, 1108592080, False
+xilxBitgCfg_Rate=edif, virtex2p, Implementation.t_bitFile, 1115319642, 15
+xilxBitgCfg_TDO=edif, virtex2p, Implementation.t_bitFile, 1112391525, Pull Up
+xilxBitgStart_Clk_Done=edif, virtex2p, Implementation.t_bitFile, 1116365775, 6
+xilxBitgStart_Clk_EnOut=edif, virtex2p, Implementation.t_bitFile, 1141944266, 5
+xilxBitgStart_Clk_RelDLL=edif, virtex2p, Implementation.t_bitFile, 1141944266, 3
+xilxBitgStart_Clk_WrtEn=edif, virtex2p, Implementation.t_bitFile, 1142005802, 2
+xilxMapTimingDrivenPacking=edif, virtex2p, Implementation.t_placeAndRouteDes, 1129239442, False
+xilxPAReffortLevel=edif, virtex2p, Implementation.t_placeAndRouteDes, 1108591906, High
+xilxPARplacerCostTable=edif, virtex2p, Implementation.t_placeAndRouteDes, 1108591906, 21
+xilxPostTrceRptLimit=edif, virtex2p, Implementation.t_placeAndRouteDes, 1108591906, 199
+xilxPostTrceRptTiming=edif, virtex2p, Implementation.t_placeAndRouteDes, 1108591906, 29
+xilxPreTrceRptLimit=edif, virtex2p, Implementation.t_placeAndRouteDes, 1108591906, 9
+xilxPreTrceRptTiming=edif, virtex2p, Implementation.t_placeAndRouteDes, 1108591906, 9
+[STRATEGY-LIST]
+Normal=True

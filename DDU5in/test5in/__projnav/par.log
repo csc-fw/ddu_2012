@@ -1,0 +1,3 @@
+Place & Route Module 0test_in . . .
+PAR command line: par -w -intstyle ise -ol high -t 21 0test_in_map.ncd 0test_in.ncd 0test_in.pcf
+PAR completed successfully

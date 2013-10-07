@@ -1,0 +1,190 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 352517258000 JTAG
+DW instrgdc
+SA @DATETIME=1-26-2005_12:19 
+SA @NAME=INSTRGDC 
+SA @SHEET=1 
+|Q virtex:fd 1
+AS virtex:fd @INIT=0
+AS virtex:fd DEVICE=DFF
+AS virtex:fd LIBVER=2.0.0
+AS virtex:fd LEVEL=XILINX
+AS virtex:fd PINORDER=C D Q
+AP virtex:fd 1 PINTYPE=IN
+AP virtex:fd 2 PINTYPE=IN
+AP virtex:fd 3 PINTYPE=OUT
+|Q virtex:and2 1
+AS virtex:and2 LEVEL=XILINX
+AS virtex:and2 DEVICE=AND
+AS virtex:and2 LIBVER=2.0.0
+AS virtex:and2 PINORDER=I0 I1 O
+AP virtex:and2 1 PINTYPE=IN
+AP virtex:and2 2 PINTYPE=IN
+AP virtex:and2 3 PINTYPE=OUT
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+|Q virtex:gnd 1
+AS virtex:gnd LIBVER=2.0.0
+AS virtex:gnd LEVEL=XILINX
+AS virtex:gnd PINORDER=G
+AP virtex:gnd 1 PINTYPE=OUT
+|Q virtex:inv 1
+AS virtex:inv DEVICE=INV
+AS virtex:inv LIBVER=2.0.0
+AS virtex:inv LEVEL=XILINX
+AS virtex:inv PINORDER=I O
+AP virtex:inv 1 PINTYPE=IN
+AP virtex:inv 2 PINTYPE=OUT
+|Q virtex:d4_16e 1
+AS virtex:d4_16e LEVEL=MXILINX
+AS virtex:d4_16e LIBVER=2.0.0
+AS virtex:d4_16e PINORDER=A0 A1 A2 A3 D0 D1 D10 D11 D12 D13 D14 D15 D2 D3 D4 D5 D6 D7 D8 D9 E
+AP virtex:d4_16e 1 PINTYPE=IN
+AP virtex:d4_16e 2 PINTYPE=IN
+AP virtex:d4_16e 3 PINTYPE=IN
+AP virtex:d4_16e 4 PINTYPE=IN
+AP virtex:d4_16e 5 PINTYPE=OUT
+AP virtex:d4_16e 6 PINTYPE=OUT
+AP virtex:d4_16e 7 PINTYPE=OUT
+AP virtex:d4_16e 8 PINTYPE=OUT
+AP virtex:d4_16e 9 PINTYPE=OUT
+AP virtex:d4_16e 10 PINTYPE=OUT
+AP virtex:d4_16e 11 PINTYPE=OUT
+AP virtex:d4_16e 12 PINTYPE=OUT
+AP virtex:d4_16e 13 PINTYPE=OUT
+AP virtex:d4_16e 14 PINTYPE=OUT
+AP virtex:d4_16e 15 PINTYPE=OUT
+AP virtex:d4_16e 16 PINTYPE=OUT
+AP virtex:d4_16e 17 PINTYPE=OUT
+AP virtex:d4_16e 18 PINTYPE=OUT
+AP virtex:d4_16e 19 PINTYPE=OUT
+AP virtex:d4_16e 20 PINTYPE=OUT
+AP virtex:d4_16e 21 PINTYPE=IN
+|Q virtex2p:and2b2 1
+AS virtex2p:and2b2 DEVICE=AND
+AS virtex2p:and2b2 LEVEL=XILINX
+AS virtex2p:and2b2 LIBVER=2.0.0
+AS virtex2p:and2b2 PINORDER=I0 I1 O
+AP virtex2p:and2b2 1 PARAM=INV
+AP virtex2p:and2b2 1 PINTYPE=IN
+AP virtex2p:and2b2 2 PINTYPE=IN
+AP virtex2p:and2b2 2 PARAM=INV
+AP virtex2p:and2b2 3 PINTYPE=OUT
+|Q virtex2p:and2b1 1
+AS virtex2p:and2b1 LEVEL=XILINX
+AS virtex2p:and2b1 DEVICE=AND
+AS virtex2p:and2b1 LIBVER=2.0.0
+AS virtex2p:and2b1 PINORDER=I0 I1 O
+AP virtex2p:and2b1 1 PINTYPE=IN
+AP virtex2p:and2b1 1 PARAM=INV
+AP virtex2p:and2b1 2 PINTYPE=IN
+AP virtex2p:and2b1 3 PINTYPE=OUT
+AN F[35:32] VLBUSISONSHEET=1
+AN F[35:0] VLBUSISONSHEET=1
+AN F[31:16] VLBUSISONSHEET=1
+AN F[15:0] VLBUSISONSHEET=1
+AN D[7:0] VLBUSISONSHEET=1
+W virtex:fd $1I743
+I $1I743 virtex:fd CLK F33-1 F33 
+W virtex:and2 $1I744
+I $1I744 virtex:and2 DF33 D2F33 F33-1 
+W virtex:fd $1I745
+I $1I745 virtex:fd CLK DF33 D2F33 
+W virtex:fd $1I746
+I $1I746 virtex:fd CLK RF33 DF33 
+W virtex:fd $1I195
+I $1I195 virtex:fd UPDATE RAW7 D7 
+W virtex:fd $1I196
+I $1I196 virtex:fd UPDATE RAW6 D6 
+W virtex:fd $1I286
+I $1I286 virtex:fd UPDATE RAW5 D5 
+W virtex:fd $1I285
+I $1I285 virtex:fd UPDATE RAW4 D4 
+W virtex:fd $1I456
+I $1I456 virtex:fd UPDATE RAW3 D3 
+W virtex:fd $1I513
+I $1I513 virtex:fd UPDATE RAW2 D2 
+W virtex:fd $1I514
+I $1I514 virtex:fd UPDATE RAW1 D1 
+W virtex:fdce $1I124
+I $1I124 virtex:fdce LSHCK $1N191 $1N194 BTDI RAW7 
+W virtex:fdce $1I125
+I $1I125 virtex:fdce LSHCK $1N191 $1N194 RAW7 RAW6 
+W virtex:fdce $1I283
+I $1I283 virtex:fdce LSHCK $1N191 $1N194 RAW6 RAW5 
+W virtex:fdce $1I284
+I $1I284 virtex:fdce LSHCK $1N191 $1N194 RAW5 RAW4 
+W virtex:fdce $1I455
+I $1I455 virtex:fdce LSHCK $1N191 $1N194 RAW4 RAW3 
+W virtex:fdce $1I511
+I $1I511 virtex:fdce LSHCK $1N191 $1N194 RAW3 RAW2 
+W virtex:fdce $1I512
+I $1I512 virtex:fdce LSHCK $1N191 $1N194 RAW2 RAW1 
+W virtex:fdce $1I518
+I $1I518 virtex:fdce LSHCK $1N191 $1N194 RAW1 RAW0 
+W virtex:gnd $1I551
+I $1I551 virtex:gnd $1N194 
+W virtex:fd $1I519
+I $1I519 virtex:fd UPDATE RAW0 D0 
+W virtex:and2 $1I607
+I $1I607 virtex:and2 SHIFT SEL1 $1N191 
+W virtex:inv $1I622
+I $1I622 virtex:inv D4 ~D4 
+W virtex:d4_16e $1I627
+I $1I627 virtex:d4_16e D0 D1 D2 D3 F0 RF1 F10 F11 F12 F13 F14 F15 F2 F3 F4 F5 F6 F7 F8 F9 CE0 
+W virtex:fd $1I663
+I $1I663 virtex:fd CLK RF1 DF1 
+W virtex:fd $1I688
+I $1I688 virtex:fd CLK DF1 D2F1 
+W virtex:fd $1I700
+I $1I700 virtex:fd CLK F1-1 F1 
+W virtex:and2 $1I695
+I $1I695 virtex:and2 DF1 D2F1 F1-1 
+W virtex:fd $1I713
+I $1I713 virtex:fd CLK RF31 DF31 
+W virtex:fd $1I712
+I $1I712 virtex:fd CLK DF31 D2F31 
+W virtex:and2 $1I705
+I $1I705 virtex:and2 DF31 D2F31 F31-1 
+W virtex:fd $1I708
+I $1I708 virtex:fd CLK F31-1 F31 
+W virtex2p:and2b2 $1I721
+I $1I721 virtex2p:and2b2 D5 D4 CE0 
+W virtex2p:and2b1 $1I720
+I $1I720 virtex2p:and2b1 D5 D4 CE1 
+W virtex:d4_16e $1I612
+I $1I612 virtex:d4_16e D0 D1 D2 D3 F16 F17 F26 F27 F28 F29 F30 RF31 F18 F19 F20 F21 F22 F23 F24 F25 CE1 
+W virtex:d4_16e $1I731
+I $1I731 virtex:d4_16e D0 D1 D2 D3 F32 RF33 ? ? ? ? ? ? F34 F35 ? ? ? ? ? ? CE2 
+W virtex2p:and2b1 $1I727
+I $1I727 virtex2p:and2b1 D4 D5 CE2 
+P ? F[35:0]
+I F[35:0] ? F[35:0]
+P ? CLK
+I CLK ? CLK
+P ? D[7:0]
+I D[7:0] ? D[7:0]
+P ? SHIFT
+I SHIFT ? SHIFT
+P ? SEL1
+I SEL1 ? SEL1
+P ? RAW0
+I RAW0 ? RAW0
+P ? BTDI
+I BTDI ? BTDI
+P ? LSHCK
+I LSHCK ? LSHCK
+P ? UPDATE
+I UPDATE ? UPDATE
+EW

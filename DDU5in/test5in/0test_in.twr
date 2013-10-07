@@ -1,0 +1,135 @@
+--------------------------------------------------------------------------------
+Release 6.2.03i Trace G.28
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx62/bin/nt/trce.exe -intstyle ise -e 199 -l 29 -xml 0test_in
+0test_in.ncd -o 0test_in.twr 0test_in.pcf
+
+
+Design file:              0test_in.ncd
+Physical constraint file: 0test_in.pcf
+Device,speed:             xc2vp20,-6 (PRODUCTION 1.86 2004-05-01)
+Report level:             error report, limited to 29 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+================================================================================
+Timing constraint: NET "$1I162/CLK" PERIOD =  10.800 nS   HIGH 50.000000 % ;
+
+ 1575 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   7.852ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$1I4631/L1A_PUSH" MAXDELAY = 1000 pS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.886ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/CKIN40" PERIOD =  23 nS   HIGH 50.000000 % ;
+
+ 3 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   1.253ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I162/CK40" derived from
+ NET "$1I162/CKIN40" PERIOD =  23 nS   HIGH 50.000000 % ;
+ 
+duty cycle corrected to 23 nS  HIGH 11.500 nS 
+
+ 446 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   4.760ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/BREF" PERIOD =  11.300 nS   HIGH 50.000000 % ;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I162/CK80" derived from
+ NET "$1I162/BREF" PERIOD =  11.300 nS   HIGH 50.000000 % ;
+ 
+duty cycle corrected to 11.300 nS  HIGH 5.650 nS 
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I162/CK160" derived from
+ NET "$1I162/BREF" PERIOD =  11.300 nS   HIGH 50.000000 % ;
+ 
+divided by 2.00 and duty cycle corrected to 5.650 nS  HIGH 2.825 nS 
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/RHL5" MAXDELAY = 2 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.957ns.
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock $1I162/CK80N_T
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+$1I162/CK80N_T |    7.489|         |    4.810|         |
+$1I162/CK80P_T |    7.489|         |    4.810|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock $1I162/CK80P_T
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+$1I162/CK80N_T |    7.489|         |    4.810|         |
+$1I162/CK80P_T |    7.489|         |    4.810|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock $1I162/CLKIN40
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+$1I162/CLKIN40 |    5.380|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0
+
+Constraints cover 2024 paths, 2 nets, and 2012 connections
+
+Design statistics:
+   Minimum period:   7.852ns (Maximum frequency: 127.356MHz)
+   Maximum net delay:   0.957ns
+
+
+Analysis completed Tue Aug 02 11:50:41 2005
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 102 MB

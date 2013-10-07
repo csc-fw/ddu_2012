@@ -1,0 +1,513 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 7468887480 tst1
+DW dducntrl
+SA @SHEET=4 
+SA @NAME=DDUCNTRL 
+SA @DATETIME=3-25-2012_17:55 
+|Q virtex:buf 1
+AS virtex:buf LIBVER=2.0.0
+AS virtex:buf DEVICE=BUF
+AS virtex:buf LEVEL=XILINX
+AS virtex:buf PINORDER=I O
+AP virtex:buf 1 PINTYPE=IN
+AP virtex:buf 2 PINTYPE=OUT
+|Q virtex2p:and3b1 1
+AS virtex2p:and3b1 LEVEL=XILINX
+AS virtex2p:and3b1 DEVICE=AND
+AS virtex2p:and3b1 LIBVER=2.0.0
+AS virtex2p:and3b1 PINORDER=I0 I1 I2 O
+AP virtex2p:and3b1 1 PARAM=INV
+AP virtex2p:and3b1 1 PINTYPE=IN
+AP virtex2p:and3b1 2 PINTYPE=IN
+AP virtex2p:and3b1 3 PINTYPE=IN
+AP virtex2p:and3b1 4 PINTYPE=OUT
+|Q virtex:vcc 1
+AS virtex:vcc LEVEL=XILINX
+AS virtex:vcc LIBVER=2.0.0
+AS virtex:vcc PINORDER=P
+AP virtex:vcc 1 PINTYPE=OUT
+|Q virtex:gnd 1
+AS virtex:gnd LIBVER=2.0.0
+AS virtex:gnd LEVEL=XILINX
+AS virtex:gnd PINORDER=G
+AP virtex:gnd 1 PINTYPE=OUT
+|Q virtex:sr4ce 1
+AS virtex:sr4ce LEVEL=MXILINX
+AS virtex:sr4ce @INIT=0
+AS virtex:sr4ce LIBVER=2.0.0
+AS virtex:sr4ce PINORDER=C CE CLR Q0 Q1 Q2 Q3 SLI
+AP virtex:sr4ce 1 PINTYPE=IN
+AP virtex:sr4ce 2 PINTYPE=IN
+AP virtex:sr4ce 3 PINTYPE=IN
+AP virtex:sr4ce 4 PINTYPE=OUT
+AP virtex:sr4ce 5 PINTYPE=OUT
+AP virtex:sr4ce 6 PINTYPE=OUT
+AP virtex:sr4ce 7 PINTYPE=OUT
+AP virtex:sr4ce 8 PINTYPE=IN
+|Q virtex:inv 1
+AS virtex:inv DEVICE=INV
+AS virtex:inv LIBVER=2.0.0
+AS virtex:inv LEVEL=XILINX
+AS virtex:inv PINORDER=I O
+AP virtex:inv 1 PINTYPE=IN
+AP virtex:inv 2 PINTYPE=OUT
+|Q virtex:bufe4 1
+AS virtex:bufe4 LEVEL=MXILINX
+AS virtex:bufe4 LIBVER=2.0.0
+AS virtex:bufe4 PINORDER=E I0 I1 I2 I3 O0 O1 O2 O3
+AP virtex:bufe4 1 PINTYPE=IN
+AP virtex:bufe4 2 PINTYPE=IN
+AP virtex:bufe4 3 PINTYPE=IN
+AP virtex:bufe4 4 PINTYPE=IN
+AP virtex:bufe4 5 PINTYPE=IN
+AP virtex:bufe4 6 PINTYPE=OUT
+AP virtex:bufe4 7 PINTYPE=OUT
+AP virtex:bufe4 8 PINTYPE=OUT
+AP virtex:bufe4 9 PINTYPE=OUT
+|Q virtex:or2 1
+AS virtex:or2 DEVICE=OR
+AS virtex:or2 LEVEL=XILINX
+AS virtex:or2 LIBVER=2.0.0
+AS virtex:or2 PINORDER=I0 I1 O
+AP virtex:or2 1 PINTYPE=IN
+AP virtex:or2 2 PINTYPE=IN
+AP virtex:or2 3 PINTYPE=OUT
+|Q bufe5 1
+AS bufe5 LEVEL=MXILINX
+AS bufe5 LIBVER=2.0.0
+AS bufe5 @NAME=BUFE5
+AS bufe5 PINORDER=E I0 I1 I2 I3 I4 O0 O1 O2 O3 O4
+AP bufe5 1 PINTYPE=IN
+AP bufe5 2 PINTYPE=IN
+AP bufe5 3 PINTYPE=IN
+AP bufe5 4 PINTYPE=IN
+AP bufe5 5 PINTYPE=IN
+AP bufe5 6 PINTYPE=IN
+AP bufe5 7 PINTYPE=OUT
+AP bufe5 8 PINTYPE=OUT
+AP bufe5 9 PINTYPE=OUT
+AP bufe5 10 PINTYPE=OUT
+AP bufe5 11 PINTYPE=OUT
+|Q fd16 1
+AS fd16 LEVEL=MXILINX
+AS fd16 @NAME=FD16
+AS fd16 PINORDER=C D[15:0] Q[15:0]
+AP fd16 1 PINTYPE=IN
+AP fd16 2 PINTYPE=IN
+AP fd16 3 PINTYPE=OUT
+|Q virtex:bufe16 1
+AS virtex:bufe16 LEVEL=MXILINX
+AS virtex:bufe16 LIBVER=2.0.0
+AS virtex:bufe16 PINORDER=E I[15:0] O[15:0]
+AP virtex:bufe16 1 PINTYPE=IN
+AP virtex:bufe16 2 PINTYPE=IN
+AP virtex:bufe16 3 PINTYPE=OUT
+|Q virtex:bufe 1
+AS virtex:bufe LIBVER=2.0.0
+AS virtex:bufe DEVICE=TBUF
+AS virtex:bufe LEVEL=XILINX
+AS virtex:bufe PINORDER=E I O
+AP virtex:bufe 1 PINTYPE=IN
+AP virtex:bufe 2 PINTYPE=IN
+AP virtex:bufe 3 PINTYPE=TRI
+|Q virtex:fd 1
+AS virtex:fd @INIT=0
+AS virtex:fd DEVICE=DFF
+AS virtex:fd LIBVER=2.0.0
+AS virtex:fd LEVEL=XILINX
+AS virtex:fd PINORDER=C D Q
+AP virtex:fd 1 PINTYPE=IN
+AP virtex:fd 2 PINTYPE=IN
+AP virtex:fd 3 PINTYPE=OUT
+|Q virtex:opad16 1
+AS virtex:opad16 LEVEL=MXILINX
+AS virtex:opad16 LIBVER=2.0.0
+AS virtex:opad16 PINORDER=O[15:0]
+|Q 8bit0 1
+AS 8bit0 LEVEL=STD
+AS 8bit0 @NAME=8BIT0
+AS 8bit0 PINORDER=O[7:0]
+AP 8bit0 1 PINTYPE=OUT
+|Q obuf16_33 1
+AS obuf16_33 LEVEL=MXILINX
+AS obuf16_33 @NAME=OBUF16_33
+AS obuf16_33 PINORDER=I[15:0] O[15:0]
+AP obuf16_33 1 PINTYPE=IN
+AP obuf16_33 2 PINTYPE=CHIPTRI
+|Q virtex:opad 1
+AS virtex:opad LIBVER=2.0.0
+AS virtex:opad LEVEL=XILINX
+AS virtex:opad EXT=OPAD
+AS virtex:opad PINORDER=OPAD
+|Q virtex:obuf 1
+AS virtex:obuf LIBVER=2.0.0
+AS virtex:obuf LEVEL=XILINX
+AS virtex:obuf IOSTANDARD=LVCMOS25
+AS virtex:obuf SLEW=SLOW
+AS virtex:obuf DRIVE=12
+AS virtex:obuf PINORDER=I O
+AP virtex:obuf 1 PINTYPE=IN
+AP virtex:obuf 2 PINTYPE=CHIPTRI
+|Q nand4bus 1
+AS nand4bus LEVEL=MXILINX
+AS nand4bus @NAME=NAND4
+AS nand4bus PINORDER=I[3:0] O
+AP nand4bus 1 PINTYPE=IN
+AP nand4bus 2 PINTYPE=OUT
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+|Q fd15ce 1
+AS fd15ce LEVEL=MXILINX
+AS fd15ce @NAME=FD15CE
+AS fd15ce PINORDER=C CE CLR D[14:0] Q[14:0]
+AP fd15ce 1 PINTYPE=IN
+AP fd15ce 2 PINTYPE=IN
+AP fd15ce 3 PINTYPE=IN
+AP fd15ce 4 PINTYPE=IN
+AP fd15ce 5 PINTYPE=OUT
+AN ~IDMB_FULL[3:0] VLBUSISONSHEET=4
+AN L1_[15:0] VLBUSISONSHEET=4
+AN LA1_[15:0] VLBUSISONSHEET=4
+AN L1AN[31:0] VLBUSISONSHEET=4
+AN L1AN[23:0] VLBUSISONSHEET=4
+AN L1AN[31:24] VLBUSISONSHEET=4
+AN L1AN[15:0] VLBUSISONSHEET=4
+AN L1AN[31:16] VLBUSISONSHEET=4
+AN LA1_[15:0] VLBUSISONSHEET=4
+AN LA0_[15:0] VLBUSISONSHEET=4
+AN LA0_[15:0] VLBUSISONSHEET=4
+AN LA0_[15:0] VLBUSISONSHEET=4
+AN OSTAT[15:0] VLBUSISONSHEET=4
+AN ERC[15:0] VLBUSISONSHEET=4
+AN S2OUT[17:2] VLBUSISONSHEET=4
+AN S3OUT[17:2] VLBUSISONSHEET=4
+AN DERA[15:0] VLBUSISONSHEET=4
+AN ERA[15:0] VLBUSISONSHEET=4
+AN DDXMIT_ERR[15:0] VLBUSISONSHEET=4
+AN DDCRC[15:0] VLBUSISONSHEET=4
+AN DCRC[15:0] VLBUSISONSHEET=4
+AN LCRC[14:0] VLBUSISONSHEET=4
+AN LCRC[15:0] VLBUSISONSHEET=4
+AN DERC[15:0] VLBUSISONSHEET=4
+AN DDERC[15:0] VLBUSISONSHEET=4
+AN DDERB[15:0] VLBUSISONSHEET=4
+AN DERB[15:0] VLBUSISONSHEET=4
+AN DDERA[15:0] VLBUSISONSHEET=4
+AN DXMIT_ERR[15:0] VLBUSISONSHEET=4
+AN ERB[15:0] VLBUSISONSHEET=4
+AN ERB[15:0] VLBUSISONSHEET=4
+AN XMIT_ERR[15:0] VLBUSISONSHEET=4
+AN XMIT_ERR[14:0] VLBUSISONSHEET=4
+AN CRC[14:0] VLBUSISONSHEET=4
+AN LA1_[15:0] VLBUSISONSHEET=4
+AN LA0_[15:0] VLBUSISONSHEET=4
+AN LA1_[15:0] VLBUSISONSHEET=4
+AN ERA[15:0] VLBUSISONSHEET=4
+W virtex:buf $4I4658
+I $4I4658 virtex:buf ~DAQ_READY_E OSTAT0 
+W virtex2p:and3b1 $4I4634
+I $4I4634 virtex2p:and3b1 SPWD_ERROR L_IDMB_FULL DMB_FULL REAL_DMB_FULL 
+W virtex:vcc $4I4596
+I $4I4596 virtex:vcc $4N4592 
+W virtex:gnd $4I4597
+I $4I4597 virtex:gnd $4N4591 
+W virtex:sr4ce $4I4598
+I $4I4598 virtex:sr4ce CLK $4N4592 $4N4591 ? ? D3CHECK_CRC ? CHECK_CRC 
+W virtex:vcc $4I4599
+I $4I4599 virtex:vcc $4N4589 
+W virtex:gnd $4I4600
+I $4I4600 virtex:gnd $4N4587 
+W virtex:sr4ce $4I4601
+I $4I4601 virtex:sr4ce CLK $4N4589 $4N4587 D2CRC_OK ? ? ? CRC_OK 
+W virtex:inv $4I4546
+I $4I4546 virtex:inv ~P_RST LD116 
+W virtex:bufe4 $4I4541
+I $4I4541 virtex:bufe4 LED_MODE11 LD110 LD111 LD112 LD113 ~LED0 ~LED1 ~LED2 ~LED3 
+W virtex:inv $4I4540
+I $4I4540 virtex:inv SOFTRST LD110 
+W virtex:or2 $4I4527
+I $4I4527 virtex:or2 LED_MODE5 LED_MODE4 EN_ERR 
+W virtex:inv $4I4482
+I $4I4482 virtex:inv LSLINK_READY OSTAT12 
+W virtex:inv $4I4483
+I $4I4483 virtex:inv ~LOFIFO_MT OSTAT9 
+W virtex:buf $4I4484
+I $4I4484 virtex:buf GBIT_OVFL OSTAT11 
+W virtex:buf $4I4485
+I $4I4485 virtex:buf LETH_XLIM OSTAT10 
+W virtex:buf $4I4486
+I $4I4486 virtex:buf LOFIBER_ERR OSTAT8 
+W virtex:buf $4I4487
+I $4I4487 virtex:buf LLFF OSTAT13 
+W virtex:buf $4I4488
+I $4I4488 virtex:buf LDAQ_WAIT OSTAT14 
+W virtex:buf $4I4489
+I $4I4489 virtex:buf BUFF_OVFL OSTAT15 
+W virtex:buf $4I4490
+I $4I4490 virtex:buf DAQ_OVFL OSTAT7 
+W virtex:buf $4I4491
+I $4I4491 virtex:buf DAQ_WAIT_E OSTAT6 
+W virtex:buf $4I4492
+I $4I4492 virtex:buf LFF OSTAT5 
+W virtex:buf $4I4495
+I $4I4495 virtex:buf ~SPY_EVT OSTAT2 
+W virtex:buf $4I4496
+I $4I4496 virtex:buf FF+1 OSTAT3 
+W virtex:inv $4I4408
+I $4I4408 virtex:inv DLWC_LD LD142 
+W bufe5 $4I4409
+I $4I4409 bufe5 LED_MODE14 LD141 LD142 LD143 LD144 LD145 ~LED1 ~LED2 ~LED3 ~LED4 ~LED5 
+W virtex:inv $4I4411
+I $4I4411 virtex:inv DGOLDDAT LD145 
+W virtex:inv $4I4412
+I $4I4412 virtex:inv DLTRG_TRAIL LD143 
+W virtex:inv $4I4413
+I $4I4413 virtex:inv DLSECOND_HDR LD144 
+W virtex:inv $4I4422
+I $4I4422 virtex:inv DRST_LWC LD141 
+W virtex:inv $4I4387
+I $4I4387 virtex:inv RST_LWC LD61 
+W virtex:inv $4I4333
+I $4I4333 virtex:inv LTRG_TRAIL LD64 
+W virtex:inv $4I4336
+I $4I4336 virtex:inv D2GOODFW LD63 
+W virtex:inv $4I4337
+I $4I4337 virtex:inv TRG_TRAIL_DONE LD65 
+W virtex:inv $4I4258
+I $4I4258 virtex:inv RST LD112 
+W virtex:inv $4I4259
+I $4I4259 virtex:inv EVCNTRST LD113 
+W virtex:buf $4I3995
+I $4I3995 virtex:buf PAF_ERR ERA11 
+W virtex:buf $4I3996
+I $4I3996 virtex:buf PAF ERA12 
+W virtex:buf $4I3997
+I $4I3997 virtex:buf L1A_WARN ERA13 
+W virtex:buf $4I3993
+I $4I3993 virtex:buf LTF_ERR ERA1 
+W virtex:buf $4I3982
+I $4I3982 virtex:buf LDDU_DLL_ERR ERB13 
+W virtex:buf $4I3983
+I $4I3983 virtex:buf 2ND_HDR_1ST ERB12 
+W virtex:buf $4I3959
+I $4I3959 virtex:buf XTRA_1ST_TR ERB10 
+W virtex:buf $4I3958
+I $4I3958 virtex:buf XTRA_1ST_HDR ERB9 
+W virtex:buf $4I3957
+I $4I3957 virtex:buf XTRA_2ND_HDR ERB8 
+W virtex:buf $4I3956
+I $4I3956 virtex:buf LSCA_OVFL ERB7 
+W virtex:buf $4I3955
+I $4I3955 virtex:buf L_IDMB_FULL ERB6 
+W virtex:buf $4I3954
+I $4I3954 virtex:buf LLONE_WORD ERB5 
+W virtex:buf $4I3953
+I $4I3953 virtex:buf BAD_CTRL_WORD ERB4 
+W virtex:buf $4I3952
+I $4I3952 virtex:buf BAD_TRG_TR ERB3 
+W virtex:buf $4I3951
+I $4I3951 virtex:buf FIRSTDAT_ERR ERB2 
+W virtex:buf $4I3922
+I $4I3922 virtex:buf IN_SING_WARN ERA10 
+W virtex:buf $4I3950
+I $4I3950 virtex:buf BAD_FW ERB1 
+W virtex:buf $4I3961
+I $4I3961 virtex:buf TRG_ERR ERA5 
+W virtex:buf $4I3960
+I $4I3960 virtex:buf BAD_2ND_TR ERB11 
+W virtex:buf $4I3962
+I $4I3962 virtex:buf TRG_TRAIL_DONE ERA4 
+W virtex:buf $4I3931
+I $4I3931 virtex:buf CRC_ERR ERA6 
+W virtex:buf $4I3990
+I $4I3990 virtex:buf CRC_END_ERR ERA8 
+W virtex:buf $4I3989
+I $4I3989 virtex:buf CRC_CNT_ERR ERA7 
+W virtex:buf $4I3977
+I $4I3977 virtex:buf DMB_ERR ERB14 
+W fd16 $4I3703
+I $4I3703 fd16 CLK ERA[15:0] DERA[15:0] 
+W fd16 $4I3702
+I $4I3702 fd16 CLK DERA[15:0] DDERA[15:0] 
+W fd16 $4I3898
+I $4I3898 fd16 CLK DERB[15:0] DDERB[15:0] 
+W fd16 $4I3907
+I $4I3907 fd16 CLK DERC[15:0] DDERC[15:0] 
+W fd16 $4I3908
+I $4I3908 fd16 CLK ERC[15:0] DERC[15:0] 
+W fd16 $4I3897
+I $4I3897 fd16 CLK ERB[15:0] DERB[15:0] 
+W virtex:inv $4I4020
+I $4I4020 virtex:inv DCRC_CNT_ERR ~DCRC_CNT_ERR 
+W virtex:bufe16 $4I3896
+I $4I3896 virtex:bufe16 EN_ERR DDERB[15:0] LA1_[15:0] 
+W virtex:bufe16 $4I3710
+I $4I3710 virtex:bufe16 EN_ERR DDERA[15:0] LA0_[15:0] 
+W virtex:bufe16 $4I3906
+I $4I3906 virtex:bufe16 EN_TRGERR DDERC[15:0] LA0_[15:0] 
+W virtex:bufe $4I3683
+I $4I3683 virtex:bufe EN_ERR_CRC CLK LA0_17 
+W virtex:bufe $4I3684
+I $4I3684 virtex:bufe EN_ERR_CRC ~DCRC_CNT_ERR LA0_16 
+W virtex:bufe $4I3698
+I $4I3698 virtex:bufe LED_MODE4 CLK LA0_17 
+W virtex:bufe $4I3697
+I $4I3697 virtex:bufe LED_MODE4 ~BAD_TRIG LA0_16 
+W virtex:fd $4I4030
+I $4I4030 virtex:fd CLK SOMETHING_BAD BAD_TRIG 
+W fd16 $4I4134
+I $4I4134 fd16 CLK XMIT_ERR[15:0] DXMIT_ERR[15:0] 
+W fd16 $4I4138
+I $4I4138 fd16 CLK DXMIT_ERR[15:0] DDXMIT_ERR[15:0] 
+W virtex:bufe16 $4I4137
+I $4I4137 virtex:bufe16 EN_TRGERR DDXMIT_ERR[15:0] LA1_[15:0] 
+W virtex:bufe16 $4I4300
+I $4I4300 virtex:bufe16 LED_MODE0 S2OUT[17:2] LA0_[15:0] 
+W virtex:bufe16 $4I4307
+I $4I4307 virtex:bufe16 LED_MODE0 S3OUT[17:2] LA1_[15:0] 
+W fd16 $4I4301
+I $4I4301 fd16 CLK L1AN[15:0] S2OUT[17:2] 
+W fd16 $4I4306
+I $4I4306 fd16 CLK L1AN[31:16] S3OUT[17:2] 
+W bufe5 $4I4338
+I $4I4338 bufe5 LED_MODE6 LD61 LD62 LD63 LD64 LD65 ~LED1 ~LED2 ~LED3 ~LED4 ~LED5 
+W virtex:inv $4I4381
+I $4I4381 virtex:inv CRC_OK ERA9 
+W virtex:inv $4I4335
+I $4I4335 virtex:inv TRG_ERR LD62 
+W virtex:buf $4I3976
+I $4I3976 virtex:buf LOST_IN_EVENT ERB15 
+W virtex:buf $4I3916
+I $4I3916 virtex:buf VALID_DMB_FULL ERB0 
+W virtex:inv $4I4033
+I $4I4033 virtex:inv BAD_TRIG ~BAD_TRIG 
+W virtex:sr4ce $4I4185
+I $4I4185 virtex:sr4ce CLK $4N4180 RST ? DDREN_TRUE ? ? REN_TRUE 
+W virtex:vcc $4I4184
+I $4I4184 virtex:vcc $4N4180 
+W virtex:vcc $4I4206
+I $4I4206 virtex:vcc $4N4208 
+W virtex:sr4ce $4I4207
+I $4I4207 virtex:sr4ce CLK $4N4208 RST ? DDGOODLW ? ? GOODLW 
+W virtex:gnd $4I4520
+I $4I4520 virtex:gnd XMIT_ERR15 
+W virtex:or2 $4I4425
+I $4I4425 virtex:or2 LED_MODE14 LED_MODE6 EN_TRGERR 
+W virtex:fd $4I4401
+I $4I4401 virtex:fd CLK GOLDDAT DGOLDDAT 
+W virtex:opad16 $4I4088
+I $4I4088 virtex:opad16 L1_[15:0] 
+W virtex:inv $4I4257
+I $4I4257 virtex:inv INMT0 LD111 
+W virtex:bufe4 $4I4535
+I $4I4535 virtex:bufe4 LED_MODE11 LD114 LD115 LD116 LD117 ~LED4 ~LED5 ~LED6 ~LED7 
+W virtex:inv $4I4260
+I $4I4260 virtex:inv L1A LD114 
+W virtex:inv $4I4261
+I $4I4261 virtex:inv BC0 LD115 
+W virtex:inv $4I4548
+I $4I4548 virtex:inv ~M_RST LD117 
+W 8bit0 $4I4317
+I $4I4317 8bit0 L1AN[31:24] 
+W obuf16_33 $4I4583
+I $4I4583 obuf16_33 LA1_[15:0] L1_[15:0] 
+W virtex:opad $4I4113
+I $4I4113 virtex:opad L1_17 
+W virtex:opad $4I4105
+I $4I4105 virtex:opad L1_16 
+W virtex:obuf $4I4581
+I $4I4581 virtex:obuf LA1_16 L1_16 IOSTANDARD=LVCMOS33`
+W virtex:obuf $4I4582
+I $4I4582 virtex:obuf SCLK L1_17 IOSTANDARD=LVCMOS33`
+W virtex:inv $4I4497
+I $4I4497 virtex:inv SLINK_READY OSTAT4 
+W virtex:vcc $4I4192
+I $4I4192 virtex:vcc $4N4195 
+W virtex:sr4ce $4I4191
+I $4I4191 virtex:sr4ce CLK $4N4195 RST ? ? ~DDRENOE-0 ? ~RENOE-0 
+W virtex:vcc $4I3849
+I $4I3849 virtex:vcc $4N3854 
+W virtex:sr4ce $4I3852
+I $4I3852 virtex:sr4ce CLK $4N3854 $4N3853 ? DCRC_CNT_ERR ? ? CRC_CNT_ERR 
+W virtex:gnd $4I3850
+I $4I3850 virtex:gnd $4N3853 
+W nand4bus $4I4612
+I $4I4612 nand4bus ~IDMB_FULL[3:0] L_IDMB_FULL-1 
+W virtex:buf $4I3923
+I $4I3923 virtex:buf START_TIMEOUT ERA3 
+W virtex:buf $4I3994
+I $4I3994 virtex:buf END_TIMEOUT ERA2 
+W virtex:buf $4I3921
+I $4I3921 virtex:buf LTF_SIG ERA0 
+W virtex:fd $4I4393
+I $4I4393 virtex:fd CLK LTRG_TRAIL DLTRG_TRAIL 
+W virtex:fd $4I4360
+I $4I4360 virtex:fd CLK LGOODFW D2GOODFW 
+W virtex:fd $4I4390
+I $4I4390 virtex:fd CLK LSECOND_HDR DLSECOND_HDR 
+W virtex:fdce $4I4615
+I $4I4615 virtex:fdce CLK L_IDMB_FULL-1 RST L_IDMB_FULL-1 L_IDMB_FULL 
+W virtex:fdce $4I4636
+I $4I4636 virtex:fdce CLK REAL_DMB_FULL RST REAL_DMB_FULL VALID_DMB_FULL 
+W virtex:inv $4I4571
+I $4I4571 virtex:inv EN_WENOUT ~EN_WENOUT 
+W virtex:bufe $4I4575
+I $4I4575 virtex:bufe EN_WENOUT D2WEN LA1_16 
+W virtex:bufe $4I4555
+I $4I4555 virtex:bufe ~EN_WENOUT SI LA1_16 
+W virtex:fdce $4I4645
+I $4I4645 virtex:fdce CLK DMB_TIMEOUT RST DMB_TIMEOUT LDMB_TIMEOUT 
+W virtex:or2 $4I4123
+I $4I4123 virtex:or2 LED_MODE7 LED_MODE6 EN_ERR_CRC 
+W virtex:buf $4I4000
+I $4I4000 virtex:buf MULT_L1A_ERR ERA14 
+W virtex:bufe16 $4I4065
+I $4I4065 virtex:bufe16 LED_MODE7 DDCRC[15:0] LA0_[15:0] 
+W fd16 $4I4072
+I $4I4072 fd16 CLK DCRC[15:0] DDCRC[15:0] 
+W fd16 $4I4071
+I $4I4071 fd16 CLK LCRC[15:0] DCRC[15:0] 
+W virtex:gnd $4I4066
+I $4I4066 virtex:gnd LCRC15 
+W fd15ce $4I4069
+I $4I4069 fd15ce CLK $4N4057 $4N4055 CRC[14:0] LCRC[14:0] 
+W virtex:gnd $4I4068
+I $4I4068 virtex:gnd $4N4055 
+W virtex:vcc $4I4067
+I $4I4067 virtex:vcc $4N4057 
+W virtex:or2 $4I4650
+I $4I4650 virtex:or2 LDMB_TIMEOUT DMB_TIMEOUT ERA15 
+W virtex:fdce $4I4534
+I $4I4534 virtex:fdce CLK 64BIT_ERROR RST 64BIT_ERROR L64BIT_ERR 
+W virtex:buf $4I4494
+I $4I4494 virtex:buf ~OFIFO_MT OSTAT1 
+EW
+| Sch_Warning - Pin/Net disassociation at location (1170,515).
+| Sch_Warning - Pin/Net disassociation at location (1210,100).
+| Sch_Warning - Pin/Net disassociation at location (945,100).
+| Sch_Warning - Pin/Net disassociation at location (1155,225).
+| Sch_Warning - Pin/Net disassociation at location (1095,590).
+| Sch_Warning - Pin/Net disassociation at location (835,335).
+| Sch_Warning - Pin/Net disassociation at location (900,220).
+| Sch_Warning - Pin/Net disassociation at location (1075,340).
+| Sch_Warning - Pin/Net disassociation at location (60,120).
+| Sch_Warning - Pin/Net disassociation at location (200,125).
+| Sch_Warning - Pin/Net disassociation at location (910,890).
+| Sch_Warning - Pin/Net disassociation at location (1405,800).
+| Sch_Warning - Pin/Net disassociation at location (1535,310).
+| Sch_Warning - Pin/Net disassociation at location (1380,990).
+| Sch_Warning - Pin/Net disassociation at location (1055,375).
+| Sch_Warning - Pin/Net disassociation at location (485,575).
+| Sch_Warning - Pin/Net disassociation at location (485,615).
+| Sch_Warning - Pin/Net disassociation at location (105,195).

@@ -1,0 +1,1006 @@
+Release 9.2.02i par J.38
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+USCMSOSU2::  Thu Sep 04 11:00:04 2008
+
+par -w -intstyle ise -ol high -t 1 0DDUCTRL_map.ncd 0DDUCTRL.ncd 0DDUCTRL.pcf 
+
+
+Constraints file: 0DDUCTRL.pcf.
+Loading device for application Rf_Device from file '2vp7.nph' in environment C:\Xilinx92i.
+   "0DDUCTRL" is an NCD, version 3.1, device xc2vp7, package ff672, speed -6
+
+Initializing temperature to 85.000 Celsius. (default - Range: -40.000 to 100.000 Celsius)
+Initializing voltage to 1.400 Volts. (default - Range: 1.400 to 1.600 Volts)
+
+INFO:Timing:2802 - Read 199 constraints.  If you are experiencing memory or runtime issues it may help to consolidate
+   some of these constraints.  For more details please see solution 10784 at support.xilinx.com
+WARNING:Timing:3232 - Timing Constraint 
+   "PERIOD analysis for net "$1I135/GCK156" derived from
+    NET "$1I135/CKFB" PERIOD = 11.6 ns HIGH 50%;
+    divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+   "
+    fails the minimum period check for clock $1I135/2CLK because the period constraint value (5800 ps) is less than the
+   minimum internal period limit of 6274 ps.   Please increase the period of the constraint to remove this timing
+   failure.
+WARNING:Timing:3232 - Timing Constraint 
+   "PERIOD analysis for net "$1I135/GCK156" derived from
+    NET "$1I135/CKFB" PERIOD = 11.6 ns HIGH 50%;
+    divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+   "
+    fails the minimum period check for clock $1I135/2CLK because the period constraint value (5800 ps) is less than the
+   minimum internal period limit of 6274 ps.   Please increase the period of the constraint to remove this timing
+   failure.
+WARNING:Timing:3232 - Timing Constraint 
+   "PERIOD analysis for net "$1I135/GCK156" derived from
+    NET "$1I135/CKFB" PERIOD = 11.6 ns HIGH 50%;
+    divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+   "
+    fails the minimum period check for clock $1I135/2CLK because the period constraint value (5800 ps) is less than the
+   minimum internal period limit of 6274 ps.   Please increase the period of the constraint to remove this timing
+   failure.
+WARNING:Timing:3232 - Timing Constraint 
+   "PERIOD analysis for net "$1I135/GCK156" derived from
+    NET "$1I135/CKFB" PERIOD = 11.6 ns HIGH 50%;
+    divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+   "
+    fails the minimum period check for clock $1I135/2CLK because the period constraint value (5800 ps) is less than the
+   minimum internal period limit of 6274 ps.   Please increase the period of the constraint to remove this timing
+   failure.
+
+Device speed data version:  "PRODUCTION 1.93 2007-04-13".
+
+
+Device Utilization Summary:
+
+   Number of BSCANs                          1 out of 1     100%
+   Number of BUFGMUXs                        9 out of 16     56%
+      Number of LOCed BUFGMUXs               9 out of 9     100%
+
+   Number of DCMs                            3 out of 4      75%
+   Number of External DIFFMs                 1 out of 198     1%
+      Number of LOCed DIFFMs                 1 out of 1     100%
+
+   Number of External DIFFSs                 1 out of 198     1%
+      Number of LOCed DIFFSs                 1 out of 1     100%
+
+   Number of GTs                             3 out of 8      37%
+   Number of External GTIPADs                6 out of 16     37%
+      Number of LOCed GTIPADs                6 out of 6     100%
+
+   Number of External GTOPADs                6 out of 16     37%
+      Number of LOCed GTOPADs                6 out of 6     100%
+
+   Number of External IOBs                 354 out of 396    89%
+      Number of LOCed IOBs                 354 out of 354   100%
+
+   Number of RAMB16s                         3 out of 44      6%
+   Number of SLICEs                       2917 out of 4928   59%
+      Number of LOCed SLICEs                 2 out of 2917    1%
+
+   Number of TBUFs                        1397 out of 2464   56%
+
+
+Overall effort level (-ol):   High 
+Placer effort level (-pl):    High 
+Placer cost table entry (-t): 1
+Router effort level (-rl):    High 
+
+Starting initial Timing Analysis.  REAL time: 21 secs 
+Finished initial Timing Analysis.  REAL time: 21 secs 
+
+
+Starting Placer
+
+Phase 1.1
+WARNING:Place:333 - Structured logic associated with a carry chain can not be placed in the recommended relative
+   placement form due to placement constraints. A sub optimial placement will be performed.  You may wish to verify that
+   the sub-optimal placement will be satisfactory.
+
+
+   The following components are involved in this logic:
+     SLICE $1I135/$1I3030/$11I2899/Q0
+     SLICE $1I135/$1I3030/$11I2899/Q2
+     SLICE $1I135/$1I3030/$11I2899/Q4
+     SLICE $1I135/$1I3030/$11I2899/Q6
+     SLICE $1I135/$1I3030/$11I2899/Q8
+
+   This situation can be resolved by fixing at least one of the following 2 issues:
+   The component $1I135/$1I3030/$11I2899/Q2 is already contained in an RPM that will not allow the logic to be placed in
+   this relative form.  
+
+   The component $1I135/$1I3030/$11I2899/Q4 is already contained in an RPM that will not allow the logic to be placed in
+   this relative form.  
+
+
+Phase 1.1 (Checksum:9af375) REAL time: 30 secs 
+
+Phase 2.7
+Phase 2.7 (Checksum:1312cfe) REAL time: 30 secs 
+
+Phase 3.31
+Phase 3.31 (Checksum:1c9c37d) REAL time: 30 secs 
+
+Phase 4.2
+WARNING:Place:83 - This design either uses more than 8 clock buffers or has clock buffers locked into primary and
+   secondary sites. Since only one clock buffer output signal from a primary / secondary pair may enter any clock region
+   it is necessary to partition the clock logic being driven by these clocks into different clock regions. It may be
+   possible through Floorplanning all or just part of the logic being driven by the Global clocks to achieve a legal
+   placement for this design..........
+......
+Phase 4.2 (Checksum:989693) REAL time: 42 secs 
+
+Phase 5.30
+Phase 5.30 (Checksum:2faf07b) REAL time: 42 secs 
+
+Phase 6.3
+Phase 6.3 (Checksum:39386fa) REAL time: 42 secs 
+
+Phase 7.5
+Phase 7.5 (Checksum:42c1d79) REAL time: 42 secs 
+
+Phase 8.8
+.................
+........
+.....................
+..................
+...................
+.......
+Phase 8.8 (Checksum:cdcc10) REAL time: 1 mins 13 secs 
+
+Phase 9.5
+Phase 9.5 (Checksum:55d4a77) REAL time: 1 mins 13 secs 
+
+Phase 10.18
+Phase 10.18 (Checksum:5f5e0f6) REAL time: 1 mins 44 secs 
+
+Phase 11.5
+Phase 11.5 (Checksum:68e7775) REAL time: 1 mins 44 secs 
+
+Phase 12.27
+Phase 12.27 (Checksum:7270df4) REAL time: 1 mins 47 secs 
+
+Phase 13.24
+Phase 13.24 (Checksum:7bfa473) REAL time: 1 mins 49 secs 
+
+REAL time consumed by placer: 1 mins 53 secs 
+CPU  time consumed by placer: 1 mins 46 secs 
+Writing design to file 0DDUCTRL.ncd
+
+
+Total REAL time to Placer completion: 1 mins 56 secs 
+Total CPU time to Placer completion: 1 mins 48 secs 
+
+Starting Router
+
+Phase 1: 22343 unrouted;       REAL time: 2 mins 4 secs 
+
+Phase 2: 18287 unrouted;       REAL time: 2 mins 9 secs 
+
+Phase 3: 4461 unrouted;       REAL time: 2 mins 21 secs 
+
+Phase 4: 4461 unrouted; (125317)      REAL time: 2 mins 22 secs 
+
+Phase 5: 4506 unrouted; (110560)      REAL time: 2 mins 29 secs 
+
+Phase 6: 4522 unrouted; (109766)      REAL time: 2 mins 29 secs 
+
+Phase 7: 4522 unrouted; (109766)      REAL time: 2 mins 40 secs 
+
+Phase 8: 0 unrouted; (102679)      REAL time: 2 mins 57 secs 
+
+Phase 9: 0 unrouted; (102679)      REAL time: 3 mins 2 secs 
+
+Updating file: 0DDUCTRL.ncd with current fully routed design.
+
+Phase 10: 0 unrouted; (102679)      REAL time: 3 mins 31 secs 
+
+WARNING:Route:466 - Unusually high hold time violation detected among 40 connections. The top 20 such instances are
+   printed below. The router will continue and try to fix it
+	$1I135/FKILL9:XQ -> $1I135/LOADKILLF9:F2 -5361
+	$1I135/FKILL9:YQ -> $1I135/LOADKILLF9:G2 -5306
+	$1I135/FKILL11:XQ -> $1I135/LOADKILLF11:F2 -5288
+	$1I135/FKILL17:YQ -> $1I135/LOADKILLF17:G2 -5216
+	$1I135/FKILL11:YQ -> $1I135/LOADKILLF11:G2 -5202
+	$1I135/FKILL13:YQ -> $1I135/LOADKILLF13:G2 -5171
+	$1I135/FKILL13:XQ -> $1I135/LOADKILLF13:F2 -5073
+	$1I135/FKILL3:XQ -> $1I135/LOADKILLF3:F2 -5060
+	$1I135/FKILL15:YQ -> $1I135/LOADKILLF15:G2 -5038
+	$1I135/FKILL18:YQ -> $1I135/LOADKILLF19:G2 -5028
+	$1I135/FKILL19:XQ -> $1I135/LOADKILLF19:F2 -5023
+	$1I135/FKILL1:XQ -> $1I135/LOADKILLF1:F2 -5017
+	$1I135/FKILL17:XQ -> $1I135/LOADKILLF17:F2 -5003
+	$1I135/FKILL3:YQ -> $1I135/LOADKILLF3:G2 -4998
+	$1I135/FKILL1:YQ -> $1I135/LOADKILLF1:G2 -4931
+	$1I135/FKILL7:XQ -> $1I135/LOADKILLF7:F2 -4849
+	$1I135/FKILL5:XQ -> $1I135/LOADKILLF5:F2 -4773
+	$1I135/FKILL5:YQ -> $1I135/LOADKILLF5:G2 -4752
+	$1I135/FKILL15:XQ -> $1I135/LOADKILLF15:F2 -4652
+	$1I135/FKILL7:YQ -> $1I135/LOADKILLF7:G2 -4427
+
+Phase 11: 0 unrouted; (7141)      REAL time: 10 mins 6 secs 
+
+Phase 12: 0 unrouted; (7141)      REAL time: 10 mins 8 secs 
+
+WARNING:Route:455 - CLK Net:$1I135/SCLK may have excessive skew because 
+      0 CLK pins and 2 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/CLK40 may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/$1I3030/SEL2 may have excessive skew because 
+      0 CLK pins and 41 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/CK125 may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/CLK625 may have excessive skew because 
+      0 CLK pins and 3 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/ETH_LIM may have excessive skew because 
+      1 CLK pins and 2 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/$1I3030/UPDATE may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/$1I3030/DRCK2 may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/$1I3030/DRCK1 may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/DDU_DLL_LOCK may have excessive skew because 
+      0 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/DLL_LOCK3 may have excessive skew because 
+      1 CLK pins and 5 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/$7I1330/$1I3366/RRST2 may have excessive skew because 
+      1 CLK pins and 6 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/CLK may have excessive skew because 
+      0 CLK pins and 6 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/FBLINK may have excessive skew because 
+      1 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+WARNING:Route:455 - CLK Net:$1I135/BCLK may have excessive skew because 
+      1 CLK pins and 1 NON_CLK pins failed to route using a CLK template.
+
+Total REAL time to Router completion: 10 mins 12 secs 
+Total CPU time to Router completion: 9 mins 31 secs 
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Generating "PAR" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++---------------------+--------------+------+------+------------+-------------+
+|        Clock Net    |   Resource   |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++---------------------+--------------+------+------+------------+-------------+
+|         $1I135/SCLK |     BUFGMUX6S|Yes   |   75 |  0.133     |  1.291      |
++---------------------+--------------+------+------+------------+-------------+
+|        $1I135/CLK40 |     BUFGMUX3P|Yes   |  137 |  0.159     |  1.304      |
++---------------------+--------------+------+------+------------+-------------+
+|        $1I135/CK125 |     BUFGMUX0S|Yes   |  159 |  0.114     |  1.285      |
++---------------------+--------------+------+------+------------+-------------+
+|       $1I135/CLK625 |     BUFGMUX2S|Yes   |  112 |  0.753     |  1.895      |
++---------------------+--------------+------+------+------------+-------------+
+|$1I135/$1I3030/DRCK2 |              |      |      |            |             |
+|                     |     BUFGMUX5S|Yes   |  360 |  0.172     |  1.309      |
++---------------------+--------------+------+------+------------+-------------+
+|$1I135/$1I3030/DRCK1 |              |      |      |            |             |
+|                     |     BUFGMUX4P|Yes   |    6 |  0.008     |  1.182      |
++---------------------+--------------+------+------+------------+-------------+
+|       $1I135/CLK156 |     BUFGMUX4S|Yes   |    7 |  0.131     |  1.309      |
++---------------------+--------------+------+------+------------+-------------+
+|          $1I135/CLK |     BUFGMUX7S|Yes   | 1593 |  0.722     |  1.859      |
++---------------------+--------------+------+------+------------+-------------+
+|         $1I135/2CLK |     BUFGMUX1S|Yes   |   52 |  0.616     |  1.859      |
++---------------------+--------------+------+------+------------+-------------+
+|       $1I135/FBLINK |         Local|      |    2 |  0.000     |  1.998      |
++---------------------+--------------+------+------+------------+-------------+
+| $1I135/$1I3030/SEL2 |         Local|      |   46 |  0.012     |  2.789      |
++---------------------+--------------+------+------+------------+-------------+
+|      $1I135/ETH_LIM |         Local|      |    3 |  0.000     |  0.861      |
++---------------------+--------------+------+------+------------+-------------+
+|  $1I135/$1I3030/F31 |         Local|      |    1 |  0.000     |  1.173      |
++---------------------+--------------+------+------+------------+-------------+
+|$1I135/$1I3030/UPDAT |              |      |      |            |             |
+|                   E |         Local|      |   12 |  0.201     |  2.733      |
++---------------------+--------------+------+------+------------+-------------+
+|        $1I135/CK625 |         Local|      |    2 |  0.000     |  4.000      |
++---------------------+--------------+------+------+------------+-------------+
+|      $1I135/CKIN156 |         Local|      |    3 |  0.000     |  0.233      |
++---------------------+--------------+------+------+------------+-------------+
+| $1I135/DDU_DLL_LOCK |         Local|      |    6 |  0.147     |  2.559      |
++---------------------+--------------+------+------+------------+-------------+
+|    $1I135/DLL_LOCK3 |         Local|      |    6 |  0.000     |  2.986      |
++---------------------+--------------+------+------+------------+-------------+
+|         $1I135/BCLK |         Local|      |    2 |  0.000     |  2.092      |
++---------------------+--------------+------+------+------------+-------------+
+|$1I135/$7I1330/$1I33 |              |      |      |            |             |
+|            66/RRST2 |         Local|      |    7 |  0.000     |  0.893      |
++---------------------+--------------+------+------+------------+-------------+
+|$1I135/$1I3030/$5I25 |              |      |      |            |             |
+|             21/LOAD |         Local|      |   10 |  0.104     |  2.526      |
++---------------------+--------------+------+------+------------+-------------+
+
+* Net Skew is the difference between the minimum and maximum routing
+only delays for the net. Note this is different from Clock Skew which
+is reported in TRCE timing report. Clock Skew is the difference between
+the minimum and maximum path delays which includes logic delays.
+
+
+   The Delay Summary Report
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        1.504
+   The MAXIMUM PIN DELAY IS:                               8.580
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   7.834
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 2.00   < d < 4.00  < d < 6.00  < d < 8.00  < d < 9.00  d >= 9.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+       18637        5363         551         127          11           0
+
+Timing Score: 7141
+
+WARNING:Par:62 - Your design did not meet timing.  The following are some suggestions to assist you to meet timing in
+   your design.
+
+      Review the timing report using Timing Analyzer (In ISE select "Post-Place &
+      Route Static Timing Report").  Go to the failing constraint(s) and select
+      the "Timing Improvement Wizard" link for suggestions to correct each problem.
+
+   Rerun Map with "-timing" (ISE process "Perform Timing -Driven
+   Packing and Placement"
+
+   Run Multi-Pass Place and Route in PAR using at least 5 "PAR Iterations"
+   (ISE process "Multi Pass Place & Route").
+
+   Use the Xilinx "xplorer" script to try special combinations of
+   options known to produce very good results.
+   See http://www.xilinx.com/ise/implementation/Xplorer.htm for details.
+
+   Visit the Xilinx technical support web at http://support.xilinx.com and go to
+   either "Troubleshoot->Tech Tips->Timing & Constraints" or "
+   TechXclusives->Timing Closure" for tips and suggestions for meeting timing
+   in your design.
+
+INFO:Timing:3284 - This timing report was generated using estimated delay 
+   information.  For accurate numbers, please refer to the post Place and Route 
+   timing report.
+Number of Timing Constraints that were not applied: 4
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+------------------------------------------------------------------------------------------------------
+  Constraint                                |  Check  | Worst Case |  Best Case | Timing |   Timing   
+                                            |         |    Slack   | Achievable | Errors |    Score   
+------------------------------------------------------------------------------------------------------
+* NET "$1I135/RAWSCLK" PERIOD = 75 ns HIGH  | SETUP   |    64.838ns|    10.162ns|       0|           0
+  50%                                       | HOLD    |    -0.639ns|            |      14|        4630
+------------------------------------------------------------------------------------------------------
+* NET "$1I135/$7I1330/$1I3366/OUT3" MAXDELA | MAXDELAY|    -0.628ns|     3.128ns|       1|         628
+  Y = 2.5 ns                                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+* NET "$1I135/$7I1330/$1I3366/OUT7" MAXDELA | MAXDELAY|    -0.423ns|     2.923ns|       1|         423
+  Y = 2.5 ns                                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+* NET "$1I135/$7I1330/$1I3366/OUT1" MAXDELA | MAXDELAY|    -0.417ns|     2.917ns|       1|         417
+  Y = 2.5 ns                                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+* NET "$1I135/$7I1330/$1I3366/OUT5" MAXDELA | MAXDELAY|    -0.365ns|     2.865ns|       1|         365
+  Y = 2.5 ns                                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+* NET "$1I135/$7I1330/$1I3366/OUT6" MAXDELA | MAXDELAY|    -0.259ns|     2.759ns|       1|         259
+  Y = 2.5 ns                                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+* NET "$1I135/$7I1330/$1I3366/OUT0" MAXDELA | MAXDELAY|    -0.230ns|     2.730ns|       1|         230
+  Y = 2.5 ns                                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+* NET "$1I135/$6I2037/TOUT19" MAXDELAY = 1. | MAXDELAY|    -0.094ns|     1.994ns|       1|          94
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+* NET "$1I135/$7I1330/$1I3366/OUT4" MAXDELA | MAXDELAY|    -0.065ns|     2.565ns|       1|          65
+  Y = 2.5 ns                                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+* NET "$1I135/$7I1330/$1I3366/OUT2" MAXDELA | MAXDELAY|    -0.025ns|     2.525ns|       1|          25
+  Y = 2.5 ns                                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+* NET "$1I135/$1I3030/CECNT2" MAXDELAY = 0. | MAXDELAY|    -0.005ns|     0.605ns|       1|           5
+  6 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/FOE_REN1" MAXDELAY =  | MAXDELAY|     0.007ns|     1.793ns|       0|           0
+  1.8 ns                                    |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$7I1330/$1I3366/OEHDRT" MAXDE | MAXDELAY|     0.011ns|     1.389ns|       0|           0
+  LAY = 1.4 ns                              |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/CECNT3" MAXDELAY = 0. | MAXDELAY|     0.017ns|     0.583ns|       0|           0
+  6 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_toDDUFB = MAXDELAY FROM TIMEGRP "CLK0" | SETUP   |     0.018ns|     9.582ns|       0|           0
+   TO TIMEGRP "DDUFBREG" 9.6 ns             |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/CECNT0" MAXDELAY = 0. | MAXDELAY|     0.029ns|     0.571ns|       0|           0
+  6 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT9" MAXDELAY = 1.9 | MAXDELAY|     0.031ns|     1.869ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/CECNT1" MAXDELAY = 0. | MAXDELAY|     0.031ns|     0.569ns|       0|           0
+  6 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT22" MAXDELAY = 1. | MAXDELAY|     0.038ns|     1.862ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/FOE_REN0" MAXDELAY =  | MAXDELAY|     0.042ns|     1.758ns|       0|           0
+  1.8 ns                                    |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$7I1330/$1I3366/OEIDLE" MAXDE | MAXDELAY|     0.049ns|     1.451ns|       0|           0
+  LAY = 1.5 ns                              |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT2" MAXDELAY = 1.9 | MAXDELAY|     0.066ns|     1.834ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT1" MAXDELAY = 1.9 | MAXDELAY|     0.067ns|     1.833ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$7I1330/$1I3366/OESYNC" MAXDE | MAXDELAY|     0.068ns|     1.432ns|       0|           0
+  LAY = 1.5 ns                              |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT17" MAXDELAY = 1. | MAXDELAY|     0.070ns|     1.830ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT5" MAXDELAY = 1.9 | MAXDELAY|     0.072ns|     1.828ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT26" MAXDELAY = 1. | MAXDELAY|     0.076ns|     1.824ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/FOE_REN2" MAXDELAY =  | MAXDELAY|     0.085ns|     1.715ns|       0|           0
+  1.8 ns                                    |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT24" MAXDELAY = 1. | MAXDELAY|     0.087ns|     1.813ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT19" MAXDELAY = 1. | MAXDELAY|     0.091ns|     1.809ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT10" MAXDELAY = 1. | MAXDELAY|     0.110ns|     1.790ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT20" MAXDELAY = 1. | MAXDELAY|     0.120ns|     1.780ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT18" MAXDELAY = 1. | MAXDELAY|     0.136ns|     1.764ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT25" MAXDELAY = 1. | MAXDELAY|     0.140ns|     1.760ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT33" MAXDELAY = 1. | MAXDELAY|     0.147ns|     1.753ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT30" MAXDELAY = 1. | MAXDELAY|     0.150ns|     1.750ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/~LREN3" MAXDELAY = 1. | MAXDELAY|     0.158ns|     1.642ns|       0|           0
+  8 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT23" MAXDELAY = 1. | MAXDELAY|     0.163ns|     1.737ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT31" MAXDELAY = 1. | MAXDELAY|     0.167ns|     1.733ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT32" MAXDELAY = 1. | MAXDELAY|     0.170ns|     1.730ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_QtoS = MAXDELAY FROM TIMEGRP "FDAT" TO | SETUP   |     0.182ns|     5.818ns|       0|           0
+   TIMEGRP "CLK0" 6 ns                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "$1I135/CK_125" d | SETUP   |     0.189ns|     6.711ns|       0|           0
+  erived from  NET "$1I135/CK625" PERIOD =  | HOLD    |     0.622ns|            |       0|           0
+  13.8 ns HIGH 50%                          |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT30" MAXDELAY = 1. | MAXDELAY|     0.233ns|     1.667ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT27" MAXDELAY = 1. | MAXDELAY|     0.235ns|     1.665ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT16" MAXDELAY = 1. | MAXDELAY|     0.237ns|     1.663ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "$1I135/GCK78" de | SETUP   |     0.238ns|    11.362ns|       0|           0    == 87.95 MHz
+  rived from  NET "$1I135/CKFB" PERIOD = 11 | HOLD    |     0.424ns|            |       0|           0
+  .6 ns HIGH 50%                            |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT24" MAXDELAY = 1. | MAXDELAY|     0.243ns|     1.657ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT28" MAXDELAY = 1. | MAXDELAY|     0.258ns|     1.642ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT17" MAXDELAY = 1. | MAXDELAY|     0.262ns|     1.638ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT9" MAXDELAY = 1.9 | MAXDELAY|     0.294ns|     1.606ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT34" MAXDELAY = 1. | MAXDELAY|     0.294ns|     1.606ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT3" MAXDELAY = 1.9 | MAXDELAY|     0.295ns|     1.605ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT0" MAXDELAY = 1.9 | MAXDELAY|     0.299ns|     1.601ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT33" MAXDELAY = 1. | MAXDELAY|     0.302ns|     1.598ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/NEXT_FIFO" MAXDELAY = | MAXDELAY|     0.311ns|     1.189ns|       0|           0
+   1.5 ns                                   |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT0" MAXDELAY = 1.9 | MAXDELAY|     0.316ns|     1.584ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$7I1330/$1I3366/KSET" MAXDELA | MAXDELAY|     0.326ns|     1.874ns|       0|           0
+  Y = 2.2 ns                                |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT8" MAXDELAY = 1.9 | MAXDELAY|     0.328ns|     1.572ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT21" MAXDELAY = 1. | MAXDELAY|     0.328ns|     1.572ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT29" MAXDELAY = 1. | MAXDELAY|     0.332ns|     1.568ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$7I1330/GBE_RST" MAXDELAY = 2 | MAXDELAY|     0.333ns|     1.667ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_MTtoF = MAXDELAY FROM TIMEGRP "INMT" T | SETUP   |     0.346ns|     2.854ns|       0|           0
+  O TIMEGRP "FWCREG" 3.2 ns                 |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT26" MAXDELAY = 1. | MAXDELAY|     0.346ns|     1.554ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT23" MAXDELAY = 1. | MAXDELAY|     0.384ns|     1.516ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/~LREN1" MAXDELAY = 1. | MAXDELAY|     0.406ns|     1.394ns|       0|           0
+  8 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/FOE_REN3" MAXDELAY =  | MAXDELAY|     0.411ns|     1.389ns|       0|           0
+  1.8 ns                                    |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT16" MAXDELAY = 1. | MAXDELAY|     0.413ns|     1.487ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT25" MAXDELAY = 1. | MAXDELAY|     0.418ns|     1.482ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT22" MAXDELAY = 1. | MAXDELAY|     0.432ns|     1.468ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT29" MAXDELAY = 1. | MAXDELAY|     0.444ns|     1.456ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT2" MAXDELAY = 1.9 | MAXDELAY|     0.455ns|     1.445ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/~LREN0" MAXDELAY = 1. | MAXDELAY|     0.462ns|     1.338ns|       0|           0
+  8 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TS_FtoS = MAXDELAY FROM TIMEGRP "FCLK" TO | SETUP   |     0.463ns|     5.537ns|       0|           0
+   TIMEGRP "CLK0" 6 ns                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT31" MAXDELAY = 1. | MAXDELAY|     0.466ns|     1.434ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT20" MAXDELAY = 1. | MAXDELAY|     0.485ns|     1.415ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT21" MAXDELAY = 1. | MAXDELAY|     0.488ns|     1.412ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT18" MAXDELAY = 1. | MAXDELAY|     0.498ns|     1.402ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT13" MAXDELAY = 1. | MAXDELAY|     0.498ns|     1.402ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "$1I135/GCK156" d | SETUP   |     0.501ns|     5.299ns|       0|           0
+  erived from  NET "$1I135/CKFB" PERIOD = 1 | HOLD    |     0.618ns|            |       0|           0
+  1.6 ns HIGH 50%                           |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT28" MAXDELAY = 1. | MAXDELAY|     0.503ns|     1.397ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/~LREN2" MAXDELAY = 1. | MAXDELAY|     0.511ns|     1.289ns|       0|           0
+  8 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT27" MAXDELAY = 1. | MAXDELAY|     0.518ns|     1.382ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT6" MAXDELAY = 1.9 | MAXDELAY|     0.524ns|     1.376ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT10" MAXDELAY = 1. | MAXDELAY|     0.528ns|     1.372ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT11" MAXDELAY = 1. | MAXDELAY|     0.542ns|     1.358ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TIMEGRP "FREN" OFFSET = OUT 3.9 ns AFTER  | MAXDELAY|     0.554ns|     3.346ns|       0|           0
+  COMP "$1I135/CKFB_IN"                     |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT12" MAXDELAY = 1. | MAXDELAY|     0.556ns|     1.344ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$7I1330/SRST" MAXDELAY = 2.3  | MAXDELAY|     0.597ns|     1.703ns|       0|           0
+  ns                                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT1" MAXDELAY = 1.9 | MAXDELAY|     0.705ns|     1.195ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT4" MAXDELAY = 1.9 | MAXDELAY|     0.722ns|     1.178ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT7" MAXDELAY = 1.9 | MAXDELAY|     0.729ns|     1.171ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT3" MAXDELAY = 1.9 | MAXDELAY|     0.733ns|     1.167ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT11" MAXDELAY = 1. | MAXDELAY|     0.733ns|     1.167ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT15" MAXDELAY = 1. | MAXDELAY|     0.733ns|     1.167ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT14" MAXDELAY = 1. | MAXDELAY|     0.733ns|     1.167ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT32" MAXDELAY = 1. | MAXDELAY|     0.735ns|     1.165ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT8" MAXDELAY = 1.9 | MAXDELAY|     0.741ns|     1.159ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2037/TOUT35" MAXDELAY = 1. | MAXDELAY|     0.744ns|     1.156ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC12" MAXDELAY = 2. | MAXDELAY|     0.872ns|     1.428ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT14" MAXDELAY = 1. | MAXDELAY|     0.966ns|     0.934ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT6" MAXDELAY = 1.9 | MAXDELAY|     0.966ns|     0.934ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC3" MAXDELAY = 2.3 | MAXDELAY|     0.974ns|     1.326ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT5" MAXDELAY = 1.9 | MAXDELAY|     0.976ns|     0.924ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT34" MAXDELAY = 1. | MAXDELAY|     0.980ns|     0.920ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT13" MAXDELAY = 1. | MAXDELAY|     0.980ns|     0.920ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT15" MAXDELAY = 1. | MAXDELAY|     0.981ns|     0.919ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT7" MAXDELAY = 1.9 | MAXDELAY|     0.981ns|     0.919ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT35" MAXDELAY = 1. | MAXDELAY|     0.981ns|     0.919ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT12" MAXDELAY = 1. | MAXDELAY|     1.002ns|     0.898ns|       0|           0
+  9 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$6I2013/TOUT4" MAXDELAY = 1.9 | MAXDELAY|     1.002ns|     0.898ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC1" MAXDELAY = 2.3 | MAXDELAY|     1.138ns|     1.162ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC9" MAXDELAY = 2.3 | MAXDELAY|     1.204ns|     1.096ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC15" MAXDELAY = 2. | MAXDELAY|     1.228ns|     1.072ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC11" MAXDELAY = 2. | MAXDELAY|     1.238ns|     1.062ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC14" MAXDELAY = 2. | MAXDELAY|     1.259ns|     1.041ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC8" MAXDELAY = 2.3 | MAXDELAY|     1.260ns|     1.040ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC9" MAXDELAY = 2.3 | MAXDELAY|     1.338ns|     0.962ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC10" MAXDELAY = 2. | MAXDELAY|     1.348ns|     0.952ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC7" MAXDELAY = 2.3 | MAXDELAY|     1.352ns|     0.948ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC4" MAXDELAY = 2.3 | MAXDELAY|     1.353ns|     0.947ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC15" MAXDELAY = 2. | MAXDELAY|     1.357ns|     0.943ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC14" MAXDELAY = 2. | MAXDELAY|     1.358ns|     0.942ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC2" MAXDELAY = 2.3 | MAXDELAY|     1.381ns|     0.919ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC6" MAXDELAY = 2.3 | MAXDELAY|     1.385ns|     0.915ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC13" MAXDELAY = 2. | MAXDELAY|     1.391ns|     0.909ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC15" MAXDELAY = 2. | MAXDELAY|     1.399ns|     0.901ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC2" MAXDELAY = 2.3 | MAXDELAY|     1.427ns|     0.873ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC6" MAXDELAY = 2.3 | MAXDELAY|     1.440ns|     0.860ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC9" MAXDELAY = 2.3 | MAXDELAY|     1.476ns|     0.824ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC7" MAXDELAY = 2.3 | MAXDELAY|     1.484ns|     0.816ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC0" MAXDELAY = 2.3 | MAXDELAY|     1.487ns|     0.813ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC5" MAXDELAY = 2.3 | MAXDELAY|     1.488ns|     0.812ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC11" MAXDELAY = 2. | MAXDELAY|     1.492ns|     0.808ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/~RENOE-0" MAXDELAY = 1.9 ns   | MAXDELAY|     1.519ns|     0.381ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC8" MAXDELAY = 2.3 | MAXDELAY|     1.522ns|     0.778ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC2" MAXDELAY = 2.3 | MAXDELAY|     1.535ns|     0.765ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC12" MAXDELAY = 2. | MAXDELAY|     1.538ns|     0.762ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC2" MAXDELAY = 2.3 | MAXDELAY|     1.576ns|     0.724ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC10" MAXDELAY = 2. | MAXDELAY|     1.588ns|     0.712ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC10" MAXDELAY = 2. | MAXDELAY|     1.615ns|     0.685ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "$1I135/CK_REF" d | SETUP   |     1.618ns|     5.282ns|       0|           0
+  erived from  NET "$1I135/CK625" PERIOD =  | HOLD    |     0.582ns|            |       0|           0
+  13.8 ns HIGH 50%                          |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC11" MAXDELAY = 2. | MAXDELAY|     1.618ns|     0.682ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC14" MAXDELAY = 2. | MAXDELAY|     1.618ns|     0.682ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  TIMEGRP "FOE" OFFSET = OUT 4.9 ns AFTER C | MAXDELAY|     1.621ns|     3.279ns|       0|           0
+  OMP "$1I135/CKFB_IN"                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC4" MAXDELAY = 2.3 | MAXDELAY|     1.627ns|     0.673ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC3" MAXDELAY = 2.3 | MAXDELAY|     1.629ns|     0.671ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC11" MAXDELAY = 2. | MAXDELAY|     1.630ns|     0.670ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC13" MAXDELAY = 2. | MAXDELAY|     1.635ns|     0.665ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC4" MAXDELAY = 2.3 | MAXDELAY|     1.639ns|     0.661ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC13" MAXDELAY = 2. | MAXDELAY|     1.661ns|     0.639ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC12" MAXDELAY = 2. | MAXDELAY|     1.668ns|     0.632ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC6" MAXDELAY = 2.3 | MAXDELAY|     1.672ns|     0.628ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC1" MAXDELAY = 2.3 | MAXDELAY|     1.676ns|     0.624ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC3" MAXDELAY = 2.3 | MAXDELAY|     1.678ns|     0.622ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC12" MAXDELAY = 2. | MAXDELAY|     1.685ns|     0.615ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC9" MAXDELAY = 2.3 | MAXDELAY|     1.695ns|     0.605ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC8" MAXDELAY = 2.3 | MAXDELAY|     1.705ns|     0.595ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC1" MAXDELAY = 2.3 | MAXDELAY|     1.713ns|     0.587ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC14" MAXDELAY = 2. | MAXDELAY|     1.718ns|     0.582ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC0" MAXDELAY = 2.3 | MAXDELAY|     1.723ns|     0.577ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC10" MAXDELAY = 2. | MAXDELAY|     1.747ns|     0.553ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC5" MAXDELAY = 2.3 | MAXDELAY|     1.793ns|     0.507ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC0" MAXDELAY = 2.3 | MAXDELAY|     1.801ns|     0.499ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC5" MAXDELAY = 2.3 | MAXDELAY|     1.830ns|     0.470ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC1" MAXDELAY = 2.3 | MAXDELAY|     1.870ns|     0.430ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC7" MAXDELAY = 2.3 | MAXDELAY|     1.874ns|     0.426ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC6" MAXDELAY = 2.3 | MAXDELAY|     1.879ns|     0.421ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC3" MAXDELAY = 2.3 | MAXDELAY|     1.887ns|     0.413ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F3WC7" MAXDELAY = 2.3 | MAXDELAY|     1.889ns|     0.411ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC13" MAXDELAY = 2. | MAXDELAY|     1.899ns|     0.401ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC4" MAXDELAY = 2.3 | MAXDELAY|     1.903ns|     0.397ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F2WC0" MAXDELAY = 2.3 | MAXDELAY|     1.912ns|     0.388ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC15" MAXDELAY = 2. | MAXDELAY|     1.915ns|     0.385ns|       0|           0
+  3 ns                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F1WC5" MAXDELAY = 2.3 | MAXDELAY|     1.935ns|     0.365ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/F0WC8" MAXDELAY = 2.3 | MAXDELAY|     1.965ns|     0.335ns|       0|           0
+   ns                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX17" MAXDELAY = 5 ns         | MAXDELAY|     2.809ns|     2.191ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$7I1330/$1I3366/RST-1" MAXDEL | MAXDELAY|     3.000ns|     0.000ns|       0|           0
+  AY = 3 ns                                 |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX0" MAXDELAY = 5 ns          | MAXDELAY|     3.056ns|     1.944ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX16" MAXDELAY = 5 ns         | MAXDELAY|     3.063ns|     1.937ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX1" MAXDELAY = 5 ns          | MAXDELAY|     3.132ns|     1.868ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX2" MAXDELAY = 5 ns          | MAXDELAY|     3.170ns|     1.830ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX7" MAXDELAY = 5 ns          | MAXDELAY|     3.193ns|     1.807ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX3" MAXDELAY = 5 ns          | MAXDELAY|     3.293ns|     1.707ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  TS_StoF = MAXDELAY FROM TIMEGRP "CLK0" TO | SETUP   |     3.298ns|     2.702ns|       0|           0
+   TIMEGRP "FCLK" 6 ns                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX12" MAXDELAY = 5 ns         | MAXDELAY|     3.425ns|     1.575ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX9" MAXDELAY = 5 ns          | MAXDELAY|     3.465ns|     1.535ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX6" MAXDELAY = 5 ns          | MAXDELAY|     3.469ns|     1.531ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX4" MAXDELAY = 5 ns          | MAXDELAY|     3.531ns|     1.469ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX14" MAXDELAY = 5 ns         | MAXDELAY|     3.532ns|     1.468ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX5" MAXDELAY = 5 ns          | MAXDELAY|     3.571ns|     1.429ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX13" MAXDELAY = 5 ns         | MAXDELAY|     3.588ns|     1.412ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX8" MAXDELAY = 5 ns          | MAXDELAY|     3.608ns|     1.392ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX11" MAXDELAY = 5 ns         | MAXDELAY|     3.618ns|     1.382ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX10" MAXDELAY = 5 ns         | MAXDELAY|     3.655ns|     1.345ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/TX15" MAXDELAY = 5 ns         | MAXDELAY|     3.834ns|     1.166ns|       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/BC_SET" MAXDELAY = 6  | MAXDELAY|     5.060ns|     0.940ns|       0|           0
+  ns                                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/BC_CLR" MAXDELAY = 6  | MAXDELAY|     5.732ns|     0.268ns|       0|           0
+  ns                                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  PERIOD analysis for net "$1I135/CK40" der | SETUP   |     5.739ns|    11.522ns|       0|           0
+  ived from  NET "$1I135/CKIN40" PERIOD = 2 | HOLD    |     0.600ns|            |       0|           0
+  3 ns HIGH 50%                             |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/DRCK2" PERIOD = 30 ns | SETUP   |    27.264ns|     2.736ns|       0|           0
+   HIGH 50%                                 | HOLD    |     0.609ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/$1I3030/DRCK1" PERIOD = 30 ns | SETUP   |    28.158ns|     1.842ns|       0|           0
+   HIGH 50%                                 | HOLD    |     0.678ns|            |       0|           0
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/CKIN40" PERIOD = 23 ns HIGH 5 | N/A     |         N/A|         N/A|     N/A|         N/A
+  0%                                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/FCKIN_N" PERIOD = 5.9 ns HIGH | N/A     |         N/A|         N/A|     N/A|         N/A
+   50%                                      |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/CKFB" PERIOD = 11.6 ns HIGH 5 | N/A     |         N/A|         N/A|     N/A|         N/A
+  0%                                        |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+  NET "$1I135/CK625" PERIOD = 13.8 ns HIGH  | N/A     |         N/A|         N/A|     N/A|         N/A
+  50%                                       |         |            |            |        |            
+------------------------------------------------------------------------------------------------------
+
+
+11 constraints not met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the 
+   constraint does not cover any paths or that it has no requested value.
+
+
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 10 mins 37 secs 
+Total CPU time to PAR completion: 9 mins 37 secs 
+
+Peak Memory Usage:  270 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - 24 errors found.
+
+Number of error messages: 0
+Number of warning messages: 23
+Number of info messages: 1
+
+Writing design to file 0DDUCTRL.ncd
+
+
+
+PAR done!

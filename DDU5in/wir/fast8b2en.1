@@ -1,0 +1,80 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 291696349900 comp16c
+DW fast8b2en
+|Q virtex2p:muxcy 1
+AS virtex2p:muxcy LIBVER=2.0.0
+AS virtex2p:muxcy LEVEL=XILINX
+AS virtex2p:muxcy DEVICE=CY_MUX
+AS virtex2p:muxcy PINORDER=CI DI O S
+AP virtex2p:muxcy 1 PINTYPE=IN
+AP virtex2p:muxcy 2 PINTYPE=IN
+AP virtex2p:muxcy 3 PINTYPE=OUT
+AP virtex2p:muxcy 4 PINTYPE=IN
+|Q virtex2p:muxcy_l 1
+AS virtex2p:muxcy_l LIBVER=2.0.0
+AS virtex2p:muxcy_l LEVEL=XILINX
+AS virtex2p:muxcy_l DEVICE=CY_MUX
+AS virtex2p:muxcy_l PINORDER=CI DI LO S
+AP virtex2p:muxcy_l 1 PINTYPE=IN
+AP virtex2p:muxcy_l 2 PINTYPE=IN
+AP virtex2p:muxcy_l 3 PINTYPE=OUT
+AP virtex2p:muxcy_l 4 PINTYPE=IN
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex2p:sop4b2b 1
+AS virtex2p:sop4b2b LEVEL=MXILINX
+AS virtex2p:sop4b2b LIBVER=2.0.0
+AS virtex2p:sop4b2b PINORDER=I0 I1 I2 I3 O
+AP virtex2p:sop4b2b 1 PINTYPE=IN
+AP virtex2p:sop4b2b 2 PINTYPE=IN
+AP virtex2p:sop4b2b 3 PINTYPE=IN
+AP virtex2p:sop4b2b 4 PINTYPE=IN
+AP virtex2p:sop4b2b 5 PINTYPE=OUT
+|Q virtex2p:inv 1
+AS virtex2p:inv DEVICE=INV
+AS virtex2p:inv LIBVER=2.0.0
+AS virtex2p:inv LEVEL=XILINX
+AS virtex2p:inv PINORDER=I O
+AP virtex2p:inv 1 PINTYPE=IN
+AP virtex2p:inv 2 PINTYPE=OUT
+|Q or4_bus 1
+AS or4_bus LEVEL=MXILINX
+AS or4_bus @NAME=OR4_BUS
+AS or4_bus PINORDER=I[3:0] O
+AP or4_bus 1 PINTYPE=IN
+AP or4_bus 2 PINTYPE=OUT
+AN A[3:0] VLBUSISONSHEET=1
+W virtex2p:muxcy $1I1710
+I $1I1710 virtex2p:muxcy C1 $1N2297 O INT1 RLOC=X0Y0`
+W virtex2p:muxcy_l $1I3
+I $1I3 virtex2p:muxcy_l C0 EN C1 INT0 RLOC=X0Y0`
+W virtex2p:gnd $1I2409
+I $1I2409 virtex2p:gnd $1N2297 
+W virtex2p:sop4b2b $1I2419
+I $1I2419 virtex2p:sop4b2b I3 I2 I1 I0 INT1 
+W virtex2p:gnd $1I2431
+I $1I2431 virtex2p:gnd C0 
+W virtex2p:inv $1I2436
+I $1I2436 virtex2p:inv ~INT0 INT0 
+W or4_bus $1I2434
+I $1I2434 or4_bus A[3:0] ~INT0 
+P ? A[3:0]
+I A[3:0] ? A[3:0]
+P ? I2
+I I2 ? I2
+P ? I1
+I I1 ? I1
+P ? I0
+I I0 ? I0
+P ? O
+I O ? O
+P ? I3
+I I3 ? I3
+P ? EN
+I EN ? EN
+EW

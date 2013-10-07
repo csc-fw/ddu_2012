@@ -1,0 +1,4 @@
+Post Route Timing Report for Module 0ddu_in . . .
+TRACE command line and options:
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+Post Route Timing Report for Module 0ddu_in : DONE

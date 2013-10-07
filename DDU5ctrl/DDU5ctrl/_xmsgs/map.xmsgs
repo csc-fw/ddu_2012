@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="LIT" num="243" delta="unknown" >Logical network <arg fmt="%s" index="1">$1I135/BXR</arg> has no load.
+</msg>
+
+<msg type="warning" file="LIT" num="395" delta="unknown" >The above <arg fmt="%s" index="1">warning</arg> message <arg fmt="%s" index="2">base_net_load_rule</arg> is repeated <arg fmt="%d" index="3">413</arg> more times for the following (max. 5 shown):
+<arg fmt="%s" index="4">$1I135/LRL0,
+$1I135/RX_IN62,
+$1I135/RX_IN59,
+$1I135/RX_IN63,
+$1I135/RX_IN60</arg>
+To see the details of these <arg fmt="%s" index="5">warning</arg> messages, please use the -detail switch.
+</msg>
+
+<msg type="info" file="MapLib" num="562" delta="unknown" >No environment variables are currently set.
+</msg>
+
+<msg type="warning" file="MapLib" num="4" delta="unknown" >Can&apos;t use both <arg fmt="%s" index="1">RLOC</arg> and <arg fmt="%s" index="2">LOC</arg> constraints on <arg fmt="%s" index="3">$1I110</arg>.  Ignoring the <arg fmt="%s" index="4">LOC</arg>.
+</msg>
+
+<msg type="warning" file="MapLib" num="4" delta="unknown" >Can&apos;t use both <arg fmt="%s" index="1">RLOC</arg> and <arg fmt="%s" index="2">LOC</arg> constraints on <arg fmt="%s" index="3">$1I98</arg>.  Ignoring the <arg fmt="%s" index="4">LOC</arg>.
+</msg>
+
+<msg type="warning" file="MapLib" num="4" delta="unknown" >Can&apos;t use both <arg fmt="%s" index="1">RLOC</arg> and <arg fmt="%s" index="2">LOC</arg> constraints on <arg fmt="%s" index="3">$1I2495</arg>.  Ignoring the <arg fmt="%s" index="4">LOC</arg>.
+</msg>
+
+<msg type="warning" file="MapLib" num="4" delta="unknown" >Can&apos;t use both <arg fmt="%s" index="1">RLOC</arg> and <arg fmt="%s" index="2">LOC</arg> constraints on <arg fmt="%s" index="3">$1I2501</arg>.  Ignoring the <arg fmt="%s" index="4">LOC</arg>.
+</msg>
+
+<msg type="warning" file="MapLib" num="4" delta="unknown" >Can&apos;t use both <arg fmt="%s" index="1">RLOC</arg> and <arg fmt="%s" index="2">LOC</arg> constraints on <arg fmt="%s" index="3">$1I2507</arg>.  Ignoring the <arg fmt="%s" index="4">LOC</arg>.
+</msg>
+
+<msg type="warning" file="MapLib" num="4" delta="unknown" >Can&apos;t use both <arg fmt="%s" index="1">RLOC</arg> and <arg fmt="%s" index="2">LOC</arg> constraints on <arg fmt="%s" index="3">$1I2544</arg>.  Ignoring the <arg fmt="%s" index="4">LOC</arg>.
+</msg>
+
+<msg type="warning" file="MapLib" num="4" delta="unknown" >Can&apos;t use both <arg fmt="%s" index="1">RLOC</arg> and <arg fmt="%s" index="2">LOC</arg> constraints on <arg fmt="%s" index="3">$1I2554</arg>.  Ignoring the <arg fmt="%s" index="4">LOC</arg>.
+</msg>
+
+<msg type="warning" file="MapLib" num="4" delta="unknown" >Can&apos;t use both <arg fmt="%s" index="1">RLOC</arg> and <arg fmt="%s" index="2">LOC</arg> constraints on <arg fmt="%s" index="3">$1I2563</arg>.  Ignoring the <arg fmt="%s" index="4">LOC</arg>.
+</msg>
+
+<msg type="warning" file="MapLib" num="4" delta="unknown" >Can&apos;t use both <arg fmt="%s" index="1">RLOC</arg> and <arg fmt="%s" index="2">LOC</arg> constraints on <arg fmt="%s" index="3">$1I106</arg>.  Ignoring the <arg fmt="%s" index="4">LOC</arg>.
+</msg>
+
+<msg type="warning" file="MapLib" num="4" delta="unknown" >Can&apos;t use both <arg fmt="%s" index="1">RLOC</arg> and <arg fmt="%s" index="2">LOC</arg> constraints on <arg fmt="%s" index="3">$1I107</arg>.  Ignoring the <arg fmt="%s" index="4">LOC</arg>.
+</msg>
+
+<msg type="info" file="MapLib" num="863" delta="unknown" >The following Virtex BUFG(s) is/are being retargeted to Virtex2 BUFGMUX(s) with input tied to I0 and Select pin tied to constant 0:
+<arg fmt="%s" index="1">BUFG symbol &quot;$1I135/$1I3030/$5I2650&quot; (output signal=$1I135/$1I3030/DRCK1),
+BUFG symbol &quot;$1I135/$1I3030/$5I2651&quot; (output signal=$1I135/$1I3030/DRCK2),
+BUFG symbol &quot;$1I135/$5I4719&quot; (output signal=$1I135/CLK625),
+BUFG symbol &quot;$1I135/$5I4989&quot; (output signal=$1I135/CK125),
+BUFG symbol &quot;$1I135/$5I4990&quot; (output signal=$1I135/CLK),
+BUFG symbol &quot;$1I135/$5I4991&quot; (output signal=$1I135/2CLK),
+BUFG symbol &quot;$1I135/$5I4992&quot; (output signal=$1I135/CLK40),
+BUFG symbol &quot;$1I135/$5I5238&quot; (output signal=$1I135/CLK156),
+BUFG symbol &quot;$1I135/$9I2362&quot; (output signal=$1I135/SCLK)</arg>
+</msg>
+
+<msg type="info" file="MapLib" num="159" delta="unknown" >Net Timing constraints on signal <arg fmt="%s" index="1">$1I135/CLKIN40</arg> are pushed forward through input buffer.
+</msg>
+
+<msg type="info" file="MapLib" num="159" delta="unknown" >Net Timing constraints on signal <arg fmt="%s" index="1">$1I135/CKFB_IN</arg> are pushed forward through input buffer.
+</msg>
+
+<msg type="info" file="MapLib" num="159" delta="unknown" >Net Timing constraints on signal <arg fmt="%s" index="1">$1I135/CK625IN</arg> are pushed forward through input buffer.
+</msg>
+
+<msg type="info" file="MapLib" num="159" delta="unknown" >Net Timing constraints on signal <arg fmt="%s" index="1">$1I135/SCLKIN</arg> are pushed forward through input buffer.
+</msg>
+
+<msg type="info" file="MapLib" num="534" delta="unknown" >The following XORCY(s) is/are demoted to LUTs because there is no MUXCY associated with them. Therefore, we cannot recognize the standard carry chain structure:
+<arg fmt="%s" index="1">XORCY symbol &quot;$1I135/$1I3030/$13I2812/$1I6&quot; (output signal=$1I135/$1I3030/$13I2812/TQ0)</arg>
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">$1I135/ILRL0</arg> connected to top level port <arg fmt="%s" index="2">$1I135/ILRL0</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">$1I135/ILRL1</arg> connected to top level port <arg fmt="%s" index="2">$1I135/ILRL1</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">$1I135/ILRL2</arg> connected to top level port <arg fmt="%s" index="2">$1I135/ILRL2</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">$1I135/ILRL3</arg> connected to top level port <arg fmt="%s" index="2">$1I135/ILRL3</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">$1I135/ILSF0</arg> connected to top level port <arg fmt="%s" index="2">$1I135/ILSF0</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">$1I135/ILSF1</arg> connected to top level port <arg fmt="%s" index="2">$1I135/ILSF1</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">$1I135/ILSF2</arg> connected to top level port <arg fmt="%s" index="2">$1I135/ILSF2</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">$1I135/ILSF3</arg> connected to top level port <arg fmt="%s" index="2">$1I135/ILSF3</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">$1I135/TDOUT1</arg> connected to top level port <arg fmt="%s" index="2">$1I135/TDOUT1</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">$1I135/SBDATA</arg> connected to top level port <arg fmt="%s" index="2">$1I135/SBDATA</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">$1I135/TDSTRB</arg> connected to top level port <arg fmt="%s" index="2">$1I135/TDSTRB</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">$1I135/TDOUT0</arg> connected to top level port <arg fmt="%s" index="2">$1I135/TDOUT0</arg> has been removed.
+</msg>
+
+<msg type="warning" file="MapLib" num="701" delta="unknown" >Signal <arg fmt="%s" index="1">$1I135/BUS1</arg> connected to top level port <arg fmt="%s" index="2">$1I135/BUS1</arg> has been removed.
+</msg>
+
+<msg type="warning" file="LIT" num="176" delta="unknown" >Clock buffer is designated to drive clock loads. <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_$1I135/$1I3030/DRCK1/$1I135/$1I3030/$5I2650&quot; (output signal=$1I135/$1I3030/DRCK1)</arg> has a mix of clock and non-clock loads. The non-clock loads are:
+<arg fmt="%s" index="2">Pin I of $1I135/$10I5055</arg>
+</msg>
+
+<msg type="warning" file="LIT" num="176" delta="unknown" >Clock buffer is designated to drive clock loads. <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_$1I135/$1I3030/DRCK2/$1I135/$1I3030/$5I2651&quot; (output signal=$1I135/$1I3030/DRCK2)</arg> has a mix of clock and non-clock loads. The non-clock loads are:
+<arg fmt="%s" index="2">Pin I of $1I135/$10I5054</arg>
+</msg>
+
+<msg type="warning" file="LIT" num="176" delta="unknown" >Clock buffer is designated to drive clock loads. <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_$1I135/CLK625/$1I135/$5I4719&quot; (output signal=$1I135/CLK625)</arg> has a mix of clock and non-clock loads. The non-clock loads are:
+<arg fmt="%s" index="2">Pin I of $1I135/$3I4115
+Pin D of $1I135/$5I5001/$1I15
+Pin I of $1I135/$7I1458</arg>
+</msg>
+
+<msg type="warning" file="LIT" num="176" delta="unknown" >Clock buffer is designated to drive clock loads. <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_$1I135/CK125/$1I135/$5I4989&quot; (output signal=$1I135/CK125)</arg> has a mix of clock and non-clock loads. The non-clock loads are:
+<arg fmt="%s" index="2">Pin I of $1I135/$7I1457</arg>
+</msg>
+
+<msg type="warning" file="LIT" num="175" delta="unknown" >Clock buffer is designated to drive clock loads. <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_$1I135/CLK/$1I135/$5I4990&quot; (output signal=$1I135/CLK)</arg> has a mix of clock and non-clock loads. Some of the non-clock loads are (maximum of 5 listed):
+<arg fmt="%s" index="2">Pin I of $1I135/$2I3475
+Pin I of $1I135/$3I3683
+Pin I of $1I135/$3I3698
+Pin I of $1I135/$4I3683
+Pin I of $1I135/$4I3698</arg>
+</msg>
+
+<msg type="warning" file="LIT" num="176" delta="unknown" >Clock buffer is designated to drive clock loads. <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_$1I135/CLK40/$1I135/$5I4992&quot; (output signal=$1I135/CLK40)</arg> has a mix of clock and non-clock loads. The non-clock loads are:
+<arg fmt="%s" index="2">Pin I of $1I135/$2I3474</arg>
+</msg>
+
+<msg type="warning" file="LIT" num="176" delta="unknown" >Clock buffer is designated to drive clock loads. <arg fmt="%s" index="1">BUFGMUX symbol &quot;physical_group_$1I135/SCLK/$1I135/$9I2362&quot; (output signal=$1I135/SCLK)</arg> has a mix of clock and non-clock loads. The non-clock loads are:
+<arg fmt="%s" index="2">Pin I3 of $1I135/$1I3030/$5I2521/$1I1795/$1I8</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="249" delta="unknown" >The following adjacent carry multiplexers occupy different slice components.  The resulting carry chain will have suboptimal timing.
+	<arg fmt="%s" index="1">$1I135/$1I3030/$13I2844/BU416</arg>
+	<arg fmt="%s" index="2">$1I135/$1I3030/$13I2844/BU419</arg>
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4793/$1I4503/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4793/$1I4343/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4793/$1I4416/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4793/$1I4417/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4793/$1I4361/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4793/$1I4418/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4793/$1I4357/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4793/$1I4476/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4793/$1I4396/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4793/$1I4485/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4793/$1I4397/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4793/$1I4494/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4858/$1I4343/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4858/$1I4416/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4858/$1I4417/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4858/$1I4361/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4858/$1I4418/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4858/$1I4419/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4858/$1I4357/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4858/$1I4396/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2037/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2037/$1I4858/$1I4494/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2013/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2013/$1I4793/$1I4365/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2013/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2013/$1I4793/$1I4494/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2013/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2013/$1I4858/$1I4503/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2013/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2013/$1I4858/$1I4418/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2013/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2013/$1I4858/$1I4365/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2013/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2013/$1I4858/$1I4467/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="Pack" num="266" delta="unknown" >The function generator <arg fmt="%s" index="1">$1I135/$6I2013/$1I4908</arg> failed to merge with F5 multiplexer <arg fmt="%s" index="2">$1I135/$6I2013/$1I4858/$1I4485/O</arg>.  <arg fmt="%z" index="3">There is more than one MUXF5.</arg>  The design will exhibit suboptimal timing.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">$1I135/BCLK</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">$1I135/DDU_DLL_LOCK</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="372" delta="unknown" >Gated clock. Clock net <arg fmt="%s" index="1">$1I135/$1I3030/$5I2521/LOAD</arg> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+</msg>
+
+<msg type="warning" file="PhysDesignRules" num="1063" delta="unknown" >Dangling pins on block:&lt;<arg fmt="%s" index="1">$1I135/$1I3030/$13I2844/B7/$1I135/$1I3030/$13I2844/B7.A</arg>&gt;:&lt;<arg fmt="%s" index="2">RAMB16_RAMB16A</arg>&gt;.  The block is configured to use an input parity pins. There is a dangling output parity pin.
+</msg>
+
+</messages>
+

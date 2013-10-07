@@ -1,0 +1,218 @@
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+netgen -intstyle ise -w -ofmt verilog -sim 0ddu_in.ngd 0ddu_in_translate.v
+map -intstyle ise -p xc2vp20-fg676-6 -ol med -timing -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+ngdbuild -intstyle ise -dd \\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/_ngo -uc ../in5ctrl.ucf  -p xc2vp20-fg676-6 \\phypcs\ellicad\wv\d785\ddu5in\0ddu_in.edn 0ddu_in.ngd
+map -intstyle ise -p xc2vp20-fg676-6 -cm area -pr b -k 4 -c 100 -tx off -o 0ddu_in_map.ncd 0ddu_in.ngd 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+par -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd 0ddu_in.ncd 0ddu_in.pcf
+trce -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd -o 0ddu_in.twr 0ddu_in.pcf
+bitgen -intstyle ise -f 0ddu_in.ut 0ddu_in.ncd

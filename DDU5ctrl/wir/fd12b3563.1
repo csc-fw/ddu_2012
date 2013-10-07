@@ -1,0 +1,63 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 58180587390 fd18
+DW fd12b3563
+|Q virtex:fdpe 1
+AS virtex:fdpe LIBVER=2.0.0
+AS virtex:fdpe LEVEL=XILINX
+AS virtex:fdpe @INIT=1
+AS virtex:fdpe PINORDER=C CE D PRE Q
+AP virtex:fdpe 1 PINTYPE=IN
+AP virtex:fdpe 2 PINTYPE=IN
+AP virtex:fdpe 3 PINTYPE=IN
+AP virtex:fdpe 4 PINTYPE=IN
+AP virtex:fdpe 5 PINTYPE=OUT
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+AN Q[11:0] VLBUSISONSHEET=1
+AN D[11:0] VLBUSISONSHEET=1
+W virtex:fdpe $1I124
+I $1I124 virtex:fdpe C CE D1 CLR Q1 
+W virtex:fdce $1I123
+I $1I123 virtex:fdce C CE CLR D2 Q2 
+W virtex:fdce $1I121
+I $1I121 virtex:fdce C CE CLR D4 Q4 
+W virtex:fdpe $1I95
+I $1I95 virtex:fdpe C CE D6 CLR Q6 
+W virtex:fdpe $1I96
+I $1I96 virtex:fdpe C CE D7 CLR Q7 
+W virtex:fdpe $1I92
+I $1I92 virtex:fdpe C CE D10 CLR Q10 
+W virtex:fdpe $1I94
+I $1I94 virtex:fdpe C CE D8 CLR Q8 
+W virtex:fdpe $1I86
+I $1I86 virtex:fdpe C CE D3 CLR Q3 
+W virtex:fdpe $1I88
+I $1I88 virtex:fdpe C CE D5 CLR Q5 
+W virtex:fdce $1I120
+I $1I120 virtex:fdce C CE CLR D9 Q9 
+W virtex:fdpe $1I91
+I $1I91 virtex:fdpe C CE D11 CLR Q11 
+W virtex:fdpe $1I122
+I $1I122 virtex:fdpe C CE D0 CLR Q0 
+P ? Q[11:0]
+I Q[11:0] ? Q[11:0]
+P ? D[11:0]
+I D[11:0] ? D[11:0]
+P ? CE
+I CE ? CE
+P ? C
+I C ? C
+P ? CLR
+I CLR ? CLR
+EW

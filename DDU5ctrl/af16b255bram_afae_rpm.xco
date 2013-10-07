@@ -1,0 +1,49 @@
+# Xilinx CORE Generator 5.2.03i
+# Username = gilmore
+# COREGenPath = C:\Xilinx\coregen
+# ProjectPath = M:\WV\D785\D785C
+# ExpandedProjectPath = M:\WV\D785\D785C
+# OverwriteFiles = False
+# Core name: af16b255bram_afae_rpm
+# Number of Primitives in design: 233
+# Number of CLBs used in design: 14
+# Number of Slices used in design: 46
+# Number of LUT sites used in design: 80
+# Number of LUTs used in design: 80
+# Number of REG used in design: 80
+# Number of SRL16s used in design: 0
+# Number of Distributed RAM primitives used in design: 0
+# Number of Block Memories cannot be determined when there is no RPMed logic
+# Number of Dedicated Multipliers cannot be determined when there is no RPMed logic
+# Number of HU_SETs used: 2
+# Huset "af16b255bram_afae_rpm/control/rd_blk" = (0, 0) to (2, 3) in CLBs
+# Huset "af16b255bram_afae_rpm/control/wr_blk" = (0, 0) to (3, 3) in CLBs
+# 
+SET BusFormat = BusFormatNoDelimiter
+SET SimulationOutputProducts = None
+SET XilinxFamily = Virtex2P
+SET OutputOption = DesignFlow
+SET DesignFlow = Schematic
+SET FlowVendor = Innoveda
+SET FormalVerification = None
+SELECT Asynchronous_FIFO Virtex2P Xilinx,_Inc. 5.0
+CSET read_error_sense = active_high
+CSET read_count_width = 2
+CSET write_acknowledge = false
+CSET create_rpm = true
+CSET read_acknowledge = false
+CSET read_count = false
+CSET write_error = false
+CSET almost_full_flag = true
+CSET almost_empty_flag = true
+CSET memory_type = block
+CSET read_error = false
+CSET fifo_depth = 255
+CSET component_name = af16b255bram_afae_rpm
+CSET input_data_width = 16
+CSET write_count = false
+CSET write_acknowledge_sense = active_high
+CSET read_acknowledge_sense = active_high
+CSET write_error_sense = active_high
+CSET write_count_width = 2
+GENERATE

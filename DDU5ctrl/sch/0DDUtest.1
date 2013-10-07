@@ -1,0 +1,226 @@
+V 51
+K 271629802300 D690K
+Y 0
+D 0 0 1700 1100
+Z 1
+i 170
+I 111 COVER 1 0 0 0 1 '
+T 695 40 10 0 3 K-Status
+Q 12 0 0
+T 515 40 10 0 3 WordCount
+Q 12 0 0
+T 450 40 10 0 3 EOE
+Q 12 0 0
+T 405 25 20 0 3 TR: 0x/A/?/WW.WWWW/RRRR/UUMK
+Q 13 0 0
+T 155 40 10 0 3 Ostat
+Q 12 0 0
+T 285 40 10 0 3 DMBcnt
+Q 12 0 0
+T 590 40 10 0 3 CRCword
+Q 12 0 0
+T 645 40 10 0 3 EOEstat
+Q 12 0 0
+T 90 90 10 0 3 BOE1
+Q 12 0 0
+T 225 90 10 0 3 BXN
+Q 12 0 0
+T 260 90 10 0 3 ID
+Q 12 0 0
+T 305 90 10 0 3 K-Status
+Q 12 0 0
+T 280 90 10 0 3 FOV
+Q 12 0 0
+T 120 90 10 0 3 type
+Q 12 0 0
+T 150 90 10 0 3 L1A _Number
+Q 12 0 0
+T 55 75 20 0 3 H1: 0x/5T/NN.NNNN/XXX/I.II/VK
+Q 13 0 0
+T 180 40 10 0 3 DMB-DAV(15)
+Q 12 0 0
+T 245 40 10 0 3 BOEstat
+Q 12 0 0
+T 55 25 20 0 3 H3: 0x/LLLL/oooo/ZZZZ/GGMY
+Q 13 0 0
+T 95 40 10 0 3 LiveDMB(15)
+Q 12 0 0
+T 55 50 20 0 3 H2: 0x/8000/0001/8000/HHHH
+Q 13 0 0
+T 115 65 10 0 3 49-bit ~unique constant
+Q 12 0 0
+T 235 65 10 0 3 DMBfull(15)
+Q 12 0 0
+T 405 75 20 0 3 T-2: 0x/8000/FFFF/8000/8000
+Q 13 0 0
+T 465 90 10 0 3 64-bit unique constant
+Q 12 0 0
+T 405 50 20 0 3 T-1: 0x/SSSS.SSSS/QQQQ/PPPP
+Q 13 0 0
+T 545 65 10 0 3 DMBerr
+Q 12 0 0
+T 605 65 10 0 3 DMBwarn(15)
+Q 12 0 0
+T 470 65 10 0 3 DDU EOE Status
+Q 12 0 0
+T 35 100 20 0 3 DDU Format Since DDUctrl v15:
+Q 12 0 0
+c 45 1353 1
+T 890 515 30 0 3 3: Mode Bit 2
+Q 12 0 0
+T 890 545 30 0 3 2: Mode Bit 1
+Q 12 0 0
+T 890 575 30 0 3 1: Mode Bit 0
+Q 12 0 0
+T 40 1035 30 0 3 this DDU:
+Q 13 0 0
+T 860 635 30 0 3 old-BXR Pulse: Dump Data Mode (no L1A needed)
+Q 12 0 0
+T 170 -65 20 0 3 DDU WC, 8 DMB with 1 CFEB (nCFEB=8): 666h = 1638 dec, 13104 Byt
++ es
+Q 13 0 0
+T 170 -20 20 0 3 DDU WC, 3 DMB with 1 CFEB (nCFEB=3): 26Ah = 618 dec, 4944 Bytes
++ 
+Q 13 0 0
+T 170 -35 20 0 3 DDU WC, 4 DMB with 1 CFEB (nCFEB=4): 336h = 822 dec, 6576 Bytes
++ 
+Q 13 0 0
+T 170 -50 20 0 3 DDU WC, 7 DMB with 1 CFEB (nCFEB=7): 59Ah = 1434 dec, 11472 Byt
++ es
+Q 13 0 0
+T 855 -20 20 0 3 DDU WC, 11 DMB with 1 CFEB (nCFEB=11): 8CAh = 2250 dec, 18000 B
++ ytes
+Q 13 0 0
+T 855 -35 20 0 3 DDU WC, 12 DMB with 1 CFEB (nCFEB=12): 996h = 2454 dec, 19632 B
++ ytes
+Q 13 0 0
+T 855 -50 20 0 3 DDU WC, 15 DMB with 1 CFEB (nCFEB=15): BFAh = 3066 dec, 24528 B
++ ytes
+Q 13 0 0
+T 1380 120 20 0 9 DDU WordCount (64-bit words) for "No Data" event: 0x006.
+Q 13 0 0
+T 1380 105 20 0 9 DDU WordCount for one DMB (only one CFEB): 0D2h = 210 dec, 168
++ 0 Bytes
+Q 13 0 0
+T 1380 90 20 0 9 DDU WC, 1 DMB with 2 CFEB (8 samples each): 19Ah = 410 dec, 328
++ 0 Bytes
+Q 13 0 0
+T 1380 75 20 0 9 DDU WC, 2 DMB with 1 CFEB (nCFEB=2): 19Eh = 414 dec, 3312 Bytes
++ 
+Q 13 0 0
+T 1380 60 20 0 9 DDU WC, 2 DMB with 2 CFEB (nCFEB=4): 32Eh = 814 dec, 6512 Bytes
++ 
+Q 13 0 0
+T 1380 25 20 0 9 ^^Ignores TMB Data^^    GBE_ByteCount = 8*DDU_WordCount
+Q 13 0 0
+T 1380 40 20 0 9 DDU_WordCount = (6 + 25*Nts*nCFEB + 4*nDMB) < 30070; 240560 Byt
++ es
+Q 13 0 0
+T 105 390 24 0 3 ck125          7P  -BL
+Q 11 0 0
+T 105 415 24 0 3 clk625         0S
+Q 11 0 0
+T 105 440 24 0 3 clk               3S
+Q 11 0 0
+T 105 465 24 0 3 2clk             2P
+Q 11 0 0
+T 105 365 24 0 3 clk40           5P
+Q 11 0 0
+T 105 340 24 0 3 clk156        4S-
+Q 11 0 0
+T 105 315 24 0 3 drck2           1S
+Q 11 0 0
+T 105 290 24 0 3 sclk             6S-
+Q 11 0 0
+T 105 490 24 0 3 drck1           0P  -TR
+Q 11 0 0
+T 860 665 30 0 3 RST_1=Asynchronus Reset for FPGA1 and ALL FIFOs
+Q 12 0 0
+T 805 1015 50 0 6 DDU5test, for FIFO Bit Testing
+Q 11 3 0
+T 820 970 35 0 6 Readin TI SDR FIFOs and Vote the PRBG data bits
+Q 11 3 0
+T 860 605 30 0 3 Mode 1 Switch Block
+Q 12 0 0
+T 55 1015 24 0 3 use DDU-DMB fiber to STOP on FULL
+Q 13 0 0
+T 35 655 40 0 3 Set all Banks to 3.3V I/O
+Q 14 0 0
+T 1660 435 24 0 9 Read Delay 'ON' rate effects:
+Q 11 3 0
+T 190 510 30 0 6 Clock   BUFGMUX
+Q 11 0 0
+T 545 520 24 0 2 ddu5test
+Q 11 3 0
+T 515 495 24 0 2 d003de99
+Q 11 3 0
+T 515 475 24 0 2 d103de99
+Q 11 3 0
+T 890 485 30 0 3 4: Mode3
+Q 12 0 0
+T 890 455 30 0 3 5: Mode4;  GbE_LED_EN; force FakeDelay ~6.5usec before Read
+Q 12 0 0
+T 890 395 30 0 3 7: Set L1A Fake mode
+Q 12 0 0
+T 890 365 30 0 3 8: FPGA version on LEDs
+Q 12 0 0
+T 1200 365 30 0 3 --0
+Q 12 0 0
+T 1240 400 60 0 2 }
+Q 12 0 0
+T 1200 395 30 0 3 --1
+Q 12 0 0
+T 1275 380 30 0 3 Kills DCC_L1A_In
+Q 12 0 0
+T 1665 900 30 0 9 v5-7: fix EndTimeoutRst, add ERA bits, set FOV=2, re-add Stuck
++ Reg & F_ErrReg; tune PRST, GbE START, GbEmaxWC=7184
+Q 12 0 0
+T 1665 875 30 0 9 v8: GbEmaxWC=7696, set FFULL[7-4]=0, add InFakeL1_En to UCF fi
++ le
+Q 12 0 0
+T 1665 850 30 0 9 v9: GbEmaxWC=7952, KillCmdBus gives Rst to EvCntRst
+Q 12 0 0
+T 1665 925 30 0 9 v4-5: ERA(3,4) show GbEskipEvt, LEDm6(2,5) show OEtr to GbE FI
++ FO, GbE debug on LA0/1, LA0/1 on VME-JTAG F20/21
+Q 12 0 0
+T 1665 950 30 0 9 v2-3: fix Status Reg signals
+Q 12 0 0
+T 1665 975 30 0 9 v1: Begin with DDU5ctrl V17
+Q 12 0 0
+T 35 845 30 0 3 Maybe try internal BRAM to store event data, only transmit via G
++ BE for Verr case?
+Q 13 0 0
+T 1665 800 30 0 9 v11: set CkFB to FAST 4mA (adds .5ns delay)--BAD!  rev2: try S
++ LOW 8mA-->GOOD!  rev3: slow RCLK1 to SLOW16
+Q 12 0 0
+T 1665 775 30 0 9 v12: drive RCLK1 with SLOW12, tune VERR63 logic; rev2: RCLK1=S
++ LOW16, CkFB=SLOW12
+Q 12 0 0
+T 1665 825 30 0 9 v10: speed RCLK0 to FAST 24mA, allow KillFiber to skip FIFO re
++ adout
+Q 12 0 0
+T 1170 605 30 0 3 LED0 "on top"
+Q 12 0 0
+T 890 425 30 0 3 6: Mode5;  unused
+Q 12 0 0
+T 1665 750 30 0 9 v13: FIFO1-Verr-Count moved to FIFO3, RCLK1=SLOW16, CkFB=SLOW8
++ 
+Q 12 0 0
+T 1665 1000 35 0 9 CF013E02    Version 13
+Q 13 3 0
+T 1665 725 30 0 9 rev2: RCLK1=FAST16, CkFB=SLOW8;  rev3: try IRCLK0=FAST16--no b
++ etter, UNDONE!
+Q 12 0 0
+U 35 530 40 0 3 1 PROM=2*XC18V04-VQ44 (PARALLEL)
+U 35 570 40 0 3 1 PART=XC2VP7-6-FF672
+U 1650 1035 40 0 9 3 @DATETIME=12-28-2005_18:05
+I 135 TESTCTRL 1 711 452 0 1 '
+T 1510 420 14 0 3 InCtrl 00: ~78 kHz -> 51
+Q 11 3 0
+T 1510 390 14 0 3 InCtrl 10: ~8.5 kHz -> 8.2
+Q 11 3 0
+T 1510 375 14 0 3 InCtrl 11: ~0.6 kHz  N.C.
+Q 11 3 0
+T 1510 405 14 0 3 InCtrl 01: ~53 kHz -> 44
+Q 11 3 0
+E

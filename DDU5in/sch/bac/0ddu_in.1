@@ -1,0 +1,239 @@
+V 51
+K 271629802300 D690K
+Y 0
+D 0 0 1700 1100
+Z 1
+i 172
+I 111 COVER 1 0 0 0 1 '
+T 695 40 10 0 3 K-Status
+Q 12 0 0
+T 515 40 10 0 3 WordCount
+Q 12 0 0
+T 450 40 10 0 3 EOE
+Q 12 0 0
+T 405 25 20 0 3 TR: 0x/A/?/WW.WWWW/RRRR/UUMK
+Q 13 0 0
+T 155 40 10 0 3 Ostat
+Q 12 0 0
+T 285 40 10 0 3 DMBcnt
+Q 12 0 0
+T 590 40 10 0 3 CRCword
+Q 12 0 0
+T 645 40 10 0 3 EOEstat
+Q 12 0 0
+T 90 90 10 0 3 BOE1
+Q 12 0 0
+T 225 90 10 0 3 BXN
+Q 12 0 0
+T 260 90 10 0 3 ID
+Q 12 0 0
+T 305 90 10 0 3 K-Status
+Q 12 0 0
+T 280 90 10 0 3 FOV
+Q 12 0 0
+T 120 90 10 0 3 type
+Q 12 0 0
+T 150 90 10 0 3 L1A _Number
+Q 12 0 0
+T 55 75 20 0 3 H1: 0x/5T/NN.NNNN/XXX/I.II/VK
+Q 13 0 0
+T 855 -25 20 0 3 DDU WC, 11 DMB with 1 CFEB (nCFEB=11): 8CAh = 2250 dec, 18000 B
++ ytes
+Q 13 0 0
+T 855 -40 20 0 3 DDU WC, 12 DMB with 1 CFEB (nCFEB=12): 996h = 2454 dec, 19632 B
++ ytes
+Q 13 0 0
+T 855 -55 20 0 3 DDU WC, 15 DMB with 1 CFEB (nCFEB=15): BFAh = 3066 dec, 24528 B
++ ytes
+Q 13 0 0
+T 1380 115 20 0 9 DDU WordCount (64-bit words) for "No Data" event: 0x006.
+Q 13 0 0
+T 1380 100 20 0 9 DDU WordCount for one DMB (only one CFEB): 0D2h = 210 dec, 168
++ 0 Bytes
+Q 13 0 0
+T 1380 85 20 0 9 DDU WC, 1 DMB with 2 CFEB (8 samples each): 19Ah = 410 dec, 328
++ 0 Bytes
+Q 13 0 0
+T 1380 70 20 0 9 DDU WC, 2 DMB with 1 CFEB (nCFEB=2): 19Eh = 414 dec, 3312 Bytes
++ 
+Q 13 0 0
+T 1380 55 20 0 9 DDU WC, 2 DMB with 2 CFEB (nCFEB=4): 32Eh = 814 dec, 6512 Bytes
++ 
+Q 13 0 0
+T 1380 35 20 0 9 DDU_WordCount = (6 + 25*Nts*nCFEB + 4*nDMB) < 30070; 240560 Byt
++ es
+Q 13 0 0
+T 170 -25 20 0 3 DDU WC, 3 DMB with 1 CFEB (nCFEB=3): 26Ah = 618 dec, 4944 Bytes
++ 
+Q 13 0 0
+T 170 -40 20 0 3 DDU WC, 4 DMB with 1 CFEB (nCFEB=4): 336h = 822 dec, 6576 Bytes
++ 
+Q 13 0 0
+T 170 -55 20 0 3 DDU WC, 7 DMB with 1 CFEB (nCFEB=7): 59Ah = 1434 dec, 11472 Byt
++ es
+Q 13 0 0
+T 170 -70 20 0 3 DDU WC, 8 DMB with 1 CFEB (nCFEB=8): 666h = 1638 dec, 13104 Byt
++ es
+Q 13 0 0
+c 45 1353 1
+T 190 650 24 0 3 (INIT, BUSY, WRITE, CS)
+Q 14 0 0
+T 55 335 30 0 3 25=DMB
+Q 13 0 0
+T 55 310 30 0 3 26=TMB
+Q 13 0 0
+T 55 260 30 0 3 28=DDU
+Q 13 0 0
+T 35 385 30 0 3 VME Broadcast Addresses:
+Q 13 0 0
+T 55 285 30 0 3 27=Both DMB and TMB
+Q 13 0 0
+T 55 360 30 0 3 24=OSU-TCB "Test Control Board"
+Q 13 0 0
+T 1265 340 24 0 2 To Do:
+Q 11 3 0
+T 1290 325 14 0 2 - COMPARE L1NUM & BXN (DMB/TMB too)
+Q 11 3 0
+T 1315 310 14 0 2 add BX_offset constants to SRAM?
+Q 11 3 0
+T 770 1020 50 0 6 In5Ctrl
+Q 11 3 0
+T 205 950 30 0 3 Process Rocket I/O Data from DMB, format output to DDU FIFOs
+Q 11 3 0
+T 1135 1025 35 0 3 (file 0ddu_in)
+Q 11 3 0
+T 770 980 50 0 6 CMS CSC DDU5, Input Control FPGAs
+Q 11 3 0
+T 715 600 40 0 9 All I/O is 3.3V
+Q 14 0 0
+T 45 860 24 0 3 RXER words are skipped, FILLER added as needed
+Q 13 0 0
+T 70 840 24 0 3 - Use code "C" with FILL flag set (b34 & b16)
+Q 13 0 0
+T 180 40 10 0 3 DMB-DAV(15)
+Q 12 0 0
+T 245 40 10 0 3 BOEstat
+Q 12 0 0
+T 55 25 20 0 3 H3: 0x/LLLL/oooo/ZZZZ/GGMY
+Q 13 0 0
+T 95 40 10 0 3 LiveDMB(15)
+Q 12 0 0
+T 55 50 20 0 3 H2: 0x/8000/0001/8000/HHHH
+Q 13 0 0
+T 115 65 10 0 3 49-bit ~unique constant
+Q 12 0 0
+T 235 65 10 0 3 DMBfull(15)
+Q 12 0 0
+T 405 75 20 0 3 T-2: 0x/8000/FFFF/8000/8000
+Q 13 0 0
+T 465 90 10 0 3 64-bit unique constant
+Q 12 0 0
+T 405 50 20 0 3 T-1: 0x/SSSS.SSSS/QQQQ/PPPP
+Q 13 0 0
+T 545 65 10 0 3 DMBerr
+Q 12 0 0
+T 605 65 10 0 3 DMBwarn(15)
+Q 12 0 0
+T 470 65 10 0 3 DDU EOE Status
+Q 12 0 0
+T 35 100 20 0 3 DDU Format Since DDUctrl v15:
+Q 12 0 0
+T 1495 20 20 0 9 ^^Ignores TMB Data^^    GBE_ByteCount = 8*DDU_WordCount      _8
++  TS assumed_
+Q 13 0 0
+T 100 820 24 0 3 -- could use code "8" instead...
+Q 13 0 0
+T 70 800 24 0 3 - Should we Reset RxErr Monitor?  How?
+Q 13 0 0
+T 1290 290 14 0 2 - use DDU-DMB fiber to STOP DMB on FULL, check
+Q 11 3 0
+T 1290 270 14 0 2 - Watch for TRG buff overflows
+Q 11 3 0
+T 1290 250 14 0 2 - No logic for TXEN, TXDIN, PAE0/1, Mode5/4...OK.
+Q 11 3 0
+T 1290 230 14 0 2 - Add InUnit Check for DMB Timeouts & set FMM Error?
+Q 14 3 0
+T 55 235 30 0 3 22=DCC
+Q 13 0 0
+T 440 520 24 0 2 DDU5in\In5Ctrl\in5ctrl
+Q 11 3 0
+T 35 480 24 0 2 * af_clb_5x31rpm has Core EDN file
+Q 11 3 0
+T 1665 165 30 0 9 Special Startup Order:
+Q 13 0 0
+T 1510 105 20 0 3 5) En. Outputs
+Q 13 0 0
+T 1510 145 20 0 3 2) Release WE
+Q 13 0 0
+T 1510 125 20 0 3 3) Release DLL
+Q 13 0 0
+T 1510 85 20 0 3 6) DONE
+Q 13 0 0
+T 180 445 30 0 2 PROGRAM takes < 55ms
+Q 12 3 0
+T 860 625 30 0 3 Mode 1 Switch Block
+Q 12 0 0
+T 880 595 30 0 3 1: Mode Bit 0
+Q 12 0 0
+T 880 565 30 0 3 2: Mode Bit 1
+Q 12 0 0
+T 880 535 30 0 3 3: Mode Bit 2
+Q 12 0 0
+T 880 505 30 0 3 4: Mode Bit 3
+Q 12 0 0
+T 880 475 30 0 3 7: Set Fake_L1A (data passthrough)
+Q 12 0 0
+T 880 445 30 0 3 8: Show STAT31-0 on LAs, ~FPGA version on LEDs
+Q 12 0 0
+T 105 205 30 0 2 PromID:  05026093h
+Q 12 3 0
+T 105 175 30 0 2 FPGAid:  31266093h
+Q 12 3 0
+T 1670 970 30 0 9 v20: fix DMBfull-to-JTAG monitor logic
+Q 12 0 0
+T 1670 920 30 0 9 v22: replace F_OK with LFOK for InUnits;
+Q 12 0 0
+T 1670 870 30 0 9 v23, RxErr sets SingleWarn, but LRxErr goes on Stat11, Lfilled
++  on Stat30, LDLLerr on STAT31
+Q 12 0 0
+T 1670 895 30 0 9 r2, use FDP for LFOK; r3, use FOK to control GT PwrDn;
+Q 12 0 0
+T 1670 945 30 0 9 v21: add 2*32 bit Fiber Memory diagnostic (F30,31)
+Q 12 0 0
+T 1670 815 30 0 9 r3:  add REN-while-StackMT error to FMM & L1m2b7; r4: new LA s
++ ignals on 2H
+Q 12 0 0
+T 1670 840 30 0 9 v24: Tune RdBusy logic, extend RHL to 1200ns; r2: add Search/F
++ ree Errordetection to FMM & L1m2b7
+Q 12 0 0
+T 1670 790 30 0 9 r5: try OEF_F/REN_F fix in RdCtrl.9, allows Fiber/NextMem book
++ eeping when FIFO Empty at EOE
+Q 12 0 0
+T 1670 765 30 0 9 r6: add mode 8-F options for LAs & LEDs; r7: add RstEOE to OEM
++ _fctrl counter, bring BadFW to L0mA4
+Q 12 0 0
+T 1670 740 30 0 9 v25: RdCtrl.9 disable LnxtFIFO until NextFiber+6, prevents Pre
++ vious fiber moving Current Read pointer
+Q 12 0 0
+T 30 880 30 0 3 this DDU:
+Q 13 0 0
+T 1670 715 30 0 9 r2: Now SCAovfl (DMBerr) does Not set SingleError at InFPGA.  
++ r3: modified XMITerr def.
+Q 12 0 0
+T 1670 995 35 0 9 DF025A05   Version 25
+Q 13 3 0
+U 1650 1035 40 0 9 3 @DATETIME=4-23-2009_17:02
+U 70 670 30 0 3 1 AVOID=Y21, E23, C22, E21
+U 70 590 30 0 3 1 NC_XCV400E_FG676=D13, Y13
+U 70 620 30 0 3 1 NC_XCV400_FG676=B13, AF13
+U 35 700 40 0 3 1 PART=XC2VP20-6-FG676
+U 35 530 40 0 3 1 PROM=2*XC18V04-VQ44 (PARALLEL)
+T 1015 405 30 0 3 NEED TO Change FIFO Full, lost sync NOT Warning....done?
+Q 13 0 0
+T 1670 690 30 0 9 r4: DMB FIFO Full no longer sets WARN.   r5: fix Reset for InU
++ nit filler/word-phase counter
+Q 12 0 0
+T 1665 665 30 0 9 r6: NotCompiledYet...prevent LastFill for single 8-code case
+Q 12 0 0
+I 162 INCNTRL 1 710 430 0 1 '
+E

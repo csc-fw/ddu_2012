@@ -1,0 +1,122 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 336520675100 cb8clebus
+DW cb8clebus
+|Q virtex:ftclex 1
+AS virtex:ftclex @INIT=0
+AS virtex:ftclex LIBVER=2.0.0
+AS virtex:ftclex LEVEL=MXILINX
+AS virtex:ftclex PINORDER=C CE CLR D L Q T
+AP virtex:ftclex 1 PINTYPE=IN
+AP virtex:ftclex 2 PINTYPE=IN
+AP virtex:ftclex 3 PINTYPE=IN
+AP virtex:ftclex 4 PINTYPE=IN
+AP virtex:ftclex 5 PINTYPE=IN
+AP virtex:ftclex 6 PINTYPE=OUT
+AP virtex:ftclex 7 PINTYPE=IN
+|Q virtex:or2 1
+AS virtex:or2 DEVICE=OR
+AS virtex:or2 LEVEL=XILINX
+AS virtex:or2 LIBVER=2.0.0
+AS virtex:or2 PINORDER=I0 I1 O
+AP virtex:or2 1 PINTYPE=IN
+AP virtex:or2 2 PINTYPE=IN
+AP virtex:or2 3 PINTYPE=OUT
+|Q virtex:vcc 1
+AS virtex:vcc LEVEL=XILINX
+AS virtex:vcc LIBVER=2.0.0
+AS virtex:vcc PINORDER=P
+AP virtex:vcc 1 PINTYPE=OUT
+|Q virtex:and3 1
+AS virtex:and3 LEVEL=XILINX
+AS virtex:and3 DEVICE=AND
+AS virtex:and3 LIBVER=2.0.0
+AS virtex:and3 PINORDER=I0 I1 I2 O
+AP virtex:and3 1 PINTYPE=IN
+AP virtex:and3 2 PINTYPE=IN
+AP virtex:and3 3 PINTYPE=IN
+AP virtex:and3 4 PINTYPE=OUT
+|Q virtex:and4 1
+AS virtex:and4 LEVEL=XILINX
+AS virtex:and4 DEVICE=AND
+AS virtex:and4 LIBVER=2.0.0
+AS virtex:and4 PINORDER=I0 I1 I2 I3 O
+AP virtex:and4 1 PINTYPE=IN
+AP virtex:and4 2 PINTYPE=IN
+AP virtex:and4 3 PINTYPE=IN
+AP virtex:and4 4 PINTYPE=IN
+AP virtex:and4 5 PINTYPE=OUT
+|Q virtex:and5 1
+AS virtex:and5 LIBVER=2.0.0
+AS virtex:and5 LEVEL=XILINX
+AS virtex:and5 PINORDER=I0 I1 I2 I3 I4 O
+AP virtex:and5 1 PINTYPE=IN
+AP virtex:and5 2 PINTYPE=IN
+AP virtex:and5 3 PINTYPE=IN
+AP virtex:and5 4 PINTYPE=IN
+AP virtex:and5 5 PINTYPE=IN
+AP virtex:and5 6 PINTYPE=OUT
+|Q virtex:and2 1
+AS virtex:and2 LEVEL=XILINX
+AS virtex:and2 DEVICE=AND
+AS virtex:and2 LIBVER=2.0.0
+AS virtex:and2 PINORDER=I0 I1 O
+AP virtex:and2 1 PINTYPE=IN
+AP virtex:and2 2 PINTYPE=IN
+AP virtex:and2 3 PINTYPE=OUT
+AN D[7:0] VLBUSISONSHEET=1
+AN Q[7:0] VLBUSISONSHEET=1
+W virtex:ftclex $1I37
+I $1I37 virtex:ftclex C OR_CE_L CLR D6 L Q6 T6 LABEL=Q6`
+W virtex:ftclex $1I34
+I $1I34 virtex:ftclex C OR_CE_L CLR D5 L Q5 T5 LABEL=Q5`
+W virtex:ftclex $1I36
+I $1I36 virtex:ftclex C OR_CE_L CLR D4 L Q4 T4 LABEL=Q4`
+W virtex:ftclex $1I29
+I $1I29 virtex:ftclex C OR_CE_L CLR D3 L Q3 T3 LABEL=Q3`
+W virtex:ftclex $1I30
+I $1I30 virtex:ftclex C OR_CE_L CLR D2 L Q2 T2 LABEL=Q2`
+W virtex:ftclex $1I32
+I $1I32 virtex:ftclex C OR_CE_L CLR D1 L Q1 Q0 LABEL=Q1`
+W virtex:or2 $1I68
+I $1I68 virtex:or2 CE L OR_CE_L 
+W virtex:vcc $1I31
+I $1I31 virtex:vcc $1N41 
+W virtex:and3 $1I18
+I $1I18 virtex:and3 Q2 Q1 Q0 T3 
+W virtex:and4 $1I17
+I $1I17 virtex:and4 Q3 Q2 Q1 Q0 T4 
+W virtex:and5 $1I16
+I $1I16 virtex:and5 Q7 Q6 Q5 Q4 T4 TC 
+W virtex:and4 $1I15
+I $1I15 virtex:and4 Q6 Q5 Q4 T4 T7 
+W virtex:and2 $1I14
+I $1I14 virtex:and2 Q4 T4 T5 
+W virtex:and3 $1I13
+I $1I13 virtex:and3 Q5 Q4 T4 T6 
+W virtex:and2 $1I19
+I $1I19 virtex:and2 Q1 Q0 T2 
+W virtex:ftclex $1I35
+I $1I35 virtex:ftclex C OR_CE_L CLR D7 L Q7 T7 LABEL=Q7`
+W virtex:ftclex $1I33
+I $1I33 virtex:ftclex C OR_CE_L CLR D0 L Q0 $1N41 LABEL=Q0`
+W virtex:and2 $1I77
+I $1I77 virtex:and2 CE TC CEO 
+P ? D[7:0]
+I D[7:0] ? D[7:0]
+P ? L
+I L ? L
+P ? C
+I C ? C
+P ? Q[7:0]
+I Q[7:0] ? Q[7:0]
+P ? CLR
+I CLR ? CLR
+P ? CEO
+I CEO ? CEO
+P ? TC
+I TC ? TC
+P ? CE
+I CE ? CE
+EW

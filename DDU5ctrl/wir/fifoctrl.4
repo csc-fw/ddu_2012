@@ -1,0 +1,348 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 7468887480 tst1
+DW fifoctrl
+SA @DATETIME=3-4-2012_23:55 
+SA @NAME=FIFOCTRL 
+SA @SHEET=4 
+|Q virtex:buf 1
+AS virtex:buf LIBVER=2.0.0
+AS virtex:buf DEVICE=BUF
+AS virtex:buf LEVEL=XILINX
+AS virtex:buf PINORDER=I O
+AP virtex:buf 1 PINTYPE=IN
+AP virtex:buf 2 PINTYPE=OUT
+|Q virtex:and2b1 1
+AS virtex:and2b1 LEVEL=XILINX
+AS virtex:and2b1 DEVICE=AND
+AS virtex:and2b1 LIBVER=2.0.0
+AS virtex:and2b1 PINORDER=I0 I1 O
+AP virtex:and2b1 1 PINTYPE=IN
+AP virtex:and2b1 1 PARAM=INV
+AP virtex:and2b1 2 PINTYPE=IN
+AP virtex:and2b1 3 PINTYPE=OUT
+|Q virtex:or2 1
+AS virtex:or2 DEVICE=OR
+AS virtex:or2 LEVEL=XILINX
+AS virtex:or2 LIBVER=2.0.0
+AS virtex:or2 PINORDER=I0 I1 O
+AP virtex:or2 1 PINTYPE=IN
+AP virtex:or2 2 PINTYPE=IN
+AP virtex:or2 3 PINTYPE=OUT
+|Q virtex:fdc 1
+AS virtex:fdc LIBVER=2.0.0
+AS virtex:fdc LEVEL=XILINX
+AS virtex:fdc @INIT=0
+AS virtex:fdc DEVICE=DFF
+AS virtex:fdc PINORDER=C CLR D Q
+AP virtex:fdc 1 PINTYPE=IN
+AP virtex:fdc 2 PINTYPE=IN
+AP virtex:fdc 3 PINTYPE=IN
+AP virtex:fdc 4 PINTYPE=OUT
+|Q virtex:and2 1
+AS virtex:and2 LEVEL=XILINX
+AS virtex:and2 DEVICE=AND
+AS virtex:and2 LIBVER=2.0.0
+AS virtex:and2 PINORDER=I0 I1 O
+AP virtex:and2 1 PINTYPE=IN
+AP virtex:and2 2 PINTYPE=IN
+AP virtex:and2 3 PINTYPE=OUT
+|Q fd15ce 1
+AS fd15ce LEVEL=MXILINX
+AS fd15ce @NAME=FD15CE
+AS fd15ce PINORDER=C CE CLR D[14:0] Q[14:0]
+AP fd15ce 1 PINTYPE=IN
+AP fd15ce 2 PINTYPE=IN
+AP fd15ce 3 PINTYPE=IN
+AP fd15ce 4 PINTYPE=IN
+AP fd15ce 5 PINTYPE=OUT
+|Q inv15 1
+AS inv15 LEVEL=MXILINX
+AS inv15 @NAME=INV15
+AS inv15 PINORDER=I[14:0] O[14:0]
+AP inv15 1 PINTYPE=IN
+AP inv15 2 PINTYPE=OUT
+|Q virtex2p:sop3 1
+AS virtex2p:sop3 LEVEL=MXILINX
+AS virtex2p:sop3 LIBVER=2.0.0
+AS virtex2p:sop3 PINORDER=I0 I1 I2 O
+AP virtex2p:sop3 1 PINTYPE=IN
+AP virtex2p:sop3 2 PINTYPE=IN
+AP virtex2p:sop3 3 PINTYPE=IN
+AP virtex2p:sop3 4 PINTYPE=OUT
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+|Q virtex2p:sop4 1
+AS virtex2p:sop4 LEVEL=MXILINX
+AS virtex2p:sop4 LIBVER=2.0.0
+AS virtex2p:sop4 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:sop4 1 PINTYPE=IN
+AP virtex2p:sop4 2 PINTYPE=IN
+AP virtex2p:sop4 3 PINTYPE=IN
+AP virtex2p:sop4 4 PINTYPE=IN
+AP virtex2p:sop4 5 PINTYPE=OUT
+|Q virtex2p:fdre 1
+AS virtex2p:fdre LIBVER=2.0.0
+AS virtex2p:fdre LEVEL=XILINX
+AS virtex2p:fdre @INIT=0
+AS virtex2p:fdre PINORDER=C CE D Q R
+AP virtex2p:fdre 1 PINTYPE=IN
+AP virtex2p:fdre 2 PINTYPE=IN
+AP virtex2p:fdre 3 PINTYPE=IN
+AP virtex2p:fdre 4 PINTYPE=OUT
+AP virtex2p:fdre 5 PINTYPE=IN
+|Q virtex:and3 1
+AS virtex:and3 LEVEL=XILINX
+AS virtex:and3 DEVICE=AND
+AS virtex:and3 LIBVER=2.0.0
+AS virtex:and3 PINORDER=I0 I1 I2 O
+AP virtex:and3 1 PINTYPE=IN
+AP virtex:and3 2 PINTYPE=IN
+AP virtex:and3 3 PINTYPE=IN
+AP virtex:and3 4 PINTYPE=OUT
+|Q virtex:or4 1
+AS virtex:or4 DEVICE=OR
+AS virtex:or4 LEVEL=XILINX
+AS virtex:or4 LIBVER=2.0.0
+AS virtex:or4 PINORDER=I0 I1 I2 I3 O
+AP virtex:or4 1 PINTYPE=IN
+AP virtex:or4 2 PINTYPE=IN
+AP virtex:or4 3 PINTYPE=IN
+AP virtex:or4 4 PINTYPE=IN
+AP virtex:or4 5 PINTYPE=OUT
+|Q virtex:and4 1
+AS virtex:and4 LEVEL=XILINX
+AS virtex:and4 DEVICE=AND
+AS virtex:and4 LIBVER=2.0.0
+AS virtex:and4 PINORDER=I0 I1 I2 I3 O
+AP virtex:and4 1 PINTYPE=IN
+AP virtex:and4 2 PINTYPE=IN
+AP virtex:and4 3 PINTYPE=IN
+AP virtex:and4 4 PINTYPE=IN
+AP virtex:and4 5 PINTYPE=OUT
+|Q virtex:cb16ce 1
+AS virtex:cb16ce @INIT=0
+AS virtex:cb16ce LIBVER=2.0.0
+AS virtex:cb16ce LEVEL=MXILINX
+AS virtex:cb16ce PINORDER=C CE CEO CLR Q[15:0] TC
+AP virtex:cb16ce 1 PINTYPE=IN
+AP virtex:cb16ce 2 PINTYPE=IN
+AP virtex:cb16ce 3 PINTYPE=OUT
+AP virtex:cb16ce 4 PINTYPE=IN
+AP virtex:cb16ce 5 PINTYPE=OUT
+AP virtex:cb16ce 6 PINTYPE=OUT
+|Q 15or2 1
+AS 15or2 LEVEL=MXILINX
+AS 15or2 @NAME=15OR2
+AS 15or2 PINORDER=A[14:0] B[14:0] O[14:0]
+AP 15or2 1 PINTYPE=IN
+AP 15or2 2 PINTYPE=IN
+AP 15or2 3 PINTYPE=OUT
+|Q virtex2p:fdr 1
+AS virtex2p:fdr LIBVER=2.0.0
+AS virtex2p:fdr LEVEL=XILINX
+AS virtex2p:fdr @INIT=0
+AS virtex2p:fdr PINORDER=C D Q R
+AP virtex2p:fdr 1 PINTYPE=IN
+AP virtex2p:fdr 2 PINTYPE=IN
+AP virtex2p:fdr 3 PINTYPE=OUT
+AP virtex2p:fdr 4 PINTYPE=IN
+|Q 15buftor 1
+AS 15buftor @NAME=15BUFTOR
+AS 15buftor PINORDER=COMMON D[14:0] O T[14:0]
+AP 15buftor 1 PINTYPE=IN
+AP 15buftor 2 PINTYPE=IN
+AP 15buftor 3 PINTYPE=OUT
+AP 15buftor 4 PINTYPE=IN
+|Q virtex2p:or3 1
+AS virtex2p:or3 LEVEL=XILINX
+AS virtex2p:or3 DEVICE=OR
+AS virtex2p:or3 LIBVER=2.0.0
+AS virtex2p:or3 PINORDER=I0 I1 I2 O
+AP virtex2p:or3 1 PINTYPE=IN
+AP virtex2p:or3 2 PINTYPE=IN
+AP virtex2p:or3 3 PINTYPE=IN
+AP virtex2p:or3 4 PINTYPE=OUT
+|Q virtex2p:sr4re 1
+AS virtex2p:sr4re LEVEL=MXILINX
+AS virtex2p:sr4re @INIT=0
+AS virtex2p:sr4re LIBVER=2.0.0
+AS virtex2p:sr4re PINORDER=C CE Q0 Q1 Q2 Q3 R SLI
+AP virtex2p:sr4re 1 PINTYPE=IN
+AP virtex2p:sr4re 2 PINTYPE=IN
+AP virtex2p:sr4re 3 PINTYPE=OUT
+AP virtex2p:sr4re 4 PINTYPE=OUT
+AP virtex2p:sr4re 5 PINTYPE=OUT
+AP virtex2p:sr4re 6 PINTYPE=OUT
+AP virtex2p:sr4re 7 PINTYPE=IN
+AP virtex2p:sr4re 8 PINTYPE=IN
+|Q virtex:vcc 1
+AS virtex:vcc LEVEL=XILINX
+AS virtex:vcc LIBVER=2.0.0
+AS virtex:vcc PINORDER=P
+AP virtex:vcc 1 PINTYPE=OUT
+AN XMIT_ERR_UPDATE[14:0] VLBUSISONSHEET=4
+AN XMIT_ERRORS[14:0] VLBUSISONSHEET=4
+AN PREV_XMIT_ERR[14:0] VLBUSISONSHEET=4
+AN LDMB_RD[14:0] VLBUSISONSHEET=4
+AN ~LDMB_RD[14:0] VLBUSISONSHEET=4
+AN LDMB_RD[14:0] VLBUSISONSHEET=4
+AN XMIT_FB[14:0] VLBUSISONSHEET=4
+AN XMIT_ERRORS[14:0] VLBUSISONSHEET=4
+AN PREV_XMIT_ERR[14:0] VLBUSISONSHEET=4
+AN PREV_XMIT_ERR[14:0] VLBUSISONSHEET=4
+AN TIMEOUT[15:0] VLBUSISONSHEET=4
+AN CTRL[19:0] VLBUSISONSHEET=4
+W virtex:buf $4I3705
+I $4I3705 virtex:buf WANT_REN CTRL19 
+W virtex:and2b1 $4I3661
+I $4I3661 virtex:and2b1 FKILL19 FKILL15 CTRL14 
+W virtex:or2 $4I3592
+I $4I3592 virtex:or2 DVRX_ERR DVSPWD_ERR CTRL9 
+W virtex:fdc $4I3581
+I $4I3581 virtex:fdc CLK RST VSPWD_ERR DVSPWD_ERR 
+W virtex:fdc $4I3578
+I $4I3578 virtex:fdc CLK RST VRX_ERR DVRX_ERR 
+W virtex:buf $4I3168
+I $4I3168 virtex:buf GOLDDAT CTRL0 
+W virtex:buf $4I3162
+I $4I3162 virtex:buf DO_HDR CTRL6 
+W virtex:buf $4I3164
+I $4I3164 virtex:buf VB15 CTRL5 
+W virtex:buf $4I3160
+I $4I3160 virtex:buf VB14 CTRL4 
+W virtex:buf $4I3178
+I $4I3178 virtex:buf VB13 CTRL3 
+W virtex:buf $4I3175
+I $4I3175 virtex:buf VB12 CTRL2 
+W virtex:and2 $4I3183
+I $4I3183 virtex:and2 DODATA GOLDDAT DO_FIFO_DATA 
+W virtex:and2 $4I3512
+I $4I3512 virtex:and2 DODATA ~LEXT_STOP TIMECNT_EN 
+W fd15ce $4I3493
+I $4I3493 fd15ce CLK PATH_XMIT_ERR RST_EOE XMIT_ERR_UPDATE[14:0] XMIT_ERRORS[14:0] 
+W inv15 $4I3496
+I $4I3496 inv15 LDMB_RD[14:0] ~LDMB_RD[14:0] 
+W virtex2p:sop3 $4I3516
+I $4I3516 virtex2p:sop3 PATH_XMIT_ERR PREV_PATH_XMIT_ERR IN_MXMIT_PROB FIBER_PATH_XMIT_ERR 
+W virtex:fdce $4I3120
+I $4I3120 virtex:fdce CLK FIBER_PATH_XMIT_ERR RST FIBER_PATH_XMIT_ERR XMIT_MULTI_ERR 
+W virtex:or2 $4I3331
+I $4I3331 virtex:or2 RST LNEXT_FIFO ENDTIME_RST 
+W virtex2p:sop4 $4I3557
+I $4I3557 virtex2p:sop4 LVRX_ERR GOOD-LDMB_RD GOOD-LDMB_RD LVSPWD_ERR PATH_XMIT_ERR 
+W virtex:fdce $4I3229
+I $4I3229 virtex:fdce CLK VSPWD_ERR RST_BOE SPWD_ERR SPWD_ERROR 
+W virtex:fdce $4I3232
+I $4I3232 virtex:fdce CLK VRX_ERR RST_BOE RX_ERR RX_ERROR 
+W virtex2p:fdre $4I3542
+I $4I3542 virtex2p:fdre CLK VRX_ERR VRX_ERR LVRX_ERR RST_LVERR 
+W virtex2p:fdre $4I3541
+I $4I3541 virtex2p:fdre CLK VSPWD_ERR VSPWD_ERR LVSPWD_ERR RST_LVERR 
+W virtex:and2 $4I3565
+I $4I3565 virtex:and2 GOLDDAT RX_ERR VRX_ERR 
+W virtex:and3 $4I3568
+I $4I3568 virtex:and3 SP3_ANY GOLDDAT SPWD_ERR VSPWD_ERR 
+W virtex:or4 $4I3437
+I $4I3437 virtex:or4 DO_FIFO_DATA DO_HDR DONE-1 TRAIL_CE CTRL7 
+W virtex:buf $4I3190
+I $4I3190 virtex:buf DONE CTRL8 
+W virtex:and4 $4I3421
+I $4I3421 virtex:and4 TIMEOUT1 TIMEOUT15 TIMEOUT12 TIMEOUT11 ENDTIME 
+W virtex:cb16ce $4I3335
+I $4I3335 virtex:cb16ce CLK40 TIMECNT_EN ? ENDTIME_RST TIMEOUT[15:0] ? 
+W virtex:fdc $4I3616
+I $4I3616 virtex:fdc CLK RST ONE_ENDTIME LEND_TIMEOUT 
+W virtex:fdc $4I3460
+I $4I3460 virtex:fdc CLK40 ENDTIME_RST ENDTIME LENDTIME 
+W virtex:and2b1 $4I3612
+I $4I3612 virtex:and2b1 LEND_TIMEOUT END_TIMEOUT ONE_ENDTIME 
+W virtex:buf $4I3637
+I $4I3637 virtex:buf LFIFODONE CTRL15 
+W virtex:and2b1 $4I3644
+I $4I3644 virtex:and2b1 FKILL18 FKILL15 CTRL13 
+W virtex:and2b1 $4I3629
+I $4I3629 virtex:and2b1 FKILL17 FKILL15 CTRL11 
+W 15or2 $4I3494
+I $4I3494 15or2 XMIT_ERRORS[14:0] LDMB_RD[14:0] XMIT_ERR_UPDATE[14:0] 
+W virtex2p:fdr $4I3653
+I $4I3653 virtex2p:fdr CLK LENDTIME END_TIMEOUT ENDTO_RST 
+W virtex:or2 $4I3539
+I $4I3539 virtex:or2 RST DMB_END+1 RST_LVERR 
+W virtex:or2 $4I3656
+I $4I3656 virtex:or2 LEND_TIMEOUT RST ENDTO_RST 
+W virtex:buf $4I3640
+I $4I3640 virtex:buf TIME_OUT CTRL12 
+W virtex:and2b1 $4I3626
+I $4I3626 virtex:and2b1 FKILL16 FKILL15 CTRL10 
+W virtex2p:sop3 $4I3667
+I $4I3667 virtex2p:sop3 RECENTDATA END_TIMEOUT IN_TIMEOUT ENDTIME_BUSY 
+W virtex:and2b1 $4I3453
+I $4I3453 virtex:and2b1 RECENTDATA END_TIMEOUT ENDTIME_WAIT 
+W 15buftor $4I3495
+I $4I3495 15buftor ~LGOLDDAT PREV_XMIT_ERR[14:0] PREV_PATH_XMIT_ERR ~LDMB_RD[14:0] 
+W 15or2 $4I3648
+I $4I3648 15or2 PREV_XMIT_ERR[14:0] XMIT_ERRORS[14:0] XMIT_FB[14:0] 
+W virtex2p:or3 $4I3517
+I $4I3517 virtex2p:or3 IN_TIME_OUT END_TIMEOUT START_TIMEOUT TIME_OUT 
+W virtex:fdce $4I3446
+I $4I3446 virtex:fdce CLK TIME_OUT RST TIME_OUT TIMEOUT_ERR 
+W virtex:and2b1 $4I3547
+I $4I3547 virtex:and2b1 DOFW+2 GOLDDAT DATCNT 
+W virtex2p:sr4re $4I3555
+I $4I3555 virtex2p:sr4re CLK DATCNT ? ? ? GOOD-LDMB_RD RST_LVERR $4N3552 
+W virtex:vcc $4I3553
+I $4I3553 virtex:vcc $4N3552 
+W fd15ce $4I3503
+I $4I3503 fd15ce CLK ENDOFEVENT RST XMIT_FB[14:0] PREV_XMIT_ERR[14:0] 
+W virtex:buf $4I3172
+I $4I3172 virtex:buf DOFW+2 CTRL1 
+W virtex:buf $4I3693
+I $4I3693 virtex:buf DODATA CTRL16 
+W virtex:buf $4I3697
+I $4I3697 virtex:buf DDU_IS_EMPTY CTRL17 
+W virtex:buf $4I3702
+I $4I3702 virtex:buf START CTRL18 
+P ? XMIT_ERRORS[14:0]
+I XMIT_ERRORS[14:0] ? XMIT_ERRORS[14:0]
+P ? CLK
+I CLK ? CLK
+P ? RST
+I RST ? RST
+P ? XMIT_MULTI_ERR
+I XMIT_MULTI_ERR ? XMIT_MULTI_ERR
+P ? CLK40
+I CLK40 ? CLK40
+P ? ~LEXT_STOP
+I ~LEXT_STOP ? ~LEXT_STOP
+P ? DODATA
+I DODATA ? DODATA
+P ? ENDOFEVENT
+I ENDOFEVENT ? ENDOFEVENT
+P ? TIMEOUT_ERR
+I TIMEOUT_ERR ? TIMEOUT_ERR
+P ? RX_ERROR
+I RX_ERROR ? RX_ERROR
+P ? LNEXT_FIFO
+I LNEXT_FIFO ? LNEXT_FIFO
+P ? CTRL[19:0]
+I CTRL[19:0] ? CTRL[19:0]
+EW
+| Sch_Warning - Pin/Net disassociation at location (885,600).
+| Sch_Warning - Pin/Net disassociation at location (760,380).
+| Sch_Warning - Pin/Net disassociation at location (1385,450).
+| Sch_Warning - Pin/Net disassociation at location (1230,390).
+| Sch_Warning - Pin/Net disassociation at location (1230,370).
+| Sch_Warning - Pin/Net disassociation at location (335,625).
+| Sch_Warning - Pin/Net disassociation at location (1370,570).
+| Sch_Warning - Pin/Net disassociation at location (1075,385).

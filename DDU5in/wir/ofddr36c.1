@@ -1,0 +1,101 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 167868331100 ofd64
+DW ofddr36c
+|Q ofddrcpe_33 1
+AS ofddrcpe_33 @INIT=0
+AS ofddrcpe_33 IOB=TRUE
+AS ofddrcpe_33 LIBVER=2.0.0
+AS ofddrcpe_33 LEVEL=OSU-XILINX
+AS ofddrcpe_33 @NAME=OFDDRCPE_33
+AS ofddrcpe_33 PINORDER=C0 C1 CE CLR D0 D1 PRE Q
+AP ofddrcpe_33 1 PINTYPE=IN
+AP ofddrcpe_33 2 PINTYPE=IN
+AP ofddrcpe_33 3 PINTYPE=IN
+AP ofddrcpe_33 4 PINTYPE=IN
+AP ofddrcpe_33 5 PINTYPE=IN
+AP ofddrcpe_33 6 PINTYPE=IN
+AP ofddrcpe_33 7 PINTYPE=IN
+AP ofddrcpe_33 8 PINTYPE=OUT
+|Q virtex2p:vcc 1
+AS virtex2p:vcc LEVEL=XILINX
+AS virtex2p:vcc LIBVER=2.0.0
+AS virtex2p:vcc PINORDER=P
+AP virtex2p:vcc 1 PINTYPE=OUT
+|Q ofddr4ce 1
+AS ofddr4ce LEVEL=OSU-XILINX
+AS ofddr4ce @NAME=OFDDR4CE
+AS ofddr4ce PINORDER=C CE CLR D[3:0] F[3:0] Q[3:0]
+AS ofddr4ce INOV_VER_REC=22:42_12-16-03
+AP ofddr4ce 1 PINTYPE=IN
+AP ofddr4ce 2 PINTYPE=IN
+AP ofddr4ce 3 PINTYPE=IN
+AP ofddr4ce 4 PINTYPE=IN
+AP ofddr4ce 5 PINTYPE=IN
+AP ofddr4ce 6 PINTYPE=OUT
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex2p:inv 1
+AS virtex2p:inv DEVICE=INV
+AS virtex2p:inv LIBVER=2.0.0
+AS virtex2p:inv LEVEL=XILINX
+AS virtex2p:inv PINORDER=I O
+AP virtex2p:inv 1 PINTYPE=IN
+AP virtex2p:inv 2 PINTYPE=OUT
+AN D[33:30] VLBUSISONSHEET=1
+AN D[25:22] VLBUSISONSHEET=1
+AN D[35:0] VLBUSISONSHEET=1
+AN D[15:12] VLBUSISONSHEET=1
+AN D[3:0] VLBUSISONSHEET=1
+AN D[7:4] VLBUSISONSHEET=1
+AN D[11:8] VLBUSISONSHEET=1
+AN D[21:18] VLBUSISONSHEET=1
+AN D[29:26] VLBUSISONSHEET=1
+AN Q[15:12] VLBUSISONSHEET=1
+AN Q[11:8] VLBUSISONSHEET=1
+AN Q[3:0] VLBUSISONSHEET=1
+AN Q[17:0] VLBUSISONSHEET=1
+AN Q[7:4] VLBUSISONSHEET=1
+W ofddrcpe_33 $1I247
+I $1I247 ofddrcpe_33 C ~C $1N240 CLR D17 D35 $1N241 Q17 
+W virtex2p:vcc $1I152
+I $1I152 virtex2p:vcc $1N151 
+W virtex2p:vcc $1I142
+I $1I142 virtex2p:vcc $1N143 
+W virtex2p:vcc $1I145
+I $1I145 virtex2p:vcc $1N146 
+W virtex2p:vcc $1I149
+I $1I149 virtex2p:vcc $1N148 
+W ofddr4ce $1I186
+I $1I186 ofddr4ce C $1N148 CLR D[11:8] D[29:26] Q[11:8] 
+W virtex2p:vcc $1I239
+I $1I239 virtex2p:vcc $1N240 
+W virtex2p:vcc $1I128
+I $1I128 virtex2p:vcc $1N131 
+W virtex2p:gnd $1I237
+I $1I237 virtex2p:gnd $1N241 
+W ofddr4ce $1I187
+I $1I187 ofddr4ce C $1N146 CLR D[7:4] D[25:22] Q[7:4] 
+W virtex2p:inv $1I222
+I $1I222 virtex2p:inv C ~C 
+W ofddr4ce $1I185
+I $1I185 ofddr4ce C $1N151 CLR D[15:12] D[33:30] Q[15:12] 
+W ofddrcpe_33 $1I246
+I $1I246 ofddrcpe_33 C ~C $1N131 CLR D16 D34 $1N216 Q16 
+W virtex2p:gnd $1I217
+I $1I217 virtex2p:gnd $1N216 
+W ofddr4ce $1I188
+I $1I188 ofddr4ce C $1N143 CLR D[3:0] D[21:18] Q[3:0] 
+P ? D[35:0]
+I D[35:0] ? D[35:0]
+P ? C
+I C ? C
+P ? Q[17:0]
+I Q[17:0] ? Q[17:0]
+P ? CLR
+I CLR ? CLR
+EW

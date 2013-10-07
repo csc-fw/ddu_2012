@@ -1,0 +1,46 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 269935751800 ifddrcpe_33
+DW ifddrcpe_33
+|Q virtex2p:ibuf 1
+AS virtex2p:ibuf LIBVER=2.0.0
+AS virtex2p:ibuf LEVEL=XILINX
+AS virtex2p:ibuf IOSTANDARD=LVCMOS25
+AS virtex2p:ibuf PINORDER=I O
+AP virtex2p:ibuf 1 PINTYPE=CHIPIN
+AP virtex2p:ibuf 2 PINTYPE=OUT
+|Q virtex2p:fdcpe 1
+AS virtex2p:fdcpe LIBVER=2.0.0
+AS virtex2p:fdcpe LEVEL=XILINX
+AS virtex2p:fdcpe @INIT=0
+AS virtex2p:fdcpe PINORDER=C CE CLR D PRE Q
+AP virtex2p:fdcpe 1 PINTYPE=IN
+AP virtex2p:fdcpe 2 PINTYPE=IN
+AP virtex2p:fdcpe 3 PINTYPE=IN
+AP virtex2p:fdcpe 4 PINTYPE=IN
+AP virtex2p:fdcpe 5 PINTYPE=IN
+AP virtex2p:fdcpe 6 PINTYPE=OUT
+W virtex2p:ibuf $1I16
+I $1I16 virtex2p:ibuf D $1N18 IOSTANDARD=LVCMOS33`
+W virtex2p:fdcpe $1I14
+I $1I14 virtex2p:fdcpe C0 CE CLR $1N18 PRE Q0 IOB=TRUE`
+W virtex2p:fdcpe $1I15
+I $1I15 virtex2p:fdcpe C1 CE CLR $1N18 PRE Q1 IOB=TRUE`
+P ? PRE
+I PRE ? PRE
+P ? CE
+I CE ? CE
+P ? CLR
+I CLR ? CLR
+P ? C1
+I C1 ? C1
+P ? Q1
+I Q1 ? Q1
+P ? C0
+I C0 ? C0
+P ? Q0
+I Q0 ? Q0
+P ? D
+I D ? D
+EW

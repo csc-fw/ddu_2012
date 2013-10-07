@@ -1,0 +1,47 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 297971196700 ifd1
+DW ild1
+|Q virtex2p:ldce 1
+AS virtex2p:ldce LEVEL=XILINX
+AS virtex2p:ldce @INIT=0
+AS virtex2p:ldce LIBVER=2.0.0
+AS virtex2p:ldce PINORDER=CLR D G GE Q
+AP virtex2p:ldce 1 PINTYPE=IN
+AP virtex2p:ldce 2 PINTYPE=IN
+AP virtex2p:ldce 3 PINTYPE=IN
+AP virtex2p:ldce 4 PINTYPE=IN
+AP virtex2p:ldce 5 PINTYPE=OUT
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex2p:ibuf 1
+AS virtex2p:ibuf LIBVER=2.0.0
+AS virtex2p:ibuf LEVEL=XILINX
+AS virtex2p:ibuf IOSTANDARD=LVCMOS25
+AS virtex2p:ibuf PINORDER=I O
+AP virtex2p:ibuf 1 PINTYPE=CHIPIN
+AP virtex2p:ibuf 2 PINTYPE=OUT
+|Q virtex2p:vcc 1
+AS virtex2p:vcc LEVEL=XILINX
+AS virtex2p:vcc LIBVER=2.0.0
+AS virtex2p:vcc PINORDER=P
+AP virtex2p:vcc 1 PINTYPE=OUT
+W virtex2p:ldce $1I15
+I $1I15 virtex2p:ldce $1N30 D_IN C $1N27 Q IOB=TRUE`
+W virtex2p:gnd $1I29
+I $1I29 virtex2p:gnd $1N30 
+W virtex2p:ibuf $1I24
+I $1I24 virtex2p:ibuf D D_IN IOSTANDARD=LVCMOS33`
+W virtex2p:vcc $1I26
+I $1I26 virtex2p:vcc $1N27 
+P ? D
+I D ? D
+P ? Q
+I Q ? Q
+P ? C
+I C ? C
+EW

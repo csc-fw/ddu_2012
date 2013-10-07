@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator G.31a
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o \\phypcs\ellicad\wv\d785\ddu5in\test5in//test5in -u 0 M:\WV\D785\DDU5in\test5in\0test_in.bit -x xc18v04 xc18v04 
+
+PROM \\phypcs\ellicad\wv\d785\ddu5in\test5in//test5in_0.prm map: Tue Aug 02 11:54:21 2005
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 000f63ea
+
+        Addr1        Addr2 File(s)
+    0000:0000    0007:ffff M:/WV/D785/DDU5in/test5in/0test_in.bit

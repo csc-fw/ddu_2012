@@ -1,0 +1,191 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 7468887480 tst1
+DW test_in
+SA @NAME=TEST_IN 
+SA @SHEET=5 
+SA @DATETIME=11-24-2004_14:41 
+|Q virtex2p:fd16ce 1
+AS virtex2p:fd16ce LEVEL=MXILINX
+AS virtex2p:fd16ce @INIT=0
+AS virtex2p:fd16ce LIBVER=2.0.0
+AS virtex2p:fd16ce PINORDER=C CE CLR D[15:0] Q[15:0]
+AP virtex2p:fd16ce 1 PINTYPE=IN
+AP virtex2p:fd16ce 2 PINTYPE=IN
+AP virtex2p:fd16ce 3 PINTYPE=IN
+AP virtex2p:fd16ce 4 PINTYPE=IN
+AP virtex2p:fd16ce 5 PINTYPE=OUT
+|Q virtex2p:vcc 1
+AS virtex2p:vcc LEVEL=XILINX
+AS virtex2p:vcc LIBVER=2.0.0
+AS virtex2p:vcc PINORDER=P
+AP virtex2p:vcc 1 PINTYPE=OUT
+|Q virtex2p:buf 1
+AS virtex2p:buf LIBVER=2.0.0
+AS virtex2p:buf DEVICE=BUF
+AS virtex2p:buf LEVEL=XILINX
+AS virtex2p:buf PINORDER=I O
+AP virtex2p:buf 1 PINTYPE=IN
+AP virtex2p:buf 2 PINTYPE=OUT
+|Q fd16pe 1
+AS fd16pe LEVEL=MXILINX
+AS fd16pe @NAME=FD16PE
+AS fd16pe PINORDER=C CE D[15:0] PRE Q[15:0]
+AS fd16pe INOV_VER_REC=18:05_10-17-03
+AP fd16pe 1 PINTYPE=IN
+AP fd16pe 2 PINTYPE=IN
+AP fd16pe 3 PINTYPE=IN
+AP fd16pe 4 PINTYPE=IN
+AP fd16pe 5 PINTYPE=OUT
+|Q buf4 1
+AS buf4 LEVEL=MXILINX
+AS buf4 @NAME=BUF4
+AS buf4 PINORDER=I[3:0] O[3:0]
+AP buf4 1 PINTYPE=IN
+AP buf4 2 PINTYPE=OUT
+|Q virtex:or2 1
+AS virtex:or2 DEVICE=OR
+AS virtex:or2 LEVEL=XILINX
+AS virtex:or2 LIBVER=2.0.0
+AS virtex:or2 PINORDER=I0 I1 O
+AP virtex:or2 1 PINTYPE=IN
+AP virtex:or2 2 PINTYPE=IN
+AP virtex:or2 3 PINTYPE=OUT
+AN RSTATE[3:0] VLBUSISONSHEET=5
+AN RSTATE[15:0] VLBUSISONSHEET=5
+AN LD4B[7:4] VLBUSISONSHEET=5
+AN LD4B[7:0] VLBUSISONSHEET=5
+AN ~PAF[3:0] VLBUSISONSHEET=5
+AN ~PAF[3:0] VLBUSISONSHEET=5
+AN F0DAT[15:0] VLBUSISONSHEET=5
+AN F0DAT[17:0] VLBUSISONSHEET=5
+AN F0DIAG[15:0] VLBUSISONSHEET=5
+AN F0DAT[17:0] VLBUSISONSHEET=5
+AN F0_DAT[15:0] VLBUSISONSHEET=5
+AN F0_CTL[15:0] VLBUSISONSHEET=5
+AN F0_DIAG[15:0] VLBUSISONSHEET=5
+AN F0CTL[15:0] VLBUSISONSHEET=5
+AN ~PAF[3:0] VLBUSISONSHEET=5
+AN F0_DIAG[15:0] VLBUSISONSHEET=5
+AN RDCTL[15:0] VLBUSISONSHEET=5
+AN RDCTL[3:0] VLBUSISONSHEET=5
+AN R_STATE[15:0] VLBUSISONSHEET=5
+AN RD_CTL[15:0] VLBUSISONSHEET=5
+W virtex2p:fd16ce $5I6064
+I $5I6064 virtex2p:fd16ce CLK $5N6062 RST RDCTL[15:0] RD_CTL[15:0] 
+W virtex2p:fd16ce $5I5937
+I $5I5937 virtex2p:fd16ce CLK $5N5943 RST F0DAT[15:0] F0_DAT[15:0] 
+W virtex2p:fd16ce $5I5950
+I $5I5950 virtex2p:fd16ce CLK $5N5947 RST F0CTL[15:0] F0_CTL[15:0] 
+W virtex2p:vcc $5I6063
+I $5I6063 virtex2p:vcc $5N6062 
+W virtex2p:buf $5I6042
+I $5I6042 virtex2p:buf L1A0MT RDCTL7 
+W virtex2p:buf $5I6041
+I $5I6041 virtex2p:buf DODATA RDCTL12 
+W virtex2p:buf $5I6036
+I $5I6036 virtex2p:buf OE_HDR RDCTL13 
+W virtex2p:buf $5I6037
+I $5I6037 virtex2p:buf OE_TR RDCTL14 
+W virtex2p:buf $5I6038
+I $5I6038 virtex2p:buf ENDEVT RDCTL15 
+W virtex2p:buf $5I6035
+I $5I6035 virtex2p:buf REG_EN RDCTL6 
+W virtex2p:buf $5I5995
+I $5I5995 virtex2p:buf F0_DIAG1 F0CTL13 
+W virtex2p:buf $5I5996
+I $5I5996 virtex2p:buf F0_DIAG3 F0CTL14 
+W virtex2p:buf $5I5997
+I $5I5997 virtex2p:buf F0_DIAG8 F0CTL15 
+W virtex2p:buf $5I5977
+I $5I5977 virtex2p:buf FIFO_FULL0 F0CTL7 
+W virtex2p:buf $5I5968
+I $5I5968 virtex2p:buf ~LEXT_FIFO_PAF F0CTL3 
+W virtex2p:vcc $5I5945
+I $5I5945 virtex2p:vcc $5N5947 
+W virtex2p:buf $5I5888
+I $5I5888 virtex2p:buf L1A0MT RSTATE7 
+W virtex2p:buf $5I5885
+I $5I5885 virtex2p:buf START RSTATE10 
+W virtex2p:buf $5I5849
+I $5I5849 virtex2p:buf BUSY LD4B1 
+W virtex2p:buf $5I5850
+I $5I5850 virtex2p:buf REG_EN LD4B0 
+W virtex2p:buf $5I5847
+I $5I5847 virtex2p:buf DODATA LD4B3 
+W virtex2p:buf $5I5889
+I $5I5889 virtex2p:buf L1A0AF RSTATE6 
+W virtex2p:buf $5I5890
+I $5I5890 virtex2p:buf L1A0FF RSTATE5 
+W virtex2p:buf $5I5891
+I $5I5891 virtex2p:buf STOP_DATA RSTATE4 
+W virtex2p:buf $5I5887
+I $5I5887 virtex2p:buf ~OWE RSTATE8 
+W virtex2p:buf $5I5886
+I $5I5886 virtex2p:buf PUSH RSTATE9 
+W virtex2p:buf $5I5884
+I $5I5884 virtex2p:buf BUSY RSTATE11 
+W virtex2p:buf $5I5883
+I $5I5883 virtex2p:buf DODATA RSTATE12 
+W virtex2p:buf $5I5882
+I $5I5882 virtex2p:buf OE_HDR RSTATE13 
+W virtex2p:buf $5I5881
+I $5I5881 virtex2p:buf OE_TR RSTATE14 
+W virtex2p:buf $5I5880
+I $5I5880 virtex2p:buf ENDEVT RSTATE15 
+W fd16pe $5I5915
+I $5I5915 fd16pe CLK $5N5917 F0_DIAG[15:0] RST F0DIAG[15:0] 
+W virtex2p:vcc $5I5940
+I $5I5940 virtex2p:vcc $5N5943 
+W virtex2p:buf $5I5952
+I $5I5952 virtex2p:buf REG_EN F0CTL2 
+W virtex2p:buf $5I5954
+I $5I5954 virtex2p:buf F0DAT17 F0CTL1 
+W virtex2p:buf $5I5955
+I $5I5955 virtex2p:buf F0DAT16 F0CTL0 
+W virtex2p:buf $5I5970
+I $5I5970 virtex2p:buf FF_F0 F0CTL5 
+W virtex2p:buf $5I5969
+I $5I5969 virtex2p:buf FIFO_FULL01 F0CTL4 
+W virtex2p:buf $5I5973
+I $5I5973 virtex2p:buf EMPTY_M0 F0CTL8 
+W virtex2p:buf $5I5971
+I $5I5971 virtex2p:buf FIFO_AF0 F0CTL6 
+W virtex2p:buf $5I5989
+I $5I5989 virtex2p:buf LFIFO_EMPTY F0CTL12 
+W virtex2p:buf $5I5974
+I $5I5974 virtex2p:buf FIFOS_MT F0CTL11 
+W virtex2p:buf $5I5975
+I $5I5975 virtex2p:buf ~PAF01 F0CTL10 
+W virtex2p:buf $5I5972
+I $5I5972 virtex2p:buf M_EMPTY0 F0CTL9 
+W virtex2p:buf $5I5848
+I $5I5848 virtex2p:buf ~OWE LD4B2 
+W virtex2p:buf $5I6034
+I $5I6034 virtex2p:buf ~LEXT_FIFO_PAF RDCTL5 
+W virtex2p:buf $5I6033
+I $5I6033 virtex2p:buf STOP_DATA RDCTL4 
+W virtex2p:buf $5I6043
+I $5I6043 virtex2p:buf ~OWE RDCTL8 
+W virtex2p:buf $5I6044
+I $5I6044 virtex2p:buf PUSH RDCTL9 
+W virtex2p:buf $5I6039
+I $5I6039 virtex2p:buf START RDCTL10 
+W virtex2p:buf $5I6040
+I $5I6040 virtex2p:buf BUSY RDCTL11 
+W buf4 $5I6115
+I $5I6115 buf4 ~PAF[3:0] RSTATE[3:0] 
+W virtex2p:vcc $5I5916
+I $5I5916 virtex2p:vcc $5N5917 
+W buf4 $5I6032
+I $5I6032 buf4 ~PAF[3:0] RDCTL[3:0] 
+W buf4 $5I5922
+I $5I5922 buf4 ~PAF[3:0] LD4B[7:4] 
+W virtex2p:vcc $5I6134
+I $5I6134 virtex2p:vcc $5N6131 
+W virtex2p:fd16ce $5I6130
+I $5I6130 virtex2p:fd16ce CLK $5N6131 RST RSTATE[15:0] R_STATE[15:0] 
+W virtex:or2 $5I6143
+I $5I6143 virtex:or2 FF1 FF0 FIFO_FULL01 
+EW

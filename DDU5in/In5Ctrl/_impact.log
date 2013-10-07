@@ -1,0 +1,156 @@
+iMPACT Version: G.31a
+iMPACT log file Started on 2009/04/27 10:25:39
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref MessageLevel:DETAILED
+// *** BATCH CMD : setPreference -pref ConcurrentMode:TRUE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref ConfigOnFailure:STOP
+// *** BATCH CMD : setPreference -pref StartupCLock:AUTO_CORRECTION
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : setPreference -pref UserLevel:NOVICE
+// *** BATCH CMD : setPreference -pref MessageLevel:DETAILED
+// *** BATCH CMD : setPreference -pref ConcurrentMode:TRUE
+// *** BATCH CMD : setPreference -pref UseHighz:FALSE
+// *** BATCH CMD : setPreference -pref ConfigOnFailure:STOP
+// *** BATCH CMD : setPreference -pref StartupCLock:AUTO_CORRECTION
+// *** BATCH CMD : setPreference -pref AutoSignature:FALSE
+// *** BATCH CMD : setPreference -pref KeepSVF:FALSE
+// *** BATCH CMD : setPreference -pref svfUseTime:FALSE
+// *** BATCH CMD : setMode -bs
+Loading cdf file \\phypcs\ellicad\WV\D785\DDU5in\In5Ctrl\in5ctrl.cdf...
+// *** BATCH CMD : setPreference -pref UserLevel:Novice
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : addConfigDevice -size 0 -name "xc18v04" -path "\\phypcs\ellicad\wv\d785\ddu5in\in5ctrl/"
+// *** BATCH CMD : setAttribute -configdevice -attr size -value "0"
+// *** BATCH CMD : setAttribute -configdevice -attr reseveSize -value "0"
+// *** BATCH CMD : setSubmode -pffserial
+// *** BATCH CMD : setAttribute -configdevice -attr activeCollection -value "in5ctrl"
+// *** BATCH CMD : addCollection -name "in5ctrl"
+// *** BATCH CMD : addDesign -version 0 -name "0"
+// *** BATCH CMD : addDeviceChain -index 0
+// *** BATCH CMD : addDevice -position 1 -file "M:\WV\D785\DDU5in\In5Ctrl\0ddu_in.bit"
+'1': Loading file 'M:\WV\D785\DDU5in\In5Ctrl\0ddu_in.bit' ...
+INFO:iMPACT - Elapsed time =      3 sec.
+done.
+INFO:iMPACT:501 - '1': Added Device xc2vp20 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : 
+// *** BATCH CMD : addPromDevice -position 1 -size 0 -name "xc18v04"
+'1': Added Device xc18v04 successfully.
+----------------------------------------------------------------------
+// *** BATCH CMD : addPromDevice -position 2 -size 0 -name "xc18v04"
+'2': Added Device xc18v04 successfully.
+----------------------------------------------------------------------
+// *** BATCH CMD : setAttribute -configdevice -attr fileFormat -value "mcs"
+// *** BATCH CMD : setAttribute -configdevice -attr swapBit -value "FALSE"
+// *** BATCH CMD : setAttribute -configdevice -attr fillValue -value "FF"
+// *** BATCH CMD : setAttribute -collection -attr dir -value "UP"
+// *** BATCH CMD : setMode -mpm
+// *** BATCH CMD : setMode -cf
+// *** BATCH CMD : setMode -dtconfig
+// *** BATCH CMD : setMode -bsfile
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setCable -port lpt1
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 6.0.3.0. LPT base address = 0378h.
+ ECP base address = 0778h.
+Cable connection failed.
+// *** BATCH CMD : setMode -pff
+Finish loading cdf file \\phypcs\ellicad\WV\D785\DDU5in\In5Ctrl\in5ctrl.cdf.
+// *** BATCH CMD : setMode -bs
+Cable output is not connected. Please select the desired output cable.
+// *** BATCH CMD : setMode -ss
+Cable output is not connected. Please select the desired output cable.
+// *** BATCH CMD : setMode -sm
+Cable output is not connected. Please select the desired output cable.
+// *** BATCH CMD : setMode -bsfile
+Cable output is not connected. Please select the desired output cable.
+// *** BATCH CMD : setMode -dtconfig
+Cable output is not connected. Please select the desired output cable.
+// *** BATCH CMD : setMode -cf
+GUI --- Read System ACE CF Mode...
+// *** BATCH CMD : setMode -mpm
+GUI --- Read System ACE MPM Mode...
+// *** BATCH CMD : setMode -pff
+GUI --- Read PROM Formatter Mode...
+// *** BATCH CMD : setCurrentDeviceChain -index 0
+// *** BATCH CMD : setMode -pff
+GUI --- Save CDF File
+// *** BATCH CMD : setMode -bs
+----------------------------------------------------------------------
+Loading cdf file M:\WV\D785\DDU5in\In5Ctrl\in5ctrl_1.cdf...
+// *** BATCH CMD : setPreference -pref UserLevel:Novice
+// *** BATCH CMD : setMode -pff
+// *** BATCH CMD : setMode -mpm
+// *** BATCH CMD : setMode -cf
+// *** BATCH CMD : setMode -dtconfig
+// *** BATCH CMD : setMode -bsfile
+// *** BATCH CMD : addDevice -position 1 -part "xc18v04"
+INFO:iMPACT:1777 - 
+Reading C:/Xilinx62/xc18v00/data/xc18v04.bsd...
+Reading C:/Xilinx62/xc18v00/data/xc18v04.bsd...
+INFO:iMPACT:501 - '1': Added Device xc18v04 successfully.
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+// *** BATCH CMD : setAttribute -position 1 -attr configFileName -value "M:\WV\D785\DDU5in\In5Ctrl\in5ctrl_1.mcs"
+'1': Loading file 'M:\WV\D785\DDU5in\In5Ctrl\in5ctrl_1.mcs' ...
+done.
+// *** BATCH CMD : 
+// *** BATCH CMD : setMode -sm
+// *** BATCH CMD : setMode -ss
+// *** BATCH CMD : setMode -bs
+// *** BATCH CMD : setCable -port lpt1
+Connecting to cable (Parallel Port - LPT1).
+Checking cable driver.
+ Driver windrvr6.sys version = 6.0.3.0. LPT base address = 0378h.
+ ECP base address = 0778h.
+Cable connection failed.
+// *** BATCH CMD : setMode -bsfile
+Finish loading cdf file M:\WV\D785\DDU5in\In5Ctrl\in5ctrl_1.cdf.
+// *** BATCH CMD : setMode -bs
+Cable output is not connected. Please select the desired output cable.
+// *** BATCH CMD : setMode -ss
+Cable output is not connected. Please select the desired output cable.
+// *** BATCH CMD : setMode -sm
+Cable output is not connected. Please select the desired output cable.
+// *** BATCH CMD : setMode -bsfile
+Cable output is not connected. Please select the desired output cable.
+// *** BATCH CMD : setMode -dtconfig
+Cable output is not connected. Please select the desired output cable.
+// *** BATCH CMD : setMode -cf
+GUI --- Read System ACE CF Mode...
+// *** BATCH CMD : setMode -mpm
+GUI --- Read System ACE MPM Mode...
+// *** BATCH CMD : setMode -pff
+GUI --- Read PROM Formatter Mode...
+// *** BATCH CMD : setMode -bsfile
+// *** BATCH CMD : setCable -port svf -file "M:\WV\D785\DDU5in\In5Ctrl\in5ctrl_1.svf"
+// *** BATCH CMD : Program -p 1 -e -parallel -u D1025A06 
+PROGRESS_START - Starting Operation.
+Validating chain...
+Boundary-scan chain validated successfully.
+Validating chain...
+Boundary-scan chain validated successfully.
+Erasing devices in concurrent mode.
+'1': Erasing device...
+Erasure completed successfully.
+Programming devices in concurrent mode.
+'1': Programming device...
+Programming completed successfully.
+Validating chain...
+Boundary-scan chain validated successfully.
+'1': Putting device in ISP mode...done.
+'1': Setting usercode...done.
+'1': Putting device in ISP mode...done.
+'1': Setting user-programmable bits...
+'1': Setting parallel mode bit...done.
+'1': Putting device in ISP mode...done.
+PROGRESS_END - End Operation.
+Elapsed time =      4 sec.
+*****   Closing iMPACT program.   *****

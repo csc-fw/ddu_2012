@@ -1,0 +1,59 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 225459821400 m4_1e_rpm
+DW m4_1e_rpm
+|Q virtex2p:fmap 1
+AS virtex2p:fmap DEVICE=FMAP
+AS virtex2p:fmap LEVEL=XILINX
+AS virtex2p:fmap LIBVER=2.0.0
+AS virtex2p:fmap PINORDER=I1 I2 I3 I4 O
+AP virtex2p:fmap 1 PINTYPE=IN
+AP virtex2p:fmap 2 PINTYPE=IN
+AP virtex2p:fmap 3 PINTYPE=IN
+AP virtex2p:fmap 4 PINTYPE=IN
+AP virtex2p:fmap 5 PINTYPE=IN
+|Q virtex2p:m2_1e 1
+AS virtex2p:m2_1e LEVEL=MXILINX
+AS virtex2p:m2_1e LIBVER=2.0.0
+AS virtex2p:m2_1e PINORDER=D0 D1 E O S0
+AP virtex2p:m2_1e 1 PINTYPE=IN
+AP virtex2p:m2_1e 2 PINTYPE=IN
+AP virtex2p:m2_1e 3 PINTYPE=IN
+AP virtex2p:m2_1e 4 PINTYPE=OUT
+AP virtex2p:m2_1e 5 PINTYPE=IN
+|Q virtex2p:muxf5 1
+AS virtex2p:muxf5 LIBVER=2.0.0
+AS virtex2p:muxf5 LEVEL=XILINX
+AS virtex2p:muxf5 PINORDER=I0 I1 O S
+AP virtex2p:muxf5 1 PINTYPE=IN
+AP virtex2p:muxf5 2 PINTYPE=IN
+AP virtex2p:muxf5 3 PINTYPE=OUT
+AP virtex2p:muxf5 4 PINTYPE=IN
+W virtex2p:fmap $1I59
+I $1I59 virtex2p:fmap E S0 D3 D2 M23 RLOC=X0Y0`
+W virtex2p:m2_1e $1I46
+I $1I46 virtex2p:m2_1e D0 D1 E M01 S0 SRLOC=X0Y0`LABEL=M01`
+W virtex2p:m2_1e $1I47
+I $1I47 virtex2p:m2_1e D2 D3 E M23 S0 SRLOC=X0Y0`LABEL=M23`
+W virtex2p:muxf5 $1I50
+I $1I50 virtex2p:muxf5 M01 M23 O S1 RLOC=X0Y0`LABEL=O`
+W virtex2p:fmap $1I53
+I $1I53 virtex2p:fmap E S0 D1 D0 M01 RLOC=X0Y0`
+P ? E
+I E ? E
+P ? S0
+I S0 ? S0
+P ? D1
+I D1 ? D1
+P ? D0
+I D0 ? D0
+P ? S1
+I S1 ? S1
+P ? O
+I O ? O
+P ? D3
+I D3 ? D3
+P ? D2
+I D2 ? D2
+EW

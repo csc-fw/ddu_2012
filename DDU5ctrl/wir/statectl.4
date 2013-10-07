@@ -1,0 +1,62 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 224033052000 D690F
+DW statectl
+SA @SHEET=4 
+SA @NAME=STATECTL 
+SA @DATETIME=5-25-2005_15:01 
+|Q virtex:gnd 1
+AS virtex:gnd LIBVER=2.0.0
+AS virtex:gnd LEVEL=XILINX
+AS virtex:gnd PINORDER=G
+AP virtex:gnd 1 PINTYPE=OUT
+|Q virtex:fdc 1
+AS virtex:fdc LIBVER=2.0.0
+AS virtex:fdc LEVEL=XILINX
+AS virtex:fdc @INIT=0
+AS virtex:fdc DEVICE=DFF
+AS virtex:fdc PINORDER=C CLR D Q
+AP virtex:fdc 1 PINTYPE=IN
+AP virtex:fdc 2 PINTYPE=IN
+AP virtex:fdc 3 PINTYPE=IN
+AP virtex:fdc 4 PINTYPE=OUT
+W virtex:gnd $4I2164
+I $4I2164 virtex:gnd $4N2161 
+W virtex:fdc $4I2163
+I $4I2163 virtex:fdc CLK $4N2161 OE_CRC LOE_CRC 
+W virtex:gnd $4I2147
+I $4I2147 virtex:gnd $4N2150 
+W virtex:gnd $4I2143
+I $4I2143 virtex:gnd $4N2146 
+W virtex:gnd $4I2135
+I $4I2135 virtex:gnd $4N2136 
+W virtex:gnd $4I2155
+I $4I2155 virtex:gnd $4N2158 
+W virtex:fdc $4I2156
+I $4I2156 virtex:fdc CLK $4N2158 OE_TR LOE_TR 
+W virtex:gnd $4I2151
+I $4I2151 virtex:gnd $4N2154 
+W virtex:fdc $4I2144
+I $4I2144 virtex:fdc CLK $4N2146 OEIDLE LOEIDLE 
+W virtex:fdc $4I2148
+I $4I2148 virtex:fdc CLK $4N2150 OEHDR LOEHDR 
+W virtex:fdc $4I2152
+I $4I2152 virtex:fdc CLK $4N2154 OEDATA LOEDATA 
+W virtex:fdc $4I2134
+I $4I2134 virtex:fdc CLK $4N2136 OESYNC LOESYNC 
+P ? CLK
+I CLK ? CLK
+P ? LOESYNC
+I LOESYNC ? LOESYNC
+P ? LOEHDR
+I LOEHDR ? LOEHDR
+P ? LOEDATA
+I LOEDATA ? LOEDATA
+P ? LOE_CRC
+I LOE_CRC ? LOE_CRC
+P ? LOE_TR
+I LOE_TR ? LOE_TR
+P ? LOEIDLE
+I LOEIDLE ? LOEIDLE
+EW

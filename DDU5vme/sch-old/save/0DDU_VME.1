@@ -1,0 +1,223 @@
+V 51
+K 271629802300 D690K
+Y 0
+D 0 0 1700 1100
+Z 1
+i 168
+I 111 COVER 1 0 0 0 1 '
+T 1425 150 30 0 3 Default Startup Order:
+Q 13 0 0
+T 1275 50 18 0 2 (ignoring Trigger boards)
+Q 13 0 0
+T 695 40 10 0 3 K-Status
+Q 12 0 0
+T 515 40 10 0 3 WordCount
+Q 12 0 0
+T 450 40 10 0 3 EOE
+Q 12 0 0
+T 405 25 20 0 3 TR: 0x/A/?/WW.WWWW/RRRR/UUMK
+Q 13 0 0
+T 155 40 10 0 3 Ostat
+Q 12 0 0
+T 285 40 10 0 3 DMBcnt
+Q 12 0 0
+T 590 40 10 0 3 CRCword
+Q 12 0 0
+T 645 40 10 0 3 EOEstat
+Q 12 0 0
+T 90 90 10 0 3 BOE1
+Q 12 0 0
+T 225 90 10 0 3 BXN
+Q 12 0 0
+T 260 90 10 0 3 ID
+Q 12 0 0
+T 305 90 10 0 3 K-Status
+Q 12 0 0
+T 280 90 10 0 3 FOV
+Q 12 0 0
+T 120 90 10 0 3 type
+Q 12 0 0
+T 150 90 10 0 3 L1A _Number
+Q 12 0 0
+T 55 75 20 0 3 H1: 0x/5T/NN.NNNN/XXX/I.II/VK
+Q 13 0 0
+T 180 40 10 0 3 DMB-DAV(15)
+Q 12 0 0
+T 245 40 10 0 3 BOEstat
+Q 12 0 0
+T 55 25 20 0 3 H3: 0x/LLLL/oooo/ZZZZ/GGMY
+Q 13 0 0
+T 95 40 10 0 3 LiveDMB(15)
+Q 12 0 0
+T 55 50 20 0 3 H2: 0x/8000/0001/8000/HHHH
+Q 13 0 0
+T 115 65 10 0 3 49-bit ~unique constant
+Q 12 0 0
+T 235 65 10 0 3 DMBfull(15)
+Q 12 0 0
+T 405 75 20 0 3 T-2: 0x/8000/FFFF/8000/8000
+Q 13 0 0
+T 465 90 10 0 3 64-bit unique constant
+Q 12 0 0
+T 405 50 20 0 3 T-1: 0x/SSSS.SSSS/QQQQ/PPPP
+Q 13 0 0
+T 545 65 10 0 3 DMBerr
+Q 12 0 0
+T 605 65 10 0 3 DMBwarn(15)
+Q 12 0 0
+T 470 65 10 0 3 DDU EOE Status
+Q 12 0 0
+T 35 100 20 0 3 DDU Format Since DDUctrl v15:
+Q 12 0 0
+c 45 1353 1
+T 890 575 30 0 3 3: Mode Bit 2
+Q 12 0 0
+T 890 605 30 0 3 2: Mode Bit 1
+Q 12 0 0
+T 890 635 30 0 3 1: Mode Bit 0
+Q 12 0 0
+T 55 410 30 0 3 25=DMB
+Q 13 0 0
+T 55 385 30 0 3 26=TMB
+Q 13 0 0
+T 55 335 30 0 3 28=DDU
+Q 13 0 0
+T 55 360 30 0 3 27=Both DMB and TMB
+Q 13 0 0
+T 55 435 30 0 3 24=OSU-TCB "Test Control Board"
+Q 13 0 0
+T 1265 40 20 0 9 DDU_WordCount = (6 + 25*Nts*nCFEB + 3*nDMB) <= 30050
+Q 13 0 0
+T 1265 120 20 0 9 DDU WordCount (64-bit words) for "No Data" event: 0x006.
+Q 13 0 0
+T 1270 315 24 0 2 To Do:
+Q 11 3 0
+T 890 545 30 0 3 4: Mode Bit 3
+Q 12 0 0
+T 890 455 30 0 3 7: Disable Auto Serial Load
+Q 12 0 0
+T 40 1035 30 0 3 this DDU:
+Q 13 0 0
+T 890 515 30 0 3 5: Mode Bit 4
+Q 12 0 0
+T 890 485 30 0 3 6: Mode Bit 5
+Q 12 0 0
+T 1050 485 70 0 3 }
+Q 13 0 0
+T 35 460 30 0 3 VME Broadcast Addresses:
+Q 13 0 0
+T 1090 515 30 0 3 00 for Standard Debug, 01 for VME-Serial
+Q 13 0 0
+T 1090 485 30 0 3 10 for Flash RAM, 11 for VME-Parallel
+Q 13 0 0
+T 1265 105 20 0 9 DDU WordCount for one DMB (only one CFEB): 0x19A = 410 dec.
+Q 13 0 0
+T 1265 90 20 0 9 DDU WC, 1 DMB with 2 CFEB: 0x32A = 810 dec.
+Q 13 0 0
+T 1265 75 20 0 9 DDU WC, 2 DMB with 1 CFEB (nCFEB=2): 0x32E = 814 dec.
+Q 13 0 0
+T 1265 60 20 0 9 DDU WC, 2 DMB with 2 CFEB (nCFEB=4): 0x64E = 1614 dec.
+Q 13 0 0
+T 820 970 35 0 6 CMS CSC DDU5, VME FPGA
+Q 11 3 0
+T 805 1015 50 0 6 VME5CTRL
+Q 11 3 0
+T 995 1010 35 0 3 (file 0ddu_vme)
+Q 11 3 0
+T 415 515 24 0 2 ddu5_vme\VME5Ctrl\vme5ctrl
+Q 11 3 0
+T 40 760 50 0 3 Set all Banks to 3.3V I/O
+Q 14 0 0
+T 890 425 30 0 3 8: Set all LA bits HIGH, ~FPGA version on LEDs
+Q 12 0 0
+T 890 395 30 0 3 RST_1=Soft_Reset for FPGAs and ALL FIFOs
+Q 12 0 0
+T 1670 965 30 0 9 v1: Begin vme5ctrl from vme4ctrl v5, new DDU5 pinout
+Q 12 0 0
+T 1670 940 30 0 9 v3-8: All PROM JTAG lines now have 3-state drivers, fixed UCF 
++ FMM pins
+Q 12 0 0
+T 1325 25 20 0 9 Ethernet_ByteCount = 8*DDU_WordCount      _16 TS assumed_
+Q 13 0 0
+T 1670 915 30 0 9 v9-10: Add VME Serial ADC control (Device 8...13 in r2), debug
++  on LEDmode14; tune DLLs
+Q 12 0 0
+T 1670 890 30 0 9 v11-13: Modify FMM LEDs, add 3 IRQ pins, add VME Registers for
++  GbE/SLINK_WAIT, Fake_L1A_Enable & DDU production testing
+Q 12 0 0
+T 1670 865 30 0 9 v14: Add Restore-Idle after SoftReset, add Busy/Warn history o
++ n VMEparDev6/5, tune RealFMM logic
+Q 12 0 0
+T 1670 840 30 0 9 v14r2-4: Tune Busy/Warn history
+Q 12 0 0
+T 60 1010 24 0 3 add  _BX Offset_  to Flash SRAM
+Q 13 0 0
+T 100 735 24 0 2 Dependent Clocks:  ck40=clk
+Q 11 3 0
+T 35 710 24 0 2 Verilog Module Synth notes:
+Q 11 3 0
+T 70 685 24 0 2 command line options:  -bufg 0 -iob false -iobuf no
+Q 11 3 0
+T 100 755 24 0 2 Indep Clocks:  clk80, sclk
+Q 11 3 0
+T 55 310 30 0 3 22=DCC
+Q 13 0 0
+T 50 290 28 0 2 Reset-to-DDU Ready time
+Q 11 3 0
+T 85 265 24 0 2 Sync: < 500ns
+Q 11 3 0
+T 85 240 24 0 2 Soft: < 20us
+Q 11 3 0
+T 85 215 24 0 2 Hard: < 62ms
+Q 11 3 0
+T 615 445 30 0 2 PromID: 05036093h
+Q 12 3 0
+T 35 190 24 0 2 VMEctrl-PROGRAM < 27.6ms
+Q 12 3 0
+T 35 170 24 0 2 DDUctrl-PROGRAM < 30.4ms
+Q 12 3 0
+T 35 150 24 0 2 INctrl-PROGRAM < 54.8ms
+Q 12 3 0
+T 70 640 30 0 2 PROGRAM takes < 55 ms (28ms this FPGA)
+Q 12 3 0
+T 1670 335 24 0 9 Replace EmptyIN/FIFO_EMPTY PUs?
+Q 13 0 0
+T 1465 110 20 0 3 4) DONE
+Q 13 0 0
+T 1465 90 20 0 3 5) En. Outputs
+Q 13 0 0
+T 1465 70 20 0 3 6) Release WE
+Q 13 0 0
+T 1465 130 20 0 3 Release DLL (no wait)
+Q 13 0 0
+T 1670 815 30 0 9 v15: Tune ToVME and AS timing, also VMEpar_Info Reg; sets IRQ1
++  on Error; add debug LEDmode12
+Q 12 0 0
+T 1670 790 30 0 9 v16: Tune 12-bit SADC, add verilog-Cascade bit_counter for CSC
++  Sync/Err flags for IRQ
+Q 12 0 0
+T 1670 740 30 0 9 v18: switch DDUfpga JTAG from SlwClk2 to SCLK, @INIT-->INIT fo
++ r ROMs, tune BUSY/Sync priority
+Q 12 0 0
+T 860 665 30 0 3 Mode 1 Switch Block, LED0 in rear
+Q 12 0 0
+T 1670 765 30 0 9 v17: Remove SyncRst where not needed
+Q 12 0 0
+T 1295 280 14 0 2 - Put GbE Prescale into Flash RAM
+Q 11 3 0
+T 1295 295 14 0 2 - Check GbE-thresh Autoload
+Q 11 3 0
+T 1295 265 14 0 2 - No logic for VMECLK, VMEA1...OK.
+Q 11 3 0
+U 35 570 40 0 3 1 PART=XC2V500-5-FG456
+U 1650 1035 40 0 9 3 @DATETIME=3-26-2007_13:10
+U 35 530 40 0 3 1 PROM=XC18V04-VQ44 (PARALLEL)
+T 1670 715 30 0 9 r2: add one SCLK delay to VME_PEN & VME_SEN, r3-7: tune Broadc
++ ast
+Q 12 0 0
+T 1670 695 30 0 9 r8+ test==r2?
+Q 12 0 0
+T 1650 1005 35 0 9 BF018A09    Version 18
+Q 13 3 0
+I 135 VMECNTRL 1 711 457 0 1 '
+E

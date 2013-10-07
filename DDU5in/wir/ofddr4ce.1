@@ -1,0 +1,66 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 167868331100 ofd64
+DW ofddr4ce
+|Q ofddrcpe_33 1
+AS ofddrcpe_33 @INIT=0
+AS ofddrcpe_33 IOB=TRUE
+AS ofddrcpe_33 LIBVER=2.0.0
+AS ofddrcpe_33 LEVEL=OSU-XILINX
+AS ofddrcpe_33 @NAME=OFDDRCPE_33
+AS ofddrcpe_33 PINORDER=C0 C1 CE CLR D0 D1 PRE Q
+AP ofddrcpe_33 1 PINTYPE=IN
+AP ofddrcpe_33 2 PINTYPE=IN
+AP ofddrcpe_33 3 PINTYPE=IN
+AP ofddrcpe_33 4 PINTYPE=IN
+AP ofddrcpe_33 5 PINTYPE=IN
+AP ofddrcpe_33 6 PINTYPE=IN
+AP ofddrcpe_33 7 PINTYPE=IN
+AP ofddrcpe_33 8 PINTYPE=OUT
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex2p:inv 1
+AS virtex2p:inv DEVICE=INV
+AS virtex2p:inv LIBVER=2.0.0
+AS virtex2p:inv LEVEL=XILINX
+AS virtex2p:inv PINORDER=I O
+AP virtex2p:inv 1 PINTYPE=IN
+AP virtex2p:inv 2 PINTYPE=OUT
+AN Q[3:0] VLBUSISONSHEET=1
+AN D[3:0] VLBUSISONSHEET=1
+AN F[3:0] VLBUSISONSHEET=1
+W ofddrcpe_33 $1I129
+I $1I129 ofddrcpe_33 C ~C CE CLR D0 F0 $1N149 Q0 
+W ofddrcpe_33 $1I177
+I $1I177 ofddrcpe_33 C ~C CE CLR D1 F1 $1N151 Q1 
+W ofddrcpe_33 $1I178
+I $1I178 ofddrcpe_33 C ~C CE CLR D2 F2 $1N153 Q2 
+W virtex2p:gnd $1I154
+I $1I154 virtex2p:gnd $1N155 
+W virtex2p:gnd $1I152
+I $1I152 virtex2p:gnd $1N153 
+W virtex2p:gnd $1I150
+I $1I150 virtex2p:gnd $1N151 
+W virtex2p:inv $1I125
+I $1I125 virtex2p:inv C ~C 
+W virtex2p:gnd $1I123
+I $1I123 virtex2p:gnd $1N149 
+W ofddrcpe_33 $1I179
+I $1I179 ofddrcpe_33 C ~C CE CLR D3 F3 $1N155 Q3 
+P ? Q[3:0]
+I Q[3:0] ? Q[3:0]
+P ? D[3:0]
+I D[3:0] ? D[3:0]
+P ? F[3:0]
+I F[3:0] ? F[3:0]
+P ? CE
+I CE ? CE
+P ? C
+I C ? C
+P ? CLR
+I CLR ? CLR
+EW

@@ -1,0 +1,61 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 259897180600 comp22
+DW comp22
+|Q virtex:comp8 1
+AS virtex:comp8 LEVEL=MXILINX
+AS virtex:comp8 LIBVER=2.0.0
+AS virtex:comp8 PINORDER=A[7:0] B[7:0] EQ
+AP virtex:comp8 1 PINTYPE=IN
+AP virtex:comp8 2 PINTYPE=IN
+AP virtex:comp8 3 PINTYPE=OUT
+|Q virtex:comp16 1
+AS virtex:comp16 LEVEL=MXILINX
+AS virtex:comp16 LIBVER=2.0.0
+AS virtex:comp16 PINORDER=A[15:0] B[15:0] EQ
+AP virtex:comp16 1 PINTYPE=IN
+AP virtex:comp16 2 PINTYPE=IN
+AP virtex:comp16 3 PINTYPE=OUT
+|Q virtex:gnd 1
+AS virtex:gnd LIBVER=2.0.0
+AS virtex:gnd LEVEL=XILINX
+AS virtex:gnd PINORDER=G
+AP virtex:gnd 1 PINTYPE=OUT
+|Q virtex:and2 1
+AS virtex:and2 LEVEL=XILINX
+AS virtex:and2 DEVICE=AND
+AS virtex:and2 LIBVER=2.0.0
+AS virtex:and2 PINORDER=I0 I1 O
+AP virtex:and2 1 PINTYPE=IN
+AP virtex:and2 2 PINTYPE=IN
+AP virtex:and2 3 PINTYPE=OUT
+AN A[21:0] VLBUSISONSHEET=1
+AN A[15:0] VLBUSISONSHEET=1
+AN A[23:16] VLBUSISONSHEET=1
+AN A[23:0] VLBUSISONSHEET=1
+AN B[21:0] VLBUSISONSHEET=1
+AN B[15:0] VLBUSISONSHEET=1
+AN B[23:16] VLBUSISONSHEET=1
+AN B[23:0] VLBUSISONSHEET=1
+W virtex:comp8 $1I77
+I $1I77 virtex:comp8 A[23:16] B[23:16] INT1 
+W virtex:comp16 $1I78
+I $1I78 virtex:comp16 A[15:0] B[15:0] INT0 
+W virtex:gnd $1I87
+I $1I87 virtex:gnd A22 
+W virtex:gnd $1I76
+I $1I76 virtex:gnd A23 
+W virtex:gnd $1I89
+I $1I89 virtex:gnd B22 
+W virtex:gnd $1I91
+I $1I91 virtex:gnd B23 
+W virtex:and2 $1I75
+I $1I75 virtex:and2 INT1 INT0 EQ 
+P ? EQ
+I EQ ? EQ
+P ? A[21:0]
+I A[21:0] ? A[21:0]
+P ? B[21:0]
+I B[21:0] ? B[21:0]
+EW

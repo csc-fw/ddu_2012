@@ -1,0 +1,189 @@
+V 51
+K 271629802300 D690K
+Y 0
+D 0 0 1700 1100
+Z 1
+i 166
+I 111 COVER 1 0 0 0 1 '
+I 148 virtex:CONFIG 1 30 110 0 1 '
+A 30 100 10 0 3 1 PART=XC2VP20-6-FG676
+T 900 445 30 0 3 8: Set all IO bits HIGH, ~FPGA version on LEDs
+Q 12 0 0
+T 735 40 10 0 3 K-Status
+Q 12 0 0
+c 45 1353 1
+T 590 110 10 0 3 const
+Q 12 0 0
+T 550 110 10 0 3 const
+Q 12 0 0
+T 555 40 10 0 3 WordCount
+Q 12 0 0
+T 190 650 24 0 3 (INIT, BUSY, WRITE, CS)
+Q 14 0 0
+T 900 505 30 0 3 4: Mode Bit 3
+Q 12 0 0
+T 900 535 30 0 3 3: Mode Bit 2
+Q 12 0 0
+T 900 565 30 0 3 2: Mode Bit 1
+Q 12 0 0
+T 900 595 30 0 3 1: Mode Bit 0
+Q 12 0 0
+T 870 660 30 0 3 BXR Pulse: Dump Data Mode (no L1A needed)
+Q 12 0 0
+T 55 335 30 0 3 25=DMB
+Q 13 0 0
+T 55 310 30 0 3 26=TMB
+Q 13 0 0
+T 55 235 30 0 3 29=DCC
+Q 13 0 0
+T 55 260 30 0 3 28=DDU
+Q 13 0 0
+T 35 385 30 0 3 VME Broadcast Addresses:
+Q 13 0 0
+T 55 285 30 0 3 27=Both DMB and TMB
+Q 13 0 0
+T 615 110 10 0 3 const
+Q 12 0 0
+T 490 40 10 0 3 EOE
+Q 12 0 0
+T 515 110 10 0 3 const
+Q 12 0 0
+T 480 135 10 0 3 BOE1
+Q 12 0 0
+T 615 135 10 0 3 BXN
+Q 12 0 0
+T 650 135 10 0 3 ID
+Q 12 0 0
+T 695 135 10 0 3 K-Status
+Q 12 0 0
+T 670 135 10 0 3 FOV
+Q 12 0 0
+T 620 40 10 0 3 eventStatus
+Q 12 0 0
+T 685 40 10 0 3 CRCword
+Q 12 0 0
+T 510 135 10 0 3 type
+Q 12 0 0
+T 540 135 10 0 3 L1A _Number
+Q 12 0 0
+T 55 360 30 0 3 24=OSU-TCB "Test Control Board"
+Q 13 0 0
+T 650 110 10 0 3 K-Status? Not V31+
+Q 12 0 0
+T 445 95 20 0 3 H2: 0x/8000/0001/8000/800K
+Q 13 0 0
+T 445 25 20 0 3 TR: 0x/A/?/WW.WWWW/UU/?/R.RRR/K
+Q 13 0 0
+T 505 60 10 0 3 64-bit unique constant, new for v34+
+Q 12 0 0
+T 870 695 30 0 3 RST_1=Asynchronus Reset for FPGA1 and ALL FIFOs
+Q 12 0 0
+T 1265 105 20 0 9 DDU WordCount for one DMB (only one CFEB): 0x199 = 409 dec.
+Q 13 0 0
+T 1265 90 20 0 9 DDU WC, 1 DMB with 2 CFEB: 0x329 = 809 dec.
+Q 13 0 0
+T 1265 75 20 0 9 DDU WC, 2 DMB with 1 CFEB (nCFEB=2): 0x32C = 812 dec.
+Q 13 0 0
+T 1265 60 20 0 9 DDU WC, 2 DMB with 2 CFEB (nCFEB=4): 0x64C = 1612 dec.
+Q 13 0 0
+T 445 45 20 0 3 T-2: 0x/8000/FFFF/8000/8000
+Q 13 0 0
+T 440 65 10 0 3 v40+
+Q 12 0 0
+T 1265 40 20 0 9 DDU_WordCount = (6 + 25*Nts*nCFEB + 3*nDMB) <= 30050
+Q 13 0 0
+T 485 110 10 0 3 BOE2?
+Q 12 0 0
+T 445 120 20 0 3 H1: 0x/5T/NN.NNNN/XXX/I.II/VK
+Q 13 0 0
+T 1265 120 20 0 9 DDU WordCount (64-bit words) for "No Data" event: 0x006.
+Q 13 0 0
+T 1230 25 20 0 9 Ethernet_ByteCount = 8*DDU_WordCount
+Q 13 0 0
+T 505 85 10 0 3 DDU ErrorStatus
+Q 12 0 0
+T 580 85 10 0 3 DMB-DAV
+Q 12 0 0
+T 630 85 10 0 3 const
+Q 12 0 0
+T 655 85 10 0 3 DMBcnt
+Q 12 0 0
+T 415 70 20 0 3 H3/T-1: 0x/SSSS.SSSS/ZZZZ/000Y
+Q 13 0 0
+T 1660 415 30 0 9 Replace EmptyIN/FIFO_EMPTY PUs?
+Q 13 0 0
+T 1660 385 30 0 9 Use LFF and SLINK_READY to pause mid-event?
+Q 13 0 0
+T 1300 215 14 0 2 - Watch for TRG buff overflows
+Q 11 3 0
+T 1300 230 14 0 2 - COMPARE L1NUM & BXN (DMB TOO)
+Q 11 3 0
+T 1300 200 14 0 2 - Tune CRC logic for DMB error case
+Q 11 3 0
+T 1300 185 14 0 2 - Connect and drive FMM signals
+Q 11 3 0
+T 1325 170 14 0 2 ---> Set correct default state on board!
+Q 11 3 0
+T 1300 155 14 0 2 - Monitor: Active-DAV mismatch warn,
+Q 11 3 0
+T 1325 140 14 0 2 MOVLP bad evt, BXN match err
+Q 11 3 0
+T 1275 245 24 0 2 To Do:
+Q 11 3 0
+T 805 1015 50 0 6 D785D: CMS CSC DDU, IN_CTRL Logic
+Q 11 3 0
+T 805 975 35 0 6 Process Rocket I/O Data from DMB, format output to DDU FIFOs
+Q 11 3 0
+T 45 900 24 0 3 use DDU-DMB fiber to STOP DMB on FULL
+Q 13 0 0
+T 45 920 24 0 3 add PROM for kill_channel constants, BX offset
+Q 13 0 0
+T 45 880 24 0 3 RXER words are skipped, FILLER added as needed
+Q 13 0 0
+T 35 495 30 0 3 To Do List:
+Q 13 0 0
+T 60 465 30 0 3 Drive LA ports, LEDs and TPs
+Q 13 0 0
+T 60 440 30 0 3 Disable REN/OWEN when Ext FIFO goes FULL
+Q 13 0 0
+T 60 415 30 0 3 Put something useful on HDR/TR[35,34,17,16]?
+Q 13 0 0
+T 70 860 24 0 3 - Use code "C" with FILL flag set (D34/D16)
+Q 13 0 0
+T 30 945 30 0 3 this DDU:
+Q 13 0 0
+T 545 520 24 0 2 inctrl
+Q 11 3 0
+T 900 475 30 0 3 7: Set Fake_L1A (data passthrough)
+Q 12 0 0
+T 550 700 50 0 3 All I/O is 2.5V
+Q 14 0 0
+T 870 625 30 0 3 Mode 1 Switch Block (NOT labelled in reverse order)
+Q 12 0 0
+T 1670 950 30 0 9 v19: change TX GT settings, RLOC for XORCYs, fix BRAM bit mapp
++ ing
+Q 12 0 0
+T 1670 920 30 0 9 v20: swap some bits for LEDm7 tests, move LA clk pins
+Q 12 0 0
+T 1670 895 30 0 9 v21: modify LEDm6 bits
+Q 12 0 0
+T 1670 870 30 0 9 v22: remap BRAM output bits
+Q 12 0 0
+T 1670 845 30 0 9 v23: fix OWCLK logic
+Q 12 0 0
+T 1670 820 30 0 9 v24: fix OFDDR logic, swap LA clks
+Q 12 0 0
+T 1670 770 30 0 9 v26: OFDDR=SLOW...not yet
+Q 12 0 0
+T 1670 995 35 0 9 DF026A01   Version 26
+Q 13 3 0
+T 1670 795 30 0 9 v25: replace most LA-FD16PEs with CEs, OFDDR=FAST
+Q 12 0 0
+U 35 530 40 0 3 1 PROM=XC18V04-VQ44 (PARALLEL)
+U 1650 1035 40 0 9 3 @DATETIME=6-14-2004_12:27
+U 70 670 30 0 3 1 AVOID=Y21, E23, C22, E21
+U 70 590 30 0 3 1 NC_XCV400E_FG676=D13, Y13
+U 70 620 30 0 3 1 NC_XCV400_FG676=B13, AF13
+U 35 700 40 0 3 1 PART=XC2VP20-6-FG676
+I 162 INCNTRL 1 710 430 0 1 '
+E

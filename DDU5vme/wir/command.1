@@ -1,0 +1,431 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 118209874400 fpga
+DW command
+SA @DATETIME=3-9-2007_15:31 
+SA @NAME=COMMAND 
+SA @SHEET=1 
+|Q virtex:inv 1
+AS virtex:inv DEVICE=INV
+AS virtex:inv LIBVER=2.0.0
+AS virtex:inv LEVEL=XILINX
+AS virtex:inv PINORDER=I O
+AP virtex:inv 1 PINTYPE=IN
+AP virtex:inv 2 PINTYPE=OUT
+|Q ild1 1
+AS ild1 @INIT=0
+AS ild1 LIBVER=2.0.0
+AS ild1 LEVEL=MXILINX
+AS ild1 @NAME=ILD1
+AS ild1 PINORDER=C D Q
+AP ild1 1 PINTYPE=IN
+AP ild1 2 PINTYPE=IN
+AP ild1 3 PINTYPE=OUT
+|Q ild4_bus 1
+AS ild4_bus LEVEL=MXILINX
+AS ild4_bus @NAME=ILD4_BUS
+AS ild4_bus PINORDER=C D[3:0] Q[3:0]
+AP ild4_bus 1 PINTYPE=IN
+AP ild4_bus 2 PINTYPE=CHIPIN
+AP ild4_bus 3 PINTYPE=OUT
+|Q virtex:and2 1
+AS virtex:and2 LEVEL=XILINX
+AS virtex:and2 DEVICE=AND
+AS virtex:and2 LIBVER=2.0.0
+AS virtex:and2 PINORDER=I0 I1 O
+AP virtex:and2 1 PINTYPE=IN
+AP virtex:and2 2 PINTYPE=IN
+AP virtex:and2 3 PINTYPE=OUT
+|Q virtex:buf 1
+AS virtex:buf LIBVER=2.0.0
+AS virtex:buf DEVICE=BUF
+AS virtex:buf LEVEL=XILINX
+AS virtex:buf PINORDER=I O
+AP virtex:buf 1 PINTYPE=IN
+AP virtex:buf 2 PINTYPE=OUT
+|Q virtex:xor2 1
+AS virtex:xor2 DEVICE=XOR
+AS virtex:xor2 LEVEL=XILINX
+AS virtex:xor2 LIBVER=2.0.0
+AS virtex:xor2 PINORDER=I0 I1 O
+AP virtex:xor2 1 PINTYPE=IN
+AP virtex:xor2 2 PINTYPE=IN
+AP virtex:xor2 3 PINTYPE=OUT
+|Q virtex:and5 1
+AS virtex:and5 LIBVER=2.0.0
+AS virtex:and5 LEVEL=XILINX
+AS virtex:and5 PINORDER=I0 I1 I2 I3 I4 O
+AP virtex:and5 1 PINTYPE=IN
+AP virtex:and5 2 PINTYPE=IN
+AP virtex:and5 3 PINTYPE=IN
+AP virtex:and5 4 PINTYPE=IN
+AP virtex:and5 5 PINTYPE=IN
+AP virtex:and5 6 PINTYPE=OUT
+|Q virtex:and5b2 1
+AS virtex:and5b2 LIBVER=2.0.0
+AS virtex:and5b2 LEVEL=XILINX
+AS virtex:and5b2 PINORDER=I0 I1 I2 I3 I4 O
+AP virtex:and5b2 1 PINTYPE=IN
+AP virtex:and5b2 2 PINTYPE=IN
+AP virtex:and5b2 3 PINTYPE=IN
+AP virtex:and5b2 4 PINTYPE=IN
+AP virtex:and5b2 5 PINTYPE=IN
+AP virtex:and5b2 6 PINTYPE=OUT
+|Q virtex:fd 1
+AS virtex:fd @INIT=0
+AS virtex:fd DEVICE=DFF
+AS virtex:fd LIBVER=2.0.0
+AS virtex:fd LEVEL=XILINX
+AS virtex:fd PINORDER=C D Q
+AP virtex:fd 1 PINTYPE=IN
+AP virtex:fd 2 PINTYPE=IN
+AP virtex:fd 3 PINTYPE=OUT
+|Q virtex:nor5 1
+AS virtex:nor5 LEVEL=XILINX
+AS virtex:nor5 LIBVER=2.0.0
+AS virtex:nor5 PINORDER=I0 I1 I2 I3 I4 O
+AP virtex:nor5 1 PINTYPE=IN
+AP virtex:nor5 2 PINTYPE=IN
+AP virtex:nor5 3 PINTYPE=IN
+AP virtex:nor5 4 PINTYPE=IN
+AP virtex:nor5 5 PINTYPE=IN
+AP virtex:nor5 6 PINTYPE=OUT
+|Q virtex:fdc 1
+AS virtex:fdc LIBVER=2.0.0
+AS virtex:fdc LEVEL=XILINX
+AS virtex:fdc @INIT=0
+AS virtex:fdc DEVICE=DFF
+AS virtex:fdc PINORDER=C CLR D Q
+AP virtex:fdc 1 PINTYPE=IN
+AP virtex:fdc 2 PINTYPE=IN
+AP virtex:fdc 3 PINTYPE=IN
+AP virtex:fdc 4 PINTYPE=OUT
+|Q virtex:bufg 1
+AS virtex:bufg LIBVER=2.0.0
+AS virtex:bufg DEVICE=BUFG
+AS virtex:bufg LEVEL=XILINX
+AS virtex:bufg PINORDER=I O
+AP virtex:bufg 1 PINTYPE=IN
+AP virtex:bufg 2 PINTYPE=OUT
+|Q virtex2p:and5b3 1
+AS virtex2p:and5b3 LIBVER=2.0.0
+AS virtex2p:and5b3 LEVEL=XILINX
+AS virtex2p:and5b3 PINORDER=I0 I1 I2 I3 I4 O
+AP virtex2p:and5b3 1 PINTYPE=IN
+AP virtex2p:and5b3 2 PINTYPE=IN
+AP virtex2p:and5b3 3 PINTYPE=IN
+AP virtex2p:and5b3 4 PINTYPE=IN
+AP virtex2p:and5b3 5 PINTYPE=IN
+AP virtex2p:and5b3 6 PINTYPE=OUT
+|Q ild18 1
+AS ild18 LEVEL=MXILINX
+AS ild18 @NAME=ILD18
+AS ild18 PINORDER=C D[17:0] Q[17:0]
+AP ild18 1 PINTYPE=IN
+AP ild18 2 PINTYPE=CHIPIN
+AP ild18 3 PINTYPE=OUT
+|Q virtex2p:nor2 1
+AS virtex2p:nor2 LEVEL=XILINX
+AS virtex2p:nor2 DEVICE=NOR
+AS virtex2p:nor2 LIBVER=2.0.0
+AS virtex2p:nor2 PINORDER=I0 I1 O
+AP virtex2p:nor2 1 PINTYPE=IN
+AP virtex2p:nor2 2 PINTYPE=IN
+AP virtex2p:nor2 3 PINTYPE=OUT
+AP virtex2p:nor2 3 PARAM=INV
+|Q virtex:xor6 1
+AS virtex:xor6 LEVEL=MXILINX
+AS virtex:xor6 LIBVER=2.0.0
+AS virtex:xor6 PINORDER=I0 I1 I2 I3 I4 I5 O
+AP virtex:xor6 1 PINTYPE=IN
+AP virtex:xor6 2 PINTYPE=IN
+AP virtex:xor6 3 PINTYPE=IN
+AP virtex:xor6 4 PINTYPE=IN
+AP virtex:xor6 5 PINTYPE=IN
+AP virtex:xor6 6 PINTYPE=IN
+AP virtex:xor6 7 PINTYPE=OUT
+|Q virtex2p:and5b2 1
+AS virtex2p:and5b2 LIBVER=2.0.0
+AS virtex2p:and5b2 LEVEL=XILINX
+AS virtex2p:and5b2 PINORDER=I0 I1 I2 I3 I4 O
+AP virtex2p:and5b2 1 PINTYPE=IN
+AP virtex2p:and5b2 2 PINTYPE=IN
+AP virtex2p:and5b2 3 PINTYPE=IN
+AP virtex2p:and5b2 4 PINTYPE=IN
+AP virtex2p:and5b2 5 PINTYPE=IN
+AP virtex2p:and5b2 6 PINTYPE=OUT
+AN ADR[23:20] VLBUSISONSHEET=1
+AN ADR[19:2] VLBUSISONSHEET=1
+AN ADR[23:1] VLBUSISONSHEET=1
+AN ADRS[19:2] VLBUSISONSHEET=1
+AN ADRS[23:2] VLBUSISONSHEET=1
+AN ADRS[23:20] VLBUSISONSHEET=1
+AN AM[3:0] VLBUSISONSHEET=1
+AN AM[5:0] VLBUSISONSHEET=1
+AN AMS[3:0] VLBUSISONSHEET=1
+AN AMS[5:0] VLBUSISONSHEET=1
+AN LED[2:0] VLBUSISONSHEET=1
+AN DIAG1OUT[15:0] VLBUSISONSHEET=1
+AN DIAG2OUT[15:0] VLBUSISONSHEET=1
+AN ~GA[5:0] VLBUSISONSHEET=1
+AN COMMAND[9:0] VLBUSISONSHEET=1
+AN DIAGOUT[15:0] VLBUSISONSHEET=1
+AN SLCLK2 MAXDELAY=1NS
+AN STROBE USELOWSKEWLINES
+AN STROBE MAXDELAY=8NS
+AN ASYNSTRB MAXDELAY=2NS
+AN ~ASYNSTRB MAXDELAY=2NS
+W virtex:inv $1I1489
+I $1I1489 virtex:inv ~AS AS 
+W ild1 $1I1488
+I $1I1488 ild1 ~AS AM4 AMS4 
+W ild4_bus $1I1487
+I $1I1487 ild4_bus ~AS ADR[23:20] ADRS[23:20] 
+W virtex:and2 $1I1476
+I $1I1476 virtex:and2 ? ~WRITE ? 
+W virtex:buf $1I1314
+I $1I1314 virtex:buf ASYNSTRB DIAG2OUT14 
+W virtex:buf $1I1315
+I $1I1315 virtex:buf ~DS1 DIAG2OUT13 
+W virtex:buf $1I1316
+I $1I1316 virtex:buf ~DS0 DIAG2OUT12 
+W virtex:buf $1I1317
+I $1I1317 virtex:buf TOVME DIAG2OUT11 
+W virtex:buf $1I1319
+I $1I1319 virtex:buf ADRS11 DIAG2OUT9 
+W virtex:buf $1I1320
+I $1I1320 virtex:buf ADRS9 DIAG2OUT7 
+W virtex:buf $1I1321
+I $1I1321 virtex:buf ADRS10 DIAG2OUT8 
+W virtex:buf $1I1322
+I $1I1322 virtex:buf ADRS7 DIAG2OUT5 
+W virtex:buf $1I1323
+I $1I1323 virtex:buf ADRS8 DIAG2OUT6 
+W virtex:buf $1I1324
+I $1I1324 virtex:buf ADRS5 DIAG2OUT3 
+W virtex:buf $1I1325
+I $1I1325 virtex:buf ADRS6 DIAG2OUT4 
+W virtex:buf $1I1326
+I $1I1326 virtex:buf ADRS4 DIAG2OUT2 
+W virtex:buf $1I1327
+I $1I1327 virtex:buf ADRS2 DIAG2OUT0 
+W virtex:buf $1I1329
+I $1I1329 virtex:buf ADRS3 DIAG2OUT1 
+W virtex:buf $1I1330
+I $1I1330 virtex:buf SYSOK DIAG2OUT10 
+W virtex:buf $1I1333
+I $1I1333 virtex:buf STROBE DIAG2OUT15 
+W virtex:buf $1I1246
+I $1I1246 virtex:buf ADRSHIGH DIAG1OUT15 
+W virtex:buf $1I1254
+I $1I1254 virtex:buf ADRS14 DIAG1OUT10 
+W virtex:buf $1I1255
+I $1I1255 virtex:buf AMS1 DIAG1OUT1 
+W virtex:buf $1I1257
+I $1I1257 virtex:buf AMS0 DIAG1OUT0 
+W virtex:buf $1I1258
+I $1I1258 virtex:buf AMS2 DIAG1OUT2 
+W virtex:buf $1I1259
+I $1I1259 virtex:buf AMS4 DIAG1OUT4 
+W virtex:buf $1I1260
+I $1I1260 virtex:buf AMS3 DIAG1OUT3 
+W virtex:buf $1I1261
+I $1I1261 virtex:buf VALIDAM DIAG1OUT6 
+W virtex:buf $1I1263
+I $1I1263 virtex:buf AMS5 DIAG1OUT5 
+W virtex:buf $1I1264
+I $1I1264 virtex:buf ADRS12 DIAG1OUT8 
+W virtex:buf $1I1267
+I $1I1267 virtex:buf ~LWORD DIAG1OUT7 
+W virtex:buf $1I1268
+I $1I1268 virtex:buf ADRS13 DIAG1OUT9 
+W virtex:buf $1I1270
+I $1I1270 virtex:buf ADRS15 DIAG1OUT11 
+W virtex:buf $1I1271
+I $1I1271 virtex:buf ADRS16 DIAG1OUT12 
+W virtex:buf $1I1272
+I $1I1272 virtex:buf ADRS17 DIAG1OUT13 
+W virtex:buf $1I1273
+I $1I1273 virtex:buf ADRS18 DIAG1OUT14 
+W virtex:buf $1I1162
+I $1I1162 virtex:buf VALIDAM DIAGOUT14 
+W virtex:buf $1I1161
+I $1I1161 virtex:buf SYSOK DIAGOUT13 
+W virtex:buf $1I1160
+I $1I1160 virtex:buf ADRS23 DIAGOUT12 
+W virtex:buf $1I1159
+I $1I1159 virtex:buf ADRS22 DIAGOUT11 
+W virtex:buf $1I1150
+I $1I1150 virtex:buf ADRS20 DIAGOUT9 
+W virtex:buf $1I1143
+I $1I1143 virtex:buf BROADCAST_ENB DIAGOUT7 
+W virtex:buf $1I1146
+I $1I1146 virtex:buf ADRS19 DIAGOUT8 
+W virtex:buf $1I1139
+I $1I1139 virtex:buf CGAP DIAGOUT5 
+W virtex:buf $1I1142
+I $1I1142 virtex:buf VALIDGA DIAGOUT6 
+W virtex:buf $1I1135
+I $1I1135 virtex:buf CGA3 DIAGOUT3 
+W virtex:buf $1I1138
+I $1I1138 virtex:buf CGA4 DIAGOUT4 
+W virtex:buf $1I1134
+I $1I1134 virtex:buf CGA2 DIAGOUT2 
+W virtex:buf $1I1010
+I $1I1010 virtex:buf ADRS2 COMMAND0 
+W virtex:buf $1I1008
+I $1I1008 virtex:buf ADRS3 COMMAND1 
+W virtex:buf $1I1006
+I $1I1006 virtex:buf ADRS4 COMMAND2 
+W virtex:buf $1I1004
+I $1I1004 virtex:buf ADRS5 COMMAND3 
+W virtex:buf $1I1002
+I $1I1002 virtex:buf ADRS6 COMMAND4 
+W virtex:buf $1I1000
+I $1I1000 virtex:buf ADRS7 COMMAND5 
+W virtex:buf $1I998
+I $1I998 virtex:buf ADRS8 COMMAND6 
+W virtex:buf $1I996
+I $1I996 virtex:buf ADRS9 COMMAND7 
+W virtex:buf $1I994
+I $1I994 virtex:buf ADRS10 COMMAND8 
+W virtex:inv $1I641
+I $1I641 virtex:inv ~GA4 CGA4 
+W virtex:inv $1I638
+I $1I638 virtex:inv ~GA3 CGA3 
+W virtex:inv $1I632
+I $1I632 virtex:inv ~GA1 CGA1 
+W virtex:inv $1I622
+I $1I622 virtex:inv ~GA2 CGA2 
+W virtex:xor2 $1I661
+I $1I661 virtex:xor2 CGA2 ADRS21 $1N671 
+W virtex:inv $1I644
+I $1I644 virtex:inv ~GA5 CGAP 
+W virtex:xor2 $1I659
+I $1I659 virtex:xor2 CGA3 ADRS22 $1N672 
+W virtex:xor2 $1I625
+I $1I625 virtex:xor2 CGA4 ADRS23 $1N673 
+W virtex:and5 $1I943
+I $1I943 virtex:and5 ~LWORD AMS5 AMS4 AMS3 $1N812 VALIDAM 
+W virtex:buf $1I991
+I $1I991 virtex:buf ADRS11 COMMAND9 
+W virtex:inv $1I635
+I $1I635 virtex:inv ~GA0 CGA0 
+W virtex:buf $1I1132
+I $1I1132 virtex:buf CGA0 DIAGOUT0 
+W virtex:buf $1I1133
+I $1I1133 virtex:buf CGA1 DIAGOUT1 
+W virtex:buf $1I1147
+I $1I1147 virtex:buf ADRS21 DIAGOUT10 
+W virtex:buf $1I1163
+I $1I1163 virtex:buf BOARDENB DIAGOUT15 
+W virtex:and5b2 $1I975
+I $1I975 virtex:and5b2 ~DS1 ~DS0 BOARDENB VALIDAM SYSOK ASYNSTRB 
+W virtex:inv $1I1094
+I $1I1094 virtex:inv $1N1095 $1N1097 
+W virtex:fd $1I1093
+I $1I1093 virtex:fd $1N1095 $1N1101 $1N1103 
+W virtex:inv $1I1100
+I $1I1100 virtex:inv $1N1103 $1N1101 
+W virtex:fd $1I1092
+I $1I1092 virtex:fd $1N1109 $1N1097 $1N1095 
+W virtex:inv $1I1116
+I $1I1116 virtex:inv $1N1109 $1N1118 
+W virtex:fd $1I1107
+I $1I1107 virtex:fd FASTCLK $1N1108 SLCLK2 
+W virtex:fd $1I1105
+I $1I1105 virtex:fd MIDCLK $1N1103 $1N1108 
+W virtex:fd $1I1114
+I $1I1114 virtex:fd MIDCLK $1N1118 $1N1109 
+W virtex:nor5 $1I974
+I $1I974 virtex:nor5 $1N675 $1N674 $1N671 $1N672 $1N673 BOARD_SEL 
+W virtex:xor2 $1I664
+I $1I664 virtex:xor2 CGA1 ADRS20 $1N674 
+W virtex:xor2 $1I1341
+I $1I1341 virtex:xor2 SLOT_ENB BROADCAST_ENB BOARDENB 
+W virtex:and2 $1I1346
+I $1I1346 virtex:and2 BOARD_SEL VALIDGA SLOT_ENB 
+W virtex:inv $1I1122
+I $1I1122 virtex:inv STROBE RLED2 
+W virtex:fdc $1I977
+I $1I977 virtex:fdc FASTCLK ~ASYNSTRB ASYNSTRB STROBE 
+W virtex:bufg $1I1082
+I $1I1082 virtex:bufg SLCLK2 SLOWCLK2 
+W virtex:fdc $1I1200
+I $1I1200 virtex:fdc FASTCLK RST RLED2 LED2 
+W virtex:inv $1I1119
+I $1I1119 virtex:inv ASYNSTRB ~ASYNSTRB 
+W virtex:and2 $1I1112
+I $1I1112 virtex:and2 ~SYSFAIL ~IACK SYSOK 
+W virtex:inv $1I1063
+I $1I1063 virtex:inv SYSOK RLED0 
+W virtex:fdc $1I1202
+I $1I1202 virtex:fdc FASTCLK RST RLED0 LED0 
+W virtex:inv $1I1127
+I $1I1127 virtex:inv ASYNSTRB RLED1 
+W virtex:fdc $1I1206
+I $1I1206 virtex:fdc FASTCLK RST RLED1 LED1 
+W virtex:xor2 $1I667
+I $1I667 virtex:xor2 CGA0 ADRS19 $1N675 
+W virtex:xor2 $1I811
+I $1I811 virtex:xor2 AMS1 AMS0 $1N812 
+W virtex2p:and5b3 $1I1473
+I $1I1473 virtex2p:and5b3 ~DS0 ~DS1 BROADCAST_ENB ~WRITE BOARDENB TOVME 
+W ild4_bus $1I1486
+I $1I1486 ild4_bus ~AS AM[3:0] AMS[3:0] 
+W ild1 $1I1484
+I $1I1484 ild1 ~AS AM5 AMS5 
+W ild18 $1I1485
+I $1I1485 ild18 ~AS ADR[19:2] ADRS[19:2] 
+W virtex2p:nor2 $1I1510
+I $1I1510 virtex2p:nor2 TOVME MY_IRQ ~TOVME 
+W virtex:xor6 $1I646
+I $1I646 virtex:xor6 CGAP CGA4 CGA3 CGA2 CGA1 CGA0 VALIDGA 
+W virtex2p:and5b2 $1I1518
+I $1I1518 virtex2p:and5b2 ADRS19 ADRS20 ADRS21 ADRS22 ADRS23 BROADCAST_ENB 
+P ? MY_IRQ
+I MY_IRQ ? MY_IRQ
+P ? ~AS
+I ~AS ? ~AS
+P ? ADR[23:1]
+I ADR[23:1] ? ADR[23:1]
+P ? AM[5:0]
+I AM[5:0] ? AM[5:0]
+P ? ~DS1
+I ~DS1 ? ~DS1
+P ? ~DS0
+I ~DS0 ? ~DS0
+P ? ~WRITE
+I ~WRITE ? ~WRITE
+P ? TOVME
+I TOVME ? TOVME
+P ? RST
+I RST ? RST
+P ? FASTCLK
+I FASTCLK ? FASTCLK
+P ? ~SYSFAIL
+I ~SYSFAIL ? ~SYSFAIL
+P ? ~IACK
+I ~IACK ? ~IACK
+P ? MIDCLK
+I MIDCLK ? MIDCLK
+P ? DIAG1OUT[15:0]
+I DIAG1OUT[15:0] ? DIAG1OUT[15:0]
+P ? ~LWORD
+I ~LWORD ? ~LWORD
+P ? DIAG2OUT[15:0]
+I DIAG2OUT[15:0] ? DIAG2OUT[15:0]
+P ? ~GA[5:0]
+I ~GA[5:0] ? ~GA[5:0]
+P ? SLOWCLK2
+I SLOWCLK2 ? SLOWCLK2
+P ? COMMAND[9:0]
+I COMMAND[9:0] ? COMMAND[9:0]
+P ? DIAGOUT[15:0]
+I DIAGOUT[15:0] ? DIAGOUT[15:0]
+EW
+| Sch_Warning - Pin/Net disassociation at location (780,650).
+| Sch_Warning - Pin/Net disassociation at location (410,515).
+| Sch_Warning - Pin/Net disassociation at location (1075,170).
+| Sch_Warning - Pin/Net disassociation at location (920,170).

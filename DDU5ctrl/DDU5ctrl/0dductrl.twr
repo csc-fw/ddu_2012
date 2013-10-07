@@ -1,0 +1,1689 @@
+--------------------------------------------------------------------------------
+Release 9.2.04i Trace 
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx92i\bin\nt\trce.exe -ise E:/WV/D785/DDU5ctrl/DDU5ctrl/DDU5ctrl.ise
+-intstyle ise -e 5 -s 6 -xml 0DDUCTRL 0DDUCTRL.ncd -o 0DDUCTRL.twr 0DDUCTRL.pcf
+-ucf E:/WV/D785/DDU5ctrl/ddu5ctrl.ucf
+
+Design file:              0dductrl.ncd
+Physical constraint file: 0dductrl.pcf
+Device,package,speed:     xc2vp7,ff672,-6 (PRODUCTION 1.94 2007-10-19)
+Report level:             error report, limited to 5 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2802 - Read 199 constraints.  If you are experiencing memory or 
+   runtime issues it may help to consolidate some of these constraints.  For 
+   more details please see solution 10784 at support.xilinx.com
+WARNING:Timing:3232 - Timing Constraint 
+   "PERIOD analysis for net 
+   "$1I135/GCK156" derived from
+    NET "$1I135/CKFB" PERIOD = 11.6 ns HIGH 
+   50%;
+    divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+   
+   "
+    fails the minimum period check for clock $1I135/2CLK because the 
+   period constraint value (5800 ps) is less than the minimum internal period 
+   limit of 6274 ps.   Please increase the period of the constraint to remove 
+   this timing failure.
+WARNING:Timing:3232 - Timing Constraint 
+   "PERIOD analysis for net 
+   "$1I135/GCK156" derived from
+    NET "$1I135/CKFB" PERIOD = 11.6 ns HIGH 
+   50%;
+    divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+   
+   "
+    fails the minimum period check for clock $1I135/2CLK because the 
+   period constraint value (5800 ps) is less than the minimum internal period 
+   limit of 6274 ps.   Please increase the period of the constraint to remove 
+   this timing failure.
+WARNING:Timing:3232 - Timing Constraint 
+   "PERIOD analysis for net 
+   "$1I135/GCK156" derived from
+    NET "$1I135/CKFB" PERIOD = 11.6 ns HIGH 
+   50%;
+    divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+   
+   "
+    fails the minimum period check for clock $1I135/2CLK because the 
+   period constraint value (5800 ps) is less than the minimum internal period 
+   limit of 6274 ps.   Please increase the period of the constraint to remove 
+   this timing failure.
+WARNING:Timing:3232 - Timing Constraint 
+   "PERIOD analysis for net 
+   "$1I135/GCK156" derived from
+    NET "$1I135/CKFB" PERIOD = 11.6 ns HIGH 
+   50%;
+    divided by 2.00 and duty cycle corrected to 5.800 nS  HIGH 2.900 nS 
+   
+   "
+    fails the minimum period check for clock $1I135/2CLK because the 
+   period constraint value (5800 ps) is less than the minimum internal period 
+   limit of 6274 ps.   Please increase the period of the constraint to remove 
+   this timing failure.
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/FOE_REN3" MAXDELAY = 1.8 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.446ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/FOE_REN2" MAXDELAY = 1.8 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.416ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/NEXT_FIFO" MAXDELAY = 1.5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.904ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/FOE_REN1" MAXDELAY = 1.8 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.644ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/FOE_REN0" MAXDELAY = 1.8 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.760ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/~LREN0" MAXDELAY = 1.8 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.715ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/~LREN1" MAXDELAY = 1.8 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.702ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/~LREN2" MAXDELAY = 1.8 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.249ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/~LREN3" MAXDELAY = 1.8 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.285ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/~RENOE-0" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.773ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/DRCK1" PERIOD = 30 ns HIGH 50%;
+
+ 7 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   1.982ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/DRCK2" PERIOD = 30 ns HIGH 50%;
+
+ 657 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   2.479ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/CECNT0" MAXDELAY = 0.6 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.571ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC10" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.625ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC0" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.477ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC1" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.130ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC2" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.587ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC3" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.435ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC4" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.157ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC5" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.378ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC6" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.821ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC7" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.647ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC9" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.984ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC8" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.399ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC12" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.625ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC11" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.644ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC13" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.022ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC14" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.644ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F0WC15" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.073ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC6" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.655ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC7" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.775ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC8" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.797ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC9" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.635ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC10" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.642ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC11" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.907ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC12" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.036ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC13" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.185ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC14" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.083ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC15" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.006ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC1" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.026ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC2" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.154ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC3" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.413ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC4" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.069ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC5" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.941ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC6" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.014ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC7" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.918ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC8" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.815ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC9" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.635ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC10" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.166ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC11" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.819ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC12" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.737ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC13" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.649ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC14" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.860ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC15" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.888ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC1" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.172ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC2" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.787ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC3" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.129ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC4" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.958ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC5" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.946ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC6" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.078ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC7" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.458ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC8" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.929ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC9" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.619ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC10" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.441ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC11" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.750ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC12" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.654ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC13" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.374ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC14" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.652ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC15" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.829ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC1" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.719ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC2" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.134ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC3" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.496ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC4" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.420ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC5" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.382ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F1WC0" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.400ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F2WC0" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.881ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/F3WC0" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.489ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/CECNT1" MAXDELAY = 0.6 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.585ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/CECNT2" MAXDELAY = 0.6 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.581ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/CECNT3" MAXDELAY = 0.6 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.583ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/BC_SET" MAXDELAY = 6 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.225ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$1I3030/BC_CLR" MAXDELAY = 6 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.267ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/CKIN40" PERIOD = 23 ns HIGH 50%;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I135/CK40" derived from  NET 
+"$1I135/CKIN40" PERIOD = 23 ns HIGH 50%;  duty cycle corrected to 23 nS  HIGH 
+11.500 nS  
+
+ 1126 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is  12.644ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/CKFB" PERIOD = 11.6 ns HIGH 50%;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I135/GCK78" derived from  NET 
+"$1I135/CKFB" PERIOD = 11.6 ns HIGH 50%;  duty cycle corrected to 11.600 nS  
+HIGH 5.800 nS  
+
+ 19544 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is  11.393ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I135/GCK156" derived from  NET 
+"$1I135/CKFB" PERIOD = 11.6 ns HIGH 50%;  divided by 2.00 and duty cycle 
+corrected to 5.800 nS  HIGH 2.900 nS  
+
+ 1632 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   5.174ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/CK625" PERIOD = 13.8 ns HIGH 50%;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I135/CK_REF" derived from  NET 
+"$1I135/CK625" PERIOD = 13.8 ns HIGH 50%;  duty cycle corrected to 13.800 nS  
+HIGH 6.900 nS  
+
+ 1158 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   9.748ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I135/CK_125" derived from  NET 
+"$1I135/CK625" PERIOD = 13.8 ns HIGH 50%;  divided by 2.00 and duty cycle 
+corrected to 6.900 nS  HIGH 3.450 nS  
+
+ 1253 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   6.721ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/FCKIN_N" PERIOD = 5.9 ns HIGH 50%;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT16" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.390ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT17" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.483ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT18" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.383ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT19" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.805ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT20" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.626ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT21" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.798ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT29" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.402ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT28" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.385ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT27" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.801ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT26" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.379ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT25" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.773ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT24" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.816ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT22" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.398ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT23" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.380ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT30" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.374ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT31" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.374ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT35" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.919ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT34" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.358ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT33" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.359ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT32" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.178ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT0" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.354ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT1" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.469ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT2" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.444ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT3" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.517ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT4" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.407ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT5" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.459ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT13" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.438ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT12" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.437ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT11" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.517ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT10" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.511ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT9" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.451ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT8" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.400ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT6" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.380ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT7" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.819ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT14" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.380ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2013/TOUT15" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.815ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT16" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.730ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT17" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.621ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT18" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.619ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT19" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.741ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT20" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.632ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT21" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.607ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT29" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.582ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT28" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.582ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT27" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.630ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT26" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.726ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT25" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.622ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT24" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.686ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT22" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.587ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT23" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.587ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT30" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.609ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT31" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.640ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT35" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.587ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT34" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.919ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT33" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.602ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT32" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.410ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT0" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.620ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT1" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.577ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT2" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.586ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT3" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.605ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT4" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.185ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT5" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.182ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT13" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.182ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT12" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.182ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT11" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.141ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT10" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.167ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT9" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.579ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT8" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.374ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT6" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.141ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT7" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.167ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT14" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.565ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$6I2037/TOUT15" MAXDELAY = 1.9 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.374ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX17" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.402ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX16" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.972ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX15" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.411ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX14" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.372ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX13" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.157ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX12" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   2.070ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX11" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.366ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX10" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.157ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX9" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.359ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX8" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.164ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX7" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.636ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX6" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.595ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX5" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.652ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX4" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.446ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX3" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.452ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX2" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.866ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX1" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.426ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/TX0" MAXDELAY = 5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.474ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/GBE_RST" MAXDELAY = 2 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.967ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/$1I3366/OUT0" MAXDELAY = 2.5 ns;
+
+ 1 item analyzed, 1 timing error detected.
+ Maximum net delay is   2.503ns.
+--------------------------------------------------------------------------------
+Slack:                  -0.003ns $1I135/$7I1330/$1I3366/OUT0
+Error:      2.503ns delay exceeds   2.500ns timing constraint by 0.003ns
+From                              To                                Delay(ns)
+TBUF_X32Y15.O                     SLICE_X32Y16.BY                       2.503  
+TBUF_X34Y15.O                     SLICE_X32Y16.BY                       1.818  
+TBUF_X36Y15.O                     SLICE_X32Y16.BY                       1.528  
+TBUF_X38Y15.O                     SLICE_X32Y16.BY                       1.426  
+TBUF_X40Y15.O                     SLICE_X32Y16.BY                       2.224  
+TBUF_X42Y15.O                     SLICE_X32Y16.BY                       1.381  
+TBUF_X44Y15.O                     SLICE_X32Y16.BY                       1.228  
+TBUF_X58Y15.O                     SLICE_X32Y16.BY                       2.017  
+TBUF_X48Y15.O                     SLICE_X32Y16.BY                       1.932  
+TBUF_X50Y15.O                     SLICE_X32Y16.BY                       1.733  
+TBUF_X52Y15.O                     SLICE_X32Y16.BY                       1.519  
+TBUF_X54Y15.O                     SLICE_X32Y16.BY                       1.424  
+TBUF_X56Y15.O                     SLICE_X32Y16.BY                       2.219  
+TBUF_X46Y15.O                     SLICE_X32Y16.BY                       1.138  
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/$1I3366/OUT1" MAXDELAY = 2.5 ns;
+
+ 1 item analyzed, 1 timing error detected.
+ Maximum net delay is   2.503ns.
+--------------------------------------------------------------------------------
+Slack:                  -0.003ns $1I135/$7I1330/$1I3366/OUT1
+Error:      2.503ns delay exceeds   2.500ns timing constraint by 0.003ns
+From                              To                                Delay(ns)
+TBUF_X32Y17.O                     SLICE_X32Y16.BX                       2.503  
+TBUF_X34Y17.O                     SLICE_X32Y16.BX                       1.818  
+TBUF_X36Y17.O                     SLICE_X32Y16.BX                       1.528  
+TBUF_X38Y17.O                     SLICE_X32Y16.BX                       1.426  
+TBUF_X40Y17.O                     SLICE_X32Y16.BX                       2.224  
+TBUF_X42Y17.O                     SLICE_X32Y16.BX                       1.381  
+TBUF_X44Y17.O                     SLICE_X32Y16.BX                       1.228  
+TBUF_X58Y17.O                     SLICE_X32Y16.BX                       2.017  
+TBUF_X48Y17.O                     SLICE_X32Y16.BX                       1.932  
+TBUF_X50Y17.O                     SLICE_X32Y16.BX                       1.733  
+TBUF_X52Y17.O                     SLICE_X32Y16.BX                       1.519  
+TBUF_X54Y17.O                     SLICE_X32Y16.BX                       1.424  
+TBUF_X56Y17.O                     SLICE_X32Y16.BX                       2.219  
+TBUF_X46Y17.O                     SLICE_X32Y16.BX                       1.138  
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/$1I3366/OUT2" MAXDELAY = 2.5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   2.441ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/$1I3366/OUT3" MAXDELAY = 2.5 ns;
+
+ 1 item analyzed, 1 timing error detected.
+ Maximum net delay is   2.503ns.
+--------------------------------------------------------------------------------
+Slack:                  -0.003ns $1I135/$7I1330/$1I3366/OUT3
+Error:      2.503ns delay exceeds   2.500ns timing constraint by 0.003ns
+From                              To                                Delay(ns)
+TBUF_X32Y11.O                     SLICE_X32Y10.BX                       2.503  
+TBUF_X34Y11.O                     SLICE_X32Y10.BX                       1.818  
+TBUF_X36Y11.O                     SLICE_X32Y10.BX                       1.528  
+TBUF_X38Y11.O                     SLICE_X32Y10.BX                       1.426  
+TBUF_X40Y11.O                     SLICE_X32Y10.BX                       2.224  
+TBUF_X42Y11.O                     SLICE_X32Y10.BX                       1.381  
+TBUF_X44Y11.O                     SLICE_X32Y10.BX                       1.228  
+TBUF_X58Y11.O                     SLICE_X32Y10.BX                       2.017  
+TBUF_X48Y11.O                     SLICE_X32Y10.BX                       1.932  
+TBUF_X50Y11.O                     SLICE_X32Y10.BX                       1.733  
+TBUF_X52Y11.O                     SLICE_X32Y10.BX                       1.519  
+TBUF_X54Y11.O                     SLICE_X32Y10.BX                       1.424  
+TBUF_X56Y11.O                     SLICE_X32Y10.BX                       2.219  
+TBUF_X46Y11.O                     SLICE_X32Y10.BX                       1.138  
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/$1I3366/OUT7" MAXDELAY = 2.5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   2.458ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/$1I3366/OUT6" MAXDELAY = 2.5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   2.441ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/$1I3366/OUT5" MAXDELAY = 2.5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   2.390ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/$1I3366/OUT4" MAXDELAY = 2.5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   2.441ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/$1I3366/OEHDRT" MAXDELAY = 1.4 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.369ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/$1I3366/OESYNC" MAXDELAY = 1.5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.458ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/$1I3366/OEIDLE" MAXDELAY = 1.5 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.198ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/$1I3366/KSET" MAXDELAY = 2.2 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.947ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/SRST" MAXDELAY = 2.3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.719ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/$7I1330/$1I3366/RST-1" MAXDELAY = 3 ns;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.000ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I135/RAWSCLK" PERIOD = 75 ns HIGH 50%;
+
+ 498 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   7.916ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_FtoS = MAXDELAY FROM TIMEGRP "FCLK" TO TIMEGRP "CLK0" 6 
+ns;
+
+ 308 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   5.712ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_StoF = MAXDELAY FROM TIMEGRP "CLK0" TO TIMEGRP "FCLK" 6 
+ns;
+
+ 64 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   2.599ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_MTtoF = MAXDELAY FROM TIMEGRP "INMT" TO TIMEGRP "FWCREG" 
+3.2 ns;
+
+ 64 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   2.934ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_QtoS = MAXDELAY FROM TIMEGRP "FDAT" TO TIMEGRP "CLK0" 6 
+ns;
+
+ 422 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   5.144ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TS_toDDUFB = MAXDELAY FROM TIMEGRP "CLK0" TO TIMEGRP 
+"DDUFBREG" 9.6 ns;
+
+ 408 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Maximum delay is   4.695ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TIMEGRP "FREN" OFFSET = OUT 3.9 ns AFTER COMP 
+"$1I135/CKFB_IN";
+
+ 4 items analyzed, 0 timing errors detected.
+ Minimum allowable offset is   3.207ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: TIMEGRP "FOE" OFFSET = OUT 4.9 ns AFTER COMP 
+"$1I135/CKFB_IN";
+
+ 4 items analyzed, 0 timing errors detected.
+ Minimum allowable offset is   2.881ns.
+--------------------------------------------------------------------------------
+
+
+3 constraints not met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Setup/Hold to clock $1I135/CKFB_IN
+------------+------------+------------+------------------+--------+
+            |  Setup to  |  Hold to   |                  | Clock  |
+Source      | clk (edge) | clk (edge) |Internal Clock(s) | Phase  |
+------------+------------+------------+------------------+--------+
+$1I135/MTIN0|    3.397(R)|   -1.863(R)|$1I135/2CLK       |   0.000|
+$1I135/MTIN1|    3.242(R)|   -1.630(R)|$1I135/2CLK       |   0.000|
+$1I135/MTIN2|    3.624(R)|   -1.934(R)|$1I135/2CLK       |   0.000|
+$1I135/MTIN3|    3.613(R)|   -1.962(R)|$1I135/2CLK       |   0.000|
+------------+------------+------------+------------------+--------+
+
+Clock $1I135/CKFB_IN to Pad
+------------------------+------------+------------------+--------+
+                        | clk (edge) |                  | Clock  |
+Destination             |   to PAD   |Internal Clock(s) | Phase  |
+------------------------+------------+------------------+--------+
+$1I135/$1I3030/~FOE0    |    2.853(R)|$1I135/CLK        |   0.000|
+$1I135/$1I3030/~FOE1    |    2.707(R)|$1I135/CLK        |   0.000|
+$1I135/$1I3030/~FOE2    |    2.691(R)|$1I135/CLK        |   0.000|
+$1I135/$1I3030/~FOE3    |    2.881(R)|$1I135/CLK        |   0.000|
+$1I135/$1I3030/~RENFIFO0|    2.444(R)|$1I135/CLK        |   0.000|
+$1I135/$1I3030/~RENFIFO1|    2.488(R)|$1I135/CLK        |   0.000|
+$1I135/$1I3030/~RENFIFO2|    2.493(R)|$1I135/CLK        |   0.000|
+$1I135/$1I3030/~RENFIFO3|    3.207(R)|$1I135/CLK        |   0.000|
+------------------------+------------+------------------+--------+
+
+Clock to Setup on destination clock $1I135/CK625IN
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+$1I135/CK625IN |    6.721|         |         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock $1I135/CKFB_IN
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+$1I135/CKFB_IN |   11.393|    4.334|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock $1I135/CLKIN40
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+$1I135/CLKIN40 |    7.724|    1.959|    6.322|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock $1I135/SCLKIN
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+$1I135/SCLKIN  |    7.916|         |         |         |
+---------------+---------+---------+---------+---------+
+
+TIMEGRP "FREN" OFFSET = OUT 3.9 ns AFTER COMP "$1I135/CKFB_IN";
+Largest slack: 1.456 ns; Smallest slack: 0.693 ns; Relative Skew: 0.763 ns; 
+-----------------------------------------------+-------------+-------------+
+PAD                                            |    Slack    |Relative Skew|
+-----------------------------------------------+-------------+-------------+
+$1I135/$1I3030/~RENFIFO0                       |        1.456|        0.000|
+$1I135/$1I3030/~RENFIFO1                       |        1.412|        0.044|
+$1I135/$1I3030/~RENFIFO2                       |        1.407|        0.049|
+$1I135/$1I3030/~RENFIFO3                       |        0.693|        0.763|
+-----------------------------------------------+-------------+-------------+
+
+TIMEGRP "FOE" OFFSET = OUT 4.9 ns AFTER COMP "$1I135/CKFB_IN";
+Largest slack: 2.209 ns; Smallest slack: 2.019 ns; Relative Skew: 0.190 ns; 
+-----------------------------------------------+-------------+-------------+
+PAD                                            |    Slack    |Relative Skew|
+-----------------------------------------------+-------------+-------------+
+$1I135/$1I3030/~FOE0                           |        2.047|        0.162|
+$1I135/$1I3030/~FOE1                           |        2.193|        0.016|
+$1I135/$1I3030/~FOE2                           |        2.209|        0.000|
+$1I135/$1I3030/~FOE3                           |        2.019|        0.190|
+-----------------------------------------------+-------------+-------------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 3  Score: 9
+
+Constraints cover 27149 paths, 185 nets, and 16501 connections
+
+Design statistics:
+   Minimum period:  12.644ns   (Maximum frequency:  79.089MHz)
+   Maximum path delay from/to any node:   5.712ns
+   Maximum net delay:   2.503ns
+   Minimum output required time after clock:   3.207ns
+
+
+Analysis completed Sun Mar 25 18:19:09 2012 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 174 MB
+
+
+

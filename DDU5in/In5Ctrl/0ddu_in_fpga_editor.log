@@ -1,0 +1,59 @@
+#:C9     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 1.0
+#Design Path Name:
+#:N   0ddu_in.ncd
+#Current Working Directory:
+#:D   \\phypcs\ellicad\WV\D785\DDU5in\In5Ctrl
+#Part Type:
+#:P  Xilinx xc2vp20 fg676 -6
+#Date/Time:
+#:T   Fri Jul 28 11:25:34 2006
+#------------------------------
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+select -k comp "$1I162/~OWEN0"
+	#3
+setattr main edit-mode toggle
+	#4
+unselect -all
+	#5
+select comp "$1I162/~OWEN0"
+	#comp "$1I162/~OWEN0",  site "J24",  bonded type = IOB,  pad name = PAD152,  pin name = J24  (RPM grid X141Y178)
+	#6
+editblock
+	#<SLEW>.
+	#<DRIVEATTRBOX>.
+	#DRC - No errors found.
+	#There were no DRC errors or warnings.
+	#7
+setattr comp $1I162/~OWEN0 Config SRINV:SR\ REVINV:\#OFF\ O2INV:\#OFF\ OCEINV:\#OFF\ OFF2:\#OFF\ OMUX:OFF1\ O1INV:O1\ T2INV:\#OFF\ T1INV:\#OFF\ TCEINV:\#OFF\ TMUX:\#OFF\ OFF1:\#FF\ TFF2:\#OFF\ TFF1:\#OFF\ IFF2:\#OFF\ IFFATTRBOX:\#OFF\ OFFATTRBOX:ASYNC\ TFFATTRBOX:\#OFF\ ICLK2INV:\#OFF\ IFF1:\#OFF\ ICLK1INV:\#OFF\ TFF1_INIT_ATTR:\#OFF\ TFF1_SR_ATTR:\#OFF\ TFF2_SR_ATTR:\#OFF\ TFF2_INIT_ATTR:\#OFF\ OFF1_SR_ATTR:SRHIGH\ OFF1_INIT_ATTR:INIT1\ OFF2_SR_ATTR:\#OFF\ OFF2_INIT_ATTR:\#OFF\ IFF1_SR_ATTR:\#OFF\ IFF1_INIT_ATTR:\#OFF\ IFF2_SR_ATTR:\#OFF\ IFF2_INIT_ATTR:\#OFF\ PULL:\#OFF\ T_USED:\#OFF\ OSR_USED:0\ TSR_USED:\#OFF\ ISR_USED:\#OFF\ IREV_USED:\#OFF\ OREV_USED:\#OFF\ TREV_USED:\#OFF\ IDELMUX:\#OFF\ IMUX:\#OFF\ IFFDELMUX:\#OFF\ IFFDMUX:\#OFF\ TSMUX:\#OFF\ OTCLK1INV:OTCLK1_B\ OTCLK2INV:\#OFF\ ICEINV:\#OFF\ GTSATTRBOX:\#OFF\ SLEW:FAST\ DRIVEATTRBOX:6\ DRIVE_0MA:\#OFF\ IOATTRBOX:LVCMOS33
+	#8
+block apply
+	#9
+end block
+	#10
+unselect comp "$1I162/~OWEN0"
+	#11
+select -k comp "$1I162/~OWEN1"
+	#12
+editblock
+	#<SLEW>.
+	#<DRIVEATTRBOX>.
+	#DRC - No errors found.
+	#There were no DRC errors or warnings.
+	#13
+setattr comp $1I162/~OWEN1 Config SRINV:SR\ REVINV:\#OFF\ O2INV:\#OFF\ OCEINV:\#OFF\ OFF2:\#OFF\ OMUX:OFF1\ O1INV:O1\ T2INV:\#OFF\ T1INV:\#OFF\ TCEINV:\#OFF\ TMUX:\#OFF\ OFF1:\#FF\ TFF2:\#OFF\ TFF1:\#OFF\ IFF2:\#OFF\ IFFATTRBOX:\#OFF\ OFFATTRBOX:ASYNC\ TFFATTRBOX:\#OFF\ ICLK2INV:\#OFF\ IFF1:\#OFF\ ICLK1INV:\#OFF\ TFF1_INIT_ATTR:\#OFF\ TFF1_SR_ATTR:\#OFF\ TFF2_SR_ATTR:\#OFF\ TFF2_INIT_ATTR:\#OFF\ OFF1_SR_ATTR:SRHIGH\ OFF1_INIT_ATTR:INIT1\ OFF2_SR_ATTR:\#OFF\ OFF2_INIT_ATTR:\#OFF\ IFF1_SR_ATTR:\#OFF\ IFF1_INIT_ATTR:\#OFF\ IFF2_SR_ATTR:\#OFF\ IFF2_INIT_ATTR:\#OFF\ PULL:\#OFF\ T_USED:\#OFF\ OSR_USED:0\ TSR_USED:\#OFF\ ISR_USED:\#OFF\ IREV_USED:\#OFF\ OREV_USED:\#OFF\ TREV_USED:\#OFF\ IDELMUX:\#OFF\ IMUX:\#OFF\ IFFDELMUX:\#OFF\ IFFDMUX:\#OFF\ TSMUX:\#OFF\ OTCLK1INV:OTCLK1_B\ OTCLK2INV:\#OFF\ ICEINV:\#OFF\ GTSATTRBOX:\#OFF\ SLEW:FAST\ DRIVEATTRBOX:6\ DRIVE_0MA:\#OFF\ IOATTRBOX:LVCMOS33
+	#14
+block apply
+	#15
+end block
+	#16
+save
+	#Writing design to file 0ddu_in.ncd.
+	#17
+post exit
+	#18
+exit

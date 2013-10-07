@@ -1,0 +1,1 @@
+net -vsm M:\WV\D785\DDU5in\in_unit.vsm -ticksize 100ps -verilog M:\WV\D785\DDU5in\AF_CLB_5X31RPM.v M:\WV\D785\DDU5in\gt_custom.v -u -debug -l vcscomp.log +typdelays

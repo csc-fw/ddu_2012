@@ -1,0 +1,355 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 118209874400 fpga
+DW vme-jtag
+SA @SHEET=1 
+SA @NAME=VME-JTAG 
+SA @DATETIME=3-28-2007_10:47 
+|Q virtex:or2 1
+AS virtex:or2 DEVICE=OR
+AS virtex:or2 LEVEL=XILINX
+AS virtex:or2 LIBVER=2.0.0
+AS virtex:or2 PINORDER=I0 I1 O
+AP virtex:or2 1 PINTYPE=IN
+AP virtex:or2 2 PINTYPE=IN
+AP virtex:or2 3 PINTYPE=OUT
+|Q virtex:or3 1
+AS virtex:or3 LEVEL=XILINX
+AS virtex:or3 DEVICE=OR
+AS virtex:or3 LIBVER=2.0.0
+AS virtex:or3 PINORDER=I0 I1 I2 O
+AP virtex:or3 1 PINTYPE=IN
+AP virtex:or3 2 PINTYPE=IN
+AP virtex:or3 3 PINTYPE=IN
+AP virtex:or3 4 PINTYPE=OUT
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+|Q virtex:nor4 1
+AS virtex:nor4 DEVICE=NOR
+AS virtex:nor4 LEVEL=XILINX
+AS virtex:nor4 LIBVER=2.0.0
+AS virtex:nor4 PINORDER=I0 I1 I2 I3 O
+AP virtex:nor4 1 PINTYPE=IN
+AP virtex:nor4 2 PINTYPE=IN
+AP virtex:nor4 3 PINTYPE=IN
+AP virtex:nor4 4 PINTYPE=IN
+AP virtex:nor4 5 PINTYPE=OUT
+AP virtex:nor4 5 PARAM=INV
+|Q virtex:gnd 1
+AS virtex:gnd LIBVER=2.0.0
+AS virtex:gnd LEVEL=XILINX
+AS virtex:gnd PINORDER=G
+AP virtex:gnd 1 PINTYPE=OUT
+|Q virtex:and2 1
+AS virtex:and2 LEVEL=XILINX
+AS virtex:and2 DEVICE=AND
+AS virtex:and2 LIBVER=2.0.0
+AS virtex:and2 PINORDER=I0 I1 O
+AP virtex:and2 1 PINTYPE=IN
+AP virtex:and2 2 PINTYPE=IN
+AP virtex:and2 3 PINTYPE=OUT
+|Q virtex:inv 1
+AS virtex:inv DEVICE=INV
+AS virtex:inv LIBVER=2.0.0
+AS virtex:inv LEVEL=XILINX
+AS virtex:inv PINORDER=I O
+AP virtex:inv 1 PINTYPE=IN
+AP virtex:inv 2 PINTYPE=OUT
+|Q virtex:and2b1 1
+AS virtex:and2b1 LEVEL=XILINX
+AS virtex:and2b1 DEVICE=AND
+AS virtex:and2b1 LIBVER=2.0.0
+AS virtex:and2b1 PINORDER=I0 I1 O
+AP virtex:and2b1 1 PINTYPE=IN
+AP virtex:and2b1 1 PARAM=INV
+AP virtex:and2b1 2 PINTYPE=IN
+AP virtex:and2b1 3 PINTYPE=OUT
+|Q virtex:fdc 1
+AS virtex:fdc LIBVER=2.0.0
+AS virtex:fdc LEVEL=XILINX
+AS virtex:fdc @INIT=0
+AS virtex:fdc DEVICE=DFF
+AS virtex:fdc PINORDER=C CLR D Q
+AP virtex:fdc 1 PINTYPE=IN
+AP virtex:fdc 2 PINTYPE=IN
+AP virtex:fdc 3 PINTYPE=IN
+AP virtex:fdc 4 PINTYPE=OUT
+|Q sr16lce 1
+AS sr16lce LEVEL=OSU-XILINX
+AS sr16lce LIBVER=2.0.0
+AS sr16lce @NAME=SR16LCE
+AS sr16lce PINORDER=C CE CLR Q[15:0] SLI
+AP sr16lce 1 PINTYPE=IN
+AP sr16lce 2 PINTYPE=IN
+AP sr16lce 3 PINTYPE=IN
+AP sr16lce 4 PINTYPE=OUT
+AP sr16lce 5 PINTYPE=IN
+|Q virtex:bufe 1
+AS virtex:bufe LIBVER=2.0.0
+AS virtex:bufe DEVICE=TBUF
+AS virtex:bufe LEVEL=XILINX
+AS virtex:bufe PINORDER=E I O
+AP virtex:bufe 1 PINTYPE=IN
+AP virtex:bufe 2 PINTYPE=IN
+AP virtex:bufe 3 PINTYPE=TRI
+|Q sr16clre 1
+AS sr16clre LEVEL=OSU-XILINX
+AS sr16clre LIBVER=2.0.0
+AS sr16clre @NAME=SR16CLRE
+AS sr16clre PINORDER=C CE CLR D[15:0] L Q[15:0] SLI
+AP sr16clre 1 PINTYPE=IN
+AP sr16clre 2 PINTYPE=IN
+AP sr16clre 3 PINTYPE=IN
+AP sr16clre 4 PINTYPE=IN
+AP sr16clre 5 PINTYPE=IN
+AP sr16clre 6 PINTYPE=OUT
+AP sr16clre 7 PINTYPE=IN
+|Q virtex:cb4cled 1
+AS virtex:cb4cled LEVEL=MXILINX
+AS virtex:cb4cled @INIT=0
+AS virtex:cb4cled LIBVER=2.0.1
+AS virtex:cb4cled PINORDER=C CE CEO CLR D0 D1 D2 D3 L Q0 Q1 Q2 Q3 TC UP
+AP virtex:cb4cled 1 PINTYPE=IN
+AP virtex:cb4cled 2 PINTYPE=IN
+AP virtex:cb4cled 3 PINTYPE=OUT
+AP virtex:cb4cled 4 PINTYPE=IN
+AP virtex:cb4cled 5 PINTYPE=IN
+AP virtex:cb4cled 6 PINTYPE=IN
+AP virtex:cb4cled 7 PINTYPE=IN
+AP virtex:cb4cled 8 PINTYPE=IN
+AP virtex:cb4cled 9 PINTYPE=IN
+AP virtex:cb4cled 10 PINTYPE=OUT
+AP virtex:cb4cled 11 PINTYPE=OUT
+AP virtex:cb4cled 12 PINTYPE=OUT
+AP virtex:cb4cled 13 PINTYPE=OUT
+AP virtex:cb4cled 14 PINTYPE=OUT
+AP virtex:cb4cled 15 PINTYPE=IN
+|Q virtex:bufe16 1
+AS virtex:bufe16 LEVEL=MXILINX
+AS virtex:bufe16 LIBVER=2.0.0
+AS virtex:bufe16 PINORDER=E I[15:0] O[15:0]
+AP virtex:bufe16 1 PINTYPE=IN
+AP virtex:bufe16 2 PINTYPE=IN
+AP virtex:bufe16 3 PINTYPE=OUT
+|Q virtex2p:and3 1
+AS virtex2p:and3 LEVEL=XILINX
+AS virtex2p:and3 DEVICE=AND
+AS virtex2p:and3 LIBVER=2.0.0
+AS virtex2p:and3 PINORDER=I0 I1 I2 O
+AP virtex2p:and3 1 PINTYPE=IN
+AP virtex2p:and3 2 PINTYPE=IN
+AP virtex2p:and3 3 PINTYPE=IN
+AP virtex2p:and3 4 PINTYPE=OUT
+|Q virtex2p:inv 1
+AS virtex2p:inv DEVICE=INV
+AS virtex2p:inv LIBVER=2.0.0
+AS virtex2p:inv LEVEL=XILINX
+AS virtex2p:inv PINORDER=I O
+AP virtex2p:inv 1 PINTYPE=IN
+AP virtex2p:inv 2 PINTYPE=OUT
+|Q virtex2p:or2b1 1
+AS virtex2p:or2b1 LEVEL=XILINX
+AS virtex2p:or2b1 DEVICE=OR
+AS virtex2p:or2b1 LIBVER=2.0.0
+AS virtex2p:or2b1 PINORDER=I0 I1 O
+AP virtex2p:or2b1 1 PINTYPE=IN
+AP virtex2p:or2b1 1 PARAM=INV
+AP virtex2p:or2b1 2 PINTYPE=IN
+AP virtex2p:or2b1 3 PINTYPE=OUT
+|Q virtex:and4b2 1
+AS virtex:and4b2 DEVICE=AND
+AS virtex:and4b2 LEVEL=XILINX
+AS virtex:and4b2 LIBVER=2.0.0
+AS virtex:and4b2 PINORDER=I0 I1 I2 I3 O
+AP virtex:and4b2 1 PINTYPE=IN
+AP virtex:and4b2 1 PARAM=INV
+AP virtex:and4b2 2 PINTYPE=IN
+AP virtex:and4b2 2 PARAM=INV
+AP virtex:and4b2 3 PINTYPE=IN
+AP virtex:and4b2 4 PINTYPE=IN
+AP virtex:and4b2 5 PINTYPE=OUT
+|Q virtex:buf 1
+AS virtex:buf LIBVER=2.0.0
+AS virtex:buf DEVICE=BUF
+AS virtex:buf LEVEL=XILINX
+AS virtex:buf PINORDER=I O
+AP virtex:buf 1 PINTYPE=IN
+AP virtex:buf 2 PINTYPE=OUT
+|Q virtex:fd 1
+AS virtex:fd @INIT=0
+AS virtex:fd DEVICE=DFF
+AS virtex:fd LIBVER=2.0.0
+AS virtex:fd LEVEL=XILINX
+AS virtex:fd PINORDER=C D Q
+AP virtex:fd 1 PINTYPE=IN
+AP virtex:fd 2 PINTYPE=IN
+AP virtex:fd 3 PINTYPE=OUT
+AN Q[15:0] VLBUSISONSHEET=1
+AN COMMAND[9:0] VLBUSISONSHEET=1
+AN OUTDATA[15:0] VLBUSISONSHEET=1
+AN INDATA[15:0] VLBUSISONSHEET=1
+AN QC[15:0] VLBUSISONSHEET=1
+W virtex:or2 $1I1660
+I $1I1660 virtex:or2 INSTSHFT DATASHFT $1N1659 
+W virtex:or3 $1I1569
+I $1I1569 virtex:or3 DONEDATA DONEDATA+1 RST $1N1044 
+W virtex:fdce $1I1415
+I $1I1415 virtex:fdce $1N1421 INSTSHFT $1N1465 COMMAND0 IHEADEN 
+W virtex:nor4 $1I1209
+I $1I1209 virtex:nor4 $1N1053 $1N1054 $1N1055 $1N1056 $1N1574 
+W virtex:gnd $1I1041
+I $1I1041 virtex:gnd $1N1042 
+W virtex:fdce $1I1321
+I $1I1321 virtex:fdce $1N1322 DATASHFT $1N1349 COMMAND0 DHEADEN 
+W virtex:or2 $1I1445
+I $1I1445 virtex:or2 BUSY RESETJTAG $1N1440 
+W virtex:fdce $1I1439
+I $1I1439 virtex:fdce SLOWCLK $1N1440 RST $1N1016 ENABLE 
+W virtex:and2 $1I1401
+I $1I1401 virtex:and2 ENABLE SHDATA LOADCE 
+W virtex:inv $1I1015
+I $1I1015 virtex:inv ENABLE $1N1016 
+W virtex:and2b1 $1I1571
+I $1I1571 virtex:and2b1 LOAD $1N1574 DONEDATA_1 
+W virtex:fdc $1I1481
+I $1I1481 virtex:fdc SLOWCLK LOAD DONEDATA+1 DONEDATA+2 
+W virtex:or2 $1I1470
+I $1I1470 virtex:or2 DONEDHEAD RST $1N1349 
+W virtex:and2b1 $1I1419
+I $1I1419 virtex:and2b1 BUSY STROBE $1N1421 
+W virtex:or2 $1I1464
+I $1I1464 virtex:or2 DONEIHEAD RST $1N1465 
+W virtex:fdce $1I1338
+I $1I1338 virtex:fdce LOAD $1N1334 $1N1350 COMMAND1 TAILEN 
+W virtex:fdc $1I1441
+I $1I1441 virtex:fdc SLOWCLK LOAD DONEDATA DONEDATA+1 
+W virtex:or2 $1I1468
+I $1I1468 virtex:or2 DONETAIL RST $1N1350 
+W virtex:or2 $1I1410
+I $1I1410 virtex:or2 DATASHFT INSTSHFT $1N1334 
+W virtex:fdc $1I1628
+I $1I1628 virtex:fdc FASTCLK RST RDTDOBK RDTDOBK+1 
+W virtex:fdc $1I1631
+I $1I1631 virtex:fdc FASTCLK RST RDTDOBK+1 RDTDOBK+2 
+W virtex:gnd $1I1388
+I $1I1388 virtex:gnd $1N1387 
+W virtex:fdce $1I1396
+I $1I1396 virtex:fdce SLOWCLK SHDATA LOAD DONEDATA_1 DONEDATA 
+W virtex:and2b1 $1I1344
+I $1I1344 virtex:and2b1 BUSY STROBE $1N1322 
+W virtex:and2b1 $1I1655
+I $1I1655 virtex:and2b1 BUSY LOAD_1 LOAD-1 
+W virtex:or2 $1I1651
+I $1I1651 virtex:or2 RST LOAD $1N1638 
+W sr16lce $1I1558
+I $1I1558 sr16lce SLOWCLK $1N1176 RST QC[15:0] TDO 
+W virtex:and2b1 $1I1557
+I $1I1557 virtex:and2b1 ENABLE SHDATAX $1N1176 
+W virtex:bufe $1I1389
+I $1I1389 virtex:bufe RDTDOBK+2 $1N1387 ~DTACK 
+W sr16clre $1I1012
+I $1I1012 sr16clre SLOWCLK LOADCE RST INDATA[15:0] LOAD Q[15:0] Q0 
+W virtex:cb4cled $1I1035
+I $1I1035 virtex:cb4cled SLOWCLK $1N1050 ? $1N1044 COMMAND6 COMMAND7 COMMAND8 COMMAND9 LOAD $1N1056 $1N1055 $1N1054 $1N1053 ? $1N1042 
+W virtex:bufe16 $1I1151
+I $1I1151 virtex:bufe16 RDTDOBK QC[15:0] OUTDATA[15:0] 
+W virtex:fdc $1I1654
+I $1I1654 virtex:fdc STROBE $1N1638 $1N1659 LOAD_1 
+W virtex:or2 $1I1674
+I $1I1674 virtex:or2 INSTSHFT DATASHFT $1N1675 
+W virtex:fdc $1I1457
+I $1I1457 virtex:fdc SLOWCLK RST LOAD-1 LOAD 
+W virtex2p:and3 $1I1730
+I $1I1730 virtex2p:and3 $1N1731 $1N1729 $1N1774 DTACK_EN 
+W virtex:gnd $1I1727
+I $1I1727 virtex:gnd $1N1724 
+W virtex:bufe $1I1728
+I $1I1728 virtex:bufe DTACK_EN $1N1724 ~DTACK 
+W virtex:fdce $1I1637
+I $1I1637 virtex:fdce SLOWCLK ~BUSY STROBE-RST $1N1675 $1N1509 
+W virtex2p:inv $1I1664
+I $1I1664 virtex2p:inv BUSY ~BUSY 
+W virtex2p:or2b1 $1I1665
+I $1I1665 virtex2p:or2b1 STROBE RST STROBE-RST 
+W virtex:and2 $1I1392
+I $1I1392 virtex:and2 ENABLE SHDATA $1N1050 
+W virtex:and4b2 $1I1566
+I $1I1566 virtex:and4b2 BUSY SHDATAX STROBE READTDO RDTDOBK 
+W virtex:buf $1I1360
+I $1I1360 virtex:buf Q0 TDI 
+W virtex:fd $1I1740
+I $1I1740 virtex:fd SLOWCLK $1N1729 $1N1742 
+W virtex:fd $1I1773
+I $1I1773 virtex:fd SLOWCLK $1N1774 $1N1729 
+W virtex:fd $1I1725
+I $1I1725 virtex:fd SLOWCLK $1N1742 $1N1721 
+W virtex2p:or2b1 $1I1719
+I $1I1719 virtex2p:or2b1 BCAST $1N1721 $1N1731 
+W virtex:fd $1I1771
+I $1I1771 virtex:fd SLOWCLK $1N1509 $1N1434 
+W virtex:fd $1I1781
+I $1I1781 virtex:fd SLOWCLK $1N1434 $1N1778 
+W virtex:fd $1I1783
+I $1I1783 virtex:fd SLOWCLK $1N1778 $1N1774 
+W virtex:buf $1I1488
+I $1I1488 virtex:buf ENABLE TCK 
+P ? TCK
+I TCK ? TCK
+P ? SLOWCLK
+I SLOWCLK ? SLOWCLK
+P ? TDI
+I TDI ? TDI
+P ? STROBE
+I STROBE ? STROBE
+P ? RDTDOBK
+I RDTDOBK ? RDTDOBK
+P ? LOAD
+I LOAD ? LOAD
+P ? RST
+I RST ? RST
+P ? FASTCLK
+I FASTCLK ? FASTCLK
+P ? DONETAIL
+I DONETAIL ? DONETAIL
+P ? COMMAND[9:0]
+I COMMAND[9:0] ? COMMAND[9:0]
+P ? OUTDATA[15:0]
+I OUTDATA[15:0] ? OUTDATA[15:0]
+P ? ~DTACK
+I ~DTACK ? ~DTACK
+P ? INDATA[15:0]
+I INDATA[15:0] ? INDATA[15:0]
+P ? TDO
+I TDO ? TDO
+P ? RDTDOBK+1
+I RDTDOBK+1 ? RDTDOBK+1
+P ? BCAST
+I BCAST ? BCAST
+EW
+| Sch_Warning - Pin/Net disassociation at location (310,620).
+| Sch_Warning - Pin/Net disassociation at location (455,620).
+| Sch_Warning - Pin/Net disassociation at location (1135,630).
+| Sch_Warning - Pin/Net disassociation at location (770,825).
+| Sch_Warning - Pin/Net disassociation at location (540,885).
+| Sch_Warning - Pin/Net disassociation at location (885,465).
+| Sch_Warning - Pin/Net disassociation at location (245,235).
+| Sch_Warning - Pin/Net disassociation at location (180,970).
+| Sch_Warning - Pin/Net disassociation at location (605,355).
+| Sch_Warning - Pin/Net disassociation at location (615,395).
+| Sch_Warning - Pin/Net disassociation at location (220,485).
+| Sch_Warning - Pin/Net disassociation at location (220,355).
+| Sch_Warning - Pin/Net disassociation at location (260,195).
+| Sch_Warning - Pin/Net disassociation at location (645,155).
+| Sch_Warning - Pin/Net disassociation at location (1285,650).
+| Sch_Warning - Pin/Net disassociation at location (990,630).
+| Sch_Warning - Pin/Net disassociation at location (600,620).

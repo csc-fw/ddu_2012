@@ -1,0 +1,45 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 147794880500 comp4
+DW comp5
+|Q virtex2p:xnor2 1
+AS virtex2p:xnor2 DEVICE=XNOR
+AS virtex2p:xnor2 LEVEL=XILINX
+AS virtex2p:xnor2 LIBVER=2.0.0
+AS virtex2p:xnor2 PINORDER=I0 I1 O
+AP virtex2p:xnor2 1 PINTYPE=IN
+AP virtex2p:xnor2 2 PINTYPE=IN
+AP virtex2p:xnor2 3 PARAM=INV
+AP virtex2p:xnor2 3 PINTYPE=OUT
+|Q virtex2p:and5 1
+AS virtex2p:and5 LIBVER=2.0.0
+AS virtex2p:and5 LEVEL=XILINX
+AS virtex2p:and5 PINORDER=I0 I1 I2 I3 I4 O
+AP virtex2p:and5 1 PINTYPE=IN
+AP virtex2p:and5 2 PINTYPE=IN
+AP virtex2p:and5 3 PINTYPE=IN
+AP virtex2p:and5 4 PINTYPE=IN
+AP virtex2p:and5 5 PINTYPE=IN
+AP virtex2p:and5 6 PINTYPE=OUT
+AN A[4:0] VLBUSISONSHEET=1
+AN B[4:0] VLBUSISONSHEET=1
+W virtex2p:xnor2 $1I76
+I $1I76 virtex2p:xnor2 B4 A4 AB4 
+W virtex2p:xnor2 $1I33
+I $1I33 virtex2p:xnor2 B2 A2 AB2 
+W virtex2p:xnor2 $1I42
+I $1I42 virtex2p:xnor2 B1 A1 AB1 
+W virtex2p:xnor2 $1I43
+I $1I43 virtex2p:xnor2 B0 A0 AB0 
+W virtex2p:xnor2 $1I34
+I $1I34 virtex2p:xnor2 B3 A3 AB3 
+W virtex2p:and5 $1I74
+I $1I74 virtex2p:and5 AB4 AB3 AB2 AB1 AB0 EQ 
+P ? A[4:0]
+I A[4:0] ? A[4:0]
+P ? B[4:0]
+I B[4:0] ? B[4:0]
+P ? EQ
+I EQ ? EQ
+EW

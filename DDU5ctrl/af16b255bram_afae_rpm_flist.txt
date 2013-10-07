@@ -1,0 +1,4 @@
+# Output products list for <af16b255bram_afae_rpm>
+af16b255bram_afae_rpm.edn
+af16b255bram_afae_rpm.xco
+af16b255bram_afae_rpm.xcp

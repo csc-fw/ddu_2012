@@ -1,0 +1,141 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 269366399700 cc10ce
+DW cc10ce
+|Q virtex2p:muxcy 1
+AS virtex2p:muxcy LIBVER=2.0.0
+AS virtex2p:muxcy LEVEL=XILINX
+AS virtex2p:muxcy DEVICE=CY_MUX
+AS virtex2p:muxcy PINORDER=CI DI O S
+AP virtex2p:muxcy 1 PINTYPE=IN
+AP virtex2p:muxcy 2 PINTYPE=IN
+AP virtex2p:muxcy 3 PINTYPE=OUT
+AP virtex2p:muxcy 4 PINTYPE=IN
+|Q virtex2p:xorcy 1
+AS virtex2p:xorcy LIBVER=2.0.0
+AS virtex2p:xorcy LEVEL=XILINX
+AS virtex2p:xorcy PINORDER=CI LI O
+AP virtex2p:xorcy 1 PINTYPE=IN
+AP virtex2p:xorcy 2 PINTYPE=IN
+AP virtex2p:xorcy 3 PINTYPE=OUT
+|Q virtex2p:muxcy_l 1
+AS virtex2p:muxcy_l LIBVER=2.0.0
+AS virtex2p:muxcy_l LEVEL=XILINX
+AS virtex2p:muxcy_l DEVICE=CY_MUX
+AS virtex2p:muxcy_l PINORDER=CI DI LO S
+AP virtex2p:muxcy_l 1 PINTYPE=IN
+AP virtex2p:muxcy_l 2 PINTYPE=IN
+AP virtex2p:muxcy_l 3 PINTYPE=OUT
+AP virtex2p:muxcy_l 4 PINTYPE=IN
+|Q virtex2p:fdce 1
+AS virtex2p:fdce @INIT=0
+AS virtex2p:fdce LIBVER=2.0.0
+AS virtex2p:fdce LEVEL=XILINX
+AS virtex2p:fdce DEVICE=DFF
+AS virtex2p:fdce PINORDER=C CE CLR D Q
+AP virtex2p:fdce 1 PINTYPE=IN
+AP virtex2p:fdce 2 PINTYPE=IN
+AP virtex2p:fdce 3 PINTYPE=IN
+AP virtex2p:fdce 4 PINTYPE=IN
+AP virtex2p:fdce 5 PINTYPE=OUT
+|Q virtex2p:gnd 1
+AS virtex2p:gnd LIBVER=2.0.0
+AS virtex2p:gnd LEVEL=XILINX
+AS virtex2p:gnd PINORDER=G
+AP virtex2p:gnd 1 PINTYPE=OUT
+|Q virtex2p:vcc 1
+AS virtex2p:vcc LEVEL=XILINX
+AS virtex2p:vcc LIBVER=2.0.0
+AS virtex2p:vcc PINORDER=P
+AP virtex2p:vcc 1 PINTYPE=OUT
+|Q virtex2p:and2 1
+AS virtex2p:and2 LEVEL=XILINX
+AS virtex2p:and2 DEVICE=AND
+AS virtex2p:and2 LIBVER=2.0.0
+AS virtex2p:and2 PINORDER=I0 I1 O
+AP virtex2p:and2 1 PINTYPE=IN
+AP virtex2p:and2 2 PINTYPE=IN
+AP virtex2p:and2 3 PINTYPE=OUT
+AN Q[9:0] VLBUSISONSHEET=1
+W virtex2p:muxcy $1I1334
+I $1I1334 virtex2p:muxcy C9 $1N1138 TC Q9 RLOC=X0Y4`
+W virtex2p:xorcy $1I1106
+I $1I1106 virtex2p:xorcy C8 Q8 TQ8 
+W virtex2p:xorcy $1I1119
+I $1I1119 virtex2p:xorcy C9 Q9 TQ9 
+W virtex2p:xorcy $1I226
+I $1I226 virtex2p:xorcy C2 Q2 TQ2 
+W virtex2p:xorcy $1I239
+I $1I239 virtex2p:xorcy C3 Q3 TQ3 
+W virtex2p:xorcy $1I252
+I $1I252 virtex2p:xorcy C4 Q4 TQ4 
+W virtex2p:xorcy $1I265
+I $1I265 virtex2p:xorcy C5 Q5 TQ5 
+W virtex2p:xorcy $1I278
+I $1I278 virtex2p:xorcy C6 Q6 TQ6 
+W virtex2p:xorcy $1I291
+I $1I291 virtex2p:xorcy C7 Q7 TQ7 
+W virtex2p:muxcy_l $1I233
+I $1I233 virtex2p:muxcy_l C2 $1N12 C3 Q2 RLOC=X0Y1`
+W virtex2p:muxcy_l $1I246
+I $1I246 virtex2p:muxcy_l C3 $1N12 C4 Q3 RLOC=X0Y1`
+W virtex2p:muxcy_l $1I259
+I $1I259 virtex2p:muxcy_l C4 $1N12 C5 Q4 RLOC=X0Y2`
+W virtex2p:muxcy_l $1I272
+I $1I272 virtex2p:muxcy_l C5 $1N12 C6 Q5 RLOC=X0Y2`
+W virtex2p:muxcy_l $1I298
+I $1I298 virtex2p:muxcy_l C7 $1N12 C8 Q7 RLOC=X0Y3`
+W virtex2p:muxcy_l $1I1147
+I $1I1147 virtex2p:muxcy_l C8 $1N1138 C9 Q8 RLOC=X0Y4`
+W virtex2p:fdce $1I224
+I $1I224 virtex2p:fdce C CE CLR TQ2 Q2 RLOC=X0Y1`
+W virtex2p:fdce $1I237
+I $1I237 virtex2p:fdce C CE CLR TQ3 Q3 RLOC=X0Y1`
+W virtex2p:fdce $1I250
+I $1I250 virtex2p:fdce C CE CLR TQ4 Q4 RLOC=X0Y2`
+W virtex2p:fdce $1I276
+I $1I276 virtex2p:fdce C CE CLR TQ6 Q6 RLOC=X0Y3`
+W virtex2p:fdce $1I289
+I $1I289 virtex2p:fdce C CE CLR TQ7 Q7 RLOC=X0Y3`
+W virtex2p:fdce $1I1095
+I $1I1095 virtex2p:fdce C CE CLR TQ8 Q8 RLOC=X0Y4`
+W virtex2p:fdce $1I1118
+I $1I1118 virtex2p:fdce C CE CLR TQ9 Q9 RLOC=X0Y4`
+W virtex2p:gnd $1I1269
+I $1I1269 virtex2p:gnd $1N1138 
+W virtex2p:vcc $1I923
+I $1I923 virtex2p:vcc C0 
+W virtex2p:gnd $1I886
+I $1I886 virtex2p:gnd $1N12 
+W virtex2p:and2 $1I1099
+I $1I1099 virtex2p:and2 CE TC CEO 
+W virtex2p:muxcy_l $1I4
+I $1I4 virtex2p:muxcy_l C0 $1N12 C1 Q0 RLOC=X0Y0`
+W virtex2p:xorcy $1I28
+I $1I28 virtex2p:xorcy C1 Q1 TQ1 
+W virtex2p:muxcy_l $1I26
+I $1I26 virtex2p:muxcy_l C1 $1N12 C2 Q1 RLOC=X0Y0`
+W virtex2p:fdce $1I35
+I $1I35 virtex2p:fdce C CE CLR TQ1 Q1 RLOC=X0Y0`
+W virtex2p:muxcy_l $1I285
+I $1I285 virtex2p:muxcy_l C6 $1N12 C7 Q6 RLOC=X0Y3`
+W virtex2p:fdce $1I263
+I $1I263 virtex2p:fdce C CE CLR TQ5 Q5 RLOC=X0Y2`
+W virtex2p:fdce $1I36
+I $1I36 virtex2p:fdce C CE CLR TQ0 Q0 RPM_GRID=GRID`RLOC=X0Y0`
+W virtex2p:xorcy $1I6
+I $1I6 virtex2p:xorcy C0 Q0 TQ0 
+P ? Q[9:0]
+I Q[9:0] ? Q[9:0]
+P ? C
+I C ? C
+P ? CLR
+I CLR ? CLR
+P ? CEO
+I CEO ? CEO
+P ? CE
+I CE ? CE
+P ? TC
+I TC ? TC
+EW

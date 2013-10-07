@@ -1,0 +1,14 @@
+WARNING:PhysDesignRules:372 - Gated clock. Clock net $1I135/BCLK is sourced by a
+   combinatorial pin. This is not good design practice. Use the CE pin to
+   control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net $1I135/DDU_DLL_LOCK is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:372 - Gated clock. Clock net $1I135/$1I3030/$5I2521/LOAD
+   is sourced by a combinatorial pin. This is not good design practice. Use the
+   CE pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:1063 - Dangling pins on
+   block:<$1I135/$1I3030/$13I2844/B7/$1I135/$1I3030/$13I2844/B7.A>:<RAMB16_RAMB1
+   6A>.  The block is configured to use an input parity pins. There is a
+   dangling output parity pin.
+DRC detected 0 errors and 4 warnings.

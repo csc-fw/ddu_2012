@@ -1,0 +1,291 @@
+--------------------------------------------------------------------------------
+Release 6.2.03i Trace G.28
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+C:/Xilinx62/bin/nt/trce.exe -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd
+-o 0ddu_in.twr 0ddu_in.pcf
+
+
+Design file:              0ddu_in.ncd
+Physical constraint file: 0ddu_in.pcf
+Device,speed:             xc2vp20,-6 (PRODUCTION 1.86 2004-05-01)
+Report level:             error report, limited to 29 items per constraint
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths
+   option. All paths that are not constrained will be reported in the
+   unconstrained paths section(s) of the report.
+
+================================================================================
+Timing constraint: NET "$1I162/CLK" PERIOD =  10.800 nS   HIGH 50.000000 % ;
+
+ 346851 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is  10.717ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/BREF" PERIOD =  11.300 nS   HIGH 50.000000 % ;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I162/CK80" derived from
+ NET "$1I162/BREF" PERIOD =  11.300 nS   HIGH 50.000000 % ;
+ 
+duty cycle corrected to 11.300 nS  HIGH 5.650 nS 
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I162/CK160" derived from
+ NET "$1I162/BREF" PERIOD =  11.300 nS   HIGH 50.000000 % ;
+ 
+divided by 2.00 and duty cycle corrected to 5.650 nS  HIGH 2.825 nS 
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/RHL5" MAXDELAY = 2 nS  ;
+
+ 1 item analyzed, 1 timing error detected.
+ Maximum net delay is   2.952ns.
+--------------------------------------------------------------------------------
+Slack:    -0.952ns $1I162/RHL5
+Error:     2.952ns delay exceeds   2.000ns timing constraint by 0.952ns
+From                              To                                 Delay(ns)
+SLICE_X44Y54.YQ                   SLICE_X55Y41.F3                       1.491
+SLICE_X44Y54.YQ                   SLICE_X46Y47.F2                       1.581
+SLICE_X44Y54.YQ                   SLICE_X39Y28.G3                       1.660
+SLICE_X44Y54.YQ                   SLICE_X43Y50.SR                       0.995
+SLICE_X44Y54.YQ                   SLICE_X54Y50.F3                       1.469
+SLICE_X44Y54.YQ                   SLICE_X35Y55.SR                       1.252
+SLICE_X44Y54.YQ                   SLICE_X55Y50.G3                       1.448
+SLICE_X44Y54.YQ                   SLICE_X55Y50.F3                       1.469
+SLICE_X44Y54.YQ                   SLICE_X39Y74.G4                       1.608
+SLICE_X44Y54.YQ                   SLICE_X39Y74.F4                       1.626
+SLICE_X44Y54.YQ                   SLICE_X51Y35.G3                       1.952
+SLICE_X44Y54.YQ                   SLICE_X51Y35.F4                       1.704
+SLICE_X44Y54.YQ                   SLICE_X50Y80.F3                       1.464
+SLICE_X44Y54.YQ                   SLICE_X47Y64.BX                       1.789
+SLICE_X44Y54.YQ                   SLICE_X44Y52.CE                       0.987
+SLICE_X44Y54.YQ                   SLICE_X44Y53.CE                       0.987
+SLICE_X44Y54.YQ                   SLICE_X44Y54.CE                       1.282
+SLICE_X44Y54.YQ                   SLICE_X44Y54.G4                       0.608
+SLICE_X44Y54.YQ                   SLICE_X55Y4.G3                        2.098
+SLICE_X44Y54.YQ                   SLICE_X49Y7.SR                        1.816
+SLICE_X44Y54.YQ                   SLICE_X50Y1.SR                        1.968
+SLICE_X44Y54.YQ                   SLICE_X50Y1.F2                        1.873
+SLICE_X44Y54.YQ                   SLICE_X51Y0.SR                        1.956
+SLICE_X44Y54.YQ                   SLICE_X79Y4.G3                        2.937
+SLICE_X44Y54.YQ                   SLICE_X74Y1.SR                        2.834
+SLICE_X44Y54.YQ                   SLICE_X74Y1.F3                        2.730
+SLICE_X44Y54.YQ                   SLICE_X75Y0.SR                        2.834
+SLICE_X44Y54.YQ                   SLICE_X73Y7.SR                        2.635
+SLICE_X44Y54.YQ                   SLICE_X79Y108.G3                      2.952
+SLICE_X44Y54.YQ                   SLICE_X74Y105.SR                      2.836
+SLICE_X44Y54.YQ                   SLICE_X74Y105.F3                      2.718
+SLICE_X44Y54.YQ                   SLICE_X75Y104.SR                      2.695
+SLICE_X44Y54.YQ                   SLICE_X75Y107.SR                      2.880
+SLICE_X44Y54.YQ                   SLICE_X43Y4.F4                        1.799
+SLICE_X44Y54.YQ                   SLICE_X38Y1.SR                        1.961
+SLICE_X44Y54.YQ                   SLICE_X38Y1.F3                        2.011
+SLICE_X44Y54.YQ                   SLICE_X39Y0.SR                        2.006
+SLICE_X44Y54.YQ                   SLICE_X37Y7.SR                        1.868
+SLICE_X44Y54.YQ                   SLICE_X19Y4.F3                        2.612
+SLICE_X44Y54.YQ                   SLICE_X13Y7.SR                        2.778
+SLICE_X44Y54.YQ                   SLICE_X14Y1.SR                        2.722
+SLICE_X44Y54.YQ                   SLICE_X14Y1.F3                        2.763
+SLICE_X44Y54.YQ                   SLICE_X15Y0.SR                        2.721
+SLICE_X44Y54.YQ                   SLICE_X14Y105.SR                      2.744
+SLICE_X44Y54.YQ                   SLICE_X14Y105.F3                      2.811
+SLICE_X44Y54.YQ                   SLICE_X15Y104.SR                      2.818
+SLICE_X44Y54.YQ                   SLICE_X19Y108.F3                      2.660
+SLICE_X44Y54.YQ                   SLICE_X15Y107.SR                      2.731
+SLICE_X44Y54.YQ                   SLICE_X51Y107.SR                      2.024
+SLICE_X44Y54.YQ                   SLICE_X55Y108.F3                      2.104
+SLICE_X44Y54.YQ                   SLICE_X50Y105.SR                      1.956
+SLICE_X44Y54.YQ                   SLICE_X50Y105.F3                      1.997
+SLICE_X44Y54.YQ                   SLICE_X51Y104.SR                      2.014
+SLICE_X44Y54.YQ                   SLICE_X43Y108.G3                      1.745
+SLICE_X44Y54.YQ                   SLICE_X39Y104.SR                      1.989
+SLICE_X44Y54.YQ                   SLICE_X38Y105.F1                      2.131
+SLICE_X44Y54.YQ                   SLICE_X38Y105.SR                      2.072
+SLICE_X44Y54.YQ                   SLICE_X39Y107.SR                      2.032
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/LFIFO_EMPTY" MAXDELAY = 1.900 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.538ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$1I4156/NEXT_FIBER" MAXDELAY = 1.500 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.433ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$1I4156/~RENOE-0" MAXDELAY = 1.900 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.530ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$1I4156/~LEXTFIFO_PAF" MAXDELAY = 200 pS  ;
+
+ 1 item analyzed, 1 timing error detected.
+ Maximum net delay is   0.455ns.
+--------------------------------------------------------------------------------
+Slack:    -0.255ns $1I162/$1I4156/~LEXTFIFO_PAF
+Error:     0.455ns delay exceeds   0.200ns timing constraint by 0.255ns
+From                              To                                 Delay(ns)
+SLICE_X59Y77.YQ                   SLICE_X59Y77.F2                       0.395
+SLICE_X59Y77.YQ                   SLICE_X59Y77.CE                       0.455
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$1I4156/L1A_PUSH" MAXDELAY = 1000 pS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.417ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/CKIN40" PERIOD =  23 nS   HIGH 50.000000 % ;
+
+ 3 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   1.234ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I162/CK40" derived from
+ NET "$1I162/CKIN40" PERIOD =  23 nS   HIGH 50.000000 % ;
+ 
+duty cycle corrected to 23 nS  HIGH 11.500 nS 
+
+ 106 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   3.382ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: PERIOD analysis for net "$1I162/SLCK" derived from
+ NET "$1I162/CKIN40" PERIOD =  23 nS   HIGH 50.000000 % ;
+ 
+multiplied by 16.00 and duty cycle corrected to 368 nS  HIGH 184 nS 
+
+ 170 items analyzed, 0 timing errors detected. (0 setup errors, 0 hold errors)
+ Minimum period is   5.289ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$5I4156/LFIFO_EMPTY" MAXDELAY = 1.900 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.931ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$5I4156/NEXT_FIBER" MAXDELAY = 1.500 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.315ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$5I4156/~RENOE-0" MAXDELAY = 1.900 nS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   1.128ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$5I4156/~LEXTFIFO_PAF" MAXDELAY = 200 pS  ;
+
+ 1 item analyzed, 1 timing error detected.
+ Maximum net delay is   0.562ns.
+--------------------------------------------------------------------------------
+Slack:    -0.362ns $1I162/$5I4156/~LEXTFIFO_PAF
+Error:     0.562ns delay exceeds   0.200ns timing constraint by 0.362ns
+From                              To                                 Delay(ns)
+SLICE_X56Y32.YQ                   SLICE_X56Y32.F2                       0.395
+SLICE_X56Y32.YQ                   SLICE_X56Y32.CE                       0.562
+
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/$5I4156/L1A_PUSH" MAXDELAY = 1000 pS  ;
+
+ 1 item analyzed, 0 timing errors detected.
+ Maximum net delay is   0.675ns.
+--------------------------------------------------------------------------------
+
+================================================================================
+Timing constraint: NET "$1I162/BREF_B" PERIOD =  11.300 nS   HIGH 50.000000 % ;
+
+ 0 items analyzed, 0 timing errors detected.
+--------------------------------------------------------------------------------
+
+
+3 constraints not met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock $1I162/CK80N_T
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+$1I162/CK80N_T |   11.323|         |    3.824|         |
+$1I162/CK80P_T |   11.323|         |    3.824|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock $1I162/CK80P_T
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+$1I162/CK80N_T |   11.323|         |    3.824|         |
+$1I162/CK80P_T |   11.323|         |    3.824|         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock $1I162/CLKIN40
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+$1I162/CLKIN40 |    5.889|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 3  Score: 1569
+
+Constraints cover 347130 paths, 11 nets, and 43836 connections
+
+Design statistics:
+   Minimum period:  10.717ns (Maximum frequency:  93.310MHz)
+   Maximum net delay:   2.952ns
+
+
+Analysis completed Tue May 30 14:27:48 2006
+--------------------------------------------------------------------------------
+
+Peak Memory Usage: 176 MB

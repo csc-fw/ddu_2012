@@ -1,0 +1,1773 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~PAFIN0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~PAFIN0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~PAFIN1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~PAFIN1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~PAFIN2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~PAFIN2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~PAFIN3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~PAFIN3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I10</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I10</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I11</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I11</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I12</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I12</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I13</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I13</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I14</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I14</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I15</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I15</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I16</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I16</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I17</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I17</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I20</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I20</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I18</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I18</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I21</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I21</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I19</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I19</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I22</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I22</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I23</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I23</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I24</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I24</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I25</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I25</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I26</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I26</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I27</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I27</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I30</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I30</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I28</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I28</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I31</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I31</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I29</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I29</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I32</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I32</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I33</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I33</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I34</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I34</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I35</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I35</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/FFIN0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/FFIN0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/FFIN1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/FFIN1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/FFIN2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/FFIN2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/FFIN3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/FFIN3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I4</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I4</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I5</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I5</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I6</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I6</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I7</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I7</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I8</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I8</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/I9</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/I9</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~PRST</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~PRST</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~MRST</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~MRST</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~OWEN</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~OWEN</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT4</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT4</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT5</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT5</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT6</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT6</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT7</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT7</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT8</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT8</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT9</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT9</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT10</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT10</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT11</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT11</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT12</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT12</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT13</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT13</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT14</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT14</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT15</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT15</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT16</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT16</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT20</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT20</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT17</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT17</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT21</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT21</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT18</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT18</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT22</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT22</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT19</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT19</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT23</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT23</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT24</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT24</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT25</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT25</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT26</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT26</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT30</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT30</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT27</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT27</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT31</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT31</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT28</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT28</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT32</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT32</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT29</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT29</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT33</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT33</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT34</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT34</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT35</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT35</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT36</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT36</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT40</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT40</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT37</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT37</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT41</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT41</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT38</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT38</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT42</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT42</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT39</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT39</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT43</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT43</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT44</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT44</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT45</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT45</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT46</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT46</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT50</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT50</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT47</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT47</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT51</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT51</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT48</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT48</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT52</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT52</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT49</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT49</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT53</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT53</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT54</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT54</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT55</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT55</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT56</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT56</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT60</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT60</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT57</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT57</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT61</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT61</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT58</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT58</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT62</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT62</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT59</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT59</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT63</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT63</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT64</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT64</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DOUT65</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DOUT65</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~OSYNCRST</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~OSYNCRST</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~OSOFTRST</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~OSOFTRST</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/HFIN0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/HFIN0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/HFIN1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/HFIN1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/HFIN2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/HFIN2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/HFIN3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/HFIN3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/MTIN0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/MTIN0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/MTIN1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/MTIN1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/MTIN2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/MTIN2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/MTIN3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/MTIN3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/MODEIN0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/MODEIN0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/MODEIN1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/MODEIN1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/MODEIN2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/MODEIN2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/MODEIN3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/MODEIN3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/MODEIN4</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/MODEIN4</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/MODEIN5</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/MODEIN5</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/MODEIN6</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/MODEIN6</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/MODEIN7</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/MODEIN7</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/INFAKEL1_EN</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/INFAKEL1_EN</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~INFIFO_USE0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~INFIFO_USE0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~INFIFO_USE1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~INFIFO_USE1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~INFIFO_USE2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~INFIFO_USE2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~INFIFO_USE3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~INFIFO_USE3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/EFAIN0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/EFAIN0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/EFAIN1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/EFAIN1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/EFAIN2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/EFAIN2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/EFAIN3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/EFAIN3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~IDMB_FUL0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~IDMB_FUL0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~IDMB_FUL1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~IDMB_FUL1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~IDMB_FUL2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~IDMB_FUL2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~IDMB_FUL3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~IDMB_FUL3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/LED5</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/LED5</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/LED4</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/LED4</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/LED3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/LED3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/LED2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/LED2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/LED1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/LED1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_16</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_16</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_10</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_10</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_11</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_11</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_12</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_12</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_13</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_13</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_14</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_14</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_15</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_15</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_4</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_4</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_5</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_5</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_6</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_6</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_7</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_7</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_8</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_8</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_9</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_9</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L0_17</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L0_17</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/LED7</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/LED7</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/LED6</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/LED6</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/LED0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/LED0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL0STAT0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL0STAT0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL0STAT1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL0STAT1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL0STAT2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL0STAT2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL0STAT3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL0STAT3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL1STAT0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL1STAT0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL1STAT1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL1STAT1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL1STAT2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL1STAT2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL1STAT3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL1STAT3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL2STAT0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL2STAT0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL2STAT1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL2STAT1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL2STAT2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL2STAT2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL2STAT3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL2STAT3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL3STAT0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL3STAT0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL3STAT1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL3STAT1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL3STAT2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL3STAT2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RDCTRL3STAT3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RDCTRL3STAT3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_10</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_10</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_11</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_11</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_12</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_12</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_13</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_13</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_14</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_14</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_15</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_15</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_4</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_4</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_5</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_5</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_6</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_6</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_7</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_7</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_8</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_8</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_9</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_9</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_16</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_16</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1_17</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1_17</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/CLKIN40</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/CLKIN40</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/CKFB_IN</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/CKFB_IN</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~RDYIN0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~RDYIN0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~RDYIN1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~RDYIN1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~RDYIN2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~RDYIN2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/CK625IN</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/CK625IN</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/CKFB_OUT</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/CKFB_OUT</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/ORCLK</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/ORCLK</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IRCLK0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IRCLK0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/OWCLK</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/OWCLK</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/FIFO_CLK0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/FIFO_CLK0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/FIFO_CLK1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/FIFO_CLK1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/FIFO_CLK2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/FIFO_CLK2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/FIFO_CLK3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/FIFO_CLK3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IRCLK1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IRCLK1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/FCKIN_P</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/FCKIN_P</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/FCKIN_N</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/FCKIN_N</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~ILFF</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~ILFF</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~ILDOWN</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~ILDOWN</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~URESET</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~URESET</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~UTEST</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~UTEST</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/USF0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/USF0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/USF1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/USF1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/USF2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/USF2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/USF3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/USF3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/ILRL0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/ILRL0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/ILRL1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/ILRL1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/ILRL2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/ILRL2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/ILRL3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/ILRL3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/ILSF0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/ILSF0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/ILSF1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/ILSF1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/ILSF2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/ILSF2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/ILSF3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/ILSF3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~OUCTRL</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~OUCTRL</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~OUWEN</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~OUWEN</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~ARSTIN</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~ARSTIN</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TP_11</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TP_11</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TP_45</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TP_45</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXN1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXN1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXP1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXP1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RXN1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RXN1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RXP1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RXP1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXN0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXN0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXP0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXP0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RXN0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RXN0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RXP0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RXP0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXN_GBE</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXN_GBE</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXP_GBE</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXP_GBE</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RXN_GBE</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RXN_GBE</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RXP_GBE</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RXP_GBE</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TP_43</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TP_43</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~ISYSRST</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~ISYSRST</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TP_42</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TP_42</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TP_1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TP_1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TP_9</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TP_9</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TP_48</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TP_48</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/LINK_READY</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/LINK_READY</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TDOUT1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TDOUT1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/SBDATA</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/SBDATA</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TDSTRB</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TDSTRB</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TDOUT0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TDOUT0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~STOP_DATA</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~STOP_DATA</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~INSLNKWT_EN</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~INSLNKWT_EN</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/OEMPTY</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/OEMPTY</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~OHALF</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~OHALF</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~OPAE</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~OPAE</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~OPAF</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~OPAF</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/OFULL</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/OFULL</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/OFIBER_OK</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/OFIBER_OK</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~OREN</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~OREN</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN4</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN4</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN5</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN5</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN6</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN6</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN7</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN7</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN8</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN8</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN9</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN9</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN10</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN10</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN11</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN11</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN12</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN12</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN13</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN13</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN14</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN14</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN15</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN15</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN17</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN17</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/IN16</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/IN16</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/FOKOUT</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/FOKOUT</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DAV</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DAV</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/INPRSCL_SEL0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/INPRSCL_SEL0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/INPRSCL_SEL1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/INPRSCL_SEL1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/INPRSCL_SEL2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/INPRSCL_SEL2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/BC0OUT</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/BC0OUT</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/OUT_EVCNTRST</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/OUT_EVCNTRST</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/L1AOUT</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/L1AOUT</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/RAWL1A</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/RAWL1A</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/BUS0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/BUS0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/BUS1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/BUS1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/CLK40-2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/CLK40-2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/CLK40-0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/CLK40-0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/CLK40-1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/CLK40-1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/BUS2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/BUS2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/BUS3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/BUS3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/BUS4</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/BUS4</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/BUS5</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/BUS5</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/BUS6</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/BUS6</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/BUS7</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/BUS7</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/BUS8</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/BUS8</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/SCLKIN</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/SCLKIN</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/SDIN</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/SDIN</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN10</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN10</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN11</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN11</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN12</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN12</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN13</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN13</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN14</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN14</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN15</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN15</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN4</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN4</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN5</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN5</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN6</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN6</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN7</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN7</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN8</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN8</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/TXDIN9</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/TXDIN9</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN10</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN10</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN11</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN11</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN12</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN12</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN13</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN13</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN14</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN14</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN4</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN4</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN5</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN5</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN6</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN6</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN7</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN7</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN8</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN8</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~TXEN9</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~TXEN9</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~LD_RDY</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~LD_RDY</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~SEN6</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~SEN6</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DDUFMM0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DDUFMM0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~SENIN</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~SENIN</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/~AUTOSLD_EN</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/~AUTOSLD_EN</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL10</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL10</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL11</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL11</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL12</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL12</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL13</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL13</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL14</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL14</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL4</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL4</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL5</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL5</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL6</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL6</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL7</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL7</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL8</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL8</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/KILL9</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/KILL9</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DDUFMM3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DDUFMM3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DDUFMM1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DDUFMM1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/DDUFMM2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/DDUFMM2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/REALFMM0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/REALFMM0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/REALFMM1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/REALFMM1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/REALFMM2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/REALFMM2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/REALFMM3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/REALFMM3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/$1I3030/~FOE0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/$1I3030/~FOE0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/$1I3030/~FOE1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/$1I3030/~FOE1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/$1I3030/~FOE2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/$1I3030/~FOE2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/$1I3030/~FOE3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/$1I3030/~FOE3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/$1I3030/~RENFIFO0</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/$1I3030/~RENFIFO0</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/$1I3030/~RENFIFO1</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/$1I3030/~RENFIFO1</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/$1I3030/~RENFIFO2</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/$1I3030/~RENFIFO2</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="889" delta="unknown" >Pad net &apos;<arg fmt="%s" index="1">$1I135/$1I3030/~RENFIFO3</arg>&apos; is not connected to an external port in this design.  A new port &apos;<arg fmt="%s" index="2">$1I135/$1I3030/~RENFIFO3</arg>&apos; has been added and is connected to this signal.
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">~LED1.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/~LED1</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">~LED2.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/~LED2</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">~LED3.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/~LED3</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">~LED4.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/~LED4</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">~LED5.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/~LED5</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_16.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_16</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_17.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_17</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_10.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_10</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_11.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_11</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_12.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_12</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_13.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_13</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_14.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_14</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_15.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_15</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_1.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_1</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_2.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_2</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_3.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_3</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_4.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_4</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_5.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_5</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_6.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_6</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_7.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_7</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_8.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_8</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA0_9.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA0_9</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_10.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_10</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_11.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_11</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_12.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_12</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_13.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_13</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_14.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_14</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_15.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_15</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_1.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_1</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_2.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_2</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_3.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_3</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_4.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_4</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_5.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_5</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_6.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_6</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_7.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_7</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_8.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_8</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_9.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_9</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">~LED0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/~LED0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">~LED6.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/~LED6</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">~LED7.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/~LED7</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">LA1_16.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/LA1_16</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TP0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/TP0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TP1.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/TP1</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TP2.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/TP2</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TP3.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/TP3</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TP5.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/TP5</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TP6.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/TP6</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN10.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN10</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN11.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN11</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN12.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN12</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN13.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN13</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN14.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN14</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN1.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN1</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN2.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN2</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN3.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN3</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN4.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN4</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN5.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN5</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN6.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN6</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN7.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN7</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN8.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN8</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRCIN9.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/CRCIN9</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD42.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD42</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD43.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD43</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD44.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD44</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD45.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD45</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD46.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD46</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD47.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD47</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD48.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD48</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD52.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD52</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD49.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD49</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD53.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD53</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD50.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD50</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD54.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD54</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD51.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD51</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD55.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD55</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD32.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD32</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD33.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD33</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD34.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD34</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD35.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD35</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD36.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD36</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD37.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD37</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD38.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD38</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD39.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD39</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD40.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD40</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD41.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD41</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD30.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD30</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD31.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD31</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD20.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD20</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD21.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD21</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD22.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD22</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD23.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD23</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD24.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD24</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD25.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD25</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD26.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD26</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD27.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD27</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD28.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD28</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD29.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD29</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD1.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD1</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD2.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD2</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD3.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD3</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD10.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD10</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD11.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD11</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD12.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD12</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD13.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD13</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD14.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD14</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD15.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD15</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD4.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD4</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD5.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD5</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD6.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD6</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD7.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD7</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD8.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD8</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD9.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD9</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD16.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD16</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD17.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD17</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD18.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD18</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD19.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD19</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD58.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD58</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD59.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD59</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD60.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD60</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD61.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD61</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD62.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD62</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD63.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD63</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD56.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD56</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OD57.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/OD57</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">O0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$6I1798/O0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">O0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$6I1894/O0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">O0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$6I1915/O0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">O0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$6I2187/O0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">O3.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$6I2187/O3</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TPOUT0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/TPOUT0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TPOUT1.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/TPOUT1</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TPOUT2.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/TPOUT2</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TPOUT3.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/TPOUT3</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TPOUT4.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/TPOUT4</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TPOUT5.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/TPOUT5</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TPOUT6.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/TPOUT6</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">TPOUT7.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/TPOUT7</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRC0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/CRC0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRC1.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/CRC1</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRC2.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/CRC2</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRC3.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/CRC3</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRC4.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/CRC4</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRC5.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/CRC5</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRC6.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/CRC6</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">CRC7.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/CRC7</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">IN8BIT0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/IN8BIT0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">IN8BIT1.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/IN8BIT1</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">IN8BIT2.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/IN8BIT2</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">IN8BIT3.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/IN8BIT3</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">IN8BIT4.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/IN8BIT4</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">IN8BIT5.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/IN8BIT5</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">IN8BIT6.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/IN8BIT6</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">IN8BIT7.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/IN8BIT7</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">T_OUT0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/T_OUT0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">T_OUT1.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/T_OUT1</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">T_OUT2.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/T_OUT2</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">T_OUT3.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/T_OUT3</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">T_OUT4.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/T_OUT4</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">T_OUT5.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/T_OUT5</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">T_OUT6.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/T_OUT6</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">T_OUT7.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/T_OUT7</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">KIN-1.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/KIN-1</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OUT0.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/$1I3366/OUT0</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OUT1.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/$1I3366/OUT1</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OUT2.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/$1I3366/OUT2</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OUT3.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/$1I3366/OUT3</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OUT4.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/$1I3366/OUT4</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OUT5.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/$1I3366/OUT5</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OUT6.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/$1I3366/OUT6</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">OUT7.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/$1I3366/OUT7</arg>&apos;
+</msg>
+
+<msg type="info" file="NgdBuild" num="928" delta="unknown" >A pullup &apos;<arg fmt="%s" index="1">KSET.PULLUP</arg>&apos; was added to net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/$1I3366/KSET</arg>&apos;
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="unknown" >FF primitive &apos;<arg fmt="%s" index="1">$1I135/$1I3030/$13I2844/BU187</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="unknown" >FF primitive &apos;<arg fmt="%s" index="1">$1I135/$1I3030/$13I2844/BU414</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="440" delta="unknown" >FF primitive &apos;<arg fmt="%s" index="1">$1I135/$1I3030/$13I2844/BU463</arg>&apos; has unconnected output pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="439" delta="unknown" >FF primitive &apos;<arg fmt="%s" index="1">$1I135/$9I2624</arg>&apos; has unconnected input pin
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/~DLL_LOCKFB</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/RBXR</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$1I3030/RXER0</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$1I3030/$3I4013/D3</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/LL1ST_TRAIL</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/TMB_L1ERR</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/ALCT_L1ERR</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/SUM_TFERR</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/$12I4621/D2</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$1I3031/$12I4621/D3</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I1798/I0</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I1894/I0</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I1915/I0</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I2013/DOUT32</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I2013/DOUT33</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I2013/DOUT34</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I2013/DOUT35</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I2013/$1I4575/I11</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I2037/DOUT32</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I2037/DOUT33</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I2037/DOUT34</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I2037/DOUT35</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I2037/$1I4575/I11</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I2187/I0</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I2187/I2</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$6I2187/I3</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/$1I4078/D2</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="unknown" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">$1I135/$7I1330/$1I4078/D3</arg>&apos; has no driver
+</msg>
+
+</messages>
+

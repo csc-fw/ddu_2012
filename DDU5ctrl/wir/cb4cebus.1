@@ -1,0 +1,79 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 147015044400 cb4ce
+DW cb4cebus
+|Q virtex:and2 1
+AS virtex:and2 LEVEL=XILINX
+AS virtex:and2 DEVICE=AND
+AS virtex:and2 LIBVER=2.0.0
+AS virtex:and2 PINORDER=I0 I1 O
+AP virtex:and2 1 PINTYPE=IN
+AP virtex:and2 2 PINTYPE=IN
+AP virtex:and2 3 PINTYPE=OUT
+|Q virtex:ftce 1
+AS virtex:ftce @INIT=0
+AS virtex:ftce LIBVER=2.0.0
+AS virtex:ftce LEVEL=MXILINX
+AS virtex:ftce PINORDER=C CE CLR Q T
+AP virtex:ftce 1 PINTYPE=IN
+AP virtex:ftce 2 PINTYPE=IN
+AP virtex:ftce 3 PINTYPE=IN
+AP virtex:ftce 4 PINTYPE=OUT
+AP virtex:ftce 5 PINTYPE=IN
+|Q virtex:vcc 1
+AS virtex:vcc LEVEL=XILINX
+AS virtex:vcc LIBVER=2.0.0
+AS virtex:vcc PINORDER=P
+AP virtex:vcc 1 PINTYPE=OUT
+|Q virtex:and3 1
+AS virtex:and3 LEVEL=XILINX
+AS virtex:and3 DEVICE=AND
+AS virtex:and3 LIBVER=2.0.0
+AS virtex:and3 PINORDER=I0 I1 I2 O
+AP virtex:and3 1 PINTYPE=IN
+AP virtex:and3 2 PINTYPE=IN
+AP virtex:and3 3 PINTYPE=IN
+AP virtex:and3 4 PINTYPE=OUT
+|Q virtex:and4 1
+AS virtex:and4 LEVEL=XILINX
+AS virtex:and4 DEVICE=AND
+AS virtex:and4 LIBVER=2.0.0
+AS virtex:and4 PINORDER=I0 I1 I2 I3 O
+AP virtex:and4 1 PINTYPE=IN
+AP virtex:and4 2 PINTYPE=IN
+AP virtex:and4 3 PINTYPE=IN
+AP virtex:and4 4 PINTYPE=IN
+AP virtex:and4 5 PINTYPE=OUT
+AN Q[3:0] VLBUSISONSHEET=1
+W virtex:and2 $1I33
+I $1I33 virtex:and2 Q1 Q0 T2 
+W virtex:ftce $1I40
+I $1I40 virtex:ftce C CE CLR Q0 $1N55 LABEL=Q0`
+W virtex:ftce $1I41
+I $1I41 virtex:ftce C CE CLR Q1 Q0 LABEL=Q1`
+W virtex:ftce $1I42
+I $1I42 virtex:ftce C CE CLR Q2 T2 LABEL=Q2`
+W virtex:ftce $1I43
+I $1I43 virtex:ftce C CE CLR Q3 T3 LABEL=Q3`
+W virtex:vcc $1I58
+I $1I58 virtex:vcc $1N55 
+W virtex:and3 $1I32
+I $1I32 virtex:and3 Q2 Q1 Q0 T3 
+W virtex:and4 $1I31
+I $1I31 virtex:and4 Q3 Q2 Q1 Q0 TC 
+W virtex:and2 $1I67
+I $1I67 virtex:and2 CE TC CEO 
+P ? CEO
+I CEO ? CEO
+P ? TC
+I TC ? TC
+P ? C
+I C ? C
+P ? CLR
+I CLR ? CLR
+P ? CE
+I CE ? CE
+P ? Q[3:0]
+I Q[3:0] ? Q[3:0]
+EW

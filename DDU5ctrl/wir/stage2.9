@@ -1,0 +1,299 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 7468887480 tst1
+DW stage2
+SA @DATETIME=8-12-2008_15:27 
+SA @NAME=STAGE2 
+SA @SHEET=9 
+|Q virtex2p:or2b1 1
+AS virtex2p:or2b1 LEVEL=XILINX
+AS virtex2p:or2b1 DEVICE=OR
+AS virtex2p:or2b1 LIBVER=2.0.0
+AS virtex2p:or2b1 PINORDER=I0 I1 O
+AP virtex2p:or2b1 1 PINTYPE=IN
+AP virtex2p:or2b1 1 PARAM=INV
+AP virtex2p:or2b1 2 PINTYPE=IN
+AP virtex2p:or2b1 3 PINTYPE=OUT
+|Q virtex2p:and4b2 1
+AS virtex2p:and4b2 DEVICE=AND
+AS virtex2p:and4b2 LEVEL=XILINX
+AS virtex2p:and4b2 LIBVER=2.0.0
+AS virtex2p:and4b2 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:and4b2 1 PINTYPE=IN
+AP virtex2p:and4b2 1 PARAM=INV
+AP virtex2p:and4b2 2 PINTYPE=IN
+AP virtex2p:and4b2 2 PARAM=INV
+AP virtex2p:and4b2 3 PINTYPE=IN
+AP virtex2p:and4b2 4 PINTYPE=IN
+AP virtex2p:and4b2 5 PINTYPE=OUT
+|Q virtex2p:vcc 1
+AS virtex2p:vcc LEVEL=XILINX
+AS virtex2p:vcc LIBVER=2.0.0
+AS virtex2p:vcc PINORDER=P
+AP virtex2p:vcc 1 PINTYPE=OUT
+|Q virtex:or4 1
+AS virtex:or4 DEVICE=OR
+AS virtex:or4 LEVEL=XILINX
+AS virtex:or4 LIBVER=2.0.0
+AS virtex:or4 PINORDER=I0 I1 I2 I3 O
+AP virtex:or4 1 PINTYPE=IN
+AP virtex:or4 2 PINTYPE=IN
+AP virtex:or4 3 PINTYPE=IN
+AP virtex:or4 4 PINTYPE=IN
+AP virtex:or4 5 PINTYPE=OUT
+|Q virtex:fdce 1
+AS virtex:fdce @INIT=0
+AS virtex:fdce LIBVER=2.0.0
+AS virtex:fdce LEVEL=XILINX
+AS virtex:fdce DEVICE=DFF
+AS virtex:fdce PINORDER=C CE CLR D Q
+AP virtex:fdce 1 PINTYPE=IN
+AP virtex:fdce 2 PINTYPE=IN
+AP virtex:fdce 3 PINTYPE=IN
+AP virtex:fdce 4 PINTYPE=IN
+AP virtex:fdce 5 PINTYPE=OUT
+|Q virtex:or2 1
+AS virtex:or2 DEVICE=OR
+AS virtex:or2 LEVEL=XILINX
+AS virtex:or2 LIBVER=2.0.0
+AS virtex:or2 PINORDER=I0 I1 O
+AP virtex:or2 1 PINTYPE=IN
+AP virtex:or2 2 PINTYPE=IN
+AP virtex:or2 3 PINTYPE=OUT
+|Q virtex:buf 1
+AS virtex:buf LIBVER=2.0.0
+AS virtex:buf DEVICE=BUF
+AS virtex:buf LEVEL=XILINX
+AS virtex:buf PINORDER=I O
+AP virtex:buf 1 PINTYPE=IN
+AP virtex:buf 2 PINTYPE=OUT
+|Q virtex2p:or4b1 1
+AS virtex2p:or4b1 LEVEL=XILINX
+AS virtex2p:or4b1 DEVICE=OR
+AS virtex2p:or4b1 LIBVER=2.0.0
+AS virtex2p:or4b1 PINORDER=I0 I1 I2 I3 O
+AP virtex2p:or4b1 1 PARAM=INV
+AP virtex2p:or4b1 1 PINTYPE=IN
+AP virtex2p:or4b1 2 PINTYPE=IN
+AP virtex2p:or4b1 3 PINTYPE=IN
+AP virtex2p:or4b1 4 PINTYPE=IN
+AP virtex2p:or4b1 5 PINTYPE=OUT
+|Q virtex2p:or3 1
+AS virtex2p:or3 LEVEL=XILINX
+AS virtex2p:or3 DEVICE=OR
+AS virtex2p:or3 LIBVER=2.0.0
+AS virtex2p:or3 PINORDER=I0 I1 I2 O
+AP virtex2p:or3 1 PINTYPE=IN
+AP virtex2p:or3 2 PINTYPE=IN
+AP virtex2p:or3 3 PINTYPE=IN
+AP virtex2p:or3 4 PINTYPE=OUT
+|Q virtex:or3 1
+AS virtex:or3 LEVEL=XILINX
+AS virtex:or3 DEVICE=OR
+AS virtex:or3 LIBVER=2.0.0
+AS virtex:or3 PINORDER=I0 I1 I2 O
+AP virtex:or3 1 PINTYPE=IN
+AP virtex:or3 2 PINTYPE=IN
+AP virtex:or3 3 PINTYPE=IN
+AP virtex:or3 4 PINTYPE=OUT
+|Q virtex2p:or2 1
+AS virtex2p:or2 DEVICE=OR
+AS virtex2p:or2 LEVEL=XILINX
+AS virtex2p:or2 LIBVER=2.0.0
+AS virtex2p:or2 PINORDER=I0 I1 O
+AP virtex2p:or2 1 PINTYPE=IN
+AP virtex2p:or2 2 PINTYPE=IN
+AP virtex2p:or2 3 PINTYPE=OUT
+|Q virtex:and2 1
+AS virtex:and2 LEVEL=XILINX
+AS virtex:and2 DEVICE=AND
+AS virtex:and2 LIBVER=2.0.0
+AS virtex:and2 PINORDER=I0 I1 O
+AP virtex:and2 1 PINTYPE=IN
+AP virtex:and2 2 PINTYPE=IN
+AP virtex:and2 3 PINTYPE=OUT
+|Q virtex:inv 1
+AS virtex:inv DEVICE=INV
+AS virtex:inv LIBVER=2.0.0
+AS virtex:inv LEVEL=XILINX
+AS virtex:inv PINORDER=I O
+AP virtex:inv 1 PINTYPE=IN
+AP virtex:inv 2 PINTYPE=OUT
+|Q virtex2p:sop4b2b 1
+AS virtex2p:sop4b2b LEVEL=MXILINX
+AS virtex2p:sop4b2b LIBVER=2.0.0
+AS virtex2p:sop4b2b PINORDER=I0 I1 I2 I3 O
+AP virtex2p:sop4b2b 1 PINTYPE=IN
+AP virtex2p:sop4b2b 2 PINTYPE=IN
+AP virtex2p:sop4b2b 3 PINTYPE=IN
+AP virtex2p:sop4b2b 4 PINTYPE=IN
+AP virtex2p:sop4b2b 5 PINTYPE=OUT
+|Q virtex:fdc 1
+AS virtex:fdc LIBVER=2.0.0
+AS virtex:fdc LEVEL=XILINX
+AS virtex:fdc @INIT=0
+AS virtex:fdc DEVICE=DFF
+AS virtex:fdc PINORDER=C CLR D Q
+AP virtex:fdc 1 PINTYPE=IN
+AP virtex:fdc 2 PINTYPE=IN
+AP virtex:fdc 3 PINTYPE=IN
+AP virtex:fdc 4 PINTYPE=OUT
+AN ERC[15:0] VLBUSISONSHEET=9
+W virtex2p:or2b1 $9I4474
+I $9I4474 virtex2p:or2b1 TRG_L1OK LTMB_L1ERR T_L1ER_FB 
+W virtex2p:and4b2 $9I4433
+I $9I4433 virtex2p:and4b2 TF_SIG+1 LDMB_CRC_ERR COMP_DCRC+1 ALCT-TIMEOUT-1 ALCT-TIMEOUT 
+W virtex2p:vcc $9I4367
+I $9I4367 virtex2p:vcc $9N4366 
+W virtex:or4 $9I4339
+I $9I4339 virtex:or4 ALCT-SUM 2ND_TMB_TR 2ND_ALCT_TR TALCT_ERR-0 TALCT_ERR 
+W virtex:fdce $9I4232
+I $9I4232 virtex:fdce CLK ALCT_L1CHK RST_BOE A_L1ER_FB LALCT_L1ERR 
+W virtex:fdce $9I4236
+I $9I4236 virtex:fdce CLK LALCT_L1ERR RST LALCT_L1ERR HALCT_L1ERR 
+W virtex:fdce $9I4199
+I $9I4199 virtex:fdce CLK TALCT_ERR RST_BOE $9N4364 LALCT_ERR 
+W virtex:fdce $9I4205
+I $9I4205 virtex:fdce CLK TTMB_ERR RST_BOE $9N4366 LTMB_ERR 
+W virtex:fdce $9I4165
+I $9I4165 virtex:fdce CLK LDO_ALCT RST_BOE MISS_A_TR MISSED_ALCT_TRAIL 
+W virtex:or2 $9I4168
+I $9I4168 virtex:or2 MISS_TRG_TRAIL MISSED_TMB_TRAIL MISS_T_TR 
+W virtex:fdce $9I4140
+I $9I4140 virtex:fdce CLK LDO_TMB LNEW_TFDMB TTMB_ERR-1 TTMB_ERR-0 
+W virtex:buf $9I3869
+I $9I3869 virtex:buf HTMB_ERR ERC0 
+W virtex:buf $9I3870
+I $9I3870 virtex:buf HMISS_TMB_TRAIL ERC1 
+W virtex:buf $9I3871
+I $9I3871 virtex:buf HTMB_WCERR ERC2 
+W virtex:buf $9I3872
+I $9I3872 virtex:buf HTMB_L1ERR ERC4 
+W virtex:buf $9I3873
+I $9I3873 virtex:buf L2ND_TMB_TR ERC5 
+W virtex:buf $9I3874
+I $9I3874 virtex:buf TMB_TRAIL_DONE ERC6 
+W virtex:buf $9I3875
+I $9I3875 virtex:buf DMB_CRIT_ERR ERC7 
+W virtex:buf $9I3876
+I $9I3876 virtex:buf HALCT_ERR ERC8 
+W virtex:buf $9I3877
+I $9I3877 virtex:buf HMISS_ALCT_TRAIL ERC9 
+W virtex:buf $9I3878
+I $9I3878 virtex:buf HALCT_WCERR ERC10 
+W virtex:buf $9I3879
+I $9I3879 virtex:buf HALCT_CRCERR ERC11 
+W virtex:buf $9I3880
+I $9I3880 virtex:buf HALCT_L1ERR ERC12 
+W virtex:buf $9I3881
+I $9I3881 virtex:buf L2ND_ALCT_TR ERC13 
+W virtex:buf $9I3882
+I $9I3882 virtex:buf ALCT_TRAIL_DONE ERC14 
+W virtex:buf $9I3883
+I $9I3883 virtex:buf LTRG_ERR ERC15 
+W virtex:buf $9I3884
+I $9I3884 virtex:buf HTMB_CRCERR ERC3 
+W virtex:fdce $9I4107
+I $9I4107 virtex:fdce CLK LDO_ALCT LNEW_TFDMB TALCT_ERR-1 TALCT_ERR-0 
+W virtex:fdce $9I4178
+I $9I4178 virtex:fdce CLK MISSED_TMB_TRAIL RST MISSED_TMB_TRAIL HMISS_TMB_TRAIL 
+W virtex:fdce $9I4177
+I $9I4177 virtex:fdce CLK MISSED_ALCT_TRAIL RST MISSED_ALCT_TRAIL HMISS_ALCT_TRAIL 
+W virtex2p:or4b1 $9I4247
+I $9I4247 virtex2p:or4b1 TRG_L1OK WC_ERR MISS_ALCT_TRAIL TALCT_ERR TALCT_ERR-1 
+W virtex2p:or4b1 $9I4246
+I $9I4246 virtex2p:or4b1 TRG_L1OK WC_ERR MISS_TRG_TRAIL TTMB_ERR TTMB_ERR-1 
+W virtex:or2 $9I4313
+I $9I4313 virtex:or2 MISS_TRG_TRAIL TMB_TRAIL_DONE-1 MISS_ALCT_TRAIL 
+W virtex2p:or3 $9I4318
+I $9I4318 virtex2p:or3 MISS_TRG_TRAIL TMB_TRAIL_DONE-1 MISSED_ALCT_TRAIL MISS_A_TR 
+W virtex:fdce $9I4167
+I $9I4167 virtex:fdce CLK LDO_TMB RST_BOE MISS_T_TR MISSED_TMB_TRAIL 
+W virtex:fdce $9I4235
+I $9I4235 virtex:fdce CLK LTMB_L1ERR RST LTMB_L1ERR HTMB_L1ERR 
+W virtex:fdce $9I4329
+I $9I4329 virtex:fdce CLK 2ND_ALCT_TR RST_BOE 2ND_ALCT_TR L2ND_ALCT_TR 
+W virtex:fdce $9I4328
+I $9I4328 virtex:fdce CLK 2ND_TMB_TR RST_BOE 2ND_TMB_TR L2ND_TMB_TR 
+W virtex:or4 $9I4336
+I $9I4336 virtex:or4 TMB-SUM 2ND_TMB_TR 2ND_ALCT_TR TTMB_ERR-0 TTMB_ERR 
+W virtex:or4 $9I4350
+I $9I4350 virtex:or4 LTMB_CRCERR LTMB_WCERR MISSED_TMB_TRAIL TMB_L1ERR TMB_ERR 
+W virtex:or4 $9I4351
+I $9I4351 virtex:or4 LALCT_CRCERR LALCT_WCERR MISSED_ALCT_TRAIL ALCT_L1ERR ALCT_ERR 
+W virtex2p:vcc $9I4363
+I $9I4363 virtex2p:vcc $9N4364 
+W virtex2p:vcc $9I4371
+I $9I4371 virtex2p:vcc $9N4370 
+W virtex2p:vcc $9I4369
+I $9I4369 virtex2p:vcc $9N4368 
+W virtex:fdce $9I4211
+I $9I4211 virtex:fdce CLK TTMB_ERR RST $9N4368 HTMB_ERR 
+W virtex:fdce $9I4210
+I $9I4210 virtex:fdce CLK TALCT_ERR RST $9N4370 HALCT_ERR 
+W virtex:or3 $9I4245
+I $9I4245 virtex:or3 BAD_TRG_TRAIL LTMB_ERR LALCT_ERR LTRG_ERR 
+W virtex:or3 $9I4406
+I $9I4406 virtex:or3 ALCT-FUL ALCT-TIMEOUT TALCT_CRCERR ALCT-SUM 
+W virtex:or3 $9I4411
+I $9I4411 virtex:or3 TMB-FUL TMB-TIMEOUT TTMB_CRCERR TMB-SUM 
+W virtex2p:or2 $9I4389
+I $9I4389 virtex2p:or2 DMB_TIMEOUT12 DMB_TIMEOUT5 TMB-TIMEOUT-1 
+W virtex2p:and4b2 $9I4432
+I $9I4432 virtex2p:and4b2 TF_SIG+1 LDMB_CRC_ERR COMP_DCRC+1 TMB-TIMEOUT-1 TMB-TIMEOUT 
+W virtex:fdce $9I4136
+I $9I4136 virtex:fdce CLK CK_TCRC LNEW_TFDMB TCRC_ERR TTMB_CRCERR 
+W virtex:fdce $9I4120
+I $9I4120 virtex:fdce CLK CK_ACRC LNEW_TFDMB TCRC_ERR TALCT_CRCERR 
+W virtex:and2 $9I4422
+I $9I4422 virtex:and2 LLTRG_HDR+1 LDO_TMB TMB_L1CHK 
+W virtex:or2 $9I4242
+I $9I4242 virtex:or2 LALCT_L1ERR LTMB_L1ERR LTRG_L1ERR 
+W virtex:fdce $9I4231
+I $9I4231 virtex:fdce CLK TMB_L1CHK RST_BOE T_L1ER_FB LTMB_L1ERR 
+W virtex:and2 $9I4421
+I $9I4421 virtex:and2 LLTRG_HDR+1 LDO_ALCT ALCT_L1CHK 
+W virtex2p:or2b1 $9I4465
+I $9I4465 virtex2p:or2b1 TRG_L1OK LALCT_L1ERR A_L1ER_FB 
+W virtex:fdce $9I4487
+I $9I4487 virtex:fdce CLK ALCT_L1CHK LNEW_DMB ~TRG_L1OK TALCT_L1ERR 
+W virtex:inv $9I4489
+I $9I4489 virtex:inv TRG_L1OK ~TRG_L1OK 
+W virtex:fdce $9I4488
+I $9I4488 virtex:fdce CLK TMB_L1CHK LNEW_DMB ~TRG_L1OK TTMB_L1ERR 
+W virtex2p:sop4b2b $9I4277
+I $9I4277 virtex2p:sop4b2b ALCT_L1ERR+1 TALCT_L1ERR TMB_L1ERR+1 TTMB_L1ERR TTRG_L1ERR-1 
+W virtex:fdc $9I4281
+I $9I4281 virtex:fdc CLK LNEW_DMB TTRG_L1ERR-1 TTRG_L1ERR 
+W virtex:fdc $9I4292
+I $9I4292 virtex:fdc CLK LNEW_DMB TTMB_L1ERR TMB_L1ERR+1 
+W virtex:fdc $9I4290
+I $9I4290 virtex:fdc CLK LNEW_DMB TALCT_L1ERR ALCT_L1ERR+1 
+W virtex2p:or2 $9I4403
+I $9I4403 virtex2p:or2 DMB_TIMEOUT13 DMB_TIMEOUT6 ALCT-TIMEOUT-1 
+W virtex2p:or2 $9I4495
+I $9I4495 virtex2p:or2 TALCT_L1ERR TTMB_L1ERR TRIG_L1ERR 
+P ? CLK
+I CLK ? CLK
+P ? ERC[15:0]
+I ERC[15:0] ? ERC[15:0]
+P ? DMB_CRIT_ERR
+I DMB_CRIT_ERR ? DMB_CRIT_ERR
+P ? TTMB_ERR
+I TTMB_ERR ? TTMB_ERR
+P ? TALCT_ERR
+I TALCT_ERR ? TALCT_ERR
+P ? RST
+I RST ? RST
+P ? LTRG_ERR
+I LTRG_ERR ? LTRG_ERR
+P ? LALCT_ERR
+I LALCT_ERR ? LALCT_ERR
+P ? LTMB_ERR
+I LTMB_ERR ? LTMB_ERR
+P ? BAD_TRG_TRAIL
+I BAD_TRG_TRAIL ? BAD_TRG_TRAIL
+P ? LTRG_L1ERR
+I LTRG_L1ERR ? LTRG_L1ERR
+EW

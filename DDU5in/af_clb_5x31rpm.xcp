@@ -1,0 +1,22 @@
+# Xilinx CORE Generator 5.2.03i
+SELECT Asynchronous_FIFO Virtex2P Xilinx,_Inc. 5.0
+CSET read_error_sense = active_high
+CSET read_count_width = 2
+CSET write_acknowledge = false
+CSET create_rpm = true
+CSET read_acknowledge = false
+CSET read_count = false
+CSET write_error = false
+CSET almost_full_flag = false
+CSET almost_empty_flag = false
+CSET memory_type = distributed
+CSET read_error = false
+CSET fifo_depth = 31
+CSET component_name = af_clb_5x31rpm
+CSET input_data_width = 5
+CSET write_count = false
+CSET write_acknowledge_sense = active_high
+CSET read_acknowledge_sense = active_high
+CSET write_error_sense = active_high
+CSET write_count_width = 2
+GENERATE

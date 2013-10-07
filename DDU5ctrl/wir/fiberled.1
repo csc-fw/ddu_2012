@@ -1,0 +1,113 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 291696349900 comp16c
+DW fiberled
+|Q virtex2p:vcc 1
+AS virtex2p:vcc LEVEL=XILINX
+AS virtex2p:vcc LIBVER=2.0.0
+AS virtex2p:vcc PINORDER=P
+AP virtex2p:vcc 1 PINTYPE=OUT
+|Q virtex2p:fdc 1
+AS virtex2p:fdc LIBVER=2.0.0
+AS virtex2p:fdc LEVEL=XILINX
+AS virtex2p:fdc @INIT=0
+AS virtex2p:fdc DEVICE=DFF
+AS virtex2p:fdc PINORDER=C CLR D Q
+AP virtex2p:fdc 1 PINTYPE=IN
+AP virtex2p:fdc 2 PINTYPE=IN
+AP virtex2p:fdc 3 PINTYPE=IN
+AP virtex2p:fdc 4 PINTYPE=OUT
+|Q virtex2p:sop3b1a 1
+AS virtex2p:sop3b1a LEVEL=MXILINX
+AS virtex2p:sop3b1a LIBVER=2.0.0
+AS virtex2p:sop3b1a PINORDER=I0 I1 I2 O
+AP virtex2p:sop3b1a 1 PINTYPE=IN
+AP virtex2p:sop3b1a 2 PINTYPE=IN
+AP virtex2p:sop3b1a 3 PINTYPE=IN
+AP virtex2p:sop3b1a 4 PINTYPE=OUT
+|Q virtex2p:or2b1 1
+AS virtex2p:or2b1 LEVEL=XILINX
+AS virtex2p:or2b1 DEVICE=OR
+AS virtex2p:or2b1 LIBVER=2.0.0
+AS virtex2p:or2b1 PINORDER=I0 I1 O
+AP virtex2p:or2b1 1 PINTYPE=IN
+AP virtex2p:or2b1 1 PARAM=INV
+AP virtex2p:or2b1 2 PINTYPE=IN
+AP virtex2p:or2b1 3 PINTYPE=OUT
+|Q virtex2p:inv 1
+AS virtex2p:inv DEVICE=INV
+AS virtex2p:inv LIBVER=2.0.0
+AS virtex2p:inv LEVEL=XILINX
+AS virtex2p:inv PINORDER=I O
+AP virtex2p:inv 1 PINTYPE=IN
+AP virtex2p:inv 2 PINTYPE=OUT
+|Q virtex2p:sop3 1
+AS virtex2p:sop3 LEVEL=MXILINX
+AS virtex2p:sop3 LIBVER=2.0.0
+AS virtex2p:sop3 PINORDER=I0 I1 I2 O
+AP virtex2p:sop3 1 PINTYPE=IN
+AP virtex2p:sop3 2 PINTYPE=IN
+AP virtex2p:sop3 3 PINTYPE=IN
+AP virtex2p:sop3 4 PINTYPE=OUT
+|Q virtex2p:xnor2 1
+AS virtex2p:xnor2 DEVICE=XNOR
+AS virtex2p:xnor2 LEVEL=XILINX
+AS virtex2p:xnor2 LIBVER=2.0.0
+AS virtex2p:xnor2 PINORDER=I0 I1 O
+AP virtex2p:xnor2 1 PINTYPE=IN
+AP virtex2p:xnor2 2 PINTYPE=IN
+AP virtex2p:xnor2 3 PARAM=INV
+AP virtex2p:xnor2 3 PINTYPE=OUT
+|Q virtex2p:ftc 1
+AS virtex2p:ftc LEVEL=MXILINX
+AS virtex2p:ftc @INIT=0
+AS virtex2p:ftc LIBVER=2.0.0
+AS virtex2p:ftc PINORDER=C CLR Q T
+AP virtex2p:ftc 1 PINTYPE=IN
+AP virtex2p:ftc 2 PINTYPE=IN
+AP virtex2p:ftc 3 PINTYPE=OUT
+AP virtex2p:ftc 4 PINTYPE=IN
+W virtex2p:vcc $1I2470
+I $1I2470 virtex2p:vcc $1N2471 
+W virtex2p:fdc $1I2429
+I $1I2429 virtex2p:fdc FBLINK CLR_DVLED LRXDV DV_LED 
+W virtex2p:sop3b1a $1I2436
+I $1I2436 virtex2p:sop3b1a DV_LED LRXDV RXDV LOOP_RXDV 
+W virtex2p:fdc $1I2447
+I $1I2447 virtex2p:fdc CLK RST LOOP_RXDV LRXDV 
+W virtex2p:or2b1 $1I2450
+I $1I2450 virtex2p:or2b1 FOK RST CLR_DVLED 
+W virtex2p:inv $1I2454
+I $1I2454 virtex2p:inv DV_LED ~DV_LED 
+W virtex2p:inv $1I2452
+I $1I2452 virtex2p:inv FOK_LED ~FOK_LED 
+W virtex2p:sop3 $1I2463
+I $1I2463 virtex2p:sop3 FOK LFOK BLINK FOK_LED 
+W virtex2p:xnor2 $1I2464
+I $1I2464 virtex2p:xnor2 LFOK FOK MATCH 
+W virtex2p:ftc $1I2437
+I $1I2437 virtex2p:ftc BCLK MATCH BLINK $1N2471 
+P ? DV_LED
+I DV_LED ? DV_LED
+P ? LFOK
+I LFOK ? LFOK
+P ? FOK
+I FOK ? FOK
+P ? ~DV_LED
+I ~DV_LED ? ~DV_LED
+P ? ~FOK_LED
+I ~FOK_LED ? ~FOK_LED
+P ? CLK
+I CLK ? CLK
+P ? RST
+I RST ? RST
+P ? FBLINK
+I FBLINK ? FBLINK
+P ? RXDV
+I RXDV ? RXDV
+P ? BCLK
+I BCLK ? BCLK
+P ? FOK_LED
+I FOK_LED ? FOK_LED
+EW

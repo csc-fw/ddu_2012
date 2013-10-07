@@ -1,0 +1,49 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 166372473500 ofddrcpe_33
+DW ofddrcpe_33
+|Q virtex2p:fddrcpe 1
+AS virtex2p:fddrcpe IOB=TRUE
+AS virtex2p:fddrcpe LIBVER=2.0.0
+AS virtex2p:fddrcpe LEVEL=XILINX
+AS virtex2p:fddrcpe @INIT=0
+AS virtex2p:fddrcpe PINORDER=C0 C1 CE CLR D0 D1 PRE Q
+AP virtex2p:fddrcpe 1 PINTYPE=IN
+AP virtex2p:fddrcpe 2 PINTYPE=IN
+AP virtex2p:fddrcpe 3 PINTYPE=IN
+AP virtex2p:fddrcpe 4 PINTYPE=IN
+AP virtex2p:fddrcpe 5 PINTYPE=IN
+AP virtex2p:fddrcpe 6 PINTYPE=IN
+AP virtex2p:fddrcpe 7 PINTYPE=IN
+AP virtex2p:fddrcpe 8 PINTYPE=OUT
+|Q virtex2p:obuf 1
+AS virtex2p:obuf LIBVER=2.0.0
+AS virtex2p:obuf LEVEL=XILINX
+AS virtex2p:obuf IOSTANDARD=LVCMOS25
+AS virtex2p:obuf SLEW=SLOW
+AS virtex2p:obuf DRIVE=12
+AS virtex2p:obuf PINORDER=I O
+AP virtex2p:obuf 1 PINTYPE=IN
+AP virtex2p:obuf 2 PINTYPE=CHIPTRI
+W virtex2p:fddrcpe $1I50
+I $1I50 virtex2p:fddrcpe C0 C1 CE CLR D0 D1 PRE Q_OUT 
+W virtex2p:obuf $1I36
+I $1I36 virtex2p:obuf Q_OUT Q IOSTANDARD=LVCMOS33`
+P ? C1
+I C1 ? C1
+P ? D1
+I D1 ? D1
+P ? CLR
+I CLR ? CLR
+P ? PRE
+I PRE ? PRE
+P ? D0
+I D0 ? D0
+P ? CE
+I CE ? CE
+P ? C0
+I C0 ? C0
+P ? Q
+I Q ? Q
+EW

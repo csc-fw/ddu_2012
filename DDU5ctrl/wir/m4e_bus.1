@@ -1,0 +1,40 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 373642712000 m16e_bus
+DW m4e_bus
+|Q virtex2p:m2_1e 1
+AS virtex2p:m2_1e LEVEL=MXILINX
+AS virtex2p:m2_1e LIBVER=2.0.0
+AS virtex2p:m2_1e PINORDER=D0 D1 E O S0
+AP virtex2p:m2_1e 1 PINTYPE=IN
+AP virtex2p:m2_1e 2 PINTYPE=IN
+AP virtex2p:m2_1e 3 PINTYPE=IN
+AP virtex2p:m2_1e 4 PINTYPE=OUT
+AP virtex2p:m2_1e 5 PINTYPE=IN
+|Q virtex2p:muxf5_l 1
+AS virtex2p:muxf5_l LIBVER=2.0.0
+AS virtex2p:muxf5_l LEVEL=XILINX
+AS virtex2p:muxf5_l PINORDER=I0 I1 LO S
+AP virtex2p:muxf5_l 1 PINTYPE=IN
+AP virtex2p:muxf5_l 2 PINTYPE=IN
+AP virtex2p:muxf5_l 3 PINTYPE=OUT
+AP virtex2p:muxf5_l 4 PINTYPE=IN
+AN D[3:0] VLBUSISONSHEET=1
+W virtex2p:m2_1e $1I271
+I $1I271 virtex2p:m2_1e D0 D1 E M01 S0 LABEL=M01`
+W virtex2p:m2_1e $1I272
+I $1I272 virtex2p:m2_1e D2 D3 E M23 S0 LABEL=M23`
+W virtex2p:muxf5_l $1I2
+I $1I2 virtex2p:muxf5_l M01 M23 O S1 LABEL=M03`
+P ? O
+I O ? O
+P ? D[3:0]
+I D[3:0] ? D[3:0]
+P ? S1
+I S1 ? S1
+P ? E
+I E ? E
+P ? S0
+I S0 ? S0
+EW

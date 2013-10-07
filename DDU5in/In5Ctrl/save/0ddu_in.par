@@ -1,0 +1,2830 @@
+Release 6.2.03i Par G.31a
+Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.
+
+CMSPC005::  Tue May 30 13:06:35 2006
+
+
+C:/Xilinx62/bin/nt/par.exe -w -intstyle ise -ol high -t 21 0ddu_in_map.ncd
+0ddu_in.ncd 0ddu_in.pcf 
+
+
+Constraints file: 0ddu_in.pcf
+
+Loading device database for application Par from file "0ddu_in_map.ncd".
+   "0DDU_IN" is an NCD, version 2.38, device xc2vp20, package fg676, speed -6
+Loading device for application Par from file '2vp20.nph' in environment
+C:/Xilinx62.
+Device speed data version:  PRODUCTION 1.86 2004-05-01.
+
+
+Resolved that macro <$1I162/$3I4243/hset> must be placed at site SLICE_X43Y94.
+Resolved that macro <$1I162/$7I5013/hset> must be placed at site SLICE_X42Y27.
+Resolved that macro <$1I162/$3I4142/hset> must be placed at site SLICE_X55Y94.
+Resolved that macro <$1I162/$4I4426/hset> must be placed at site SLICE_X16Y77.
+Resolved that macro <$1I162/$3I4392/$1I4488/hset> must be placed at site
+SLICE_X84Y80.
+Resolved that macro <$1I162/$3I4464/$1I4488/hset> must be placed at site
+SLICE_X48Y88.
+Resolved that macro <$1I162/$6I4504/$1I4488/hset> must be placed at site
+SLICE_X0Y0.
+Resolved that macro <$1I162/$4I4630/hset> must be placed at site SLICE_X66Y75.
+Resolved that macro <$1I162/$3I4274/hset> must be placed at site SLICE_X19Y94.
+Resolved that macro <$1I162/$7I4651/$1I4488/hset> must be placed at site
+SLICE_X48Y8.
+Resolved that macro <$1I162/$7I4731/$1I4488/hset> must be placed at site
+SLICE_X60Y16.
+Resolved that macro <$1I162/$7I4614/$1I4488/hset> must be placed at site
+SLICE_X84Y32.
+Resolved that macro <$1I162/$4I4476/hset> must be placed at site SLICE_X28Y101.
+Resolved that macro <$1I162/$7I4651/hset> must be placed at site SLICE_X52Y13.
+Resolved that macro <$1I162/$7I4731/hset> must be placed at site SLICE_X64Y21.
+Resolved that macro <$1I162/$4I4657/hset> must be placed at site SLICE_X42Y67.
+Resolved that macro <$1I162/$3I4365/hset> must be placed at site SLICE_X64Y101.
+Resolved that macro <$1I162/$1I4156/$1I3760/hset> must be placed at site
+SLICE_X44Y72.
+Resolved that macro <$1I162/$1I4143/hset> must be placed at site SLICE_X88Y53.
+Resolved that macro <$1I162/$5I4382/hset> must be placed at site SLICE_X14Y0.
+Resolved that macro <$1I162/$6I4412/hset> must be placed at site SLICE_X38Y0.
+Resolved that macro <$1I162/$3I4243/$1I4152/af_clb_5x31rpm/control/rd_blk> must
+be placed at site SLICE_X36Y108.
+Resolved that macro <$1I162/$3I4142/$1I4152/af_clb_5x31rpm/control/rd_blk> must
+be placed at site SLICE_X48Y108.
+Resolved that macro <$1I162/$6I4415/$1I4152/af_clb_5x31rpm/control/rd_blk> must
+be placed at site SLICE_X48Y4.
+Resolved that macro <$1I162/$3I4274/$1I4152/af_clb_5x31rpm/control/rd_blk> must
+be placed at site SLICE_X12Y108.
+Resolved that macro <$1I162/$6I4446/$1I4152/af_clb_5x31rpm/control/rd_blk> must
+be placed at site SLICE_X72Y4.
+Resolved that macro <$1I162/$1I4142/$1I4152/af_clb_5x31rpm/control/rd_blk> must
+be placed at site SLICE_X72Y108.
+Resolved that macro <$1I162/$6I4412/$1I4152/af_clb_5x31rpm/control/rd_blk> must
+be placed at site SLICE_X36Y4.
+Resolved that macro <$1I162/$5I4382/$1I4152/af_clb_5x31rpm/control/rd_blk> must
+be placed at site SLICE_X12Y4.
+Resolved that macro <$1I162/$1I4142/hset> must be placed at site SLICE_X79Y94.
+Resolved that macro <$1I162/$7I4974/hset> must be placed at site SLICE_X66Y35.
+Resolved that macro <$1I162/$4I4476/$1I4488/hset> must be placed at site
+SLICE_X24Y96.
+Resolved that macro <$1I162/$4I4426/$1I4488/hset> must be placed at site
+SLICE_X12Y72.
+Resolved that macro <$1I162/$7I4838/hset> must be placed at site SLICE_X76Y13.
+Resolved that macro <$1I162/$4I4501/$1I4488/hset> must be placed at site
+SLICE_X24Y80.
+Resolved that macro <$1I162/$6I4479/hset> must be placed at site SLICE_X4Y21.
+Resolved that macro <$1I162/$6I4575/hset> must be placed at site SLICE_X16Y13.
+Resolved that macro <$1I162/$6I4598/hset> must be placed at site SLICE_X28Y5.
+Resolved that macro <$1I162/$6I4686/hset> must be placed at site SLICE_X40Y13.
+Resolved that macro <$1I162/$6I4446/hset> must be placed at site SLICE_X74Y0.
+Resolved that macro <$1I162/$6I4415/hset> must be placed at site SLICE_X50Y0.
+Resolved that macro <$1I162/$4I4611/hset> must be placed at site SLICE_X40Y93.
+Resolved that macro <$1I162/$4I4329/hset> must be placed at site SLICE_X4Y69.
+Resolved that macro <$1I162/$3I4496/$1I4488/hset> must be placed at site
+SLICE_X72Y88.
+Resolved that macro <$1I162/$7I4838/$1I4488/hset> must be placed at site
+SLICE_X72Y8.
+Resolved that macro <$1I162/$4I4560/hset> must be placed at site SLICE_X40Y77.
+Resolved that macro <$1I162/$4I4475/hset> must be placed at site SLICE_X16Y93.
+Resolved that macro <$1I162/$7I4615/$1I4488/hset> must be placed at site
+SLICE_X84Y16.
+Resolved that macro <$1I162/$3I4329/hset> must be placed at site SLICE_X88Y101.
+Resolved that macro <$1I162/$3I4417/hset> must be placed at site SLICE_X88Y69.
+Resolved that macro <$1I162/$3I4526/$1I4488/hset> must be placed at site
+SLICE_X72Y72.
+Resolved that macro <$1I162/$3I4329/$1I4488/hset> must be placed at site
+SLICE_X84Y96.
+Resolved that macro <$1I162/$3I4417/$1I4488/hset> must be placed at site
+SLICE_X84Y64.
+Resolved that macro <$1I162/$3I4526/hset> must be placed at site SLICE_X76Y77.
+Resolved that macro <$1I162/$6I4614/hset> must be placed at site SLICE_X28Y21.
+Resolved that macro <$1I162/$7I4863/hset> must be placed at site SLICE_X76Y29.
+Resolved that macro <$1I162/$6I4529/$1I4488/hset> must be placed at site
+SLICE_X12Y24.
+Resolved that macro <$1I162/$6I4641/$1I4488/hset> must be placed at site
+SLICE_X36Y32.
+Resolved that macro <$1I162/$2I4673/hset> must be placed at site SLICE_X56Y108.
+Resolved that macro <$1I162/$5I4143/hset> must be placed at site SLICE_X4Y53.
+Resolved that macro <$1I162/$7I4974/$1I4488/hset> must be placed at site
+SLICE_X60Y32.
+Resolved that macro <$1I162/$3I4496/hset> must be placed at site SLICE_X76Y93.
+Resolved that macro <$1I162/$4I4657/$1I4488/hset> must be placed at site
+SLICE_X36Y64.
+Resolved that macro <$1I162/$7I5013/$1I4488/hset> must be placed at site
+SLICE_X36Y24.
+Resolved that macro <$1I162/$5I4143/$1I4488/hset> must be placed at site
+SLICE_X0Y48.
+Resolved that macro <$1I162/$6I4446/$1I4152/af_clb_5x31rpm/control/wr_blk> must
+be placed at site SLICE_X68Y6.
+Resolved that macro <$1I162/$1I4142/$1I4152/af_clb_5x31rpm/control/wr_blk> must
+be placed at site SLICE_X68Y108.
+Resolved that macro <$1I162/$3I4243/$1I4152/af_clb_5x31rpm/control/wr_blk> must
+be placed at site SLICE_X32Y108.
+Resolved that macro <$1I162/$3I4142/$1I4152/af_clb_5x31rpm/control/wr_blk> must
+be placed at site SLICE_X44Y108.
+Resolved that macro <$1I162/$6I4412/$1I4152/af_clb_5x31rpm/control/wr_blk> must
+be placed at site SLICE_X32Y6.
+Resolved that macro <$1I162/$5I4382/$1I4152/af_clb_5x31rpm/control/wr_blk> must
+be placed at site SLICE_X8Y6.
+Resolved that macro <$1I162/$6I4415/$1I4152/af_clb_5x31rpm/control/wr_blk> must
+be placed at site SLICE_X44Y6.
+Resolved that macro <$1I162/$3I4274/$1I4152/af_clb_5x31rpm/control/wr_blk> must
+be placed at site SLICE_X8Y108.
+Resolved that macro <$1I162/$4I4630/$1I4488/hset> must be placed at site
+SLICE_X60Y72.
+Resolved that macro <$1I162/$4I4526/$1I4488/hset> must be placed at site
+SLICE_X36Y48.
+Resolved that macro <$1I162/$4I4560/$1I4488/hset> must be placed at site
+SLICE_X36Y72.
+Resolved that macro <$1I162/$1I4143/$1I4488/hset> must be placed at site
+SLICE_X84Y48.
+Resolved that macro <$1I162/$4I4611/$1I4488/hset> must be placed at site
+SLICE_X36Y88.
+Resolved that macro <$1I162/$2I4674/hset> must be placed at site SLICE_X58Y108.
+Resolved that macro <$1I162/$5I4156/$1I3760/hset> must be placed at site
+SLICE_X44Y32.
+Resolved that macro <$1I162/$4I4365/hset> must be placed at site SLICE_X4Y101.
+Resolved that macro <$1I162/$6I4614/$1I4488/hset> must be placed at site
+SLICE_X24Y16.
+Resolved that macro <$1I162/$3I4365/$1I4488/hset> must be placed at site
+SLICE_X60Y96.
+Resolved that macro <$1I162/$7I4863/$1I4488/hset> must be placed at site
+SLICE_X72Y24.
+Resolved that macro <$1I162/$7I4762/$1I4488/hset> must be placed at site
+SLICE_X60Y0.
+Resolved that macro <$1I162/$6I4143/$1I4488/hset> must be placed at site
+SLICE_X0Y32.
+Resolved that macro <$1I162/$7I4616/$1I4488/hset> must be placed at site
+SLICE_X84Y0.
+Resolved that macro <$1I162/$7I4632/$1I4488/hset> must be placed at site
+SLICE_X48Y24.
+Resolved that macro <$1I162/$7I4712/$1I4488/hset> must be placed at site
+SLICE_X48Y48.
+Resolved that macro <$1I162/$7I4614/hset> must be placed at site SLICE_X88Y37.
+Resolved that macro <$1I162/$3I4551/hset> must be placed at site SLICE_X64Y85.
+Resolved that macro <$1I162/$6I4479/$1I4488/hset> must be placed at site
+SLICE_X0Y16.
+Resolved that macro <$1I162/$6I4575/$1I4488/hset> must be placed at site
+SLICE_X12Y8.
+Resolved that macro <$1I162/$4I4329/$1I4488/hset> must be placed at site
+SLICE_X0Y64.
+Resolved that macro <$1I162/$1I4156/$1I3780/hset> must be placed at site
+SLICE_X80Y72.
+Resolved that macro <$1I162/$6I4143/hset> must be placed at site SLICE_X4Y37.
+Resolved that macro <$1I162/$3I4489/hset> must be placed at site SLICE_X52Y69.
+Resolved that macro <$1I162/$2I5022/hset> must be placed at site SLICE_X44Y52.
+Resolved that macro <$1I162/$6I4529/hset> must be placed at site SLICE_X16Y29.
+Resolved that macro <$1I162/$6I4641/hset> must be placed at site SLICE_X40Y37.
+Resolved that macro <$1I162/$4I4399/$1I4488/hset> must be placed at site
+SLICE_X0Y80.
+Resolved that macro <$1I162/$3I4464/hset> must be placed at site SLICE_X52Y93.
+Resolved that macro <$1I162/$3I4392/hset> must be placed at site SLICE_X88Y85.
+Resolved that macro <$1I162/$6I4504/hset> must be placed at site SLICE_X4Y5.
+Resolved that macro <$1I162/$4I4365/$1I4488/hset> must be placed at site
+SLICE_X0Y96.
+Resolved that macro <$1I162/$7I4615/hset> must be placed at site SLICE_X88Y21.
+Resolved that macro
+<$1I162/$3I4243/$1I4152/af_clb_5x31rpm/mem/distmem/dist_mem/DPRAM> must be
+placed at site SLICE_X32Y102.
+Resolved that macro <$1I162/$7I4762/hset> must be placed at site SLICE_X64Y5.
+Resolved that macro <$1I162/$7I4712/hset> must be placed at site SLICE_X52Y53.
+Resolved that macro <$1I162/$7I4632/hset> must be placed at site SLICE_X52Y29.
+Resolved that macro <$1I162/$7I4616/hset> must be placed at site SLICE_X88Y5.
+Resolved that macro <$1I162/$4I4526/hset> must be placed at site SLICE_X40Y53.
+Resolved that macro <$1I162/$4I4501/hset> must be placed at site SLICE_X28Y85.
+Resolved that macro <$1I162/$4I4399/hset> must be placed at site SLICE_X4Y85.
+Resolved that macro <$1I162/$3I4489/$1I4488/hset> must be placed at site
+SLICE_X48Y64.
+Resolved that macro
+<$1I162/$6I4446/$1I4152/af_clb_5x31rpm/mem/distmem/dist_mem/DPRAM> must be
+placed at site SLICE_X68Y0.
+Resolved that macro
+<$1I162/$6I4412/$1I4152/af_clb_5x31rpm/mem/distmem/dist_mem/DPRAM> must be
+placed at site SLICE_X32Y0.
+Resolved that macro
+<$1I162/$3I4142/$1I4152/af_clb_5x31rpm/mem/distmem/dist_mem/DPRAM> must be
+placed at site SLICE_X44Y102.
+Resolved that macro <$1I162/$6I4686/$1I4488/hset> must be placed at site
+SLICE_X36Y8.
+Resolved that macro <$1I162/$6I4598/$1I4488/hset> must be placed at site
+SLICE_X24Y0.
+Resolved that macro <$1I162/$4I4475/$1I4488/hset> must be placed at site
+SLICE_X12Y88.
+Resolved that macro
+<$1I162/$5I4382/$1I4152/af_clb_5x31rpm/mem/distmem/dist_mem/DPRAM> must be
+placed at site SLICE_X8Y0.
+Resolved that macro <$1I162/$3I4551/$1I4488/hset> must be placed at site
+SLICE_X60Y80.
+Resolved that macro
+<$1I162/$3I4274/$1I4152/af_clb_5x31rpm/mem/distmem/dist_mem/DPRAM> must be
+placed at site SLICE_X8Y102.
+Resolved that macro
+<$1I162/$1I4142/$1I4152/af_clb_5x31rpm/mem/distmem/dist_mem/DPRAM> must be
+placed at site SLICE_X68Y102.
+Resolved that macro
+<$1I162/$6I4415/$1I4152/af_clb_5x31rpm/mem/distmem/dist_mem/DPRAM> must be
+placed at site SLICE_X44Y0.
+Resolved that macro <$1I162/$5I4156/$1I3780/hset> must be placed at site
+SLICE_X80Y32.
+Resolved that IOB <$1I162/LED0> must be placed at site J3.
+Resolved that IOB <$1I162/LED1> must be placed at site J4.
+Resolved that IOB <$1I162/LED2> must be placed at site J5.
+Resolved that IOB <$1I162/LED3> must be placed at site J6.
+Resolved that IOB <$1I162/LED4> must be placed at site J7.
+Resolved that IOB <$1I162/LED5> must be placed at site J8.
+Resolved that IOB <$1I162/LED6> must be placed at site H1.
+Resolved that IOB <$1I162/LED7> must be placed at site H2.
+Resolved that IOB <$1I162/L0_4> must be placed at site K3.
+Resolved that IOB <$1I162/L0_5> must be placed at site L3.
+Resolved that IOB <$1I162/L0_14> must be placed at site M9.
+Resolved that IOB <$1I162/L0_6> must be placed at site K2.
+Resolved that IOB <$1I162/L0_15> must be placed at site M8.
+Resolved that IOB <$1I162/L0_7> must be placed at site K1.
+Resolved that IOB <$1I162/L0_8> must be placed at site L7.
+Resolved that IOB <$1I162/L0_0> must be placed at site K8.
+Resolved that IOB <$1I162/L0_9> must be placed at site M7.
+Resolved that IOB <$1I162/L0_1> must be placed at site L8.
+Resolved that IOB <$1I162/L0_10> must be placed at site L6.
+Resolved that IOB <$1I162/L0_2> must be placed at site K5.
+Resolved that IOB <$1I162/L0_11> must be placed at site L5.
+Resolved that IOB <$1I162/L0_3> must be placed at site K4.
+Resolved that IOB <$1I162/L0_12> must be placed at site L2.
+Resolved that IOB <$1I162/L0_13> must be placed at site L1.
+Resolved that IOB <$1I162/L1_4> must be placed at site R1.
+Resolved that IOB <$1I162/L1_5> must be placed at site R2.
+Resolved that IOB <$1I162/L1_14> must be placed at site T5.
+Resolved that IOB <$1I162/L1_6> must be placed at site R4.
+Resolved that IOB <$1I162/L1_15> must be placed at site T6.
+Resolved that IOB <$1I162/L1_7> must be placed at site R5.
+Resolved that IOB <$1I162/L1_8> must be placed at site P6.
+Resolved that IOB <$1I162/L1_0> must be placed at site P4.
+Resolved that IOB <$1I162/L1_9> must be placed at site R6.
+Resolved that IOB <$1I162/L1_1> must be placed at site P5.
+Resolved that IOB <$1I162/L1_10> must be placed at site R8.
+Resolved that IOB <$1I162/L1_2> must be placed at site P8.
+Resolved that IOB <$1I162/L1_11> must be placed at site R9.
+Resolved that IOB <$1I162/L1_3> must be placed at site P9.
+Resolved that IOB <$1I162/L1_12> must be placed at site T1.
+Resolved that IOB <$1I162/L1_13> must be placed at site T2.
+Resolved that IOB <$1I162/~PAF1IN> must be placed at site T22.
+Resolved that IOB <$1I162/KILL7> must be placed at site AD17.
+Resolved that IOB <$1I162/KILL6> must be placed at site AA16.
+Resolved that IOB <$1I162/KILL5> must be placed at site AA15.
+Resolved that IOB <$1I162/KILL4> must be placed at site AB15.
+Resolved that IOB <$1I162/DOUT22> must be placed at site T21.
+Resolved that IOB <$1I162/DOUT23> must be placed at site T20.
+Resolved that IOB <$1I162/DOUT32> must be placed at site V26.
+Resolved that IOB <$1I162/DOUT24> must be placed at site T19.
+Resolved that IOB <$1I162/DOUT33> must be placed at site U25.
+Resolved that IOB <$1I162/DOUT25> must be placed at site U19.
+Resolved that IOB <$1I162/DOUT26> must be placed at site V21.
+Resolved that IOB <$1I162/DOUT18> must be placed at site P19.
+Resolved that IOB <$1I162/DOUT35> must be placed at site T24.
+Resolved that IOB <$1I162/DOUT27> must be placed at site R18.
+Resolved that IOB <$1I162/DOUT19> must be placed at site P21.
+Resolved that IOB <$1I162/DOUT34> must be placed at site U26.
+Resolved that IOB <$1I162/DOUT28> must be placed at site R19.
+Resolved that IOB <$1I162/DOUT20> must be placed at site R20.
+Resolved that IOB <$1I162/DOUT29> must be placed at site P18.
+Resolved that IOB <$1I162/DOUT21> must be placed at site R21.
+Resolved that IOB <$1I162/DOUT30> must be placed at site V24.
+Resolved that IOB <$1I162/DOUT31> must be placed at site V25.
+Resolved that IOB <$1I162/IFOK7> must be placed at site Y4.
+Resolved that IOB <$1I162/IFOK6> must be placed at site W5.
+Resolved that IOB <$1I162/IFOK5> must be placed at site Y5.
+Resolved that IOB <$1I162/IFOK4> must be placed at site AA1.
+Resolved that IOB <$1I162/~PAF0IN> must be placed at site J23.
+Resolved that IOB <$1I162/FOKLED3> must be placed at site E4.
+Resolved that IOB <$1I162/DVLED2> must be placed at site G6.
+Resolved that IOB <$1I162/DVLED3> must be placed at site F6.
+Resolved that IOB <$1I162/DVLED0> must be placed at site F1.
+Resolved that IOB <$1I162/FOKLED1> must be placed at site E2.
+Resolved that IOB <$1I162/FOKLED0> must be placed at site E1.
+Resolved that IOB <$1I162/FOKLED2> must be placed at site F5.
+Resolved that IOB <$1I162/FOKLED7> must be placed at site W7.
+Resolved that IOB <$1I162/DVLED1> must be placed at site F2.
+Resolved that IOB <$1I162/DVLED6> must be placed at site W1.
+Resolved that IOB <$1I162/DVLED7> must be placed at site V8.
+Resolved that IOB <$1I162/FOKLED5> must be placed at site Y2.
+Resolved that IOB <$1I162/FOKLED4> must be placed at site Y3.
+Resolved that IOB <$1I162/L0_17> must be placed at site J2.
+Resolved that IOB <$1I162/DVLED4> must be placed at site W6.
+Resolved that IOB <$1I162/L0_16> must be placed at site J1.
+Resolved that IOB <$1I162/FOKLED6> must be placed at site Y1.
+Resolved that IOB <$1I162/DVLED5> must be placed at site W2.
+Resolved that IOB <$1I162/L1_16> must be placed at site P3.
+Resolved that IOB <$1I162/L1_17> must be placed at site P2.
+Resolved that IOB <$1I162/~HFA1IN> must be placed at site V22.
+Resolved that IOB <$1I162/MODEIN6> must be placed at site H7.
+Resolved that IOB <$1I162/MODEIN7> must be placed at site H6.
+Resolved that IOB <$1I162/MODEIN3> must be placed at site G3.
+Resolved that IOB <$1I162/MODEIN2> must be placed at site G4.
+Resolved that IOB <$1I162/MODEIN1> must be placed at site H5.
+Resolved that IOB <$1I162/MODEIN0> must be placed at site G5.
+Resolved that IOB <$1I162/FF1IN> must be placed at site R22.
+Resolved that IOB <$1I162/IFOK3> must be placed at site C2.
+Resolved that IOB <$1I162/IFOK2> must be placed at site C1.
+Resolved that IOB <$1I162/IFOK1> must be placed at site D2.
+Resolved that IOB <$1I162/IFOK0> must be placed at site D1.
+Resolved that IOB <$1I162/IN_EV_RST> must be placed at site AB1.
+Resolved that IOB <$1I162/KILL3> must be placed at site AA14.
+Resolved that IOB <$1I162/KILL2> must be placed at site AC15.
+Resolved that IOB <$1I162/KILL1> must be placed at site AD15.
+Resolved that IOB <$1I162/KILL0> must be placed at site AB14.
+Resolved that IOB <$1I162/FF0IN> must be placed at site J22.
+Resolved that IOB <$1I162/DOUT4> must be placed at site M21.
+Resolved that IOB <$1I162/DOUT5> must be placed at site N21.
+Resolved that IOB <$1I162/DOUT14> must be placed at site L24.
+Resolved that IOB <$1I162/DOUT6> must be placed at site N22.
+Resolved that IOB <$1I162/DOUT15> must be placed at site K26.
+Resolved that IOB <$1I162/DOUT7> must be placed at site N23.
+Resolved that IOB <$1I162/DOUT8> must be placed at site N19.
+Resolved that IOB <$1I162/DOUT0> must be placed at site N18.
+Resolved that IOB <$1I162/DOUT17> must be placed at site J26.
+Resolved that IOB <$1I162/DOUT9> must be placed at site K19.
+Resolved that IOB <$1I162/DOUT1> must be placed at site L20.
+Resolved that IOB <$1I162/DOUT16> must be placed at site K25.
+Resolved that IOB <$1I162/DOUT10> must be placed at site L19.
+Resolved that IOB <$1I162/DOUT2> must be placed at site M19.
+Resolved that IOB <$1I162/DOUT11> must be placed at site N24.
+Resolved that IOB <$1I162/DOUT3> must be placed at site M20.
+Resolved that IOB <$1I162/DOUT12> must be placed at site M26.
+Resolved that IOB <$1I162/DOUT13> must be placed at site M25.
+Resolved that IOB <$1I162/L1AIN> must be placed at site AA2.
+Resolved that IOB <$1I162/~HFA0IN> must be placed at site M22.
+Resolved that IOB <$1I162/INFAKEL1_EN> must be placed at site F21.
+Resolved that IOB <$1I162/IN_BC0> must be placed at site AB2.
+Resolved that IOB <$1I162/~OWEN0> must be placed at site J24.
+Resolved that IOB <$1I162/~OWEN1> must be placed at site R26.
+Resolved that IOB <$1I162/~OSEN0> must be placed at site J25.
+Resolved that IOB <$1I162/CLKOUTX0> must be placed at site J21.
+Resolved that IOB <$1I162/IN_FPGAID> must be placed at site C25.
+Resolved that IOB <$1I162/SI0> must be placed at site J20.
+Resolved that IOB <$1I162/FSEL0_0> must be placed at site K23.
+Resolved that IOB <$1I162/~PLD0> must be placed at site J19.
+Resolved that IOB <$1I162/FSEL0_1> must be placed at site K24.
+Resolved that IOB <$1I162/ORST_TO_VME> must be placed at site E26.
+Resolved that IOB <$1I162/~IDMB_FUL1> must be placed at site AB25.
+Resolved that IOB <$1I162/~IDMB_FUL0> must be placed at site AA22.
+Resolved that IOB <$1I162/CLKIN40> must be placed at site AD14.
+Resolved that IOB <$1I162/~ACTOUT0> must be placed at site AA13.
+Resolved that IOB <$1I162/~RDYOUT> must be placed at site AD12.
+Resolved that DIFFS <$1I162/CK80N_T> must be placed at site C13.
+Resolved that DIFFM <$1I162/CK80P_T> must be placed at site B13.
+Resolved that IOB <$1I162/~ACTOUT1> must be placed at site AC12.
+Resolved that IOB <$1I162/F0_SYNC> must be placed at site C15.
+Resolved that IOB <$1I162/F0_ERROR> must be placed at site D15.
+Resolved that IOB <$1I162/F0_WARN> must be placed at site J14.
+Resolved that IOB <$1I162/F3_BUSY> must be placed at site C17.
+Resolved that IOB <$1I162/F2_BUSY> must be placed at site H15.
+Resolved that IOB <$1I162/F1_BUSY> must be placed at site F14.
+Resolved that IOB <$1I162/F3_WARN> must be placed at site D17.
+Resolved that IOB <$1I162/F2_WARN> must be placed at site J15.
+Resolved that IOB <$1I162/F1_WARN> must be placed at site E15.
+Resolved that IOB <$1I162/F3_SYNC> must be placed at site E16.
+Resolved that IOB <$1I162/F2_SYNC> must be placed at site F16.
+Resolved that IOB <$1I162/F1_SYNC> must be placed at site F15.
+Resolved that IOB <$1I162/F3_ERROR> must be placed at site E17.
+Resolved that IOB <$1I162/F2_ERROR> must be placed at site G16.
+Resolved that IOB <$1I162/F1_ERROR> must be placed at site G15.
+Resolved that IOB <$1I162/RD0_WARN> must be placed at site AB19.
+Resolved that IOB <$1I162/RD0_ERROR> must be placed at site AD20.
+Resolved that IOB <$1I162/RD0_BUSY> must be placed at site AE19.
+Resolved that IOB <$1I162/F0_BUSY> must be placed at site H14.
+Resolved that IOB <$1I162/RD0_SYNC> must be placed at site AA19.
+Resolved that IOB <$1I162/CLKOUTX1> must be placed at site R23.
+Resolved that DIFFS <$1I162/CK80N_B> must be placed at site AE13.
+Resolved that DIFFM <$1I162/CK80P_B> must be placed at site AD13.
+Resolved that IOB <$1I162/FSEL1_0> must be placed at site U22.
+Resolved that IOB <$1I162/SI1> must be placed at site P22.
+Resolved that IOB <$1I162/FSEL1_1> must be placed at site U24.
+Resolved that IOB <$1I162/~PLD1> must be placed at site P23.
+Resolved that IOB <$1I162/~OSEN1> must be placed at site R25.
+Resolved that IOB <$1I162/RD1_WARN> must be placed at site AB20.
+Resolved that IOB <$1I162/RD1_SYNC> must be placed at site AE26.
+Resolved that IOB <$1I162/RD1_ERROR> must be placed at site AD26.
+Resolved that IOB <$1I162/F5_BUSY> must be placed at site E18.
+Resolved that IOB <$1I162/F6_BUSY> must be placed at site A19.
+Resolved that IOB <$1I162/F7_BUSY> must be placed at site G19.
+Resolved that IOB <$1I162/F5_WARN> must be placed at site F18.
+Resolved that IOB <$1I162/F6_WARN> must be placed at site B19.
+Resolved that IOB <$1I162/F7_WARN> must be placed at site H19.
+Resolved that IOB <$1I162/F5_SYNC> must be placed at site G18.
+Resolved that IOB <$1I162/F6_SYNC> must be placed at site E19.
+Resolved that IOB <$1I162/F7_SYNC> must be placed at site C20.
+Resolved that IOB <$1I162/F5_ERROR> must be placed at site H18.
+Resolved that IOB <$1I162/F6_ERROR> must be placed at site F19.
+Resolved that IOB <$1I162/F7_ERROR> must be placed at site D20.
+Resolved that IOB <$1I162/F4_ERROR> must be placed at site D18.
+Resolved that IOB <$1I162/RD1_BUSY> must be placed at site AC20.
+Resolved that IOB <$1I162/F4_SYNC> must be placed at site C18.
+Resolved that IOB <$1I162/F4_BUSY> must be placed at site H16.
+Resolved that IOB <$1I162/F4_WARN> must be placed at site H17.
+Resolved that IOB <$1I162/~L1RST> must be placed at site AA5.
+Resolved that IOB <$1I162/~SOFTRST> must be placed at site AB4.
+Resolved that GT <$1I162/$3I4142/$1I3863> must be placed at site GT_X2Y1.
+Resolved that GT <$1I162/$3I4243/$1I3863> must be placed at site GT_X1Y1.
+Resolved that GT <$1I162/$3I4274/$1I3863> must be placed at site GT_X0Y1.
+Resolved that GT <$1I162/$1I4142/$1I3863> must be placed at site GT_X3Y1.
+Resolved that GTOPAD <$1I162/$1I4464> must be placed at site A21.
+Resolved that GTIPAD <$1I162/$1I4617> must be placed at site A23.
+Resolved that GTOPAD <$1I162/$1I4465> must be placed at site A20.
+Resolved that GTIPAD <$1I162/$1I4618> must be placed at site A22.
+Resolved that GTOPAD <$1I162/$3I4680> must be placed at site A10.
+Resolved that GTOPAD <$1I162/$3I4681> must be placed at site A9.
+Resolved that GTOPAD <$1I162/$3I4684> must be placed at site A4.
+Resolved that GTOPAD <$1I162/$3I4676> must be placed at site A15.
+Resolved that GTOPAD <$1I162/$3I4685> must be placed at site A5.
+Resolved that GTOPAD <$1I162/$3I4677> must be placed at site A16.
+Resolved that GTIPAD <$1I162/$3I4854> must be placed at site A18.
+Resolved that GTIPAD <$1I162/$3I4863> must be placed at site A11.
+Resolved that GTIPAD <$1I162/$3I4855> must be placed at site A17.
+Resolved that GTIPAD <$1I162/$3I4872> must be placed at site A6.
+Resolved that GTIPAD <$1I162/$3I4864> must be placed at site A12.
+Resolved that GTIPAD <$1I162/$3I4873> must be placed at site A7.
+Resolved that GTIPAD <$1I162/$5I4700> must be placed at site AF6.
+Resolved that GTIPAD <$1I162/$5I4701> must be placed at site AF7.
+Resolved that GTOPAD <$1I162/$5I4498> must be placed at site AF4.
+Resolved that GTOPAD <$1I162/$5I4499> must be placed at site AF5.
+Resolved that GTOPAD <$1I162/$6I4800> must be placed at site AF20.
+Resolved that GTOPAD <$1I162/$6I4801> must be placed at site AF21.
+Resolved that GTOPAD <$1I162/$6I4804> must be placed at site AF16.
+Resolved that GTOPAD <$1I162/$6I4805> must be placed at site AF15.
+Resolved that GTOPAD <$1I162/$6I4808> must be placed at site AF10.
+Resolved that GTOPAD <$1I162/$6I4809> must be placed at site AF9.
+Resolved that GTIPAD <$1I162/$6I4960> must be placed at site AF12.
+Resolved that GTIPAD <$1I162/$6I4961> must be placed at site AF11.
+Resolved that GTIPAD <$1I162/$6I4976> must be placed at site AF22.
+Resolved that GTIPAD <$1I162/$6I4968> must be placed at site AF18.
+Resolved that GTIPAD <$1I162/$6I4977> must be placed at site AF23.
+Resolved that GTIPAD <$1I162/$6I4969> must be placed at site AF17.
+
+
+Device utilization summary:
+
+   Number of External DIFFMs           2 out of 200     1%
+   Number of External DIFFSs           2 out of 200     1%
+   Number of External GTIPADs         16 out of 16    100%
+   Number of External GTOPADs         16 out of 16    100%
+   Number of External IOBs           192 out of 404    47%
+      Number of LOCed External IOBs  192 out of 192   100%
+
+   Number of RAMB16s                  88 out of 88    100%
+   Number of SLICEs                 5267 out of 9280   56%
+
+   Number of BSCANs                    1 out of 1     100%
+   Number of BUFGMUXs                  6 out of 16     37%
+   Number of DCMs                      2 out of 8      25%
+   Number of GTs                       8 out of 8     100%
+   Number of TBUFs                  2020 out of 4640   43%
+
+
+
+Overall effort level (-ol):   High (set by user)
+Placer effort level (-pl):    High (set by user)
+Placer cost table entry (-t): 21
+Router effort level (-rl):    High (set by user)
+
+Starting initial Timing Analysis.  REAL time: 16 secs 
+Finished initial Timing Analysis.  REAL time: 59 secs 
+
+
+Phase 1.1
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$3I4243/E0_ON_WC_EQ0+2
+  SLICE $1I162/$3I4243/TXOUT3
+  SLICE $1I162/$3I4243/TXOUT5
+  SLICE $1I162/$3I4243/TXOUT11
+  SLICE $1I162/$3I4243/D2S11
+  SLICE $1I162/$3I4243/D2S13
+  SLICE $1I162/$3I4243/D2S15
+  SLICE $1I162/$3I4243/D2S17
+  SLICE $1I162/$3I4243/D1S0
+  SLICE $1I162/$3I4243/D1S3
+  SLICE $1I162/$3I4243/D1S4
+  SLICE $1I162/$3I4243/D1S7
+  SLICE $1I162/$3I4243/D1S8
+  SLICE $1I162/$3I4243/D1S11
+  SLICE $1I162/MEMREQ2
+  SLICE $1I162/WRNEXT_F2
+  SLICE $1I162/$3I4243/OVERFLOW
+  SLICE $1I162/RXERR2
+  SLICE $1I162/$3I4243/D3S9
+  SLICE $1I162/$3I4243/D3S7
+  SLICE $1I162/$3I4243/D3S5
+  SLICE $1I162/$3I4243/D3S3
+  SLICE $1I162/$3I4243/D3S1
+  SLICE $1I162/$3I4243/NEXTMEM1
+  SLICE $1I162/$3I4243/NEXTMEM3
+  SLICE $1I162/$3I4243/START
+  SLICE $1I162/$3I4243/ASSIGNMENT_ERR
+  SLICE $1I162/$3I4243/NEXTENB
+  SLICE $1I162/$3I4243/$2I4345/$1I2554/O
+  SLICE $1I162/WEN_F2
+  SLICE $1I162/$3I4243/LWEN-1
+  SLICE $1I162/$3I4243/RELEASE_RDY
+  SLICE $1I162/$3I4243/TXOUT13
+  SLICE $1I162/$3I4243/NON_EMPTY_EVT
+  SLICE $1I162/$3I4243/D2S9
+  SLICE $1I162/$3I4243/D2S7
+  SLICE $1I162/$3I4243/D2S5
+  SLICE $1I162/$3I4243/D2S3
+  SLICE $1I162/$3I4243/D2S1
+  SLICE $1I162/$3I4243/D3S15
+  SLICE $1I162/$3I4243/D1S13
+  SLICE $1I162/$3I4243/D3S13
+  SLICE $1I162/$3I4243/D1S15
+  SLICE $1I162/$3I4243/D3S11
+  SLICE $1I162/$3I4243/D1S16
+  SLICE $1I162/$3I4243/LAST+1
+  SLICE $1I162/$3I4243/LAST+2
+  SLICE $1I162/$3I4243/NO_DATA
+  SLICE $1I162/$3I4243/ENDING_DATA
+  SLICE $1I162/$3I4243/END
+  SLICE $1I162/$3I4243/D3S17
+  SLICE $1I162/$3I4243/TXOUT15
+  SLICE $1I162/$3I4243/NEXTMEM4
+  SLICE $1I162/$3I4243/NEW_ASSIGNED
+  SLICE $1I162/$3I4243/REQ_RST
+  SLICE $1I162/$3I4243/STARTED
+  SLICE $1I162/$3I4243/MREQ_RST
+  SLICE $1I162/$3I4243/CLR_MRQRST
+  SLICE $1I162/$3I4243/1-E
+  SLICE $1I162/$3I4243/REN+1
+  SLICE $1I162/RELEASE2
+  SLICE $1I162/$3I4243/TXOUT6
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$3I4243/D3S1 that is locked to site
+SLICE_X43Y94. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$7I5013/DIN5
+  SLICE $1I162/$7I5013/DIN12
+  SLICE $1I162/$7I5013/DIN17
+  SLICE $1I162/$7I5013/DIN13
+  SLICE $1I162/$7I5013/DIN14
+  SLICE $1I162/$7I5013/DIN15
+  SLICE $1I162/$7I5013/DIN16
+  SLICE $1I162/$7I5013/CLR_ASSIGN
+  SLICE $1I162/$7I5013/$1I4488/CNT_ENB
+  SLICE $1I162/$7I5013/ASSIGNED
+  SLICE $1I162/$7I5013/DIN9
+  SLICE $1I162/$7I5013/DIN10
+  SLICE $1I162/$7I5013/DIN11
+  SLICE $1I162/$7I5013/F0EN
+  SLICE $1I162/$7I5013/F2EN
+  SLICE $1I162/$7I5013/CTRL1
+  SLICE $1I162/$7I5013/WR_SEL
+  SLICE $1I162/$7I5013/WEN
+  SLICE $1I162/$7I5013/DIN0
+  SLICE $1I162/$7I5013/DIN6
+  SLICE $1I162/$7I5013/DIN7
+  SLICE $1I162/EMPTY_M40
+  SLICE $1I162/$7I5013/DIN1
+  SLICE $1I162/$7I5013/DIN2
+  SLICE $1I162/$7I5013/DIN3
+  SLICE $1I162/$7I5013/DIN8
+  SLICE $1I162/$7I5013/DIN4
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$7I5013/DIN9 that is locked to site
+SLICE_X42Y27. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$3I4142/OVERFLOW
+  SLICE $1I162/RXERR1
+  SLICE $1I162/$3I4142/D3S9
+  SLICE $1I162/$3I4142/D3S7
+  SLICE $1I162/$3I4142/D3S5
+  SLICE $1I162/$3I4142/D3S3
+  SLICE $1I162/$3I4142/D3S1
+  SLICE $1I162/$3I4142/TXOUT13
+  SLICE $1I162/$3I4142/NON_EMPTY_EVT
+  SLICE $1I162/$3I4142/D2S9
+  SLICE $1I162/$3I4142/D2S7
+  SLICE $1I162/$3I4142/D2S5
+  SLICE $1I162/$3I4142/D2S3
+  SLICE $1I162/$3I4142/D2S1
+  SLICE $1I162/$3I4142/D3S15
+  SLICE $1I162/$3I4142/D1S13
+  SLICE $1I162/$3I4142/D3S13
+  SLICE $1I162/$3I4142/D1S15
+  SLICE $1I162/$3I4142/D3S11
+  SLICE $1I162/$3I4142/D1S16
+  SLICE $1I162/$3I4142/LAST+1
+  SLICE $1I162/$3I4142/LAST+2
+  SLICE $1I162/$3I4142/NO_DATA
+  SLICE $1I162/$3I4142/MISALIGNED
+  SLICE $1I162/$3I4142/END
+  SLICE $1I162/$3I4142/LW_EN
+  SLICE $1I162/$3I4142/D3S17
+  SLICE $1I162/$3I4142/TXOUT15
+  SLICE $1I162/$3I4142/D2S17
+  SLICE $1I162/$3I4142/NEXTMEM4
+  SLICE $1I162/$3I4142/NEW_ASSIGNED
+  SLICE $1I162/$3I4142/REQ_RST
+  SLICE $1I162/$3I4142/STARTED
+  SLICE $1I162/$3I4142/MREQ_RST
+  SLICE $1I162/$3I4142/CLR_MRQRST
+  SLICE $1I162/$3I4142/1-E
+  SLICE $1I162/$3I4142/REN+1
+  SLICE $1I162/RELEASE1
+  SLICE $1I162/$3I4142/TXOUT6
+  SLICE $1I162/$3I4142/NEXTMEM1
+  SLICE $1I162/$3I4142/NEXTMEM3
+  SLICE $1I162/$3I4142/START
+  SLICE $1I162/$3I4142/ASSIGNMENT_ERR
+  SLICE $1I162/$3I4142/NEXTENB
+  SLICE $1I162/$3I4142/$2I4345/$1I2554/O
+  SLICE $1I162/WEN_F1
+  SLICE $1I162/$3I4142/LWEN-1
+  SLICE $1I162/$3I4142/RELEASE_RDY
+  SLICE $1I162/$3I4142/TXOUT3
+  SLICE $1I162/$3I4142/TXOUT5
+  SLICE $1I162/$3I4142/TXOUT11
+  SLICE $1I162/$3I4142/D2S11
+  SLICE $1I162/$3I4142/D2S13
+  SLICE $1I162/$3I4142/D2S15
+  SLICE $1I162/$3I4142/D1S0
+  SLICE $1I162/$3I4142/D1S3
+  SLICE $1I162/$3I4142/D1S4
+  SLICE $1I162/$3I4142/D1S7
+  SLICE $1I162/$3I4142/D1S8
+  SLICE $1I162/$3I4142/D1S11
+  SLICE $1I162/MEMREQ1
+  SLICE $1I162/WRNEXT_F1
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$3I4142/D3S1 that is locked to site
+SLICE_X55Y94. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$4I4426/DIN10
+  SLICE $1I162/$4I4426/DIN0
+  SLICE $1I162/$4I4426/DIN11
+  SLICE $1I162/$4I4426/DIN12
+  SLICE $1I162/$4I4426/DIN6
+  SLICE $1I162/$4I4426/DIN7
+  SLICE $1I162/$4I4426/DIN17
+  SLICE $1I162/$4I4426/DIN1
+  SLICE $1I162/$4I4426/DIN13
+  SLICE $1I162/$4I4426/DIN14
+  SLICE $1I162/$4I4426/DIN2
+  SLICE $1I162/$4I4426/DIN3
+  SLICE $1I162/$4I4426/DIN15
+  SLICE $1I162/$4I4426/DIN16
+  SLICE $1I162/$4I4426/DIN8
+  SLICE $1I162/$4I4426/DIN4
+  SLICE $1I162/$4I4426/DIN5
+  SLICE $1I162/$4I4426/DIN9
+  SLICE $1I162/$4I4426/$1I4488/CNT_ENB
+  SLICE $1I162/$4I4426/CLR_ASSIGN
+  SLICE $1I162/$4I4426/ASSIGNED
+  SLICE $1I162/$4I4426/F0EN
+  SLICE $1I162/$4I4426/F2EN
+  SLICE $1I162/$4I4426/CTRL1
+  SLICE $1I162/EMPTY_M19
+  SLICE $1I162/$4I4426/WR_SEL
+  SLICE $1I162/$4I4426/WEN
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$4I4426/DIN9 that is locked to site
+SLICE_X16Y77. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$4I4630/DIN12
+  SLICE $1I162/$4I4630/DIN17
+  SLICE $1I162/$4I4630/DIN13
+  SLICE $1I162/$4I4630/DIN14
+  SLICE $1I162/$4I4630/DIN15
+  SLICE $1I162/$4I4630/DIN16
+  SLICE $1I162/$4I4630/CLR_ASSIGN
+  SLICE $1I162/$4I4630/$1I4488/CNT_ENB
+  SLICE $1I162/$4I4630/ASSIGNED
+  SLICE $1I162/$4I4630/DIN9
+  SLICE $1I162/$4I4630/DIN10
+  SLICE $1I162/$4I4630/DIN11
+  SLICE $1I162/$4I4630/F0EN
+  SLICE $1I162/$4I4630/F2EN
+  SLICE $1I162/$4I4630/CTRL1
+  SLICE $1I162/$4I4630/WR_SEL
+  SLICE $1I162/$4I4630/WEN
+  SLICE $1I162/$4I4630/DIN0
+  SLICE $1I162/$4I4630/DIN6
+  SLICE $1I162/$4I4630/DIN7
+  SLICE $1I162/$4I4630/DIN1
+  SLICE $1I162/EMPTY_M8
+  SLICE $1I162/$4I4630/DIN2
+  SLICE $1I162/$4I4630/DIN3
+  SLICE $1I162/$4I4630/DIN8
+  SLICE $1I162/$4I4630/DIN4
+  SLICE $1I162/$4I4630/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$4I4630/DIN9 that is locked to site
+SLICE_X66Y75. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$3I4274/NEXTMEM1
+  SLICE $1I162/$3I4274/NEXTMEM3
+  SLICE $1I162/$3I4274/START
+  SLICE $1I162/$3I4274/ASSIGNMENT_ERR
+  SLICE $1I162/$3I4274/NEXTENB
+  SLICE $1I162/$3I4274/$2I4345/$1I2554/O
+  SLICE $1I162/WEN_F3
+  SLICE $1I162/$3I4274/LWEN-1
+  SLICE $1I162/$3I4274/RELEASE_RDY
+  SLICE $1I162/$3I4274/E0_ON_WC_EQ0+2
+  SLICE $1I162/$3I4274/1-E
+  SLICE $1I162/$3I4274/TXOUT13
+  SLICE $1I162/$3I4274/NON_EMPTY_EVT
+  SLICE $1I162/$3I4274/D2S9
+  SLICE $1I162/$3I4274/D2S7
+  SLICE $1I162/$3I4274/D2S5
+  SLICE $1I162/$3I4274/D2S3
+  SLICE $1I162/$3I4274/D2S1
+  SLICE $1I162/$3I4274/D3S15
+  SLICE $1I162/$3I4274/D1S13
+  SLICE $1I162/$3I4274/D3S13
+  SLICE $1I162/$3I4274/D1S15
+  SLICE $1I162/$3I4274/D3S11
+  SLICE $1I162/$3I4274/D1S16
+  SLICE $1I162/$3I4274/LAST+1
+  SLICE $1I162/$3I4274/LAST+2
+  SLICE $1I162/$3I4274/NO_DATA
+  SLICE $1I162/$3I4274/MISALIGNED
+  SLICE $1I162/$3I4274/END
+  SLICE $1I162/$3I4274/TXOUT3
+  SLICE $1I162/$3I4274/TXOUT5
+  SLICE $1I162/$3I4274/TXOUT11
+  SLICE $1I162/$3I4274/D2S11
+  SLICE $1I162/$3I4274/D2S13
+  SLICE $1I162/$3I4274/D2S15
+  SLICE $1I162/$3I4274/D2S17
+  SLICE $1I162/$3I4274/D1S0
+  SLICE $1I162/$3I4274/D1S3
+  SLICE $1I162/$3I4274/D1S4
+  SLICE $1I162/$3I4274/D1S7
+  SLICE $1I162/$3I4274/D1S8
+  SLICE $1I162/$3I4274/D1S11
+  SLICE $1I162/MEMREQ3
+  SLICE $1I162/WRNEXT_F3
+  SLICE $1I162/$3I4274/OVERFLOW
+  SLICE $1I162/RXERR3
+  SLICE $1I162/$3I4274/D3S17
+  SLICE $1I162/$3I4274/TXOUT15
+  SLICE $1I162/$3I4274/NEXTMEM4
+  SLICE $1I162/$3I4274/NEW_ASSIGNED
+  SLICE $1I162/$3I4274/REQ_RST
+  SLICE $1I162/$3I4274/STARTED
+  SLICE $1I162/$3I4274/MREQ_RST
+  SLICE $1I162/$3I4274/CLR_MRQRST
+  SLICE $1I162/$3I4274/REN+1
+  SLICE $1I162/RELEASE3
+  SLICE $1I162/$3I4274/TXOUT6
+  SLICE $1I162/$3I4274/D3S9
+  SLICE $1I162/$3I4274/D3S7
+  SLICE $1I162/$3I4274/D3S5
+  SLICE $1I162/$3I4274/D3S3
+  SLICE $1I162/$3I4274/D3S1
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$3I4274/D3S1 that is locked to site
+SLICE_X19Y94. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$4I4476/F0EN
+  SLICE $1I162/$4I4476/F2EN
+  SLICE $1I162/$4I4476/CTRL1
+  SLICE $1I162/EMPTY_M21
+  SLICE $1I162/$4I4476/WR_SEL
+  SLICE $1I162/$4I4476/WEN
+  SLICE $1I162/$4I4476/DIN10
+  SLICE $1I162/$4I4476/DIN0
+  SLICE $1I162/$4I4476/DIN11
+  SLICE $1I162/$4I4476/DIN12
+  SLICE $1I162/$4I4476/DIN6
+  SLICE $1I162/$4I4476/DIN7
+  SLICE $1I162/$4I4476/DIN17
+  SLICE $1I162/$4I4476/DIN1
+  SLICE $1I162/$4I4476/DIN13
+  SLICE $1I162/$4I4476/DIN14
+  SLICE $1I162/$4I4476/DIN2
+  SLICE $1I162/$4I4476/DIN3
+  SLICE $1I162/$4I4476/DIN15
+  SLICE $1I162/$4I4476/DIN8
+  SLICE $1I162/$4I4476/DIN16
+  SLICE $1I162/$4I4476/DIN4
+  SLICE $1I162/$4I4476/DIN5
+  SLICE $1I162/$4I4476/DIN9
+  SLICE $1I162/$4I4476/$1I4488/CNT_ENB
+  SLICE $1I162/$4I4476/CLR_ASSIGN
+  SLICE $1I162/$4I4476/ASSIGNED
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$4I4476/DIN9 that is locked to site
+SLICE_X28Y101. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$7I4651/DIN9
+  SLICE $1I162/$7I4651/ASSIGNED
+  SLICE $1I162/$7I4651/F0EN
+  SLICE $1I162/$7I4651/F2EN
+  SLICE $1I162/$7I4651/CTRL1
+  SLICE $1I162/EMPTY_M58
+  SLICE $1I162/$7I4651/WR_SEL
+  SLICE $1I162/$7I4651/WEN
+  SLICE $1I162/$7I4651/DIN10
+  SLICE $1I162/$7I4651/DIN0
+  SLICE $1I162/$7I4651/DIN11
+  SLICE $1I162/$7I4651/DIN12
+  SLICE $1I162/$7I4651/DIN6
+  SLICE $1I162/$7I4651/DIN7
+  SLICE $1I162/$7I4651/DIN17
+  SLICE $1I162/$7I4651/DIN1
+  SLICE $1I162/$7I4651/DIN13
+  SLICE $1I162/$7I4651/DIN14
+  SLICE $1I162/$7I4651/DIN2
+  SLICE $1I162/$7I4651/DIN3
+  SLICE $1I162/$7I4651/DIN15
+  SLICE $1I162/$7I4651/DIN8
+  SLICE $1I162/$7I4651/DIN16
+  SLICE $1I162/$7I4651/DIN4
+  SLICE $1I162/$7I4651/DIN5
+  SLICE $1I162/$7I4651/$1I4488/CNT_ENB
+  SLICE $1I162/$7I4651/CLR_ASSIGN
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$7I4651/DIN9 that is locked to site
+SLICE_X52Y13. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$7I4731/DIN9
+  SLICE $1I162/$7I4731/ASSIGNED
+  SLICE $1I162/$7I4731/F0EN
+  SLICE $1I162/$7I4731/F2EN
+  SLICE $1I162/$7I4731/CTRL1
+  SLICE $1I162/EMPTY_M54
+  SLICE $1I162/$7I4731/WR_SEL
+  SLICE $1I162/$7I4731/WEN
+  SLICE $1I162/$7I4731/DIN10
+  SLICE $1I162/$7I4731/DIN0
+  SLICE $1I162/$7I4731/DIN11
+  SLICE $1I162/$7I4731/DIN12
+  SLICE $1I162/$7I4731/DIN6
+  SLICE $1I162/$7I4731/DIN7
+  SLICE $1I162/$7I4731/DIN17
+  SLICE $1I162/$7I4731/DIN1
+  SLICE $1I162/$7I4731/DIN13
+  SLICE $1I162/$7I4731/DIN14
+  SLICE $1I162/$7I4731/DIN2
+  SLICE $1I162/$7I4731/DIN3
+  SLICE $1I162/$7I4731/DIN15
+  SLICE $1I162/$7I4731/DIN8
+  SLICE $1I162/$7I4731/DIN16
+  SLICE $1I162/$7I4731/DIN4
+  SLICE $1I162/$7I4731/DIN5
+  SLICE $1I162/$7I4731/$1I4488/CNT_ENB
+  SLICE $1I162/$7I4731/CLR_ASSIGN
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$7I4731/DIN9 that is locked to site
+SLICE_X64Y21. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$4I4657/DIN9
+  SLICE $1I162/$4I4657/DIN10
+  SLICE $1I162/$4I4657/DIN11
+  SLICE $1I162/$4I4657/F0EN
+  SLICE $1I162/$4I4657/F2EN
+  SLICE $1I162/$4I4657/CTRL1
+  SLICE $1I162/$4I4657/WR_SEL
+  SLICE $1I162/$4I4657/WEN
+  SLICE $1I162/$4I4657/DIN0
+  SLICE $1I162/$4I4657/DIN6
+  SLICE $1I162/$4I4657/DIN7
+  SLICE $1I162/$4I4657/DIN1
+  SLICE $1I162/EMPTY_M24
+  SLICE $1I162/$4I4657/DIN2
+  SLICE $1I162/$4I4657/DIN3
+  SLICE $1I162/$4I4657/DIN8
+  SLICE $1I162/$4I4657/DIN4
+  SLICE $1I162/$4I4657/DIN5
+  SLICE $1I162/$4I4657/DIN12
+  SLICE $1I162/$4I4657/DIN17
+  SLICE $1I162/$4I4657/DIN13
+  SLICE $1I162/$4I4657/DIN14
+  SLICE $1I162/$4I4657/DIN15
+  SLICE $1I162/$4I4657/DIN16
+  SLICE $1I162/$4I4657/CLR_ASSIGN
+  SLICE $1I162/$4I4657/$1I4488/CNT_ENB
+  SLICE $1I162/$4I4657/ASSIGNED
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$4I4657/DIN9 that is locked to site
+SLICE_X42Y67. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$3I4365/F0EN
+  SLICE $1I162/$3I4365/F2EN
+  SLICE $1I162/$3I4365/CTRL1
+  SLICE $1I162/EMPTY_M6
+  SLICE $1I162/$3I4365/WR_SEL
+  SLICE $1I162/$3I4365/WEN
+  SLICE $1I162/$3I4365/DIN10
+  SLICE $1I162/$3I4365/DIN0
+  SLICE $1I162/$3I4365/DIN11
+  SLICE $1I162/$3I4365/DIN6
+  SLICE $1I162/$3I4365/DIN12
+  SLICE $1I162/$3I4365/DIN7
+  SLICE $1I162/$3I4365/DIN17
+  SLICE $1I162/$3I4365/DIN1
+  SLICE $1I162/$3I4365/DIN13
+  SLICE $1I162/$3I4365/DIN2
+  SLICE $1I162/$3I4365/DIN14
+  SLICE $1I162/$3I4365/DIN3
+  SLICE $1I162/$3I4365/DIN15
+  SLICE $1I162/$3I4365/DIN8
+  SLICE $1I162/$3I4365/DIN16
+  SLICE $1I162/$3I4365/DIN4
+  SLICE $1I162/$3I4365/DIN5
+  SLICE $1I162/$3I4365/DIN9
+  SLICE $1I162/$3I4365/$1I4488/CNT_ENB
+  SLICE $1I162/$3I4365/CLR_ASSIGN
+  SLICE $1I162/$3I4365/ASSIGNED
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$3I4365/DIN9 that is locked to site
+SLICE_X64Y101. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$1I4143/F0EN
+  SLICE $1I162/$1I4143/F2EN
+  SLICE $1I162/$1I4143/CTRL1
+  SLICE $1I162/EMPTY_M0
+  SLICE $1I162/$1I4143/WR_SEL
+  SLICE $1I162/$1I4143/WEN
+  SLICE $1I162/$1I4143/DIN10
+  SLICE $1I162/$1I4143/DIN0
+  SLICE $1I162/$1I4143/DIN11
+  SLICE $1I162/$1I4143/DIN12
+  SLICE $1I162/$1I4143/DIN6
+  SLICE $1I162/$1I4143/DIN7
+  SLICE $1I162/$1I4143/DIN17
+  SLICE $1I162/$1I4143/DIN1
+  SLICE $1I162/$1I4143/DIN13
+  SLICE $1I162/$1I4143/DIN14
+  SLICE $1I162/$1I4143/DIN2
+  SLICE $1I162/$1I4143/DIN3
+  SLICE $1I162/$1I4143/DIN15
+  SLICE $1I162/$1I4143/DIN16
+  SLICE $1I162/$1I4143/DIN8
+  SLICE $1I162/$1I4143/DIN4
+  SLICE $1I162/$1I4143/DIN5
+  SLICE $1I162/$1I4143/DIN9
+  SLICE $1I162/$1I4143/$1I4488/CNT_ENB
+  SLICE $1I162/$1I4143/CLR_ASSIGN
+  SLICE $1I162/$1I4143/ASSIGNED
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$1I4143/DIN9 that is locked to site
+SLICE_X88Y53. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$1I4142/E0_ON_WC_EQ0+2
+  SLICE $1I162/$1I4142/TXOUT13
+  SLICE $1I162/$1I4142/NON_EMPTY_EVT
+  SLICE $1I162/$1I4142/D2S9
+  SLICE $1I162/$1I4142/D2S7
+  SLICE $1I162/$1I4142/D2S5
+  SLICE $1I162/$1I4142/D2S3
+  SLICE $1I162/$1I4142/D2S1
+  SLICE $1I162/$1I4142/D3S15
+  SLICE $1I162/$1I4142/D3S13
+  SLICE $1I162/$1I4142/D1S13
+  SLICE $1I162/$1I4142/D3S11
+  SLICE $1I162/$1I4142/D1S15
+  SLICE $1I162/$1I4142/D1S16
+  SLICE $1I162/$1I4142/LAST+1
+  SLICE $1I162/$1I4142/LAST+2
+  SLICE $1I162/$1I4142/NO_DATA
+  SLICE $1I162/$1I4142/ENDING_DATA
+  SLICE $1I162/$1I4142/END
+  SLICE $1I162/$1I4142/NEXTMEM1
+  SLICE $1I162/$1I4142/NEXTMEM3
+  SLICE $1I162/$1I4142/START
+  SLICE $1I162/$1I4142/ASSIGNMENT_ERR
+  SLICE $1I162/$1I4142/NEXTENB
+  SLICE $1I162/$1I4142/$2I4345/$1I2554/O
+  SLICE $1I162/WEN_F0
+  SLICE $1I162/$1I4142/LWEN-1
+  SLICE $1I162/$1I4142/RELEASE_RDY
+  SLICE $1I162/$1I4142/1-E
+  SLICE $1I162/$1I4142/D3S17
+  SLICE $1I162/$1I4142/TXOUT15
+  SLICE $1I162/$1I4142/NEXTMEM4
+  SLICE $1I162/$1I4142/NEW_ASSIGNED
+  SLICE $1I162/$1I4142/REQ_RST
+  SLICE $1I162/$1I4142/STARTED
+  SLICE $1I162/$1I4142/MREQ_RST
+  SLICE $1I162/$1I4142/CLR_MRQRST
+  SLICE $1I162/$1I4142/REN+1
+  SLICE $1I162/RELEASE0
+  SLICE $1I162/$1I4142/TXOUT6
+  SLICE $1I162/$1I4142/D3S9
+  SLICE $1I162/$1I4142/D3S7
+  SLICE $1I162/$1I4142/D3S5
+  SLICE $1I162/$1I4142/D3S3
+  SLICE $1I162/$1I4142/D3S1
+  SLICE $1I162/$1I4142/TXOUT3
+  SLICE $1I162/$1I4142/TXOUT5
+  SLICE $1I162/$1I4142/TXOUT11
+  SLICE $1I162/$1I4142/D2S11
+  SLICE $1I162/$1I4142/D2S13
+  SLICE $1I162/$1I4142/D2S15
+  SLICE $1I162/$1I4142/D2S17
+  SLICE $1I162/$1I4142/D1S0
+  SLICE $1I162/$1I4142/D1S3
+  SLICE $1I162/$1I4142/D1S4
+  SLICE $1I162/$1I4142/D1S7
+  SLICE $1I162/$1I4142/D1S8
+  SLICE $1I162/$1I4142/D1S11
+  SLICE $1I162/MEMREQ0
+  SLICE $1I162/WRNEXT_F0
+  SLICE $1I162/$1I4142/OVERFLOW
+  SLICE $1I162/RXERR0
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$1I4142/D3S1 that is locked to site
+SLICE_X79Y94. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$7I4974/DIN12
+  SLICE $1I162/$7I4974/DIN17
+  SLICE $1I162/$7I4974/DIN13
+  SLICE $1I162/$7I4974/DIN14
+  SLICE $1I162/$7I4974/DIN15
+  SLICE $1I162/$7I4974/DIN16
+  SLICE $1I162/$7I4974/DIN9
+  SLICE $1I162/$7I4974/DIN10
+  SLICE $1I162/$7I4974/DIN11
+  SLICE $1I162/$7I4974/F0EN
+  SLICE $1I162/$7I4974/F2EN
+  SLICE $1I162/$7I4974/CTRL1
+  SLICE $1I162/$7I4974/WR_SEL
+  SLICE $1I162/$7I4974/WEN
+  SLICE $1I162/$7I4974/DIN0
+  SLICE $1I162/$7I4974/DIN6
+  SLICE $1I162/$7I4974/DIN7
+  SLICE $1I162/$7I4974/DIN1
+  SLICE $1I162/EMPTY_M56
+  SLICE $1I162/$7I4974/DIN2
+  SLICE $1I162/$7I4974/DIN3
+  SLICE $1I162/$7I4974/DIN8
+  SLICE $1I162/$7I4974/DIN4
+  SLICE $1I162/$7I4974/DIN5
+  SLICE $1I162/$7I4974/CLR_ASSIGN
+  SLICE $1I162/$7I4974/$1I4488/CNT_ENB
+  SLICE $1I162/$7I4974/ASSIGNED
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$7I4974/DIN9 that is locked to site
+SLICE_X66Y35. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$7I4838/DIN9
+  SLICE $1I162/$7I4838/$1I4488/CNT_ENB
+  SLICE $1I162/$7I4838/CLR_ASSIGN
+  SLICE $1I162/$7I4838/ASSIGNED
+  SLICE $1I162/$7I4838/F0EN
+  SLICE $1I162/$7I4838/F2EN
+  SLICE $1I162/$7I4838/CTRL1
+  SLICE $1I162/EMPTY_M52
+  SLICE $1I162/$7I4838/WR_SEL
+  SLICE $1I162/$7I4838/WEN
+  SLICE $1I162/$7I4838/DIN10
+  SLICE $1I162/$7I4838/DIN0
+  SLICE $1I162/$7I4838/DIN11
+  SLICE $1I162/$7I4838/DIN12
+  SLICE $1I162/$7I4838/DIN6
+  SLICE $1I162/$7I4838/DIN7
+  SLICE $1I162/$7I4838/DIN17
+  SLICE $1I162/$7I4838/DIN1
+  SLICE $1I162/$7I4838/DIN13
+  SLICE $1I162/$7I4838/DIN14
+  SLICE $1I162/$7I4838/DIN2
+  SLICE $1I162/$7I4838/DIN3
+  SLICE $1I162/$7I4838/DIN15
+  SLICE $1I162/$7I4838/DIN16
+  SLICE $1I162/$7I4838/DIN8
+  SLICE $1I162/$7I4838/DIN4
+  SLICE $1I162/$7I4838/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$7I4838/DIN9 that is locked to site
+SLICE_X76Y13. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$6I4479/DIN9
+  SLICE $1I162/$6I4479/ASSIGNED
+  SLICE $1I162/$6I4479/$1I4488/CNT_ENB
+  SLICE $1I162/$6I4479/CLR_ASSIGN
+  SLICE $1I162/$6I4479/F0EN
+  SLICE $1I162/$6I4479/F2EN
+  SLICE $1I162/$6I4479/CTRL1
+  SLICE $1I162/EMPTY_M34
+  SLICE $1I162/$6I4479/WR_SEL
+  SLICE $1I162/$6I4479/WEN
+  SLICE $1I162/$6I4479/DIN10
+  SLICE $1I162/$6I4479/DIN11
+  SLICE $1I162/$6I4479/DIN0
+  SLICE $1I162/$6I4479/DIN12
+  SLICE $1I162/$6I4479/DIN6
+  SLICE $1I162/$6I4479/DIN7
+  SLICE $1I162/$6I4479/DIN17
+  SLICE $1I162/$6I4479/DIN1
+  SLICE $1I162/$6I4479/DIN13
+  SLICE $1I162/$6I4479/DIN14
+  SLICE $1I162/$6I4479/DIN2
+  SLICE $1I162/$6I4479/DIN3
+  SLICE $1I162/$6I4479/DIN15
+  SLICE $1I162/$6I4479/DIN16
+  SLICE $1I162/$6I4479/DIN8
+  SLICE $1I162/$6I4479/DIN4
+  SLICE $1I162/$6I4479/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$6I4479/DIN9 that is locked to site
+SLICE_X4Y21. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$6I4575/DIN9
+  SLICE $1I162/$6I4575/ASSIGNED
+  SLICE $1I162/$6I4575/$1I4488/CNT_ENB
+  SLICE $1I162/$6I4575/CLR_ASSIGN
+  SLICE $1I162/$6I4575/F0EN
+  SLICE $1I162/$6I4575/F2EN
+  SLICE $1I162/$6I4575/CTRL1
+  SLICE $1I162/EMPTY_M37
+  SLICE $1I162/$6I4575/WR_SEL
+  SLICE $1I162/$6I4575/WEN
+  SLICE $1I162/$6I4575/DIN10
+  SLICE $1I162/$6I4575/DIN11
+  SLICE $1I162/$6I4575/DIN0
+  SLICE $1I162/$6I4575/DIN12
+  SLICE $1I162/$6I4575/DIN6
+  SLICE $1I162/$6I4575/DIN7
+  SLICE $1I162/$6I4575/DIN17
+  SLICE $1I162/$6I4575/DIN1
+  SLICE $1I162/$6I4575/DIN13
+  SLICE $1I162/$6I4575/DIN14
+  SLICE $1I162/$6I4575/DIN2
+  SLICE $1I162/$6I4575/DIN3
+  SLICE $1I162/$6I4575/DIN15
+  SLICE $1I162/$6I4575/DIN16
+  SLICE $1I162/$6I4575/DIN8
+  SLICE $1I162/$6I4575/DIN4
+  SLICE $1I162/$6I4575/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$6I4575/DIN9 that is locked to site
+SLICE_X16Y13. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$6I4598/F0EN
+  SLICE $1I162/$6I4598/F2EN
+  SLICE $1I162/$6I4598/CTRL1
+  SLICE $1I162/EMPTY_M38
+  SLICE $1I162/$6I4598/WR_SEL
+  SLICE $1I162/$6I4598/WEN
+  SLICE $1I162/$6I4598/DIN10
+  SLICE $1I162/$6I4598/DIN0
+  SLICE $1I162/$6I4598/DIN11
+  SLICE $1I162/$6I4598/DIN12
+  SLICE $1I162/$6I4598/DIN6
+  SLICE $1I162/$6I4598/DIN7
+  SLICE $1I162/$6I4598/DIN17
+  SLICE $1I162/$6I4598/DIN1
+  SLICE $1I162/$6I4598/DIN13
+  SLICE $1I162/$6I4598/DIN14
+  SLICE $1I162/$6I4598/DIN2
+  SLICE $1I162/$6I4598/DIN3
+  SLICE $1I162/$6I4598/DIN15
+  SLICE $1I162/$6I4598/DIN8
+  SLICE $1I162/$6I4598/DIN16
+  SLICE $1I162/$6I4598/DIN4
+  SLICE $1I162/$6I4598/DIN5
+  SLICE $1I162/$6I4598/$1I4488/CNT_ENB
+  SLICE $1I162/$6I4598/CLR_ASSIGN
+  SLICE $1I162/$6I4598/ASSIGNED
+  SLICE $1I162/$6I4598/DIN9
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$6I4598/DIN9 that is locked to site
+SLICE_X28Y5. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$6I4686/F0EN
+  SLICE $1I162/$6I4686/F2EN
+  SLICE $1I162/$6I4686/CTRL1
+  SLICE $1I162/EMPTY_M42
+  SLICE $1I162/$6I4686/WR_SEL
+  SLICE $1I162/$6I4686/WEN
+  SLICE $1I162/$6I4686/DIN10
+  SLICE $1I162/$6I4686/DIN0
+  SLICE $1I162/$6I4686/DIN11
+  SLICE $1I162/$6I4686/DIN12
+  SLICE $1I162/$6I4686/DIN6
+  SLICE $1I162/$6I4686/DIN7
+  SLICE $1I162/$6I4686/DIN17
+  SLICE $1I162/$6I4686/DIN1
+  SLICE $1I162/$6I4686/DIN13
+  SLICE $1I162/$6I4686/DIN14
+  SLICE $1I162/$6I4686/DIN2
+  SLICE $1I162/$6I4686/DIN3
+  SLICE $1I162/$6I4686/DIN15
+  SLICE $1I162/$6I4686/DIN8
+  SLICE $1I162/$6I4686/DIN16
+  SLICE $1I162/$6I4686/DIN4
+  SLICE $1I162/$6I4686/DIN5
+  SLICE $1I162/$6I4686/$1I4488/CNT_ENB
+  SLICE $1I162/$6I4686/CLR_ASSIGN
+  SLICE $1I162/$6I4686/ASSIGNED
+  SLICE $1I162/$6I4686/DIN9
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$6I4686/DIN9 that is locked to site
+SLICE_X40Y13. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$4I4611/F0EN
+  SLICE $1I162/$4I4611/F2EN
+  SLICE $1I162/$4I4611/CTRL1
+  SLICE $1I162/EMPTY_M26
+  SLICE $1I162/$4I4611/WR_SEL
+  SLICE $1I162/$4I4611/WEN
+  SLICE $1I162/$4I4611/DIN10
+  SLICE $1I162/$4I4611/DIN0
+  SLICE $1I162/$4I4611/DIN11
+  SLICE $1I162/$4I4611/DIN12
+  SLICE $1I162/$4I4611/DIN6
+  SLICE $1I162/$4I4611/DIN7
+  SLICE $1I162/$4I4611/DIN17
+  SLICE $1I162/$4I4611/DIN1
+  SLICE $1I162/$4I4611/DIN13
+  SLICE $1I162/$4I4611/DIN14
+  SLICE $1I162/$4I4611/DIN2
+  SLICE $1I162/$4I4611/DIN3
+  SLICE $1I162/$4I4611/DIN15
+  SLICE $1I162/$4I4611/DIN16
+  SLICE $1I162/$4I4611/DIN8
+  SLICE $1I162/$4I4611/DIN4
+  SLICE $1I162/$4I4611/DIN5
+  SLICE $1I162/$4I4611/DIN9
+  SLICE $1I162/$4I4611/$1I4488/CNT_ENB
+  SLICE $1I162/$4I4611/CLR_ASSIGN
+  SLICE $1I162/$4I4611/ASSIGNED
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$4I4611/DIN9 that is locked to site
+SLICE_X40Y93. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$4I4329/DIN9
+  SLICE $1I162/$4I4329/$1I4488/CNT_ENB
+  SLICE $1I162/$4I4329/CLR_ASSIGN
+  SLICE $1I162/$4I4329/ASSIGNED
+  SLICE $1I162/$4I4329/F0EN
+  SLICE $1I162/$4I4329/F2EN
+  SLICE $1I162/$4I4329/CTRL1
+  SLICE $1I162/EMPTY_M16
+  SLICE $1I162/$4I4329/WR_SEL
+  SLICE $1I162/$4I4329/WEN
+  SLICE $1I162/$4I4329/DIN10
+  SLICE $1I162/$4I4329/DIN0
+  SLICE $1I162/$4I4329/DIN11
+  SLICE $1I162/$4I4329/DIN6
+  SLICE $1I162/$4I4329/DIN12
+  SLICE $1I162/$4I4329/DIN7
+  SLICE $1I162/$4I4329/DIN17
+  SLICE $1I162/$4I4329/DIN1
+  SLICE $1I162/$4I4329/DIN13
+  SLICE $1I162/$4I4329/DIN14
+  SLICE $1I162/$4I4329/DIN2
+  SLICE $1I162/$4I4329/DIN3
+  SLICE $1I162/$4I4329/DIN15
+  SLICE $1I162/$4I4329/DIN8
+  SLICE $1I162/$4I4329/DIN16
+  SLICE $1I162/$4I4329/DIN4
+  SLICE $1I162/$4I4329/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$4I4329/DIN9 that is locked to site
+SLICE_X4Y69. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$4I4560/F0EN
+  SLICE $1I162/$4I4560/F2EN
+  SLICE $1I162/$4I4560/CTRL1
+  SLICE $1I162/EMPTY_M25
+  SLICE $1I162/$4I4560/WR_SEL
+  SLICE $1I162/$4I4560/WEN
+  SLICE $1I162/$4I4560/DIN10
+  SLICE $1I162/$4I4560/DIN0
+  SLICE $1I162/$4I4560/DIN11
+  SLICE $1I162/$4I4560/DIN12
+  SLICE $1I162/$4I4560/DIN6
+  SLICE $1I162/$4I4560/DIN7
+  SLICE $1I162/$4I4560/DIN17
+  SLICE $1I162/$4I4560/DIN1
+  SLICE $1I162/$4I4560/DIN13
+  SLICE $1I162/$4I4560/DIN14
+  SLICE $1I162/$4I4560/DIN2
+  SLICE $1I162/$4I4560/DIN3
+  SLICE $1I162/$4I4560/DIN15
+  SLICE $1I162/$4I4560/DIN16
+  SLICE $1I162/$4I4560/DIN8
+  SLICE $1I162/$4I4560/DIN4
+  SLICE $1I162/$4I4560/DIN5
+  SLICE $1I162/$4I4560/ASSIGNED
+  SLICE $1I162/$4I4560/$1I4488/CNT_ENB
+  SLICE $1I162/$4I4560/CLR_ASSIGN
+  SLICE $1I162/$4I4560/DIN9
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$4I4560/DIN9 that is locked to site
+SLICE_X40Y77. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$4I4475/DIN9
+  SLICE $1I162/$4I4475/$1I4488/CNT_ENB
+  SLICE $1I162/$4I4475/CLR_ASSIGN
+  SLICE $1I162/$4I4475/ASSIGNED
+  SLICE $1I162/$4I4475/F0EN
+  SLICE $1I162/$4I4475/F2EN
+  SLICE $1I162/$4I4475/CTRL1
+  SLICE $1I162/EMPTY_M20
+  SLICE $1I162/$4I4475/WR_SEL
+  SLICE $1I162/$4I4475/WEN
+  SLICE $1I162/$4I4475/DIN10
+  SLICE $1I162/$4I4475/DIN0
+  SLICE $1I162/$4I4475/DIN11
+  SLICE $1I162/$4I4475/DIN6
+  SLICE $1I162/$4I4475/DIN12
+  SLICE $1I162/$4I4475/DIN7
+  SLICE $1I162/$4I4475/DIN17
+  SLICE $1I162/$4I4475/DIN1
+  SLICE $1I162/$4I4475/DIN13
+  SLICE $1I162/$4I4475/DIN2
+  SLICE $1I162/$4I4475/DIN14
+  SLICE $1I162/$4I4475/DIN3
+  SLICE $1I162/$4I4475/DIN15
+  SLICE $1I162/$4I4475/DIN8
+  SLICE $1I162/$4I4475/DIN16
+  SLICE $1I162/$4I4475/DIN4
+  SLICE $1I162/$4I4475/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$4I4475/DIN9 that is locked to site
+SLICE_X16Y93. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$3I4329/F0EN
+  SLICE $1I162/$3I4329/F2EN
+  SLICE $1I162/$3I4329/CTRL1
+  SLICE $1I162/EMPTY_M3
+  SLICE $1I162/$3I4329/WR_SEL
+  SLICE $1I162/$3I4329/WEN
+  SLICE $1I162/$3I4329/DIN10
+  SLICE $1I162/$3I4329/DIN0
+  SLICE $1I162/$3I4329/DIN11
+  SLICE $1I162/$3I4329/DIN12
+  SLICE $1I162/$3I4329/DIN6
+  SLICE $1I162/$3I4329/DIN7
+  SLICE $1I162/$3I4329/DIN17
+  SLICE $1I162/$3I4329/DIN1
+  SLICE $1I162/$3I4329/DIN13
+  SLICE $1I162/$3I4329/DIN14
+  SLICE $1I162/$3I4329/DIN2
+  SLICE $1I162/$3I4329/DIN3
+  SLICE $1I162/$3I4329/DIN15
+  SLICE $1I162/$3I4329/DIN16
+  SLICE $1I162/$3I4329/DIN8
+  SLICE $1I162/$3I4329/DIN4
+  SLICE $1I162/$3I4329/DIN5
+  SLICE $1I162/$3I4329/$1I4488/CNT_ENB
+  SLICE $1I162/$3I4329/CLR_ASSIGN
+  SLICE $1I162/$3I4329/ASSIGNED
+  SLICE $1I162/$3I4329/DIN9
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$3I4329/DIN9 that is locked to site
+SLICE_X88Y101. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$3I4417/F0EN
+  SLICE $1I162/$3I4417/F2EN
+  SLICE $1I162/$3I4417/CTRL1
+  SLICE $1I162/EMPTY_M1
+  SLICE $1I162/$3I4417/WR_SEL
+  SLICE $1I162/$3I4417/WEN
+  SLICE $1I162/$3I4417/DIN10
+  SLICE $1I162/$3I4417/DIN0
+  SLICE $1I162/$3I4417/DIN11
+  SLICE $1I162/$3I4417/DIN12
+  SLICE $1I162/$3I4417/DIN6
+  SLICE $1I162/$3I4417/DIN7
+  SLICE $1I162/$3I4417/DIN17
+  SLICE $1I162/$3I4417/DIN1
+  SLICE $1I162/$3I4417/DIN13
+  SLICE $1I162/$3I4417/DIN14
+  SLICE $1I162/$3I4417/DIN2
+  SLICE $1I162/$3I4417/DIN3
+  SLICE $1I162/$3I4417/DIN15
+  SLICE $1I162/$3I4417/DIN16
+  SLICE $1I162/$3I4417/DIN8
+  SLICE $1I162/$3I4417/DIN4
+  SLICE $1I162/$3I4417/DIN5
+  SLICE $1I162/$3I4417/$1I4488/CNT_ENB
+  SLICE $1I162/$3I4417/CLR_ASSIGN
+  SLICE $1I162/$3I4417/ASSIGNED
+  SLICE $1I162/$3I4417/DIN9
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$3I4417/DIN9 that is locked to site
+SLICE_X88Y69. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$3I4526/F0EN
+  SLICE $1I162/$3I4526/F2EN
+  SLICE $1I162/$3I4526/CTRL1
+  SLICE $1I162/EMPTY_M4
+  SLICE $1I162/$3I4526/WR_SEL
+  SLICE $1I162/$3I4526/WEN
+  SLICE $1I162/$3I4526/DIN10
+  SLICE $1I162/$3I4526/DIN0
+  SLICE $1I162/$3I4526/DIN11
+  SLICE $1I162/$3I4526/DIN12
+  SLICE $1I162/$3I4526/DIN6
+  SLICE $1I162/$3I4526/DIN7
+  SLICE $1I162/$3I4526/DIN17
+  SLICE $1I162/$3I4526/DIN1
+  SLICE $1I162/$3I4526/DIN13
+  SLICE $1I162/$3I4526/DIN14
+  SLICE $1I162/$3I4526/DIN2
+  SLICE $1I162/$3I4526/DIN3
+  SLICE $1I162/$3I4526/DIN15
+  SLICE $1I162/$3I4526/DIN8
+  SLICE $1I162/$3I4526/DIN16
+  SLICE $1I162/$3I4526/DIN4
+  SLICE $1I162/$3I4526/DIN5
+  SLICE $1I162/$3I4526/DIN9
+  SLICE $1I162/$3I4526/$1I4488/CNT_ENB
+  SLICE $1I162/$3I4526/CLR_ASSIGN
+  SLICE $1I162/$3I4526/ASSIGNED
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$3I4526/DIN9 that is locked to site
+SLICE_X76Y77. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$6I4614/DIN9
+  SLICE $1I162/$6I4614/ASSIGNED
+  SLICE $1I162/$6I4614/$1I4488/CNT_ENB
+  SLICE $1I162/$6I4614/CLR_ASSIGN
+  SLICE $1I162/$6I4614/F0EN
+  SLICE $1I162/$6I4614/F2EN
+  SLICE $1I162/$6I4614/CTRL1
+  SLICE $1I162/EMPTY_M39
+  SLICE $1I162/$6I4614/WR_SEL
+  SLICE $1I162/$6I4614/WEN
+  SLICE $1I162/$6I4614/DIN10
+  SLICE $1I162/$6I4614/DIN0
+  SLICE $1I162/$6I4614/DIN11
+  SLICE $1I162/$6I4614/DIN6
+  SLICE $1I162/$6I4614/DIN12
+  SLICE $1I162/$6I4614/DIN7
+  SLICE $1I162/$6I4614/DIN17
+  SLICE $1I162/$6I4614/DIN1
+  SLICE $1I162/$6I4614/DIN13
+  SLICE $1I162/$6I4614/DIN14
+  SLICE $1I162/$6I4614/DIN2
+  SLICE $1I162/$6I4614/DIN3
+  SLICE $1I162/$6I4614/DIN15
+  SLICE $1I162/$6I4614/DIN8
+  SLICE $1I162/$6I4614/DIN16
+  SLICE $1I162/$6I4614/DIN4
+  SLICE $1I162/$6I4614/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$6I4614/DIN9 that is locked to site
+SLICE_X28Y21. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$7I4863/DIN9
+  SLICE $1I162/$7I4863/$1I4488/CNT_ENB
+  SLICE $1I162/$7I4863/CLR_ASSIGN
+  SLICE $1I162/$7I4863/ASSIGNED
+  SLICE $1I162/$7I4863/F0EN
+  SLICE $1I162/$7I4863/F2EN
+  SLICE $1I162/$7I4863/CTRL1
+  SLICE $1I162/EMPTY_M51
+  SLICE $1I162/$7I4863/WR_SEL
+  SLICE $1I162/$7I4863/WEN
+  SLICE $1I162/$7I4863/DIN10
+  SLICE $1I162/$7I4863/DIN0
+  SLICE $1I162/$7I4863/DIN11
+  SLICE $1I162/$7I4863/DIN12
+  SLICE $1I162/$7I4863/DIN6
+  SLICE $1I162/$7I4863/DIN7
+  SLICE $1I162/$7I4863/DIN17
+  SLICE $1I162/$7I4863/DIN1
+  SLICE $1I162/$7I4863/DIN13
+  SLICE $1I162/$7I4863/DIN14
+  SLICE $1I162/$7I4863/DIN2
+  SLICE $1I162/$7I4863/DIN3
+  SLICE $1I162/$7I4863/DIN15
+  SLICE $1I162/$7I4863/DIN16
+  SLICE $1I162/$7I4863/DIN8
+  SLICE $1I162/$7I4863/DIN4
+  SLICE $1I162/$7I4863/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$7I4863/DIN9 that is locked to site
+SLICE_X76Y29. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$5I4143/F0EN
+  SLICE $1I162/$5I4143/F2EN
+  SLICE $1I162/$5I4143/CTRL1
+  SLICE $1I162/EMPTY_M32
+  SLICE $1I162/$5I4143/WR_SEL
+  SLICE $1I162/$5I4143/WEN
+  SLICE $1I162/$5I4143/DIN10
+  SLICE $1I162/$5I4143/DIN0
+  SLICE $1I162/$5I4143/DIN11
+  SLICE $1I162/$5I4143/DIN12
+  SLICE $1I162/$5I4143/DIN6
+  SLICE $1I162/$5I4143/DIN7
+  SLICE $1I162/$5I4143/DIN17
+  SLICE $1I162/$5I4143/DIN1
+  SLICE $1I162/$5I4143/DIN13
+  SLICE $1I162/$5I4143/DIN14
+  SLICE $1I162/$5I4143/DIN2
+  SLICE $1I162/$5I4143/DIN3
+  SLICE $1I162/$5I4143/DIN15
+  SLICE $1I162/$5I4143/DIN16
+  SLICE $1I162/$5I4143/DIN8
+  SLICE $1I162/$5I4143/DIN4
+  SLICE $1I162/$5I4143/DIN5
+  SLICE $1I162/$5I4143/DIN9
+  SLICE $1I162/$5I4143/ASSIGNED
+  SLICE $1I162/$5I4143/$1I4488/CNT_ENB
+  SLICE $1I162/$5I4143/CLR_ASSIGN
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$5I4143/DIN9 that is locked to site
+SLICE_X4Y53. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$3I4496/F0EN
+  SLICE $1I162/$3I4496/F2EN
+  SLICE $1I162/$3I4496/CTRL1
+  SLICE $1I162/EMPTY_M5
+  SLICE $1I162/$3I4496/WR_SEL
+  SLICE $1I162/$3I4496/WEN
+  SLICE $1I162/$3I4496/DIN10
+  SLICE $1I162/$3I4496/DIN0
+  SLICE $1I162/$3I4496/DIN11
+  SLICE $1I162/$3I4496/DIN12
+  SLICE $1I162/$3I4496/DIN6
+  SLICE $1I162/$3I4496/DIN7
+  SLICE $1I162/$3I4496/DIN17
+  SLICE $1I162/$3I4496/DIN1
+  SLICE $1I162/$3I4496/DIN13
+  SLICE $1I162/$3I4496/DIN14
+  SLICE $1I162/$3I4496/DIN2
+  SLICE $1I162/$3I4496/DIN3
+  SLICE $1I162/$3I4496/DIN15
+  SLICE $1I162/$3I4496/DIN8
+  SLICE $1I162/$3I4496/DIN16
+  SLICE $1I162/$3I4496/DIN4
+  SLICE $1I162/$3I4496/DIN5
+  SLICE $1I162/$3I4496/DIN9
+  SLICE $1I162/$3I4496/$1I4488/CNT_ENB
+  SLICE $1I162/$3I4496/CLR_ASSIGN
+  SLICE $1I162/$3I4496/ASSIGNED
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$3I4496/DIN9 that is locked to site
+SLICE_X76Y93. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$4I4365/ASSIGNED
+  SLICE $1I162/$4I4365/F0EN
+  SLICE $1I162/$4I4365/F2EN
+  SLICE $1I162/$4I4365/CTRL1
+  SLICE $1I162/EMPTY_M18
+  SLICE $1I162/$4I4365/WR_SEL
+  SLICE $1I162/$4I4365/WEN
+  SLICE $1I162/$4I4365/DIN9
+  SLICE $1I162/$4I4365/$1I4488/CNT_ENB
+  SLICE $1I162/$4I4365/CLR_ASSIGN
+  SLICE $1I162/$4I4365/DIN10
+  SLICE $1I162/$4I4365/DIN11
+  SLICE $1I162/$4I4365/DIN0
+  SLICE $1I162/$4I4365/DIN12
+  SLICE $1I162/$4I4365/DIN6
+  SLICE $1I162/$4I4365/DIN17
+  SLICE $1I162/$4I4365/DIN7
+  SLICE $1I162/$4I4365/DIN13
+  SLICE $1I162/$4I4365/DIN1
+  SLICE $1I162/$4I4365/DIN14
+  SLICE $1I162/$4I4365/DIN2
+  SLICE $1I162/$4I4365/DIN3
+  SLICE $1I162/$4I4365/DIN15
+  SLICE $1I162/$4I4365/DIN16
+  SLICE $1I162/$4I4365/DIN8
+  SLICE $1I162/$4I4365/DIN4
+  SLICE $1I162/$4I4365/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$4I4365/DIN9 that is locked to site
+SLICE_X4Y101. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$7I4614/ASSIGNED
+  SLICE $1I162/$7I4614/F0EN
+  SLICE $1I162/$7I4614/F2EN
+  SLICE $1I162/$7I4614/CTRL1
+  SLICE $1I162/EMPTY_M48
+  SLICE $1I162/$7I4614/WR_SEL
+  SLICE $1I162/$7I4614/WEN
+  SLICE $1I162/$7I4614/DIN10
+  SLICE $1I162/$7I4614/DIN0
+  SLICE $1I162/$7I4614/DIN11
+  SLICE $1I162/$7I4614/DIN12
+  SLICE $1I162/$7I4614/DIN6
+  SLICE $1I162/$7I4614/DIN7
+  SLICE $1I162/$7I4614/DIN17
+  SLICE $1I162/$7I4614/DIN1
+  SLICE $1I162/$7I4614/DIN13
+  SLICE $1I162/$7I4614/DIN14
+  SLICE $1I162/$7I4614/DIN2
+  SLICE $1I162/$7I4614/DIN3
+  SLICE $1I162/$7I4614/DIN15
+  SLICE $1I162/$7I4614/DIN8
+  SLICE $1I162/$7I4614/DIN16
+  SLICE $1I162/$7I4614/DIN4
+  SLICE $1I162/$7I4614/DIN5
+  SLICE $1I162/$7I4614/DIN9
+  SLICE $1I162/$7I4614/$1I4488/CNT_ENB
+  SLICE $1I162/$7I4614/CLR_ASSIGN
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$7I4614/DIN9 that is locked to site
+SLICE_X88Y37. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$3I4551/F0EN
+  SLICE $1I162/$3I4551/F2EN
+  SLICE $1I162/$3I4551/CTRL1
+  SLICE $1I162/EMPTY_M7
+  SLICE $1I162/$3I4551/WR_SEL
+  SLICE $1I162/$3I4551/WEN
+  SLICE $1I162/$3I4551/DIN10
+  SLICE $1I162/$3I4551/DIN0
+  SLICE $1I162/$3I4551/DIN11
+  SLICE $1I162/$3I4551/DIN12
+  SLICE $1I162/$3I4551/DIN6
+  SLICE $1I162/$3I4551/DIN7
+  SLICE $1I162/$3I4551/DIN17
+  SLICE $1I162/$3I4551/DIN1
+  SLICE $1I162/$3I4551/DIN13
+  SLICE $1I162/$3I4551/DIN14
+  SLICE $1I162/$3I4551/DIN2
+  SLICE $1I162/$3I4551/DIN3
+  SLICE $1I162/$3I4551/DIN15
+  SLICE $1I162/$3I4551/DIN16
+  SLICE $1I162/$3I4551/DIN8
+  SLICE $1I162/$3I4551/DIN4
+  SLICE $1I162/$3I4551/DIN5
+  SLICE $1I162/$3I4551/DIN9
+  SLICE $1I162/$3I4551/$1I4488/CNT_ENB
+  SLICE $1I162/$3I4551/CLR_ASSIGN
+  SLICE $1I162/$3I4551/ASSIGNED
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$3I4551/DIN9 that is locked to site
+SLICE_X64Y85. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$6I4143/ASSIGNED
+  SLICE $1I162/$6I4143/$1I4488/CNT_ENB
+  SLICE $1I162/$6I4143/CLR_ASSIGN
+  SLICE $1I162/$6I4143/DIN9
+  SLICE $1I162/$6I4143/F0EN
+  SLICE $1I162/$6I4143/F2EN
+  SLICE $1I162/$6I4143/CTRL1
+  SLICE $1I162/EMPTY_M33
+  SLICE $1I162/$6I4143/WR_SEL
+  SLICE $1I162/$6I4143/WEN
+  SLICE $1I162/$6I4143/DIN10
+  SLICE $1I162/$6I4143/DIN0
+  SLICE $1I162/$6I4143/DIN11
+  SLICE $1I162/$6I4143/DIN12
+  SLICE $1I162/$6I4143/DIN6
+  SLICE $1I162/$6I4143/DIN7
+  SLICE $1I162/$6I4143/DIN17
+  SLICE $1I162/$6I4143/DIN1
+  SLICE $1I162/$6I4143/DIN13
+  SLICE $1I162/$6I4143/DIN14
+  SLICE $1I162/$6I4143/DIN2
+  SLICE $1I162/$6I4143/DIN3
+  SLICE $1I162/$6I4143/DIN15
+  SLICE $1I162/$6I4143/DIN16
+  SLICE $1I162/$6I4143/DIN8
+  SLICE $1I162/$6I4143/DIN4
+  SLICE $1I162/$6I4143/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$6I4143/DIN9 that is locked to site
+SLICE_X4Y37. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$3I4489/F0EN
+  SLICE $1I162/$3I4489/F2EN
+  SLICE $1I162/$3I4489/CTRL1
+  SLICE $1I162/EMPTY_M9
+  SLICE $1I162/$3I4489/WR_SEL
+  SLICE $1I162/$3I4489/WEN
+  SLICE $1I162/$3I4489/DIN10
+  SLICE $1I162/$3I4489/DIN0
+  SLICE $1I162/$3I4489/DIN11
+  SLICE $1I162/$3I4489/DIN12
+  SLICE $1I162/$3I4489/DIN6
+  SLICE $1I162/$3I4489/DIN7
+  SLICE $1I162/$3I4489/DIN17
+  SLICE $1I162/$3I4489/DIN1
+  SLICE $1I162/$3I4489/DIN13
+  SLICE $1I162/$3I4489/DIN14
+  SLICE $1I162/$3I4489/DIN2
+  SLICE $1I162/$3I4489/DIN3
+  SLICE $1I162/$3I4489/DIN15
+  SLICE $1I162/$3I4489/DIN16
+  SLICE $1I162/$3I4489/DIN8
+  SLICE $1I162/$3I4489/DIN4
+  SLICE $1I162/$3I4489/DIN5
+  SLICE $1I162/$3I4489/DIN9
+  SLICE $1I162/$3I4489/ASSIGNED
+  SLICE $1I162/$3I4489/$1I4488/CNT_ENB
+  SLICE $1I162/$3I4489/CLR_ASSIGN
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$3I4489/DIN9 that is locked to site
+SLICE_X52Y69. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$6I4529/F0EN
+  SLICE $1I162/$6I4529/F2EN
+  SLICE $1I162/$6I4529/CTRL1
+  SLICE $1I162/EMPTY_M36
+  SLICE $1I162/$6I4529/WR_SEL
+  SLICE $1I162/$6I4529/WEN
+  SLICE $1I162/$6I4529/DIN10
+  SLICE $1I162/$6I4529/DIN0
+  SLICE $1I162/$6I4529/DIN11
+  SLICE $1I162/$6I4529/DIN12
+  SLICE $1I162/$6I4529/DIN6
+  SLICE $1I162/$6I4529/DIN7
+  SLICE $1I162/$6I4529/DIN17
+  SLICE $1I162/$6I4529/DIN1
+  SLICE $1I162/$6I4529/DIN13
+  SLICE $1I162/$6I4529/DIN14
+  SLICE $1I162/$6I4529/DIN2
+  SLICE $1I162/$6I4529/DIN3
+  SLICE $1I162/$6I4529/DIN15
+  SLICE $1I162/$6I4529/DIN16
+  SLICE $1I162/$6I4529/DIN8
+  SLICE $1I162/$6I4529/DIN4
+  SLICE $1I162/$6I4529/DIN5
+  SLICE $1I162/$6I4529/ASSIGNED
+  SLICE $1I162/$6I4529/DIN9
+  SLICE $1I162/$6I4529/$1I4488/CNT_ENB
+  SLICE $1I162/$6I4529/CLR_ASSIGN
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$6I4529/DIN9 that is locked to site
+SLICE_X16Y29. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$6I4641/F0EN
+  SLICE $1I162/$6I4641/F2EN
+  SLICE $1I162/$6I4641/CTRL1
+  SLICE $1I162/EMPTY_M41
+  SLICE $1I162/$6I4641/WR_SEL
+  SLICE $1I162/$6I4641/WEN
+  SLICE $1I162/$6I4641/DIN10
+  SLICE $1I162/$6I4641/DIN0
+  SLICE $1I162/$6I4641/DIN11
+  SLICE $1I162/$6I4641/DIN12
+  SLICE $1I162/$6I4641/DIN6
+  SLICE $1I162/$6I4641/DIN7
+  SLICE $1I162/$6I4641/DIN17
+  SLICE $1I162/$6I4641/DIN1
+  SLICE $1I162/$6I4641/DIN13
+  SLICE $1I162/$6I4641/DIN14
+  SLICE $1I162/$6I4641/DIN2
+  SLICE $1I162/$6I4641/DIN3
+  SLICE $1I162/$6I4641/DIN15
+  SLICE $1I162/$6I4641/DIN16
+  SLICE $1I162/$6I4641/DIN8
+  SLICE $1I162/$6I4641/DIN4
+  SLICE $1I162/$6I4641/DIN5
+  SLICE $1I162/$6I4641/ASSIGNED
+  SLICE $1I162/$6I4641/DIN9
+  SLICE $1I162/$6I4641/$1I4488/CNT_ENB
+  SLICE $1I162/$6I4641/CLR_ASSIGN
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$6I4641/DIN9 that is locked to site
+SLICE_X40Y37. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$3I4464/ASSIGNED
+  SLICE $1I162/$3I4464/$1I4488/CNT_ENB
+  SLICE $1I162/$3I4464/CLR_ASSIGN
+  SLICE $1I162/$3I4464/DIN9
+  SLICE $1I162/$3I4464/F0EN
+  SLICE $1I162/$3I4464/F2EN
+  SLICE $1I162/$3I4464/CTRL1
+  SLICE $1I162/EMPTY_M10
+  SLICE $1I162/$3I4464/WR_SEL
+  SLICE $1I162/$3I4464/WEN
+  SLICE $1I162/$3I4464/DIN10
+  SLICE $1I162/$3I4464/DIN0
+  SLICE $1I162/$3I4464/DIN11
+  SLICE $1I162/$3I4464/DIN12
+  SLICE $1I162/$3I4464/DIN6
+  SLICE $1I162/$3I4464/DIN7
+  SLICE $1I162/$3I4464/DIN17
+  SLICE $1I162/$3I4464/DIN1
+  SLICE $1I162/$3I4464/DIN13
+  SLICE $1I162/$3I4464/DIN14
+  SLICE $1I162/$3I4464/DIN2
+  SLICE $1I162/$3I4464/DIN3
+  SLICE $1I162/$3I4464/DIN15
+  SLICE $1I162/$3I4464/DIN16
+  SLICE $1I162/$3I4464/DIN8
+  SLICE $1I162/$3I4464/DIN4
+  SLICE $1I162/$3I4464/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$3I4464/DIN9 that is locked to site
+SLICE_X52Y93. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$3I4392/ASSIGNED
+  SLICE $1I162/$3I4392/$1I4488/CNT_ENB
+  SLICE $1I162/$3I4392/CLR_ASSIGN
+  SLICE $1I162/$3I4392/DIN9
+  SLICE $1I162/$3I4392/F0EN
+  SLICE $1I162/$3I4392/F2EN
+  SLICE $1I162/$3I4392/CTRL1
+  SLICE $1I162/EMPTY_M2
+  SLICE $1I162/$3I4392/WR_SEL
+  SLICE $1I162/$3I4392/WEN
+  SLICE $1I162/$3I4392/DIN10
+  SLICE $1I162/$3I4392/DIN0
+  SLICE $1I162/$3I4392/DIN11
+  SLICE $1I162/$3I4392/DIN12
+  SLICE $1I162/$3I4392/DIN6
+  SLICE $1I162/$3I4392/DIN7
+  SLICE $1I162/$3I4392/DIN17
+  SLICE $1I162/$3I4392/DIN1
+  SLICE $1I162/$3I4392/DIN13
+  SLICE $1I162/$3I4392/DIN14
+  SLICE $1I162/$3I4392/DIN2
+  SLICE $1I162/$3I4392/DIN3
+  SLICE $1I162/$3I4392/DIN15
+  SLICE $1I162/$3I4392/DIN16
+  SLICE $1I162/$3I4392/DIN8
+  SLICE $1I162/$3I4392/DIN4
+  SLICE $1I162/$3I4392/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$3I4392/DIN9 that is locked to site
+SLICE_X88Y85. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$6I4504/ASSIGNED
+  SLICE $1I162/$6I4504/$1I4488/CNT_ENB
+  SLICE $1I162/$6I4504/CLR_ASSIGN
+  SLICE $1I162/$6I4504/DIN9
+  SLICE $1I162/$6I4504/F0EN
+  SLICE $1I162/$6I4504/F2EN
+  SLICE $1I162/$6I4504/CTRL1
+  SLICE $1I162/EMPTY_M35
+  SLICE $1I162/$6I4504/WR_SEL
+  SLICE $1I162/$6I4504/WEN
+  SLICE $1I162/$6I4504/DIN10
+  SLICE $1I162/$6I4504/DIN11
+  SLICE $1I162/$6I4504/DIN0
+  SLICE $1I162/$6I4504/DIN12
+  SLICE $1I162/$6I4504/DIN6
+  SLICE $1I162/$6I4504/DIN17
+  SLICE $1I162/$6I4504/DIN7
+  SLICE $1I162/$6I4504/DIN13
+  SLICE $1I162/$6I4504/DIN1
+  SLICE $1I162/$6I4504/DIN14
+  SLICE $1I162/$6I4504/DIN2
+  SLICE $1I162/$6I4504/DIN3
+  SLICE $1I162/$6I4504/DIN15
+  SLICE $1I162/$6I4504/DIN16
+  SLICE $1I162/$6I4504/DIN8
+  SLICE $1I162/$6I4504/DIN4
+  SLICE $1I162/$6I4504/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$6I4504/DIN9 that is locked to site
+SLICE_X4Y5. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$7I4615/$1I4488/CNT_ENB
+  SLICE $1I162/$7I4615/CLR_ASSIGN
+  SLICE $1I162/$7I4615/ASSIGNED
+  SLICE $1I162/$7I4615/DIN9
+  SLICE $1I162/$7I4615/F0EN
+  SLICE $1I162/$7I4615/F2EN
+  SLICE $1I162/$7I4615/CTRL1
+  SLICE $1I162/EMPTY_M49
+  SLICE $1I162/$7I4615/WR_SEL
+  SLICE $1I162/$7I4615/WEN
+  SLICE $1I162/$7I4615/DIN10
+  SLICE $1I162/$7I4615/DIN0
+  SLICE $1I162/$7I4615/DIN11
+  SLICE $1I162/$7I4615/DIN12
+  SLICE $1I162/$7I4615/DIN6
+  SLICE $1I162/$7I4615/DIN7
+  SLICE $1I162/$7I4615/DIN17
+  SLICE $1I162/$7I4615/DIN1
+  SLICE $1I162/$7I4615/DIN13
+  SLICE $1I162/$7I4615/DIN14
+  SLICE $1I162/$7I4615/DIN2
+  SLICE $1I162/$7I4615/DIN3
+  SLICE $1I162/$7I4615/DIN15
+  SLICE $1I162/$7I4615/DIN16
+  SLICE $1I162/$7I4615/DIN8
+  SLICE $1I162/$7I4615/DIN4
+  SLICE $1I162/$7I4615/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$7I4615/DIN9 that is locked to site
+SLICE_X88Y21. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$7I4762/$1I4488/CNT_ENB
+  SLICE $1I162/$7I4762/CLR_ASSIGN
+  SLICE $1I162/$7I4762/ASSIGNED
+  SLICE $1I162/$7I4762/DIN9
+  SLICE $1I162/$7I4762/F0EN
+  SLICE $1I162/$7I4762/F2EN
+  SLICE $1I162/$7I4762/CTRL1
+  SLICE $1I162/EMPTY_M53
+  SLICE $1I162/$7I4762/WR_SEL
+  SLICE $1I162/$7I4762/WEN
+  SLICE $1I162/$7I4762/DIN10
+  SLICE $1I162/$7I4762/DIN0
+  SLICE $1I162/$7I4762/DIN11
+  SLICE $1I162/$7I4762/DIN12
+  SLICE $1I162/$7I4762/DIN6
+  SLICE $1I162/$7I4762/DIN7
+  SLICE $1I162/$7I4762/DIN17
+  SLICE $1I162/$7I4762/DIN1
+  SLICE $1I162/$7I4762/DIN13
+  SLICE $1I162/$7I4762/DIN14
+  SLICE $1I162/$7I4762/DIN2
+  SLICE $1I162/$7I4762/DIN3
+  SLICE $1I162/$7I4762/DIN15
+  SLICE $1I162/$7I4762/DIN16
+  SLICE $1I162/$7I4762/DIN8
+  SLICE $1I162/$7I4762/DIN4
+  SLICE $1I162/$7I4762/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$7I4762/DIN9 that is locked to site
+SLICE_X64Y5. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$7I4712/$1I4488/CNT_ENB
+  SLICE $1I162/$7I4712/CLR_ASSIGN
+  SLICE $1I162/$7I4712/ASSIGNED
+  SLICE $1I162/$7I4712/DIN9
+  SLICE $1I162/$7I4712/F0EN
+  SLICE $1I162/$7I4712/F2EN
+  SLICE $1I162/$7I4712/CTRL1
+  SLICE $1I162/EMPTY_M55
+  SLICE $1I162/$7I4712/WR_SEL
+  SLICE $1I162/$7I4712/WEN
+  SLICE $1I162/$7I4712/DIN10
+  SLICE $1I162/$7I4712/DIN0
+  SLICE $1I162/$7I4712/DIN11
+  SLICE $1I162/$7I4712/DIN12
+  SLICE $1I162/$7I4712/DIN6
+  SLICE $1I162/$7I4712/DIN7
+  SLICE $1I162/$7I4712/DIN17
+  SLICE $1I162/$7I4712/DIN1
+  SLICE $1I162/$7I4712/DIN13
+  SLICE $1I162/$7I4712/DIN14
+  SLICE $1I162/$7I4712/DIN2
+  SLICE $1I162/$7I4712/DIN3
+  SLICE $1I162/$7I4712/DIN15
+  SLICE $1I162/$7I4712/DIN16
+  SLICE $1I162/$7I4712/DIN8
+  SLICE $1I162/$7I4712/DIN4
+  SLICE $1I162/$7I4712/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$7I4712/DIN9 that is locked to site
+SLICE_X52Y53. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$7I4632/$1I4488/CNT_ENB
+  SLICE $1I162/$7I4632/CLR_ASSIGN
+  SLICE $1I162/$7I4632/ASSIGNED
+  SLICE $1I162/$7I4632/DIN9
+  SLICE $1I162/$7I4632/F0EN
+  SLICE $1I162/$7I4632/F2EN
+  SLICE $1I162/$7I4632/CTRL1
+  SLICE $1I162/EMPTY_M57
+  SLICE $1I162/$7I4632/WR_SEL
+  SLICE $1I162/$7I4632/WEN
+  SLICE $1I162/$7I4632/DIN10
+  SLICE $1I162/$7I4632/DIN0
+  SLICE $1I162/$7I4632/DIN11
+  SLICE $1I162/$7I4632/DIN12
+  SLICE $1I162/$7I4632/DIN6
+  SLICE $1I162/$7I4632/DIN7
+  SLICE $1I162/$7I4632/DIN17
+  SLICE $1I162/$7I4632/DIN1
+  SLICE $1I162/$7I4632/DIN13
+  SLICE $1I162/$7I4632/DIN14
+  SLICE $1I162/$7I4632/DIN2
+  SLICE $1I162/$7I4632/DIN3
+  SLICE $1I162/$7I4632/DIN15
+  SLICE $1I162/$7I4632/DIN16
+  SLICE $1I162/$7I4632/DIN8
+  SLICE $1I162/$7I4632/DIN4
+  SLICE $1I162/$7I4632/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$7I4632/DIN9 that is locked to site
+SLICE_X52Y29. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$7I4616/$1I4488/CNT_ENB
+  SLICE $1I162/$7I4616/CLR_ASSIGN
+  SLICE $1I162/$7I4616/ASSIGNED
+  SLICE $1I162/$7I4616/DIN9
+  SLICE $1I162/$7I4616/F0EN
+  SLICE $1I162/$7I4616/F2EN
+  SLICE $1I162/$7I4616/CTRL1
+  SLICE $1I162/EMPTY_M50
+  SLICE $1I162/$7I4616/WR_SEL
+  SLICE $1I162/$7I4616/WEN
+  SLICE $1I162/$7I4616/DIN10
+  SLICE $1I162/$7I4616/DIN0
+  SLICE $1I162/$7I4616/DIN11
+  SLICE $1I162/$7I4616/DIN12
+  SLICE $1I162/$7I4616/DIN6
+  SLICE $1I162/$7I4616/DIN7
+  SLICE $1I162/$7I4616/DIN17
+  SLICE $1I162/$7I4616/DIN1
+  SLICE $1I162/$7I4616/DIN13
+  SLICE $1I162/$7I4616/DIN14
+  SLICE $1I162/$7I4616/DIN2
+  SLICE $1I162/$7I4616/DIN3
+  SLICE $1I162/$7I4616/DIN15
+  SLICE $1I162/$7I4616/DIN16
+  SLICE $1I162/$7I4616/DIN8
+  SLICE $1I162/$7I4616/DIN4
+  SLICE $1I162/$7I4616/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$7I4616/DIN9 that is locked to site
+SLICE_X88Y5. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$4I4526/$1I4488/CNT_ENB
+  SLICE $1I162/$4I4526/CLR_ASSIGN
+  SLICE $1I162/$4I4526/ASSIGNED
+  SLICE $1I162/$4I4526/DIN9
+  SLICE $1I162/$4I4526/F0EN
+  SLICE $1I162/$4I4526/F2EN
+  SLICE $1I162/$4I4526/CTRL1
+  SLICE $1I162/EMPTY_M23
+  SLICE $1I162/$4I4526/WR_SEL
+  SLICE $1I162/$4I4526/WEN
+  SLICE $1I162/$4I4526/DIN10
+  SLICE $1I162/$4I4526/DIN0
+  SLICE $1I162/$4I4526/DIN11
+  SLICE $1I162/$4I4526/DIN6
+  SLICE $1I162/$4I4526/DIN12
+  SLICE $1I162/$4I4526/DIN7
+  SLICE $1I162/$4I4526/DIN17
+  SLICE $1I162/$4I4526/DIN1
+  SLICE $1I162/$4I4526/DIN13
+  SLICE $1I162/$4I4526/DIN14
+  SLICE $1I162/$4I4526/DIN2
+  SLICE $1I162/$4I4526/DIN3
+  SLICE $1I162/$4I4526/DIN15
+  SLICE $1I162/$4I4526/DIN8
+  SLICE $1I162/$4I4526/DIN16
+  SLICE $1I162/$4I4526/DIN4
+  SLICE $1I162/$4I4526/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$4I4526/DIN9 that is locked to site
+SLICE_X40Y53. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$4I4501/$1I4488/CNT_ENB
+  SLICE $1I162/$4I4501/CLR_ASSIGN
+  SLICE $1I162/$4I4501/ASSIGNED
+  SLICE $1I162/$4I4501/DIN9
+  SLICE $1I162/$4I4501/F0EN
+  SLICE $1I162/$4I4501/F2EN
+  SLICE $1I162/$4I4501/CTRL1
+  SLICE $1I162/EMPTY_M22
+  SLICE $1I162/$4I4501/WR_SEL
+  SLICE $1I162/$4I4501/WEN
+  SLICE $1I162/$4I4501/DIN10
+  SLICE $1I162/$4I4501/DIN0
+  SLICE $1I162/$4I4501/DIN11
+  SLICE $1I162/$4I4501/DIN12
+  SLICE $1I162/$4I4501/DIN6
+  SLICE $1I162/$4I4501/DIN7
+  SLICE $1I162/$4I4501/DIN17
+  SLICE $1I162/$4I4501/DIN1
+  SLICE $1I162/$4I4501/DIN13
+  SLICE $1I162/$4I4501/DIN14
+  SLICE $1I162/$4I4501/DIN2
+  SLICE $1I162/$4I4501/DIN3
+  SLICE $1I162/$4I4501/DIN15
+  SLICE $1I162/$4I4501/DIN16
+  SLICE $1I162/$4I4501/DIN8
+  SLICE $1I162/$4I4501/DIN4
+  SLICE $1I162/$4I4501/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$4I4501/DIN9 that is locked to site
+SLICE_X28Y85. 
+
+WARNING:Place:206 - This design contains an RPM macro for which a specific
+   alignment on the CLB grid was desired. The macro can not be aligned in this
+   specific way. The placer will disregard this alignment.
+
+The following components are part of this macro:
+
+  SLICE $1I162/$4I4399/$1I4488/CNT_ENB
+  SLICE $1I162/$4I4399/CLR_ASSIGN
+  SLICE $1I162/$4I4399/ASSIGNED
+  SLICE $1I162/$4I4399/DIN9
+  SLICE $1I162/$4I4399/F0EN
+  SLICE $1I162/$4I4399/F2EN
+  SLICE $1I162/$4I4399/CTRL1
+  SLICE $1I162/EMPTY_M17
+  SLICE $1I162/$4I4399/WR_SEL
+  SLICE $1I162/$4I4399/WEN
+  SLICE $1I162/$4I4399/DIN10
+  SLICE $1I162/$4I4399/DIN11
+  SLICE $1I162/$4I4399/DIN0
+  SLICE $1I162/$4I4399/DIN12
+  SLICE $1I162/$4I4399/DIN6
+  SLICE $1I162/$4I4399/DIN7
+  SLICE $1I162/$4I4399/DIN17
+  SLICE $1I162/$4I4399/DIN1
+  SLICE $1I162/$4I4399/DIN13
+  SLICE $1I162/$4I4399/DIN14
+  SLICE $1I162/$4I4399/DIN2
+  SLICE $1I162/$4I4399/DIN3
+  SLICE $1I162/$4I4399/DIN15
+  SLICE $1I162/$4I4399/DIN16
+  SLICE $1I162/$4I4399/DIN8
+  SLICE $1I162/$4I4399/DIN4
+  SLICE $1I162/$4I4399/DIN5
+
+The reason for this issue is the following:
+This structured logic must be aligned in a specific way on the CLB grid. In this
+case, the logic is locked to a position that has not this specific alignment.
+The problem was found with SLICE $1I162/$4I4399/DIN9 that is locked to site
+SLICE_X4Y85. 
+WARNING:Place - 
+   The structured logic associated with a carry chain could not be placed in
+   such a way as to use all of the fast carry connections due to a placement
+   constraint.  A sub optimal placement will be performed which may result in
+   timing errors. You will need to verify that this sub-optimal placement will
+   be satisfactory and that the resulting performance is acceptable.
+
+The following components are involved in this logic:
+  SLICE $1I162/$1I4156/$2I4236/Q0
+  SLICE $1I162/$1I4156/$2I4236/Q2
+  SLICE $1I162/$1I4156/$2I4236/Q4
+  SLICE $1I162/$1I4156/$2I4236/Q6
+  SLICE $1I162/$1I4156/$2I4236/Q8
+This situation can be resolved by fixing at least one of the following 2
+issues:
+The structured logic could not be placed in the relative placement form
+required.  This is due to the fact that the component $1I162/$1I4156/$2I4236/Q2
+is already contained in an rpm that will not allow the logic to be placed in the
+legal form.  
+
+The structured logic could not be placed in the relative placement form
+required.  This is due to the fact that the component $1I162/$1I4156/$2I4236/Q4
+is already contained in an rpm that will not allow the logic to be placed in the
+legal form.  
+
+WARNING:Place - 
+   The structured logic associated with a carry chain could not be placed in
+   such a way as to use all of the fast carry connections due to a placement
+   constraint.  A sub optimal placement will be performed which may result in
+   timing errors. You will need to verify that this sub-optimal placement will
+   be satisfactory and that the resulting performance is acceptable.
+
+The following components are involved in this logic:
+  SLICE $1I162/$5I4156/$2I4236/Q0
+  SLICE $1I162/$5I4156/$2I4236/Q2
+  SLICE $1I162/$5I4156/$2I4236/Q4
+  SLICE $1I162/$5I4156/$2I4236/Q6
+  SLICE $1I162/$5I4156/$2I4236/Q8
+This situation can be resolved by fixing at least one of the following 2
+issues:
+The structured logic could not be placed in the relative placement form
+required.  This is due to the fact that the component $1I162/$5I4156/$2I4236/Q2
+is already contained in an rpm that will not allow the logic to be placed in the
+legal form.  
+
+The structured logic could not be placed in the relative placement form
+required.  This is due to the fact that the component $1I162/$5I4156/$2I4236/Q4
+is already contained in an rpm that will not allow the logic to be placed in the
+legal form.  
+
+Phase 1.1 (Checksum:9f84e7) REAL time: 1 mins 34 secs 
+
+Phase 2.2
+WARNING:Place:410 - The input design contains local clock signal(s). To get the
+   better result, we recommend users run map with the "-timing" option set
+   before starting the placement.
+.
+Phase 2.2 (Checksum:1312cfe) REAL time: 1 mins 45 secs 
+
+Phase 3.3
+Phase 3.3 (Checksum:1c9c37d) REAL time: 1 mins 46 secs 
+
+Phase 4.5
+Phase 4.5 (Checksum:26259fc) REAL time: 1 mins 47 secs 
+
+Phase 5.8
+...................................................
+.....
+..........................................
+............................
+...........................................
+......................................................................................................
+.........................................................................................
+........................................................
+Phase 5.8 (Checksum:1b77c48) REAL time: 25 mins 30 secs 
+
+Phase 6.5
+Phase 6.5 (Checksum:39386fa) REAL time: 25 mins 31 secs 
+
+Phase 7.18
+Phase 7.18 (Checksum:42c1d79) REAL time: 26 mins 26 secs 
+
+Phase 8.24
+Phase 8.24 (Checksum:4c4b3f8) REAL time: 26 mins 26 secs 
+
+Phase 9.27
+Phase 9.27 (Checksum:55d4a77) REAL time: 26 mins 33 secs 
+
+Writing design to file 0ddu_in.ncd.
+
+Total REAL time to Placer completion: 26 mins 54 secs 
+Total CPU time to Placer completion: 26 mins 21 secs 
+
+
+Phase 1: 51800 unrouted;       REAL time: 27 mins 
+
+Phase 2: 42889 unrouted;       REAL time: 27 mins 24 secs 
+
+Phase 3: 13620 unrouted;       REAL time: 27 mins 54 secs 
+
+Phase 4: 13620 unrouted; (673787)      REAL time: 27 mins 58 secs 
+
+Phase 5: 13944 unrouted; (244448)      REAL time: 30 mins 11 secs 
+
+Phase 6: 14008 unrouted; (1608)      REAL time: 30 mins 42 secs 
+
+Phase 7: 13954 unrouted; (1594)      REAL time: 32 mins 41 secs 
+
+Phase 8: 13954 unrouted; (1594)      REAL time: 35 mins 5 secs 
+
+Phase 9: 0 unrouted; (1634)      REAL time: 36 mins 56 secs 
+
+Writing design to file 0ddu_in.ncd.
+
+Phase 10: 0 unrouted; (1573)      REAL time: 40 mins 20 secs 
+
+Phase 11: 0 unrouted; (1573)      REAL time: 50 mins 7 secs 
+
+Writing design to file 0ddu_in.ncd.
+
+Phase 12: 0 unrouted; (1573)      REAL time: 56 mins 33 secs 
+
+Phase 13: 0 unrouted; (1569)      REAL time: 1 hrs 9 mins 33 secs 
+
+Writing design to file 0ddu_in.ncd.
+
+Phase 14: 0 unrouted; (1569)      REAL time: 1 hrs 17 mins 58 secs 
+
+Total REAL time to Router completion: 1 hrs 18 mins 28 secs 
+Total CPU time to Router completion: 1 hrs 17 mins 3 secs 
+
+Generating "par" statistics.
+
+**************************
+Generating Clock Report
+**************************
+
++-------------------------+----------+------+------+------------+-------------+
+|        Clock Net        | Resource |Locked|Fanout|Net Skew(ns)|Max Delay(ns)|
++-------------------------+----------+------+------+------------+-------------+
+|        $1I162/CLK       | BUFGMUX3P| No   | 3171 |  0.856     |  1.998      |
++-------------------------+----------+------+------+------------+-------------+
+|      $1I162/CLK40       | BUFGMUX7S| No   |   31 |  0.121     |  1.335      |
++-------------------------+----------+------+------+------------+-------------+
+|    $1I162/SLOWCLK       | BUFGMUX0P| No   |   10 |  0.175     |  1.321      |
++-------------------------+----------+------+------+------------+-------------+
+|    $1I162/$2I4683/DRCK2 | BUFGMUX5P| No   |  338 |  0.206     |  1.421      |
++-------------------------+----------+------+------+------------+-------------+
+|    $1I162/$2I4683/DRCK1 | BUFGMUX2P| No   |    5 |  0.017     |  1.252      |
++-------------------------+----------+------+------+------------+-------------+
+|      $1I162/LOCK1       |   Local  |      |   18 |  0.000     |  5.236      |
++-------------------------+----------+------+------+------------+-------------+
+|      $1I162/LOCK2       |   Local  |      |   12 |  0.000     |  2.092      |
++-------------------------+----------+------+------+------------+-------------+
+|     $1I162/CKIN40       |   Local  |      |    3 |  0.000     |  4.046      |
++-------------------------+----------+------+------+------------+-------------+
+|  $1I162/DLL_ERROR       |   Local  |      |    9 |  0.000     |  1.495      |
++-------------------------+----------+------+------+------------+-------------+
+|     $1I162/FBLINK       |   Local  |      |    9 |  0.453     |  2.940      |
++-------------------------+----------+------+------+------------+-------------+
+|       $1I162/BCLK       |   Local  |      |    9 |  0.464     |  3.263      |
++-------------------------+----------+------+------+------------+-------------+
+|       $1I162/BREF       |   Local  |      |    5 |  0.000     |  0.232      |
++-------------------------+----------+------+------+------------+-------------+
+|   $1I162/$2I4683/UPDATE |   Local  |      |    3 |  1.173     |  5.475      |
++-------------------------+----------+------+------+------------+-------------+
+|     $1I162/BREF_B       |   Local  |      |    4 |  0.000     |  0.232      |
++-------------------------+----------+------+------+------------+-------------+
+
+
+   The Delay Summary Report
+
+   The SCORE FOR THIS DESIGN is: 3340
+
+
+The NUMBER OF SIGNALS NOT COMPLETELY ROUTED for this design is: 0
+
+   The AVERAGE CONNECTION DELAY for this design is:        1.421
+   The MAXIMUM PIN DELAY IS:                              10.515
+   The AVERAGE CONNECTION DELAY on the 10 WORST NETS is:   8.322
+
+   Listing Pin Delays by value: (nsec)
+
+    d < 2.00   < d < 4.00  < d < 6.00  < d < 8.00  < d < 11.00  d >= 11.00
+   ---------   ---------   ---------   ---------   ---------   ---------
+       38571        8813        1895         452         149           0
+
+Timing Score: 1569
+
+WARNING:Par:62 - Timing constraints have not been met.
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+--------------------------------------------------------------------------------
+  Constraint                                | Requested  | Actual     | Logic 
+                                            |            |            | Levels
+--------------------------------------------------------------------------------
+  NET "$1I162/CLK" PERIOD =  10.800 nS   HI | 10.800ns   | 10.717ns   | 5    
+  GH 50.000000 %                            |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/BREF" PERIOD =  11.300 nS   H | N/A        | N/A        | N/A  
+  IGH 50.000000 %                           |            |            |      
+--------------------------------------------------------------------------------
+  PERIOD analysis for net "$1I162/CK80" der | N/A        | N/A        | N/A  
+  ived from  NET "$1I162/BREF" PERIOD =  11 |            |            |      
+  .300 nS   HIGH 50.000000 %                |            |            |      
+--------------------------------------------------------------------------------
+  PERIOD analysis for net "$1I162/CK160" de | N/A        | N/A        | N/A  
+  rived from  NET "$1I162/BREF" PERIOD =  1 |            |            |      
+  1.300 nS   HIGH 50.000000 %               |            |            |      
+--------------------------------------------------------------------------------
+* NET "$1I162/RHL5" MAXDELAY = 2 nS         | 2.000ns    | 2.952ns    | N/A  
+--------------------------------------------------------------------------------
+  NET "$1I162/LFIFO_EMPTY" MAXDELAY = 1.900 | 1.900ns    | 1.538ns    | N/A  
+   nS                                       |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/$1I4156/NEXT_FIBER" MAXDELAY  | 1.500ns    | 1.433ns    | N/A  
+  = 1.500 nS                                |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/$1I4156/~RENOE-0" MAXDELAY =  | 1.900ns    | 0.530ns    | N/A  
+  1.900 nS                                  |            |            |      
+--------------------------------------------------------------------------------
+* NET "$1I162/$1I4156/~LEXTFIFO_PAF" MAXDEL | 0.200ns    | 0.455ns    | N/A  
+  AY = 200 pS                               |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/$1I4156/L1A_PUSH" MAXDELAY =  | 1.000ns    | 0.417ns    | N/A  
+  1000 pS                                   |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/CKIN40" PERIOD =  23 nS   HIG | 23.000ns   | 1.234ns    | 0    
+  H 50.000000 %                             |            |            |      
+--------------------------------------------------------------------------------
+  PERIOD analysis for net "$1I162/CK40" der | 23.000ns   | 3.382ns    | 3    
+  ived from  NET "$1I162/CKIN40" PERIOD =   |            |            |      
+  23 nS   HIGH 50.000000 %                  |            |            |      
+--------------------------------------------------------------------------------
+  PERIOD analysis for net "$1I162/SLCK" der | 368.000ns  | 5.289ns    | 9    
+  ived from  NET "$1I162/CKIN40" PERIOD =   |            |            |      
+  23 nS   HIGH 50.000000 %                  |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/$5I4156/LFIFO_EMPTY" MAXDELAY | 1.900ns    | 0.931ns    | N/A  
+   = 1.900 nS                               |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/$5I4156/NEXT_FIBER" MAXDELAY  | 1.500ns    | 1.315ns    | N/A  
+  = 1.500 nS                                |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/$5I4156/~RENOE-0" MAXDELAY =  | 1.900ns    | 1.128ns    | N/A  
+  1.900 nS                                  |            |            |      
+--------------------------------------------------------------------------------
+* NET "$1I162/$5I4156/~LEXTFIFO_PAF" MAXDEL | 0.200ns    | 0.562ns    | N/A  
+  AY = 200 pS                               |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/$5I4156/L1A_PUSH" MAXDELAY =  | 1.000ns    | 0.675ns    | N/A  
+  1000 pS                                   |            |            |      
+--------------------------------------------------------------------------------
+  NET "$1I162/BREF_B" PERIOD =  11.300 nS   | N/A        | N/A        | N/A  
+   HIGH 50.000000 %                         |            |            |      
+--------------------------------------------------------------------------------
+
+
+3 constraints not met.
+INFO:Timing:2761 - N/A entries in the Constraints list may indicate that the
+   constraint does not cover any paths or that it has no requested value.
+Generating Pad Report.
+
+All signals are completely routed.
+
+Total REAL time to PAR completion: 1 hrs 19 mins 36 secs 
+Total CPU time to PAR completion: 1 hrs 17 mins 24 secs 
+
+Peak Memory Usage:  413 MB
+
+Placement: Completed - No errors found.
+Routing: Completed - No errors found.
+Timing: Completed - 3 errors found.
+
+Writing design to file 0ddu_in.ncd.
+
+
+PAR done.

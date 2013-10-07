@@ -1,0 +1,105 @@
+[mem_ctrl_1.wfm]
+Trace List File=mem_ctrl_1.wfm.tra
+[Waveforms]
+FG Color Enable0=1
+FG Color Enable1=1
+FG Color Enable2=1
+FG Color Enable3=1
+FG Color Enable4=0
+FG Color Enable5=0
+FG Color Enable6=0
+FG Color Enable7=0
+FG Color Enable8=0
+Horizontal Zoom Factor=0
+Window Placement=2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF4301000016000000690400008D02000073
+Splitter Width=223
+Standard ToolBar=1
+Zoom ToolBar=1
+Status Bar=1
+ShowRowBorder=1
+WaveTimeGrid=1
+DoFastScroll=1
+TraceOpsFromWwv=0
+MarkerOpsFromWwv=1
+LiveHScroll=1
+LiveVScroll=1
+LiveZoom=1
+ShowTransitionCursor=1
+MaxPlotChars=10
+MaxPlotPages=200
+Toolbar Size=0
+TraceNameLongShort=0
+TraceNameAlias=1
+User Color 0=0 0 128
+User Color 1=255 255 255
+User Color 2=0 0 128
+User Color 3=0 0 0
+User Color 4=0 0 0
+User Color 5=100 100 100
+User Color 6=0 255 255
+User Color 7=192 192 192
+User Color 8=192 192 192
+User Color 9=0 0 0
+User Color 10=192 192 192
+User Color 11=255 255 255
+User Color 12=255 255 255
+User Color 13=192 192 192
+User Color 14=128 128 128
+User Color 15=164 164 164
+User Color 16=255 0 255
+FG Color 0=255 255 255
+FG Color 1=255 0 255
+FG Color 2=0 255 255
+FG Color 3=255 255 0
+FG Color 4=255 255 255
+FG Color 5=255 255 255
+FG Color 6=255 255 255
+FG Color 7=255 255 255
+FG Color 8=255 255 255
+WaveTextColor=1
+[VCD Browser]
+Window Placement=2C00000000000000020000000083FFFF0083FFFFFFFFFFFFFFFFFFFF240100005600000080040000AF010000D7
+Splitter Width=611
+Tool Bar=0
+Status Bar=0
+[Console]
+Window Placement=2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF1E0000003A0200006B0200004103000028
+Command ToolBar=1
+Signal ToolBar=1
+Viewer ToolBar=1
+Status Bar=1
+[Source Debugger]
+Window Placement=2C000000000000000000000000000000000000000000000000000000000000000000000000000000000000002C
+Command ToolBar=1
+Signal ToolBar=1
+Viewer ToolBar=1
+Scope History ToolBar=1
+Status Bar=1
+[Navigator]
+Window Placement=2C0000000000000001000000FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF790200002B00000045040000DE020000EC
+Splitter Width=0
+Command ToolBar=1
+Signal ToolBar=1
+Viewer ToolBar=1
+Status Bar=1
+[Circuit Browser]
+Window Placement=2C000000000000000000000000000000000000000000000000000000000000000000000000000000000000002C
+Command ToolBar=1
+Signal ToolBar=1
+Viewer ToolBar=1
+Scope History ToolBar=1
+Status Bar=1
+Prompt at startup=1
+[Preferences]
+Ports per Instance=4
+Ports per Primitive=4
+Max Drivers and Loads=300
+Number of composite elements displayed=1024
+Selected toolbar size=1
+Sort Ports By=0
+Track Simulation=0
+Editor=hdlpad
+[Verilog Sim Mode]
+VCSExpress/VCSI/VCS Mode=0
+[in_unit0.wfm]
+Trace List File=in_unit0.wfm.tra

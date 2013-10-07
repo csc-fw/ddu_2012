@@ -1,0 +1,108 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 215923799100 add4_bus
+DW add4_bus
+|Q virtex2p:muxcy_d 1
+AS virtex2p:muxcy_d LIBVER=2.0.0
+AS virtex2p:muxcy_d LEVEL=XILINX
+AS virtex2p:muxcy_d DEVICE=CY_MUX
+AS virtex2p:muxcy_d PINORDER=CI DI LO O S
+AP virtex2p:muxcy_d 1 PINTYPE=IN
+AP virtex2p:muxcy_d 2 PINTYPE=IN
+AP virtex2p:muxcy_d 3 PINTYPE=OUT
+AP virtex2p:muxcy_d 4 PINTYPE=OUT
+AP virtex2p:muxcy_d 5 PINTYPE=IN
+|Q virtex2p:xor2 1
+AS virtex2p:xor2 DEVICE=XOR
+AS virtex2p:xor2 LEVEL=XILINX
+AS virtex2p:xor2 LIBVER=2.0.0
+AS virtex2p:xor2 PINORDER=I0 I1 O
+AP virtex2p:xor2 1 PINTYPE=IN
+AP virtex2p:xor2 2 PINTYPE=IN
+AP virtex2p:xor2 3 PINTYPE=OUT
+|Q virtex2p:muxcy 1
+AS virtex2p:muxcy LIBVER=2.0.0
+AS virtex2p:muxcy LEVEL=XILINX
+AS virtex2p:muxcy DEVICE=CY_MUX
+AS virtex2p:muxcy PINORDER=CI DI O S
+AP virtex2p:muxcy 1 PINTYPE=IN
+AP virtex2p:muxcy 2 PINTYPE=IN
+AP virtex2p:muxcy 3 PINTYPE=OUT
+AP virtex2p:muxcy 4 PINTYPE=IN
+|Q virtex2p:xorcy 1
+AS virtex2p:xorcy LIBVER=2.0.0
+AS virtex2p:xorcy LEVEL=XILINX
+AS virtex2p:xorcy PINORDER=CI LI O
+AP virtex2p:xorcy 1 PINTYPE=IN
+AP virtex2p:xorcy 2 PINTYPE=IN
+AP virtex2p:xorcy 3 PINTYPE=OUT
+|Q virtex2p:fmap 1
+AS virtex2p:fmap DEVICE=FMAP
+AS virtex2p:fmap LEVEL=XILINX
+AS virtex2p:fmap LIBVER=2.0.0
+AS virtex2p:fmap PINORDER=I1 I2 I3 I4 O
+AP virtex2p:fmap 1 PINTYPE=IN
+AP virtex2p:fmap 2 PINTYPE=IN
+AP virtex2p:fmap 3 PINTYPE=IN
+AP virtex2p:fmap 4 PINTYPE=IN
+AP virtex2p:fmap 5 PINTYPE=IN
+|Q virtex2p:muxcy_l 1
+AS virtex2p:muxcy_l LIBVER=2.0.0
+AS virtex2p:muxcy_l LEVEL=XILINX
+AS virtex2p:muxcy_l DEVICE=CY_MUX
+AS virtex2p:muxcy_l PINORDER=CI DI LO S
+AP virtex2p:muxcy_l 1 PINTYPE=IN
+AP virtex2p:muxcy_l 2 PINTYPE=IN
+AP virtex2p:muxcy_l 3 PINTYPE=OUT
+AP virtex2p:muxcy_l 4 PINTYPE=IN
+AN B[3:0] VLBUSISONSHEET=1
+AN A[3:0] VLBUSISONSHEET=1
+AN S[3:0] VLBUSISONSHEET=1
+W virtex2p:muxcy_d $1I62
+I $1I62 virtex2p:muxcy_d C1 A2 C2 C2O I2 RLOC=X0Y1`
+W virtex2p:xor2 $1I259
+I $1I259 virtex2p:xor2 C2O CO OFL 
+W virtex2p:muxcy $1I58
+I $1I58 virtex2p:muxcy C2 A3 CO I3 RLOC=X0Y1`
+W virtex2p:xorcy $1I73
+I $1I73 virtex2p:xorcy CI I0 S0 
+W virtex2p:xorcy $1I74
+I $1I74 virtex2p:xorcy C0 I1 S1 
+W virtex2p:xorcy $1I76
+I $1I76 virtex2p:xorcy C1 I2 S2 
+W virtex2p:xorcy $1I75
+I $1I75 virtex2p:xorcy C2 I3 S3 
+W virtex2p:fmap $1I178
+I $1I178 virtex2p:fmap A0 B0 ? ? I0 RLOC=X0Y0`
+W virtex2p:fmap $1I175
+I $1I175 virtex2p:fmap A1 B1 ? ? I1 RLOC=X0Y0`
+W virtex2p:fmap $1I182
+I $1I182 virtex2p:fmap A2 B2 ? ? I2 RLOC=X0Y1`
+W virtex2p:fmap $1I206
+I $1I206 virtex2p:fmap A3 B3 ? ? I3 RLOC=X0Y1`
+W virtex2p:muxcy_l $1I111
+I $1I111 virtex2p:muxcy_l CI A0 C0 I0 RLOC=X0Y0`
+W virtex2p:muxcy_l $1I55
+I $1I55 virtex2p:muxcy_l C0 A1 C1 I1 RLOC=X0Y0`
+W virtex2p:xor2 $1I242
+I $1I242 virtex2p:xor2 A3 B3 I3 
+W virtex2p:xor2 $1I241
+I $1I241 virtex2p:xor2 A2 B2 I2 
+W virtex2p:xor2 $1I240
+I $1I240 virtex2p:xor2 A1 B1 I1 
+W virtex2p:xor2 $1I239
+I $1I239 virtex2p:xor2 A0 B0 I0 
+P ? CO
+I CO ? CO
+P ? OFL
+I OFL ? OFL
+P ? CI
+I CI ? CI
+P ? B[3:0]
+I B[3:0] ? B[3:0]
+P ? A[3:0]
+I A[3:0] ? A[3:0]
+P ? S[3:0]
+I S[3:0] ? S[3:0]
+EW

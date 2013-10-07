@@ -1,0 +1,2077 @@
+Release 6.2.03i Map G.31a
+Xilinx Mapping Report File for Design '0TEST_IN'
+
+Design Information
+------------------
+Command Line   : C:/Xilinx62/bin/nt/map.exe -intstyle ise -p xc2vp20-fg676-6 -cm
+area -ir -pr b -k 4 -c 100 -tx off -o 0test_in_map.ncd 0test_in.ngd 0test_in.pcf
+Target Device  : x2vp20
+Target Package : fg676
+Target Speed   : -6
+Mapper Version : virtex2p -- $Revision: 1.16.8.1 $
+Mapped Date    : Tue Aug 02 11:48:16 2005
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:   39
+Logic Utilization:
+  Number of Slice Flip Flops:         729 out of  18,560    3%
+  Number of 4 input LUTs:             743 out of  18,560    4%
+Logic Distribution:
+  Number of occupied Slices:          609 out of   9,280    6%
+  Number of Slices containing only related logic:     609 out of     609  100%
+  Number of Slices containing unrelated logic:          0 out of     609    0%
+        *See NOTES below for an explanation of the effects of unrelated logic
+Total Number 4 input LUTs:            874 out of  18,560    4%
+  Number used as logic:               743
+  Number used as a route-thru:         40
+  Number used as Shift registers:      91
+
+  Number of bonded IOBs:              170 out of     404   42%
+    IOB Flip Flops:                    38
+    IOB Master Pads:                    1
+    IOB Slave Pads:                     1
+    IOB Dual-Data Rate Flops:          36
+  Number of PPC405s:                   0 out of       2    0%
+  Number of GCLKs:                      5 out of      16   31%
+  Number of DCMs:                       2 out of       8   25%
+  Number of BSCANs:                     1 out of       1  100%
+  Number of GTs:                        0 out of       8    0%
+  Number of GT10s:                      0 out of       0    0%
+
+Total equivalent gate count for design:  31,819
+Additional JTAG gate count for IOBs:  8,160
+Peak Memory Usage:  126 MB
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity -
+   e.g. two LUTs are "related" if they share common inputs.
+   When assembling slices, Map gives priority to combine logic that
+   is related.  Doing so results in the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin
+   packing unrelated logic into a slice once 99% of the slices are
+   occupied through related logic packing.
+
+   Note that once logic distribution reaches the 99% level through
+   related logic packing, this does not mean the device is completely
+   utilized.  Unrelated logic packing will then begin, continuing until
+   all usable LUTs and FFs are occupied.  Depending on your timing
+   budget, increased levels of unrelated logic packing may adversely
+   affect the overall timing performance of your design.
+
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group Summary
+Section 10 - Modular Design Summary
+Section 11 - Timing Report
+Section 12 - Configuration String Information
+Section 13 - Additional Device Resource Counts
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I138.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I142.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I165.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I170.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I29.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I129.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I147.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I2.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1751.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1958.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1710.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1719.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1728.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1962.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1963.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1964.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1965.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I3.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on Q1.  Ignoring the
+   LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on Q0.  Ignoring the
+   LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on Q2.  Ignoring the
+   LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on Q3.  Ignoring the
+   LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on Q4.  Ignoring the
+   LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on Q1.  Ignoring the
+   LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on Q0.  Ignoring the
+   LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on Q2.  Ignoring the
+   LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on Q3.  Ignoring the
+   LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on Q4.  Ignoring the
+   LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1751.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1958.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1710.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1719.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1728.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1962.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1963.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1964.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I1965.  Ignoring
+   the LOC.
+WARNING:MapLib:4 - Can't use both RLOC and LOC constraints on $1I3.  Ignoring
+   the LOC.
+WARNING:MapLib:39 - The timing specification "PERIOD=11300.000000 pS HIGH
+   50.000000%" on net "$1I162/BREF_B" has been discarded, because the net was
+   optimized out of the design.
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+INFO:MapLib:535 - The following Virtex BUFG(s) is/are being retargetted to
+   Virtex2 BUFGMUX(s) with input tied to I0 and Select pin tied to constant 0:
+   BUFG symbol "$1I162/$2I4591" (output signal=$1I162/CLK),
+   BUFG symbol "$1I162/$2I4593" (output signal=$1I162/CLK40),
+   BUFG symbol "$1I162/$2I4683/$1I2501" (output signal=$1I162/$2I4683/DRCK2),
+   BUFG symbol "$1I162/$2I4683/$1I2571" (output signal=$1I162/$2I4683/DRCK1),
+   BUFG symbol "$1I162/$2I4847" (output signal=$1I162/SLOWCLK),
+   BUFG symbol "$1I162/$2I5027" (output signal=$1I162/FCK)
+INFO:MapLib:159 - Net Timing constraints on signal $1I162/CLKIN40 are pushed
+   forward through input buffer.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 404 block(s) removed
+ 333 block(s) optimized away
+ 917 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+Loadless block "$1I162/$1I4631/$1I4217" (BUF) removed.
+Loadless block "$1I162/$1I4631/$2I3081" (AND) removed.
+The signal "$1I162/$2N4477" is sourceless and has been removed.
+The signal "$1I162/$2N4582" is sourceless and has been removed.
+The signal "$1I162/$2N4709" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4707" (FF) removed.
+  The signal "$1I162/~DLL_LOCK2" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4717" (OR) removed.
+    The signal "$1I162/DLL_ERROR" is sourceless and has been removed.
+The signal "$1I162/$2N4712" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4705" (FF) removed.
+  The signal "$1I162/~DLL_LOCK1" is sourceless and has been removed.
+The signal "$1I162/$5N5917" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I83" (FF) removed.
+  The signal "$1I162/F0DIAG0" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I84" (FF) removed.
+  The signal "$1I162/F0DIAG1" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I85" (FF) removed.
+  The signal "$1I162/F0DIAG2" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I86" (FF) removed.
+  The signal "$1I162/F0DIAG3" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I87" (FF) removed.
+  The signal "$1I162/F0DIAG4" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I88" (FF) removed.
+  The signal "$1I162/F0DIAG5" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I89" (FF) removed.
+  The signal "$1I162/F0DIAG13" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I90" (FF) removed.
+  The signal "$1I162/F0DIAG12" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I91" (FF) removed.
+  The signal "$1I162/F0DIAG11" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I92" (FF) removed.
+  The signal "$1I162/F0DIAG10" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I93" (FF) removed.
+  The signal "$1I162/F0DIAG9" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I94" (FF) removed.
+  The signal "$1I162/F0DIAG8" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I95" (FF) removed.
+  The signal "$1I162/F0DIAG6" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I96" (FF) removed.
+  The signal "$1I162/F0DIAG7" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I97" (FF) removed.
+  The signal "$1I162/F0DIAG14" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5915/$1I98" (FF) removed.
+  The signal "$1I162/F0DIAG15" is sourceless and has been removed.
+The signal "$1I162/$5N5943" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q5" (FF) removed.
+  The signal "$1I162/F0_DAT5" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q1" (FF) removed.
+  The signal "$1I162/F0_DAT1" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q0" (FF) removed.
+  The signal "$1I162/F0_DAT0" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q2" (FF) removed.
+  The signal "$1I162/F0_DAT2" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q3" (FF) removed.
+  The signal "$1I162/F0_DAT3" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q4" (FF) removed.
+  The signal "$1I162/F0_DAT4" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q6" (FF) removed.
+  The signal "$1I162/F0_DAT6" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q7" (FF) removed.
+  The signal "$1I162/F0_DAT7" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q8" (FF) removed.
+  The signal "$1I162/F0_DAT8" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q9" (FF) removed.
+  The signal "$1I162/F0_DAT9" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q10" (FF) removed.
+  The signal "$1I162/F0_DAT10" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q11" (FF) removed.
+  The signal "$1I162/F0_DAT11" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q12" (FF) removed.
+  The signal "$1I162/F0_DAT12" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q13" (FF) removed.
+  The signal "$1I162/F0_DAT13" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q14" (FF) removed.
+  The signal "$1I162/F0_DAT14" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5937/Q15" (FF) removed.
+  The signal "$1I162/F0_DAT15" is sourceless and has been removed.
+The signal "$1I162/$5N5947" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5950/Q5" (FF) removed.
+  The signal "$1I162/F0_CTL5" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5950/Q1" (FF) removed.
+  The signal "$1I162/F0_CTL1" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5950/Q0" (FF) removed.
+  The signal "$1I162/F0_CTL0" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5950/Q6" (FF) removed.
+  The signal "$1I162/F0_CTL6" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5950/Q7" (FF) removed.
+  The signal "$1I162/F0_CTL7" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5950/Q8" (FF) removed.
+  The signal "$1I162/F0_CTL8" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5950/Q9" (FF) removed.
+  The signal "$1I162/F0_CTL9" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5950/Q12" (FF) removed.
+  The signal "$1I162/F0_CTL12" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5950/Q13" (FF) removed.
+  The signal "$1I162/F0_CTL13" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5950/Q14" (FF) removed.
+  The signal "$1I162/F0_CTL14" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5950/Q15" (FF) removed.
+  The signal "$1I162/F0_CTL15" is sourceless and has been removed.
+The signal "$1I162/$5N6062" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I6064/Q2" (FF) removed.
+  The signal "$1I162/RD_CTL2" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I5037/$1I42" (BUF) removed.
+    The signal "$1I162/STAT15" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I6064/Q3" (FF) removed.
+  The signal "$1I162/RD_CTL3" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I5037/$1I43" (BUF) removed.
+    The signal "$1I162/STAT16" is sourceless and has been removed.
+The signal "$1I162/$5N6131" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I6130/Q2" (FF) removed.
+  The signal "$1I162/R_STATE2" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I6130/Q3" (FF) removed.
+  The signal "$1I162/R_STATE3" is sourceless and has been removed.
+The signal "$1I162/$6N5771" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5622/$1I83" (FF) removed.
+  The signal "$1I162/BSTAT16" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5622/$1I84" (FF) removed.
+  The signal "$1I162/BSTAT17" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5622/$1I85" (FF) removed.
+  The signal "$1I162/BSTAT18" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5622/$1I86" (FF) removed.
+  The signal "$1I162/BSTAT19" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5622/$1I87" (FF) removed.
+  The signal "$1I162/BSTAT20" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5622/$1I88" (FF) removed.
+  The signal "$1I162/BSTAT21" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5622/$1I93" (FF) removed.
+  The signal "$1I162/BSTAT25" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5622/$1I95" (FF) removed.
+  The signal "$1I162/BSTAT22" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5622/$1I96" (FF) removed.
+  The signal "$1I162/BSTAT23" is sourceless and has been removed.
+The signal "$1I162/$6N5773" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I87" (FF) removed.
+  The signal "$1I162/BSTAT4" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I88" (FF) removed.
+  The signal "$1I162/BSTAT5" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I86" (FF) removed.
+  The signal "$1I162/BSTAT3" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I85" (FF) removed.
+  The signal "$1I162/BSTAT2" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I84" (FF) removed.
+  The signal "$1I162/BSTAT1" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I83" (FF) removed.
+  The signal "$1I162/BSTAT0" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I94" (FF) removed.
+  The signal "$1I162/BSTAT8" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I93" (FF) removed.
+  The signal "$1I162/BSTAT9" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I92" (FF) removed.
+  The signal "$1I162/BSTAT10" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I91" (FF) removed.
+  The signal "$1I162/BSTAT11" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I90" (FF) removed.
+  The signal "$1I162/BSTAT12" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I89" (FF) removed.
+  The signal "$1I162/BSTAT13" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I96" (FF) removed.
+  The signal "$1I162/BSTAT7" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I95" (FF) removed.
+  The signal "$1I162/BSTAT6" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I98" (FF) removed.
+  The signal "$1I162/BSTAT15" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5628/$1I97" (FF) removed.
+  The signal "$1I162/BSTAT14" is sourceless and has been removed.
+The signal "$1I162/$6N5790" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5788/Q15" (FF) removed.
+  The signal "$1I162/INCTL15" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5788/Q14" (FF) removed.
+  The signal "$1I162/INCTL14" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5788/Q13" (FF) removed.
+  The signal "$1I162/INCTL13" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5788/Q12" (FF) removed.
+  The signal "$1I162/INCTL12" is sourceless and has been removed.
+The signal "$1I162/BREF_B" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT0" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT1" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT10" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT11" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT12" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT13" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT14" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT15" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT16" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT17" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT18" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT19" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT2" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT20" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT21" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT22" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT23" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT25" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT3" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT4" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT5" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT6" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT7" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT8" is sourceless and has been removed.
+The signal "$1I162/BUFSTAT9" is sourceless and has been removed.
+The signal "$1I162/CK80N_B" is sourceless and has been removed.
+The signal "$1I162/CK80P_B" is sourceless and has been removed.
+The signal "$1I162/DO0" is sourceless and has been removed.
+The signal "$1I162/DO1" is sourceless and has been removed.
+The signal "$1I162/DO10" is sourceless and has been removed.
+The signal "$1I162/DO11" is sourceless and has been removed.
+The signal "$1I162/DO12" is sourceless and has been removed.
+The signal "$1I162/DO13" is sourceless and has been removed.
+The signal "$1I162/DO14" is sourceless and has been removed.
+The signal "$1I162/DO15" is sourceless and has been removed.
+The signal "$1I162/DO18" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I6013" (BUF) removed.
+  The signal "$1I162/L0_16" is sourceless and has been removed.
+   Sourceless block "$1I162/$6I6000" (PAD) removed.
+The signal "$1I162/DO19" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I6015" (BUF) removed.
+  The signal "$1I162/L1_16" is sourceless and has been removed.
+   Sourceless block "$1I162/$6I5988" (PAD) removed.
+The signal "$1I162/DO2" is sourceless and has been removed.
+The signal "$1I162/DO20" is sourceless and has been removed.
+The signal "$1I162/DO21" is sourceless and has been removed.
+The signal "$1I162/DO22" is sourceless and has been removed.
+The signal "$1I162/DO23" is sourceless and has been removed.
+The signal "$1I162/DO24" is sourceless and has been removed.
+The signal "$1I162/DO25" is sourceless and has been removed.
+The signal "$1I162/DO26" is sourceless and has been removed.
+The signal "$1I162/DO27" is sourceless and has been removed.
+The signal "$1I162/DO28" is sourceless and has been removed.
+The signal "$1I162/DO29" is sourceless and has been removed.
+The signal "$1I162/DO3" is sourceless and has been removed.
+The signal "$1I162/DO30" is sourceless and has been removed.
+The signal "$1I162/DO31" is sourceless and has been removed.
+The signal "$1I162/DO32" is sourceless and has been removed.
+The signal "$1I162/DO33" is sourceless and has been removed.
+The signal "$1I162/DO34" is sourceless and has been removed.
+The signal "$1I162/DO35" is sourceless and has been removed.
+The signal "$1I162/DO4" is sourceless and has been removed.
+The signal "$1I162/DO5" is sourceless and has been removed.
+The signal "$1I162/DO6" is sourceless and has been removed.
+The signal "$1I162/DO7" is sourceless and has been removed.
+The signal "$1I162/DO8" is sourceless and has been removed.
+The signal "$1I162/DO9" is sourceless and has been removed.
+The signal "$1I162/EMPTY_M0" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5973" (BUF) removed.
+  The signal "$1I162/F0CTL8" is sourceless and has been removed.
+The signal "$1I162/F0CTL0" is sourceless and has been removed.
+The signal "$1I162/F0CTL1" is sourceless and has been removed.
+The signal "$1I162/F0CTL12" is sourceless and has been removed.
+The signal "$1I162/F0CTL13" is sourceless and has been removed.
+The signal "$1I162/F0CTL14" is sourceless and has been removed.
+The signal "$1I162/F0CTL15" is sourceless and has been removed.
+The signal "$1I162/F0CTL5" is sourceless and has been removed.
+The signal "$1I162/F0CTL6" is sourceless and has been removed.
+The signal "$1I162/F0CTL7" is sourceless and has been removed.
+The signal "$1I162/F0CTL9" is sourceless and has been removed.
+The signal "$1I162/F0DAT0" is sourceless and has been removed.
+The signal "$1I162/F0DAT1" is sourceless and has been removed.
+The signal "$1I162/F0DAT10" is sourceless and has been removed.
+The signal "$1I162/F0DAT11" is sourceless and has been removed.
+The signal "$1I162/F0DAT12" is sourceless and has been removed.
+The signal "$1I162/F0DAT13" is sourceless and has been removed.
+The signal "$1I162/F0DAT14" is sourceless and has been removed.
+The signal "$1I162/F0DAT15" is sourceless and has been removed.
+The signal "$1I162/F0DAT16" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5955" (BUF) removed.
+The signal "$1I162/F0DAT17" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5954" (BUF) removed.
+The signal "$1I162/F0DAT2" is sourceless and has been removed.
+The signal "$1I162/F0DAT3" is sourceless and has been removed.
+The signal "$1I162/F0DAT4" is sourceless and has been removed.
+The signal "$1I162/F0DAT5" is sourceless and has been removed.
+The signal "$1I162/F0DAT6" is sourceless and has been removed.
+The signal "$1I162/F0DAT7" is sourceless and has been removed.
+The signal "$1I162/F0DAT8" is sourceless and has been removed.
+The signal "$1I162/F0DAT9" is sourceless and has been removed.
+The signal "$1I162/F0_DIAG0" is sourceless and has been removed.
+The signal "$1I162/F0_DIAG1" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5995" (BUF) removed.
+The signal "$1I162/F0_DIAG10" is sourceless and has been removed.
+The signal "$1I162/F0_DIAG11" is sourceless and has been removed.
+The signal "$1I162/F0_DIAG12" is sourceless and has been removed.
+The signal "$1I162/F0_DIAG13" is sourceless and has been removed.
+The signal "$1I162/F0_DIAG14" is sourceless and has been removed.
+The signal "$1I162/F0_DIAG15" is sourceless and has been removed.
+The signal "$1I162/F0_DIAG2" is sourceless and has been removed.
+The signal "$1I162/F0_DIAG3" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5996" (BUF) removed.
+The signal "$1I162/F0_DIAG4" is sourceless and has been removed.
+The signal "$1I162/F0_DIAG5" is sourceless and has been removed.
+The signal "$1I162/F0_DIAG6" is sourceless and has been removed.
+The signal "$1I162/F0_DIAG7" is sourceless and has been removed.
+The signal "$1I162/F0_DIAG8" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5997" (BUF) removed.
+The signal "$1I162/F0_DIAG9" is sourceless and has been removed.
+The signal "$1I162/FF_F0" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5970" (BUF) removed.
+ Sourceless block "$1I162/$6I5614/$1I40" (BUF) removed.
+The signal "$1I162/FF_F1" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5614/$1I41" (BUF) removed.
+The signal "$1I162/FF_F2" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5614/$1I42" (BUF) removed.
+The signal "$1I162/FF_F3" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5614/$1I43" (BUF) removed.
+The signal "$1I162/FF_F4" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5614/$1I44" (BUF) removed.
+The signal "$1I162/FF_F5" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5614/$1I45" (BUF) removed.
+The signal "$1I162/FF_F6" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5614/$1I38" (BUF) removed.
+The signal "$1I162/FF_F7" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5614/$1I39" (BUF) removed.
+The signal "$1I162/FF_F9" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5614/$1I31" (BUF) removed.
+The signal "$1I162/FIFO_AF0" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5971" (BUF) removed.
+The signal "$1I162/FIFO_FULL0" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5977" (BUF) removed.
+The signal "$1I162/HALF_FULL0WARN" is sourceless and has been removed.
+The signal "$1I162/HALF_FULL1WARN" is sourceless and has been removed.
+The signal "$1I162/IMCTL0" is sourceless and has been removed.
+The signal "$1I162/IMCTL1" is sourceless and has been removed.
+The signal "$1I162/IMCTL10" is sourceless and has been removed.
+The signal "$1I162/IMCTL11" is sourceless and has been removed.
+The signal "$1I162/IMCTL12" is sourceless and has been removed.
+The signal "$1I162/IMCTL13" is sourceless and has been removed.
+The signal "$1I162/IMCTL14" is sourceless and has been removed.
+The signal "$1I162/IMCTL15" is sourceless and has been removed.
+The signal "$1I162/IMCTL2" is sourceless and has been removed.
+The signal "$1I162/IMCTL3" is sourceless and has been removed.
+The signal "$1I162/IMCTL4" is sourceless and has been removed.
+The signal "$1I162/IMCTL5" is sourceless and has been removed.
+The signal "$1I162/IMCTL6" is sourceless and has been removed.
+The signal "$1I162/IMCTL7" is sourceless and has been removed.
+The signal "$1I162/IMCTL8" is sourceless and has been removed.
+The signal "$1I162/IMCTL9" is sourceless and has been removed.
+The signal "$1I162/INC12" is sourceless and has been removed.
+The signal "$1I162/INC13" is sourceless and has been removed.
+The signal "$1I162/INC14" is sourceless and has been removed.
+The signal "$1I162/INC15" is sourceless and has been removed.
+The signal "$1I162/LD0B6" is sourceless and has been removed.
+The signal "$1I162/LD0B7" is sourceless and has been removed.
+The signal "$1I162/LD4B6" is sourceless and has been removed.
+The signal "$1I162/LD4B7" is sourceless and has been removed.
+The signal "$1I162/LD6B6" is sourceless and has been removed.
+The signal "$1I162/LD6B7" is sourceless and has been removed.
+The signal "$1I162/LFIFO_EMPTY" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5989" (BUF) removed.
+The signal "$1I162/MCTL0" is sourceless and has been removed.
+The signal "$1I162/MCTL1" is sourceless and has been removed.
+The signal "$1I162/MCTL10" is sourceless and has been removed.
+The signal "$1I162/MCTL11" is sourceless and has been removed.
+The signal "$1I162/MCTL12" is sourceless and has been removed.
+The signal "$1I162/MCTL13" is sourceless and has been removed.
+The signal "$1I162/MCTL14" is sourceless and has been removed.
+The signal "$1I162/MCTL15" is sourceless and has been removed.
+The signal "$1I162/MCTL2" is sourceless and has been removed.
+The signal "$1I162/MCTL3" is sourceless and has been removed.
+The signal "$1I162/MCTL4" is sourceless and has been removed.
+The signal "$1I162/MCTL5" is sourceless and has been removed.
+The signal "$1I162/MCTL6" is sourceless and has been removed.
+The signal "$1I162/MCTL7" is sourceless and has been removed.
+The signal "$1I162/MCTL8" is sourceless and has been removed.
+The signal "$1I162/MCTL9" is sourceless and has been removed.
+The signal "$1I162/M_EMPTY0" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5972" (BUF) removed.
+The signal "$1I162/NRDY8" is sourceless and has been removed.
+The signal "$1I162/OEM0" is sourceless and has been removed.
+The signal "$1I162/OEM1" is sourceless and has been removed.
+The signal "$1I162/OEM10" is sourceless and has been removed.
+The signal "$1I162/OEM11" is sourceless and has been removed.
+The signal "$1I162/OEM12" is sourceless and has been removed.
+The signal "$1I162/OEM13" is sourceless and has been removed.
+The signal "$1I162/OEM14" is sourceless and has been removed.
+The signal "$1I162/OEM15" is sourceless and has been removed.
+The signal "$1I162/OEM16" is sourceless and has been removed.
+The signal "$1I162/OEM17" is sourceless and has been removed.
+The signal "$1I162/OEM18" is sourceless and has been removed.
+The signal "$1I162/OEM19" is sourceless and has been removed.
+The signal "$1I162/OEM2" is sourceless and has been removed.
+The signal "$1I162/OEM20" is sourceless and has been removed.
+The signal "$1I162/OEM21" is sourceless and has been removed.
+The signal "$1I162/OEM22" is sourceless and has been removed.
+The signal "$1I162/OEM23" is sourceless and has been removed.
+The signal "$1I162/OEM24" is sourceless and has been removed.
+The signal "$1I162/OEM25" is sourceless and has been removed.
+The signal "$1I162/OEM26" is sourceless and has been removed.
+The signal "$1I162/OEM27" is sourceless and has been removed.
+The signal "$1I162/OEM28" is sourceless and has been removed.
+The signal "$1I162/OEM29" is sourceless and has been removed.
+The signal "$1I162/OEM3" is sourceless and has been removed.
+The signal "$1I162/OEM30" is sourceless and has been removed.
+The signal "$1I162/OEM31" is sourceless and has been removed.
+The signal "$1I162/OEM4" is sourceless and has been removed.
+The signal "$1I162/OEM5" is sourceless and has been removed.
+The signal "$1I162/OEM6" is sourceless and has been removed.
+The signal "$1I162/OEM7" is sourceless and has been removed.
+The signal "$1I162/OEM8" is sourceless and has been removed.
+The signal "$1I162/OEM9" is sourceless and has been removed.
+The signal "$1I162/RDCTL2" is sourceless and has been removed.
+The signal "$1I162/RDCTL3" is sourceless and has been removed.
+The signal "$1I162/RHL6" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I5022/$1I1350" (XOR) removed.
+  The signal "$1I162/$2I5022/TQ6" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I5022/$1I276" (FF) removed.
+ Sourceless block "$1I162/$2I5022/$1I285" (MUX) removed.
+  The signal "$1I162/$2I5022/$1I285/O" is sourceless and has been removed.
+The signal "$1I162/RHL7" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I5022/$1I1351" (XOR) removed.
+  The signal "$1I162/$2I5022/TQ7" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I5022/$1I289" (FF) removed.
+ Sourceless block "$1I162/$2I5022/$1I298" (MUX) removed.
+  The signal "$1I162/$2I5022/$1I298/O" is sourceless and has been removed.
+The signal "$1I162/RHL8" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I5022/$1I1352" (XOR) removed.
+  The signal "$1I162/$2I5022/TQ8" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I5022/$1I1095" (FF) removed.
+ Sourceless block "$1I162/$2I5022/$1I1147" (MUX) removed.
+  The signal "$1I162/$2I5022/$1I1147/O" is sourceless and has been removed.
+The signal "$1I162/RHL9" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I5022/$1I1334" (MUX) removed.
+  The signal "$1I162/$2I5022/TC" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I5022/$1I1099" (AND) removed.
+    The signal "$1I162/$2I5022/CEO" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I5022/$1I1353" (XOR) removed.
+  The signal "$1I162/$2I5022/TQ9" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I5022/$1I1118" (FF) removed.
+The signal "$1I162/RHS" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4977" (BUF) removed.
+  The signal "$1I162/~RHS" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4972/$1I52" (AND) removed.
+    The signal "$1I162/$2I4972/CEO" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4972/Q1/$1I35" (FF) removed.
+    The signal "$1I162/$2I4972/Q1" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4972/$1I37" (AND) removed.
+     Sourceless block "$1I162/$2I4972/Q1/$1I32" (XOR) removed.
+      The signal "$1I162/$2I4972/Q1/TQ" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4972/Q0/$1I35" (FF) removed.
+    The signal "$1I162/$2I4972/Q0" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4972/Q0/$1I32" (XOR) removed.
+      The signal "$1I162/$2I4972/Q0/TQ" is sourceless and has been removed.
+The signal "$1I162/RSTATE2" is sourceless and has been removed.
+The signal "$1I162/RSTATE3" is sourceless and has been removed.
+The signal "$1I162/SLCK" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4847" (CKBUF) removed.
+  The signal "$1I162/SLOWCLK" is sourceless and has been removed.
+The signal "$1I162/~LOCK1" is sourceless and has been removed.
+The signal "$1I162/~PAE0IN" is sourceless and has been removed.
+ Sourceless block "$1I162/$1I4691" (BUF) removed.
+The signal "$1I162/~PAE1IN" is sourceless and has been removed.
+ Sourceless block "$1I162/$4I4843" (BUF) removed.
+The signal "$1I162/~PAF2" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I6020/$1I42" (BUF) removed.
+ Sourceless block "$1I162/$6I5921/$1I42" (BUF) removed.
+ Sourceless block "$1I162/$6I5944/$1I42" (BUF) removed.
+  The signal "$1I162/$6I5944/O2" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5922/$1I42" (BUF) removed.
+ Sourceless block "$1I162/$5I6032/$1I42" (BUF) removed.
+ Sourceless block "$1I162/$5I6115/$1I42" (BUF) removed.
+The signal "$1I162/~PAF3" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I6020/$1I43" (BUF) removed.
+ Sourceless block "$1I162/$6I5921/$1I43" (BUF) removed.
+ Sourceless block "$1I162/$6I5944/$1I43" (BUF) removed.
+  The signal "$1I162/$6I5944/O3" is sourceless and has been removed.
+ Sourceless block "$1I162/$5I5922/$1I43" (BUF) removed.
+ Sourceless block "$1I162/$5I6032/$1I43" (BUF) removed.
+ Sourceless block "$1I162/$5I6115/$1I43" (BUF) removed.
+The signal "$1I162/$1I4631/$1N4102" is sourceless and has been removed.
+ Sourceless block "$1I162/$1I4631/$1I4073/$1I99/Q17" (FF) removed.
+  The signal "$1I162/$1I4631/LOUT35" is sourceless and has been removed.
+ Sourceless block "$1I162/$1I4631/$1I4073/$1I99/Q16" (FF) removed.
+  The signal "$1I162/$1I4631/LOUT34" is sourceless and has been removed.
+The signal "$1I162/$1I4631/$2N2841" is sourceless and has been removed.
+The signal "$1I162/$1I4631/DO34" is sourceless and has been removed.
+ Sourceless block "$1I162/$1I4631/$1I4080/$1I4528/$1I4359/$1I31" (AND) removed.
+  The signal "$1I162/$1I4631/$1I4080/$1I4528/$1I4359/M0" is sourceless and has
+been removed.
+   Sourceless block "$1I162/$1I4631/$1I4080/$1I4528/$1I4359/$1I38" (OR) removed.
+    The signal "$1I162/$1I4631/SELOUT34" is sourceless and has been removed.
+The signal "$1I162/$1I4631/DO35" is sourceless and has been removed.
+ Sourceless block "$1I162/$1I4631/$1I4080/$1I4528/$1I4360/$1I31" (AND) removed.
+  The signal "$1I162/$1I4631/$1I4080/$1I4528/$1I4360/M0" is sourceless and has
+been removed.
+   Sourceless block "$1I162/$1I4631/$1I4080/$1I4528/$1I4360/$1I38" (OR) removed.
+    The signal "$1I162/$1I4631/SELOUT35" is sourceless and has been removed.
+The signal "$1I162/$1I4631/DO70" is sourceless and has been removed.
+ Sourceless block "$1I162/$1I4631/$1I4080/$1I4528/$1I4359/$1I30" (AND) removed.
+  The signal "$1I162/$1I4631/$1I4080/$1I4528/$1I4359/M1" is sourceless and has
+been removed.
+The signal "$1I162/$1I4631/DO71" is sourceless and has been removed.
+ Sourceless block "$1I162/$1I4631/$1I4080/$1I4528/$1I4360/$1I30" (AND) removed.
+  The signal "$1I162/$1I4631/$1I4080/$1I4528/$1I4360/M1" is sourceless and has
+been removed.
+The signal "$1I162/$1I4631/DOUT16" is sourceless and has been removed.
+The signal "$1I162/$1I4631/LWCNT13" is sourceless and has been removed.
+The signal "$1I162/$1I4631/LWCNT14" is sourceless and has been removed.
+The signal "$1I162/$1I4631/LWCNT15" is sourceless and has been removed.
+The signal "$1I162/$1I4631/RH" is sourceless and has been removed.
+ Sourceless block "$1I162/$1I4631/$2I2682" (BUF) removed.
+  The signal "$1I162/$1I4631/~RH" is sourceless and has been removed.
+   Sourceless block "$1I162/$1I4631/$2I2692/$1I36" (FF) removed.
+    The signal "$1I162/$1I4631/$2I2692/Q0" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I6" (XOR) removed.
+      The signal "$1I162/$1I4631/$2I2692/TQ0" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I4" (MUX) removed.
+      The signal "$1I162/$1I4631/$2I2692/$1I4/O" is sourceless and has been removed.
+   Sourceless block "$1I162/$1I4631/$2I2692/$1I35" (FF) removed.
+    The signal "$1I162/$1I4631/$2I2692/Q1" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I28" (XOR) removed.
+      The signal "$1I162/$1I4631/$2I2692/TQ1" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I26" (MUX) removed.
+      The signal "$1I162/$1I4631/$2I2692/$1I26/O" is sourceless and has been removed.
+   Sourceless block "$1I162/$1I4631/$2I2692/$1I224" (FF) removed.
+    The signal "$1I162/$1I4631/$2I2692/Q2" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I226" (XOR) removed.
+      The signal "$1I162/$1I4631/$2I2692/TQ2" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I233" (MUX) removed.
+      The signal "$1I162/$1I4631/$2I2692/$1I233/O" is sourceless and has been removed.
+   Sourceless block "$1I162/$1I4631/$2I2692/$1I237" (FF) removed.
+    The signal "$1I162/$1I4631/$2I2692/Q3" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I239" (XOR) removed.
+      The signal "$1I162/$1I4631/$2I2692/TQ3" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I246" (MUX) removed.
+      The signal "$1I162/$1I4631/$2I2692/$1I246/O" is sourceless and has been removed.
+   Sourceless block "$1I162/$1I4631/$2I2692/$1I250" (FF) removed.
+    The signal "$1I162/$1I4631/$2I2692/Q4" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I252" (XOR) removed.
+      The signal "$1I162/$1I4631/$2I2692/TQ4" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I259" (MUX) removed.
+      The signal "$1I162/$1I4631/$2I2692/$1I259/O" is sourceless and has been removed.
+   Sourceless block "$1I162/$1I4631/$2I2692/$1I263" (FF) removed.
+    The signal "$1I162/$1I4631/$2I2692/Q5" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I265" (XOR) removed.
+      The signal "$1I162/$1I4631/$2I2692/TQ5" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I272" (MUX) removed.
+      The signal "$1I162/$1I4631/$2I2692/$1I272/O" is sourceless and has been removed.
+   Sourceless block "$1I162/$1I4631/$2I2692/$1I276" (FF) removed.
+    The signal "$1I162/$1I4631/$2I2692/Q6" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I278" (XOR) removed.
+      The signal "$1I162/$1I4631/$2I2692/TQ6" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I285" (MUX) removed.
+      The signal "$1I162/$1I4631/$2I2692/$1I285/O" is sourceless and has been removed.
+   Sourceless block "$1I162/$1I4631/$2I2692/$1I289" (FF) removed.
+    The signal "$1I162/$1I4631/$2I2692/Q7" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I298" (MUX) removed.
+     Sourceless block "$1I162/$1I4631/$2I2692/$1I291" (XOR) removed.
+      The signal "$1I162/$1I4631/$2I2692/TQ7" is sourceless and has been removed.
+   Sourceless block "$1I162/$1I4631/$2I2692/$1I956" (AND) removed.
+    The signal "$1I162/$1I4631/$2I2692/CEO" is sourceless and has been removed.
+The signal "$1I162/$1I4631/SELOUT16" is sourceless and has been removed.
+The signal "$1I162/$1I4631/STOP_DATA+1" is sourceless and has been removed.
+The signal "$1I162/$1I4631/WCNT13" is sourceless and has been removed.
+ Sourceless block "$1I162/$1I4631/$2I3057/Q13" (FF) removed.
+ Sourceless block "$1I162/$1I4631/$2I2834/$1I22" (AND) removed.
+  The signal "$1I162/$1I4631/$2I2834/TC" is sourceless and has been removed.
+   Sourceless block "$1I162/$1I4631/$2I2834/$1I54" (AND) removed.
+    The signal "$1I162/$1I4631/$2I2834/CEO" is sourceless and has been removed.
+ Sourceless block "$1I162/$1I4631/$2I2834/$1I24" (AND) removed.
+  The signal "$1I162/$1I4631/$2I2834/T14" is sourceless and has been removed.
+   Sourceless block "$1I162/$1I4631/$2I2834/Q14/$1I32" (XOR) removed.
+    The signal "$1I162/$1I4631/$2I2834/Q14/TQ" is sourceless and has been removed.
+     Sourceless block "$1I162/$1I4631/$2I2834/Q14/$1I35" (FF) removed.
+      The signal "$1I162/$1I4631/WCNT14" is sourceless and has been removed.
+       Sourceless block "$1I162/$1I4631/$2I3057/Q14" (FF) removed.
+       Sourceless block "$1I162/$1I4631/$2I2834/$1I25" (AND) removed.
+        The signal "$1I162/$1I4631/$2I2834/T15" is sourceless and has been removed.
+         Sourceless block "$1I162/$1I4631/$2I2834/Q15/$1I32" (XOR) removed.
+          The signal "$1I162/$1I4631/$2I2834/Q15/TQ" is sourceless and has been removed.
+           Sourceless block "$1I162/$1I4631/$2I2834/Q15/$1I35" (FF) removed.
+            The signal "$1I162/$1I4631/WCNT15" is sourceless and has been removed.
+             Sourceless block "$1I162/$1I4631/$2I3057/Q15" (FF) removed.
+ Sourceless block "$1I162/$1I4631/$2I2834/Q13/$1I32" (XOR) removed.
+  The signal "$1I162/$1I4631/$2I2834/Q13/TQ" is sourceless and has been removed.
+   Sourceless block "$1I162/$1I4631/$2I2834/Q13/$1I35" (FF) removed.
+The signal "$1I162/$1I4631/$1I3745/CEO" is sourceless and has been removed.
+The signal "$1I162/$1I4631/$1I3745/TC" is sourceless and has been removed.
+ Sourceless block "$1I162/$1I4631/$1I3745/$1I1099" (AND) removed.
+The signal "$1I162/$1I4631/$1I4045/FBJB26" is sourceless and has been removed.
+The signal "$1I162/$1I4631/$2I2692/$1N12" is sourceless and has been removed.
+The signal "$1I162/$1I4631/$2I2692/C0" is sourceless and has been removed.
+The signal "$1I162/$1I4631/$2I2834/T13" is sourceless and has been removed.
+The signal "$1I162/$1I4631/$2I2904/CEO" is sourceless and has been removed.
+The signal "$1I162/$1I4631/$2I2992/CEO" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1N131" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1N143" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1N146" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1N148" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1N151" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1N216" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1N241" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1N240" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I185/$1N149" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I185/$1N151" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I185/$1N153" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I185/$1N155" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I186/$1N149" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I186/$1N151" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I186/$1N153" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I186/$1N155" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I187/$1N149" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I187/$1N151" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I187/$1N153" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I187/$1N155" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I188/$1N149" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I188/$1N151" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I188/$1N153" is sourceless and has been removed.
+The signal "$1I162/$1I4685/$1I188/$1N155" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$1N2517" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$2N2545" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2728/Q0" (FF) removed.
+  The signal "$1I162/$2I4683/LFAF0" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$2I2725/$1I143" (OR) removed.
+    The signal "$1I162/$2I4683/FAF_FB0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2728/Q4" (FF) removed.
+  The signal "$1I162/$2I4683/LFAF4" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$2I2725/$1I147" (OR) removed.
+    The signal "$1I162/$2I4683/FAF_FB4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2728/Q3" (FF) removed.
+  The signal "$1I162/$2I4683/LFAF3" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$2I2725/$1I146" (OR) removed.
+    The signal "$1I162/$2I4683/FAF_FB3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2728/Q2" (FF) removed.
+  The signal "$1I162/$2I4683/LFAF2" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$2I2725/$1I145" (OR) removed.
+    The signal "$1I162/$2I4683/FAF_FB2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2728/Q1" (FF) removed.
+  The signal "$1I162/$2I4683/LFAF1" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$2I2725/$1I144" (OR) removed.
+    The signal "$1I162/$2I4683/FAF_FB1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2728/Q5" (FF) removed.
+  The signal "$1I162/$2I4683/LFAF5" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$2I2725/$1I148" (OR) removed.
+    The signal "$1I162/$2I4683/FAF_FB5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$2N2712" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$2N2844" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$2N2895" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$2N2902" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$3N2853" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2850/Q1" (FF) removed.
+  The signal "$1I162/$2I4683/FMEM_MIN1" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$3I2846/$1I1708" (XOR) removed.
+    The signal "$1I162/$2I4683/$3I2846/I1" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4683/$3I2846/$1I1710" (MUX) removed.
+      The signal "$1I162/$2I4683/$3I2846/$1I1710/O" is sourceless and has been
+removed.
+   Sourceless block "$1I162/$2I4683/$3I2846/$1I1951" (XOR) removed.
+    The signal "$1I162/$2I4683/$3I2846/I1G" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4683/$3I2846/$1I1964" (MUX) removed.
+      The signal "$1I162/$2I4683/$3I2846/$1I1964/O" is sourceless and has been
+removed.
+ Sourceless block "$1I162/$2I4683/$3I2850/Q0" (FF) removed.
+  The signal "$1I162/$2I4683/FMEM_MIN0" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$3I2846/$1I1" (XOR) removed.
+    The signal "$1I162/$2I4683/$3I2846/I0" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4683/$3I2846/$1I3" (MUX) removed.
+      The signal "$1I162/$2I4683/$3I2846/$1I3/O" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$3I2846/$1I1954" (XOR) removed.
+    The signal "$1I162/$2I4683/$3I2846/I0G" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4683/$3I2846/$1I1965" (MUX) removed.
+      The signal "$1I162/$2I4683/$3I2846/$1I1965/O" is sourceless and has been
+removed.
+ Sourceless block "$1I162/$2I4683/$3I2850/Q2" (FF) removed.
+  The signal "$1I162/$2I4683/FMEM_MIN2" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$3I2846/$1I1717" (XOR) removed.
+    The signal "$1I162/$2I4683/$3I2846/I2" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4683/$3I2846/$1I1719" (MUX) removed.
+      The signal "$1I162/$2I4683/$3I2846/$1I1719/O" is sourceless and has been
+removed.
+   Sourceless block "$1I162/$2I4683/$3I2846/$1I1947" (XOR) removed.
+    The signal "$1I162/$2I4683/$3I2846/I2G" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4683/$3I2846/$1I1963" (MUX) removed.
+      The signal "$1I162/$2I4683/$3I2846/$1I1963/O" is sourceless and has been
+removed.
+ Sourceless block "$1I162/$2I4683/$3I2850/Q3" (FF) removed.
+  The signal "$1I162/$2I4683/FMEM_MIN3" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$3I2846/$1I1730" (XOR) removed.
+    The signal "$1I162/$2I4683/$3I2846/I3" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4683/$3I2846/$1I1728" (MUX) removed.
+      The signal "$1I162/$2I4683/$3I2846/$1I1728/O" is sourceless and has been
+removed.
+   Sourceless block "$1I162/$2I4683/$3I2846/$1I1950" (XOR) removed.
+    The signal "$1I162/$2I4683/$3I2846/I3G" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4683/$3I2846/$1I1962" (MUX) removed.
+      The signal "$1I162/$2I4683/$3I2846/$1I1962/O" is sourceless and has been
+removed.
+ Sourceless block "$1I162/$2I4683/$3I2850/Q4" (FF) removed.
+  The signal "$1I162/$2I4683/FMEM_MIN4" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$3I2846/$1I1733" (XOR) removed.
+    The signal "$1I162/$2I4683/$3I2846/I4" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4683/$3I2846/$1I1751" (MUX) removed.
+      The signal "$1I162/$2I4683/NEW0FMEM_MIN" is sourceless and has been removed.
+       Sourceless block "$1I162/$2I4683/$3I2852" (OR) removed.
+        The signal "$1I162/$2I4683/EN0FMEM_MIN" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$3I2846/$1I1941" (XOR) removed.
+    The signal "$1I162/$2I4683/$3I2846/I4G" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4683/$3I2846/$1I1958" (MUX) removed.
+      The signal "$1I162/$2I4683/$3I2846/GT" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$3N2869" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2862/Q4" (FF) removed.
+  The signal "$1I162/$2I4683/FMEM_MIN9" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$3I2865/$1I1751" (MUX) removed.
+    The signal "$1I162/$2I4683/NEW1FMEM_MIN" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4683/$3I2864" (OR) removed.
+      The signal "$1I162/$2I4683/EN1FMEM_MIN" is sourceless and has been removed.
+       Sourceless block "$1I162/$2I4683/$3I2862/Q3" (FF) removed.
+        The signal "$1I162/$2I4683/FMEM_MIN8" is sourceless and has been removed.
+         Sourceless block "$1I162/$2I4683/$3I2865/$1I1730" (XOR) removed.
+          The signal "$1I162/$2I4683/$3I2865/I3" is sourceless and has been removed.
+           Sourceless block "$1I162/$2I4683/$3I2865/$1I1728" (MUX) removed.
+            The signal "$1I162/$2I4683/$3I2865/$1I1728/O" is sourceless and has been
+removed.
+         Sourceless block "$1I162/$2I4683/$3I2865/$1I1950" (XOR) removed.
+          The signal "$1I162/$2I4683/$3I2865/I3G" is sourceless and has been removed.
+           Sourceless block "$1I162/$2I4683/$3I2865/$1I1962" (MUX) removed.
+            The signal "$1I162/$2I4683/$3I2865/$1I1962/O" is sourceless and has been
+removed.
+       Sourceless block "$1I162/$2I4683/$3I2862/Q2" (FF) removed.
+        The signal "$1I162/$2I4683/FMEM_MIN7" is sourceless and has been removed.
+         Sourceless block "$1I162/$2I4683/$3I2865/$1I1717" (XOR) removed.
+          The signal "$1I162/$2I4683/$3I2865/I2" is sourceless and has been removed.
+           Sourceless block "$1I162/$2I4683/$3I2865/$1I1719" (MUX) removed.
+            The signal "$1I162/$2I4683/$3I2865/$1I1719/O" is sourceless and has been
+removed.
+         Sourceless block "$1I162/$2I4683/$3I2865/$1I1947" (XOR) removed.
+          The signal "$1I162/$2I4683/$3I2865/I2G" is sourceless and has been removed.
+           Sourceless block "$1I162/$2I4683/$3I2865/$1I1963" (MUX) removed.
+            The signal "$1I162/$2I4683/$3I2865/$1I1963/O" is sourceless and has been
+removed.
+       Sourceless block "$1I162/$2I4683/$3I2862/Q1" (FF) removed.
+        The signal "$1I162/$2I4683/FMEM_MIN6" is sourceless and has been removed.
+         Sourceless block "$1I162/$2I4683/$3I2865/$1I1708" (XOR) removed.
+          The signal "$1I162/$2I4683/$3I2865/I1" is sourceless and has been removed.
+           Sourceless block "$1I162/$2I4683/$3I2865/$1I1710" (MUX) removed.
+            The signal "$1I162/$2I4683/$3I2865/$1I1710/O" is sourceless and has been
+removed.
+         Sourceless block "$1I162/$2I4683/$3I2865/$1I1951" (XOR) removed.
+          The signal "$1I162/$2I4683/$3I2865/I1G" is sourceless and has been removed.
+           Sourceless block "$1I162/$2I4683/$3I2865/$1I1964" (MUX) removed.
+            The signal "$1I162/$2I4683/$3I2865/$1I1964/O" is sourceless and has been
+removed.
+       Sourceless block "$1I162/$2I4683/$3I2862/Q0" (FF) removed.
+        The signal "$1I162/$2I4683/FMEM_MIN5" is sourceless and has been removed.
+         Sourceless block "$1I162/$2I4683/$3I2865/$1I1" (XOR) removed.
+          The signal "$1I162/$2I4683/$3I2865/I0" is sourceless and has been removed.
+           Sourceless block "$1I162/$2I4683/$3I2865/$1I3" (MUX) removed.
+            The signal "$1I162/$2I4683/$3I2865/$1I3/O" is sourceless and has been removed.
+         Sourceless block "$1I162/$2I4683/$3I2865/$1I1954" (XOR) removed.
+          The signal "$1I162/$2I4683/$3I2865/I0G" is sourceless and has been removed.
+           Sourceless block "$1I162/$2I4683/$3I2865/$1I1965" (MUX) removed.
+            The signal "$1I162/$2I4683/$3I2865/$1I1965/O" is sourceless and has been
+removed.
+   Sourceless block "$1I162/$2I4683/$3I2865/$1I1733" (XOR) removed.
+    The signal "$1I162/$2I4683/$3I2865/I4" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$3I2865/$1I1941" (XOR) removed.
+    The signal "$1I162/$2I4683/$3I2865/I4G" is sourceless and has been removed.
+     Sourceless block "$1I162/$2I4683/$3I2865/$1I1958" (MUX) removed.
+      The signal "$1I162/$2I4683/$3I2865/GT" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT10" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT11" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT12" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT13" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT14" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT15" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/C-CODE-STAT9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/DMB_ERR0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2639/$1I40" (BUF) removed.
+  The signal "$1I162/$2I4683/XMIT_ERRORS8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/DMB_ERR1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2639/$1I41" (BUF) removed.
+  The signal "$1I162/$2I4683/XMIT_ERRORS9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/DMB_ERR2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2639/$1I42" (BUF) removed.
+  The signal "$1I162/$2I4683/XMIT_ERRORS10" is sourceless and has been removed.
+The signal "$1I162/$2I4683/DMB_ERR3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2639/$1I43" (BUF) removed.
+  The signal "$1I162/$2I4683/XMIT_ERRORS11" is sourceless and has been removed.
+The signal "$1I162/$2I4683/DMB_ERR4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2639/$1I44" (BUF) removed.
+  The signal "$1I162/$2I4683/XMIT_ERRORS12" is sourceless and has been removed.
+The signal "$1I162/$2I4683/DMB_ERR5" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2639/$1I45" (BUF) removed.
+  The signal "$1I162/$2I4683/XMIT_ERRORS13" is sourceless and has been removed.
+The signal "$1I162/$2I4683/DMB_ERR6" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2639/$1I38" (BUF) removed.
+  The signal "$1I162/$2I4683/XMIT_ERRORS14" is sourceless and has been removed.
+The signal "$1I162/$2I4683/DMB_ERR7" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2639/$1I39" (BUF) removed.
+  The signal "$1I162/$2I4683/XMIT_ERRORS15" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDBUSY_ERR0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2870/$1I40" (BUF) removed.
+  The signal "$1I162/$2I4683/ENDWAIT_ERR8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDBUSY_ERR1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2870/$1I41" (BUF) removed.
+  The signal "$1I162/$2I4683/ENDWAIT_ERR9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDBUSY_ERR2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2870/$1I42" (BUF) removed.
+  The signal "$1I162/$2I4683/ENDWAIT_ERR10" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDBUSY_ERR3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2870/$1I43" (BUF) removed.
+  The signal "$1I162/$2I4683/ENDWAIT_ERR11" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDBUSY_ERR4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2870/$1I44" (BUF) removed.
+  The signal "$1I162/$2I4683/ENDWAIT_ERR12" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDBUSY_ERR5" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2870/$1I45" (BUF) removed.
+  The signal "$1I162/$2I4683/ENDWAIT_ERR13" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDBUSY_ERR6" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2870/$1I38" (BUF) removed.
+  The signal "$1I162/$2I4683/ENDWAIT_ERR14" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDBUSY_ERR7" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2870/$1I39" (BUF) removed.
+  The signal "$1I162/$2I4683/ENDWAIT_ERR15" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDWAIT_ERR0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDWAIT_ERR1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDWAIT_ERR2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDWAIT_ERR3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDWAIT_ERR4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDWAIT_ERR5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDWAIT_ERR6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/ENDWAIT_ERR7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/F0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/F21" is sourceless and has been removed.
+The signal "$1I162/$2I4683/F25" is sourceless and has been removed.
+The signal "$1I162/$2I4683/F26" is sourceless and has been removed.
+The signal "$1I162/$2I4683/F27" is sourceless and has been removed.
+The signal "$1I162/$2I4683/F28" is sourceless and has been removed.
+The signal "$1I162/$2I4683/F29" is sourceless and has been removed.
+The signal "$1I162/$2I4683/F30" is sourceless and has been removed.
+The signal "$1I162/$2I4683/F31" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FERR0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2626/$1I40" (BUF) removed.
+  The signal "$1I162/$2I4683/LFOK8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FERR1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2626/$1I41" (BUF) removed.
+  The signal "$1I162/$2I4683/LFOK9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FERR2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2626/$1I42" (BUF) removed.
+  The signal "$1I162/$2I4683/LFOK10" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FERR3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2626/$1I43" (BUF) removed.
+  The signal "$1I162/$2I4683/LFOK11" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FERR4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2626/$1I44" (BUF) removed.
+  The signal "$1I162/$2I4683/LFOK12" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FERR5" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2626/$1I45" (BUF) removed.
+  The signal "$1I162/$2I4683/LFOK13" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FERR6" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2626/$1I38" (BUF) removed.
+  The signal "$1I162/$2I4683/LFOK14" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FERR7" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I2626/$1I39" (BUF) removed.
+  The signal "$1I162/$2I4683/LFOK15" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FMEMAVAIL0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FMEMAVAIL1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FMEMAVAIL2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FMEMAVAIL3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FMEMAVAIL4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FMEMAVAIL5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FMEMAVAIL6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FMEMAVAIL7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FMEMAVAIL8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FMEMAVAIL9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW0MEM0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2749/$1I40" (BUF) removed.
+  The signal "$1I162/$2I4683/FWAMEM0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW0MEM1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2749/$1I41" (BUF) removed.
+  The signal "$1I162/$2I4683/FWAMEM1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW0MEM2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2749/$1I42" (BUF) removed.
+  The signal "$1I162/$2I4683/FWAMEM2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW0MEM3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2749/$1I43" (BUF) removed.
+  The signal "$1I162/$2I4683/FWAMEM3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW0MEM4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2749/$1I84" (BUF) removed.
+  The signal "$1I162/$2I4683/FWAMEM4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW1MEM0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2750/$1I40" (BUF) removed.
+  The signal "$1I162/$2I4683/FWAMEM5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW1MEM1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2750/$1I41" (BUF) removed.
+  The signal "$1I162/$2I4683/FWAMEM6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW1MEM2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2750/$1I42" (BUF) removed.
+  The signal "$1I162/$2I4683/FWAMEM7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW1MEM3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2750/$1I43" (BUF) removed.
+  The signal "$1I162/$2I4683/FWAMEM8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW1MEM4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2750/$1I84" (BUF) removed.
+  The signal "$1I162/$2I4683/FWAMEM9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW2MEM0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2756/$1I40" (BUF) removed.
+  The signal "$1I162/$2I4683/FWBMEM0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW2MEM1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2756/$1I41" (BUF) removed.
+  The signal "$1I162/$2I4683/FWBMEM1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW2MEM2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2756/$1I42" (BUF) removed.
+  The signal "$1I162/$2I4683/FWBMEM2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW2MEM3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2756/$1I43" (BUF) removed.
+  The signal "$1I162/$2I4683/FWBMEM3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW2MEM4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2756/$1I84" (BUF) removed.
+  The signal "$1I162/$2I4683/FWBMEM4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW3MEM0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2755/$1I40" (BUF) removed.
+  The signal "$1I162/$2I4683/FWBMEM5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW3MEM1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2755/$1I41" (BUF) removed.
+  The signal "$1I162/$2I4683/FWBMEM6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW3MEM2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2755/$1I42" (BUF) removed.
+  The signal "$1I162/$2I4683/FWBMEM7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW3MEM3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2755/$1I43" (BUF) removed.
+  The signal "$1I162/$2I4683/FWBMEM8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW3MEM4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2755/$1I84" (BUF) removed.
+  The signal "$1I162/$2I4683/FWBMEM9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW4MEM0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2785/$1I40" (BUF) removed.
+  The signal "$1I162/$2I4683/FWCMEM0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW4MEM1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2785/$1I41" (BUF) removed.
+  The signal "$1I162/$2I4683/FWCMEM1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW4MEM2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2785/$1I42" (BUF) removed.
+  The signal "$1I162/$2I4683/FWCMEM2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW4MEM3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2785/$1I43" (BUF) removed.
+  The signal "$1I162/$2I4683/FWCMEM3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW4MEM4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2785/$1I84" (BUF) removed.
+  The signal "$1I162/$2I4683/FWCMEM4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW5MEM0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2784/$1I40" (BUF) removed.
+  The signal "$1I162/$2I4683/FWCMEM5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW5MEM1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2784/$1I41" (BUF) removed.
+  The signal "$1I162/$2I4683/FWCMEM6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW5MEM2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2784/$1I42" (BUF) removed.
+  The signal "$1I162/$2I4683/FWCMEM7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW5MEM3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2784/$1I43" (BUF) removed.
+  The signal "$1I162/$2I4683/FWCMEM8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW5MEM4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2784/$1I84" (BUF) removed.
+  The signal "$1I162/$2I4683/FWCMEM9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW6MEM0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2805/$1I40" (BUF) removed.
+  The signal "$1I162/$2I4683/FWDMEM0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW6MEM1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2805/$1I41" (BUF) removed.
+  The signal "$1I162/$2I4683/FWDMEM1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW6MEM2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2805/$1I42" (BUF) removed.
+  The signal "$1I162/$2I4683/FWDMEM2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW6MEM3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2805/$1I43" (BUF) removed.
+  The signal "$1I162/$2I4683/FWDMEM3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW6MEM4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2805/$1I84" (BUF) removed.
+  The signal "$1I162/$2I4683/FWDMEM4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW7MEM0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2806/$1I40" (BUF) removed.
+  The signal "$1I162/$2I4683/FWDMEM5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW7MEM1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2806/$1I41" (BUF) removed.
+  The signal "$1I162/$2I4683/FWDMEM6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW7MEM2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2806/$1I42" (BUF) removed.
+  The signal "$1I162/$2I4683/FWDMEM7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW7MEM3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2806/$1I43" (BUF) removed.
+  The signal "$1I162/$2I4683/FWDMEM8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/FW7MEM4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$3I2806/$1I84" (BUF) removed.
+  The signal "$1I162/$2I4683/FWDMEM9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR10" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR11" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR12" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR13" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR14" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR15" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/L1_ERR9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LFOK0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LFOK1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LFOK2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LFOK3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LFOK4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LFOK5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LFOK6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LFOK7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR10" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR11" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR12" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR13" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR14" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR15" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LID_ERR9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/LIE_ERR0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2886/$1I40" (BUF) removed.
+The signal "$1I162/$2I4683/LIE_ERR1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2886/$1I41" (BUF) removed.
+The signal "$1I162/$2I4683/LIE_ERR2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2886/$1I42" (BUF) removed.
+The signal "$1I162/$2I4683/LIE_ERR3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2886/$1I43" (BUF) removed.
+The signal "$1I162/$2I4683/LIE_ERR4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2886/$1I44" (BUF) removed.
+The signal "$1I162/$2I4683/LIE_ERR5" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2886/$1I45" (BUF) removed.
+The signal "$1I162/$2I4683/LIE_ERR6" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2886/$1I38" (BUF) removed.
+The signal "$1I162/$2I4683/LIE_ERR7" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2886/$1I39" (BUF) removed.
+The signal "$1I162/$2I4683/NRDY0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/NRDY1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/NRDY2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/NRDY3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/NRDY4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/NRDY5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/NRDY6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/NRDY7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/NRDY8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/NRDY9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/RXERR0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/RXERR1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/RXERR2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/RXERR3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/RXERR4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/RXERR5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/RXERR6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/RXERR7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STARTIME_ERR0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STARTIME_ERR1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STARTIME_ERR2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STARTIME_ERR3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STARTIME_ERR4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STARTIME_ERR5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STARTIME_ERR6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STARTIME_ERR7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA10" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA11" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA12" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA13" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA14" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA15" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATA9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB10" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB11" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB12" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB13" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB14" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB15" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATB9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC10" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC11" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC12" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC13" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC14" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC15" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC8" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STATC9" is sourceless and has been removed.
+The signal "$1I162/$2I4683/STUCK_ERR0" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2859/$1I40" (BUF) removed.
+The signal "$1I162/$2I4683/STUCK_ERR1" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2859/$1I41" (BUF) removed.
+The signal "$1I162/$2I4683/STUCK_ERR2" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2859/$1I42" (BUF) removed.
+The signal "$1I162/$2I4683/STUCK_ERR3" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2859/$1I43" (BUF) removed.
+The signal "$1I162/$2I4683/STUCK_ERR4" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2859/$1I44" (BUF) removed.
+The signal "$1I162/$2I4683/STUCK_ERR5" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2859/$1I45" (BUF) removed.
+The signal "$1I162/$2I4683/STUCK_ERR6" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2859/$1I38" (BUF) removed.
+The signal "$1I162/$2I4683/STUCK_ERR7" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$2I2859/$1I39" (BUF) removed.
+The signal "$1I162/$2I4683/XMIT_ERRORS0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/XMIT_ERRORS1" is sourceless and has been removed.
+The signal "$1I162/$2I4683/XMIT_ERRORS2" is sourceless and has been removed.
+The signal "$1I162/$2I4683/XMIT_ERRORS3" is sourceless and has been removed.
+The signal "$1I162/$2I4683/XMIT_ERRORS4" is sourceless and has been removed.
+The signal "$1I162/$2I4683/XMIT_ERRORS5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/XMIT_ERRORS6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/XMIT_ERRORS7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$1I1760/$1N734" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$1I1760/D2F31" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I1760/$1I705" (AND) removed.
+  The signal "$1I162/$2I4683/$1I1760/F31-1" is sourceless and has been removed.
+   Sourceless block "$1I162/$2I4683/$1I1760/$1I708" (FF) removed.
+The signal "$1I162/$2I4683/$1I1760/D5" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$1I1760/D6" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$1I1760/D7" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$1I1760/DF31" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I1760/$1I712" (FF) removed.
+The signal "$1I162/$2I4683/$1I1760/RF31" is sourceless and has been removed.
+ Sourceless block "$1I162/$2I4683/$1I1760/$1I713" (FF) removed.
+The signal "$1I162/$2I4683/$1I2037/RESET" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$3I2846/C0G" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$3I2846/C0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$3I2865/C0" is sourceless and has been removed.
+The signal "$1I162/$2I4683/$3I2865/C0G" is sourceless and has been removed.
+The signal "$1I162/$2I4972/$1N33" is sourceless and has been removed.
+The signal "$1I162/$2I5022/$1N1138" is sourceless and has been removed.
+The signal "$1I162/$2I5022/$1I272/O" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1N131" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1N143" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1N146" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1N148" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1N151" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1N216" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1N240" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1N241" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I185/$1N149" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I185/$1N151" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I185/$1N153" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I185/$1N155" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I186/$1N149" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I186/$1N151" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I186/$1N153" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I186/$1N155" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I187/$1N149" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I187/$1N151" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I187/$1N153" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I187/$1N155" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I188/$1N149" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I188/$1N151" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I188/$1N153" is sourceless and has been removed.
+The signal "$1I162/$4I4839/$1I188/$1N155" is sourceless and has been removed.
+The signal "$1I162/$6I5607/I6" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5607/$1I38" (BUF) removed.
+The signal "$1I162/$6I5607/I7" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5607/$1I39" (BUF) removed.
+The signal "$1I162/$6I5607/I0" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5607/$1I40" (BUF) removed.
+The signal "$1I162/$6I5607/I1" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5607/$1I41" (BUF) removed.
+The signal "$1I162/$6I5607/I2" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5607/$1I42" (BUF) removed.
+The signal "$1I162/$6I5607/I3" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5607/$1I43" (BUF) removed.
+The signal "$1I162/$6I5607/I4" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5607/$1I44" (BUF) removed.
+The signal "$1I162/$6I5607/I5" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5607/$1I45" (BUF) removed.
+The signal "$1I162/$6I5608/I0" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5608/$1I40" (BUF) removed.
+The signal "$1I162/$6I5608/I1" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5608/$1I41" (BUF) removed.
+The signal "$1I162/$6I5608/I2" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5608/$1I42" (BUF) removed.
+The signal "$1I162/$6I5608/I3" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5608/$1I43" (BUF) removed.
+The signal "$1I162/$6I5608/I4" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5608/$1I44" (BUF) removed.
+The signal "$1I162/$6I5608/I5" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5608/$1I45" (BUF) removed.
+The signal "$1I162/$6I5608/I6" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5608/$1I38" (BUF) removed.
+The signal "$1I162/$6I5608/I7" is sourceless and has been removed.
+ Sourceless block "$1I162/$6I5608/$1I39" (BUF) removed.
+The signal "$1I162/$6I5944/O0" is sourceless and has been removed.
+The signal "$1I162/$6I5944/O1" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q2/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q2/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q1/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q1/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q0/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q0/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q3/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q3/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q4/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q4/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q5/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q5/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q6/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q6/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q7/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q7/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q15/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q15/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q14/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q14/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q13/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q13/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q12/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q12/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q11/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q11/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q10/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q10/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q9/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q9/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q8/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I5959/Q8/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q2/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q2/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q1/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q1/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q0/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q0/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q3/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q3/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q4/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q4/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q5/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q5/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q6/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q6/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q7/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q7/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q15/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q15/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q14/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q14/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q13/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q13/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q12/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q12/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q11/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q11/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q10/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q10/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q9/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q9/$1N34" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q8/$1N32" is sourceless and has been removed.
+The signal "$1I162/$6I6016/Q8/$1N34" is sourceless and has been removed.
+Unused block "$1I162/$1I4625/$1I106" (PULLDOWN) removed.
+Unused block "$1I162/$1I4625/$1I45" (PAD) removed.
+Unused block "$1I162/$1I4631/$1I4098" (ZERO) removed.
+Unused block "$1I162/$1I4631/$1I4147" (FF) removed.
+Unused block "$1I162/$1I4631/$1I4179" (BUF) removed.
+Unused block "$1I162/$1I4631/$1I4219" (ZERO) removed.
+Unused block "$1I162/$1I4631/$1I4220" (BUF) removed.
+Unused block "$1I162/$1I4631/$2I2692/$1I886" (ZERO) removed.
+Unused block "$1I162/$1I4631/$2I2692/$1I923" (ONE) removed.
+Unused block "$1I162/$1I4631/$2I2834/$1I23" (AND) removed.
+Unused block "$1I162/$1I4631/$2I2904/$1I1099" (AND) removed.
+Unused block "$1I162/$1I4631/$2I2992/$1I54" (AND) removed.
+Unused block "$1I162/$1I4646" (BUF) removed.
+Unused block "$1I162/$2I4572" (BUF) removed.
+Unused block "$1I162/$2I4683/$1I1760/$1I195" (FF) removed.
+Unused block "$1I162/$2I4683/$1I1760/$1I196" (FF) removed.
+Unused block "$1I162/$2I4683/$1I1760/$1I286" (FF) removed.
+Unused block "$1I162/$2I4683/$1I1760/$1I612/$1I54" (AND) removed.
+Unused block "$1I162/$2I4683/$1I1760/$1I612/$1I55" (AND) removed.
+Unused block "$1I162/$2I4683/$1I1760/$1I612/$1I56" (AND) removed.
+Unused block "$1I162/$2I4683/$1I1760/$1I612/$1I57" (AND) removed.
+Unused block "$1I162/$2I4683/$1I1760/$1I612/$1I58" (AND) removed.
+Unused block "$1I162/$2I4683/$1I1760/$1I612/$1I59" (AND) removed.
+Unused block "$1I162/$2I4683/$1I1760/$1I612/$1I60" (AND) removed.
+Unused block "$1I162/$2I4683/$1I1760/$1I612/$1I63" (AND) removed.
+Unused block "$1I162/$2I4683/$1I1760/$1I627/$1I68" (AND) removed.
+Unused block "$1I162/$2I4683/$1I1760/$1I733" (ZERO) removed.
+Unused block "$1I162/$2I4683/$2I2539" (ONE) removed.
+Unused block "$1I162/$2I4683/$3I2846/$1I2071" (ZERO) removed.
+Unused block "$1I162/$2I4683/$3I2846/$1I2084" (ZERO) removed.
+Unused block "$1I162/$2I4683/$3I2854" (ZERO) removed.
+Unused block "$1I162/$2I4683/$3I2861" (ZERO) removed.
+Unused block "$1I162/$2I4683/$3I2865/$1I2071" (ZERO) removed.
+Unused block "$1I162/$2I4683/$3I2865/$1I2084" (ZERO) removed.
+Unused block "$1I162/$2I4710" (ONE) removed.
+Unused block "$1I162/$2I4711" (ONE) removed.
+Unused block "$1I162/$2I4972/$1I47" (ONE) removed.
+Unused block "$1I162/$2I5022/$1I1269" (ZERO) removed.
+Unused block "$1I162/$4I4522" (PAD) removed.
+Unused block "$1I162/$4I4525" (PAD) removed.
+Unused block "$1I162/$4I4527" () removed.
+Unused block "$1I162/$4I4702/$1I106" (PULLDOWN) removed.
+Unused block "$1I162/$4I4702/$1I45" (PAD) removed.
+Unused block "$1I162/$5I5916" (ONE) removed.
+Unused block "$1I162/$5I5940" (ONE) removed.
+Unused block "$1I162/$6I5772" (ONE) removed.
+Unused block "$1I162/$6I5944/$1I40" (BUF) removed.
+Unused block "$1I162/$6I5944/$1I41" (BUF) removed.
+Unused block "$1I162/$1I4631/$1I3745/$1I1140" (MUX) removed.
+Unused block "$1I162/$2I5022/$1I272" (MUX) removed.
+
+Optimized Block(s):
+TYPE 		BLOCK
+GND 		$1I162/$1I4631/$1I3745/$1I1269
+GND 		$1I162/$1I4631/$1I3745/$1I886
+VCC 		$1I162/$1I4631/$1I3745/$1I923
+GND 		$1I162/$1I4631/$1I3746/$1I886
+VCC 		$1I162/$1I4631/$1I3746/$1I923
+VCC 		$1I162/$1I4631/$1I4045/$1I1220
+GND 		$1I162/$1I4631/$1I4045/$1I1221
+FDCE 		$1I162/$1I4631/$1I4073/$1I96/Q16
+   optimized to 0
+VCC 		$1I162/$1I4631/$1I4075
+BUF 		$1I162/$1I4631/$1I4079/$1I89
+AND3 		$1I162/$1I4631/$1I4080/$1I4499/$1I4359/$1I30
+AND3B1 		$1I162/$1I4631/$1I4080/$1I4499/$1I4359/$1I31
+OR2 		$1I162/$1I4631/$1I4080/$1I4499/$1I4359/$1I38
+AND3 		$1I162/$1I4631/$1I4080/$1I4528/$1I4358/$1I30
+GND 		$1I162/$1I4631/$1I4085
+GND 		$1I162/$1I4631/$1I4090
+GND 		$1I162/$1I4631/$1I4095
+VCC 		$1I162/$1I4631/$1I4101
+FDCE 		$1I162/$1I4631/$1I4181/$1I70/Q0
+   optimized to 0
+GND 		$1I162/$1I4631/$2I2547
+GND 		$1I162/$1I4631/$2I2751/$1I1163
+VCC 		$1I162/$1I4631/$2I2751/$1I1693
+GND 		$1I162/$1I4631/$2I2751/$1I886
+VCC 		$1I162/$1I4631/$2I2751/$1I923
+VCC 		$1I162/$1I4631/$2I2834/$1I9
+VCC 		$1I162/$1I4631/$2I2847
+VCC 		$1I162/$1I4631/$2I2882/$1I172
+GND 		$1I162/$1I4631/$2I2882/$1I174
+GND 		$1I162/$1I4631/$2I2882/$1I184
+GND 		$1I162/$1I4631/$2I2882/$1I186
+GND 		$1I162/$1I4631/$2I2904/$1I1269
+GND 		$1I162/$1I4631/$2I2904/$1I886
+VCC 		$1I162/$1I4631/$2I2904/$1I923
+VCC 		$1I162/$1I4631/$2I2992/$1I9
+VCC 		$1I162/$1I4631/$2I3001
+VCC 		$1I162/$1I4685/$1I128
+VCC 		$1I162/$1I4685/$1I142
+VCC 		$1I162/$1I4685/$1I145
+VCC 		$1I162/$1I4685/$1I149
+VCC 		$1I162/$1I4685/$1I152
+GND 		$1I162/$1I4685/$1I185/$1I123
+GND 		$1I162/$1I4685/$1I185/$1I150
+GND 		$1I162/$1I4685/$1I185/$1I152
+GND 		$1I162/$1I4685/$1I185/$1I154
+GND 		$1I162/$1I4685/$1I186/$1I123
+GND 		$1I162/$1I4685/$1I186/$1I150
+GND 		$1I162/$1I4685/$1I186/$1I152
+GND 		$1I162/$1I4685/$1I186/$1I154
+GND 		$1I162/$1I4685/$1I187/$1I123
+GND 		$1I162/$1I4685/$1I187/$1I150
+GND 		$1I162/$1I4685/$1I187/$1I152
+GND 		$1I162/$1I4685/$1I187/$1I154
+GND 		$1I162/$1I4685/$1I188/$1I123
+GND 		$1I162/$1I4685/$1I188/$1I150
+GND 		$1I162/$1I4685/$1I188/$1I152
+GND 		$1I162/$1I4685/$1I188/$1I154
+GND 		$1I162/$1I4685/$1I217
+GND 		$1I162/$1I4685/$1I237
+VCC 		$1I162/$1I4685/$1I239
+VCC 		$1I162/$1I4731
+VCC 		$1I162/$1I4733
+VCC 		$1I162/$1I4743
+VCC 		$1I162/$1I4744
+VCC 		$1I162/$1I4745
+VCC 		$1I162/$2I4473
+GND 		$1I162/$2I4474
+GND 		$1I162/$2I4581
+AND2 		$1I162/$2I4683/$1I1891/$1I1554
+VCC 		$1I162/$2I4683/$1I2358/$1I172
+GND 		$1I162/$2I4683/$1I2358/$1I174
+GND 		$1I162/$2I4683/$1I2516
+GND 		$1I162/$2I4683/$1I2553
+VCC 		$1I162/$2I4683/$1I2603
+VCC 		$1I162/$2I4683/$1I2606/$1I58
+VCC 		$1I162/$2I4683/$2I2716
+VCC 		$1I162/$2I4683/$2I2840
+AND2 		$1I162/$2I4683/$2I2874/$1I1179
+BUF 		$1I162/$2I4683/$2I2877/$1I43
+VCC 		$1I162/$2I4683/$2I2890
+VCC 		$1I162/$2I4683/$2I2905
+GND 		$1I162/$2I5022/$1I886
+VCC 		$1I162/$2I5022/$1I923
+VCC 		$1I162/$2I5031
+VCC 		$1I162/$2I5032
+GND 		$1I162/$2I5053
+VCC 		$1I162/$2I5061
+GND 		$1I162/$3I4883
+GND 		$1I162/$3I4885
+GND 		$1I162/$3I4886
+GND 		$1I162/$3I4887
+GND 		$1I162/$3I4888
+GND 		$1I162/$3I4889
+GND 		$1I162/$3I4890
+GND 		$1I162/$3I4892
+GND 		$1I162/$3I4893
+GND 		$1I162/$3I4894
+GND 		$1I162/$3I4895
+GND 		$1I162/$3I4896
+GND 		$1I162/$3I4897
+GND 		$1I162/$3I4898
+GND 		$1I162/$3I4899
+GND 		$1I162/$3I4900
+GND 		$1I162/$3I4903
+GND 		$1I162/$3I4904
+GND 		$1I162/$3I4905
+GND 		$1I162/$3I4906
+GND 		$1I162/$4I4709
+GND 		$1I162/$4I4710
+GND 		$1I162/$4I4711
+GND 		$1I162/$4I4712
+GND 		$1I162/$4I4713
+GND 		$1I162/$4I4714
+GND 		$1I162/$4I4715
+GND 		$1I162/$4I4716
+GND 		$1I162/$4I4717
+GND 		$1I162/$4I4718
+GND 		$1I162/$4I4719
+GND 		$1I162/$4I4720
+GND 		$1I162/$4I4721
+GND 		$1I162/$4I4722
+GND 		$1I162/$4I4723
+GND 		$1I162/$4I4725
+GND 		$1I162/$4I4809
+GND 		$1I162/$4I4814
+GND 		$1I162/$4I4819
+GND 		$1I162/$4I4820
+VCC 		$1I162/$4I4839/$1I128
+VCC 		$1I162/$4I4839/$1I142
+VCC 		$1I162/$4I4839/$1I145
+VCC 		$1I162/$4I4839/$1I149
+VCC 		$1I162/$4I4839/$1I152
+GND 		$1I162/$4I4839/$1I185/$1I123
+GND 		$1I162/$4I4839/$1I185/$1I150
+GND 		$1I162/$4I4839/$1I185/$1I152
+GND 		$1I162/$4I4839/$1I185/$1I154
+GND 		$1I162/$4I4839/$1I186/$1I123
+GND 		$1I162/$4I4839/$1I186/$1I150
+GND 		$1I162/$4I4839/$1I186/$1I152
+GND 		$1I162/$4I4839/$1I186/$1I154
+GND 		$1I162/$4I4839/$1I187/$1I123
+GND 		$1I162/$4I4839/$1I187/$1I150
+GND 		$1I162/$4I4839/$1I187/$1I152
+GND 		$1I162/$4I4839/$1I187/$1I154
+GND 		$1I162/$4I4839/$1I188/$1I123
+GND 		$1I162/$4I4839/$1I188/$1I150
+GND 		$1I162/$4I4839/$1I188/$1I152
+GND 		$1I162/$4I4839/$1I188/$1I154
+GND 		$1I162/$4I4839/$1I217
+GND 		$1I162/$4I4839/$1I237
+VCC 		$1I162/$4I4839/$1I239
+VCC 		$1I162/$4I4876
+VCC 		$1I162/$4I4881
+VCC 		$1I162/$4I4882
+VCC 		$1I162/$4I4889
+VCC 		$1I162/$4I4890
+GND 		$1I162/$4I4897
+GND 		$1I162/$4I4898
+VCC 		$1I162/$5I5945
+VCC 		$1I162/$5I6063
+VCC 		$1I162/$5I6134
+AND3 		$1I162/$6I5551/$1I4214/M67/$1I30
+AND3 		$1I162/$6I5551/$1I4258/M67/$1I30
+AND3 		$1I162/$6I5551/$1I4264/M67/$1I30
+BUF 		$1I162/$6I5564
+BUF 		$1I162/$6I5565
+BUF 		$1I162/$6I5615/$1I43
+VCC 		$1I162/$6I5770
+VCC 		$1I162/$6I5789
+GND 		$1I162/$6I5959/Q0/$1I31
+VCC 		$1I162/$6I5959/Q0/$1I36
+GND 		$1I162/$6I5959/Q1/$1I31
+VCC 		$1I162/$6I5959/Q1/$1I36
+GND 		$1I162/$6I5959/Q10/$1I31
+VCC 		$1I162/$6I5959/Q10/$1I36
+GND 		$1I162/$6I5959/Q11/$1I31
+VCC 		$1I162/$6I5959/Q11/$1I36
+GND 		$1I162/$6I5959/Q12/$1I31
+VCC 		$1I162/$6I5959/Q12/$1I36
+GND 		$1I162/$6I5959/Q13/$1I31
+VCC 		$1I162/$6I5959/Q13/$1I36
+GND 		$1I162/$6I5959/Q14/$1I31
+VCC 		$1I162/$6I5959/Q14/$1I36
+GND 		$1I162/$6I5959/Q15/$1I31
+VCC 		$1I162/$6I5959/Q15/$1I36
+GND 		$1I162/$6I5959/Q2/$1I31
+VCC 		$1I162/$6I5959/Q2/$1I36
+GND 		$1I162/$6I5959/Q3/$1I31
+VCC 		$1I162/$6I5959/Q3/$1I36
+GND 		$1I162/$6I5959/Q4/$1I31
+VCC 		$1I162/$6I5959/Q4/$1I36
+GND 		$1I162/$6I5959/Q5/$1I31
+VCC 		$1I162/$6I5959/Q5/$1I36
+GND 		$1I162/$6I5959/Q6/$1I31
+VCC 		$1I162/$6I5959/Q6/$1I36
+GND 		$1I162/$6I5959/Q7/$1I31
+VCC 		$1I162/$6I5959/Q7/$1I36
+GND 		$1I162/$6I5959/Q8/$1I31
+VCC 		$1I162/$6I5959/Q8/$1I36
+GND 		$1I162/$6I5959/Q9/$1I31
+VCC 		$1I162/$6I5959/Q9/$1I36
+GND 		$1I162/$6I5966
+BUF 		$1I162/$6I5977
+BUF 		$1I162/$6I5981
+BUF 		$1I162/$6I5994
+BUF 		$1I162/$6I5995
+BUF 		$1I162/$6I5996
+GND 		$1I162/$6I6011
+GND 		$1I162/$6I6016/Q0/$1I31
+VCC 		$1I162/$6I6016/Q0/$1I36
+GND 		$1I162/$6I6016/Q1/$1I31
+VCC 		$1I162/$6I6016/Q1/$1I36
+GND 		$1I162/$6I6016/Q10/$1I31
+VCC 		$1I162/$6I6016/Q10/$1I36
+GND 		$1I162/$6I6016/Q11/$1I31
+VCC 		$1I162/$6I6016/Q11/$1I36
+GND 		$1I162/$6I6016/Q12/$1I31
+VCC 		$1I162/$6I6016/Q12/$1I36
+GND 		$1I162/$6I6016/Q13/$1I31
+VCC 		$1I162/$6I6016/Q13/$1I36
+GND 		$1I162/$6I6016/Q14/$1I31
+VCC 		$1I162/$6I6016/Q14/$1I36
+GND 		$1I162/$6I6016/Q15/$1I31
+VCC 		$1I162/$6I6016/Q15/$1I36
+GND 		$1I162/$6I6016/Q2/$1I31
+VCC 		$1I162/$6I6016/Q2/$1I36
+GND 		$1I162/$6I6016/Q3/$1I31
+VCC 		$1I162/$6I6016/Q3/$1I36
+GND 		$1I162/$6I6016/Q4/$1I31
+VCC 		$1I162/$6I6016/Q4/$1I36
+GND 		$1I162/$6I6016/Q5/$1I31
+VCC 		$1I162/$6I6016/Q5/$1I36
+GND 		$1I162/$6I6016/Q6/$1I31
+VCC 		$1I162/$6I6016/Q6/$1I36
+GND 		$1I162/$6I6016/Q7/$1I31
+VCC 		$1I162/$6I6016/Q7/$1I36
+GND 		$1I162/$6I6016/Q8/$1I31
+VCC 		$1I162/$6I6016/Q8/$1I36
+GND 		$1I162/$6I6016/Q9/$1I31
+VCC 		$1I162/$6I6016/Q9/$1I36
+VCC 		$1I162/$6I6034
+VCC 		$1I162/$6I6038
+GND 		$1I162/$6I6039
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type    | Direction | IO Standard | Drive    | Slew | Reg (s)  | Resistor | IOB   |
+|                                    |         |           |             | Strength | Rate |          |          | Delay |
++------------------------------------------------------------------------------------------------------------------------+
+| $1I162/CK80P_T                     | DIFFM   | INPUT     | LVDS_25     |          |      |          |          |       |
+| $1I162/CLKIN40                     | IOB     | INPUT     | LVCMOS33    |          |      |          |          |       |
+| $1I162/CLKOUTX0                    | IOB     | OUTPUT    | LVCMOS33    | 16       | FAST |          |          |       |
+| $1I162/CLKOUTX1                    | IOB     | OUTPUT    | LVCMOS33    | 16       | FAST |          |          |       |
+| $1I162/DOUT0                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT1                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT2                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT3                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT4                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT5                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT6                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT7                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT8                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT9                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT10                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT11                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT12                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT13                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT14                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT15                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT16                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT17                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT18                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT19                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT20                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT21                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT22                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT23                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT24                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT25                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT26                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT27                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT28                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT29                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT30                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT31                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT32                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT33                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT34                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/DOUT35                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OUTDDR   |          |       |
+| $1I162/F0_BUSY                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F0_ERROR                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F0_SYNC                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F0_WARN                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F1_BUSY                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F1_ERROR                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F1_SYNC                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F1_WARN                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F2_BUSY                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F2_ERROR                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F2_SYNC                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F2_WARN                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F3_BUSY                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F3_ERROR                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F3_SYNC                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F3_WARN                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F4_BUSY                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F4_ERROR                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F4_SYNC                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F4_WARN                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F5_BUSY                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F5_ERROR                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F5_SYNC                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F5_WARN                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F6_BUSY                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F6_ERROR                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F6_SYNC                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F6_WARN                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F7_BUSY                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F7_ERROR                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F7_SYNC                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/F7_WARN                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/FF0IN                       | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLDOWN |       |
+| $1I162/FF1IN                       | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLDOWN |       |
+| $1I162/FSEL0_0                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/FSEL0_1                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/FSEL1_0                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/FSEL1_1                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/INFAKEL1_EN                 | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLDOWN |       |
+| $1I162/IN_BC0                      | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLDOWN |       |
+| $1I162/IN_EV_RST                   | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLDOWN |       |
+| $1I162/IN_FPGAID                   | IOB     | INPUT     | LVCMOS33    |          |      |          |          |       |
+| $1I162/KILL0                       | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
+| $1I162/KILL1                       | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
+| $1I162/KILL2                       | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
+| $1I162/KILL3                       | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
+| $1I162/KILL4                       | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
+| $1I162/KILL5                       | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
+| $1I162/KILL6                       | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
+| $1I162/KILL7                       | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
+| $1I162/L0_0                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_1                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_2                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_3                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_4                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_5                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_6                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_7                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_8                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_9                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_10                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_11                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_12                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_13                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_14                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_15                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L0_17                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/L1AIN                       | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLDOWN |       |
+| $1I162/L1_0                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_1                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_2                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_3                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_4                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_5                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_6                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_7                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_8                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_9                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_10                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_11                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_12                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_13                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_14                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_15                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/L1_17                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/LED0                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/LED1                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/LED2                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/LED3                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/LED4                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/LED5                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/LED6                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/LED7                        | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/MODEIN0                     | IOB     | INPUT     | LVCMOS33    |          |      |          |          |       |
+| $1I162/MODEIN1                     | IOB     | INPUT     | LVCMOS33    |          |      |          |          |       |
+| $1I162/MODEIN2                     | IOB     | INPUT     | LVCMOS33    |          |      |          |          |       |
+| $1I162/MODEIN3                     | IOB     | INPUT     | LVCMOS33    |          |      |          |          |       |
+| $1I162/MODEIN4                     | IOB     | INPUT     | LVCMOS33    |          |      |          |          |       |
+| $1I162/MODEIN5                     | IOB     | INPUT     | LVCMOS33    |          |      |          |          |       |
+| $1I162/MODEIN6                     | IOB     | INPUT     | LVCMOS33    |          |      |          |          |       |
+| $1I162/MODEIN7                     | IOB     | INPUT     | LVCMOS33    |          |      |          |          |       |
+| $1I162/ORST_TO_VME                 | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/RD0_BUSY                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/RD0_ERROR                   | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/RD0_SYNC                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/RD0_WARN                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/RD1_BUSY                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/RD1_ERROR                   | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/RD1_SYNC                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/RD1_WARN                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/SI0                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/SI1                         | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/~ACTOUT0                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/~ACTOUT1                    | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/~FMT0IN                     | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
+| $1I162/~FMT1IN                     | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
+| $1I162/~HFA0IN                     | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
+| $1I162/~HFA1IN                     | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
+| $1I162/~L1RST                      | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
+| $1I162/~OSEN0                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/~OSEN1                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/~OWEN0                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/~OWEN1                      | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW | OFF1     |          |       |
+| $1I162/~PAF0IN                     | IOB     | INPUT     | LVCMOS33    |          |      | INFF1    | PULLUP   |       |
+|                                    |         |           |             |          |      | INFF2    |          |       |
+| $1I162/~PAF1IN                     | IOB     | INPUT     | LVCMOS33    |          |      | INFF1    | PULLUP   |       |
+|                                    |         |           |             |          |      | INFF2    |          |       |
+| $1I162/~PLD0                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/~PLD1                       | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/~RDYOUT                     | IOB     | OUTPUT    | LVCMOS33    | 12       | SLOW |          |          |       |
+| $1I162/~SOFTRST                    | IOB     | INPUT     | LVCMOS33    |          |      |          | PULLUP   |       |
++------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+$1I162/$2I5022/hset                     
+$1I162/$2I4683/$3I2865/hset             
+$1I162/$2I4683/$3I2862/hset             
+$1I162/$2I4683/$3I2850/hset             
+$1I162/$2I4683/$3I2846/hset             
+$1I162/$2I4683/$1I2358/hset             
+$1I162/$2I4674/hset                     
+$1I162/$2I4673/hset                     
+$1I162/$1I4631/$2I2904/hset             
+$1I162/$1I4631/$2I2882/hset             
+$1I162/$1I4631/$2I2751/hset             
+$1I162/$1I4631/$2I2692/hset             
+$1I162/$1I4631/$1I4073/hset             
+$1I162/$1I4631/$1I3746/hset             
+$1I162/$1I4631/$1I3745/hset             
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group Summary
+------------------------------
+AREA_GROUP AG_JTAG
+  No RANGE specified for AREA_GROUP AG_JTAG
+  COMPRESSION: 1
+  AREA_GROUP Logic Utilization:
+  Logic Distribution:
+    Number of occupied Slices:                             2 out of      0    0%
+    Number Slices used containing only related logic:      2 out of      2  100%
+  Total Number 4 input LUTs:      4 out of      0    0%
+      Number used as logic:                     4
+
+
+Section 10 - Modular Design Summary
+-----------------------------------
+Modular Design not used for this design.
+
+Section 11 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 12 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 13 - Additional Device Resource Counts
+----------------------------------------------
+Number of JTAG Gates for IOBs = 170
+Number of Equivalent Gates for Design = 31,819
+Number of RPM Macros = 0
+Number of Hard Macros = 0
+GT10 = 0
+GT = 0
+CAPTUREs = 0
+BSCANs = 1
+STARTUPs = 0
+PCILOGICs = 0
+DCMs = 2
+GCLKs = 5
+ICAPs = 0
+18X18 Multipliers = 0
+Block RAMs = 0
+TBUFs = 0
+JTAGPPCs = 0
+CLK_Ps = 0
+CLK_Ns = 0
+GTOPADs = 0
+GTIPADs = 0
+PPC405s = 0
+Total Registers (Flops & Latches in Slices & IOBs) not driven by LUTs = 308
+IOB Dual-Rate Flops not driven by LUTs = 0
+IOB Dual-Rate Flops = 36
+IOB Slave Pads = 1
+IOB Master Pads = 1
+IOB Latches not driven by LUTs = 0
+IOB Latches = 0
+IOB Flip Flops not driven by LUTs = 72
+IOB Flip Flops = 38
+Unbonded IOBs = 0
+Bonded IOBs = 170
+Total Shift Registers = 91
+Static Shift Registers = 91
+Dynamic Shift Registers = 0
+16x1 ROMs = 0
+16x1 RAMs = 0
+32x1 RAMs = 0
+Dual Port RAMs = 0
+MUXFs = 120
+MULT_ANDs = 0
+4 input LUTs used as Route-Thrus = 40
+4 input LUTs = 743
+Slice Latches not driven by LUTs = 0
+Slice Latches = 0
+Slice Flip Flops not driven by LUTs = 236
+Slice Flip Flops = 729
+Slices = 609
+Number of LUT signals with 4 loads = 2
+Number of LUT signals with 3 loads = 4
+Number of LUT signals with 2 loads = 8
+Number of LUT signals with 1 load = 690
+NGM Average fanout of LUT = 1.75
+NGM Maximum fanout of LUT = 33
+NGM Average fanin for LUT = 2.5209
+Number of LUT symbols = 743
+Number of DCM symbols = 2
+Number of BSCAN_VIRTEX2 symbols = 1

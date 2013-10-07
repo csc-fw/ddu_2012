@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator J.40
+Copyright (c) 1995-2007 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o E:/WV/D785/DDU5ctrl/DDU5ctrl//ddu5ctrl -u 0 E:/WV/D785/DDU5ctrl/DDU5ctrl/0dductrl.bit -x xc18v04 xc18v04 
+
+PROM E:/WV/D785/DDU5ctrl/DDU5ctrl//ddu5ctrl_0.prm map: Sun Mar 25 18:27:53 2012
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          512K
+PROM start    0000:0000
+PROM end      0007:ffff
+PROM checksum 006714ac
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0007:ffff     Mar 25 18:20:02 2012 E:/WV/D785/DDU5ctrl/DDU5ctrl/0dductrl.bit

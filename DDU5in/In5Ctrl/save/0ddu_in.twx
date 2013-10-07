@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE twReport [
+<!ELEMENT twReport (twHead, (twWarn | twDebug | twInfo)*, twBody, twSum?, twFoot, twClientInfo?)>
+<!ELEMENT twHead (twExecVer?, twCopyright, twCmdLine?, twDesign?, twPCF?, twDevInfo, twRptInfo, twEnvVar*)>
+<!ELEMENT twExecVer (#PCDATA)>
+<!ELEMENT twCopyright (#PCDATA)>
+<!ELEMENT twCmdLine (#PCDATA)>
+<!ELEMENT twDesign (#PCDATA)>
+<!ELEMENT twPCF (#PCDATA)>
+<!ELEMENT twDevInfo (twDevName, twSpeedGrade, twSpeedVer?)>
+<!ELEMENT twDevName (#PCDATA)>
+<!ATTLIST twDevInfo arch CDATA #IMPLIED>
+<!ELEMENT twSpeedGrade (#PCDATA)>
+<!ELEMENT twSpeedVer (#PCDATA)>
+<!ELEMENT twRptInfo (twItemLimit?, (twUnconst, twUnconstLimit?)?)>
+<!ATTLIST twRptInfo twRptLvl (twErr | twVerbose | twTerseErr | twSum | twTimeGrp) #REQUIRED>
+<!ATTLIST twRptInfo twAdvRpt  (TRUE | FALSE) "FALSE">
+<!ATTLIST twRptInfo twTimeUnits (twPsec | twNsec | twUsec | twMsec | twSec) "twNsec">
+<!ATTLIST twRptInfo twFreqUnits (twGHz | twMHz | twHz) "twMHz">
+<!ELEMENT twItemLimit (#PCDATA)>
+<!ELEMENT twUnconst EMPTY>
+<!ELEMENT twUnconstLimit (#PCDATA)>
+<!ELEMENT twEnvVar EMPTY>
+<!ATTLIST twEnvVar name CDATA #REQUIRED>
+<!ATTLIST twEnvVar description CDATA #REQUIRED>
+<!ELEMENT twWarn (#PCDATA)>
+<!ELEMENT twInfo (#PCDATA)>
+<!ELEMENT twDebug (#PCDATA)>
+<!ELEMENT twBody (twDerating?, (twSumRpt | twVerboseRpt | twErrRpt | twTerseErrRpt | twTimeGrpRpt), twNonDedClks?)>
+<!ATTLIST twBody twFastPaths CDATA #IMPLIED>
+<!ELEMENT twDerating (twProc?, twTemp?, twVolt?)>
+<!ELEMENT twProc (#PCDATA)>
+<!ELEMENT twTemp (#PCDATA)>
+<!ELEMENT twVolt (#PCDATA)>
+<!ELEMENT twSumRpt (twConstList?, twUnmetConstCnt?, twDebug*, twDataSheet?, twClkTbl?)>
+<!ELEMENT twErrRpt (twCycles?, (twConst | twTIG)*, twUnmetConstCnt?, twDataSheet?, twClkTbl?, twTimeGrp*)>
+<!ELEMENT twTerseErrRpt (twConstList, twUnmetConstCnt?, twDataSheet?, twClkTbl?)>
+<!ELEMENT twVerboseRpt (twCycles?, (twConst | twTIG)*, twUnmetConstCnt?, twDataSheet?, twClkTbl?, twTimeGrp*)>
+<!ELEMENT twCycles (twSigConn+)>
+<!ATTLIST twCycles twNum CDATA #REQUIRED>
+<!ELEMENT twSigConn (twSig, twDriver, twLoad)>
+<!ELEMENT twSig (#PCDATA)>
+<!ELEMENT twDriver (#PCDATA)>
+<!ELEMENT twLoad (#PCDATA)> 
+<!ELEMENT twConst (twConstHead, ((twPathRpt*, twPathRptBanner, twPathRpt*) |  (twPathRpt*, twRacePathRpt?) |  (twNetRpt*)))>
+<!ATTLIST twConst twConstType (twPathConst | twNetConst) "twPathConst">
+<!ELEMENT twConstHead (twConstName, twItemCnt, twErrCntSetup, twErrCntHold, twMinPer?, twMaxDel?, twMaxFreq?, twMaxNetDel?, twMaxNetSkew?, twMinOff?, twMaxOff?)>
+<!ELEMENT twConstName (#PCDATA)>
+<!ELEMENT twItemCnt (#PCDATA)>
+<!ELEMENT twErrCnt (#PCDATA)>
+<!ELEMENT twErrCntSetup (#PCDATA)>
+<!ELEMENT twErrCntHold (#PCDATA)>
+<!ATTLIST twErrCntHold twRaceChecked (TRUE | FALSE) "FALSE">
+<!ELEMENT twMinPer (#PCDATA)>
+<!ELEMENT twMaxDel (#PCDATA)>
+<!ELEMENT twMaxFreq (#PCDATA)>
+<!ELEMENT twMinOff (#PCDATA)>
+<!ELEMENT twMaxOff (#PCDATA)>
+<!ELEMENT twTIG (twTIGHead, (twPathRpt*,twRacePathRpt?))>
+<!ELEMENT twTIGHead (twTIGName, twInstantiated, twBlocked)>
+<!ELEMENT twTIGName (#PCDATA)>
+<!ELEMENT twInstantiated (#PCDATA)>
+<!ELEMENT twBlocked (#PCDATA)>
+<!ELEMENT twRacePathRpt (twRacePath+)>
+<!ELEMENT twPathRpt (twUnconstPath | twConstPath | twUnconstOffIn | twConstOffIn | twUnconstOffOut | twConstOffOut | twModOffOut)>
+<!ELEMENT twUnconstPath (twTotDel, twSrc, twDest,  (twDel, twSUTime)?, twTotPathDel?, twClkSkew?, tw2Phase?, twClkUncert?, twDetPath?)>
+<!ELEMENT twTotDel (#PCDATA)>
+<!ELEMENT twSrc (#PCDATA)>
+<!ATTLIST twSrc BELType CDATA #IMPLIED>
+<!ELEMENT twDest (#PCDATA)>
+<!ATTLIST twDest BELType CDATA #IMPLIED>
+<!ELEMENT twDel (#PCDATA)>
+<!ELEMENT twSUTime (#PCDATA)>
+<!ELEMENT twTotPathDel (#PCDATA)>
+<!ELEMENT twClkSkew (#PCDATA)>
+<!ELEMENT twClkSkew (#PCDATA)>
+<!ELEMENT twConstPath (twSlack, twSrc, twDest, twTotPathDel?, twClkSkew?, twDelConst, tw2Phase?, twClkUncert?, twDetPath?)>
+<!ATTLIST twConstPath twDataPathType CDATA "twDataPathMaxDelay">
+<!ATTLIST twConstPath constType (period | fromto | unknown) "unknown">
+<!ELEMENT twSlack (#PCDATA)>
+<!ELEMENT twDelConst (#PCDATA)>
+<!ELEMENT tw2Phase EMPTY>
+<!ELEMENT twRacePath (twSlack, twSrc, twDest, twClkSkew, twDelConst?, twClkUncert?, twDetPath)>
+<!ELEMENT twPathRptBanner (#PCDATA)>
+<!ELEMENT twUnconstOffIn (twOff, twSrc, twDest, twGuaranteed?, twClkUncert?, (twDataPath, twClkPath)?)>
+<!ELEMENT twOff (#PCDATA)>
+<!ELEMENT twGuaranteed EMPTY>
+<!ELEMENT twConstOffIn (twSlack, twSrc, twDest, ((twClkDel, twClkSrc, twClkDest) | twGuarInSetup), twOff, twOffSrc, twOffDest, twClkUncert?, (twDataPath, twClkPath)?)>
+<!ATTLIST twConstOffIn twDataPathType CDATA "twDataPathMaxDelay">
+<!ATTLIST twConstOffIn twDurationNotSpecified CDATA #IMPLIED>
+<!ELEMENT twClkDel (#PCDATA)>
+<!ELEMENT twClkSrc (#PCDATA)>
+<!ELEMENT twClkDest (#PCDATA)>
+<!ELEMENT twGuarInSetup (#PCDATA)>
+<!ELEMENT twOffSrc (#PCDATA)>
+<!ELEMENT twOffDest (#PCDATA)>
+<!ELEMENT twUnconstOffOut (twOff, twSrc, twDest, twClkUncert?, (twClkPath, twDataPath)?)>
+<!ELEMENT twConstOffOut (twSlack, twSrc, twDest, twClkDel, twClkSrc, twClkDest, twDataDel, twDataSrc, twDataDest, twOff, twOffSrc, twOffDest, twClkUncert?, (twClkPath, twDataPath)?)>
+<!ATTLIST twConstOffOut twDataPathType CDATA "twDataPathMaxDelay">
+<!ELEMENT twDataDel (#PCDATA)>
+<!ELEMENT twDataSrc (#PCDATA)>
+<!ELEMENT twDataDest (#PCDATA)>
+<!ELEMENT twModOffOut (twSlack, twDest, twDataDel, twDataSrc, twDataDest, twClkUncert?, twDataPath?)>
+<!ELEMENT twDetPath (twSrc, twDest, twLogLvls, twSrcSite, twSrcClk?, twPathDel*, (twLogDel, twRouteDel, twTotDel)?, twDestClk?, (twPctLog, twPctRoute)?)>
+<!ATTLIST twDetPath maxSiteLen CDATA #IMPLIED>
+<!ELEMENT twDataPath (twSrc, twDest, twLogLvls, twSrcSite, twSrcClk?, twPathDel*, (twLogDel, twRouteDel, twTotDel)?, twDestClk?, (twPctLog, twPctRoute)?)>
+<!ATTLIST twDataPath maxSiteLen CDATA #IMPLIED>
+<!ELEMENT twClkPath (twSrc, twDest, twLogLvls, twSrcSite, twSrcClk?, twPathDel*, (twLogDel, twRouteDel, twTotDel)?, twDestClk?, (twPctLog, twPctRoute)?)>
+<!ATTLIST twClkPath maxSiteLen CDATA #IMPLIED>
+<!ELEMENT twLogLvls (#PCDATA)>
+<!ELEMENT twSrcSite (#PCDATA)>
+<!ELEMENT twSrcClk (#PCDATA)>
+<!ATTLIST twSrcClk twEdge (twRising | twFalling) "twRising">
+<!ATTLIST twSrcClk twArriveTime CDATA #IMPLIED>
+<!ATTLIST twSrcClk twClkRes CDATA #IMPLIED>
+<!ELEMENT twPathDel (twSite, twDelType, twFanCnt?, twDelInfo?, twComp, twNet?, twBEL*)>
+<!ATTLIST twPathDel twHoldTime (TRUE | FALSE) "FALSE">
+<!ELEMENT twDelInfo (#PCDATA)>
+<!ATTLIST twDelInfo twEdge (twRising | twFalling | twIndet) #REQUIRED>
+<!ATTLIST twDelInfo twAcc (twRouted | twEst | twApprox) "twRouted">
+<!ELEMENT twSite (#PCDATA)>
+<!ELEMENT twDelType (#PCDATA)>
+<!ELEMENT twFanCnt (#PCDATA)>
+<!ELEMENT twComp (#PCDATA)>
+<!ELEMENT twNet (#PCDATA)>
+<!ELEMENT twBEL (#PCDATA)>
+<!ELEMENT twLogDel (#PCDATA)>
+<!ELEMENT twRouteDel (#PCDATA)>
+<!ELEMENT twDestClk (#PCDATA)>
+<!ATTLIST twDestClk twEdge (twRising | twFalling) "twRising">
+<!ATTLIST twDestClk twArriveTime CDATA #IMPLIED>
+<!ATTLIST twDestClk twClkRes CDATA #IMPLIED>
+<!ELEMENT twPctLog (#PCDATA)>
+<!ELEMENT twPctRoute (#PCDATA)>
+<!ELEMENT twNetRpt (twDelNet | twSlackNet | twSkewNet)>
+<!ELEMENT twDelNet (twDel, twNet, twDetNet?)>
+<!ELEMENT twSlackNet (twSlack, twNet, twDel, twNotMet?, twTimeConst, twAbsSlack, twDetNet?)>
+<!ELEMENT twTimeConst (#PCDATA)>
+<!ELEMENT twAbsSlack (#PCDATA)>
+<!ELEMENT twSkewNet (twSlack, twNet, twSkew, twNotMet?, twTimeConst, twAbsSlack, twDetSkewNet?)>
+<!ELEMENT twSkew (#PCDATA)>
+<!ELEMENT twDetNet (twNetDel*)>
+<!ELEMENT twNetDel (twSrc, twDest, twNetDelInfo)>
+<!ELEMENT twNetDelInfo (#PCDATA)>
+<!ATTLIST twNetDelInfo twAcc (twRouted | twEst | twApprox) "twRouted">
+<!ELEMENT twDetSkewNet (twNetSkew*)>
+<!ELEMENT twNetSkew (twSrc, twDest, twNetDelInfo, twSkew)>
+<!ELEMENT twConstList (twConstListItem)*>
+<!ELEMENT twConstListItem (twConstName, twNotMet?, twReqVal?, twActVal?, twLogLvls?)> 
+<!ATTLIST twConstListItem twUnits (twTime | twFreq) "twTime">
+<!ELEMENT twNotMet EMPTY>
+<!ELEMENT twReqVal (#PCDATA)>
+<!ELEMENT twActVal (#PCDATA)>
+<!ELEMENT twTimeGrp (twTimeGrpName, twCompList?, twSigList?, twBELList?, twMacList?, twPinList?)>
+<!ELEMENT twTimeGrpName (#PCDATA)>
+<!ELEMENT twCompList (twCompName+)>
+<!ELEMENT twCompName (#PCDATA)>
+<!ELEMENT twSigList (twSigName+)>
+<!ELEMENT twSigName (#PCDATA)>
+<!ELEMENT twBELList (twBELName+)>
+<!ELEMENT twBELName (#PCDATA)>
+<!ELEMENT twMacList (twMacName+)>
+<!ELEMENT twMacName (#PCDATA)>
+<!ELEMENT twPinList (twPinName+)>
+<!ELEMENT twPinName (#PCDATA)>
+<!ELEMENT twUnmetConstCnt (#PCDATA)>
+<!ELEMENT twDataSheet (twSUH2ClkList*, (twClk2PadList|twClk2OutList)*, twClk2SUList*, twPad2PadList?)>
+<!ATTLIST twDataSheet twNameLen CDATA #REQUIRED>
+<!ELEMENT twSUH2ClkList (twDest, twSUH2Clk+)>
+<!ATTLIST twSUH2ClkList twDestWidth CDATA #IMPLIED>
+<!ATTLIST twSUH2ClkList twPhaseWidth CDATA #IMPLIED>
+<!ELEMENT twSUH2Clk (twSrc, twSUHTime, twSUHTime?)>
+<!ELEMENT twSUHTime (twSU2ClkTime?,twH2ClkTime?)>
+<!ATTLIST twSUHTime twInternalClk CDATA #IMPLIED>
+<!ATTLIST twSUHTime twClkPhase CDATA #IMPLIED>
+<!ELEMENT twSU2ClkTime (#PCDATA)>
+<!ATTLIST twSU2ClkTime twEdge (twRising | twFalling | twIndet) #REQUIRED>
+<!ELEMENT twH2ClkTime (#PCDATA)>
+<!ATTLIST twH2ClkTime twEdge (twRising | twFalling | twIndet) #REQUIRED>
+<!ELEMENT twClk2PadList (twSrc, twClk2Pad+)>
+<!ELEMENT twClk2Pad (twDest, twTime)>
+<!ELEMENT twTime (#PCDATA)>
+<!ATTLIST twTime twEdge (twRising | twFalling | twIndet) #REQUIRED>
+<!ELEMENT twClk2OutList (twSrc, twClk2Out+)>
+<!ATTLIST twClk2OutList twDestWidth CDATA #REQUIRED>
+<!ATTLIST twClk2OutList twPhaseWidth CDATA #REQUIRED>
+<!ELEMENT twClk2Out EMPTY>
+<!ATTLIST twClk2Out twOutPad CDATA #REQUIRED>
+<!ATTLIST twClk2Out twMinTime CDATA #REQUIRED>
+<!ATTLIST twClk2Out twMinEdge CDATA #REQUIRED>
+<!ATTLIST twClk2Out twMaxTime CDATA #REQUIRED>
+<!ATTLIST twClk2Out twMaxEdge CDATA #REQUIRED>
+<!ATTLIST twClk2Out twInternalClk CDATA #REQUIRED>
+<!ATTLIST twClk2Out twClkPhase CDATA #REQUIRED>
+<!ELEMENT twClk2SUList (twDest, twClk2SU+)>
+<!ATTLIST twClk2SUList twDestWidth CDATA #IMPLIED>
+<!ELEMENT twClk2SU (twSrc, twRiseRise?, twFallRise?, twRiseFall?, twFallFall?)>
+<!ELEMENT twRiseRise (#PCDATA)>
+<!ELEMENT twFallRise (#PCDATA)>
+<!ELEMENT twRiseFall (#PCDATA)>
+<!ELEMENT twFallFall (#PCDATA)>
+<!ELEMENT twPad2PadList (twPad2Pad+)>
+<!ATTLIST twPad2PadList twSrcWidth CDATA #IMPLIED>
+<!ATTLIST twPad2PadList twDestWidth CDATA #IMPLIED>
+<!ELEMENT twPad2Pad (twSrc, twDest, twDel)>
+<!ELEMENT twNonDedClks ((twWarn | twInfo), twNonDedClk+)>
+<!ELEMENT twNonDedClk (#PCDATA)>
+<!ELEMENT twSum ( twErrCnt, twScore, twConstCov, twStats)>
+<!ELEMENT twScore (#PCDATA)>
+<!ELEMENT twConstCov (twPathCnt, twNetCnt, twConnCnt, twPct?)>
+<!ELEMENT twPathCnt (#PCDATA)>
+<!ELEMENT twNetCnt (#PCDATA)>
+<!ELEMENT twConnCnt (#PCDATA)>
+<!ELEMENT twPct (#PCDATA)>
+<!ELEMENT twStats ( twMinPer?, twMaxFreq?, twMaxCombDel?, twMaxFromToDel?, twMaxNetDel?, twMaxNetSkew?, twMaxInAfterClk?, twMinInBeforeClk?, twMaxOutBeforeClk?, twMinOutAfterClk?, (twInfo | twWarn)*)>
+<!ELEMENT twMaxCombDel (#PCDATA)>
+<!ELEMENT twMaxFromToDel (#PCDATA)>
+<!ELEMENT twMaxNetDel (#PCDATA)>
+<!ELEMENT twMaxNetSkew (#PCDATA)>
+<!ELEMENT twMaxInAfterClk (#PCDATA)>
+<!ELEMENT twMinInBeforeClk (#PCDATA)>
+<!ELEMENT twMaxOutBeforeClk (#PCDATA)>
+<!ELEMENT twMinOutAfterClk (#PCDATA)>
+<!ELEMENT twFoot (twTimestamp)>
+<!ELEMENT twTimestamp (#PCDATA)>
+<!ELEMENT twClientInfo (twClientName, twAttrList?)>
+<!ELEMENT twClientName (#PCDATA)>
+<!ELEMENT twAttrList (twAttrListItem)*>
+<!ELEMENT twAttrListItem (twName, twValue*)>
+<!ELEMENT twName (#PCDATA)>
+<!ELEMENT twValue (#PCDATA)>
+]>
+<twReport><twHead><twExecVer>Release 6.2.03i Trace G.28</twExecVer><twCopyright>Copyright (c) 1995-2004 Xilinx, Inc.  All rights reserved.</twCopyright><twCmdLine>C:/Xilinx62/bin/nt/trce.exe -intstyle ise -e 199 -l 29 -xml 0ddu_in 0ddu_in.ncd
+-o 0ddu_in.twr 0ddu_in.pcf
+
+</twCmdLine><twDesign>0ddu_in.ncd</twDesign><twPCF>0ddu_in.pcf</twPCF><twDevInfo arch="virtex2p"><twDevName>xc2vp20</twDevName><twSpeedGrade>-6</twSpeedGrade><twSpeedVer>PRODUCTION 1.86 2004-05-01</twSpeedVer></twDevInfo><twRptInfo twRptLvl="twErr"><twItemLimit>29</twItemLimit></twRptInfo><twEnvVar name="NONE" description="No environment variables were set" /></twHead><twInfo>INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths option. All paths that are not constrained will be reported in the unconstrained paths section(s) of the report.</twInfo><twBody><twErrRpt><twConst twConstType="twPathConst"><twConstHead><twConstName>NET &quot;$1I162/CLK&quot; PERIOD =  10.800 nS   HIGH 50.000000 % ;</twConstName><twItemCnt>346851</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="TRUE">0</twErrCntHold><twMinPer>10.717</twMinPer></twConstHead></twConst><twConst twConstType="twPathConst"><twConstHead><twConstName>NET &quot;$1I162/BREF&quot; PERIOD =  11.300 nS   HIGH 50.000000 % ;</twConstName><twItemCnt>0</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold></twConstHead></twConst><twConst twConstType="twPathConst"><twConstHead><twConstName>PERIOD analysis for net &quot;$1I162/CK80&quot; derived from
+ NET &quot;$1I162/BREF&quot; PERIOD =  11.300 nS   HIGH 50.000000 % ;
+ duty cycle corrected to 11.300 nS  HIGH 5.650 nS </twConstName><twItemCnt>0</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold></twConstHead></twConst><twConst twConstType="twPathConst"><twConstHead><twConstName>PERIOD analysis for net &quot;$1I162/CK160&quot; derived from
+ NET &quot;$1I162/BREF&quot; PERIOD =  11.300 nS   HIGH 50.000000 % ;
+ divided by 2.00 and duty cycle corrected to 5.650 nS  HIGH 2.825 nS </twConstName><twItemCnt>0</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold></twConstHead></twConst><twConst twConstType="twNetConst"><twConstHead><twConstName>NET &quot;$1I162/RHL5&quot; MAXDELAY = 2 nS  ;</twConstName><twItemCnt>1</twItemCnt><twErrCntSetup>1</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold><twMaxNetDel>2.952</twMaxNetDel></twConstHead><twNetRpt><twSlackNet><twSlack>-0.952</twSlack><twNet>$1I162/RHL5</twNet><twDel>2.952</twDel><twNotMet></twNotMet><twTimeConst>2.000</twTimeConst><twAbsSlack>0.952</twAbsSlack><twDetNet><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X55Y41.F3</twDest><twNetDelInfo twAcc="twRouted">1.491</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X46Y47.F2</twDest><twNetDelInfo twAcc="twRouted">1.581</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X39Y28.G3</twDest><twNetDelInfo twAcc="twRouted">1.660</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X43Y50.SR</twDest><twNetDelInfo twAcc="twRouted">0.995</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X54Y50.F3</twDest><twNetDelInfo twAcc="twRouted">1.469</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X35Y55.SR</twDest><twNetDelInfo twAcc="twRouted">1.252</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X55Y50.G3</twDest><twNetDelInfo twAcc="twRouted">1.448</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X55Y50.F3</twDest><twNetDelInfo twAcc="twRouted">1.469</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X39Y74.G4</twDest><twNetDelInfo twAcc="twRouted">1.608</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X39Y74.F4</twDest><twNetDelInfo twAcc="twRouted">1.626</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X51Y35.G3</twDest><twNetDelInfo twAcc="twRouted">1.952</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X51Y35.F4</twDest><twNetDelInfo twAcc="twRouted">1.704</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X50Y80.F3</twDest><twNetDelInfo twAcc="twRouted">1.464</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X47Y64.BX</twDest><twNetDelInfo twAcc="twRouted">1.789</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X44Y52.CE</twDest><twNetDelInfo twAcc="twRouted">0.987</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X44Y53.CE</twDest><twNetDelInfo twAcc="twRouted">0.987</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X44Y54.CE</twDest><twNetDelInfo twAcc="twRouted">1.282</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X44Y54.G4</twDest><twNetDelInfo twAcc="twRouted">0.608</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X55Y4.G3</twDest><twNetDelInfo twAcc="twRouted">2.098</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X49Y7.SR</twDest><twNetDelInfo twAcc="twRouted">1.816</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X50Y1.SR</twDest><twNetDelInfo twAcc="twRouted">1.968</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X50Y1.F2</twDest><twNetDelInfo twAcc="twRouted">1.873</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X51Y0.SR</twDest><twNetDelInfo twAcc="twRouted">1.956</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X79Y4.G3</twDest><twNetDelInfo twAcc="twRouted">2.937</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X74Y1.SR</twDest><twNetDelInfo twAcc="twRouted">2.834</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X74Y1.F3</twDest><twNetDelInfo twAcc="twRouted">2.730</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X75Y0.SR</twDest><twNetDelInfo twAcc="twRouted">2.834</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X73Y7.SR</twDest><twNetDelInfo twAcc="twRouted">2.635</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X79Y108.G3</twDest><twNetDelInfo twAcc="twRouted">2.952</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X74Y105.SR</twDest><twNetDelInfo twAcc="twRouted">2.836</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X74Y105.F3</twDest><twNetDelInfo twAcc="twRouted">2.718</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X75Y104.SR</twDest><twNetDelInfo twAcc="twRouted">2.695</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X75Y107.SR</twDest><twNetDelInfo twAcc="twRouted">2.880</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X43Y4.F4</twDest><twNetDelInfo twAcc="twRouted">1.799</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X38Y1.SR</twDest><twNetDelInfo twAcc="twRouted">1.961</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X38Y1.F3</twDest><twNetDelInfo twAcc="twRouted">2.011</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X39Y0.SR</twDest><twNetDelInfo twAcc="twRouted">2.006</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X37Y7.SR</twDest><twNetDelInfo twAcc="twRouted">1.868</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X19Y4.F3</twDest><twNetDelInfo twAcc="twRouted">2.612</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X13Y7.SR</twDest><twNetDelInfo twAcc="twRouted">2.778</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X14Y1.SR</twDest><twNetDelInfo twAcc="twRouted">2.722</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X14Y1.F3</twDest><twNetDelInfo twAcc="twRouted">2.763</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X15Y0.SR</twDest><twNetDelInfo twAcc="twRouted">2.721</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X14Y105.SR</twDest><twNetDelInfo twAcc="twRouted">2.744</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X14Y105.F3</twDest><twNetDelInfo twAcc="twRouted">2.811</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X15Y104.SR</twDest><twNetDelInfo twAcc="twRouted">2.818</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X19Y108.F3</twDest><twNetDelInfo twAcc="twRouted">2.660</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X15Y107.SR</twDest><twNetDelInfo twAcc="twRouted">2.731</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X51Y107.SR</twDest><twNetDelInfo twAcc="twRouted">2.024</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X55Y108.F3</twDest><twNetDelInfo twAcc="twRouted">2.104</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X50Y105.SR</twDest><twNetDelInfo twAcc="twRouted">1.956</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X50Y105.F3</twDest><twNetDelInfo twAcc="twRouted">1.997</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X51Y104.SR</twDest><twNetDelInfo twAcc="twRouted">2.014</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X43Y108.G3</twDest><twNetDelInfo twAcc="twRouted">1.745</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X39Y104.SR</twDest><twNetDelInfo twAcc="twRouted">1.989</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X38Y105.F1</twDest><twNetDelInfo twAcc="twRouted">2.131</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X38Y105.SR</twDest><twNetDelInfo twAcc="twRouted">2.072</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X44Y54.YQ</twSrc><twDest>SLICE_X39Y107.SR</twDest><twNetDelInfo twAcc="twRouted">2.032</twNetDelInfo></twNetDel></twDetNet></twSlackNet></twNetRpt></twConst><twConst twConstType="twNetConst"><twConstHead><twConstName>NET &quot;$1I162/LFIFO_EMPTY&quot; MAXDELAY = 1.900 nS  ;</twConstName><twItemCnt>1</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold><twMaxNetDel>1.538</twMaxNetDel></twConstHead></twConst><twConst twConstType="twNetConst"><twConstHead><twConstName>NET &quot;$1I162/$1I4156/NEXT_FIBER&quot; MAXDELAY = 1.500 nS  ;</twConstName><twItemCnt>1</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold><twMaxNetDel>1.433</twMaxNetDel></twConstHead></twConst><twConst twConstType="twNetConst"><twConstHead><twConstName>NET &quot;$1I162/$1I4156/~RENOE-0&quot; MAXDELAY = 1.900 nS  ;</twConstName><twItemCnt>1</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold><twMaxNetDel>0.530</twMaxNetDel></twConstHead></twConst><twConst twConstType="twNetConst"><twConstHead><twConstName>NET &quot;$1I162/$1I4156/~LEXTFIFO_PAF&quot; MAXDELAY = 200 pS  ;</twConstName><twItemCnt>1</twItemCnt><twErrCntSetup>1</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold><twMaxNetDel>0.455</twMaxNetDel></twConstHead><twNetRpt><twSlackNet><twSlack>-0.255</twSlack><twNet>$1I162/$1I4156/~LEXTFIFO_PAF</twNet><twDel>0.455</twDel><twNotMet></twNotMet><twTimeConst>0.200</twTimeConst><twAbsSlack>0.255</twAbsSlack><twDetNet><twNetDel><twSrc>SLICE_X59Y77.YQ</twSrc><twDest>SLICE_X59Y77.F2</twDest><twNetDelInfo twAcc="twRouted">0.395</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X59Y77.YQ</twSrc><twDest>SLICE_X59Y77.CE</twDest><twNetDelInfo twAcc="twRouted">0.455</twNetDelInfo></twNetDel></twDetNet></twSlackNet></twNetRpt></twConst><twConst twConstType="twNetConst"><twConstHead><twConstName>NET &quot;$1I162/$1I4156/L1A_PUSH&quot; MAXDELAY = 1000 pS  ;</twConstName><twItemCnt>1</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold><twMaxNetDel>0.417</twMaxNetDel></twConstHead></twConst><twConst twConstType="twPathConst"><twConstHead><twConstName>NET &quot;$1I162/CKIN40&quot; PERIOD =  23 nS   HIGH 50.000000 % ;</twConstName><twItemCnt>3</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="TRUE">0</twErrCntHold><twMinPer>1.234</twMinPer></twConstHead></twConst><twConst twConstType="twPathConst"><twConstHead><twConstName>PERIOD analysis for net &quot;$1I162/CK40&quot; derived from
+ NET &quot;$1I162/CKIN40&quot; PERIOD =  23 nS   HIGH 50.000000 % ;
+ duty cycle corrected to 23 nS  HIGH 11.500 nS </twConstName><twItemCnt>106</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="TRUE">0</twErrCntHold><twMinPer>3.382</twMinPer></twConstHead></twConst><twConst twConstType="twPathConst"><twConstHead><twConstName>PERIOD analysis for net &quot;$1I162/SLCK&quot; derived from
+ NET &quot;$1I162/CKIN40&quot; PERIOD =  23 nS   HIGH 50.000000 % ;
+ multiplied by 16.00 and duty cycle corrected to 368 nS  HIGH 184 nS </twConstName><twItemCnt>170</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="TRUE">0</twErrCntHold><twMinPer>5.289</twMinPer></twConstHead></twConst><twConst twConstType="twNetConst"><twConstHead><twConstName>NET &quot;$1I162/$5I4156/LFIFO_EMPTY&quot; MAXDELAY = 1.900 nS  ;</twConstName><twItemCnt>1</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold><twMaxNetDel>0.931</twMaxNetDel></twConstHead></twConst><twConst twConstType="twNetConst"><twConstHead><twConstName>NET &quot;$1I162/$5I4156/NEXT_FIBER&quot; MAXDELAY = 1.500 nS  ;</twConstName><twItemCnt>1</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold><twMaxNetDel>1.315</twMaxNetDel></twConstHead></twConst><twConst twConstType="twNetConst"><twConstHead><twConstName>NET &quot;$1I162/$5I4156/~RENOE-0&quot; MAXDELAY = 1.900 nS  ;</twConstName><twItemCnt>1</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold><twMaxNetDel>1.128</twMaxNetDel></twConstHead></twConst><twConst twConstType="twNetConst"><twConstHead><twConstName>NET &quot;$1I162/$5I4156/~LEXTFIFO_PAF&quot; MAXDELAY = 200 pS  ;</twConstName><twItemCnt>1</twItemCnt><twErrCntSetup>1</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold><twMaxNetDel>0.562</twMaxNetDel></twConstHead><twNetRpt><twSlackNet><twSlack>-0.362</twSlack><twNet>$1I162/$5I4156/~LEXTFIFO_PAF</twNet><twDel>0.562</twDel><twNotMet></twNotMet><twTimeConst>0.200</twTimeConst><twAbsSlack>0.362</twAbsSlack><twDetNet><twNetDel><twSrc>SLICE_X56Y32.YQ</twSrc><twDest>SLICE_X56Y32.F2</twDest><twNetDelInfo twAcc="twRouted">0.395</twNetDelInfo></twNetDel><twNetDel><twSrc>SLICE_X56Y32.YQ</twSrc><twDest>SLICE_X56Y32.CE</twDest><twNetDelInfo twAcc="twRouted">0.562</twNetDelInfo></twNetDel></twDetNet></twSlackNet></twNetRpt></twConst><twConst twConstType="twNetConst"><twConstHead><twConstName>NET &quot;$1I162/$5I4156/L1A_PUSH&quot; MAXDELAY = 1000 pS  ;</twConstName><twItemCnt>1</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold><twMaxNetDel>0.675</twMaxNetDel></twConstHead></twConst><twConst twConstType="twPathConst"><twConstHead><twConstName>NET &quot;$1I162/BREF_B&quot; PERIOD =  11.300 nS   HIGH 50.000000 % ;</twConstName><twItemCnt>0</twItemCnt><twErrCntSetup>0</twErrCntSetup><twErrCntHold twRaceChecked="FALSE">0</twErrCntHold></twConstHead></twConst><twUnmetConstCnt>3</twUnmetConstCnt><twDataSheet twNameLen="15"><twClk2SUList twDestWidth = "14"><twDest>$1I162/CK80N_T</twDest><twClk2SU><twSrc>$1I162/CK80N_T</twSrc><twRiseRise>11.323</twRiseRise><twRiseFall>3.824</twRiseFall></twClk2SU><twClk2SU><twSrc>$1I162/CK80P_T</twSrc><twRiseRise>11.323</twRiseRise><twRiseFall>3.824</twRiseFall></twClk2SU></twClk2SUList><twClk2SUList twDestWidth = "14"><twDest>$1I162/CK80P_T</twDest><twClk2SU><twSrc>$1I162/CK80N_T</twSrc><twRiseRise>11.323</twRiseRise><twRiseFall>3.824</twRiseFall></twClk2SU><twClk2SU><twSrc>$1I162/CK80P_T</twSrc><twRiseRise>11.323</twRiseRise><twRiseFall>3.824</twRiseFall></twClk2SU></twClk2SUList><twClk2SUList twDestWidth = "14"><twDest>$1I162/CLKIN40</twDest><twClk2SU><twSrc>$1I162/CLKIN40</twSrc><twRiseRise>5.889</twRiseRise></twClk2SU></twClk2SUList></twDataSheet></twErrRpt></twBody><twSum><twErrCnt>3</twErrCnt><twScore>1569</twScore><twConstCov><twPathCnt>347130</twPathCnt><twNetCnt>11</twNetCnt><twConnCnt>43836</twConnCnt></twConstCov><twStats><twMinPer>10.717</twMinPer><twMaxFreq>93.310</twMaxFreq><twMaxNetDel>2.952</twMaxNetDel></twStats></twSum><twFoot><twTimestamp>Tue May 30 14:27:48 2006</twTimestamp></twFoot><twClientInfo><twClientName>Trace</twClientName><twAttrList><twAttrListItem><twName>Trace Settings</twName><twValue>Peak Memory Usage: 176 MB
+</twValue></twAttrListItem></twAttrList></twClientInfo></twReport>

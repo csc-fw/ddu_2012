@@ -1,0 +1,74 @@
+| Wirelist created using version 5.2.
+V 5.2
+DESIGN_MAY_CONTAIN_RIPPERS__RECOMPILATION_AND_RELINKING_WITH_RIPPER_VERSION_OF_VIEWBASE_REQUIRED
+K 376330422600 xor14
+DW xor14
+|Q virtex:xor5 1
+AS virtex:xor5 LEVEL=XILINX
+AS virtex:xor5 LIBVER=2.0.0
+AS virtex:xor5 PINORDER=I0 I1 I2 I3 I4 O
+AP virtex:xor5 1 PINTYPE=IN
+AP virtex:xor5 2 PINTYPE=IN
+AP virtex:xor5 3 PINTYPE=IN
+AP virtex:xor5 4 PINTYPE=IN
+AP virtex:xor5 5 PINTYPE=IN
+AP virtex:xor5 6 PINTYPE=OUT
+|Q virtex:xor9 1
+AS virtex:xor9 LEVEL=MXILINX
+AS virtex:xor9 LIBVER=2.0.0
+AS virtex:xor9 PINORDER=I0 I1 I2 I3 I4 I5 I6 I7 I8 O
+AP virtex:xor9 1 PINTYPE=IN
+AP virtex:xor9 2 PINTYPE=IN
+AP virtex:xor9 3 PINTYPE=IN
+AP virtex:xor9 4 PINTYPE=IN
+AP virtex:xor9 5 PINTYPE=IN
+AP virtex:xor9 6 PINTYPE=IN
+AP virtex:xor9 7 PINTYPE=IN
+AP virtex:xor9 8 PINTYPE=IN
+AP virtex:xor9 9 PINTYPE=IN
+AP virtex:xor9 10 PINTYPE=OUT
+|Q virtex:xor2 1
+AS virtex:xor2 DEVICE=XOR
+AS virtex:xor2 LEVEL=XILINX
+AS virtex:xor2 LIBVER=2.0.0
+AS virtex:xor2 PINORDER=I0 I1 O
+AP virtex:xor2 1 PINTYPE=IN
+AP virtex:xor2 2 PINTYPE=IN
+AP virtex:xor2 3 PINTYPE=OUT
+W virtex:xor5 $1I124
+I $1I124 virtex:xor5 B13 B12 B11 B10 B9 INT1 
+W virtex:xor9 $1I123
+I $1I123 virtex:xor9 B8 B7 B6 B5 B4 B3 B2 B1 B0 INT0 
+W virtex:xor2 $1I126
+I $1I126 virtex:xor2 INT1 INT0 Q0 
+P ? Q0
+I Q0 ? Q0
+P ? B13
+I B13 ? B13
+P ? B12
+I B12 ? B12
+P ? B11
+I B11 ? B11
+P ? B10
+I B10 ? B10
+P ? B9
+I B9 ? B9
+P ? B8
+I B8 ? B8
+P ? B7
+I B7 ? B7
+P ? B6
+I B6 ? B6
+P ? B5
+I B5 ? B5
+P ? B4
+I B4 ? B4
+P ? B3
+I B3 ? B3
+P ? B2
+I B2 ? B2
+P ? B1
+I B1 ? B1
+P ? B0
+I B0 ? B0
+EW
