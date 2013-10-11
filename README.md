@@ -1,4 +1,4 @@
-Production CSC DDU firmware used for all 2012-2013 operations at CMS.  This includes all the Workview schematic, symbol & project files, the generated EDIF files and Xilinx ISE project files (.ise, .bit, .ipf/.cdf, .mcs and .svf).   Compiling was done with ISE 9.2.  There are three separate FPGA types on the DDUs, so there are three different firmware projects (all have a "5" that corresponds to the final DDU PCB production board version).
+Production CSC DDU firmware used for all 2012-2013 operations at CMS, developed with the Workview program (see also ViewLogic and Mentor Graphics).  This repo includes all the Workview schematic, symbol & project files, the generated EDIF files and Xilinx ISE project files (.ise, .bit, .ipf/.cdf, .mcs and .svf).   Compiling was done initially with ISE 5.2 and later 9.2.  There are three separate FPGA types on the DDUs, so there are three different firmware projects (all have a "5" that corresponds to the final DDU PCB production board version).
 
 DDU5in is for the DDU Input FPGAs (Xilinx XC2VP20-FG676-7C).  Version 25 rev 6 has been used since April 2009.  ISE files are located in DDU5in/In5Ctrl.
 
